@@ -1,0 +1,50 @@
+[
+  {
+    "arquivo": "stj/ckan-precedentes-qualificados.json",
+    "url": "https://dadosabertos.web.stj.jus.br/api/3/action/package_show?id=precedentes-qualificados",
+    "bytes": 5641,
+    "sha256": "2591c95dea2770cac69dca0ec662cb97b1004529d128cffd063937483f3ac33d",
+    "baixado_em": "2026-10-30"
+  },
+  {
+    "arquivo": "stj/temas.csv",
+    "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv",
+    "bytes": 2606076,
+    "sha256": "1aa64cf3c9d2dc6bb2a11b7d9b316e1b81b9b1b8893f1d2a0665988de7025bb3",
+    "baixado_em": "2026-10-30",
+    "fonte_atualizada_em": "2026-10-25T11:06:22.548438"
+  },
+  {
+    "arquivo": "stj/dicionario-temas.csv",
+    "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/d5e50514-6dba-4f1e-8557-94f135eae03b/download/dicionario-temas.csv",
+    "bytes": 4171,
+    "sha256": "d62c1b749f6cbc3dacb6ce3a66016736b2e0788b724ac5ab974f82f368efa5c5",
+    "baixado_em": "2026-10-30",
+    "fonte_atualizada_em": "2022-07-11T22:40:56.921473"
+  },
+  {
+    "arquivo": "bnp/STJ-RR.json",
+    "url": "https://pangeabnp.pdpj.jus.br/api/v1/precedentes",
+    "bytes": 2916613,
+    "sha256": "486f12a1a6aba1ff68746c01de8fc32f0cdc03febd102da891572177ac4a2b65",
+    "baixado_em": "2026-10-30",
+    "registros": 1480
+  },
+  {
+    "arquivo": "bnp/STJ-SUM.json",
+    "url": "https://pangeabnp.pdpj.jus.br/api/v1/precedentes",
+    "bytes": 697327,
+    "sha256": "748ab58c8afe9104908fadaa851ee51bcd80c70325acc0ce24d1c41db290c840",
+    "baixado_em": "2026-10-30",
+    "registros": 676
+  },
+  {
+    "arquivo": "stj/SumulasSTJ.pdf",
+    "url": "https://www.stj.jus.br/docs_internet/SumulasSTJ.pdf",
+    "bytes": 7814927,
+    "sha256": "8a7298bfd40ecac21b31f15a6f9aef6a10a4fbbecdee4fac6fd665ebec338b82",
+    "baixado_em": "2026-10-30",
+    "last_modified": "Tue, 04 May 2021 20:51:24 GMT",
+    "etag": "W/\"7814927-1620161484000\""
+  }
+]

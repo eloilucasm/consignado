@@ -1,0 +1,27 @@
+[
+  {
+    "arquivo": "bnp/STF-SUM.json",
+    "url": "https://pangeabnp.pdpj.jus.br/api/v1/precedentes",
+    "bytes": 549302,
+    "sha256": "1160c814b8eccc09c38dd8d76be3378d8a9bfc413dba8ffa5ebd489ccb47cecd",
+    "baixado_em": "2026-10-30",
+    "registros": 734
+  },
+  {
+    "arquivo": "stf/SumulasSTF.pdf",
+    "url": "https://www.stf.jus.br/arquivo/cms/jurisprudenciaSumula/anexo/Enunciados_Sumulas_STF_1_a_736_Completo.pdf",
+    "bytes": 3443409,
+    "sha256": "d17138201066a5c61843d1acd15cd0685efd1781a6d83ac02eed8fe8117576b0",
+    "baixado_em": "2026-10-30",
+    "last_modified": "Thu, 10 Nov 2022 14:58:34 GMT",
+    "etag": "\"9ef88fe714f5d81:0\""
+  },
+  {
+    "arquivo": "bnp/STF-RG-SV.json",
+    "url": "https://pangeabnp.pdpj.jus.br/api/v1/precedentes",
+    "bytes": 2681927,
+    "sha256": "1c54de6fad51b72fc46f90cccefd93a1e3e3e6e533bb499468e7c6f2352c69f4",
+    "baixado_em": "2026-10-30",
+    "registros": 1558
+  }
+]

@@ -1,0 +1,207 @@
+{
+  "data_peca": "2026-10-28",
+  "processo": 1,
+  "nb": "999.999.999-9",
+  "reu": "707 - BANCO DAYCOVAL S.A.",
+  "reu_cadastrado": true,
+  "caixa": false,
+  "competencia": "Vara Cível da Comarca de Ilhéus/BA (tabela TJBA)",
+  "contratos": [
+    {
+      "contrato": "00123456789",
+      "inclusao": "20/02/2019",
+      "inicio": "03/2019",
+      "fim": "11/2021",
+      "parcela": 142.5,
+      "liberado": 4800.0,
+      "qtde": 33,
+      "total": 4702.5,
+      "dobro": 9405.0,
+      "status": "EXCLUÍDO",
+      "ativo": false,
+      "ini_n": 24230,
+      "ate_n": 24262,
+      "ate_comp": "11/2021",
+      "bloco": "B",
+      "motivo_exclusao": "Exclusão Banco",
+      "exclusao": "15/12/2021"
+    },
+    {
+      "contrato": "00987654321",
+      "inclusao": "12/04/2022",
+      "inicio": "05/2022",
+      "fim": "02/2024",
+      "parcela": 98.3,
+      "liberado": 3100.0,
+      "qtde": 22,
+      "total": 2162.6,
+      "dobro": 4325.2,
+      "status": "EXCLUÍDO",
+      "ativo": false,
+      "ini_n": 24268,
+      "ate_n": 24289,
+      "ate_comp": "02/2024",
+      "bloco": "C",
+      "motivo_exclusao": "Exclusão INSS",
+      "exclusao": "03/03/2024"
+    },
+    {
+      "contrato": "00555111222",
+      "inclusao": "05/09/2024",
+      "inicio": "09/2024",
+      "fim": "08/2031",
+      "parcela": 120.0,
+      "liberado": 4200.0,
+      "qtde": 25,
+      "total": 3000.0,
+      "dobro": 6000.0,
+      "status": "ATIVO",
+      "ativo": true,
+      "ini_n": 24296,
+      "ate_n": 24320,
+      "ate_comp": "09/2026",
+      "bloco": "B",
+      "motivo_exclusao": null,
+      "exclusao": null
+    }
+  ],
+  "ativos": [
+    "00555111222"
+  ],
+  "tutela": true,
+  "prescricao_5_anos": true,
+  "total_descontado": 9865.1,
+  "total_dobro": 19730.2,
+  "dano_moral": 20000.0,
+  "valor_causa": 39730.2,
+  "valor_causa_extenso": "R$ 39.730,20 (trinta e nove mil, setecentos e trinta reais e vinte centavos)",
+  "dano_moral_extenso": "R$ 20.000,00 (vinte mil reais)",
+  "alertas": [
+    "Contrato 00123456789: há descontos anteriores a 30/03/2021. O marco do EAREsp 676.608/RS não é usado na peça (decisão do escritório de 29/10/2026: sem Tema 929 e sem modulação): pedir o dobro de todos os descontos, fundado no art. 42, parágrafo único, do CDC.",
+    "ANOMALIA: contrato 00555111222 (bloco B) está ATIVO no extrato; a análise só põe contratos não ativos em B e C. Mostrar ao advogado."
+  ],
+  "conferir": [],
+  "checagem_fsc": [
+    {
+      "fsc": 1,
+      "status": "OK",
+      "achado": "negativa específica por contrato no modelo; conferir que cada número aparece na negativa",
+      "onde_na_peca": "subtópico da negativa de contratação"
+    },
+    {
+      "fsc": 2,
+      "status": "OK",
+      "achado": "a parte não usou plataforma digital nem forneceu biometria; autenticação controvertida por antecipação",
+      "onde_na_peca": "subtópico da negativa de contratação"
+    },
+    {
+      "fsc": 3,
+      "status": "OK",
+      "achado": "art. 14, § 3º, do CDC + art. 429, II, do CPC + Tema 1061/STJ antes do art. 6º, VIII",
+      "onde_na_peca": "tópico da inversão do ônus da prova"
+    },
+    {
+      "fsc": 4,
+      "status": "ATIVADO",
+      "achado": "00123456789: liberado R$ 4.800,00; 00987654321: liberado R$ 3.100,00; 00555111222: liberado R$ 4.200,00. extrato bancário do mês da averbação ainda não informado. Risco da Súmula 42/TJBA se o crédito chegou à conta e a peça nega tudo [DECISÃO DO ADVOGADO: devolução, depósito ou compensação]",
+      "onde_na_peca": "fatos; tabela de documentos; pedido"
+    },
+    {
+      "fsc": 5,
+      "status": "NAO_SE_APLICA",
+      "achado": "sem origem de migração, portabilidade ou refinanciamento no extrato",
+      "onde_na_peca": "—"
+    },
+    {
+      "fsc": 6,
+      "status": "ATIVADO",
+      "achado": "contrato(s) 00123456789 com desconto iniciado há mais de 5 anos: tratar prescrição (decisão do advogado) e a data da ciência",
+      "onde_na_peca": "fatos (ciência); tópico de prescrição"
+    },
+    {
+      "fsc": 7,
+      "status": "OK",
+      "achado": "negativa específica por contrato e pedido de juntada de cada documento com a contestação; o risco maior é da réplica",
+      "onde_na_peca": "negativa específica; inversão do ônus"
+    },
+    {
+      "fsc": 8,
+      "status": "OK",
+      "achado": "natureza alimentar, período e valor vêm do cálculo; sem tentativa administrativa prévia (padrão do escritório)",
+      "onde_na_peca": "subtópico do dano extrapatrimonial"
+    },
+    {
+      "fsc": 9,
+      "status": "OK",
+      "achado": "JEC: sem exibição nem perícia; inversão do ônus e encargo de juntar documentos com a contestação",
+      "onde_na_peca": "inversão do ônus"
+    },
+    {
+      "fsc": 10,
+      "status": "PENDENTE_ADVOGADO",
+      "achado": "pedir que o banco identifique o correspondente e junte a trilha completa; registrar a residência do cliente com ID e página para a réplica",
+      "onde_na_peca": "tabela de documentos"
+    },
+    {
+      "fsc": 11,
+      "status": "NAO_SE_APLICA",
+      "achado": "nenhuma inclusão no mesmo dia nem em até 7 dias de outro contrato do extrato",
+      "onde_na_peca": "—"
+    },
+    {
+      "fsc": 12,
+      "status": "PENDENTE_ADVOGADO",
+      "achado": "documentos de identidade e residência atuais e legíveis; procuração atualizada; um processo por benefício + banco + tese; nada sobre outras ações",
+      "onde_na_peca": "lista de documentos"
+    }
+  ],
+  "checagem_vf": [
+    {
+      "vf": 1,
+      "status": "PENDENTE_ADVOGADO",
+      "achado": "índice dos documentos do cliente (ID provisório de cada um)"
+    },
+    {
+      "vf": 2,
+      "status": "NAO_SE_APLICA",
+      "achado": "sem documento do banco antes da ação; ficha do contrato fica para a réplica"
+    },
+    {
+      "vf": 3,
+      "status": "NAO_SE_APLICA",
+      "achado": "extrato sem origem de migração"
+    },
+    {
+      "vf": 4,
+      "status": "NAO_SE_APLICA",
+      "achado": "sem documento do banco antes da ação; autenticação eletrônica fica para a réplica"
+    },
+    {
+      "vf": 5,
+      "status": "NAO_SE_APLICA",
+      "achado": "sem documento do banco antes da ação; correspondente bancário fica para a réplica"
+    },
+    {
+      "vf": 6,
+      "status": "PENDENTE_ADVOGADO",
+      "achado": "pedir ao cliente o extrato bancário do mês da averbação de cada contrato (Súmula 42/TJBA)"
+    },
+    {
+      "vf": 7,
+      "status": "EXECUTADA",
+      "achado": "sem repetição de datas entre contratos do mesmo banco"
+    },
+    {
+      "vf": 8,
+      "status": "EXECUTADA",
+      "achado": "0 par(es) até 7 dias"
+    },
+    {
+      "vf": 9,
+      "status": "PENDENTE_ADVOGADO",
+      "achado": "registrar a residência com ID e página (e coordenada, se houver) para a geolocalização da réplica"
+    }
+  ],
+  "mesma_data": [],
+  "marca": "CÁLCULO A CONFERIR"
+}

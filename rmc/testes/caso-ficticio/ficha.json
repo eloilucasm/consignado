@@ -1,0 +1,20 @@
+{
+  "fonte": "CASO FICTÍCIO do piloto da skill rmc. Nenhum dado é de pessoa real. Formato compatível com a saída da triagem.",
+  "processos": [
+    {
+      "processo": 1,
+      "nb": "999.999.999-9",
+      "reu": "318 - BANCO BMG S.A.",
+      "tese": "RMC_REFINANCIAMENTO",
+      "competencia": "Vara Cível da Comarca de Ilhéus/BA (tabela TJBA)",
+      "acoes_origem": ["D-1"],
+      "contratos": [
+        {"contrato": "90000001", "acao": "D-1", "bloco": "D", "status": "ATIVO"}
+      ],
+      "modelo": "RMC Refinanciamento",
+      "liminar_sobre": ["90000001"],
+      "litispendencia": null,
+      "alertas": []
+    }
+  ]
+}

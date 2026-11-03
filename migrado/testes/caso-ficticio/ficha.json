@@ -1,0 +1,67 @@
+{
+  "fonte": "CASO FICTÍCIO do piloto da skill migrado. Nenhum dado é de pessoa real. Formato compatível com a saída da triagem.",
+  "processos": [
+    {
+      "processo": 1,
+      "nb": "999.999.999-9",
+      "reu": "707 - BANCO DAYCOVAL S.A.",
+      "tese": "MIGRADO",
+      "competencia": "Vara Cível da Comarca de Ilhéus/BA (tabela TJBA)",
+      "acoes_origem": [
+        "A-1",
+        "A-2",
+        "A-3"
+      ],
+      "contratos": [
+        {
+          "contrato": "7001001",
+          "acao": "A-1",
+          "bloco": "A",
+          "status": "EXCLUIDO"
+        },
+        {
+          "contrato": "7001002",
+          "acao": "A-2",
+          "bloco": "A",
+          "status": "EXCLUIDO"
+        },
+        {
+          "contrato": "7001003",
+          "acao": "A-3",
+          "bloco": "A",
+          "status": "ATIVO"
+        }
+      ],
+      "modelo": "Migrado",
+      "liminar_sobre": [
+        "7001003"
+      ],
+      "litispendencia": null,
+      "alertas": []
+    },
+    {
+      "processo": 2,
+      "nb": "999.999.999-9",
+      "reu": "707 - BANCO DAYCOVAL S.A.",
+      "tese": "MIGRADO",
+      "competencia": "Vara Cível da Comarca de Ilhéus/BA (tabela TJBA)",
+      "acoes_origem": [
+        "A-4"
+      ],
+      "contratos": [
+        {
+          "contrato": "7002001",
+          "acao": "A-4",
+          "bloco": "A",
+          "status": "ATIVO"
+        }
+      ],
+      "modelo": "Migrado",
+      "liminar_sobre": [
+        "7002001"
+      ],
+      "litispendencia": null,
+      "alertas": []
+    }
+  ]
+}

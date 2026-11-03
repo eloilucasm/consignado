@@ -1,0 +1,73 @@
+{
+  "processo": "0000000-00.2025.8.05.0000 (EXEMPLO FICTÍCIO)",
+  "contrato": "Contrato nº 000000 (EXEMPLO FICTÍCIO)",
+  "autor": {
+    "domicilio": "Rua Exemplo, 100, Centro, Ilhéus-BA",
+    "cidade_uf": "Ilhéus-BA",
+    "lat": -14.79,
+    "lon": -39.04,
+    "fonte": "ID 12, p. 3 (comprovante de residência); coordenada informada pelo advogado a partir do Maps",
+    "precisao_m": 10
+  },
+  "eventos": [
+    {
+      "tipo": "aceite",
+      "lat": -12.97,
+      "lon": -38.5,
+      "ip": "203.0.113.10",
+      "cidade_uf": "Salvador-BA",
+      "datahora": "2024-03-10T14:32:00-03:00",
+      "fonte_geo": "GPS",
+      "fonte": "ID 28, p. 5 (trilha de auditoria)",
+      "precisao_m": 15,
+      "fuso": "UTC-03:00",
+      "telefone": "(11) 99999-0000",
+      "dispositivo": "DEV-EXEMPLO-1"
+    },
+    {
+      "tipo": "selfie",
+      "lat": -23.55,
+      "lon": -46.63,
+      "ip": "203.0.113.11",
+      "cidade_uf": "São Paulo-SP",
+      "datahora": "2024-03-10T14:40:00-03:00",
+      "fonte_geo": "IP",
+      "fonte": "ID 28, p. 7 (trilha de auditoria)"
+    },
+    {
+      "tipo": "assinatura",
+      "lat": -14.79018,
+      "lon": -39.04,
+      "ip": "203.0.113.12",
+      "cidade_uf": "Ilhéus-BA",
+      "datahora": "2024-03-10T15:10:00-03:00",
+      "fonte_geo": "GPS",
+      "fonte": "ID 28, p. 9 (trilha de auditoria)",
+      "precisao_m": 10
+    },
+    {
+      "tipo": "token SMS",
+      "lat": -14.796,
+      "lon": -39.04,
+      "ip": "198.51.100.7",
+      "cidade_uf": "Ilhéus-BA",
+      "datahora": "2024-03-10T14:50:00-03:00",
+      "fonte_geo": "Wi-Fi",
+      "precisao_m": 40,
+      "fonte": "ID 28, p. 8 (trilha de auditoria)"
+    }
+  ],
+  "indicadores": [
+    {
+      "campo": "Nome da rede Wi-Fi (SSID)",
+      "valor": "REDE_EXEMPLO",
+      "fonte": "ID 28, p. 8",
+      "avaliacao": "INDICIO_MEDIO"
+    },
+    {
+      "campo": "Campo novo do banco (exemplo fora do catálogo)",
+      "valor": "xyz",
+      "fonte": "ID 28, p. 9"
+    }
+  ]
+}

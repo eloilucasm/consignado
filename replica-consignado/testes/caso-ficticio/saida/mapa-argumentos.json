@@ -1,0 +1,205 @@
+[
+  {
+    "n": 1,
+    "ponto": "incompetência do JEC: a causa exigiria perícia",
+    "defesa": "P2",
+    "onde_alegou": "ID 200 p. 2",
+    "contratos": [],
+    "tese": "A menor complexidade se afere pelo **objeto da prova**; o Juizado admite perícia informal e parecer técnico; e o ônus de provar a autenticidade é do banco, de modo que a falta de prova técnica milita contra ele",
+    "fonte": "Lei 9.099/95, arts. 3º e 35; Enunciados 54 e 12 do FONAJE (encontro `[CONFERIR]`); CPC, art. 429, II",
+    "fsc": "FSC9",
+    "provas": [
+      {
+        "fonte": "ID 206 p. 1",
+        "achado": "assinatura manuscrita: autenticidade impugnada; só perícia grafotécnica a dirime (Justiça Comum: requerer; JEC: valorar a dúvida contra o banco, art. 429, II, do CPC)",
+        "gravidade": "RELEVANTE",
+        "contrato": "00987654321"
+      }
+    ],
+    "pedidos": [
+      "preliminares"
+    ],
+    "pedido_texto": [
+      "a rejeição das preliminares arguidas pelo réu"
+    ],
+    "decisao_pendente": false
+  },
+  {
+    "n": 2,
+    "ponto": "contratação digital com biometria e geolocalização",
+    "defesa": "M2",
+    "onde_alegou": "ID 200 p. 6",
+    "contratos": [
+      "00123456789"
+    ],
+    "tese": "A existência de um log não prova a idoneidade do seu conteúdo; selfie sem relatório técnico não prova autoria; hash prova a integridade do arquivo, não quem operou o aparelho. Apontar os achados da VF4 e da VF9, sempre como \"o log juntado pelo réu registra\". Biometria: norma da data do contrato (IN 28 ou IN 138; prazo prorrogado pela IN 143 e acesso autenticado do art. 5º, § 11)",
+    "fonte": "CPC, arts. 411, II, 412, parágrafo único, e 429, II; IN 138/2022, art. 5º; IN 143/2023",
+    "fsc": "FSC2, FSC10",
+    "provas": [
+      {
+        "fonte": "ID 205 p. 1",
+        "achado": "correspondente Promotora Fictícia sem contrato de correspondência comprovado nos autos (Res. CMN 4.935/2021, art. 3º, ou Res. CMN 3.954/2011, art. 2º, conforme a data)",
+        "gravidade": "CRÍTICO",
+        "contrato": "00123456789"
+      },
+      {
+        "fonte": "ID 204 p. 1",
+        "achado": "campo de localização (Cidade-UF) vazio no log de assinatura",
+        "gravidade": "CRÍTICO",
+        "contrato": "00123456789"
+      },
+      {
+        "fonte": "ID 201 p. 3",
+        "achado": "datas incoerentes: a CCB traz assinatura em 20/02/2019, antes da trilha de contratação (21/02/2019)",
+        "gravidade": "RELEVANTE",
+        "contrato": "00123456789"
+      },
+      {
+        "fonte": "ID 202 p. 1",
+        "achado": "e-mail da CCB (terceiro@exemplo.com) diverge do da parte autora (maria.ficticia@exemplo.com) (se comprovadamente de terceiro, o indício é CRÍTICO: [DECISÃO DO ADVOGADO])",
+        "gravidade": "RELEVANTE",
+        "contrato": "00123456789"
+      },
+      {
+        "fonte": "ID 205 p. 1",
+        "achado": "correspondente sediado em SP, fora da UF da residência da parte autora (BA)",
+        "gravidade": "RELEVANTE",
+        "contrato": "00123456789"
+      },
+      {
+        "fonte": "logs dos contratos",
+        "achado": "mesmo IP (10.0.0.5) em contratos distintos (critério proposto, a validar)",
+        "gravidade": "REFORÇO",
+        "contrato": "00123456789, 00987654321"
+      }
+    ],
+    "pedidos": [
+      "documentos",
+      "prova",
+      "procedencia"
+    ],
+    "pedido_texto": [
+      "não provam a contratação",
+      "a valoração, contra o réu, das lacunas dos documentos que juntou",
+      "a procedência dos pedidos, nos termos da inicial"
+    ],
+    "decisao_pendente": true
+  },
+  {
+    "n": 3,
+    "ponto": "o valor foi creditado na conta da autora",
+    "defesa": "M3",
+    "onde_alegou": "ID 200 p. 8",
+    "contratos": [
+      "00123456789"
+    ],
+    "tese": "Resultado da VF6: liberado zero ou TED divergente derruba o argumento; valores coincidentes: depósito não prova quem contratou, e o tratamento do valor é **decisão do advogado** (Súmula 42 do TJBA)",
+    "fonte": "extrato do INSS; Súmula 42 do TJBA; CC, arts. 182 e 368",
+    "fsc": "FSC4, FSC12",
+    "provas": [
+      {
+        "fonte": "ID 203 p. 1",
+        "achado": "TED de R$ 4.800,00 coincide com o valor liberado: depósito em conta não prova quem contratou nem que a parte usou o valor. Risco da Súmula 42/TJBA se a peça negar o recebimento [DECISÃO DO ADVOGADO: devolução, depósito ou compensação]",
+        "gravidade": "ALERTA_CONTRA",
+        "contrato": "00123456789"
+      }
+    ],
+    "pedidos": [
+      "procedencia"
+    ],
+    "pedido_texto": [
+      "a procedência dos pedidos, nos termos da inicial"
+    ],
+    "decisao_pendente": true
+  },
+  {
+    "n": 4,
+    "ponto": "pede a condenação da autora por litigância de má-fé",
+    "defesa": "M10",
+    "onde_alegou": "ID 200 p. 11",
+    "contratos": [],
+    "tese": "A Súmula 42 do TJBA exige que se prove o negócio **e** a disponibilização do numerário; negar a autoria de documento impugnado é exercício do direito de ação; má-fé não se presume",
+    "fonte": "Súmula 42 do TJBA; CPC, arts. 80 e 81",
+    "fsc": "FSC12",
+    "provas": [
+      {
+        "fonte": "ID 203 p. 1",
+        "achado": "TED de R$ 4.800,00 coincide com o valor liberado: depósito em conta não prova quem contratou nem que a parte usou o valor. Risco da Súmula 42/TJBA se a peça negar o recebimento [DECISÃO DO ADVOGADO: devolução, depósito ou compensação]",
+        "gravidade": "ALERTA_CONTRA",
+        "contrato": "00123456789"
+      }
+    ],
+    "pedidos": [
+      "ma_fe"
+    ],
+    "pedido_texto": [
+      "a rejeição do pedido de condenação da parte autora por litigância de má-fé"
+    ],
+    "decisao_pendente": true
+  },
+  {
+    "n": 5,
+    "ponto": "alega que a autora assinou termo de quitação",
+    "defesa": "NOVO",
+    "onde_alegou": "ID 200 p. 12",
+    "contratos": [],
+    "tese": "[DECISÃO DO ADVOGADO: defesa fora do catálogo de references/02-defesas-do-banco.md; resposta e fonte a definir]",
+    "fonte": "[CONFERIR]",
+    "fsc": "—",
+    "provas": [],
+    "pedidos": [
+      "procedencia"
+    ],
+    "pedido_texto": [
+      "a procedência dos pedidos, nos termos da inicial"
+    ],
+    "decisao_pendente": true
+  },
+  {
+    "n": 6,
+    "ponto": "contrato 00555111222 impugnado na inicial e sem defesa específica",
+    "defesa": "M11",
+    "onde_alegou": "contestação (ausência de defesa)",
+    "contratos": [
+      "00555111222"
+    ],
+    "tese": "Presumem-se verdadeiras as alegações de fato não impugnadas",
+    "fonte": "CPC, art. 341",
+    "fsc": "FSC7",
+    "provas": [
+      {
+        "fonte": "contestação",
+        "achado": "contrato impugnado na inicial sem defesa específica na contestação: presumem-se verdadeiras as alegações de fato não impugnadas (art. 341 do CPC)",
+        "gravidade": "PROCESSUAL",
+        "contrato": "00555111222"
+      }
+    ],
+    "pedidos": [
+      "art341"
+    ],
+    "pedido_texto": [
+      "o reconhecimento da presunção de veracidade"
+    ],
+    "decisao_pendente": false
+  },
+  {
+    "n": 7,
+    "ponto": "o banco defende o contrato 00999999999, que não foi impugnado (substituição de objeto)",
+    "defesa": "M12",
+    "onde_alegou": "contestação",
+    "contratos": [
+      "00999999999"
+    ],
+    "tese": "Apontar a troca; o contrato impugnado segue sem defesa (M11)",
+    "fonte": "CPC, art. 341",
+    "fsc": "FSC7",
+    "provas": [],
+    "pedidos": [
+      "art341"
+    ],
+    "pedido_texto": [
+      "o reconhecimento da presunção de veracidade"
+    ],
+    "decisao_pendente": false
+  }
+]

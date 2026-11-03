@@ -1,0 +1,267 @@
+{
+  "data_peca": "2026-10-28",
+  "processo": 1,
+  "nb": "999.999.999-9",
+  "reu": "707 - BANCO DAYCOVAL S.A.",
+  "reu_cadastrado": true,
+  "caixa": false,
+  "competencia": "Vara Cível da Comarca de Ilhéus/BA (tabela TJBA)",
+  "contratos": [
+    {
+      "contrato": "7001001",
+      "origem_averbacao": "Migrado do contrato 7001001 CBC: 934",
+      "migrado": true,
+      "contrato_origem": "7001001",
+      "banco_origem_cbc": "934",
+      "status": "EXCLUÍDO",
+      "ativo": false,
+      "inclusao": "16/06/2021",
+      "primeira_averbacao": "16/06/2021",
+      "regime_norma": "IN28",
+      "inicio": "07/2021",
+      "fim": "12/2021",
+      "ate_comp": "12/2021",
+      "parcela": 68.25,
+      "prazo": 36,
+      "liberado": 1200.0,
+      "qtde": 6,
+      "total": 409.5,
+      "dobro": 819.0,
+      "qtde_registro_do_reu": 6,
+      "total_registro_do_reu": 409.5,
+      "vincendas_qtde": 0,
+      "vincendas_valor": 0.0,
+      "exclusao": "29/12/2021",
+      "motivo_exclusao": "Exclusão Banco",
+      "bloco": "A",
+      "troca_de_titularidade": false,
+      "outros_bancos_somados": false,
+      "outras_ocorrencias": []
+    },
+    {
+      "contrato": "7001002",
+      "origem_averbacao": "Migrado do contrato 7001002 CBC: 934",
+      "migrado": true,
+      "contrato_origem": "7001002",
+      "banco_origem_cbc": "934",
+      "status": "EXCLUÍDO",
+      "ativo": false,
+      "inclusao": "20/04/2021",
+      "primeira_averbacao": "20/04/2021",
+      "regime_norma": "IN28",
+      "inicio": "05/2021",
+      "fim": "12/2021",
+      "ate_comp": "12/2021",
+      "parcela": 482.64,
+      "prazo": 84,
+      "liberado": 15000.0,
+      "qtde": 8,
+      "total": 3861.12,
+      "dobro": 7722.24,
+      "qtde_registro_do_reu": 8,
+      "total_registro_do_reu": 3861.12,
+      "vincendas_qtde": 0,
+      "vincendas_valor": 0.0,
+      "exclusao": "29/12/2021",
+      "motivo_exclusao": "Exclusão Banco",
+      "bloco": "A",
+      "troca_de_titularidade": false,
+      "outros_bancos_somados": false,
+      "outras_ocorrencias": []
+    },
+    {
+      "contrato": "7001003",
+      "origem_averbacao": "Migrado do contrato 7001003 CBC: 934",
+      "migrado": true,
+      "contrato_origem": "7001003",
+      "banco_origem_cbc": "934",
+      "status": "ATIVO",
+      "ativo": true,
+      "inclusao": "19/01/2025",
+      "primeira_averbacao": "10/01/2024",
+      "regime_norma": "IN138",
+      "inicio": "02/2025",
+      "fim": "01/2032",
+      "ate_comp": "09/2026",
+      "parcela": 77.8,
+      "prazo": 84,
+      "liberado": 3000.0,
+      "qtde": 20,
+      "total": 1556.0,
+      "dobro": 3112.0,
+      "qtde_registro_do_reu": 20,
+      "total_registro_do_reu": 1556.0,
+      "vincendas_qtde": 64,
+      "vincendas_valor": 4979.2,
+      "exclusao": null,
+      "motivo_exclusao": null,
+      "bloco": "A",
+      "troca_de_titularidade": true,
+      "outros_bancos_somados": false,
+      "outras_ocorrencias": [
+        {
+          "contrato": "7001003",
+          "banco": "934 - BANCO ORIGEM FICTICIO S.A.",
+          "situacao": "Excluído",
+          "motivo_exclusao": "Exclusão por troca de titularidade",
+          "origem_averbacao": "Averbação Banco",
+          "inclusao": "10/01/2024",
+          "exclusao": "15/01/2025",
+          "inicio": "02/2024",
+          "fim": "12/2024",
+          "parcela": 77.8,
+          "qtde": 11,
+          "total": 855.8
+        }
+      ]
+    }
+  ],
+  "ativos": [
+    "7001003"
+  ],
+  "tutela": true,
+  "prescricao_5_anos": true,
+  "todos_migrados": true,
+  "troca_de_titularidade": true,
+  "outros_bancos_somados": false,
+  "total_descontado": 5826.62,
+  "total_dobro": 11653.24,
+  "dano_moral": 20000.0,
+  "valor_causa": 31653.24,
+  "valor_causa_extenso": "R$ 31.653,24 (trinta e um mil, seiscentos e cinquenta e três reais e vinte e quatro centavos)",
+  "proveito_declaratorio": 4979.2,
+  "valor_causa_com_proveito": 36632.44,
+  "valor_causa_com_proveito_extenso": "R$ 36.632,44 (trinta e seis mil, seiscentos e trinta e dois reais e quarenta e quatro centavos)",
+  "total_dobro_extenso": "R$ 11.653,24 (onze mil, seiscentos e cinquenta e três reais e vinte e quatro centavos)",
+  "dano_moral_extenso": "R$ 20.000,00 (vinte mil reais)",
+  "alertas": [
+    "Contrato 7001001: migrado do banco 934, mas o extrato não mostra o registro do banco anterior; conferir.",
+    "Contrato 7001002: migrado do banco 934, mas o extrato não mostra o registro do banco anterior; conferir.",
+    "TROCA DE TITULARIDADE: o contrato 7001003 aparece também em 934 - BANCO ORIGEM FICTICIO S.A., com 11 parcela(s) (R$ 855,80) que NÃO foram somadas. Decisão do advogado sobre a legitimidade do réu e a extensão da restituição; para somar, rode com --incluir-outros-bancos.",
+    "Contratos de regimes diferentes (IN 28 e IN 138) no mesmo processo: o modelo traz os dois blocos; revisar."
+  ],
+  "conferir": [],
+  "checagem_fsc": [
+    {
+      "fsc": 1,
+      "status": "OK",
+      "achado": "negativa específica por contrato no modelo; conferir que cada número aparece na negativa",
+      "onde_na_peca": "subtópico da negativa de contratação"
+    },
+    {
+      "fsc": 2,
+      "status": "OK",
+      "achado": "a parte não usou plataforma digital nem forneceu biometria; autenticação controvertida por antecipação",
+      "onde_na_peca": "subtópico da negativa de contratação"
+    },
+    {
+      "fsc": 3,
+      "status": "OK",
+      "achado": "art. 14, § 3º, do CDC + art. 429, II, do CPC + Tema 1061/STJ antes do art. 6º, VIII",
+      "onde_na_peca": "tópico da inversão do ônus da prova"
+    },
+    {
+      "fsc": 4,
+      "status": "ATIVADO",
+      "achado": "7001001: liberado R$ 1.200,00; 7001002: liberado R$ 15.000,00; 7001003: liberado R$ 3.000,00. extrato bancário do mês da averbação ainda não informado. Risco da Súmula 42/TJBA se o crédito chegou à conta e a peça nega tudo [DECISÃO DO ADVOGADO: devolução, depósito ou compensação]",
+      "onde_na_peca": "fatos; tabela de documentos; pedido"
+    },
+    {
+      "fsc": 5,
+      "status": "OK",
+      "achado": "7001001: Migrado do contrato 7001001 CBC: 934; 7001002: Migrado do contrato 7001002 CBC: 934; 7001003: Migrado do contrato 7001003 CBC: 934. Tese da skill: cessão não notificada ao devedor (CC, art. 290)",
+      "onde_na_peca": "tópico da migração e da cessão"
+    },
+    {
+      "fsc": 6,
+      "status": "ATIVADO",
+      "achado": "contrato(s) 7001001, 7001002 com desconto iniciado há mais de 5 anos: tratar prescrição (decisão do advogado) e a data da ciência",
+      "onde_na_peca": "fatos (ciência); tópico de prescrição"
+    },
+    {
+      "fsc": 7,
+      "status": "OK",
+      "achado": "negativa específica por contrato e pedido de juntada de cada documento com a contestação; o risco maior é da réplica",
+      "onde_na_peca": "negativa específica; inversão do ônus"
+    },
+    {
+      "fsc": 8,
+      "status": "OK",
+      "achado": "natureza alimentar, período e valor vêm do cálculo; sem tentativa administrativa prévia (padrão do escritório)",
+      "onde_na_peca": "subtópico do dano extrapatrimonial"
+    },
+    {
+      "fsc": 9,
+      "status": "OK",
+      "achado": "JEC: sem exibição nem perícia; inversão do ônus e encargo de juntar documentos com a contestação",
+      "onde_na_peca": "inversão do ônus"
+    },
+    {
+      "fsc": 10,
+      "status": "PENDENTE_ADVOGADO",
+      "achado": "pedir que o banco identifique o correspondente e junte a trilha completa; registrar a residência do cliente com ID e página para a réplica",
+      "onde_na_peca": "tabela de documentos"
+    },
+    {
+      "fsc": 11,
+      "status": "NAO_SE_APLICA",
+      "achado": "nenhuma inclusão no mesmo dia nem em até 7 dias de outro contrato do extrato",
+      "onde_na_peca": "—"
+    },
+    {
+      "fsc": 12,
+      "status": "PENDENTE_ADVOGADO",
+      "achado": "documentos de identidade e residência atuais e legíveis; procuração atualizada; um processo por benefício + banco + tese; nada sobre outras ações",
+      "onde_na_peca": "lista de documentos"
+    }
+  ],
+  "checagem_vf": [
+    {
+      "vf": 1,
+      "status": "PENDENTE_ADVOGADO",
+      "achado": "índice dos documentos do cliente (ID provisório de cada um)"
+    },
+    {
+      "vf": 2,
+      "status": "NAO_SE_APLICA",
+      "achado": "sem documento do banco antes da ação; ficha do contrato fica para a réplica"
+    },
+    {
+      "vf": 3,
+      "status": "EXECUTADA",
+      "achado": "7001001: Migrado do contrato 7001001 CBC: 934; 7001002: Migrado do contrato 7001002 CBC: 934; 7001003: Migrado do contrato 7001003 CBC: 934"
+    },
+    {
+      "vf": 4,
+      "status": "NAO_SE_APLICA",
+      "achado": "sem documento do banco antes da ação; autenticação eletrônica fica para a réplica"
+    },
+    {
+      "vf": 5,
+      "status": "NAO_SE_APLICA",
+      "achado": "sem documento do banco antes da ação; correspondente bancário fica para a réplica"
+    },
+    {
+      "vf": 6,
+      "status": "PENDENTE_ADVOGADO",
+      "achado": "pedir ao cliente o extrato bancário do mês da averbação de cada contrato (Súmula 42/TJBA)"
+    },
+    {
+      "vf": 7,
+      "status": "EXECUTADA",
+      "achado": "sem repetição de datas entre contratos do mesmo banco"
+    },
+    {
+      "vf": 8,
+      "status": "EXECUTADA",
+      "achado": "0 par(es) até 7 dias"
+    },
+    {
+      "vf": 9,
+      "status": "PENDENTE_ADVOGADO",
+      "achado": "registrar a residência com ID e página (e coordenada, se houver) para a geolocalização da réplica"
+    }
+  ],
+  "mesma_data": [],
+  "marca": "CÁLCULO A CONFERIR"
+}

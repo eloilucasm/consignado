@@ -1,0 +1,404 @@
+{
+ "versao": "2026-10-28",
+ "descricao": "Acervo central das skills de consignado. Cada skill recebe cópia dos arquivos listados. Edite aqui e rode node _manutencao/sincronizar-acervo.js --aplicar. Lista vazia = arquivo no acervo ainda não distribuído a nenhuma skill. fontes-e-limites.md é próprio de cada skill e não entra no manifesto.",
+ "pastas": {
+  "protocolo": "protocolo",
+  "pecas": "assets",
+  "normas": "references/normas",
+  "jurisprudencia": "references/jurisprudencia",
+  "dados": "references/dados",
+  "scripts": "scripts"
+ },
+ "arquivos": {
+  "dados/reus.json": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000",
+   "triagem-consignado"
+  ],
+  "dados/tjba_comarcas.json": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000",
+   "triagem-consignado"
+  ],
+  "dados/trf1_jurisdicao.json": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000",
+   "triagem-consignado"
+  ],
+  "jurisprudencia/earesp-738991-stj.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "tese-1000"
+  ],
+  "jurisprudencia/fonaje-encontros.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "jurisprudencia/fonaje-enunciados-civeis.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "jurisprudencia/fonajef-enunciados.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "jurisprudencia/resp-2168312-pr-stj.md": [
+   "migrado"
+  ],
+  "jurisprudencia/sumula-326-stj.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "jurisprudencia/sumulas-stj.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "jurisprudencia/sumulas-tjba-turma-uniformizacao.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "jurisprudencia/tema-1061-stj.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "jurisprudencia/tema-1076-stj.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "jurisprudencia/tema-1198-stj.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "jurisprudencia/tema-1414-stj.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "jurisprudencia/tema-466-stj.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "jurisprudencia/tema-929-stj.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "normas/cc.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "normas/cdc.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "normas/cf88.md": [
+   "migrado",
+   "nao-contratado",
+   "rmc",
+   "tese-1000"
+  ],
+  "normas/cpc.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "normas/dec-12797.md": [
+   "migrado",
+   "nao-contratado",
+   "replica-consignado",
+   "rmc",
+   "tese-1000",
+   "recurso-inominado-consignado-geolocalizacao"
+  ],
+  "normas/in-inss-138-2022-consolidada.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "normas/in-inss-143-2023.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "normas/in-inss-28-2008-consolidada-2020.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "normas/in-inss-alteradoras-da-in28-2022.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "normas/lei-10741.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "normas/lei-10820.md": [
+   "migrado",
+   "nao-contratado",
+   "rmc",
+   "tese-1000"
+  ],
+  "normas/lei-14690.md": [
+   "rmc"
+  ],
+  "normas/lei-14905.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "normas/lei-9099.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "normas/lgpd.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado"
+  ],
+  "normas/res-bcb-96-2021.md": [],
+  "normas/res-cmn-3954-original.md": [
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado"
+  ],
+  "normas/res-cmn-4549-consolidada.md": [
+   "rmc"
+  ],
+  "normas/res-cmn-4753-consolidada.md": [],
+  "normas/res-cmn-4935.md": [
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado"
+  ],
+  "pecas/ba_municipios.json": [
+   "replica-consignado"
+  ],
+  "pecas/escrutinio-fsc-vf.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "pecas/padrao-pecas.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "protocolo/protocolo.md": [
+   "consignado",
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000",
+   "triagem-consignado"
+  ],
+  "protocolo/quadro-de-fatos.md": [
+   "consignado",
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000",
+   "triagem-consignado"
+  ],
+  "scripts/cartao.py": [
+   "rmc"
+  ],
+  "scripts/catalogo_indicadores.json": [
+   "replica-consignado"
+  ],
+  "scripts/escrutinio.py": [
+   "migrado",
+   "nao-contratado",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "scripts/extrato.py": [
+   "migrado",
+   "nao-contratado",
+   "replica-consignado",
+   "tese-1000"
+  ],
+  "scripts/fichas.py": [
+   "replica-consignado"
+  ],
+  "scripts/geo_check.py": [
+   "replica-consignado"
+  ],
+  "scripts/geo_malha.py": [
+   "replica-consignado"
+  ],
+  "scripts/ip_check.py": [
+   "replica-consignado"
+  ],
+  "scripts/valores.py": [
+   "migrado",
+   "nao-contratado",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "jurisprudencia/datas-citaveis.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "scripts/buscar_reu.py": [
+   "migrado",
+   "nao-contratado",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "normas/res-cmn-2836-consolidada.md": [
+   "migrado",
+   "tese-1000"
+  ],
+  "jurisprudencia/ac-5003696-trf4.md": [
+   "migrado",
+   "nao-contratado",
+   "tese-1000"
+  ],
+  "jurisprudencia/earesp-676608-stj.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "normas/lei-14063.md": [
+   "recurso-inominado-consignado-geolocalizacao"
+  ],
+  "normas/mp-2200-2.md": [
+   "recurso-inominado-consignado-geolocalizacao"
+  ],
+  "dados/tjba_unidades.json": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000",
+   "triagem-consignado"
+  ],
+  "dados/territorial-tjba.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000",
+   "triagem-consignado"
+  ]
+ }
+}

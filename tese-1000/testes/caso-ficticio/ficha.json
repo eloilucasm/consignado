@@ -1,0 +1,126 @@
+{
+  "fonte": "CASO FICTÍCIO do piloto da skill tese-1000. Nenhum dado é de pessoa real. Formato compatível com a saída da triagem.",
+  "processos": [
+    {
+      "processo": 1,
+      "nb": "999.999.999-9",
+      "reu": "707 - BANCO DAYCOVAL S.A.",
+      "tese": "TESE_1000",
+      "competencia": "Vara Cível da Comarca de Ilhéus/BA (tabela TJBA)",
+      "acoes_origem": [
+        "E-1"
+      ],
+      "contratos": [
+        {
+          "contrato": "51-000111/00001_0001",
+          "acao": "E-1",
+          "bloco": "E",
+          "status": "EXCLUIDO"
+        }
+      ],
+      "modelo": "Tese 1000 Contra",
+      "liminar_sobre": [],
+      "litispendencia": null,
+      "alertas": []
+    },
+    {
+      "processo": 2,
+      "nb": "999.999.999-9",
+      "reu": "707 - BANCO DAYCOVAL S.A.",
+      "tese": "TESE_1000",
+      "competencia": "Vara Cível da Comarca de Ilhéus/BA (tabela TJBA)",
+      "acoes_origem": [
+        "E-2"
+      ],
+      "contratos": [
+        {
+          "contrato": "51-000222/00002_0001",
+          "acao": "E-2",
+          "bloco": "E",
+          "status": "ATIVO"
+        }
+      ],
+      "modelo": "Tese 1000 Contra",
+      "liminar_sobre": [
+        "51-000222/00002_0001"
+      ],
+      "litispendencia": null,
+      "alertas": []
+    },
+    {
+      "processo": 3,
+      "nb": "999.999.999-9",
+      "reu": "707 - BANCO DAYCOVAL S.A.",
+      "tese": "TESE_1000",
+      "competencia": "Vara Cível da Comarca de Ilhéus/BA (tabela TJBA)",
+      "acoes_origem": [
+        "E-3"
+      ],
+      "contratos": [
+        {
+          "contrato": "51-000444/00004_0001",
+          "acao": "E-3",
+          "bloco": "E",
+          "status": "ATIVO"
+        },
+        {
+          "contrato": "51-000444/00004_0002",
+          "acao": "E-3",
+          "bloco": "E",
+          "status": "ATIVO"
+        }
+      ],
+      "modelo": "Tese 1000 Contra",
+      "liminar_sobre": [
+        "51-000444/00004_0001",
+        "51-000444/00004_0002"
+      ],
+      "litispendencia": null,
+      "alertas": []
+    },
+    {
+      "processo": 4,
+      "nb": "999.999.999-9",
+      "reu": "707 - BANCO DAYCOVAL S.A.",
+      "tese": "TESE_1000",
+      "competencia": "Vara Cível da Comarca de Ilhéus/BA (tabela TJBA)",
+      "acoes_origem": [
+        "E-4"
+      ],
+      "contratos": [
+        {
+          "contrato": "51-000333/00003_0001",
+          "acao": "E-4",
+          "bloco": "E",
+          "status": "EXCLUIDO"
+        }
+      ],
+      "modelo": "Tese 1000 Contra",
+      "liminar_sobre": [],
+      "litispendencia": null,
+      "alertas": []
+    },
+    {
+      "processo": 5,
+      "nb": "999.999.999-9",
+      "reu": "707 - BANCO DAYCOVAL S.A.",
+      "tese": "TESE_1000",
+      "competencia": "Vara Cível da Comarca de Ilhéus/BA (tabela TJBA)",
+      "acoes_origem": [
+        "E-5"
+      ],
+      "contratos": [
+        {
+          "contrato": "51-000555/00005_0001",
+          "acao": "E-5",
+          "bloco": "E",
+          "status": "EXCLUIDO"
+        }
+      ],
+      "modelo": "Tese 1000 Contra",
+      "liminar_sobre": [],
+      "litispendencia": null,
+      "alertas": []
+    }
+  ]
+}

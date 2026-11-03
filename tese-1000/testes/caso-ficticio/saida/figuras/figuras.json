@@ -1,0 +1,13 @@
+{
+  "fonte": "ID 12, p. 3",
+  "fonte_tipografica": "C:\\Windows\\Fonts\\LatoWeb-Regular.ttf",
+  "figuras": [
+    {
+      "derivado": "51-000111/00001_0001",
+      "anatomia": "fig_anatomia_1.png",
+      "linha_tempo": "fig_linha_tempo_1.png",
+      "legenda_anatomia": "Anatomia da reaverbação do contrato nº 51-000111/00001_0001 (número-raiz 51-000111/00001).",
+      "legenda_linha_tempo": "Linha do tempo do contrato nº 51-000111/00001_0001, conforme o extrato do INSS."
+    }
+  ]
+}

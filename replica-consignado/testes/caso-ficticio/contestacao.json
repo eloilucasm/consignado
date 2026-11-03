@@ -1,0 +1,28 @@
+{
+  "processo": "0000000-00.2026.8.05.0103 (fictício)",
+  "rito": "jec",
+  "autor": {"nb": "1234567890", "email": "maria.ficticia@exemplo.com", "telefone": "73999990000",
+            "endereco": "Rua Fictícia, 10, Ilhéus", "cep": "45650000", "estado_civil": "viúva", "uf": "BA"},
+  "impugnados": ["00123456789", "00987654321", "00555111222"],
+  "pontos": [
+    {"defesa": "P2", "id_pagina": "ID 200 p. 2", "resumo": "incompetência do JEC: a causa exigiria perícia"},
+    {"defesa": "M2", "id_pagina": "ID 200 p. 6", "resumo": "contratação digital com biometria e geolocalização", "contratos": ["00123456789"]},
+    {"defesa": "M3", "id_pagina": "ID 200 p. 8", "resumo": "o valor foi creditado na conta da autora", "contratos": ["00123456789"]},
+    {"defesa": "M10", "id_pagina": "ID 200 p. 11", "resumo": "pede a condenação da autora por litigância de má-fé"},
+    {"defesa": "NOVO", "id_pagina": "ID 200 p. 12", "resumo": "alega que a autora assinou termo de quitação"}
+  ],
+  "contratos_defendidos": [
+    {"contrato": "00123456789", "id_pagina": "ID 201 p. 3", "ccb_juntada": true, "assinatura": "eletronica",
+     "datas": {"emissao_ccb": "20/02/2019", "assinatura_ccb": "20/02/2019", "trilha": "21/02/2019"},
+     "cadastro": {"nb": "1234567890", "email": "terceiro@exemplo.com", "telefone": "73999990000", "fonte": "ID 202 p. 1"},
+     "ted": {"valor": 4800.00, "data": "21/02/2019", "conta_mesma_do_beneficio": true, "fonte": "ID 203 p. 1"},
+     "log": {"plataforma": "PlataformaX", "hash": "H1-ficticio", "ip": "10.0.0.5", "selfie_id": "ID 204 p. 2",
+             "cidade_uf": null, "coordenadas": null, "fonte": "ID 204 p. 1"},
+     "correspondente": {"nome": "Promotora Fictícia", "cnpj": "00.000.000/0001-00", "uf": "SP",
+                        "contrato_correspondencia": false, "fonte": "ID 205 p. 1"}},
+    {"contrato": "00987654321", "id_pagina": "ID 206 p. 1", "ccb_juntada": true, "assinatura": "manuscrita",
+     "ted": {"valor": 2500.00, "data": "13/04/2022", "conta_mesma_do_beneficio": false, "fonte": "ID 207 p. 1"},
+     "log": {"plataforma": "PlataformaX", "hash": "H1-ficticio", "ip": "10.0.0.5", "cidade_uf": "São Paulo-SP", "fonte": "ID 208 p. 1"}},
+    {"contrato": "00999999999", "id_pagina": "ID 209 p. 1", "ccb_juntada": true, "assinatura": "eletronica"}
+  ]
+}

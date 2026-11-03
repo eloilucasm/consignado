@@ -1,0 +1,3923 @@
+{
+ "fonte": "TJBA: quadro das Varas do Sistema dos Juizados (17/04/2026), Portal dos Juizados, relações de magistrados por entrância (22/09/2026 e 02/10/2026); comarcas de tjba_comarcas.json (15/03/2023). Ver territorial-tjba.md.",
+ "consulta": "2026-11-03",
+ "aprovado_pelo_escritorio": "2026-11-03",
+ "comarcas": {
+  "Alagoinhas": {
+   "grafia_2026": "Alagoinhas",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ALAGOINHAS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Registros Públicos",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidentes de Trabalho",
+     "3ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidentes de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE ALAGOINHAS - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Amargosa": {
+   "grafia_2026": "Amargosa",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos, Acidente de Trabalho e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS, ACIDENTE DE TRABALHO E FAZENDA PÚBLICA DA COMARCA DE AMARGOSA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos, Acidente de Trabalho e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS, ACIDENTE DE TRABALHO E FAZENDA PÚBLICA DA COMARCA DE AMARGOSA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Amélia Rodrigues": {
+   "grafia_2026": "Amélia Rodrigues",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE AMÉLIA RODRIGUES - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE AMÉLIA RODRIGUES - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Anagé": {
+   "grafia_2026": "Anagé",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ANAGÉ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ANAGÉ - BA"
+   },
+   "juizado_adjunto": "Decreto Judiciário 812/2022",
+   "conferir": null
+  },
+  "Andaraí": {
+   "grafia_2026": "Andaraí",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ANDARAÍ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ANDARAÍ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Antas": {
+   "grafia_2026": "Antas",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ANTAS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ANTAS - BA"
+   },
+   "juizado_adjunto": "decretos de 08/09/2022",
+   "conferir": null
+  },
+  "Araci": {
+   "grafia_2026": "Araci",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ARACI - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ARACI - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Baianópolis": {
+   "grafia_2026": "Baianópolis",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE BAIANÓPOLIS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE BAIANÓPOLIS - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Barra": {
+   "grafia_2026": "Barra",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos, Acidente de Trabalho e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS, ACIDENTE DE TRABALHO E FAZENDA PÚBLICA DA COMARCA DE BARRA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos, Acidente de Trabalho e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS, ACIDENTE DE TRABALHO E FAZENDA PÚBLICA DA COMARCA DE BARRA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Barra da Estiva": {
+   "grafia_2026": "Barra da Estiva",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE BARRA DA ESTIVA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE BARRA DA ESTIVA - BA"
+   },
+   "juizado_adjunto": "decretos de 08/09/2022",
+   "conferir": null
+  },
+  "Barra do Choça": {
+   "grafia_2026": "Barra do Choça",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE BARRA DO CHOÇA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE BARRA DO CHOÇA - BA"
+   },
+   "juizado_adjunto": "decretos de 08/09/2022",
+   "conferir": null
+  },
+  "Barra do Mendes": {
+   "grafia_2026": "Barra do Mendes",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE BARRA DO MENDES - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE BARRA DO MENDES - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Barreiras": {
+   "grafia_2026": "Barreiras",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "1ª Vara do Sistema dos Juizados Especiais",
+     "2ª Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE BARREIRAS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidentes de Trabalho",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidentes de Trabalho",
+     "3ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Registros Públicos"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE BARREIRAS - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Belmonte": {
+   "grafia_2026": "Belmonte",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE BELMONTE - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE BELMONTE - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Belo Campo": {
+   "grafia_2026": "Belo Campo",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE BELO CAMPO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE BELO CAMPO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Bom Jesus da Lapa": {
+   "grafia_2026": "Bom Jesus da Lapa",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE BOM JESUS DA LAPA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidentes de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTES DE TRABALHO DA COMARCA DE BOM JESUS DA LAPA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Brumado": {
+   "grafia_2026": "Brumado",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE BRUMADO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidentes de Trabalho",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE BRUMADO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Buerarema": {
+   "grafia_2026": "Buerarema",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE BUERAREMA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE BUERAREMA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Cachoeira": {
+   "grafia_2026": "Cachoeira",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE CACHOEIRA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE CACHOEIRA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Caculé": {
+   "grafia_2026": "Caculé",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CACULÉ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CACULÉ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Caetité": {
+   "grafia_2026": "Caetité",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE CAETITÉ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE CAETITÉ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Camacã": {
+   "grafia_2026": "Camacan",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE CAMACAN - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE CAMACAN - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Camaçari": {
+   "grafia_2026": "Camaçari",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "1ª Vara do Sistema dos Juizados Especiais",
+     "2ª Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE CAMAÇARI - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Registros Públicos",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidentes de Trabalho",
+     "3ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Registros Públicos"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE CAMAÇARI - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Camamu": {
+   "grafia_2026": "Camamu",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CAMAMU - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CAMAMU - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Campo Formoso": {
+   "grafia_2026": "Campo Formoso",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE CAMPO FORMOSO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE CAMPO FORMOSO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Canarana": {
+   "grafia_2026": "Canarana",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CANARANA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CANARANA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Canavieiras": {
+   "grafia_2026": "Canavieiras",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE CANAVIEIRAS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais, Consumidor, Registros Públicos, Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS, CONSUMIDOR, REGISTROS PÚBLICOS, ACIDENTE DE TRABALHO DA COMARCA DE CANAVIEIRAS - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Candeias": {
+   "grafia_2026": "Candeias",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE CANDEIAS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE CANDEIAS - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Cândido Sales": {
+   "grafia_2026": "Cândido Sales",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CÂNDIDO SALES - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CÂNDIDO SALES - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Cansanção": {
+   "grafia_2026": "Cansanção",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CANSANÇÃO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CANSANÇÃO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Capela do Alto Alegre": {
+   "grafia_2026": "Capela do Alto Alegre",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CAPELA DO ALTO ALEGRE - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CAPELA DO ALTO ALEGRE - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Capim Grosso": {
+   "grafia_2026": "Capim Grosso",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos, Acidente de Trabalho e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS, ACIDENTE DE TRABALHO E FAZENDA PÚBLICA DA COMARCA DE CAPIM GROSSO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos, Acidente de Trabalho e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS, ACIDENTE DE TRABALHO E FAZENDA PÚBLICA DA COMARCA DE CAPIM GROSSO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Caravelas": {
+   "grafia_2026": "Caravelas",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CARAVELAS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CARAVELAS - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Carinhanha": {
+   "grafia_2026": "Carinhanha",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CARINHANHA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CARINHANHA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Casa Nova": {
+   "grafia_2026": "Casa Nova",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE CASA NOVA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE CASA NOVA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Castro Alves": {
+   "grafia_2026": "Castro Alves",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CASTRO ALVES - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CASTRO ALVES - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Catu": {
+   "grafia_2026": "Catu",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE CATU - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE CATU - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Central": {
+   "grafia_2026": "Central",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CENTRAL - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CENTRAL - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Chorrochó": {
+   "grafia_2026": "Chorrochó",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CHORROCHÓ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CHORROCHÓ - BA"
+   },
+   "juizado_adjunto": "Decreto Judiciário 813/2022",
+   "conferir": null
+  },
+  "Cícero Dantas": {
+   "grafia_2026": "Cícero Dantas",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE CÍCERO DANTAS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE CÍCERO DANTAS - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Coaraci": {
+   "grafia_2026": "Coaraci",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE COARACI - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE COARACI - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Cocos": {
+   "grafia_2026": "Cocos",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE COCOS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE COCOS - BA"
+   },
+   "juizado_adjunto": "Decreto Judiciário 814/2022",
+   "conferir": null
+  },
+  "Conceição do Almeida": {
+   "grafia_2026": "Conceição do Almeida",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CONCEIÇÃO DO ALMEIDA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CONCEIÇÃO DO ALMEIDA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Conceição do Coité": {
+   "grafia_2026": "Conceição do Coité",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "1ª Vara do Sistema dos Juizados Especiais",
+     "2ª Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE CONCEIÇÃO DO COITÉ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE CONCEIÇÃO DO COITÉ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Conceição do Jacuípe": {
+   "grafia_2026": "Conceição do Jacuípe",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CONCEIÇÃO DO JACUÍPE - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CONCEIÇÃO DO JACUÍPE - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Conde": {
+   "grafia_2026": "Conde",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CONDE - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CONDE - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Condeúba": {
+   "grafia_2026": "Condeúba",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CONDEÚBA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CONDEÚBA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Coração de Maria": {
+   "grafia_2026": "Coração de Maria",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CORAÇÃO DE MARIA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CORAÇÃO DE MARIA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Coribe": {
+   "grafia_2026": "Coribe",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CORIBE - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CORIBE - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Correntina": {
+   "grafia_2026": "Correntina",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CORRENTINA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CORRENTINA - BA"
+   },
+   "juizado_adjunto": "Decreto Judiciário 815/2022",
+   "conferir": null
+  },
+  "Cotegipe": {
+   "grafia_2026": "Cotegipe",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE COTEGIPE - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE COTEGIPE - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Cruz das Almas": {
+   "grafia_2026": "Cruz das Almas",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE CRUZ DAS ALMAS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE CRUZ DAS ALMAS - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Curaçá": {
+   "grafia_2026": "Curaçá",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CURAÇÁ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE CURAÇÁ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Dias D’Ávila": {
+   "grafia_2026": "Dias D’Ávila",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos, Acidente de Trabalho e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS, ACIDENTE DE TRABALHO E FAZENDA PÚBLICA DA COMARCA DE DIAS D’ÁVILA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos, Acidente de Trabalho e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS, ACIDENTE DE TRABALHO E FAZENDA PÚBLICA DA COMARCA DE DIAS D’ÁVILA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Encruzilhada": {
+   "grafia_2026": "Encruzilhada",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ENCRUZILHADA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ENCRUZILHADA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Entre Rios": {
+   "grafia_2026": "Entre Rios",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE ENTRE RIOS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE ENTRE RIOS - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Esplanada": {
+   "grafia_2026": "Esplanada",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ESPLANADA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ESPLANADA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Euclides da Cunha": {
+   "grafia_2026": "Euclides da Cunha",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE EUCLIDES DA CUNHA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Consumidor e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE EUCLIDES DA CUNHA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Eunápolis": {
+   "grafia_2026": "Eunápolis",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "1ª Vara do Sistema dos Juizados Especiais",
+     "2ª Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE EUNÁPOLIS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Registros Públicos",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE EUNÁPOLIS - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Feira de Santana": {
+   "grafia_2026": "Feira de Santana",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "1ª Vara do Sistema dos Juizados Especiais",
+     "2ª Vara do Sistema dos Juizados Especiais",
+     "3ª Vara do Sistema dos Juizados Especiais",
+     "4ª Vara do Sistema dos Juizados Especiais",
+     "5ª Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE FEIRA DE SANTANA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais",
+     "3ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais",
+     "4ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais",
+     "5ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais",
+     "6ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais",
+     "7ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE FEIRA DE SANTANA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Formosa do Rio Preto": {
+   "grafia_2026": "Formosa do Rio Preto",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE FORMOSA DO RIO PRETO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE FORMOSA DO RIO PRETO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Gandu": {
+   "grafia_2026": "Gandu",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE GANDU - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE GANDU - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Gentio do Ouro": {
+   "grafia_2026": "Gentio do Ouro",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE GENTIO DO OURO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE GENTIO DO OURO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Governador Mangabeira": {
+   "grafia_2026": "Governador Mangabeira",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE GOVERNADOR MANGABEIRA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE GOVERNADOR MANGABEIRA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Guanambi": {
+   "grafia_2026": "Guanambi",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "1ª Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE GUANAMBI - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Registros Públicos",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Fazenda Pública e Acidentes de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE GUANAMBI - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Guaratinga": {
+   "grafia_2026": "Guaratinga",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE GUARATINGA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE GUARATINGA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Iaçu": {
+   "grafia_2026": "Iaçu",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE IAÇU - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE IAÇU - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Ibicaraí": {
+   "grafia_2026": "Ibicaraí",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE IBICARAÍ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE IBICARAÍ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Ibirapuã": {
+   "grafia_2026": "Ibirapuã",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE IBIRAPUÃ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE IBIRAPUÃ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Ibirataia": {
+   "grafia_2026": "Ibirataia",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE IBIRATAIA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE IBIRATAIA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Ibotirama": {
+   "grafia_2026": "Ibotirama",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos, Acidente de Trabalho e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS, ACIDENTE DE TRABALHO E FAZENDA PÚBLICA DA COMARCA DE IBOTIRAMA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos, Acidente de Trabalho e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS, ACIDENTE DE TRABALHO E FAZENDA PÚBLICA DA COMARCA DE IBOTIRAMA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Igaporã": {
+   "grafia_2026": "Igaporã",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE IGAPORÃ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE IGAPORÃ - BA"
+   },
+   "juizado_adjunto": "Decreto Judiciário 816/2022",
+   "conferir": null
+  },
+  "Iguaí": {
+   "grafia_2026": "Iguaí",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE IGUAÍ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE IGUAÍ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Ilhéus": {
+   "grafia_2026": "Ilhéus",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "1ª Vara do Sistema dos Juizados Especiais",
+     "2ª Vara do Sistema dos Juizados Especiais",
+     "3ª Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidentes de Trabalho",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidentes de Trabalho",
+     "3ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Registros Públicos",
+     "4ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE ILHÉUS - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Inhambupe": {
+   "grafia_2026": "Inhambupe",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE INHAMBUPE - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE INHAMBUPE - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Ipiaú": {
+   "grafia_2026": "Ipiaú",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE IPIAÚ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE IPIAÚ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Ipirá": {
+   "grafia_2026": "Ipirá",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE IPIRÁ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE IPIRÁ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Iraquara": {
+   "grafia_2026": "Iraquara",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE IRAQUARA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE IRAQUARA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Irará": {
+   "grafia_2026": "Irará",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE IRARÁ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE IRARÁ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Irecê": {
+   "grafia_2026": "Irecê",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "1ª Vara do Sistema dos Juizados Especiais",
+     "2ª Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE IRECÊ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidentes de Trabalho",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais",
+     "3ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE IRECÊ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Itabela": {
+   "grafia_2026": "Itabela",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ITABELA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ITABELA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Itaberaba": {
+   "grafia_2026": "Itaberaba",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ITABERABA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE ITABERABA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Itabuna": {
+   "grafia_2026": "Itabuna",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "1ª Vara do Sistema dos Juizados Especiais",
+     "2ª Vara do Sistema dos Juizados Especiais",
+     "3ª Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ITABUNA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidentes de Trabalho",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidentes de Trabalho",
+     "3ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidentes de Trabalho",
+     "4ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Registros Públicos"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE ITABUNA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Itacaré": {
+   "grafia_2026": "Itacaré",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ITACARÉ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ITACARÉ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Itagibá": {
+   "grafia_2026": "Itagibá",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ITAGIBÁ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ITAGIBÁ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Itajuípe": {
+   "grafia_2026": "Itajuípe",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ITAJUÍPE - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ITAJUÍPE - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Itamaraju": {
+   "grafia_2026": "Itamaraju",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ITAMARAJU - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registro Por Ordem Alfabética de Comarca Público e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTRO POR ORDEM ALFABÉTICA DE COMARCA PÚBLICO E ACIDENTE DE TRABALHO DA COMARCA DE ITAMARAJU - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Itambé": {
+   "grafia_2026": "Itambé",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ITAMBÉ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ITAMBÉ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Itanhém": {
+   "grafia_2026": "Itanhém",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE ITANHÉM - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE ITANHÉM - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Itaparica": {
+   "grafia_2026": "Itaparica",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE ITAPARICA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE ITAPARICA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Itapetinga": {
+   "grafia_2026": "Itapetinga",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "1ª Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ITAPETINGA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais, Consumidor e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE ITAPETINGA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Itapicuru": {
+   "grafia_2026": "Itapicuru",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ITAPICURU - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ITAPICURU - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Itarantim": {
+   "grafia_2026": "Itarantim",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ITARANTIM - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ITARANTIM - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Itiúba": {
+   "grafia_2026": "Itiúba",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ITIÚBA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ITIÚBA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Itororó": {
+   "grafia_2026": "Itororó",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ITORORÓ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ITORORÓ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Ituaçu": {
+   "grafia_2026": "Ituaçu",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ITUAÇU - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ITUAÇU - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Ituberá": {
+   "grafia_2026": "Ituberá",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ITUBERÁ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE ITUBERÁ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Jacaraci": {
+   "grafia_2026": "Jacaraci",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE JACARACI - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE JACARACI - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Jacobina": {
+   "grafia_2026": "Jacobina",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "1ª Vara do Sistema dos Juizados Especiais",
+     "2ª Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE JACOBINA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos",
+     "3ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidentes de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE JACOBINA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Jaguaquara": {
+   "grafia_2026": "Jaguaquara",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE JAGUAQUARA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE JAGUAQUARA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Jaguarari": {
+   "grafia_2026": "Jaguarari",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE JAGUARARI - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE JAGUARARI - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Jequié": {
+   "grafia_2026": "Jequié",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "1ª Vara do Sistema dos Juizados Especiais",
+     "2ª Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE JEQUIÉ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidente de Trabalho",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidente de Trabalho",
+     "3ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Registros Públicos"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE JEQUIÉ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Jeremoabo": {
+   "grafia_2026": "Jeremoabo",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE JEREMOABO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE JEREMOABO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Jitaúna": {
+   "grafia_2026": "Jitaúna",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE JITAÚNA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE JITAÚNA - BA"
+   },
+   "juizado_adjunto": "decretos de 08/09/2022",
+   "conferir": null
+  },
+  "João Dourado": {
+   "grafia_2026": "João Dourado",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE JOÃO DOURADO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE JOÃO DOURADO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Juazeiro": {
+   "grafia_2026": "Juazeiro",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "1ª Vara do Sistema dos Juizados Especiais",
+     "2ª Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE JUAZEIRO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Registros Públicos",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidentes de Trabalho",
+     "3ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidentes de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE JUAZEIRO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Laje": {
+   "grafia_2026": "Laje",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE LAJE - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE LAJE - BA"
+   },
+   "juizado_adjunto": "decretos de 08/09/2022",
+   "conferir": null
+  },
+  "Lapão": {
+   "grafia_2026": "Lapão",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE LAPÃO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE LAPÃO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Lauro de Freitas": {
+   "grafia_2026": "Lauro de Freitas",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "1ª Vara do Sistema dos Juizados Especiais",
+     "2ª Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE LAURO DE FREITAS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Registros Públicos",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidentes de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE LAURO DE FREITAS - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Lençóis": {
+   "grafia_2026": "Lençóis",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE LENÇÓIS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE LENÇÓIS - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Livramento de Nossa Senhora": {
+   "grafia_2026": "Livramento de Nossa Senhora",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE LIVRAMENTO DE NOSSA SENHORA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE LIVRAMENTO DE NOSSA SENHORA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Luís Eduardo Magalhães": {
+   "grafia_2026": "Luís Eduardo Magalhães",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE LUÍS EDUARDO MAGALHÃES - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Consumidor e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE LUÍS EDUARDO MAGALHÃES - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Macarani": {
+   "grafia_2026": "Macarani",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE MACARANI - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE MACARANI - BA"
+   },
+   "juizado_adjunto": "Decreto Judiciário 817/2022",
+   "conferir": null
+  },
+  "Macaúbas": {
+   "grafia_2026": "Macaúbas",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos, Acidente de Trabalho",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE MACAÚBAS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos, Acidente de Trabalho",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE MACAÚBAS - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Mairi": {
+   "grafia_2026": "Mairi",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE MAIRI - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE MAIRI - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Maracás": {
+   "grafia_2026": "Maracás",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE MARACÁS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE MARACÁS - BA"
+   },
+   "juizado_adjunto": "Decreto Judiciário 818/2022",
+   "conferir": null
+  },
+  "Maragogipe": {
+   "grafia_2026": "Maragogipe",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE MARAGOGIPE - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE MARAGOGIPE - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Mata de São João": {
+   "grafia_2026": "Mata de São João",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos, Acidente de Trabalho e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS, ACIDENTE DE TRABALHO E FAZENDA PÚBLICA DA COMARCA DE MATA DE SÃO JOÃO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos, Acidente de Trabalho e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS, ACIDENTE DE TRABALHO E FAZENDA PÚBLICA DA COMARCA DE MATA DE SÃO JOÃO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Medeiros Neto": {
+   "grafia_2026": "Medeiros Neto",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE MEDEIROS NETO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE MEDEIROS NETO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Miguel Calmon": {
+   "grafia_2026": "Miguel Calmon",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE MIGUEL CALMON - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE MIGUEL CALMON - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Monte Santo": {
+   "grafia_2026": "Monte Santo",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE MONTE SANTO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE MONTE SANTO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Morro do Chapéu": {
+   "grafia_2026": "Morro do Chapéu",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE MORRO DO CHAPÉU - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE MORRO DO CHAPÉU - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Mucuri": {
+   "grafia_2026": "Mucuri",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE MUCURI - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE MUCURI - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Mundo Novo": {
+   "grafia_2026": "Mundo Novo",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos, Acidente de Trabalho e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS, ACIDENTE DE TRABALHO E FAZENDA PÚBLICA DA COMARCA DE MUNDO NOVO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos, Acidente de Trabalho e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS, ACIDENTE DE TRABALHO E FAZENDA PÚBLICA DA COMARCA DE MUNDO NOVO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Muritiba": {
+   "grafia_2026": "Muritiba",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE MURITIBA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE MURITIBA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Mutuípe": {
+   "grafia_2026": "Mutuípe",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE MUTUÍPE - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE MUTUÍPE - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Nazaré": {
+   "grafia_2026": "Nazaré",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos, Acidente de Trabalho e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS, ACIDENTE DE TRABALHO E FAZENDA PÚBLICA DA COMARCA DE NAZARÉ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos, Acidente de Trabalho e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS, ACIDENTE DE TRABALHO E FAZENDA PÚBLICA DA COMARCA DE NAZARÉ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Nova Soure": {
+   "grafia_2026": "Nova Soure",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE NOVA SOURE - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE NOVA SOURE - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Nova Viçosa": {
+   "grafia_2026": "Nova Viçosa",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE NOVA VIÇOSA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE NOVA VIÇOSA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Olindina": {
+   "grafia_2026": "Olindina",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE OLINDINA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE OLINDINA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Oliveira dos Brejinhos": {
+   "grafia_2026": "Oliveira dos Brejinhos",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE OLIVEIRA DOS BREJINHOS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE OLIVEIRA DOS BREJINHOS - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Palmas de Monte Alto": {
+   "grafia_2026": "Palmas de Monte Alto",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE PALMAS DE MONTE ALTO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE PALMAS DE MONTE ALTO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Paramirim": {
+   "grafia_2026": "Paramirim",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE PARAMIRIM - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE PARAMIRIM - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Paripiranga": {
+   "grafia_2026": "Paripiranga",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE PARIPIRANGA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE PARIPIRANGA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Paulo Afonso": {
+   "grafia_2026": "Paulo Afonso",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "1ª Vara do Sistema dos Juizados Especiais",
+     "2ª Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE PAULO AFONSO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Registros Públicos",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidentes de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE PAULO AFONSO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Piatã": {
+   "grafia_2026": "Piatã",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE PIATÃ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE PIATÃ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Pilão Arcado": {
+   "grafia_2026": "Pilão Arcado",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE PILÃO ARCADO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE PILÃO ARCADO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Pindobaçu": {
+   "grafia_2026": "Pindobaçu",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE PINDOBAÇU - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE PINDOBAÇU - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Piritiba": {
+   "grafia_2026": "Piritiba",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE PIRITIBA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE PIRITIBA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Planalto": {
+   "grafia_2026": "Planalto",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE PLANALTO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE PLANALTO - BA"
+   },
+   "juizado_adjunto": "Decreto Judiciário 819/2022",
+   "conferir": null
+  },
+  "Poções": {
+   "grafia_2026": "Poções",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE POÇÕES - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE POÇÕES - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Pojuca": {
+   "grafia_2026": "Pojuca",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE POJUCA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE POJUCA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Porto Seguro": {
+   "grafia_2026": "Porto Seguro",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "1ª Vara do Sistema dos Juizados Especiais",
+     "2ª Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE PORTO SEGURO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Registros Públicos"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS E REGISTROS PÚBLICOS DA COMARCA DE PORTO SEGURO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Prado": {
+   "grafia_2026": "Prado",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE PRADO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE PRADO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Presidente Jânio Quadros": {
+   "grafia_2026": "Presidente Jânio Quadros",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE PRESIDENTE JÂNIO QUADROS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE PRESIDENTE JÂNIO QUADROS - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Queimadas": {
+   "grafia_2026": "Queimadas",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE QUEIMADAS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE QUEIMADAS - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Remanso": {
+   "grafia_2026": "Remanso",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE REMANSO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE REMANSO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Retirolândia": {
+   "grafia_2026": "Retirolândia",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE RETIROLÂNDIA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE RETIROLÂNDIA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Riachão das Neves": {
+   "grafia_2026": "Riachão das Neves",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE RIACHÃO DAS NEVES - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE RIACHÃO DAS NEVES - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Riachão do Jacuípe": {
+   "grafia_2026": "Riachão do Jacuípe",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE RIACHÃO DO JACUÍPE - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos, Acidente de Trabalho e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS, ACIDENTE DE TRABALHO E FAZENDA PÚBLICA DA COMARCA DE RIACHÃO DO JACUÍPE - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Riacho de Santana": {
+   "grafia_2026": "Riacho de Santana",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE RIACHO DE SANTANA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE RIACHO DE SANTANA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Ribeira do Pombal": {
+   "grafia_2026": "Ribeira do Pombal",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE RIBEIRA DO POMBAL - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE RIBEIRA DO POMBAL - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Rio Real": {
+   "grafia_2026": "Rio Real",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE RIO REAL - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE RIO REAL - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Ruy Barbosa": {
+   "grafia_2026": "Ruy Barbosa",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE RUY BARBOSA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE RUY BARBOSA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Salvador": {
+   "grafia_2026": "Salvador",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "1ª a 20ª Vara do Sistema dos Juizados Especiais do Consumidor"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DO CONSUMIDOR DA COMARCA DE SALVADOR - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª a 20ª Vara de Relações de Consumo"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DE RELAÇÕES DE CONSUMO DA COMARCA DE SALVADOR - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Santa Bárbara": {
+   "grafia_2026": "Santa Bárbara",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SANTA BÁRBARA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SANTA BÁRBARA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Santa Cruz Cabrália": {
+   "grafia_2026": "Santa Cruz Cabrália",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SANTA CRUZ CABRÁLIA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SANTA CRUZ CABRÁLIA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Santa Inês": {
+   "grafia_2026": "Santa Inês",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SANTA INÊS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SANTA INÊS - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Santa Maria da Vitória": {
+   "grafia_2026": "Santa Maria da Vitória",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE SANTA MARIA DA VITÓRIA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos, Acidente de Trabalho e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS, ACIDENTE DE TRABALHO E FAZENDA PÚBLICA DA COMARCA DE SANTA MARIA DA VITÓRIA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Santa Rita de Cássia": {
+   "grafia_2026": "Santa Rita de Cássia",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SANTA RITA DE CÁSSIA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SANTA RITA DE CÁSSIA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Santa Teresinha": {
+   "grafia_2026": "Santa Terezinha",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SANTA TEREZINHA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SANTA TEREZINHA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Santaluz": {
+   "grafia_2026": "Santaluz",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SANTALUZ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SANTALUZ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Santana": {
+   "grafia_2026": "Santana",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SANTANA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SANTANA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Santo Amaro": {
+   "grafia_2026": "Santo Amaro",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE SANTO AMARO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE SANTO AMARO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Santo Antônio de Jesus": {
+   "grafia_2026": "Santo Antônio de Jesus",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE SANTO ANTÔNIO DE JESUS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Registros Públicos",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Fazenda Pública e Acidentes de Trabalho",
+     "3ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Fazenda Pública e Acidentes de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE SANTO ANTÔNIO DE JESUS - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Santo Estevão": {
+   "grafia_2026": "Santo Estevão",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE SANTO ESTEVÃO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE SANTO ESTEVÃO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "São Desidério": {
+   "grafia_2026": "São Desidério",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SÃO DESIDÉRIO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SÃO DESIDÉRIO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "São Felipe": {
+   "grafia_2026": "São Felipe",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SÃO FELIPE - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SÃO FELIPE - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "São Félix/Cachoeira": {
+   "grafia_2026": "São Félix",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SÃO FÉLIX - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SÃO FÉLIX - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": "comarca de desativação automática (Resolução 13/2019); se desativada, usar a agrupadora"
+  },
+  "São Francisco do Conde": {
+   "grafia_2026": "São Francisco do Conde",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE SÃO FRANCISCO DO CONDE - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE SÃO FRANCISCO DO CONDE - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "São Gonçalo dos Campos": {
+   "grafia_2026": "São Gonçalo dos Campos",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Registros Públicos"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS E REGISTROS PÚBLICOS DA COMARCA DE SÃO GONÇALO DOS CAMPOS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Registros Públicos"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS E REGISTROS PÚBLICOS DA COMARCA DE SÃO GONÇALO DOS CAMPOS - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "São Sebastião do Passé": {
+   "grafia_2026": "São Sebastião do Passé",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE SÃO SEBASTIÃO DO PASSÉ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE SÃO SEBASTIÃO DO PASSÉ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Sapeaçu": {
+   "grafia_2026": "Sapeaçu",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SAPEAÇU - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SAPEAÇU - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Saúde": {
+   "grafia_2026": "Saúde",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SAÚDE - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SAÚDE - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Seabra": {
+   "grafia_2026": "Seabra",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE SEABRA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE SEABRA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Senhor do Bonfim": {
+   "grafia_2026": "Senhor do Bonfim",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE SENHOR DO BONFIM - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registro Publico e Acidentes de Trabalho",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE SENHOR DO BONFIM - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Sento Sé": {
+   "grafia_2026": "Sento Sé",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SENTO SÉ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SENTO SÉ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Serra Dourada": {
+   "grafia_2026": "Serra Dourada",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SERRA DOURADA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SERRA DOURADA - BA"
+   },
+   "juizado_adjunto": "Decreto Judiciário 820/2022",
+   "conferir": null
+  },
+  "Serrinha": {
+   "grafia_2026": "Serrinha",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "1ª Vara do Sistema dos Juizados Especiais",
+     "2ª Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE SERRINHA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registro Publico e Acidente de Trabalho",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Consumidor e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE SERRINHA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Simões Filho": {
+   "grafia_2026": "Simões Filho",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "1ª Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE SIMÕES FILHO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Registros Públicos",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE SIMÕES FILHO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Sobradinho": {
+   "grafia_2026": "Sobradinho",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SOBRADINHO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE SOBRADINHO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Tanhaçu": {
+   "grafia_2026": "Tanhaçu",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE TANHAÇU - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE TANHAÇU - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Tanque Novo": {
+   "grafia_2026": "Tanque Novo",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE TANQUE NOVO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE TANQUE NOVO - BA"
+   },
+   "juizado_adjunto": "Decreto Judiciário 821/2022",
+   "conferir": null
+  },
+  "Taperoá": {
+   "grafia_2026": "Taperoá",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE TAPEROÁ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE TAPEROÁ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Teixeira de Freitas": {
+   "grafia_2026": "Teixeira de Freitas",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "1ª Vara do Sistema dos Juizados Especiais",
+     "2ª Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE TEIXEIRA DE FREITAS - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Registro Publico",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidentes de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE TEIXEIRA DE FREITAS - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Teofilândia": {
+   "grafia_2026": "Teofilândia",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE TEOFILÂNDIA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE TEOFILÂNDIA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Terra Nova": {
+   "grafia_2026": "Terra Nova",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE TERRA NOVA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE TERRA NOVA - BA"
+   },
+   "juizado_adjunto": "decretos de 08/09/2022",
+   "conferir": null
+  },
+  "Tremedal/Belo Campo": {
+   "grafia_2026": "Tremedal",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE TREMEDAL - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE TREMEDAL - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": "comarca de desativação automática (Resolução 13/2019); se desativada, usar a agrupadora"
+  },
+  "Tucano": {
+   "grafia_2026": "Tucano",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE TUCANO - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE TUCANO - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Uauá": {
+   "grafia_2026": "Uauá",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE UAUÁ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE UAUÁ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Ubaíra": {
+   "grafia_2026": "Ubaíra",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE UBAÍRA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE UBAÍRA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Ubaitaba": {
+   "grafia_2026": "Ubaitaba",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE UBAITABA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE UBAITABA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Ubatã": {
+   "grafia_2026": "Ubatã",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE UBATÃ - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE UBATÃ - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Una": {
+   "grafia_2026": "Una",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE UNA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE UNA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Urandi": {
+   "grafia_2026": "Urandi",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE URANDI - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE URANDI - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Uruçuca": {
+   "grafia_2026": "Uruçuca",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE URUÇUCA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE URUÇUCA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Utinga": {
+   "grafia_2026": "Utinga",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE UTINGA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE UTINGA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Valença": {
+   "grafia_2026": "Valença",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE VALENÇA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Registros Públicos",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Fazenda Pública e Acidentes de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE VALENÇA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Valente": {
+   "grafia_2026": "Valente",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE VALENTE - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE VALENTE - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Vitória da Conquista": {
+   "grafia_2026": "Vitória da Conquista",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "vara_do_sistema",
+    "unidades": [
+     "1ª Vara do Sistema dos Juizados Especiais",
+     "2ª Vara do Sistema dos Juizados Especiais",
+     "3ª Vara do Sistema dos Juizados Especiais"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE VITÓRIA DA CONQUISTA - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidentes de Trabalho",
+     "2ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidentes de Trabalho",
+     "3ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidentes de Trabalho",
+     "4ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Registros Públicos",
+     "5ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais e Acidentes de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE VITÓRIA DA CONQUISTA - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Wenceslau Guimarães": {
+   "grafia_2026": "Wenceslau Guimarães",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE WENCESLAU GUIMARÃES - BA"
+   },
+   "comum": {
+    "unidades": [
+     "Vara de Jurisdição Plena"
+    ],
+    "enderecamento": "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE WENCESLAU GUIMARÃES - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  },
+  "Xique-xique": {
+   "grafia_2026": "Xique-xique",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "vara_civel_com_procedimento_da_lei_9099",
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE XIQUE-XIQUE - BA"
+   },
+   "comum": {
+    "unidades": [
+     "1ª Vara dos Feitos Relativos às Relações de Consumo, Cíveis, Comerciais, Registros Públicos e Acidente de Trabalho"
+    ],
+    "enderecamento": "AO JUÍZO DA 1ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS, REGISTROS PÚBLICOS E ACIDENTE DE TRABALHO DA COMARCA DE XIQUE-XIQUE - BA"
+   },
+   "juizado_adjunto": null,
+   "conferir": null
+  }
+ }
+}

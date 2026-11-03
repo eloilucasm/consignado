@@ -1,0 +1,15 @@
+{
+  "nome": "MARIA DAS GRAÇAS EXEMPLO SANTOS",
+  "genero": "F",
+  "nacionalidade": "brasileira",
+  "estado_civil": "viúva",
+  "profissao": "aposentada",
+  "cpf": "000.000.000-00",
+  "rg": "00.000.000-00 SSP/BA",
+  "endereco": "Rua Exemplo, nº 100, Bairro Fictício",
+  "cep": "45600-000",
+  "cidade": "Ilhéus",
+  "uf": "BA",
+  "nascimento": "1958-04-12",
+  "fonte": "CASO FICTÍCIO: documentos pessoais e comprovante de residência fictícios (IDs 3 e 4 dos autos de teste)"
+}

@@ -1,0 +1,8490 @@
+{
+ "fonte": "TRF1 — jurisdição das seções/subseções (referencias/jurisdicao_trf1.md)",
+ "municipios": [
+  {
+   "uf": "AC",
+   "municipio": "Rio Branco",
+   "subsecao": "Seção Judiciária do Acre"
+  },
+  {
+   "uf": "AC",
+   "municipio": "Acrelândia",
+   "subsecao": "Seção Judiciária do Acre"
+  },
+  {
+   "uf": "AC",
+   "municipio": "Assis Brasil",
+   "subsecao": "Seção Judiciária do Acre"
+  },
+  {
+   "uf": "AC",
+   "municipio": "Brasiléia",
+   "subsecao": "Seção Judiciária do Acre"
+  },
+  {
+   "uf": "AC",
+   "municipio": "Bujari",
+   "subsecao": "Seção Judiciária do Acre"
+  },
+  {
+   "uf": "AC",
+   "municipio": "Capixaba",
+   "subsecao": "Seção Judiciária do Acre"
+  },
+  {
+   "uf": "AC",
+   "municipio": "Epitaciolândia",
+   "subsecao": "Seção Judiciária do Acre"
+  },
+  {
+   "uf": "AC",
+   "municipio": "Manoel Urbano",
+   "subsecao": "Seção Judiciária do Acre"
+  },
+  {
+   "uf": "AC",
+   "municipio": "Plácido de Castro",
+   "subsecao": "Seção Judiciária do Acre"
+  },
+  {
+   "uf": "AC",
+   "municipio": "Porto Acre",
+   "subsecao": "Seção Judiciária do Acre"
+  },
+  {
+   "uf": "AC",
+   "municipio": "Santa Rosa do Purus",
+   "subsecao": "Seção Judiciária do Acre"
+  },
+  {
+   "uf": "AC",
+   "municipio": "Sena Madureira",
+   "subsecao": "Seção Judiciária do Acre"
+  },
+  {
+   "uf": "AC",
+   "municipio": "Senador Guiomard",
+   "subsecao": "Seção Judiciária do Acre"
+  },
+  {
+   "uf": "AC",
+   "municipio": "Xapuri",
+   "subsecao": "Seção Judiciária do Acre"
+  },
+  {
+   "uf": "AC",
+   "municipio": "Cruzeiro do Sul",
+   "subsecao": "Subseção Judiciária de Cruzeiro do Sul"
+  },
+  {
+   "uf": "AC",
+   "municipio": "Feijó",
+   "subsecao": "Subseção Judiciária de Cruzeiro do Sul"
+  },
+  {
+   "uf": "AC",
+   "municipio": "Jordão",
+   "subsecao": "Subseção Judiciária de Cruzeiro do Sul"
+  },
+  {
+   "uf": "AC",
+   "municipio": "Mâncio Lima",
+   "subsecao": "Subseção Judiciária de Cruzeiro do Sul"
+  },
+  {
+   "uf": "AC",
+   "municipio": "Marechal Thaumaturgo",
+   "subsecao": "Subseção Judiciária de Cruzeiro do Sul"
+  },
+  {
+   "uf": "AC",
+   "municipio": "Porto Walter",
+   "subsecao": "Subseção Judiciária de Cruzeiro do Sul"
+  },
+  {
+   "uf": "AC",
+   "municipio": "Rodrigues Alves",
+   "subsecao": "Subseção Judiciária de Cruzeiro do Sul"
+  },
+  {
+   "uf": "AC",
+   "municipio": "Tarauacá",
+   "subsecao": "Subseção Judiciária de Cruzeiro do Sul"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Manaus",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Alvarães",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Anamã",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Anori",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Apuí",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Autazes",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Barcelos",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Barreirinha",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Beruri",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Boa Vista do Ramos",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Boca do Acre",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Borba",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Caapiranga",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Canutama",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Carauari",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Careiro",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Careiro da Várzea",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Coari",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Codajás",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Eirunepé",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Envira",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Fonte Boa",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Guajará",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Humaitá",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Ipixuna",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Iranduba",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Itacoatiara",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Itamarati",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Itapiranga",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Japurá",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Juruá",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Lábrea",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Manacapuru",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Manaquiri",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Manicoré",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Maraã",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Maués",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Nhamundá",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Nova Olinda do Norte",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Novo Airão",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Novo Aripuanã",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Parintins",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Pauini",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Presidente Figueiredo",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Rio Preto da Eva",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Santa Isabel do Rio Negro",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "São Gabriel da Cachoeira",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "São Sebastião do Uatumã",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Silves",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Tapauá",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Tefé",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Uarini",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Urucará",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Urucurituba",
+   "subsecao": "Seção Judiciária do Amazonas"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Tabatinga",
+   "subsecao": "Subseção Judiciária de Tabatinga"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Amaturá",
+   "subsecao": "Subseção Judiciária de Tabatinga"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Atalaia do Norte",
+   "subsecao": "Subseção Judiciária de Tabatinga"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Benjamin Constant",
+   "subsecao": "Subseção Judiciária de Tabatinga"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Jutaí",
+   "subsecao": "Subseção Judiciária de Tabatinga"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Santo Antônio do Içá",
+   "subsecao": "Subseção Judiciária de Tabatinga"
+  },
+  {
+   "uf": "AM",
+   "municipio": "São Paulo de Olivença",
+   "subsecao": "Subseção Judiciária de Tabatinga"
+  },
+  {
+   "uf": "AM",
+   "municipio": "Tonantins",
+   "subsecao": "Subseção Judiciária de Tabatinga"
+  },
+  {
+   "uf": "AP",
+   "municipio": "Macapá",
+   "subsecao": "Seção Judiciária do Amapá"
+  },
+  {
+   "uf": "AP",
+   "municipio": "Amapá",
+   "subsecao": "Seção Judiciária do Amapá"
+  },
+  {
+   "uf": "AP",
+   "municipio": "Cutias",
+   "subsecao": "Seção Judiciária do Amapá"
+  },
+  {
+   "uf": "AP",
+   "municipio": "Ferreira Gomes",
+   "subsecao": "Seção Judiciária do Amapá"
+  },
+  {
+   "uf": "AP",
+   "municipio": "Itaubal",
+   "subsecao": "Seção Judiciária do Amapá"
+  },
+  {
+   "uf": "AP",
+   "municipio": "Mazagão",
+   "subsecao": "Seção Judiciária do Amapá"
+  },
+  {
+   "uf": "AP",
+   "municipio": "Pedra Branca do Amaparí",
+   "subsecao": "Seção Judiciária do Amapá"
+  },
+  {
+   "uf": "AP",
+   "municipio": "Porto Grande",
+   "subsecao": "Seção Judiciária do Amapá"
+  },
+  {
+   "uf": "AP",
+   "municipio": "Pracuúba",
+   "subsecao": "Seção Judiciária do Amapá"
+  },
+  {
+   "uf": "AP",
+   "municipio": "Santana",
+   "subsecao": "Seção Judiciária do Amapá"
+  },
+  {
+   "uf": "AP",
+   "municipio": "Serra do Navio",
+   "subsecao": "Seção Judiciária do Amapá"
+  },
+  {
+   "uf": "AP",
+   "municipio": "Tartarugalzinho",
+   "subsecao": "Seção Judiciária do Amapá"
+  },
+  {
+   "uf": "AP",
+   "municipio": "Laranjal do Jari",
+   "subsecao": "Subseção Judiciária de Laranjal do Jari"
+  },
+  {
+   "uf": "AP",
+   "municipio": "Vitória do Jari",
+   "subsecao": "Subseção Judiciária de Laranjal do Jari"
+  },
+  {
+   "uf": "AP",
+   "municipio": "Oiapoque",
+   "subsecao": "Subseção Judiciária de Oiapoque"
+  },
+  {
+   "uf": "AP",
+   "municipio": "Calçoene",
+   "subsecao": "Subseção Judiciária de Oiapoque"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Salvador",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Aratuípe",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Cachoeira",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Camaçari",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Candeias",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Cruz das Almas",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Dias d'Ávila",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Dom Macedo Costa",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Governador Mangabeira",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itaparica",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Jaguaripe",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Lauro de Freitas",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Madre de Deus",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Mata de São João",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Muniz Ferreira",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Muritiba",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Nazaré",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Pojuca",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Salinas da Margarida",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Santo Amaro",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Santo Antônio de Jesus",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "São Felipe",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "São Félix",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "São Francisco do Conde",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "São Sebastião do Passé",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Saubara",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Simões Filho",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Valença",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Vera Cruz",
+   "subsecao": "Seção Judiciária da Bahia"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Alagoinhas",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Acajutiba",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Água Fria",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Araças",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Aporá",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Aramari",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Cardeal da Silva",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Catu",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Cipó",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Conde",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Crisópolis",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Entre Rios",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Esplanada",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Inhambupe",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itanagra",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itapicuru",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Jandaíra",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Nova Soure",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Olindina",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ribeira do Amparo",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ribeira do Pombal",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Rio Real",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Sátiro Dias",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Teodoro Sampaio",
+   "subsecao": "Subseção Judiciária de Alagoinhas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Barreiras",
+   "subsecao": "Subseção Judiciária de Barreiras"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Angical",
+   "subsecao": "Subseção Judiciária de Barreiras"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Baianópolis",
+   "subsecao": "Subseção Judiciária de Barreiras"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Brejolândia",
+   "subsecao": "Subseção Judiciária de Barreiras"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Buritirama",
+   "subsecao": "Subseção Judiciária de Barreiras"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Catolândia",
+   "subsecao": "Subseção Judiciária de Barreiras"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Cotegipe",
+   "subsecao": "Subseção Judiciária de Barreiras"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Cristópolis",
+   "subsecao": "Subseção Judiciária de Barreiras"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Formosa do Rio Preto",
+   "subsecao": "Subseção Judiciária de Barreiras"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Luís Eduardo Magalhães",
+   "subsecao": "Subseção Judiciária de Barreiras"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Mansidão",
+   "subsecao": "Subseção Judiciária de Barreiras"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Muquém do São Francisco",
+   "subsecao": "Subseção Judiciária de Barreiras"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Riachão das Neves",
+   "subsecao": "Subseção Judiciária de Barreiras"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Santa Rita de Cássia",
+   "subsecao": "Subseção Judiciária de Barreiras"
+  },
+  {
+   "uf": "BA",
+   "municipio": "São Desidério",
+   "subsecao": "Subseção Judiciária de Barreiras"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Wanderley",
+   "subsecao": "Subseção Judiciária de Barreiras"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Bom Jesus da Lapa",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Boquira",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Brotas de Macaúbas",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Canápolis",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Cocos",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Coribe",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Correntina",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Feira da Mata",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ibipitanga",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ibotirama",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Igaporã",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ipupiara",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Jaborandi",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Macaúbas",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Morpará",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Oliveira dos Brejinhos",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Paratinga",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Riacho de Santana",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Santa Maria da Vitória",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Santana",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "São Félix do Coribe",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Serra do Ramalho",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Serra Dourada",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Sítio do Mato",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Tabocas do Brejo Velho",
+   "subsecao": "Subseção Judiciária de Bom Jesus da Lapa"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Campo Formoso",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Andorinha",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Antônio Gonçalves",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Caém",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Caldeirão Grande",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Cansanção",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Capim Grosso",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Filadélfia",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Gavião",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itiúba",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Jacobina",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Jaguarari",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Miguel Calmon",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Mirangaba",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Monte Santo",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Nordestina",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ourolândia",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Pindobaçu",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ponto Novo",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Quixabeira",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "São José do Jacuípe",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Saúde",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Senhor do Bonfim",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Serrolândia",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Umburanas",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Várzea da Roça",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Várzea do Poço",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Várzea Nova",
+   "subsecao": "Subseção Judiciária de Campo Formoso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Eunápolis",
+   "subsecao": "Subseção Judiciária de Eunápolis"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Belmonte",
+   "subsecao": "Subseção Judiciária de Eunápolis"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Guaratinga",
+   "subsecao": "Subseção Judiciária de Eunápolis"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itabela",
+   "subsecao": "Subseção Judiciária de Eunápolis"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itagimirim",
+   "subsecao": "Subseção Judiciária de Eunápolis"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itapebi",
+   "subsecao": "Subseção Judiciária de Eunápolis"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Jucuruçu",
+   "subsecao": "Subseção Judiciária de Eunápolis"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Porto Seguro",
+   "subsecao": "Subseção Judiciária de Eunápolis"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Santa Cruz Cabrália",
+   "subsecao": "Subseção Judiciária de Eunápolis"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Feira de Santana",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Amargosa",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Amélia Rodrigues",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Anguera",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Antônio Cardoso",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Araci",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Baixa Grande",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Barrocas",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Biritinga",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Boa Vista do Tupim",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Cabaceiras do Paraguaçu",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Candeal",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Castro Alves",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Capela do Alto Alegre",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Conceição da Feira",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Conceição do Almeida",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Conceição do Coité",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Conceição do Jacuípe",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Coração de Maria",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Elísio Medrado",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Iaçu",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ichu",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ipecaetá",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ipirá",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Irará",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itaberaba",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itatim",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Lajedinho",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Lamarão",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Macajuba",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Mairi",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Maragogipe",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Milagres",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Mundo Novo",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Nova Fátima",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ouriçangas",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Pé de Serra",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Pintadas",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Pedrão",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Piritiba",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Queimadas",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Rafael Jambeiro",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Riachão do Jacuípe",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ruy Barbosa",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Retirolândia",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Santa Bárbara",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Santaluz",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Santa Teresinha",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Santanópolis",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Santo Estêvão",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "São Domingos",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "São Gonçalo dos Campos",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Sapeaçu",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Serra Preta",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Serrinha",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Tanquinho",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Tapiramutá",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Teofilândia",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Terra Nova",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Valente",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Varzedo",
+   "subsecao": "Subseção Judiciária de Feira de Santana"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Guanambi",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Botuporã",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Caculé",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Caetité",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Candiba",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Carinhanha",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Caturama",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Érico Cardoso",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ibiassucê",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ibitiara",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Iuiú",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Jacaraci",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Lagoa Real",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Licínio de Almeida",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Malhada",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Matina",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Mortugaba",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Novo Horizonte",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Palmas de Monte Alto",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Paramirim",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Pindaí",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Rio do Antônio",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Rio do Pires",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Sebastião Laranjeiras",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Tanque Novo",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Urandi",
+   "subsecao": "Subseção Judiciária de Guanambi"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ilhéus",
+   "subsecao": "Subseção Judiciária de Ilhéus"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Cairu",
+   "subsecao": "Subseção Judiciária de Ilhéus"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Camamu",
+   "subsecao": "Subseção Judiciária de Ilhéus"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Canavieiras",
+   "subsecao": "Subseção Judiciária de Ilhéus"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Igrapiúna",
+   "subsecao": "Subseção Judiciária de Ilhéus"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itacaré",
+   "subsecao": "Subseção Judiciária de Ilhéus"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ituberá",
+   "subsecao": "Subseção Judiciária de Ilhéus"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Maraú",
+   "subsecao": "Subseção Judiciária de Ilhéus"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Nilo Peçanha",
+   "subsecao": "Subseção Judiciária de Ilhéus"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Taperoá",
+   "subsecao": "Subseção Judiciária de Ilhéus"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Una",
+   "subsecao": "Subseção Judiciária de Ilhéus"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Uruçuca",
+   "subsecao": "Subseção Judiciária de Ilhéus"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Irecê",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "América Dourada",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Andaraí",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Barra",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Barra do Mendes",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Barro Alto",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Boninal",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Bonito",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Cafarnaum",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Canarana",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Central",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Gentio do Ouro",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ibipeba",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ibititá",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Iraquara",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itaguaçu da Bahia",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "João Dourado",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Jussara",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Lapão",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Lençóis",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Morro do Chapéu",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Mucugê",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Mulungu do Morro",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Nova Redenção",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Palmeiras",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Presidente Dutra",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "São Gabriel",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Seabra",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Souto Soares",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Uibaí",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Utinga",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Wagner",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Xique-Xique",
+   "subsecao": "Subseção Judiciária de Irecê"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itabuna",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Almadina",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Arataca",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Aurelino Leal",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Barro Preto",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Buerarema",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Camacan",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Coaraci",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Firmino Alves",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Floresta Azul",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Gandu",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Gongogi",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ibicaraí",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ibicuí",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ibirapitanga",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Iguaí",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itajú do Colônia",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itajuípe",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itapé",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itapitanga",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itororó",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Jussari",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Mascote",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Nova Canaã",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Pau Brasil",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Piraí do Norte",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Presidente Tancredo Neves",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Potiraguá",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Santa Cruz da Vitória",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Santa Luzia",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "São José da Vitória",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Teolândia",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ubaitaba",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ubatã",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Wenceslau Guimarães",
+   "subsecao": "Subseção Judiciária de Itabuna"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Jequié",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Aiquara",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Apuarema",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Barra do Rocha",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Brejões",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Contendas do Sincorá",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Cravolândia",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Dário Meira",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ibicoara",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ibiquera",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ibirataia",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ipiaú",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Irajuba",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Iramaia",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itaeté",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itagi",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itagibá",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itamari",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itaquara",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itiruçu",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Jaguaquara",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Jiquiriçá",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Jitaúna",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Lafaiete Coutinho",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Laje",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Lajedo do Tabocal",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Manoel Vitorino",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Maracás",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Marcionílio Souza",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Mutuípe",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Nova Ibiá",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Nova Itarana",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Piatã",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Planaltino",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Santa Inês",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "São Miguel das Matas",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ubaíra",
+   "subsecao": "Subseção Judiciária de Jequié"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Juazeiro",
+   "subsecao": "Subseção Judiciária de Juazeiro"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Campo Alegre de Lourdes",
+   "subsecao": "Subseção Judiciária de Juazeiro"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Casa Nova",
+   "subsecao": "Subseção Judiciária de Juazeiro"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Curaçá",
+   "subsecao": "Subseção Judiciária de Juazeiro"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Pilão Arcado",
+   "subsecao": "Subseção Judiciária de Juazeiro"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Remanso",
+   "subsecao": "Subseção Judiciária de Juazeiro"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Sento Sé",
+   "subsecao": "Subseção Judiciária de Juazeiro"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Sobradinho",
+   "subsecao": "Subseção Judiciária de Juazeiro"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Uauá",
+   "subsecao": "Subseção Judiciária de Juazeiro"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Paulo Afonso",
+   "subsecao": "Subseção Judiciária de Paulo Afonso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Abaré",
+   "subsecao": "Subseção Judiciária de Paulo Afonso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Adustina",
+   "subsecao": "Subseção Judiciária de Paulo Afonso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Antas",
+   "subsecao": "Subseção Judiciária de Paulo Afonso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Banzaê",
+   "subsecao": "Subseção Judiciária de Paulo Afonso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Canudos",
+   "subsecao": "Subseção Judiciária de Paulo Afonso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Chorrochó",
+   "subsecao": "Subseção Judiciária de Paulo Afonso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Cícero Dantas",
+   "subsecao": "Subseção Judiciária de Paulo Afonso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Coronel João Sá",
+   "subsecao": "Subseção Judiciária de Paulo Afonso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Euclides da Cunha",
+   "subsecao": "Subseção Judiciária de Paulo Afonso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Fátima",
+   "subsecao": "Subseção Judiciária de Paulo Afonso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Glória",
+   "subsecao": "Subseção Judiciária de Paulo Afonso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Heliópolis",
+   "subsecao": "Subseção Judiciária de Paulo Afonso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Jeremoabo",
+   "subsecao": "Subseção Judiciária de Paulo Afonso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Macururé",
+   "subsecao": "Subseção Judiciária de Paulo Afonso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Novo Triunfo",
+   "subsecao": "Subseção Judiciária de Paulo Afonso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Paripiranga",
+   "subsecao": "Subseção Judiciária de Paulo Afonso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Pedro Alexandre",
+   "subsecao": "Subseção Judiciária de Paulo Afonso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Quijingue",
+   "subsecao": "Subseção Judiciária de Paulo Afonso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Rodelas",
+   "subsecao": "Subseção Judiciária de Paulo Afonso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Santa Brígida",
+   "subsecao": "Subseção Judiciária de Paulo Afonso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Sítio do Quinto",
+   "subsecao": "Subseção Judiciária de Paulo Afonso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Tucano",
+   "subsecao": "Subseção Judiciária de Paulo Afonso"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Teixeira de Freitas",
+   "subsecao": "Subseção Judiciária de Teixeira de Freitas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Alcobaça",
+   "subsecao": "Subseção Judiciária de Teixeira de Freitas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Caravelas",
+   "subsecao": "Subseção Judiciária de Teixeira de Freitas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ibirapuã",
+   "subsecao": "Subseção Judiciária de Teixeira de Freitas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itamaraju",
+   "subsecao": "Subseção Judiciária de Teixeira de Freitas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itanhém",
+   "subsecao": "Subseção Judiciária de Teixeira de Freitas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Lajedão",
+   "subsecao": "Subseção Judiciária de Teixeira de Freitas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Medeiros Neto",
+   "subsecao": "Subseção Judiciária de Teixeira de Freitas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Mucuri",
+   "subsecao": "Subseção Judiciária de Teixeira de Freitas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Nova Viçosa",
+   "subsecao": "Subseção Judiciária de Teixeira de Freitas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Prado",
+   "subsecao": "Subseção Judiciária de Teixeira de Freitas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Vereda",
+   "subsecao": "Subseção Judiciária de Teixeira de Freitas"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Vitória da Conquista",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Abaíra",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Anagé",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Aracatu",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Barra da Estiva",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Barra do Choça",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Belo Campo",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Boa Nova",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Bom Jesus da Serra",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Brumado",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Caatiba",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Caetanos",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Cândido Sales",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Caraíbas",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Condeúba",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Cordeiros",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Dom Basílio",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Encruzilhada",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Guajeru",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itambé",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itapetinga",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Itarantim",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ituaçu",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Jussiape",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Livramento de Nossa Senhora",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Macarani",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Maetinga",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Maiquinique",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Malhada de Pedras",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Mirante",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Piripá",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Planalto",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Poções",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Presidente Jânio Quadros",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Ribeirão do Largo",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Rio de Contas",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Tanhaçu",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "BA",
+   "municipio": "Tremedal",
+   "subsecao": "Subseção Judiciária de Vitória da Conquista"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Goiânia",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Abadia de Goiás",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Adelândia",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Americano do Brasil",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Amorinópolis",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Anhanguera",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Anicuns",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Araçu",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Aragarças",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Aragoiânia",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Araguapaz",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Arenópolis",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Aruanã",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Aurilândia",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Avelinópolis",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Baliza",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Bela Vista de Goiás",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Bom Jardim de Goiás",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Bonfinópolis",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Brazabrantes",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Britânia",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Buriti de Goiás",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Cachoeira de Goiás",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Caldas Novas",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Caldazinha",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Campestre de Goiás",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Campo Alegre de Goiás",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Catalão",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Caturaí",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Cezarina",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Córrego do Ouro",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Corumbaíba",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Cristianópolis",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Cromínia",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Cumari",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Damolândia",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Davinópolis",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Diorama",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Edealina",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Edéia",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Faina",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Fazenda Nova",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Firminópolis",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Goianápolis",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Goiandira",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Goianésia",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Goianira",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Goiás",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Guapó",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Guaraíta",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Heitoraí",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Indiara",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Inhumas",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Ipameri",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Iporá",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Israelândia",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Itaberaí",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Itaguari",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Itaguaru",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Itapirapuã",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Itapuranga",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Itauçu",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Ivolândia",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Jandaia",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Jaraguá",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Jaupaci",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Jesúpolis",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Jussara",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Leopoldo de Bulhões",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Mairipotaba",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Matrinchã",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Moiporá",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Montes Claros de Goiás",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Morro Agudo de Goiás",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Mossâmedes",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Mozarlândia",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Nazário",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Nerópolis",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Nova Aurora",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Nova Veneza",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Novo Brasil",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Orizona",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Ouvidor",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Palmeiras de Goiás",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Palmelo",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Palminópolis",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Paraúna",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Petrolina de Goiás",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Piracanjuba",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Piranhas",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Pires do Rio",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Pontalina",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Professor Jamil",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Rianápolis",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Rio Quente",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Sanclerlândia",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Santa Bárbara de Goiás",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Santa Cruz de Goiás",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Santa Fé de Goiás",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Santa Rosa de Goiás",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Santo Antônio de Goiás",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "São João da Paraúna",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "São Luís de Montes Belos",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "São Miguel do Passa Quatro",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "São Patrício",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Senador Canedo",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Silvânia",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Taquaral de Goiás",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Terezópolis de Goiás",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Três Ranchos",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Trindade",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Turvânia",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Uruana",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Urutaí",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Varjão",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Vianópolis",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Vila Propício",
+   "subsecao": "Seção Judiciária de Goiás"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Anápolis",
+   "subsecao": "Subseção Judiciária de Anápolis"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Abadiânia",
+   "subsecao": "Subseção Judiciária de Anápolis"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Águas Lindas de Goiás",
+   "subsecao": "Subseção Judiciária de Anápolis"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Alexânia",
+   "subsecao": "Subseção Judiciária de Anápolis"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Campo Limpo de Goiás",
+   "subsecao": "Subseção Judiciária de Anápolis"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Cocalzinho de Goiás",
+   "subsecao": "Subseção Judiciária de Anápolis"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Corumbá de Goiás",
+   "subsecao": "Subseção Judiciária de Anápolis"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Gameleira de Goiás",
+   "subsecao": "Subseção Judiciária de Anápolis"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Ouro Verde de Goiás",
+   "subsecao": "Subseção Judiciária de Anápolis"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Pirenópolis",
+   "subsecao": "Subseção Judiciária de Anápolis"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Santo Antônio do Descoberto",
+   "subsecao": "Subseção Judiciária de Anápolis"
+  },
+  {
+   "uf": "GO",
+   "municipio": "São Francisco de Goiás",
+   "subsecao": "Subseção Judiciária de Anápolis"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Aparecida de Goiânia",
+   "subsecao": "Subseção Judiciária de Aparecida de Goiânia"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Hidrolândia",
+   "subsecao": "Subseção Judiciária de Aparecida de Goiânia"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Formosa",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Água Fria de Goiás",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Alto Paraíso de Goiás",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Alvorada do Norte",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Buritinópolis",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Cabeceiras",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Campos Belos",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Cavalcante",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Damianópolis",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Divinópolis de Goiás",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Flores de Goiás",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Guarani de Goiás",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Iaciara",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Mambaí",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Monte Alegre de Goiás",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Nova Roma",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Planaltina",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Posse",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "São Domingos",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "São João d’Aliança",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Simolândia",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Sítio d’Abadia",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Teresina de Goiás",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Vila Boa",
+   "subsecao": "Subseção Judiciária de Formosa"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Itumbiara",
+   "subsecao": "Subseção Judiciária de Itumbiara"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Água Limpa",
+   "subsecao": "Subseção Judiciária de Itumbiara"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Aloândia",
+   "subsecao": "Subseção Judiciária de Itumbiara"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Bom Jesus de Goiás",
+   "subsecao": "Subseção Judiciária de Itumbiara"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Buriti Alegre",
+   "subsecao": "Subseção Judiciária de Itumbiara"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Cachoeira Dourada",
+   "subsecao": "Subseção Judiciária de Itumbiara"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Goiatuba",
+   "subsecao": "Subseção Judiciária de Itumbiara"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Inaciolândia",
+   "subsecao": "Subseção Judiciária de Itumbiara"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Joviânia",
+   "subsecao": "Subseção Judiciária de Itumbiara"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Marzagão",
+   "subsecao": "Subseção Judiciária de Itumbiara"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Morrinhos",
+   "subsecao": "Subseção Judiciária de Itumbiara"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Panamá",
+   "subsecao": "Subseção Judiciária de Itumbiara"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Vicentinópolis",
+   "subsecao": "Subseção Judiciária de Itumbiara"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Aparecida do Rio Doce",
+   "subsecao": "Subseção Judiciária de Jataí"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Aporé",
+   "subsecao": "Subseção Judiciária de Jataí"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Cachoeira Alta",
+   "subsecao": "Subseção Judiciária de Jataí"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Caçu",
+   "subsecao": "Subseção Judiciária de Jataí"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Caiapônia",
+   "subsecao": "Subseção Judiciária de Jataí"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Chapadão do Céu",
+   "subsecao": "Subseção Judiciária de Jataí"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Doverlândia",
+   "subsecao": "Subseção Judiciária de Jataí"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Itajá",
+   "subsecao": "Subseção Judiciária de Jataí"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Itarumã",
+   "subsecao": "Subseção Judiciária de Jataí"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Lagoa Santa",
+   "subsecao": "Subseção Judiciária de Jataí"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Mineiros",
+   "subsecao": "Subseção Judiciária de Jataí"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Palestina de Goiás",
+   "subsecao": "Subseção Judiciária de Jataí"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Paranaiguara",
+   "subsecao": "Subseção Judiciária de Jataí"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Perolândia",
+   "subsecao": "Subseção Judiciária de Jataí"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Portelândia",
+   "subsecao": "Subseção Judiciária de Jataí"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Santa Rita do Araguaia",
+   "subsecao": "Subseção Judiciária de Jataí"
+  },
+  {
+   "uf": "GO",
+   "municipio": "São Simão",
+   "subsecao": "Subseção Judiciária de Jataí"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Serranópolis",
+   "subsecao": "Subseção Judiciária de Jataí"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Luziânia",
+   "subsecao": "Subseção Judiciária de Luziânia"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Cidade Ocidental",
+   "subsecao": "Subseção Judiciária de Luziânia"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Cristalina",
+   "subsecao": "Subseção Judiciária de Luziânia"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Mimoso de Goiás",
+   "subsecao": "Subseção Judiciária de Luziânia"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Novo Gama",
+   "subsecao": "Subseção Judiciária de Luziânia"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Padre Bernardo",
+   "subsecao": "Subseção Judiciária de Luziânia"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Valparaíso de Goiás",
+   "subsecao": "Subseção Judiciária de Luziânia"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Rio Verde",
+   "subsecao": "Subseção Judiciária de Rio Verde"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Acreúna",
+   "subsecao": "Subseção Judiciária de Rio Verde"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Castelândia",
+   "subsecao": "Subseção Judiciária de Rio Verde"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Gouvelândia",
+   "subsecao": "Subseção Judiciária de Rio Verde"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Maurilândia",
+   "subsecao": "Subseção Judiciária de Rio Verde"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Montividiu",
+   "subsecao": "Subseção Judiciária de Rio Verde"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Porteirão",
+   "subsecao": "Subseção Judiciária de Rio Verde"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Quirinópolis",
+   "subsecao": "Subseção Judiciária de Rio Verde"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Santa Helena de Goiás",
+   "subsecao": "Subseção Judiciária de Rio Verde"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Santo Antônio da Barra",
+   "subsecao": "Subseção Judiciária de Rio Verde"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Turvelândia",
+   "subsecao": "Subseção Judiciária de Rio Verde"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Uruaçu",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Alto Horizonte",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Amaralina",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Barro Alto",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Bonópolis",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Campinaçu",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Campinorte",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Campos Verdes",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Carmo do Rio Verde",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Ceres",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Colinas do Sul",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Crixás",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Estrela do Norte",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Formoso",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Guarinos",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Hidrolina",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Ipiranga de Goiás",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Itapaci",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Mara Rosa",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Minaçu",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Montividiu do Norte",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Mundo Novo",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Mutunópolis",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Niquelândia",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Nova América",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Nova Crixás",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Nova Glória",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Nova Iguaçu de Goiás",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Novo Planalto",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Pilar de Goiás",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Porangatu",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Rialma",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Rubiataba",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Santa Isabel",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Santa Rita do Novo Destino",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Santa Tereza de Goiás",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Santa Terezinha de Goiás",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "São Luíz do Norte",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "São Miguel do Araguaia",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Trombas",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "GO",
+   "municipio": "Uirapuru",
+   "subsecao": "Subseção Judiciária de Uruaçu"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São Luis",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Água Doce do Maranhão",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Alcântara",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Alto Alegre do Pindaré",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Amapá do Maranhão",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Anajatuba",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Anapurus",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Apicum-Açu",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Araguanã",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Araioses",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Arame",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Arari",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Axixá",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Bacabeira",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Bacuri",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Bacurituba",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Barra do Corda",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Barreirinhas",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Bela Vista do Maranhão",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Belágua",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Bequimão",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Bernardo do Mearim",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Boa Vista do Gurupi",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Bom Jardim",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Bom Jesus das Selvas",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Brejo",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Buriti",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Buriticupu",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Cachoeira Grande",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Cajapió",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Cajari",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Cândido Mendes",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Cantanhede",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Capinzal do Norte",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Carutapera",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Cedral",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Central do Maranhão",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Centro do Guilherme",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Centro Novo do Maranhão",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Chapadinha",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Coroatá",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Cururupu",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Dom Pedro",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Fernando Falcão",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Fortuna",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Godofredo Viana",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Governador Luiz Rocha",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Governador Newton Bello",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Governador Nunes Freire",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Graça Aranha",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Guimarães",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Humberto de Campos",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Icatu",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Igarapé do Meio",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Itaipava do Grajaú",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Itapecuru Mirim",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Jenipapo dos Vieiras",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Joselândia",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Junco do Maranhão",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Lima Campos",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Luís Domingues",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Magalhães de Almeida",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Maracaçumé",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Marajá do Sena",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Maranhãozinho",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Mata Roma",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Matinha",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Matões do Norte",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Milagres do Maranhão",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Miranda do Norte",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Mirinzal",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Monção",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Morros",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Nina Rodrigues",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Nova Olinda do Maranhão",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Olinda Nova do Maranhão",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Paço do Lumiar",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Palmeirândia",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Paulino Neves",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Pedreiras",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Pedro do Rosário",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Penalva",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Peri Mirim",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Pindaré-Mirim",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Pinheiro",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Pirapemas",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Porto Rico do Maranhão",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Presidente Dutra",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Presidente Juscelino",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Presidente Médici",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Presidente Sarney",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Presidente Vargas",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Primeira Cruz",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Raposa",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Rosário",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Santa Filomena do Maranhão",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Santa Helena",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Santa Inês",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Santa Luzia",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Santa Luzia do Paruá",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Santa Quitéria do Maranhão",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Santa Rita",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Santana do Maranhão",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Santo Amaro do Maranhão",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Santo Antônio dos Lopes",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São Benedito do Rio Preto",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São Bento",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São Bernardo",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São Domingos do Maranhão",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São João Batista",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São João do Carú",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São José de Ribamar",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São José dos Basílios",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São Vicente Ferrer",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Serrano do Maranhão",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Trizidela do Vale",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Tufilândia",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Tuntum",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Turiaçu",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Turilândia",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Tutóia",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Urbano Santos",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Vargem Grande",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Viana",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Vitória do Mearim",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Zé Doca",
+   "subsecao": "Seção Judiciária do Maranhão"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Bacabal",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Altamira do Maranhão",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Alto Alegre do Maranhão",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Bom Lugar",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Brejo de Areia",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Conceição do Lago-Açu",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Esperantinópolis",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Igarapé Grande",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Lago da Pedra",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Lago do Junco",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Lago dos Rodrigues",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Lago Verde",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Lagoa Grande do Maranhão",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Olho d'Água das Cunhãs",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Paulo Ramos",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Peritoró",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Pio XII",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Poção de Pedras",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São Luís Gonzaga do Maranhão",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São Mateus do Maranhão",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São Raimundo do Doca Bezerra",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São Roberto",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Satubinha",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Vitorino Freire",
+   "subsecao": "Subseção Judiciária de Bacabal"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Balsas",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Alto Parnaíba",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Barão de Grajaú",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Benedito Leite",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Carolina",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Colinas",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Feira Nova do Maranhão",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Formosa da Serra Negra",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Fortaleza dos Nogueiras",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Grajaú",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Jatobá",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Loreto",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Mirador",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Nova Colinas",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Nova Iorque",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Paraibano",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Pastos Bons",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Riachão",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Sambaíba",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São Domingos do Azeitão",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São Félix de Balsas",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São João dos Patos",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São Pedro dos Crentes",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São Raimundo das Mangabeiras",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Sucupira do Norte",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Tasso Fragoso",
+   "subsecao": "Subseção Judiciária de Balsas"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Caxias",
+   "subsecao": "Subseção Judiciária de Caxias"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Afonso Cunha",
+   "subsecao": "Subseção Judiciária de Caxias"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Aldeias Altas",
+   "subsecao": "Subseção Judiciária de Caxias"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Buriti Bravo",
+   "subsecao": "Subseção Judiciária de Caxias"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Codó",
+   "subsecao": "Subseção Judiciária de Caxias"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Coelho Neto",
+   "subsecao": "Subseção Judiciária de Caxias"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Duque Bacelar",
+   "subsecao": "Subseção Judiciária de Caxias"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Gonçalves Dias",
+   "subsecao": "Subseção Judiciária de Caxias"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Governador Archer",
+   "subsecao": "Subseção Judiciária de Caxias"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Governador Eugênio Barros",
+   "subsecao": "Subseção Judiciária de Caxias"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Lagoa do Mato",
+   "subsecao": "Subseção Judiciária de Caxias"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Matões",
+   "subsecao": "Subseção Judiciária de Caxias"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Parnarama",
+   "subsecao": "Subseção Judiciária de Caxias"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Passagem Franca",
+   "subsecao": "Subseção Judiciária de Caxias"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São Francisco do Maranhão",
+   "subsecao": "Subseção Judiciária de Caxias"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São João do Soter",
+   "subsecao": "Subseção Judiciária de Caxias"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Senador Alexandre Costa",
+   "subsecao": "Subseção Judiciária de Caxias"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Sucupira do Riachão",
+   "subsecao": "Subseção Judiciária de Caxias"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Timbiras",
+   "subsecao": "Subseção Judiciária de Caxias"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Timon",
+   "subsecao": "Subseção Judiciária de Caxias"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Imperatriz",
+   "subsecao": "Subseção Judiciária de Imperatriz"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Açailândia",
+   "subsecao": "Subseção Judiciária de Imperatriz"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Amarante do Maranhão",
+   "subsecao": "Subseção Judiciária de Imperatriz"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Buritirana",
+   "subsecao": "Subseção Judiciária de Imperatriz"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Campestre do Maranhão",
+   "subsecao": "Subseção Judiciária de Imperatriz"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Cidelândia",
+   "subsecao": "Subseção Judiciária de Imperatriz"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Davinópolis",
+   "subsecao": "Subseção Judiciária de Imperatriz"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Estreito",
+   "subsecao": "Subseção Judiciária de Imperatriz"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Governador Edison Lobão",
+   "subsecao": "Subseção Judiciária de Imperatriz"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Itinga do Maranhão",
+   "subsecao": "Subseção Judiciária de Imperatriz"
+  },
+  {
+   "uf": "MA",
+   "municipio": "João Lisboa",
+   "subsecao": "Subseção Judiciária de Imperatriz"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Lajeado Novo",
+   "subsecao": "Subseção Judiciária de Imperatriz"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Montes Altos",
+   "subsecao": "Subseção Judiciária de Imperatriz"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Porto Franco",
+   "subsecao": "Subseção Judiciária de Imperatriz"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Ribamar Fiquene",
+   "subsecao": "Subseção Judiciária de Imperatriz"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São Francisco do Brejão",
+   "subsecao": "Subseção Judiciária de Imperatriz"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São João do Paraíso",
+   "subsecao": "Subseção Judiciária de Imperatriz"
+  },
+  {
+   "uf": "MA",
+   "municipio": "São Pedro da Água Branca",
+   "subsecao": "Subseção Judiciária de Imperatriz"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Senador La Rocque",
+   "subsecao": "Subseção Judiciária de Imperatriz"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Sítio Novo",
+   "subsecao": "Subseção Judiciária de Imperatriz"
+  },
+  {
+   "uf": "MA",
+   "municipio": "Vila Nova dos Martírios",
+   "subsecao": "Subseção Judiciária de Imperatriz"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Cuiabá",
+   "subsecao": "Seção Judiciária de Mato Grosso"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Acorizal",
+   "subsecao": "Seção Judiciária de Mato Grosso"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Barão de Melgaço",
+   "subsecao": "Seção Judiciária de Mato Grosso"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Campo Verde",
+   "subsecao": "Seção Judiciária de Mato Grosso"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Campos de Júlio",
+   "subsecao": "Seção Judiciária de Mato Grosso"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Chapada dos Guimarães",
+   "subsecao": "Seção Judiciária de Mato Grosso"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Gaúcha do Norte",
+   "subsecao": "Seção Judiciária de Mato Grosso"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Jangada",
+   "subsecao": "Seção Judiciária de Mato Grosso"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Nossa Senhora do Livramento",
+   "subsecao": "Seção Judiciária de Mato Grosso"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Nova Brasilândia",
+   "subsecao": "Seção Judiciária de Mato Grosso"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Nova Ubiratã",
+   "subsecao": "Seção Judiciária de Mato Grosso"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Paranatinga",
+   "subsecao": "Seção Judiciária de Mato Grosso"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Planalto da Serra",
+   "subsecao": "Seção Judiciária de Mato Grosso"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Poconé",
+   "subsecao": "Seção Judiciária de Mato Grosso"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Primavera do Leste",
+   "subsecao": "Seção Judiciária de Mato Grosso"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Santo Antônio do Leverger",
+   "subsecao": "Seção Judiciária de Mato Grosso"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Sapezal",
+   "subsecao": "Seção Judiciária de Mato Grosso"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Tangará da Serra",
+   "subsecao": "Seção Judiciária de Mato Grosso"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Várzea Grande",
+   "subsecao": "Seção Judiciária de Mato Grosso"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Barra do Garças",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Água Boa",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Alto Boa Vista",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Araguaiana",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Bom Jesus do Araguaia",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Campinápolis",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Canabrava do Norte",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Canarana",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Cocalinho",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Confresa",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "General Carneiro",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Luciára",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Nova Nazaré",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Nova Xavantina",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Novo Santo Antônio",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Novo São Joaquim",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Pontal do Araguaia",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Ponte Branca",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Porto Alegre do Norte",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Querência",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Ribeirão Cascalheira",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Ribeirãozinho",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Santa Cruz do Xingu",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Santa Terezinha",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Santo Antônio do Leste",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "São Félix do Araguaia",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "São José do Xingu",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Serra Nova Dourada",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Tesouro",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Torixoréu",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Vila Rica",
+   "subsecao": "Subseção Judiciária de Barra do Garças"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Cáceres",
+   "subsecao": "Subseção Judiciária de Cáceres"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Araputanga",
+   "subsecao": "Subseção Judiciária de Cáceres"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Comodoro",
+   "subsecao": "Subseção Judiciária de Cáceres"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Conquista d’oeste",
+   "subsecao": "Subseção Judiciária de Cáceres"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Curvelândia",
+   "subsecao": "Subseção Judiciária de Cáceres"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Figueirópolis d’oeste",
+   "subsecao": "Subseção Judiciária de Cáceres"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Glória d’Oeste",
+   "subsecao": "Subseção Judiciária de Cáceres"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Indiavaí",
+   "subsecao": "Subseção Judiciária de Cáceres"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Jauru",
+   "subsecao": "Subseção Judiciária de Cáceres"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Lambari d’Oeste",
+   "subsecao": "Subseção Judiciária de Cáceres"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Mirassol d’Oeste",
+   "subsecao": "Subseção Judiciária de Cáceres"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Nova Lacerda",
+   "subsecao": "Subseção Judiciária de Cáceres"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Pontes",
+   "subsecao": "Subseção Judiciária de Cáceres"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Lacerda",
+   "subsecao": "Subseção Judiciária de Cáceres"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Porto Esperidião",
+   "subsecao": "Subseção Judiciária de Cáceres"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Porto Estrela",
+   "subsecao": "Subseção Judiciária de Cáceres"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Reserva do Cabaçal",
+   "subsecao": "Subseção Judiciária de Cáceres"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Rio Branco",
+   "subsecao": "Subseção Judiciária de Cáceres"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Salto do Céu",
+   "subsecao": "Subseção Judiciária de Cáceres"
+  },
+  {
+   "uf": "MT",
+   "municipio": "São José dos Quatro Marcos",
+   "subsecao": "Subseção Judiciária de Cáceres"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Vale de São Domingos",
+   "subsecao": "Subseção Judiciária de Cáceres"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Vila Bela da Santíssima Trindade",
+   "subsecao": "Subseção Judiciária de Cáceres"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Diamantino",
+   "subsecao": "Subseção Judiciária de Diamantino"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Alto Paraguai",
+   "subsecao": "Subseção Judiciária de Diamantino"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Arenápolis",
+   "subsecao": "Subseção Judiciária de Diamantino"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Barra do Bugres",
+   "subsecao": "Subseção Judiciária de Diamantino"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Campo Novo do Parecis",
+   "subsecao": "Subseção Judiciária de Diamantino"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Denise",
+   "subsecao": "Subseção Judiciária de Diamantino"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Itanhangá",
+   "subsecao": "Subseção Judiciária de Diamantino"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Nobres",
+   "subsecao": "Subseção Judiciária de Diamantino"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Nortelândia",
+   "subsecao": "Subseção Judiciária de Diamantino"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Nova Marilândia",
+   "subsecao": "Subseção Judiciária de Diamantino"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Nova Maringá",
+   "subsecao": "Subseção Judiciária de Diamantino"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Nova Mutum",
+   "subsecao": "Subseção Judiciária de Diamantino"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Nova Olímpia",
+   "subsecao": "Subseção Judiciária de Diamantino"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Rosário Oeste",
+   "subsecao": "Subseção Judiciária de Diamantino"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Santa Rita do Trivelato",
+   "subsecao": "Subseção Judiciária de Diamantino"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Santo Afonso",
+   "subsecao": "Subseção Judiciária de Diamantino"
+  },
+  {
+   "uf": "MT",
+   "municipio": "São José do Rio Claro",
+   "subsecao": "Subseção Judiciária de Diamantino"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Tapurah",
+   "subsecao": "Subseção Judiciária de Diamantino"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Juína",
+   "subsecao": "Subseção Judiciária de Juína"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Aripuanã",
+   "subsecao": "Subseção Judiciária de Juína"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Brasnorte",
+   "subsecao": "Subseção Judiciária de Juína"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Castanheira",
+   "subsecao": "Subseção Judiciária de Juína"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Colniza",
+   "subsecao": "Subseção Judiciária de Juína"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Cotriguaçu",
+   "subsecao": "Subseção Judiciária de Juína"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Juara",
+   "subsecao": "Subseção Judiciária de Juína"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Juruena",
+   "subsecao": "Subseção Judiciária de Juína"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Novo Horizonte do Norte",
+   "subsecao": "Subseção Judiciária de Juína"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Porto dos Gaúchos",
+   "subsecao": "Subseção Judiciária de Juína"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Rondolândia",
+   "subsecao": "Subseção Judiciária de Juína"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Tabaporã",
+   "subsecao": "Subseção Judiciária de Juína"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Rondonópolis",
+   "subsecao": "Subseção Judiciária de Rondonópolis"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Alto Araguaia",
+   "subsecao": "Subseção Judiciária de Rondonópolis"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Alto Garças",
+   "subsecao": "Subseção Judiciária de Rondonópolis"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Alto Taquari",
+   "subsecao": "Subseção Judiciária de Rondonópolis"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Araguainha",
+   "subsecao": "Subseção Judiciária de Rondonópolis"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Dom Aquino",
+   "subsecao": "Subseção Judiciária de Rondonópolis"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Guiratinga",
+   "subsecao": "Subseção Judiciária de Rondonópolis"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Itiquira",
+   "subsecao": "Subseção Judiciária de Rondonópolis"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Jaciara",
+   "subsecao": "Subseção Judiciária de Rondonópolis"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Juscimeira",
+   "subsecao": "Subseção Judiciária de Rondonópolis"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Pedra Preta",
+   "subsecao": "Subseção Judiciária de Rondonópolis"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Poxoréo",
+   "subsecao": "Subseção Judiciária de Rondonópolis"
+  },
+  {
+   "uf": "MT",
+   "municipio": "São José do Povo",
+   "subsecao": "Subseção Judiciária de Rondonópolis"
+  },
+  {
+   "uf": "MT",
+   "municipio": "São Pedro da Cipa",
+   "subsecao": "Subseção Judiciária de Rondonópolis"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Sinop",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Alta Floresta",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Apiacás",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Boa Esperança do Norte",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Carlinda",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Cláudia",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Colíder",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Feliz Natal",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Guarantã do Norte",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Ipiranga do Norte",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Itaúba",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Lucas do Rio Verde",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Marcelândia",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Matupá",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Nova Bandeirantes",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Nova Canaã do Norte",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Nova Guarita",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Nova Monte Verde",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Nova Santa Helena",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Novo Mundo",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Paranaíta",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Peixoto de Azevedo",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Santa Carmem",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Sorriso",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Terra Nova do Norte",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "União do Sul",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "MT",
+   "municipio": "Vera",
+   "subsecao": "Subseção Judiciária de Sinop"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Belém",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Abaetetuba",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Acará",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Afuá",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Anajás",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Ananindeua",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Bagre",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Baião",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Barcarena",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Benevides",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Breves",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Bujaru",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Cachoeira do Arari",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Cametá",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Chaves",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Colares",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Concórdia do Pará",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Curralinho",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Igarapé-Miri",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Limoeiro do Ajuru",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Marituba",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Melgaço",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Mocajuba",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Moju",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Muaná",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Oeiras do Pará",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Ponta de Pedras",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Portel",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Salvaterra",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Santa Bárbara do Pará",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Santa Cruz do Arari",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Santa Isabel do Pará",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Santo Antônio do Tauá",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "São Caetano de Odivelas",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "São Sebastião da Boa Vista",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Soure",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Tomé-Açu",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Vigia",
+   "subsecao": "Seção Judiciária do Pará"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Altamira",
+   "subsecao": "Subseção Judiciária de Altamira"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Anapu",
+   "subsecao": "Subseção Judiciária de Altamira"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Brasil Novo",
+   "subsecao": "Subseção Judiciária de Altamira"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Medicilândia",
+   "subsecao": "Subseção Judiciária de Altamira"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Porto de Moz",
+   "subsecao": "Subseção Judiciária de Altamira"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Senador José Porfírio",
+   "subsecao": "Subseção Judiciária de Altamira"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Vitória do Xingu",
+   "subsecao": "Subseção Judiciária de Altamira"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Castanhal",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Augusto Corrêa",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Bonito",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Bragança",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Capanema",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Curuçá",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Igarapé-Açu",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Inhangapi",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Magalhães Barata",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Maracanã",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Marapanim",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Nova Timboteua",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Peixe-Boi",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Primavera",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Quatipuru",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Salinópolis",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Santa Maria do Pará",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Santarém Novo",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "São Domingos do Capim",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "São Francisco do Pará",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "São João da Ponta",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "São João de Pirabas",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Terra Alta",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Tracuateua",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Viseu",
+   "subsecao": "Subseção Judiciária de Castanhal"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Itaituba",
+   "subsecao": "Subseção Judiciária de Itaituba"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Aveiro",
+   "subsecao": "Subseção Judiciária de Itaituba"
+  },
+  {
+   "uf": "PA",
+   "municipio": "todo o Distrito de Castelo de Sonhos",
+   "subsecao": "Subseção Judiciária de Itaituba"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Jacareacanga",
+   "subsecao": "Subseção Judiciária de Itaituba"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Novo Progresso",
+   "subsecao": "Subseção Judiciária de Itaituba"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Trairão",
+   "subsecao": "Subseção Judiciária de Itaituba"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Marabá",
+   "subsecao": "Subseção Judiciária de Marabá"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Abel Figueiredo",
+   "subsecao": "Subseção Judiciária de Marabá"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Bom Jesus do Tocantins",
+   "subsecao": "Subseção Judiciária de Marabá"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Brejo Grande do Araguaia",
+   "subsecao": "Subseção Judiciária de Marabá"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Canaã dos Carajás",
+   "subsecao": "Subseção Judiciária de Marabá"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Curionópolis",
+   "subsecao": "Subseção Judiciária de Marabá"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Eldorado dos Carajás",
+   "subsecao": "Subseção Judiciária de Marabá"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Itupiranga",
+   "subsecao": "Subseção Judiciária de Marabá"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Nova Ipixuna",
+   "subsecao": "Subseção Judiciária de Marabá"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Palestina do Pará",
+   "subsecao": "Subseção Judiciária de Marabá"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Parauapebas",
+   "subsecao": "Subseção Judiciária de Marabá"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Piçarra",
+   "subsecao": "Subseção Judiciária de Marabá"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Rondon do Pará",
+   "subsecao": "Subseção Judiciária de Marabá"
+  },
+  {
+   "uf": "PA",
+   "municipio": "São Domingos do Araguaia",
+   "subsecao": "Subseção Judiciária de Marabá"
+  },
+  {
+   "uf": "PA",
+   "municipio": "São Geraldo do Araguaia",
+   "subsecao": "Subseção Judiciária de Marabá"
+  },
+  {
+   "uf": "PA",
+   "municipio": "São João do Araguaia",
+   "subsecao": "Subseção Judiciária de Marabá"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Paragominas",
+   "subsecao": "Subseção Judiciária de Paragominas"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Aurora do Pará",
+   "subsecao": "Subseção Judiciária de Paragominas"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Cachoeira do Piriá",
+   "subsecao": "Subseção Judiciária de Paragominas"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Capitão Poço",
+   "subsecao": "Subseção Judiciária de Paragominas"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Dom Eliseu",
+   "subsecao": "Subseção Judiciária de Paragominas"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Garrafão do Norte",
+   "subsecao": "Subseção Judiciária de Paragominas"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Ipixuna do Pará",
+   "subsecao": "Subseção Judiciária de Paragominas"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Irituia",
+   "subsecao": "Subseção Judiciária de Paragominas"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Mãe do Rio",
+   "subsecao": "Subseção Judiciária de Paragominas"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Nova Esperança do Piriá",
+   "subsecao": "Subseção Judiciária de Paragominas"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Ourém",
+   "subsecao": "Subseção Judiciária de Paragominas"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Santa Luzia do Pará",
+   "subsecao": "Subseção Judiciária de Paragominas"
+  },
+  {
+   "uf": "PA",
+   "municipio": "São Miguel do Guamá",
+   "subsecao": "Subseção Judiciária de Paragominas"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Ulianópolis",
+   "subsecao": "Subseção Judiciária de Paragominas"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Redenção",
+   "subsecao": "Subseção Judiciária de Redenção"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Água Azul do Norte",
+   "subsecao": "Subseção Judiciária de Redenção"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Bannach",
+   "subsecao": "Subseção Judiciária de Redenção"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Conceição do Araguaia",
+   "subsecao": "Subseção Judiciária de Redenção"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Cumaru do Norte",
+   "subsecao": "Subseção Judiciária de Redenção"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Floresta do Araguaia",
+   "subsecao": "Subseção Judiciária de Redenção"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Ourilândia do Norte",
+   "subsecao": "Subseção Judiciária de Redenção"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Pau d’Arco",
+   "subsecao": "Subseção Judiciária de Redenção"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Rio Maria",
+   "subsecao": "Subseção Judiciária de Redenção"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Santa Maria das Barreiras",
+   "subsecao": "Subseção Judiciária de Redenção"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Santana do Araguaia",
+   "subsecao": "Subseção Judiciária de Redenção"
+  },
+  {
+   "uf": "PA",
+   "municipio": "São Félix do Xingu",
+   "subsecao": "Subseção Judiciária de Redenção"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Sapucaia",
+   "subsecao": "Subseção Judiciária de Redenção"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Tucumã",
+   "subsecao": "Subseção Judiciária de Redenção"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Xinguara",
+   "subsecao": "Subseção Judiciária de Redenção"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Santarém",
+   "subsecao": "Subseção Judiciária de Santarém"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Alenquer",
+   "subsecao": "Subseção Judiciária de Santarém"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Almeirim",
+   "subsecao": "Subseção Judiciária de Santarém"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Belterra",
+   "subsecao": "Subseção Judiciária de Santarém"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Curuá",
+   "subsecao": "Subseção Judiciária de Santarém"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Faro",
+   "subsecao": "Subseção Judiciária de Santarém"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Gurupá",
+   "subsecao": "Subseção Judiciária de Santarém"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Juruti",
+   "subsecao": "Subseção Judiciária de Santarém"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Mojuí dos Campos",
+   "subsecao": "Subseção Judiciária de Santarém"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Monte Alegre",
+   "subsecao": "Subseção Judiciária de Santarém"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Óbidos",
+   "subsecao": "Subseção Judiciária de Santarém"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Oriximiná",
+   "subsecao": "Subseção Judiciária de Santarém"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Placas",
+   "subsecao": "Subseção Judiciária de Santarém"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Prainha",
+   "subsecao": "Subseção Judiciária de Santarém"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Rurópolis",
+   "subsecao": "Subseção Judiciária de Santarém"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Terra Santa",
+   "subsecao": "Subseção Judiciária de Santarém"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Uruará",
+   "subsecao": "Subseção Judiciária de Santarém"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Tucuruí",
+   "subsecao": "Subseção Judiciária de Tucuruí"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Breu Branco",
+   "subsecao": "Subseção Judiciária de Tucuruí"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Goianésia do Pará",
+   "subsecao": "Subseção Judiciária de Tucuruí"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Jacundá",
+   "subsecao": "Subseção Judiciária de Tucuruí"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Novo Repartimento",
+   "subsecao": "Subseção Judiciária de Tucuruí"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Pacajá",
+   "subsecao": "Subseção Judiciária de Tucuruí"
+  },
+  {
+   "uf": "PA",
+   "municipio": "Tailândia",
+   "subsecao": "Subseção Judiciária de Tucuruí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Teresina",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Agricolândia",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Água Branca",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Alto Longá",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Altos",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Angical do Piauí",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Assunção do Piauí",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Barras",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Barro Duro",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Batalha",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Beneditinos",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Boa Hora",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Boqueirão do Piauí",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Brasileira",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Buriti dos Montes",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Cabeceiras do Piauí",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Campo Largo do Piauí",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Campo Maior",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Capitão de Campos",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Castelo do Piauí",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Cocal de Telha",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Coivaras",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Curralinhos",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Demerval Lobão",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Domingos Mourão",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Elesbão Veloso",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Esperantina",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Hugo Napoleão",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Jatobá do Piauí",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Joca Marques",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "José de Freitas",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Juazeiro do Piauí",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Lagoa Alegre",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Lagoa de São Francisco",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Lagoa do Piauí",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Lagoinha do Piauí",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Luzilândia",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Madeiro",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Matias Olímpio",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Miguel Alves",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Miguel Leão",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Milton Brandão",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Monsenhor Gil",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Morro do Chapéu do Piauí",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Nazária",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Nossa Senhora de Nazaré",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Nossa Senhora dos Remédios",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Novo Santo Antônio",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Olho D'Água do Piauí",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Palmeirais",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Passagem Franca do Piauí",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Pau D'Arco do Piauí",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Pedro II",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Piripiri",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Porto",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Prata do Piauí",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Santa Cruz do Piauí",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Santa Cruz dos Milagres",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Santo Antônio dos Milagres",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "São Félix do Piauí",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "São Gonçalo do Piauí",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "São João da Serra",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "São João do Arraial",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "São Miguel da Baixa Grande",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "São Miguel do Tapuio",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "São Pedro do Piauí",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Sigefredo Pacheco",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "União",
+   "subsecao": "Seção Judiciária do Piauí"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Corrente",
+   "subsecao": "Subseção Judiciária de Corrente"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Avelino Lopes",
+   "subsecao": "Subseção Judiciária de Corrente"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Barreiras do Piauí",
+   "subsecao": "Subseção Judiciária de Corrente"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Bom Jesus",
+   "subsecao": "Subseção Judiciária de Corrente"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Cristalândia do Piauí",
+   "subsecao": "Subseção Judiciária de Corrente"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Cristino Castro",
+   "subsecao": "Subseção Judiciária de Corrente"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Curimatá",
+   "subsecao": "Subseção Judiciária de Corrente"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Currais",
+   "subsecao": "Subseção Judiciária de Corrente"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Gilbués",
+   "subsecao": "Subseção Judiciária de Corrente"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Júlio Borges",
+   "subsecao": "Subseção Judiciária de Corrente"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Monte Alegre do Piauí",
+   "subsecao": "Subseção Judiciária de Corrente"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Morro Cabeça no Tempo",
+   "subsecao": "Subseção Judiciária de Corrente"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Palmeira do Piauí",
+   "subsecao": "Subseção Judiciária de Corrente"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Parnaguá",
+   "subsecao": "Subseção Judiciária de Corrente"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Redenção do Gurguéia",
+   "subsecao": "Subseção Judiciária de Corrente"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Riacho Frio",
+   "subsecao": "Subseção Judiciária de Corrente"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Santa Filomena",
+   "subsecao": "Subseção Judiciária de Corrente"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Santa Luz",
+   "subsecao": "Subseção Judiciária de Corrente"
+  },
+  {
+   "uf": "PI",
+   "municipio": "São Gonçalo do Gurguéia",
+   "subsecao": "Subseção Judiciária de Corrente"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Sebastião Barros",
+   "subsecao": "Subseção Judiciária de Corrente"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Floriano",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Antônio Almeida",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Amarante",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Arraial",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Baixa Grande do Ribeiro",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Barra d'Alcântara",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Bertolínia",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Cajazeiras do Piauí",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Canavieira",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Conceição do Canindé",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Colônia do Gurguéia",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Colônia do Piauí",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Eliseu Martins",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Flores do Piauí",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Floresta do Piauí",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Francinópolis",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Francisco Ayres",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Guadalupe",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Isaías Coelho",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Itaueira",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Jardim do Mulato",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Jerumenha",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Landri Sales",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Manoel Emídio",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Marcos Parente",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Nazaré do Piauí",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Pavussu",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Oeiras",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Porto Alegre do Piauí",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Regeneração",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Ribeiro Gonçalves",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Rio Grande do Piauí",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Santa Rosa do Piauí",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Santo Inácio do Piauí",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "São Francisco do Piauí",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "São João da Varjota",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "São José do Peixe",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "São Miguel do Fidalgo",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Sebastião Leal",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Tanque do Piauí",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Uruçuí",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Várzea Grande",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Wall Ferraz",
+   "subsecao": "Subseção Judiciária de Floriano"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Parnaíba",
+   "subsecao": "Subseção Judiciária de Parnaíba"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Bom Princípio do Piauí",
+   "subsecao": "Subseção Judiciária de Parnaíba"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Buriti dos Lopes",
+   "subsecao": "Subseção Judiciária de Parnaíba"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Cajueiro da Praia",
+   "subsecao": "Subseção Judiciária de Parnaíba"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Caraúbas do Piauí",
+   "subsecao": "Subseção Judiciária de Parnaíba"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Caxingó",
+   "subsecao": "Subseção Judiciária de Parnaíba"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Cocal",
+   "subsecao": "Subseção Judiciária de Parnaíba"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Cocal dos Alves",
+   "subsecao": "Subseção Judiciária de Parnaíba"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Ilha Grande",
+   "subsecao": "Subseção Judiciária de Parnaíba"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Joaquim Pires",
+   "subsecao": "Subseção Judiciária de Parnaíba"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Luís Correia",
+   "subsecao": "Subseção Judiciária de Parnaíba"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Murici dos Portelas",
+   "subsecao": "Subseção Judiciária de Parnaíba"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Piracuruca",
+   "subsecao": "Subseção Judiciária de Parnaíba"
+  },
+  {
+   "uf": "PI",
+   "municipio": "São João da Fronteira",
+   "subsecao": "Subseção Judiciária de Parnaíba"
+  },
+  {
+   "uf": "PI",
+   "municipio": "São José do Divino",
+   "subsecao": "Subseção Judiciária de Parnaíba"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Picos",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Acauã",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Alagoinha do Piauí",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Alegrete do Piauí",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Aroazes",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Aroeiras do Itaim",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Belém do Piauí",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Betânia do Piauí",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Bocaina",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Caldeirão Grande do Piauí",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Campo Grande do Piauí",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Caridade do Piauí",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Curral Novo do Piauí",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Dom Expedito Lopes",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Francisco Macedo",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Francisco Santos",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Fronteiras",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Geminiano",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Inhuma",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Ipiranga do Piauí",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Itainópolis",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Jacobina do Piauí",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Jaicós",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Lagoa do Sítio",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Marcolândia",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Massapê do Piauí",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Monsenhor Hipólito",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Novo Oriente do Piauí",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Padre Marcos",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Paquetá",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Patos do Piauí",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Paulistana",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Pimenteiras",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Pio IX",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Santana do Piauí",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Santo Antônio de Lisboa",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "São João da Canabrava",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "São José do Piauí",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "São Julião",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "São Luís do Piauí",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Simões",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Sussuapara",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Valença do Piauí",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Vera Mendes",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Vila Nova do Piauí",
+   "subsecao": "Subseção Judiciária de Picos"
+  },
+  {
+   "uf": "PI",
+   "municipio": "São Raimundo Nonato",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Alvorada do Gurguéia",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Anísio de Abreu",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Bela Vista do Piauí",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Bonfim do Piauí",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Brejo do Piauí",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Campinas do Piauí",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Campo Alegre do Fidalgo",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Canto do Buriti",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Capitão Gervásio Oliveira",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Caracol",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Coronel José Dias",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Dirceu Arcoverde",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Dom Inocêncio",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Fartura do Piauí",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Guaribas",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "João Costa",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Jurema",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Lagoa do Barro do Piauí",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Nova Santa Rita",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Paes Landim",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Pajeú do Piauí",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Pedro Laurentino",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Queimada Nova",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Ribeira do Piauí",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "São Braz do Piauí",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "São Francisco de Assis do Piauí",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "São João do Piauí",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "São Lourenço do Piauí",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Simplício Mendes",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Socorro do Piauí",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Tamboril do Piauí",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "PI",
+   "municipio": "Várzea Branca",
+   "subsecao": "Subseção Judiciária de São Raimundo Nonato"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Porto Velho",
+   "subsecao": "Seção Judiciária de Rondônia"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Alto Paraíso",
+   "subsecao": "Seção Judiciária de Rondônia"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Ariquemes",
+   "subsecao": "Seção Judiciária de Rondônia"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Buritis",
+   "subsecao": "Seção Judiciária de Rondônia"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Cacaulândia",
+   "subsecao": "Seção Judiciária de Rondônia"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Campo Novo de Rondônia",
+   "subsecao": "Seção Judiciária de Rondônia"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Candeias do Jamari",
+   "subsecao": "Seção Judiciária de Rondônia"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Cujubim",
+   "subsecao": "Seção Judiciária de Rondônia"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Governador Jorge Teixeira",
+   "subsecao": "Seção Judiciária de Rondônia"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Guajará-Mirim",
+   "subsecao": "Seção Judiciária de Rondônia"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Itapuã do Oeste",
+   "subsecao": "Seção Judiciária de Rondônia"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Jaru",
+   "subsecao": "Seção Judiciária de Rondônia"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Machadinho d'Oeste",
+   "subsecao": "Seção Judiciária de Rondônia"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Monte Negro",
+   "subsecao": "Seção Judiciária de Rondônia"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Nova Mamoré",
+   "subsecao": "Seção Judiciária de Rondônia"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Rio Crespo",
+   "subsecao": "Seção Judiciária de Rondônia"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Theobroma",
+   "subsecao": "Seção Judiciária de Rondônia"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Vale do Anari",
+   "subsecao": "Seção Judiciária de Rondônia"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Ji-Paraná",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Alta Floresta D’Oeste",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Alto Alegre dos Parecis",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Alvorada d’Oeste",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Cacoal",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Castanheiras",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Costa Marques",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Ministro Andreazza",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Mirante da Serra",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Nova Brasilândia d’Oeste",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Nova União",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Novo Horizonte do Oeste",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Ouro Preto do Oeste",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Parecis",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Presidente Médici",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Primavera de Rondônia",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Rolim de Moura",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Santa Luzia d’Oeste",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "São Felipe d’Oeste",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "São Francisco do Guaporé",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "São Miguel do Guaporé",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Seringueiras",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Teixeirópolis",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Urupá",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Vale do Paraíso",
+   "subsecao": "Subseção Judiciária de Ji-Paraná"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Vilhena",
+   "subsecao": "Subseção Judiciária de Vilhena"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Cabixi",
+   "subsecao": "Subseção Judiciária de Vilhena"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Cerejeiras",
+   "subsecao": "Subseção Judiciária de Vilhena"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Chupinguaia",
+   "subsecao": "Subseção Judiciária de Vilhena"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Colorado do Oeste",
+   "subsecao": "Subseção Judiciária de Vilhena"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Corumbiara",
+   "subsecao": "Subseção Judiciária de Vilhena"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Espigão d’Oeste",
+   "subsecao": "Subseção Judiciária de Vilhena"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Pimenta Bueno",
+   "subsecao": "Subseção Judiciária de Vilhena"
+  },
+  {
+   "uf": "RO",
+   "municipio": "Pimenteiras do Oeste",
+   "subsecao": "Subseção Judiciária de Vilhena"
+  },
+  {
+   "uf": "RR",
+   "municipio": "Boa Vista",
+   "subsecao": "Seção Judiciária de Roraima"
+  },
+  {
+   "uf": "RR",
+   "municipio": "Alto Alegre",
+   "subsecao": "Seção Judiciária de Roraima"
+  },
+  {
+   "uf": "RR",
+   "municipio": "Amajari",
+   "subsecao": "Seção Judiciária de Roraima"
+  },
+  {
+   "uf": "RR",
+   "municipio": "Bonfim",
+   "subsecao": "Seção Judiciária de Roraima"
+  },
+  {
+   "uf": "RR",
+   "municipio": "Cantá",
+   "subsecao": "Seção Judiciária de Roraima"
+  },
+  {
+   "uf": "RR",
+   "municipio": "Caracaraí",
+   "subsecao": "Seção Judiciária de Roraima"
+  },
+  {
+   "uf": "RR",
+   "municipio": "Caroebe",
+   "subsecao": "Seção Judiciária de Roraima"
+  },
+  {
+   "uf": "RR",
+   "municipio": "Iracema",
+   "subsecao": "Seção Judiciária de Roraima"
+  },
+  {
+   "uf": "RR",
+   "municipio": "Mucajaí",
+   "subsecao": "Seção Judiciária de Roraima"
+  },
+  {
+   "uf": "RR",
+   "municipio": "Normandia",
+   "subsecao": "Seção Judiciária de Roraima"
+  },
+  {
+   "uf": "RR",
+   "municipio": "Pacaraima",
+   "subsecao": "Seção Judiciária de Roraima"
+  },
+  {
+   "uf": "RR",
+   "municipio": "Rorainópolis",
+   "subsecao": "Seção Judiciária de Roraima"
+  },
+  {
+   "uf": "RR",
+   "municipio": "São João da Baliza",
+   "subsecao": "Seção Judiciária de Roraima"
+  },
+  {
+   "uf": "RR",
+   "municipio": "São Luiz",
+   "subsecao": "Seção Judiciária de Roraima"
+  },
+  {
+   "uf": "RR",
+   "municipio": "Uiramutã",
+   "subsecao": "Seção Judiciária de Roraima"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Palmas",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Abreulândia",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Aparecida do Rio Negro",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Araguacema",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Barrolândia",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Bom Jesus do Tocantins",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Brejinho de Nazaré",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Caseara",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Centenário",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Chapada de Areia",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Colméia",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Cristalândia",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Divinópolis do Tocantins",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Dois Irmãos do Tocantins",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Fátima",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Fortaleza do Tabocão",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Goianorte",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Guaraí",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Ipueiras",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Itacajá",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Itapiratins",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Lagoa da Confusão",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Lagoa do Tocantins",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Lajeado",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Lizarda",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Marianópolis do Tocantins",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Mateiros",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Miracema do Tocantins",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Miranorte",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Monte do Carmo",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Monte Santo do Tocantins",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Nova Rosalândia",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Novo Acordo",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Oliveira de Fátima",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Paraíso do Tocantins",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Pedro Afonso",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Pequizeiro",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Pindorama do Tocantins",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Pium",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Ponte Alta do Tocantins",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Porto Nacional",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Pugmil",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Recursolândia",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Rio dos Bois",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Rio Sono",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Santa Maria do Tocantins",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Santa Rita do Tocantins",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Santa Tereza do Tocantins",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "São Félix do Tocantins",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Silvanópolis",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Tocantínia",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Tupirama",
+   "subsecao": "Seção Judiciária de Tocantins"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Araguaína",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Aguiarnópolis",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Ananás",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Angico",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Aragominas",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Araguanã",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Araguatins",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Arapoema",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Augustinópolis",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Axixá do Tocantins",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Babaçulândia",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Bandeirantes do Tocantins",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Barra do Ouro",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Bernardo Sayão",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Brasilândia do Tocantins",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Buriti do Tocantins",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Cachoeirinha",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Campos Lindos",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Carmolândia",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Carrasco Bonito",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Colinas do Tocantins",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Couto de Magalhães",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Darcinópolis",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Esperantina",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Filadélfia",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Goiatins",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Itaguatins",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Itaporã do Tocantins",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Juarina",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Luzinópolis",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Maurilândia do Tocantins",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Muricilândia",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Nazaré",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Nova Olinda",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Palmeirante",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Palmeiras do Tocantins",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Pau d'Arco",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Piraquê",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Praia Norte",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Presidente Kennedy",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Riachinho",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Sampaio",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Santa Fé do Araguaia",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Santa Terezinha do Tocantins",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "São Bento do Tocantins",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "São Miguel do Tocantins",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "São Sebastião do Tocantins",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Sítio Novo do Tocantins",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Tocantinópolis",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Tupiratins",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Wanderlândia",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Xambioá",
+   "subsecao": "Subseção Judiciária de Araguaína"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Gurupi",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Aliança do Tocantins",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Almas",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Alvorada",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Araguaçu",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Arraias",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Aurora do Tocantins",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Cariri do Tocantins",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Chapada da Natividade",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Combinado",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Conceição do Tocantins",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Crixás do Tocantins",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Dianópolis",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Dueré",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Figueirópolis",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Formoso do Araguaia",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Jaú do Tocantins",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Lavandeira",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Natividade",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Novo Alegre",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Novo Jardim",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Palmeirópolis",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Paranã",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Peixe",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Ponte Alta do Bom Jesus",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Porto Alegre do Tocantins",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Rio da Conceição",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Sandolândia",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Santa Rosa do Tocantins",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "São Salvador do Tocantins",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "São Valério",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Sucupira",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Taguatinga",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Taipas do Tocantins",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  },
+  {
+   "uf": "TO",
+   "municipio": "Talismã",
+   "subsecao": "Subseção Judiciária de Gurupi"
+  }
+ ]
+}

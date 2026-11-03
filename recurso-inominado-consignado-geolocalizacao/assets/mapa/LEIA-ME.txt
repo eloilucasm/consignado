@@ -1,0 +1,9 @@
+assets/mapa/ - mapa de ruas offline da Figura Ilustrativa (scripts/geo_mapa_pmtiles.py)
+
+regiao.pmtiles   (NÃO vem na skill) arquivo de mapa da região, gerado uma vez pelo advogado.
+                 Passo a passo: references/mapa_offline_pmtiles.md
+regioes/         contornos prontos para recortar o mapa (GeoJSON), derivados da malha do IBGE.
+lib/             MapLibre GL JS (BSD-3), PMTiles JS (BSD-3) e @protomaps/basemaps (BSD-3), copiados sem alteração.
+fonts/, sprites/ Noto Sans (SIL OFL) e ícones do tema "light" do basemaps-assets do Protomaps.
+
+Atribuição obrigatória na figura: © OpenStreetMap contributors (dados ODbL) e Protomaps (mapa-base).

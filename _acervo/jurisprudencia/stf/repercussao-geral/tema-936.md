@@ -1,0 +1,63 @@
+---
+titulo: "Tema de repercussão geral nº 936 do STF"
+tribunal: "STF"
+tipo: "Tema de repercussão geral"
+numero: "936"
+situacao: "Há repercussão geral. Leading case: acórdão publicado"
+atualizacao_fonte: "15/10/2026"
+id_bnp: "stf-rg-936"
+versao_texto: "Banco Nacional de Precedentes do CNJ"
+fonte: "https://pangeabnp.pdpj.jus.br/api/v1/precedentes"
+tese_possivelmente_truncada: false
+baixado_em: 2026-10-30
+---
+
+# Tema de repercussão geral nº 936 do STF
+
+## Questão
+
+Exigência de inscrição de advogado público nos quadros da Ordem dos Advogados do Brasil para o exercício de suas funções públicas
+
+## Tese / enunciado
+
+*Sem tese na fonte.*
+
+**Situação:** Há repercussão geral. Leading case: acórdão publicado
+
+## Registro original do CNJ
+
+```json
+{
+  "highlight": {
+    "tese_snippet": "-"
+  },
+  "historico": [
+    {
+      "dataCriacao": "2026-10-13T00:00:00.000-03:00",
+      "situacao": "Acórdão Publicado"
+    },
+    {
+      "dataCriacao": "2026-09-14T00:00:00.000-03:00",
+      "situacao": "Mérito Julgado"
+    },
+    {
+      "dataCriacao": "2026-09-10T00:00:00.000-03:00",
+      "situacao": "Afetado"
+    }
+  ],
+  "id": "stf-rg-936",
+  "nr": 936,
+  "orgao": "STF",
+  "processosParadigma": [
+    {
+      "classe": 1348,
+      "link": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=3845192",
+      "numero": "609517"
+    }
+  ],
+  "questao": "Exigência de inscrição de advogado público nos quadros da Ordem dos Advogados do Brasil para o exercício de suas funções públicas",
+  "situacao": "Há repercussão geral. Leading case: acórdão publicado",
+  "tipo": "RG",
+  "ultimaAtualizacao": "15/10/2026"
+}
+```

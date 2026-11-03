@@ -1,0 +1,113 @@
+{
+  "fonte": "Qualificação dos réus extraída de iniciais protocoladas pelo escritório (acervo-iniciais/). Chave = código do banco no extrato do INSS. Acrescente novos réus aqui — nunca preencher CNPJ/endereço de memória.",
+  "reus": {
+    "707": {
+      "nome": "BANCO DAYCOVAL S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 62.232.889/0001-90, com endereço na Avenida Paulista, nº 1.793, Bela Vista, São Paulo/SP, CEP 01311-200",
+      "fonte": "inicial protocolada pelo escritório (acervo)"
+    },
+    "012": {
+      "nome": "BANCO INBURSA S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 04.866.275/0001-63, com endereço na Rua Henri Dunant, 780, Santo Amaro, São Paulo/SP, CEP 04709-110",
+      "fonte": "inicial protocolada pelo escritório (acervo)"
+    },
+    "104": {
+      "nome": "CAIXA ECONÔMICA FEDERAL",
+      "artigo": "da",
+      "descricao": "empresa pública federal, pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 00.360.305/0001-04, com endereço na Setor Bancário Sul, Quadra 4, Lotes 3/4, Asa Sul, Brasília/DF, CEP 70092-900",
+      "fonte": "inicial protocolada pelo escritório (acervo)"
+    },
+    "752": {
+      "nome": "BANCO BNP PARIBAS BRASIL S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 01.522.368/0001-82, com endereço na Avenida Presidente Juscelino Kubitschek, nº 1909, conjuntos 91, 101 e 111, São Paulo/SP, CEP 04543-011",
+      "fonte": "inicial protocolada pelo escritório (acervo) — no extrato aparece como 752 - CETELEM-BNP"
+    },
+    "318": {
+      "nome": "BANCO BMG S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 61.186.680/0001-74, com sede na Avenida Presidente Juscelino Kubitschek, nº 1.830, Andares 10, 11, 13 e 14, Blocos 01 e 02, Salas 101, 102, 112, 131 e 141, Vila Nova Conceição, São Paulo/SP, CEP 04543-000",
+      "fonte": "inicial protocolada pelo escritório (acervo)"
+    },
+    "237": {
+      "nome": "BANCO BRADESCO S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 60.746.948/0001-12, com sede no Núcleo Cidade de Deus, s/n, bairro Vila Yara, Osasco/SP, CEP 06029-900",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026)."
+    },
+    "121": {
+      "nome": "BANCO AGIBANK S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 10.664.513/0001-50, com sede na Rua Sergio Fernandes Borges Soares, nº 1000, Prédio 12 E-1, Distrito Industrial, Campinas/SP, CEP 13.054-709",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026)."
+    },
+    "341": {
+      "nome": "ITAÚ UNIBANCO S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 60.701.190/0001-04, com sede na Praça Alfredo Egydio de Souza Aranha, nº 100, Torre Olavo Setúbal, Parque Jabaquara, São Paulo/SP, CEP 04.344-902",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026). Itaucard: a petição usa Itaú Unibanco S.A.; se o extrato trouxer outra instituição, não usar este cadastro."
+    },
+    "626": {
+      "nome": "BANCO C6 CONSIGNADO S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 61.348.538/0001-86, com sede na Avenida Nove de Julho, nº 3148, Jardim Paulista, São Paulo/SP, CEP 01406-000",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026)."
+    },
+    "623": {
+      "nome": "BANCO PAN S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 59.285.411/0001-13, com sede na Av. Paulista, 1374, 7º, 8º, 15º, 16º, 17º e 18º andares, Bela Vista, São Paulo/SP, CEP 01310-916",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026)."
+    },
+    "081": {
+      "nome": "BANCOSEGURO S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 10.264.663/0001-77, com sede na Avenida Brigadeiro Faria Lima, nº 1384, 4º andar, parte D, bairro Jardim Paulistano, São Paulo/SP, CEP 01451-001",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026)."
+    },
+    "149": {
+      "nome": "FACTA FINANCEIRA S.A. CRÉDITO, FINANCIAMENTO E INVESTIMENTO",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 15.581.638/0001-30, com sede na Rua dos Andradas, nº 1409, Centro Histórico, Porto Alegre/RS, CEP 90020- 011",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026)."
+    },
+    "254": {
+      "nome": "PARANÁ BANCO S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 14.388.334/0001-99, com sede na Rua Comendador Araújo, nº 614, bairro Batel, Curitiba/PR, CEP 80420-063",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026)."
+    },
+    "041": {
+      "nome": "BANCO DO ESTADO DO RIO GRANDE DO SUL S.A. (BANRISUL)",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 92.702.067/0001-96, com sede na Rua Capitão Montanha, nº 177, Centro Histórico, Porto Alegre/RS, CEP 90010-040",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026)."
+    },
+    "389": {
+      "nome": "BANCO MERCANTIL DO BRASIL S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 17.184.037/0001-10, com sede na Avenida do Contorno, nº 5800, bairro Savassi, Belo Horizonte/MG, CEP 30110-042",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026)."
+    },
+    "643": {
+      "nome": "BANCO PINE S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 62.144.175/0001-20, com sede na Avenida Presidente Juscelino Kubitschek, nº 1830, Torre 4, 5º e 6º andares, bairro Vila Nova Conceição, São Paulo/SP, CEP 04543-900",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026)."
+    },
+    "422": {
+      "nome": "BANCO SAFRA S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 58.160.789/0001-28, com sede na Avenida Paulista, nº 2100, bairro Bela Vista, São Paulo/SP, CEP 01310-930",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026)."
+    },
+    "326": {
+      "nome": "PARATI - CRÉDITO, FINANCIAMENTO E INVESTIMENTO S.A.",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 03.311.443/0001-91, com sede na Avenida Nossa Senhora da Penha, nº 2796, Sala 804, Santa Luiza, CEP 29045-402, Vitória/ES",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026)."
+    }
+  }
+}

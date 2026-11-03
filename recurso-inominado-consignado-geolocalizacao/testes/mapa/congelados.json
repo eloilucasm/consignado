@@ -1,0 +1,112 @@
+{
+ "descricao": "SHA-256 dos arquivos do mapa e da geolocalização (congelados). Alterar de propósito: rode testes/mapa/teste_mapa.py, confira as figuras e atualize com --atualizar-hashes.",
+ "data": "2026-10-29",
+ "hashes": {
+  "scripts/geo_figuras.py": "3c563fdc374b2c03b53f9c2216563570bb5b508a4b44c7548e2b8a4623052fe9",
+  "scripts/geo_mapa_pmtiles.py": "1e25f993c30829e78ec2d67538384143d7a65894fd16e8e510d9388d16c8311b",
+  "scripts/geo_compor.py": "8a45cbaebf1f43b0c6618a72e1ce4ee3cfa1f3a5c8d19fb3e9b9583c3f1230b8",
+  "scripts/geo_dados_figura.py": "053bb995f9d142dae69b61642be38a291aec32b8786fc3eb74c1ed3070128de6",
+  "scripts/geo_check.py": "497ecc455e4f27ba8c2d1fc1b39d5c764c17bf0fd910641b09681a84d0b69321",
+  "scripts/geo_malha.py": "2b3c833065c48d1722725479d89714509a46fd2942e71a8fb6d9f6b70ffd780e",
+  "scripts/ip_check.py": "fe3a48476c744ca4b6cd768f092c270acf046abd099bfe0ec0a188c88ceb0b0f",
+  "scripts/catalogo_indicadores.json": "84e1e2ac87261fa6594b60892390cf00ce8838e3f0c0c4fae9d8e059f0b84262",
+  "scripts/exemplo_entrada.json": "44c53266097ba5e14fea1e053b259c024bce839e126f4a1e2b3cc937f800c15d",
+  "assets/ba_municipios.json": "b2b79a6dee4a7358a3c4826c27214cb4c57975baba54a6a25f599d71ced62650",
+  "references/mapa_offline_pmtiles.md": "7d67b64c53b8b33b3600927af5f9424443b7006f77e83954b562f04b20b32127",
+  "assets/mapa/LEIA-ME.txt": "2651017942666400effa118ae588891298da6dceea4b65dbf396807cefd8b1cc",
+  "assets/mapa/fonts/Noto_Sans_Italic/0-255.pbf": "43edfca91c285ba1226f09d5e74d68e1473a088c517f02a5212ff6ccb10037dc",
+  "assets/mapa/fonts/Noto_Sans_Italic/256-511.pbf": "a6f9f6574c86a4a28aba630ca1017857ceadd2370ed32a1293c35f819ab9bd60",
+  "assets/mapa/fonts/Noto_Sans_Italic/8192-8447.pbf": "5dc4e6680116fef01be024e272859d130262613c7e634409a590e5d50ad124ae",
+  "assets/mapa/fonts/Noto_Sans_Medium/0-255.pbf": "ba2f0118dd024e3041b158e5f9eb49bc0a658019f53f458e9f5c0b8efcd79b91",
+  "assets/mapa/fonts/Noto_Sans_Medium/256-511.pbf": "d5e801a1a5b1d409d3298c3a1e1ca76328e2314a751078833a618620e8e66e4d",
+  "assets/mapa/fonts/Noto_Sans_Medium/8192-8447.pbf": "cc38e4956207f0edba1aaf749b61e8f6f1678ef1ad443d32ee285b21d0eb67aa",
+  "assets/mapa/fonts/Noto_Sans_Regular/0-255.pbf": "62c6d49b15fa836eb6aa45e259c7ca6762f44b011b09e47776efbe4a6db1b397",
+  "assets/mapa/fonts/Noto_Sans_Regular/256-511.pbf": "2eca7561f9f566bcacfda5dd04fb5880baec1328ec0f5484678289a13994de8a",
+  "assets/mapa/fonts/Noto_Sans_Regular/8192-8447.pbf": "8ea977a587352fe31b4159ffdbc9a40be79056f2472017c742ea1e4a931864b9",
+  "assets/mapa/lib/LICENSE-maplibre-gl.txt": "ee5fc05a0677eaf69601d2c7db0d9ecd6cc27c3abc1d0733bc9ed34707cf8ef2",
+  "assets/mapa/lib/basemaps.js": "551864f01da1bfe3005e99987197f22f56d0c35f9a10fa1727a889e2434af16d",
+  "assets/mapa/lib/maplibre-gl.css": "ab1e70d59ec40465bae7e7030da2f3ccf28133fd502e62bd598eefbadfd7a732",
+  "assets/mapa/lib/maplibre-gl.js": "45a9b07a9189ce56054c620a947ccf41e291e58c95e9b61533b740aaa65ee5cb",
+  "assets/mapa/lib/pmtiles.js": "caf981bc46f6327ee7e65d5dc964d89d38a69f60edca2bd4c5c890c21b554c6c",
+  "assets/mapa/regioes/bahia.geojson": "4965ac42e8da4454175a989fe125574aa1a056c582b0b39f363eed83bc7d62f2",
+  "assets/mapa/regioes/ilheus_itabuna.geojson": "e4577697dbef5e06ea55973e9461b6291f2586423de2666b43e9539435627688",
+  "assets/mapa/sprites/light.json": "bfac76cf7ed5c2aa2992695904056a1c6b07785b7fd20e6c640cb44fd6244a2e",
+  "assets/mapa/sprites/light.png": "b6a34640917bdc57d0bd080836db33376371a3312ebe7b849045268015de3481",
+  "assets/mapa/sprites/light_2x.json": "1fb5b123fbe35d2e1f6ac171513ce01df89e671273a417ee89c44886a4c132f0",
+  "assets/mapa/sprites/light_2x.png": "23f6e9df27c2e9a14385763980a24e3608966bfc8192a106058bc2ca959ab563"
+ },
+ "esperado": {
+  "classes": {
+   "1": [
+    [
+     "município (texto do log)",
+     "DIVERGENTE"
+    ],
+    [
+     "município (polígono)",
+     "DIVERGENTE"
+    ],
+    [
+     "distância ao domicílio",
+     "DIVERGENTE"
+    ]
+   ],
+   "2": [
+    [
+     "município (texto do log)",
+     "DIVERGENTE"
+    ],
+    [
+     "município (polígono)",
+     "INFORMATIVO"
+    ],
+    [
+     "distância ao domicílio",
+     "DIVERGENTE"
+    ]
+   ],
+   "3": [
+    [
+     "município (texto do log)",
+     "INFORMATIVO"
+    ],
+    [
+     "município (polígono)",
+     "INFORMATIVO"
+    ],
+    [
+     "distância ao domicílio",
+     "COMPATIVEL"
+    ]
+   ],
+   "4": [
+    [
+     "município (texto do log)",
+     "INFORMATIVO"
+    ],
+    [
+     "município (polígono)",
+     "INFORMATIVO"
+    ],
+    [
+     "distância ao domicílio",
+     "DIVERGENTE"
+    ]
+   ]
+  },
+  "revisao_humana": 3,
+  "resumo_indicadores": {
+   "FORTE": 0,
+   "MEDIO": 1,
+   "REFORCO": 1
+  },
+  "png_esquema": [
+   "fig_evento1_comparativo.png",
+   "fig_evento1_visao_geral.png",
+   "fig_evento2_comparativo.png",
+   "fig_evento2_visao_geral.png",
+   "fig_evento4_comparativo.png",
+   "fig_evento4_visao_geral.png"
+  ]
+ }
+}

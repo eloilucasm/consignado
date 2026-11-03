@@ -1,0 +1,399 @@
+{
+  "versao": 1,
+  "skill": "rmc",
+  "processo": 1,
+  "data": "2026-10-28",
+  "calculo": {
+    "data_peca": "2026-10-28",
+    "processo": 1,
+    "nb": "999.999.999-9",
+    "reu": "318 - BANCO BMG S.A.",
+    "reu_cadastrado": true,
+    "caixa": false,
+    "competencia": "Vara Cível da Comarca de Ilhéus/BA (tabela TJBA)",
+    "cartao": {
+      "numero": "90000001",
+      "tipo": "RMC",
+      "banco": "BANCO BMG S.A.",
+      "limite": 1000.0,
+      "situacao": "Ativo",
+      "inclusao": "05/03/2022"
+    },
+    "ativo": true,
+    "tutela": true,
+    "refinanciamento": {
+      "competencia": "11/2025",
+      "id_linha": "90000001318112025",
+      "utilizado": 1800.0,
+      "saldo": 1800.0,
+      "iof": 4.5,
+      "juros_m": 0.1,
+      "identico_ao_saldo": true,
+      "utilizado_anteriores": [
+        30.0,
+        30.0
+      ]
+    },
+    "juros_cai": false,
+    "juros_vizinhos": [
+      0.1,
+      0.1,
+      0.1
+    ],
+    "capital": 1000.0,
+    "dobro_capital": 2000.0,
+    "marco": {
+      "competencia": "08/2025",
+      "acumulado": 2000.0,
+      "pct": 200.0
+    },
+    "meses_teto": 3,
+    "total_ate_refin": 2100.0,
+    "pct_ate_refin": 210.0,
+    "total_pos_refin": 605.0,
+    "dobro": 1210.0,
+    "dobro_extenso": "R$ 1.210,00 (um mil, duzentos e dez reais)",
+    "total_descontado": 605.0,
+    "total_dobro": 1210.0,
+    "total_pago": 2705.0,
+    "pct_pago": 270.5,
+    "saldo_atual": 1700.0,
+    "custo_total": 4405.0,
+    "onerosidade_pct": 440.5,
+    "dano_moral": 20000.0,
+    "dano_moral_extenso": "R$ 20.000,00 (vinte mil reais)",
+    "valor_causa": 23010.0,
+    "valor_causa_extenso": "R$ 23.010,00 (vinte e três mil e dez reais)",
+    "primeira": "04/2022",
+    "ultima": "09/2026",
+    "competencias_ausentes": [
+      "06/2024"
+    ],
+    "fontes_extra": [],
+    "n_competencias": 53,
+    "bloqueios_juridicos": [],
+    "pode_gerar": true,
+    "alertas": [
+      "Confirmar nas faturas e com o cliente que, no cartão, só o mínimo é descontado em folha e o restante é pago por boleto: é a premissa pela qual o art. 4º da Res. CMN 4.549 não afasta a resolução (decisão D1 do escritório, 29/10/2026).",
+      "Capital = limite do cartão (R$ 1.000,00), premissa: o extrato não informa o valor sacado.",
+      "Competências ausentes no histórico (não interpoladas): 06/2024. O total é piso.",
+      "Taxa de juros no refinanciamento (0.1%) não é menor que a de todos os meses vizinhos ([0.1, 0.1, 0.1]): o argumento da queda da taxa foi omitido."
+    ],
+    "conferir": [],
+    "checagem_fsc": [
+      {
+        "fsc": 1,
+        "status": "OK",
+        "achado": "negativa específica por contrato no modelo; conferir que cada número aparece na negativa",
+        "onde_na_peca": "subtópico da negativa de contratação"
+      },
+      {
+        "fsc": 2,
+        "status": "OK",
+        "achado": "a parte não usou plataforma digital nem forneceu biometria; autenticação controvertida por antecipação",
+        "onde_na_peca": "subtópico da negativa de contratação"
+      },
+      {
+        "fsc": 3,
+        "status": "OK",
+        "achado": "art. 14, § 3º, do CDC + art. 429, II, do CPC + Tema 1061/STJ antes do art. 6º, VIII",
+        "onde_na_peca": "tópico da inversão do ônus da prova"
+      },
+      {
+        "fsc": 4,
+        "status": "PENDENTE_ADVOGADO",
+        "achado": "sem contrato do extrato neste cálculo: tratar o valor liberado pelas faturas ou pelo extrato bancário",
+        "onde_na_peca": "fatos e tabela de documentos"
+      },
+      {
+        "fsc": 5,
+        "status": "NAO_SE_APLICA",
+        "achado": "sem origem de migração, portabilidade ou refinanciamento no extrato",
+        "onde_na_peca": "—"
+      },
+      {
+        "fsc": 6,
+        "status": "OK",
+        "achado": "ciência pela análise do extrato de consignado (padrão do escritório): data de emissão do extrato; separar inexistência (não prescreve) de repetição e dano",
+        "onde_na_peca": "fatos (ciência)"
+      },
+      {
+        "fsc": 7,
+        "status": "OK",
+        "achado": "negativa específica por contrato e pedido de juntada de cada documento com a contestação; o risco maior é da réplica",
+        "onde_na_peca": "negativa específica; inversão do ônus"
+      },
+      {
+        "fsc": 8,
+        "status": "OK",
+        "achado": "natureza alimentar, período e valor vêm do cálculo; sem tentativa administrativa prévia (padrão do escritório)",
+        "onde_na_peca": "subtópico do dano extrapatrimonial"
+      },
+      {
+        "fsc": 9,
+        "status": "OK",
+        "achado": "JEC: sem exibição nem perícia; inversão do ônus e encargo de juntar documentos com a contestação",
+        "onde_na_peca": "inversão do ônus"
+      },
+      {
+        "fsc": 10,
+        "status": "PENDENTE_ADVOGADO",
+        "achado": "pedir que o banco identifique o correspondente e junte a trilha completa; registrar a residência do cliente com ID e página para a réplica",
+        "onde_na_peca": "tabela de documentos"
+      },
+      {
+        "fsc": 11,
+        "status": "NAO_SE_APLICA",
+        "achado": "nenhuma inclusão no mesmo dia nem em até 7 dias de outro contrato do extrato",
+        "onde_na_peca": "—"
+      },
+      {
+        "fsc": 12,
+        "status": "PENDENTE_ADVOGADO",
+        "achado": "documentos de identidade e residência atuais e legíveis; procuração atualizada; um processo por benefício + banco + tese; nada sobre outras ações",
+        "onde_na_peca": "lista de documentos"
+      }
+    ],
+    "checagem_vf": [
+      {
+        "vf": 1,
+        "status": "PENDENTE_ADVOGADO",
+        "achado": "índice dos documentos do cliente (ID provisório de cada um)"
+      },
+      {
+        "vf": 2,
+        "status": "NAO_SE_APLICA",
+        "achado": "sem documento do banco antes da ação; ficha do contrato fica para a réplica"
+      },
+      {
+        "vf": 3,
+        "status": "NAO_SE_APLICA",
+        "achado": "extrato sem origem de migração"
+      },
+      {
+        "vf": 4,
+        "status": "NAO_SE_APLICA",
+        "achado": "sem documento do banco antes da ação; autenticação eletrônica fica para a réplica"
+      },
+      {
+        "vf": 5,
+        "status": "NAO_SE_APLICA",
+        "achado": "sem documento do banco antes da ação; correspondente bancário fica para a réplica"
+      },
+      {
+        "vf": 6,
+        "status": "NAO_SE_APLICA",
+        "achado": "sem contrato do extrato neste cálculo"
+      },
+      {
+        "vf": 7,
+        "status": "NAO_SE_APLICA",
+        "achado": "sem contrato do extrato neste cálculo"
+      },
+      {
+        "vf": 8,
+        "status": "NAO_SE_APLICA",
+        "achado": "sem contrato do extrato neste cálculo"
+      },
+      {
+        "vf": 9,
+        "status": "PENDENTE_ADVOGADO",
+        "achado": "registrar a residência com ID e página (e coordenada, se houver) para a geolocalização da réplica"
+      }
+    ],
+    "marca": "CÁLCULO A CONFERIR"
+  },
+  "cronologia": [
+    {
+      "data": "2022-03-05",
+      "competencia": false,
+      "evento": "Averbação do cartão 90000001",
+      "fonte": "extrato do INSS, cartão 90000001",
+      "efeito": "capital adotado: limite de R$ 1.000,00"
+    },
+    {
+      "data": "2022-04-01",
+      "competencia": true,
+      "evento": "Primeira competência do histórico do cartão",
+      "fonte": "extrato do INSS, cartão 90000001",
+      "efeito": "início da planilha do marco de 200%"
+    },
+    {
+      "data": "2024-01-01",
+      "competencia": true,
+      "evento": "Fim do prazo de 90 dias da Lei 14.690/2023 (publicada em 03/10/2023)",
+      "fonte": "lei-14690.md",
+      "efeito": "a partir daqui vale o teto de 200% do art. 28, § 1º"
+    },
+    {
+      "data": "2025-08-01",
+      "competencia": true,
+      "evento": "Marco de 200% do capital atingido",
+      "fonte": "planilha do cálculo",
+      "efeito": "pagamentos já somam o dobro do capital"
+    },
+    {
+      "data": "2025-11-01",
+      "competencia": true,
+      "evento": "Refinanciamento do saldo do cartão",
+      "fonte": "extrato do INSS, cartão 90000001",
+      "efeito": "início da repetição em dobro (descontos desde aqui)"
+    },
+    {
+      "data": "2026-09-01",
+      "competencia": true,
+      "evento": "Última competência do histórico do cartão",
+      "fonte": "extrato do INSS, cartão 90000001",
+      "efeito": "fim da contagem do cálculo"
+    },
+    {
+      "data": "2026-10-28",
+      "competencia": false,
+      "evento": "Data da peça",
+      "fonte": "argumento --data do cálculo",
+      "efeito": "contrato ativo conta até a competência anterior"
+    },
+    {
+      "data": "2026-10-28",
+      "competencia": false,
+      "evento": "Emissão do extrato do INSS",
+      "fonte": "extrato do INSS, primeira página",
+      "efeito": "ciência dos descontos (padrão do escritório); FSC6"
+    }
+  ],
+  "checagem": {
+    "fsc": [
+      {
+        "fsc": 1,
+        "status": "OK",
+        "achado": "negativa específica por contrato no modelo; conferir que cada número aparece na negativa",
+        "onde_na_peca": "subtópico da negativa de contratação"
+      },
+      {
+        "fsc": 2,
+        "status": "OK",
+        "achado": "a parte não usou plataforma digital nem forneceu biometria; autenticação controvertida por antecipação",
+        "onde_na_peca": "subtópico da negativa de contratação"
+      },
+      {
+        "fsc": 3,
+        "status": "OK",
+        "achado": "art. 14, § 3º, do CDC + art. 429, II, do CPC + Tema 1061/STJ antes do art. 6º, VIII",
+        "onde_na_peca": "tópico da inversão do ônus da prova"
+      },
+      {
+        "fsc": 4,
+        "status": "PENDENTE_ADVOGADO",
+        "achado": "sem contrato do extrato neste cálculo: tratar o valor liberado pelas faturas ou pelo extrato bancário",
+        "onde_na_peca": "fatos e tabela de documentos"
+      },
+      {
+        "fsc": 5,
+        "status": "NAO_SE_APLICA",
+        "achado": "sem origem de migração, portabilidade ou refinanciamento no extrato",
+        "onde_na_peca": "—"
+      },
+      {
+        "fsc": 6,
+        "status": "OK",
+        "achado": "ciência pela análise do extrato de consignado (padrão do escritório): data de emissão do extrato; separar inexistência (não prescreve) de repetição e dano",
+        "onde_na_peca": "fatos (ciência)"
+      },
+      {
+        "fsc": 7,
+        "status": "OK",
+        "achado": "negativa específica por contrato e pedido de juntada de cada documento com a contestação; o risco maior é da réplica",
+        "onde_na_peca": "negativa específica; inversão do ônus"
+      },
+      {
+        "fsc": 8,
+        "status": "OK",
+        "achado": "natureza alimentar, período e valor vêm do cálculo; sem tentativa administrativa prévia (padrão do escritório)",
+        "onde_na_peca": "subtópico do dano extrapatrimonial"
+      },
+      {
+        "fsc": 9,
+        "status": "OK",
+        "achado": "JEC: sem exibição nem perícia; inversão do ônus e encargo de juntar documentos com a contestação",
+        "onde_na_peca": "inversão do ônus"
+      },
+      {
+        "fsc": 10,
+        "status": "PENDENTE_ADVOGADO",
+        "achado": "pedir que o banco identifique o correspondente e junte a trilha completa; registrar a residência do cliente com ID e página para a réplica",
+        "onde_na_peca": "tabela de documentos"
+      },
+      {
+        "fsc": 11,
+        "status": "NAO_SE_APLICA",
+        "achado": "nenhuma inclusão no mesmo dia nem em até 7 dias de outro contrato do extrato",
+        "onde_na_peca": "—"
+      },
+      {
+        "fsc": 12,
+        "status": "PENDENTE_ADVOGADO",
+        "achado": "documentos de identidade e residência atuais e legíveis; procuração atualizada; um processo por benefício + banco + tese; nada sobre outras ações",
+        "onde_na_peca": "lista de documentos"
+      }
+    ],
+    "vf": [
+      {
+        "vf": 1,
+        "status": "PENDENTE_ADVOGADO",
+        "achado": "índice dos documentos do cliente (ID provisório de cada um)"
+      },
+      {
+        "vf": 2,
+        "status": "NAO_SE_APLICA",
+        "achado": "sem documento do banco antes da ação; ficha do contrato fica para a réplica"
+      },
+      {
+        "vf": 3,
+        "status": "NAO_SE_APLICA",
+        "achado": "extrato sem origem de migração"
+      },
+      {
+        "vf": 4,
+        "status": "NAO_SE_APLICA",
+        "achado": "sem documento do banco antes da ação; autenticação eletrônica fica para a réplica"
+      },
+      {
+        "vf": 5,
+        "status": "NAO_SE_APLICA",
+        "achado": "sem documento do banco antes da ação; correspondente bancário fica para a réplica"
+      },
+      {
+        "vf": 6,
+        "status": "NAO_SE_APLICA",
+        "achado": "sem contrato do extrato neste cálculo"
+      },
+      {
+        "vf": 7,
+        "status": "NAO_SE_APLICA",
+        "achado": "sem contrato do extrato neste cálculo"
+      },
+      {
+        "vf": 8,
+        "status": "NAO_SE_APLICA",
+        "achado": "sem contrato do extrato neste cálculo"
+      },
+      {
+        "vf": 9,
+        "status": "PENDENTE_ADVOGADO",
+        "achado": "registrar a residência com ID e página (e coordenada, se houver) para a geolocalização da réplica"
+      }
+    ],
+    "roteamento": [],
+    "mesma_data": []
+  },
+  "quadro_de_fatos": {
+    "data_ciencia": "data de emissão do extrato (padrão do escritório)",
+    "extrato_bancario": null,
+    "dossie_pre_acao": false,
+    "residencia": {
+      "id": null,
+      "pagina": null,
+      "coordenada": null
+    }
+  }
+}

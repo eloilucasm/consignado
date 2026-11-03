@@ -1,0 +1,71 @@
+---
+titulo: "Súmula nº 640 do STF"
+tribunal: "STF"
+tipo: "Súmula"
+numero: "640"
+situacao: "Vigente"
+situacao_bnp: "APROVADO"
+data_aprovacao: 2003-09-24
+revogada: false
+versao_texto: "texto e situação: BNP/CNJ e caderno oficial do STF (cruzados); dados do julgamento: caderno"
+fonte: "https://pangeabnp.pdpj.jus.br/api/v1/precedentes"
+fonte_caderno: "https://www.stf.jus.br/arquivo/cms/jurisprudenciaSumula/anexo/Enunciados_Sumulas_STF_1_a_736_Completo.pdf"
+baixado_em: 2026-10-30
+---
+
+# Súmula nº 640 do STF
+
+**Situação:** Vigente (BNP/CNJ: APROVADO, atualização 22/05/2025)
+
+## Enunciado
+
+É cabível recurso extraordinário contra decisão proferida por juiz de primeiro grau nas causas de alçada, ou por turma recursal de juizado especial cível e criminal.
+
+## Dados da súmula (caderno do STF, 1º de dezembro de 2017)
+
+- Aprovação: Sessão Plenária de 24/09/2003
+- Publicação: DJ de 09/10/2003, p. 2; DJ de 10/10/2003, p. 2; DJ de 13/10/2003, p. 2.
+- Referência legislativa:
+
+  ```text
+  Constituição Federal de 1988, art. 103, III.
+  Código de Processo Civil de 1973, art. 528.
+  Lei nº 6.830/1980, art. 34.
+  Lei nº 7.244/1984.
+  Lei nº 9.099/1995.
+  ```
+
+## Registro original do CNJ
+
+```json
+{
+  "highlight": {
+    "tese": "não informado",
+    "tese_snippet": "não informado"
+  },
+  "historico": [
+    {
+      "dataAdmissao": "2025-11-24",
+      "dataCriacao": "2026-06-02T00:00:00.000-03:00",
+      "dataJulgamento": "2026-04-29",
+      "dataPublicacao": "2026-04-30",
+      "situacao": "Admitido"
+    },
+    {
+      "dataAdmissao": "2025-11-24",
+      "dataCriacao": "2026-08-21T00:00:00.000-03:00",
+      "dataJulgamento": "2026-04-29",
+      "dataPublicacao": "2026-04-30",
+      "situacao": "Acórdão Publicado"
+    }
+  ],
+  "id": "stf-sum-640",
+  "nr": 640,
+  "orgao": "STF",
+  "questao": "É cabível recurso extraordinário contra decisão proferida por juiz de primeiro grau nas causas de alçada, ou por turma recursal de juizado especial cível e criminal. ",
+  "situacao": "APROVADO",
+  "tese": "não informado",
+  "tipo": "SUM",
+  "ultimaAtualizacao": "22/05/2025"
+}
+```

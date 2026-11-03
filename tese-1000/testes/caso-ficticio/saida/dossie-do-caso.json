@@ -1,0 +1,441 @@
+{
+  "versao": 1,
+  "skill": "tese-1000",
+  "processo": 1,
+  "data": "2026-10-28",
+  "calculo": {
+    "data_peca": "2026-10-28",
+    "processo": 1,
+    "nb": "999.999.999-9",
+    "reu": "707 - BANCO DAYCOVAL S.A.",
+    "reu_cadastrado": true,
+    "caixa": false,
+    "competencia": "Vara Cível da Comarca de Ilhéus/BA (tabela TJBA)",
+    "derivados": [
+      {
+        "contrato": "51-000111/00001_0001",
+        "raiz": "51-000111/00001",
+        "sufixo": "_0001",
+        "status": "EXCLUÍDO",
+        "ativo": false,
+        "primeira_averbacao": "11/08/2018",
+        "inclusao": "11/08/2018",
+        "origem_averbacao": "Averbação nova",
+        "inicio": "09/2018",
+        "fim": "07/2019",
+        "ate_comp": "07/2019",
+        "parcela": 33.75,
+        "prazo": 33,
+        "liberado": 337.57,
+        "qtde": 11,
+        "total": 371.25,
+        "dobro": 742.5,
+        "qtde_registro_do_reu": 11,
+        "total_registro_do_reu": 371.25,
+        "exclusao": "15/08/2019",
+        "motivo_exclusao": "Exclusão Banco",
+        "regime_norma": "IN28",
+        "troca_de_titularidade": false,
+        "outros_bancos_somados": false,
+        "raiz_dados": {
+          "banco": "707 - BANCO DAYCOVAL S.A.",
+          "averbacao": "05/05/2015",
+          "exclusao": "11/08/2018",
+          "motivo_exclusao": "Exclusão Banco",
+          "origem_averbacao": "Averbação Banco",
+          "situacao": "Excluído"
+        },
+        "intervalo_dias": 0,
+        "categoria_intervalo": "MESMO_DIA",
+        "outras_ocorrencias": []
+      }
+    ],
+    "ativos": [],
+    "tutela": false,
+    "prescricao_5_anos": true,
+    "troca_de_titularidade": false,
+    "outros_bancos_somados": false,
+    "total_descontado": 371.25,
+    "total_dobro": 742.5,
+    "dano_moral": 20000.0,
+    "valor_causa": 20742.5,
+    "valor_causa_extenso": "R$ 20.742,50 (vinte mil, setecentos e quarenta e dois reais e cinquenta centavos)",
+    "total_dobro_extenso": "R$ 742,50 (setecentos e quarenta e dois reais e cinquenta centavos)",
+    "dano_moral_extenso": "R$ 20.000,00 (vinte mil reais)",
+    "alertas": [
+      "Derivado 51-000111/00001_0001: há descontos anteriores a 30/03/2021. O marco do EAREsp 676.608/RS não é usado na peça (decisão do escritório de 29/10/2026: sem Tema 929 e sem modulação): pedir o dobro de todos, fundado no art. 42, parágrafo único, do CDC."
+    ],
+    "conferir": [],
+    "checagem_fsc": [
+      {
+        "fsc": 1,
+        "status": "OK",
+        "achado": "negativa específica por contrato no modelo; conferir que cada número aparece na negativa",
+        "onde_na_peca": "subtópico da negativa de contratação"
+      },
+      {
+        "fsc": 2,
+        "status": "OK",
+        "achado": "a parte não usou plataforma digital nem forneceu biometria; autenticação controvertida por antecipação",
+        "onde_na_peca": "subtópico da negativa de contratação"
+      },
+      {
+        "fsc": 3,
+        "status": "OK",
+        "achado": "art. 14, § 3º, do CDC + art. 429, II, do CPC + Tema 1061/STJ antes do art. 6º, VIII",
+        "onde_na_peca": "tópico da inversão do ônus da prova"
+      },
+      {
+        "fsc": 4,
+        "status": "ATIVADO",
+        "achado": "51-000111/00001_0001: liberado R$ 337,57. extrato bancário do mês da averbação ainda não informado. Risco da Súmula 42/TJBA se o crédito chegou à conta e a peça nega tudo [DECISÃO DO ADVOGADO: devolução, depósito ou compensação]",
+        "onde_na_peca": "fatos; tabela de documentos; pedido"
+      },
+      {
+        "fsc": 5,
+        "status": "NAO_SE_APLICA",
+        "achado": "sem origem de migração, portabilidade ou refinanciamento no extrato",
+        "onde_na_peca": "—"
+      },
+      {
+        "fsc": 6,
+        "status": "ATIVADO",
+        "achado": "contrato(s) 51-000111/00001_0001 com desconto iniciado há mais de 5 anos: tratar prescrição (decisão do advogado) e a data da ciência",
+        "onde_na_peca": "fatos (ciência); tópico de prescrição"
+      },
+      {
+        "fsc": 7,
+        "status": "OK",
+        "achado": "negativa específica por contrato e pedido de juntada de cada documento com a contestação; o risco maior é da réplica",
+        "onde_na_peca": "negativa específica; inversão do ônus"
+      },
+      {
+        "fsc": 8,
+        "status": "OK",
+        "achado": "natureza alimentar, período e valor vêm do cálculo; sem tentativa administrativa prévia (padrão do escritório)",
+        "onde_na_peca": "subtópico do dano extrapatrimonial"
+      },
+      {
+        "fsc": 9,
+        "status": "OK",
+        "achado": "JEC: sem exibição nem perícia; inversão do ônus e encargo de juntar documentos com a contestação",
+        "onde_na_peca": "inversão do ônus"
+      },
+      {
+        "fsc": 10,
+        "status": "PENDENTE_ADVOGADO",
+        "achado": "pedir que o banco identifique o correspondente e junte a trilha completa; registrar a residência do cliente com ID e página para a réplica",
+        "onde_na_peca": "tabela de documentos"
+      },
+      {
+        "fsc": 11,
+        "status": "OK",
+        "achado": "mesmo dia (0 d): 51-000111/00001_0001 [707 - BANCO DAYCOVAL S.A.] em 11/08/18 e 51-000333/00003_0001 [739 - BANCO CETELEM S.A.] em 11/08/18. Na Tese 1000 o intervalo é a própria tese",
+        "onde_na_peca": "fatos"
+      },
+      {
+        "fsc": 12,
+        "status": "PENDENTE_ADVOGADO",
+        "achado": "documentos de identidade e residência atuais e legíveis; procuração atualizada; um processo por benefício + banco + tese; nada sobre outras ações",
+        "onde_na_peca": "lista de documentos"
+      }
+    ],
+    "checagem_vf": [
+      {
+        "vf": 1,
+        "status": "PENDENTE_ADVOGADO",
+        "achado": "índice dos documentos do cliente (ID provisório de cada um)"
+      },
+      {
+        "vf": 2,
+        "status": "NAO_SE_APLICA",
+        "achado": "sem documento do banco antes da ação; ficha do contrato fica para a réplica"
+      },
+      {
+        "vf": 3,
+        "status": "NAO_SE_APLICA",
+        "achado": "extrato sem origem de migração"
+      },
+      {
+        "vf": 4,
+        "status": "NAO_SE_APLICA",
+        "achado": "sem documento do banco antes da ação; autenticação eletrônica fica para a réplica"
+      },
+      {
+        "vf": 5,
+        "status": "NAO_SE_APLICA",
+        "achado": "sem documento do banco antes da ação; correspondente bancário fica para a réplica"
+      },
+      {
+        "vf": 6,
+        "status": "PENDENTE_ADVOGADO",
+        "achado": "pedir ao cliente o extrato bancário do mês da averbação de cada contrato (Súmula 42/TJBA)"
+      },
+      {
+        "vf": 7,
+        "status": "EXECUTADA",
+        "achado": "sem repetição de datas entre contratos do mesmo banco"
+      },
+      {
+        "vf": 8,
+        "status": "EXECUTADA",
+        "achado": "1 par(es) até 7 dias"
+      },
+      {
+        "vf": 9,
+        "status": "PENDENTE_ADVOGADO",
+        "achado": "registrar a residência com ID e página (e coordenada, se houver) para a geolocalização da réplica"
+      }
+    ],
+    "mesma_data": [
+      {
+        "tipo": "MESMO_DIA",
+        "dias": 0,
+        "contratos": [
+          [
+            "51-000111/00001_0001",
+            "707 - BANCO DAYCOVAL S.A.",
+            "11/08/18"
+          ],
+          [
+            "51-000333/00003_0001",
+            "739 - BANCO CETELEM S.A.",
+            "11/08/18"
+          ]
+        ]
+      }
+    ],
+    "marca": "CÁLCULO A CONFERIR"
+  },
+  "cronologia": [
+    {
+      "data": "2015-05-05",
+      "competencia": false,
+      "evento": "Averbação do contrato-raiz 51-000111/00001",
+      "fonte": "extrato do INSS, contrato-raiz",
+      "efeito": "contrato de origem"
+    },
+    {
+      "data": "2018-08-11",
+      "competencia": false,
+      "evento": "Averbação do contrato 51-000111/00001_0001",
+      "fonte": "extrato do INSS, contrato 51-000111/00001_0001",
+      "efeito": "norma do INSS aplicável: IN 28/2008"
+    },
+    {
+      "data": "2018-08-11",
+      "competencia": false,
+      "evento": "Exclusão do contrato-raiz 51-000111/00001",
+      "fonte": "extrato do INSS, contrato-raiz",
+      "efeito": "a partir daqui não há contrato a reaverbar"
+    },
+    {
+      "data": "2018-08-11",
+      "competencia": false,
+      "evento": "Reaverbação do derivado 51-000111/00001_0001 (0 dia(s) depois da exclusão da raiz)",
+      "fonte": "extrato do INSS",
+      "efeito": "categoria do intervalo: MESMO_DIA; norma: IN28"
+    },
+    {
+      "data": "2018-09-01",
+      "competencia": true,
+      "evento": "Primeiro desconto do contrato 51-000111/00001_0001",
+      "fonte": "extrato do INSS, contrato 51-000111/00001_0001",
+      "efeito": "início da repetição do indébito"
+    },
+    {
+      "data": "2019-07-01",
+      "competencia": true,
+      "evento": "Último desconto contado do contrato 51-000111/00001_0001",
+      "fonte": "extrato do INSS, contrato 51-000111/00001_0001",
+      "efeito": "fim da contagem do cálculo"
+    },
+    {
+      "data": "2019-08-15",
+      "competencia": false,
+      "evento": "Exclusão do contrato 51-000111/00001_0001 (Exclusão Banco)",
+      "fonte": "extrato do INSS, contrato 51-000111/00001_0001",
+      "efeito": ""
+    },
+    {
+      "data": "2021-10-01",
+      "competencia": false,
+      "evento": "Limite de 5 anos antes da peça",
+      "fonte": "cálculo",
+      "efeito": "descontos anteriores: tópico de prescrição (FSC6)"
+    },
+    {
+      "data": "2022-12-13",
+      "competencia": false,
+      "evento": "Início da vigência da IN PRES/INSS 138/2022",
+      "fonte": "protocolo, \"Texto vigente e texto revogado\"",
+      "efeito": "reaverbação até 12/12/2022 segue a IN 28/2008"
+    },
+    {
+      "data": "2026-10-28",
+      "competencia": false,
+      "evento": "Data da peça",
+      "fonte": "argumento --data do cálculo",
+      "efeito": "contrato ativo conta até a competência anterior"
+    },
+    {
+      "data": "2026-10-28",
+      "competencia": false,
+      "evento": "Emissão do extrato do INSS",
+      "fonte": "extrato do INSS, primeira página",
+      "efeito": "ciência dos descontos (padrão do escritório); FSC6"
+    }
+  ],
+  "checagem": {
+    "fsc": [
+      {
+        "fsc": 1,
+        "status": "OK",
+        "achado": "negativa específica por contrato no modelo; conferir que cada número aparece na negativa",
+        "onde_na_peca": "subtópico da negativa de contratação"
+      },
+      {
+        "fsc": 2,
+        "status": "OK",
+        "achado": "a parte não usou plataforma digital nem forneceu biometria; autenticação controvertida por antecipação",
+        "onde_na_peca": "subtópico da negativa de contratação"
+      },
+      {
+        "fsc": 3,
+        "status": "OK",
+        "achado": "art. 14, § 3º, do CDC + art. 429, II, do CPC + Tema 1061/STJ antes do art. 6º, VIII",
+        "onde_na_peca": "tópico da inversão do ônus da prova"
+      },
+      {
+        "fsc": 4,
+        "status": "ATIVADO",
+        "achado": "51-000111/00001_0001: liberado R$ 337,57. extrato bancário do mês da averbação ainda não informado. Risco da Súmula 42/TJBA se o crédito chegou à conta e a peça nega tudo [DECISÃO DO ADVOGADO: devolução, depósito ou compensação]",
+        "onde_na_peca": "fatos; tabela de documentos; pedido"
+      },
+      {
+        "fsc": 5,
+        "status": "NAO_SE_APLICA",
+        "achado": "sem origem de migração, portabilidade ou refinanciamento no extrato",
+        "onde_na_peca": "—"
+      },
+      {
+        "fsc": 6,
+        "status": "ATIVADO",
+        "achado": "contrato(s) 51-000111/00001_0001 com desconto iniciado há mais de 5 anos: tratar prescrição (decisão do advogado) e a data da ciência",
+        "onde_na_peca": "fatos (ciência); tópico de prescrição"
+      },
+      {
+        "fsc": 7,
+        "status": "OK",
+        "achado": "negativa específica por contrato e pedido de juntada de cada documento com a contestação; o risco maior é da réplica",
+        "onde_na_peca": "negativa específica; inversão do ônus"
+      },
+      {
+        "fsc": 8,
+        "status": "OK",
+        "achado": "natureza alimentar, período e valor vêm do cálculo; sem tentativa administrativa prévia (padrão do escritório)",
+        "onde_na_peca": "subtópico do dano extrapatrimonial"
+      },
+      {
+        "fsc": 9,
+        "status": "OK",
+        "achado": "JEC: sem exibição nem perícia; inversão do ônus e encargo de juntar documentos com a contestação",
+        "onde_na_peca": "inversão do ônus"
+      },
+      {
+        "fsc": 10,
+        "status": "PENDENTE_ADVOGADO",
+        "achado": "pedir que o banco identifique o correspondente e junte a trilha completa; registrar a residência do cliente com ID e página para a réplica",
+        "onde_na_peca": "tabela de documentos"
+      },
+      {
+        "fsc": 11,
+        "status": "OK",
+        "achado": "mesmo dia (0 d): 51-000111/00001_0001 [707 - BANCO DAYCOVAL S.A.] em 11/08/18 e 51-000333/00003_0001 [739 - BANCO CETELEM S.A.] em 11/08/18. Na Tese 1000 o intervalo é a própria tese",
+        "onde_na_peca": "fatos"
+      },
+      {
+        "fsc": 12,
+        "status": "PENDENTE_ADVOGADO",
+        "achado": "documentos de identidade e residência atuais e legíveis; procuração atualizada; um processo por benefício + banco + tese; nada sobre outras ações",
+        "onde_na_peca": "lista de documentos"
+      }
+    ],
+    "vf": [
+      {
+        "vf": 1,
+        "status": "PENDENTE_ADVOGADO",
+        "achado": "índice dos documentos do cliente (ID provisório de cada um)"
+      },
+      {
+        "vf": 2,
+        "status": "NAO_SE_APLICA",
+        "achado": "sem documento do banco antes da ação; ficha do contrato fica para a réplica"
+      },
+      {
+        "vf": 3,
+        "status": "NAO_SE_APLICA",
+        "achado": "extrato sem origem de migração"
+      },
+      {
+        "vf": 4,
+        "status": "NAO_SE_APLICA",
+        "achado": "sem documento do banco antes da ação; autenticação eletrônica fica para a réplica"
+      },
+      {
+        "vf": 5,
+        "status": "NAO_SE_APLICA",
+        "achado": "sem documento do banco antes da ação; correspondente bancário fica para a réplica"
+      },
+      {
+        "vf": 6,
+        "status": "PENDENTE_ADVOGADO",
+        "achado": "pedir ao cliente o extrato bancário do mês da averbação de cada contrato (Súmula 42/TJBA)"
+      },
+      {
+        "vf": 7,
+        "status": "EXECUTADA",
+        "achado": "sem repetição de datas entre contratos do mesmo banco"
+      },
+      {
+        "vf": 8,
+        "status": "EXECUTADA",
+        "achado": "1 par(es) até 7 dias"
+      },
+      {
+        "vf": 9,
+        "status": "PENDENTE_ADVOGADO",
+        "achado": "registrar a residência com ID e página (e coordenada, se houver) para a geolocalização da réplica"
+      }
+    ],
+    "roteamento": [],
+    "mesma_data": [
+      {
+        "tipo": "MESMO_DIA",
+        "dias": 0,
+        "contratos": [
+          [
+            "51-000111/00001_0001",
+            "707 - BANCO DAYCOVAL S.A.",
+            "11/08/18"
+          ],
+          [
+            "51-000333/00003_0001",
+            "739 - BANCO CETELEM S.A.",
+            "11/08/18"
+          ]
+        ]
+      }
+    ]
+  },
+  "quadro_de_fatos": {
+    "data_ciencia": "data de emissão do extrato (padrão do escritório)",
+    "extrato_bancario": null,
+    "dossie_pre_acao": false,
+    "residencia": {
+      "id": null,
+      "pagina": null,
+      "coordenada": null
+    }
+  }
+}

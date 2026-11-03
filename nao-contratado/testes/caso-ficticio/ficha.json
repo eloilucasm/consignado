@@ -1,0 +1,22 @@
+{
+  "fonte": "CASO FICTÍCIO do piloto da skill nao-contratado. Nenhum dado é de pessoa real. Formato compatível com a saída da triagem.",
+  "processos": [
+    {
+      "processo": 1,
+      "nb": "999.999.999-9",
+      "reu": "707 - BANCO DAYCOVAL S.A.",
+      "tese": "NAO_CONTRATADO",
+      "competencia": "Vara Cível da Comarca de Ilhéus/BA (tabela TJBA)",
+      "acoes_origem": ["B-1", "C-1", "B-2"],
+      "contratos": [
+        {"contrato": "00123456789", "acao": "B-1", "bloco": "B", "status": "EXCLUIDO"},
+        {"contrato": "00987654321", "acao": "C-1", "bloco": "C", "status": "EXCLUIDO"},
+        {"contrato": "00555111222", "acao": "B-2", "bloco": "B", "status": "ATIVO"}
+      ],
+      "modelo": "Emp. Não Contratado",
+      "liminar_sobre": ["00555111222"],
+      "litispendencia": null,
+      "alertas": []
+    }
+  ]
+}

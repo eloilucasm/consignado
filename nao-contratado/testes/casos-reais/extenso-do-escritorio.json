@@ -1,0 +1,301 @@
+{
+ "fonte": "Pares valor/extenso extraídos de 23 petições geradas pelo AMN (28/10/2026). Só valores e extensos, sem dado pessoal. Excluído R$ 1.272,30 (a petição omitiu a vírgula; as demais usam).",
+ "pares": [
+  {
+   "valor": "132,96",
+   "extenso": "cento e trinta e dois reais e noventa e seis centavos"
+  },
+  {
+   "valor": "184,80",
+   "extenso": "cento e oitenta e quatro reais e oitenta centavos"
+  },
+  {
+   "valor": "185,50",
+   "extenso": "cento e oitenta e cinco reais e cinquenta centavos"
+  },
+  {
+   "valor": "252,00",
+   "extenso": "duzentos e cinquenta e dois reais"
+  },
+  {
+   "valor": "265,92",
+   "extenso": "duzentos e sessenta e cinco reais e noventa e dois centavos"
+  },
+  {
+   "valor": "369,60",
+   "extenso": "trezentos e sessenta e nove reais e sessenta centavos"
+  },
+  {
+   "valor": "371,00",
+   "extenso": "trezentos e setenta e um reais"
+  },
+  {
+   "valor": "409,50",
+   "extenso": "quatrocentos e nove reais e cinquenta centavos"
+  },
+  {
+   "valor": "470,40",
+   "extenso": "quatrocentos e setenta reais e quarenta centavos"
+  },
+  {
+   "valor": "478,84",
+   "extenso": "quatrocentos e setenta e oito reais e oitenta e quatro centavos"
+  },
+  {
+   "valor": "490,05",
+   "extenso": "quatrocentos e noventa reais e cinco centavos"
+  },
+  {
+   "valor": "504,00",
+   "extenso": "quinhentos e quatro reais"
+  },
+  {
+   "valor": "546,00",
+   "extenso": "quinhentos e quarenta e seis reais"
+  },
+  {
+   "valor": "648,56",
+   "extenso": "seiscentos e quarenta e oito reais e cinquenta e seis centavos"
+  },
+  {
+   "valor": "760,05",
+   "extenso": "setecentos e sessenta reais e cinco centavos"
+  },
+  {
+   "valor": "819,00",
+   "extenso": "oitocentos e dezenove reais"
+  },
+  {
+   "valor": "858,60",
+   "extenso": "oitocentos e cinquenta e oito reais e sessenta centavos"
+  },
+  {
+   "valor": "940,80",
+   "extenso": "novecentos e quarenta reais e oitenta centavos"
+  },
+  {
+   "valor": "957,68",
+   "extenso": "novecentos e cinquenta e sete reais e sessenta e oito centavos"
+  },
+  {
+   "valor": "980,10",
+   "extenso": "novecentos e oitenta reais e dez centavos"
+  },
+  {
+   "valor": "1.000,00",
+   "extenso": "mil reais"
+  },
+  {
+   "valor": "1.092,00",
+   "extenso": "um mil e noventa e dois reais"
+  },
+  {
+   "valor": "1.223,60",
+   "extenso": "um mil, duzentos e vinte e três reais e sessenta centavos"
+  },
+  {
+   "valor": "1.297,12",
+   "extenso": "um mil, duzentos e noventa e sete reais e doze centavos"
+  },
+  {
+   "valor": "1.520,10",
+   "extenso": "um mil, quinhentos e vinte reais e dez centavos"
+  },
+  {
+   "valor": "1.556,00",
+   "extenso": "um mil, quinhentos e cinquenta e seis reais"
+  },
+  {
+   "valor": "1.717,20",
+   "extenso": "um mil, setecentos e dezessete reais e vinte centavos"
+  },
+  {
+   "valor": "1.928,50",
+   "extenso": "um mil, novecentos e vinte e oito reais e cinquenta centavos"
+  },
+  {
+   "valor": "2.000,00",
+   "extenso": "dois mil reais"
+  },
+  {
+   "valor": "2.048,20",
+   "extenso": "dois mil e quarenta e oito reais e vinte centavos"
+  },
+  {
+   "valor": "2.544,60",
+   "extenso": "dois mil, quinhentos e quarenta e quatro reais e sessenta centavos"
+  },
+  {
+   "valor": "2.575,80",
+   "extenso": "dois mil, quinhentos e setenta e cinco reais e oitenta centavos"
+  },
+  {
+   "valor": "3.112,00",
+   "extenso": "três mil, cento e doze reais"
+  },
+  {
+   "valor": "3.857,00",
+   "extenso": "três mil, oitocentos e cinquenta e sete reais"
+  },
+  {
+   "valor": "3.861,12",
+   "extenso": "três mil, oitocentos e sessenta e um reais e doze centavos"
+  },
+  {
+   "valor": "4.096,40",
+   "extenso": "quatro mil e noventa e seis reais e quarenta centavos"
+  },
+  {
+   "valor": "4.916,82",
+   "extenso": "quatro mil, novecentos e dezesseis reais e oitenta e dois centavos"
+  },
+  {
+   "valor": "5.151,60",
+   "extenso": "cinco mil, cento e cinquenta e um reais e sessenta centavos"
+  },
+  {
+   "valor": "5.279,54",
+   "extenso": "cinco mil, duzentos e setenta e nove reais e cinquenta e quatro centavos"
+  },
+  {
+   "valor": "5.539,80",
+   "extenso": "cinco mil, quinhentos e trinta e nove reais e oitenta centavos"
+  },
+  {
+   "valor": "5.724,00",
+   "extenso": "cinco mil, setecentos e vinte e quatro reais"
+  },
+  {
+   "valor": "7.122,88",
+   "extenso": "sete mil, cento e vinte e dois reais e oitenta e oito centavos"
+  },
+  {
+   "valor": "7.722,24",
+   "extenso": "sete mil, setecentos e vinte e dois reais e vinte e quatro centavos"
+  },
+  {
+   "valor": "10.000,00",
+   "extenso": "dez mil reais"
+  },
+  {
+   "valor": "11.079,60",
+   "extenso": "onze mil e setenta e nove reais e sessenta centavos"
+  },
+  {
+   "valor": "11.448,00",
+   "extenso": "onze mil, quatrocentos e quarenta e oito reais"
+  },
+  {
+   "valor": "11.653,24",
+   "extenso": "onze mil, seiscentos e cinquenta e três reais e vinte e quatro centavos"
+  },
+  {
+   "valor": "12.178,08",
+   "extenso": "doze mil, cento e setenta e oito reais e oito centavos"
+  },
+  {
+   "valor": "12.289,20",
+   "extenso": "doze mil, duzentos e oitenta e nove reais e vinte centavos"
+  },
+  {
+   "valor": "16.568,80",
+   "extenso": "dezesseis mil, quinhentos e sessenta e oito reais e oitenta centavos"
+  },
+  {
+   "valor": "16.812,48",
+   "extenso": "dezesseis mil, oitocentos e doze reais e quarenta e oito centavos"
+  },
+  {
+   "valor": "17.188,34",
+   "extenso": "dezessete mil, cento e oitenta e oito reais e trinta e quatro centavos"
+  },
+  {
+   "valor": "19.386,20",
+   "extenso": "dezenove mil, trezentos e oitenta e seis reais e vinte centavos"
+  },
+  {
+   "valor": "19.819,40",
+   "extenso": "dezenove mil, oitocentos e dezenove reais e quarenta centavos"
+  },
+  {
+   "valor": "20.000,00",
+   "extenso": "vinte mil reais"
+  },
+  {
+   "valor": "20.369,60",
+   "extenso": "vinte mil, trezentos e sessenta e nove reais e sessenta centavos"
+  },
+  {
+   "valor": "20.371,00",
+   "extenso": "vinte mil, trezentos e setenta e um reais"
+  },
+  {
+   "valor": "20.504,00",
+   "extenso": "vinte mil, quinhentos e quatro reais"
+  },
+  {
+   "valor": "20.940,80",
+   "extenso": "vinte mil, novecentos e quarenta reais e oitenta centavos"
+  },
+  {
+   "valor": "20.980,10",
+   "extenso": "vinte mil, novecentos e oitenta reais e dez centavos"
+  },
+  {
+   "valor": "21.092,00",
+   "extenso": "vinte e um mil e noventa e dois reais"
+  },
+  {
+   "valor": "21.223,60",
+   "extenso": "vinte e um mil, duzentos e vinte e três reais e sessenta centavos"
+  },
+  {
+   "valor": "21.297,12",
+   "extenso": "vinte e um mil, duzentos e noventa e sete reais e doze centavos"
+  },
+  {
+   "valor": "21.520,10",
+   "extenso": "vinte e um mil, quinhentos e vinte reais e dez centavos"
+  },
+  {
+   "valor": "21.717,20",
+   "extenso": "vinte e um mil, setecentos e dezessete reais e vinte centavos"
+  },
+  {
+   "valor": "22.544,60",
+   "extenso": "vinte e dois mil, quinhentos e quarenta e quatro reais e sessenta centavos"
+  },
+  {
+   "valor": "23.857,00",
+   "extenso": "vinte e três mil, oitocentos e cinquenta e sete reais"
+  },
+  {
+   "valor": "25.151,60",
+   "extenso": "vinte e cinco mil, cento e cinquenta e um reais e sessenta centavos"
+  },
+  {
+   "valor": "26.737,42",
+   "extenso": "vinte e seis mil, setecentos e trinta e sete reais e quarenta e dois centavos"
+  },
+  {
+   "valor": "31.079,60",
+   "extenso": "trinta e um mil e setenta e nove reais e sessenta centavos"
+  },
+  {
+   "valor": "31.448,00",
+   "extenso": "trinta e um mil, quatrocentos e quarenta e oito reais"
+  },
+  {
+   "valor": "31.653,24",
+   "extenso": "trinta e um mil, seiscentos e cinquenta e três reais e vinte e quatro centavos"
+  },
+  {
+   "valor": "32.289,20",
+   "extenso": "trinta e dois mil, duzentos e oitenta e nove reais e vinte centavos"
+  },
+  {
+   "valor": "36.907,18",
+   "extenso": "trinta e seis mil, novecentos e sete reais e dezoito centavos"
+  }
+ ]
+}

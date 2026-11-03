@@ -1,0 +1,86 @@
+---
+titulo: "Tema repetitivo nº 100 do STJ"
+tribunal: "STJ"
+tipo: "Tema repetitivo"
+numero: "100"
+situacao: "Trânsito em Julgado"
+data_julgamento: 2009-05-27
+data_publicacao_acordao: 2009-06-08
+tese_publicada: true
+orgao_julgador: "S1"
+versao_texto: "dados abertos do STJ (Precedentes qualificados, Temas.csv)"
+fonte: "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv"
+fonte_atualizada_em: "2026-10-25T11:06:22.548438"
+baixado_em: 2026-10-30
+---
+
+# Tema repetitivo nº 100 do STJ
+
+**Situação:** Trânsito em Julgado
+
+## Questão submetida a julgamento
+
+Questão referente à ofensa ao art. 40, § 4º, da Lei nº 6.830/80, por entender que o referido § 4º deve ser interpretado em consonância com o caput do art. 40 e com os demais parágrafos que o antecedem, razão pela qual não pode ser reconhecida a prescrição intercorrente, nas hipóteses em que o arquivamento do feito ocorrer em razão do baixo valor do débito executado (art. 20 da Lei nº 10.522/02).
+
+## Tese firmada
+
+Ainda que a execução fiscal tenha sido arquivada em razão do pequeno valor do débito executado, sem baixa na distribuição, nos termos do art. 20 da Lei 10.522/2002, deve ser reconhecida a prescrição intercorrente se o processo ficar paralisado por mais de cinco anos a contar da decisão que determina o arquivamento, pois essa norma não constitui causa de suspensão do prazo prescricional.
+
+## Demais campos da fonte
+
+### Data da primeira afetação
+
+2009-02-03
+
+### Data de julgamento
+
+2009-05-27
+
+### dataPublicacaoAcordao
+
+2009-06-08
+
+### Anotações NUGEPNAC
+
+RRC de Origem (art. 543-C, §1º, do CPC/73).
+
+### Audiência pública
+
+N
+
+### Órgão julgador
+
+S1
+
+### Assuntos
+
+8826- DIREITO PROCESSUAL CIVIL E DO TRABALHO, 9414- Extinção da Execução
+
+## Registro original (CSV)
+
+```json
+{
+  "sequencialPrecedente": "357",
+  "tipoPrecedente": "Tema",
+  "numeroPrecedente": "100",
+  "dataPrimeiraAfetacao": "2009-02-03",
+  "dataJulgamento": "2009-05-27",
+  "dataPublicacaoAcordao": "2009-06-08",
+  "situacao": "Trânsito em Julgado",
+  "informacoesComplementares": "",
+  "questaoSubmetidaAJulgamento": "Questão referente à ofensa ao art. 40, § 4º, da Lei nº 6.830/80, por entender que o referido § 4º deve ser interpretado em consonância com o caput do art. 40 e com os demais parágrafos que o antecedem, razão pela qual não pode ser reconhecida a prescrição intercorrente, nas hipóteses em que o arquivamento do feito ocorrer em razão do baixo valor do débito executado (art. 20 da Lei nº 10.522/02).\n",
+  "teseFirmada": "Ainda que a execução fiscal tenha sido arquivada em razão do pequeno valor do débito executado, sem baixa na distribuição, nos termos do art. 20 da Lei 10.522/2002, deve ser reconhecida a prescrição intercorrente se o processo ficar paralisado por mais de cinco anos a contar da decisão que determina o arquivamento, pois essa norma não constitui causa de suspensão do prazo prescricional.\n",
+  "anotacoesNUGEPNAC": "RRC de Origem (art. 543-C, §1º, do CPC/73).\n",
+  "delimitacaoJulgado": "",
+  "entendimentoAnterior": "",
+  "referenciaLegislativa": "",
+  "referenciaSumular": "",
+  "sumulaOriginada": "",
+  "audienciaPublica": "N",
+  "dataAudienciaPublica": "",
+  "orgaoJulgador": "S1",
+  "Assuntos": "8826- DIREITO PROCESSUAL CIVIL E DO TRABALHO, 9414- Extinção da Execução",
+  "numeroRepercussaoGeralSTF": "",
+  "descricaoRepercussaoGeral": ""
+}
+```

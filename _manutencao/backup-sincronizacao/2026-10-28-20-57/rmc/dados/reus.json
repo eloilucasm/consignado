@@ -1,0 +1,35 @@
+{
+  "fonte": "Qualificação dos réus extraída de iniciais protocoladas pelo escritório (acervo-iniciais/). Chave = código do banco no extrato do INSS. Acrescente novos réus aqui — nunca preencher CNPJ/endereço de memória.",
+  "reus": {
+    "707": {
+      "nome": "BANCO DAYCOVAL S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 62.232.889/0001-90, com endereço na Avenida Paulista, nº 1.793, Bela Vista, São Paulo/SP, CEP 01311-200",
+      "fonte": "inicial protocolada pelo escritório (acervo)"
+    },
+    "012": {
+      "nome": "BANCO INBURSA S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 04.866.275/0001-63, com endereço na Rua Henri Dunant, 780, Santo Amaro, São Paulo/SP, CEP 04709-110",
+      "fonte": "inicial protocolada pelo escritório (acervo)"
+    },
+    "104": {
+      "nome": "CAIXA ECONÔMICA FEDERAL",
+      "artigo": "da",
+      "descricao": "empresa pública federal, pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 00.360.305/0001-04, com endereço na Setor Bancário Sul, Quadra 4, Lotes 3/4, Asa Sul, Brasília/DF, CEP 70092-900",
+      "fonte": "inicial protocolada pelo escritório (acervo)"
+    },
+    "752": {
+      "nome": "BANCO BNP PARIBAS BRASIL S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 01.522.368/0001-82, com endereço na Avenida Presidente Juscelino Kubitschek, nº 1909, conjuntos 91, 101 e 111, São Paulo/SP, CEP 04543-011",
+      "fonte": "inicial protocolada pelo escritório (acervo) — no extrato aparece como 752 - CETELEM-BNP"
+    },
+    "318": {
+      "nome": "BANCO BMG S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 61.186.680/0001-74, com sede na Avenida Presidente Juscelino Kubitschek, nº 1.830, Andares 10, 11, 13 e 14, Blocos 01 e 02, Salas 101, 102, 112, 131 e 141, Vila Nova Conceição, São Paulo/SP, CEP 04543-000",
+      "fonte": "inicial protocolada pelo escritório (acervo)"
+    }
+  }
+}

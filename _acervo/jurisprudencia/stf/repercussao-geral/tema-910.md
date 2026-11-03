@@ -1,0 +1,65 @@
+---
+titulo: "Tema de repercussão geral nº 910 do STF"
+tribunal: "STF"
+tipo: "Tema de repercussão geral"
+numero: "910"
+situacao: "Não há repercussão geral (questão infraconstitucional). Leading case: transitado em julgado"
+atualizacao_fonte: "15/10/2026"
+id_bnp: "stf-rg-910"
+versao_texto: "Banco Nacional de Precedentes do CNJ"
+fonte: "https://pangeabnp.pdpj.jus.br/api/v1/precedentes"
+tese_possivelmente_truncada: false
+baixado_em: 2026-10-30
+---
+
+# Tema de repercussão geral nº 910 do STF
+
+## Questão
+
+Incidência da contribuição do salário-educação sobre a folha de salário do produtor rural pessoa física.
+
+## Tese / enunciado
+
+É infraconstitucional, a ela se aplicando os efeitos da ausência de repercussão geral, a controvérsia relativa à equiparação do produtor rural empregador pessoa física ao conceito de empresa para efeito de sujeição à contribuição para o salário-educação.
+
+**Situação:** Não há repercussão geral (questão infraconstitucional). Leading case: transitado em julgado
+
+## Registro original do CNJ
+
+```json
+{
+  "highlight": {
+    "tese": "É infraconstitucional, a ela se aplicando os efeitos da ausência de repercussão geral, a controvérsia relativa à equiparação do produtor rural empregador pessoa física ao conceito de empresa para efeito de sujeição à contribuição para o salário-educação. ",
+    "tese_snippet": "É infraconstitucional, a ela se aplicando os efeitos da ausência de repercussão geral, a controvérsia relativa à equiparação do produtor rural empregador pessoa física ao conceito de empresa para efeito de sujeição à contribuição para o salário-educação. "
+  },
+  "historico": [
+    {
+      "dataCriacao": "2026-10-13T00:00:00.000-03:00",
+      "situacao": "Acórdão Publicado"
+    },
+    {
+      "dataCriacao": "2026-09-14T00:00:00.000-03:00",
+      "situacao": "Mérito Julgado"
+    },
+    {
+      "dataCriacao": "2026-09-10T00:00:00.000-03:00",
+      "situacao": "Afetado"
+    }
+  ],
+  "id": "stf-rg-910",
+  "nr": 910,
+  "orgao": "STF",
+  "processosParadigma": [
+    {
+      "classe": 11880,
+      "link": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=5006310",
+      "numero": "979764"
+    }
+  ],
+  "questao": "Incidência da contribuição do salário-educação sobre a folha de salário do produtor rural pessoa física.",
+  "situacao": "Não há repercussão geral (questão infraconstitucional). Leading case: transitado em julgado",
+  "tese": "É infraconstitucional, a ela se aplicando os efeitos da ausência de repercussão geral, a controvérsia relativa à equiparação do produtor rural empregador pessoa física ao conceito de empresa para efeito de sujeição à contribuição para o salário-educação. ",
+  "tipo": "RG",
+  "ultimaAtualizacao": "15/10/2026"
+}
+```
