@@ -1,0 +1,1440 @@
+TRIBUNAL DE CONTAS DA UNIÃO                                                                      TC 003.276/2026-0
+
+GRUPO I – CLASSE VII – Plenário
+
+TC 003.276/2026-0
+Natureza: Representação.
+Órgão: Instituto Nacional do Seguro Social.
+Interessados: Controladoria-Geral da União (26.664.015/0001-48);
+Empresa de Tecnologia e Informações da Previdência - Dataprev
+(42.422.253/0001-01); Instituto Nacional do Seguro Social
+(29.979.036/0001-40).
+Representação legal: não há
+
+SUMÁRIO:                     REPRESENTAÇÃO.                                                      POSSÍVEIS
+
+IRREGULARIDADES RELACIONADAS AO VAZAMENTO
+
+DE DADOS SIGILOSOS DE APOSENTADOS E
+
+PENSIONISTAS DO INSTITUTO NACIONAL DO SEGURO
+
+SOCIAL (INSS) E A PRÁTICAS ABUSIVAS E
+
+FRAUDULENTAS NOS EMPRÉSTIMOS CONSIGNADOS.
+
+ANÁLISE CAUTELAR. PRESENÇA DOS REQUISITOS DO
+
+PERIGO DA DEMORA E DA PLAUSIBILIDADE JURÍDICA.
+
+DEFERIMENTO DE MEDIDA CAUTELAR PARA
+
+SUSPENDER NOVAS AVERBAÇÕES DE EMPRÉSTIMOS
+
+PESSOAIS CONSIGNADOS ATÉ QUE SEJAM
+
+IMPLANTADOS OS CONTROLES MÍNIMOS NECESSÁRIOS
+
+PARA MITIGAR O RISCO DE CONSIGNAÇÕES INDEVIDAS.
+
+APURAÇÃO DA EXISTÊNCIA E DA EXTENSÃO DAS
+
+POSSÍVEIS IRREGULARIDADES. DETERMINAÇÃO DE
+
+INSPEÇÃO. COMUNICAÇÕES.
+
+RELATÓRIO
+
+        Transcrevo, a seguir, a instrução subscrita por Auditora Federal de Controle Externo à peça 49,
+a qual contou com a anuência do corpo diretivo da Unidade de Auditoria Especializada em
+Previdência, Assistência e Trabalho (peças 50 e 51):
+
+“INTRODUÇÃO
+
+1. Cuidam os autos de representação formulada pelo Ministério Público junto ao TCU (MPTCU), por
+meio de seu Subprocurador-Geral Lucas Rocha Furtado, acerca de supostas irregularidades relacionadas
+ao vazamento de dados sigilosos de aposentados e pensionistas do Instituto Nacional do Seguro Social
+(INSS) e a práticas abusivas e fraudulentas nos empréstimos consignados (peça 1).
+
+HISTÓRICO
+
+2. O representante, com base na matéria jornalística “CPI do INSS agora mira os consignados”, de
+5/2/2026 (peça 2), alegou práticas abusivas e fraudulentas por parte de instituições financeiras, com
+risco iminente de danos irreparáveis ou de difícil reparação aos aposentados e pensionistas do INSS,
+destacando: (i) o vazamento recorrente de dados de aposentados (o que faria com que instituições
+financeiras passassem a assediá-los comercialmente com a oferta de crédito, expondo os cidadãos mais
+vulneráveis a fraudes e endividamento excessivo); e (ii) práticas como contratos pós-óbito, fraude no
+consignado, "troco" indevido e taxa abusiva (peça 1, p. 1-4).
+
+3. Diante disso, o representante solicitou a este Tribunal a adoção das seguintes medidas principais
+
+                                                                                                                  1
+
+Para verificar as assinaturas, acesse www.tcu.gov.br/autenticidade e informe o código 80217382.
+TRIBUNAL DE CONTAS DA UNIÃO                                                                      TC 003.276/2026-0
+
+(peça 1, p. 4-5):
+
+                 a) adotar medida cautelar, fazendo-se presentes, no caso ora em consideração, o fumus boni iuris e o
+                 periculum in mora, determinando ao INSS e às instituições financeiras conveniadas a suspensão
+                 temporária da concessão de novos empréstimos consignados aos beneficiários do sistema
+                 previdenciário, até que sejam esclarecidas as irregularidades apontadas e implementadas medidas
+                 efetivas para garantir a segurança e a transparência dessas operações;
+                 b) apurar os indícios de vazamento de dados sigilosos de aposentados e pensionistas do INSS, bem
+                 como as práticas abusivas e fraudulentas relacionadas aos empréstimos consignados;
+
+4. A unidade técnica propôs conhecer da representação, por estarem satisfeitos os requisitos de
+admissibilidade previstos nos arts. 235 e 237, inciso III, do Regimento Interno deste Tribunal, c/c o art.
+103, § 1º, da Resolução – TCU 259/2014. Adicionalmente, considerou necessário obter elementos
+adicionais a fim de se melhor avaliar a existência e a extensão dos pressupostos da medida cautelar
+pleiteada, razão pela qual propôs a realização de oitiva prévia e diligência ao INSS e à Empresa de
+Tecnologia e Informações da Previdência Social (Dataprev), além de diligência à Controladoria-Geral
+da União - CGU (peça 5).
+
+5. Em seu despacho, o Ministro Relator decidiu conhecer da representação, e autorizou as oitivas
+prévias e diligências propostas. Adicionalmente, ordenou o apensamento destes autos ao TC
+016.470/2024-9, relatado originalmente pelo ex-Ministro Aroldo Cedraz, em razão da conexão entre os
+dois processos (peça 8).
+
+6. Esta unidade técnica propôs, em substituição à decisão de apensamento ao TC 016.470/2024-9, a
+redistribuição deste processo, por prevenção, ao relator do TC 023.804/2025-4, também sob relatoria do
+ex-Ministro Aroldo Cedraz, por entender haver grau de conexão mais estreito com o TC 023.804/2025-4
+que o verificado no TC 016.470/2024-9 (peça 26).
+
+7. A proposta foi acolhida pelo Relator em seu despacho à peça 33.
+
+8. A oitiva prévia e a diligência ao INSS foram encaminhadas por meio dos Ofícios 6088 e
+6089/2026-TCU/Seproc, respectivamente (peças 9-10).
+
+9. A oitiva prévia e a diligência à Dataprev foram encaminhadas por meio dos Ofícios 6090 e
+6091/2026-TCU/Seproc, respectivamente (peças 11-12).
+
+10. A diligência à CGU foi encaminhada por meio do Ofício 6092/2026-TCU/Seproc (peça 15).
+
+11. As manifestações do INSS (peças 27-32 e 34-35), da Dataprev (peça 22) e da CGU (peças 36-39)
+serão examinadas nesta instrução.
+
+EXAME TÉCNICO
+
+12. Na instrução inicial destes autos, a unidade técnica mencionou que, segundo o art. 3º da Instrução
+Normativa - IN Pres/INSS 138, de 10/11/2022, o crédito consignado (cujas parcelas contratadas são
+deduzidas diretamente do pagamento mensal do benefício) compreende as seguintes modalidades:
+
+               a) empréstimo pessoal consignado;
+               b) cartão de crédito consignado; e
+               c) cartão consignado de benefício.
+
+13. O art. 4º da mesma IN define as citadas modalidades como:
+
+                 I - empréstimo pessoal consignado: a modalidade de crédito concedida exclusivamente por
+                 instituição financeira para empréstimo de dinheiro, cujo pagamento é realizado por desconto de
+                 parcelas mensais fixas no benefício do contratante;
+                 (...)
+                 IV - cartão de crédito consignado: a modalidade de crédito concedida por instituição consignatária
+                 acordante ao titular do benefício, para ser movimentado até o limite previamente estabelecido, por
+                 meio do respectivo cartão;
+                 V - cartão consignado de benefício: a forma de operação concedida por instituição consignatária
+                 acordante para contratação e financiamento de bens, de despesas decorrentes de serviços e saques, e
+                 concessão de outros benefícios vinculados ao respectivo cartão;
+
+                                                                                                                  2
+
+Para verificar as assinaturas, acesse www.tcu.gov.br/autenticidade e informe o código 80217382.
+TRIBUNAL DE CONTAS DA UNIÃO                                                                      TC 003.276/2026-0
+
+14. Com base nisso, a unidade técnica destacou ser importante ter em vista a existência dessas três
+modalidades distintas de crédito consignado para a análise da presença dos pressupostos da medida
+cautelar pleiteada pelo representante.
+
+I. Análise quanto à presença do pressuposto da fumaça do bom direito
+
+I.1. Histórico
+
+15. Na instrução inicial, mencionou-se que o pressuposto da fumaça do bom direito era relacionado à
+fraude objeto da Operação Sem Desconto, deflagrada pela Polícia Federal e pela Controladoria-Geral da
+União em 23/4/2025, e amplamente noticiada pela imprensa. Essa operação identificou descontos
+indevidos realizados em larga escala nos benefícios previdenciários dos segurados do INSS, em total
+estimado em R$ 6,5 bilhões entre os anos de 2019 e 2024. A operação resultou na troca do presidente do
+INSS em 30/4/2025 e, desde então, medidas vinham sendo adotadas no âmbito da autarquia em combate
+às irregularidades objeto da citada operação (peça 5, p. 2).
+
+16. Além disso, foram trazidas aos autos as seguintes informações prestadas pelo presidente do INSS
+em seu depoimento na Comissão Parlamentar Mista de Inquérito (CPMI), em 5/2/2026 (peça 5, p. 2-3):
+
+               a) embora diversas ações tivessem sido empreendidas pela autarquia no combate às
+irregularidades, a exemplo da rescisão de dezessete Acordos de Cooperação Técnica – ACTs a partir de
+maio de 2025, era insuficiente a estrutura atual de apenas quatro servidores da Diretoria de Benefícios
+(Dirben) exclusivos para fiscalizar os 65,35 milhões de contratos de crédito consignado; e
+
+               b) as irregularidades ocorriam predominantemente nas modalidades de cartões (ou seja,
+cartão de crédito consignado e cartão consignado de benefício), e a fiscalização nessas modalidades era
+bastante dificultada por causa do sigilo bancário. As instituições financeiras que trabalhavam com
+empréstimo em folha não trabalhavam com cartão, e vice-versa.
+
+17. Diante desse depoimento, a unidade técnica concluiu que (peça 5, p. 3):
+
+               a) havia indícios de que a fumaça do bom direito estava mais caracterizada nas
+modalidades cartão de crédito consignado e cartão consignado de benefício, e menos caracterizada na
+modalidade empréstimo pessoal consignado; e
+
+               b) com uma equipe notadamente pequena de quatro servidores para fiscalizar 65,35
+milhões de contratos de crédito consignado, seria imperativo fortalecer controles adicionais na detecção
+e prevenção de irregularidades nos descontos consignados, destacando-se os controles automatizados.
+
+18. No tocante aos controles automatizados, a unidade técnica destacou haver indícios de que o sistema
+eConsignado (solução utilizada para o processamento de créditos consignados, e contratada pelo INSS
+junto à Empresa de Tecnologia e Informações da Previdência Social – Dataprev) carecia de algumas
+travas automáticas para detecção e bloqueio prévio de determinadas irregularidades. E, caso o sistema
+eConsignado automaticamente detectasse e bloqueasse previamente os descontos consignados no caso
+dessas irregularidades, grande número de descontos indevidos seria evitado, e o INSS teria melhores
+condições de fiscalização das contratações.
+
+19. Foram realizadas oitivas prévias e diligências ao INSS e Dataprev, além de diligência à CGU.
+
+I.2. Manifestação do INSS
+
+20. O INSS, inicialmente, destaca que tem por competência precípua reconhecer direitos, conceder,
+manter e pagar benefícios previdenciários e assistenciais aos segurados e seus dependentes, recebendo
+elevado volume de requerimentos administrativos para concessão desses benefícios, alcançando a média
+de 1,3 milhão de novos requerimentos por mês (peça 30, p. 4).
+
+21. Pondera que a magnitude dessa política pública operacionalizada pela autarquia, associada à
+significativa redução de sua força de trabalho nos últimos anos, tem demandado a priorização da
+alocação dos recursos humanos e operacionais às atividades finalísticas diretamente relacionadas ao
+reconhecimento de direitos previdenciários e ao atendimento aos segurados (peça 30, p. 4).
+
+22. Também ressalta que os servidores do INSS possuem formação e atribuições voltadas
+primordialmente às atividades de reconhecimento de direitos previdenciários e assistenciais, e de
+
+                                                                                                                  3
+
+Para verificar as assinaturas, acesse www.tcu.gov.br/autenticidade e informe o código 80217382.
+TRIBUNAL DE CONTAS DA UNIÃO                                                                      TC 003.276/2026-0
+
+atendimento aos segurados, não contemplando em sua formação ou atribuições típicas competências
+específicas relacionadas à fiscalização de instituições financeiras ou à auditoria de operações de crédito
+ou supervisão de mercados financeiros, atividades que demandam conhecimentos técnicos
+especializados e estrutura institucional própria. Indica o Banco Central do Brasil (Bacen) como
+responsável pela regulação e supervisão das instituições financeiras e das operações de crédito no
+âmbito do sistema financeiro nacional, e a Secretaria Nacional do Consumidor (Senacon), vinculada ao
+Ministério da Justiça, como responsável pela coordenação da política nacional de proteção e defesa do
+consumidor, inclusive no que se refere a práticas abusivas nas relações de consumo envolvendo
+operações financeiras (peça 30, p. 5).
+
+23. Com relação às três diferentes modalidades de crédito consignado, o INSS esclarece que (peça 30,
+p. 8-9):
+
+               a) as modalidades cartão de crédito consignado e cartão consignado de benefício
+apresentam estrutura financeira baseada em limite de crédito rotativo, característica inerente às
+operações de cartão de crédito. Essa característica estrutural faz com que a operação não se configure
+como contrato com cronograma fixo de amortização, mas, sim, como relação creditícia dinâmica e
+contínua, na qual o valor efetivamente utilizado pelo beneficiário pode variar ao longo do tempo. Em
+razão dessa natureza rotativa do crédito, o sistema de consignações gerido pelo INSS registra,
+essencialmente, a existência da autorização de desconto e o limite de margem consignável
+comprometido, não tendo a autarquia visibilidade integral sobre as sucessivas utilizações do limite de
+crédito pelo beneficiário, a composição detalhada das faturas do cartão, os encargos financeiros
+incidentes sobre o saldo rotativo e eventuais refinanciamentos automáticos da dívida. Assim, ao INSS é
+possível apenas o controle dos limites de margem consignável e da regularidade formal da averbação,
+não abrangendo o acompanhamento detalhado da evolução do saldo devedor ou das condições
+financeiras da operação, tampouco a confirmação de que efetivamente houve a disponibilização do valor
+liberado ao beneficiário; e
+
+               b) a modalidade empréstimo pessoal consignado possui natureza de operação de crédito
+com valor previamente definido, prazo determinado e parcelas fixas previamente estabelecidas. Apesar
+da recente adoção de medidas para o fortalecimento dos controles no sistema de consignações (medidas
+detalhadas na peça 30, p. 5-7, tópico II.4), persistem limitações estruturais relevantes para a fiscalização
+integral das operações, como: (i) a elevada dimensão do sistema de consignações, que envolve milhões
+de operações ativas e as limitações de capacidade operacional decorrentes da redução do quadro de
+servidores, circunstância que exige a priorização das atividades finalísticas da Administração
+Previdenciária relacionadas ao reconhecimento de direitos e ao atendimento dos segurados; (ii) o fato de
+a contratação das operações ocorrer fora do ambiente administrativo do INSS, diretamente entre o
+beneficiário e a instituição financeira; e (iii) a natureza privada das relações contratuais de crédito, que
+envolve análise de risco e condições financeiras, matérias que não integram o âmbito de competência
+institucional da autarquia.
+
+24. O INSS ainda informa que estão atualmente vigentes 57 Acordos de Cooperação Técnica
+celebrados com instituições financeiras consignatárias habilitadas a conceder empréstimos, cartão de
+crédito e/ou cartão consignado em benefícios elegíveis pagos pelo INSS, esclarecendo que tais acordos
+preveem autorização para as três modalidades de consignado (peça 27, p. 1, e peça 28). E encaminha
+planilha discriminando, para cada ACT vigente, a modalidade de crédito consignado que cada
+instituição financeira de fato opera (peça 29, p. 3-4).
+
+25. Acrescenta que foram cadastradas no sistema Clarity as seguintes demandas à Dataprev de
+controles internos no sistema eConsignado, que atendem aos itens “e.1.1” a “e.1.7” da proposta de
+encaminhamento da instrução anterior:
+
+Quadro 1 – Demandas abertas pelo INSS junto à Dataprev para implementação de controles
+
+internos no sistema eConsignado
+
+Item da proposta de encaminhamento Demanda aberta pelo INSS junto à Dataprev (data de abertura)
+
+(peça 5, p. 5-6)
+
+e.1.1) ausência do contrato de crédito DM.208207 - Estudo técnico para validação automatizada de
+
+consignado ou da autorização da documentação contratual com IA (14/11/2025).
+
+consignação pelo titular do benefício  DM.209361 - CGPAG - [CONSIGNADO] - Trava para bloquear
+
+                                                                                                 4
+
+Para verificar as assinaturas, acesse www.tcu.gov.br/autenticidade e informe o código 80217382.
+          TRIBUNAL DE CONTAS DA UNIÃO                                                                                  TC 003.276/2026-0
+
+                                       descontos em consignado sem contrato devidamente enviado
+
+                                       (16/3/2026).
+
+e.1.2) consignações em nome de DM.209362 - CGPAG - [CONSIGNADO] - Trava para bloquear
+
+falecidos                              averbação de empréstimo em benefício de segurado falecido
+
+                                       (16/3/2026).
+
+e.1.3) inconsistências diversas na DM.208207 - Estudo técnico para validação automatizada de
+
+qualidade ou na completude da documentação contratual com IA (14/11/2025).
+
+documentação
+
+e.1.4) indicação de conta corrente para DM.209363 - CGPAG - [CONSIGNADO] - Trava para impedir
+
+depósito do empréstimo distinta da conta indicação de depósito em conta diferente do pagamento do benefício
+
+de pagamento do benefício              (16/3/2026).
+
+e.1.5) inconsistências na validação DM.206791 - Incremento de segurança para averbação de empréstimo
+
+biométrica                             consignado, (11/6/2025).
+
+                                       DM.209364 - CGPAG - [CONSIGNADO] - Evolução sistêmica para
+
+                                       impedir averbação de contratos com identificação biométrica
+
+                                       prejudicada (16/3/2026).
+
+e.1.6) acréscimo de outros produtos DM.208207 - Estudo técnico para validação automatizada de
+
+diversos ao crédito consignado (p. ex., documentação contratual com IA (14/11/2025).
+
+seguro prestamista)                    DM.209365 - CGPAG - [CONSIGNADO] - Trava para impedir
+
+                                       acréscimo de outros produtos ou seguros (16/3/2026).
+
+e.1.7) consignações em nome de DM.209366 - CGPAG - [CONSIGNADO] - Trava para impedir
+
+menores de idade sem autorização averbação de empréstimo consignado para menores, exceto por decisão
+
+judicial                               judicial (16/3/2026).
+
+Fonte: elaboração própria, a partir de informações prestadas pelo INSS (peça 5, p. 5-6, e da peça 34, p. 4-5, 27-29).
+
+I.3. Manifestação da Dataprev
+
+26. A Dataprev informa que o sistema eConsignado, desenvolvido e mantido pela Dataprev, constitui a
+infraestrutura tecnológica responsável pelo processamento das consignações incidentes sobre benefícios
+previdenciários. E que é uma plataforma tecnológica moderna e robusta, desenvolvida segundo as
+melhores práticas de engenharia de software, segurança da informação e governança tecnológica
+aplicáveis à Administração Pública Federal (peça 22, p. 2).
+
+27. Destaca que, entre 2023 e 2026, houve avanço significativo nos mecanismos de controle do sistema
+eConsignado, como a implementação da evolução de mecanismos de acompanhamento das operações
+pelo cidadão e o aperfeiçoamento das regras operacionais do sistema. E que, com a Lei 15.327, de
+6/1/2026 (que veda descontos relativos a mensalidades associativas nos benefícios do INSS e estabelece
+mecanismos de restituição e proteção contra fraudes), novas evoluções estão sendo implementadas no
+sistema com o objetivo de ampliar os mecanismos de segurança e integridade das operações, através da
+confirmação de operações por meio do Meu INSS, utilizando autenticação via Gov.BR e agregando
+camada adicional de verificação do beneficiário (peça 22, p. 3).
+
+28. Com relação aos controles no eConsignado questionados na diligência, informa que atualmente são
+implementados os seguintes controles:
+
+Quadro 2 - Controles atualmente implementados no sistema eConsignado
+
+Item da proposta de encaminhamento Controles atualmente implementados no sistema eConsignado (peça
+
+(peça 5, p. 5-6)                       22, p. 4-9):
+
+e.1.1) ausência do contrato de crédito O sistema mantém registro estruturado das operações averbadas e
+
+consignado ou da autorização da disponibiliza ao INSS mecanismos de acompanhamento por meio do
+
+consignação pelo titular do benefício  Portal de Gestão do Consignado, ambiente que permite aos gestores do
+
+                                       órgão identificarem eventuais pendências ou atrasos no envio da
+
+                                       documentação pelas instituições financeiras.
+
+e.1.2) consignações em nome de O sistema realiza validações baseadas na situação cadastral do benefício
+
+falecidos                              constante nas bases corporativas do INSS, que é atualizada a partir das
+
+                                       informações registradas no Cadastro Nacional de Informações Sociais
+
+                                       (CNIS) que, por sua vez, é alimentado, entre outras fontes, pelos
+
+                                       registros de óbito provenientes dos cartórios de registro civil no Sistema
+
+                                       de Identificação e Registro Civil (SIRC). O sistema eConsignado realiza
+
+                                       mensalmente um batimento de dados com o Sistema CNIS e SIRC, e
+
+                                       qualquer identificação de óbito que seja registrada após a averbação da
+
+                                                                                                                       5
+
+Para verificar as assinaturas, acesse www.tcu.gov.br/autenticidade e informe o código 80217382.
+TRIBUNAL DE CONTAS DA UNIÃO                                                                      TC 003.276/2026-0
+
+e.1.3) inconsistências diversas na        operação ou após a geração da folha de descontos, eventual repasse
+qualidade ou na completude da             realizado às instituições financeiras é objeto de procedimento de glosa.
+documentação                              O sistema realiza validações estruturais sobre os dados enviados pelas
+                                          instituições financeiras no momento do registro das operações de crédito
+e.1.4) indicação de conta corrente para   consignado, verificando a consistência dos campos obrigatórios e a
+depósito do empréstimo distinta da conta  integridade das informações necessárias ao processamento da averbação.
+de pagamento do benefício                 Essas validações incluem, entre outros aspectos, a verificação da
+                                          conformidade dos dados operacionais da consignação, tais como
+e.1.5) inconsistências na validação       identificação do beneficiário, parâmetros da operação (valor, prazo, taxa
+biométrica                                e quantidade de parcelas), elegibilidade do benefício e demais regras
+                                          operacionais definidas nos normativos aplicáveis ao crédito consignado.
+e.1.6) acréscimo de outros produtos       A documentação contratual, cuja coleta é de responsabilidade da
+diversos ao crédito consignado (p. ex.,   instituição financeira, é alimentada no sistema eConsignado e, por meio
+seguro prestamista)                       do Portal de Gestão do Consignado, os gestores podem acompanhar as
+                                          operações e verificar a documentação encaminhada pelas instituições
+                                          consignatárias. Todas as documentações informadas pelas instituições
+                                          financeiras são disponibilizadas para os beneficiários por meio do
+                                          aplicativo Meu INSS, importante mecanismo de transparência ativa para
+                                          garantia da lisura do processo de contratação e da documentação
+                                          apresentada pelas instituições financeiras.
+                                          No momento da averbação da operação, o sistema eConsignado verifica
+                                          a compatibilidade entre os dados bancários informados para o depósito
+                                          do valor contratado e aqueles constantes no cadastro do benefício
+                                          administrado pelo INSS. Nos casos em que o beneficiário recebe o
+                                          pagamento por meio de cartão magnético, contudo, a etapa relativa à
+                                          liberação do crédito financeiro ao beneficiário constitui procedimento
+                                          integrante da relação contratual estabelecida diretamente entre o
+                                          segurado e a instituição financeira contratante, ocorrendo fora do
+                                          ambiente sistêmico operado pela Dataprev. Não há fluxo de dados no
+                                          sistema eConsignado que permita à Dataprev acompanhar, registrar ou
+                                          validar a conta bancária efetivamente utilizada para o depósito dos
+                                          valores contratados, tampouco verificar eventual divergência quanto à
+                                          titularidade da conta de destino. Operações de crédito entre instituições
+                                          financeiras e beneficiários possuem normas de sigilo do Sistema
+                                          Financeiro Nacional (SFN) e, nos termos da legislação aplicável ao
+                                          sistema financeiro, a verificação da titularidade da conta bancária é
+                                          responsabilidade da instituição financeira. Não obstante, é perfeitamente
+                                          possível a construção de funcionalidades que permitam aos órgãos
+                                          responsáveis pela fiscalização do Sistema Financeiro analisar as
+                                          operações de crédito que permitam comparar se os créditos tomados
+                                          como empréstimo consignado foram efetivamente depositados na conta
+                                          corrente do beneficiário.
+                                          Nos termos definidos na Nota Técnica 65/2023 (que estabelece
+                                          recomendações e requisitos técnicos para a coleta e encaminhamento das
+                                          evidências mínimas para a contratação pelas instituições financeiras
+                                          consignatárias), a captura da biometria e a validação da identidade do
+                                          beneficiário ocorrem nos canais de contratação das instituições
+                                          financeiras, que são responsáveis pela coleta da evidência biométrica e
+                                          pela verificação da identidade do contratante no momento da
+                                          formalização da operação. Essas evidências são alimentadas no sistema
+                                          eConsignado, que atua como repositório e ambiente de registro das
+                                          informações estruturadas da operação e da documentação associada,
+                                          sendo tais evidências disponibilizadas ao órgão gestor para fins de
+                                          acompanhamento e fiscalização administrativa, e ao próprio beneficiário,
+                                          a partir do canal Meu INSS.
+                                          O sistema possui algoritmo que realiza verificação da taxa de juros
+                                          efetiva da operação, considerando, entre outros elementos: o valor da
+                                          parcela informada, a data de início do contrato, a data de vencimento da
+                                          primeira parcela e o valor efetivamente liberado ao beneficiário. Com
+                                          base nesses parâmetros, o sistema calcula a taxa efetiva correspondente à
+
+                                                                                                 6
+
+Para verificar as assinaturas, acesse www.tcu.gov.br/autenticidade e informe o código 80217382.
+          TRIBUNAL DE CONTAS DA UNIÃO                                                                      TC 003.276/2026-0
+
+          operação, e realiza comparação automática com a taxa de juros
+
+          informada pela instituição financeira. Caso seja identificada divergência
+
+          superior ao limite permitido pelos parâmetros regulamentares, a
+
+          averbação da operação é automaticamente impedida, atuando como
+
+          barreira preventiva de consistência, uma vez que eventuais acréscimos
+
+          indevidos que impactem a composição financeira da operação (como
+
+          valores adicionais embutidos na parcela) tendem a alterar a taxa de juros
+
+          efetiva calculada, resultando em inconsistência detectável pelo sistema
+
+          no momento da averbação.
+
+e.1.7) consignações em nome de Nos termos da IN Pres/INSS 138/2022, a contratação de operações de
+
+menores de idade sem autorização crédito consignado pode ocorrer diretamente pelo titular do benefício ou,
+
+judicial  quando aplicável, por intermédio de representante legal devidamente
+
+          constituído, nos casos em que o beneficiário seja civilmente incapaz.
+
+          Assim, o marco regulatório do consignado prevê situações legais em que
+
+          a contratação pode ocorrer por intermédio de representante legal do
+
+          beneficiário, observadas as condições estabelecidas na regulamentação
+
+          vigente. (*)
+
+Fonte: elaboração própria, a partir de informações prestadas pela Dataprev (peça 22).
+
+(*) Conforme tratado no TC 023.804/2025-4, diferentemente do que foi informado pela Dataprev, é atualmente vedada a realização de
+
+consignações em nome de menores de idade sem autorização judicial, por força de decisão liminar no Agravo de Instrumento 5013030-
+
+21.2025.4.03.0000 (Tribunal Regional Federal da 3ª Região - TRF3), referendada pelo acórdão de 9/12/2025.
+
+29. No tocante à implementação de controles para identificação de inconsistências diversas na
+qualidade ou na completude da documentação (item “e.1.3” da diligência), a Dataprev ainda informa
+que, em decorrência de demanda oficial do INSS, está conduzindo estudos técnicos preliminares
+voltados à aplicação de algoritmos de Inteligência Artificial (IA) na análise e validação automatizada da
+documentação contratual de empréstimos consignados encaminhada pelas instituições financeiras no
+âmbito do sistema eConsignado. Os estudos em desenvolvimento contemplam, entre outros aspectos, a
+possibilidade de utilização de algoritmos de IA para (peça 22, p. 6):
+
+          - verificação de correspondência entre a biometria facial capturada no processo de contratação e a
+          fotografia constante do documento oficial apresentado;
+
+          - análise de consistência entre os dados contratuais registrados no sistema e o conteúdo do
+          documento contratual apresentado em formato digital, incluindo parâmetros como taxa de juros,
+          número de parcelas, valores e demais condições da operação;
+
+          - validação de que a imagem biométrica capturada corresponde efetivamente a um rosto humano
+          reconhecível, reduzindo riscos associados a tentativas de fraude;
+
+          - verificação automatizada de legibilidade e validade do documento oficial apresentado,
+          identificando documentos incompletos ou com qualidade insuficiente para análise.
+
+30. A Dataprev menciona que, desde o lançamento da plataforma eConsignado em 2006 até a presente
+data, não possui registro de incidentes de segurança da informação envolvendo vazamento de dados
+provenientes dessa plataforma que tenham comprometido a integridade das operações de crédito
+consignado. Acrescenta que mantém políticas de segurança da informação alinhadas às melhores
+práticas de governança tecnológica e à legislação vigente, incluindo os seguintes controles: controle de
+acesso por perfis, monitoramento de acessos, rastreabilidade de operações, auditoria de transações e
+proteção de dados em trânsito e em repouso (peça 22, p. 2, 11).
+
+31. Por fim, a Dataprev afirma que: (i) o sistema eConsignado opera com base em regras de negócio e
+parâmetros operacionais definidos pelo INSS, órgão gestor responsável pela regulamentação e
+governança do crédito consignado no âmbito dos benefícios previdenciários; (ii) diversas melhorias têm
+sido implementadas no sistema para o fortalecimento dos controles operacionais e a ampliação dos
+mecanismos de segurança e transparência das operações de crédito, especialmente a partir de 2023, em
+decorrência de demandas encaminhadas pelo órgão gestor ou de processos de aprimoramento
+decorrentes de auditorias e recomendações de órgãos de controle; e (iii) não são vislumbradas grandes
+dificuldades do ponto de vista tecnológico para implementação de novos controles no eConsignado e,
+uma vez estabelecidos os novos modelos e controle e formalizada a demanda para a Dataprev, as
+melhorias serão incluídas no plano de evolução funcional do sistema eConsignado (peça 22, p. 1-2, 9-
+11).
+
+                                                                                                           7
+
+Para verificar as assinaturas, acesse www.tcu.gov.br/autenticidade e informe o código 80217382.
+TRIBUNAL DE CONTAS DA UNIÃO                                                                      TC 003.276/2026-0
+
+I.4. Manifestação da CGU
+
+32. A CGU informa que a auditoria relacionada aos empréstimos consignados (Auditoria 1752268) se
+encontra em andamento, em fase de elaboração do relatório preliminar de auditoria, de modo que ainda
+não há relatório que possa ser encaminhado. E que, por esse motivo, ainda não há consolidação dos
+resultados das análises realizadas ou registros estruturados de resultados comparativos dos diferentes
+tipos de empréstimos consignados. No entanto, resultados de entrevistas realizadas nas 27 Unidades da
+Federação com beneficiários que possuem crédito consignado em sua folha de pagamentos do INSS
+(SA 1752268/16) sinalizam maior dificuldade de implementação de controles voltados ao
+acompanhamento das consignações efetuadas por meio de cartões - cartão de crédito consignado e
+cartão consignado de benefícios (peça 37).
+
+33. A CGU ainda encaminha links para acesso às notas de auditoria e a outros papéis de trabalho
+relativos à referida fiscalização (peça 36).
+
+I.5. Análise
+
+34. O INSS traz aos autos ponderação relevante sobre a magnitude e a relevância de suas atividades
+finalísticas, relacionadas precipuamente ao reconhecimento de direito aos benefícios previdenciários e
+assistenciais e ao atendimento ao cidadão, o que gera a necessidade de priorização dessas atividades
+finalísticas em um contexto de limitações diversas de recursos humanos e operacionais.
+
+35. Entende-se que esse contexto de severa limitação de recursos no INSS aumenta a relevância da
+implementação de controles prévios automatizados para a prevenção de irregularidades relacionadas aos
+descontos consignados no INSS.
+
+36. Embora a Dataprev tenha informado que controles têm sido continuamente implementados no
+eConsignado, especialmente a partir de 2023, é possível concluir que há grande potencial de
+aprimoramento dos controles citados no Quadro 2 desta instrução por meio de travas automatizadas no
+sistema, tendo em vista esse sistema, nos moldes atuais, funcionar predominantemente como repositório
+de informações alimentadas pelas instituições financeiras. Ou seja, o controle atual depende em grande
+magnitude do acesso a esses documentos pelos servidores do INSS, o que torna a fiscalização pouco
+eficiente no contexto atual de somente quatro servidores exclusivamente dedicados para fiscalizar os
+65,35 milhões de contratos vigentes.
+
+37. Além disso, o sistema não bloqueia previamente a averbação de descontos quando não há o
+encaminhamento de documentos básicos pelas instituições financeiras, a exemplo do contrato da
+operação de crédito, de modo que o INSS atualmente averba descontos nos benefícios sem dispor da
+documentação mínima necessária para fiscalização da regularidade dessas contratações.
+
+38. A Dataprev afirma que os controles são implementados a partir de demandas oficiais do INSS ou
+em decorrência de recomendações de diversos órgãos de controle. Verifica-se, por sua vez, que
+atualmente existem oito demandas abertas pelo INSS junto à Dataprev para a implementação de
+melhorias no sistema eConsignado, tendo sido seis delas abertas após a instrução preliminar destes autos
+(conforme detalhado no Quadro 1 desta instrução).
+
+39. É oportuno vislumbrar que pode haver conflito de interesses por parte do INSS e da Dataprev para
+implementação célere desses controles no eConsignado, tendo em vista o volume expressivo de
+pagamentos efetuados pelas instituições financeiras em decorrência dos descontos consignados,
+conforme se expõe a seguir.
+
+40. Nas últimas demonstrações contábeis e notas explicativas do INSS, consta que foi apurado um total
+de custo do consignado na ordem de R$ 601,96 milhões referentes ao período de 2014 a 2022. Desse
+total, foram recebidos R$ 153,34 milhões das instituições financeiras, restando crédito a receber de
+quase R$ 449 milhões (peça 40 p. 95-96).
+
+41. O Relatório de Administração 2025 da Dataprev (ano-base 2024), por sua vez, informa que o
+faturamento da empresa junto às instituições financeiras apresentou crescimento de R$ 125,3 milhões
+em 2024, representando 67% das entradas de caixa da empresa no mesmo ano (peça 41, p. 9, 18). Além
+disso, os valores a receber pela Dataprev de instituições financeiras no último ano apresentou
+crescimento contínuo, conforme detalha o quadro abaixo:
+
+                                                                                                                  8
+
+Para verificar as assinaturas, acesse www.tcu.gov.br/autenticidade e informe o código 80217382.
+        TRIBUNAL DE CONTAS DA UNIÃO                                                              TC 003.276/2026-0
+
+Quadro 3 – Valores a receber de instituições financeiras pela Dataprev
+
+                                    Dezembro/2024 Março/2025 Junho/2025                                                         Setembro/2025
+                                                                                                                                    146.259
+Valores a receber de instituições    122.356      132.073               137.637
+financeiras (em milhares de reais)
+
+Fonte: elaboração própria, a partir de dados constantes das peças 42 (p. 9, 13), 43 (p. 9, 13), 44 (p. 9, 13) e 45 (p. 9, 12).
+
+42. Assim, esse possível conflito de interesses para a implementação de controles que retardem ou
+dificultem a averbação de crédito consignado reforça a necessidade de acompanhamento, por este
+Tribunal, da efetiva implementação das demandas citadas no Quadro 1 desta instrução.
+
+43. Adicionalmente, cabe destacar que as manifestações nos autos permitem concluir que a fiscalização
+das consignações nas modalidades cartão de crédito consignado e cartão consignado de benefício
+apresenta maiores limitações estruturais em razão das restrições em a autarquia acessar detalhes
+protegidos por sigilo bancário, tais como a evolução do saldo devedor ou as condições financeiras da
+operação.
+
+44. Relevante destacar alguns resultados de entrevistas realizadas pela CGU, entre novembro/2025 e
+janeiro/2026, com 911 beneficiários que possuíam um total de 1.476 contratos nas modalidades cartão
+de crédito consignado e cartão consignado de benefícios (SA 1752268/16):
+
+           a) 36% das contratações não foram reconhecidas pelos beneficiários;
+
+           b) os beneficiários desconheciam sobre os descontos mensais em 34% dos contratos;
+
+           c) os beneficiários afirmaram que não haviam solicitado o cartão em 25% dos contratos;
+
+               d) 64% dos cartões que vinham gerando descontos em benefícios não teriam sido utilizados
+pelos beneficiários;
+
+               e) em 33% das contratações, os beneficiários afirmaram não ter recebido a via física do
+cartão (exigência do inciso II do art. 16 da IN Pres/INSS 138/2022);
+
+           f) em 78% das contratações, os beneficiários afirmaram não receber as faturas dos cartões;
+
+               g) em 85% das contratações, os beneficiários afirmaram desconhecer a existência de
+benefícios atrelados aos cartões; e
+
+           h) em 36% das contratações, os beneficiários afirmaram não terem recebido o valor do
+
+saque.
+
+45. A partir dos resultados das entrevistas, a CGU concluiu haver risco de ocorrência de práticas
+lesivas junto a parcela relevante dos beneficiários do INSS que possuem cartões consignados.
+
+46. A fiscalização da CGU identificou, ainda, problemas como a ocorrência averbações de empréstimo
+pessoal consignado: (i) sem envio da documentação contratual exigida ou sem comprovação da
+autorização da consignação; (ii) de mais de uma operação de empréstimo pessoal utilizando a mesma
+biometria; (iii) com indicação de conta corrente para depósito não correspondente à conta de pagamento
+do benefício; e (iv) com cobrança indevida de seguro prestamista e taxa administrativa.
+
+47. Diante de todo o exposto, entende-se que, mesmo que novos controles sejam implementados no
+eConsignado, ainda haverá limitações severas ao controle dos descontos nas modalidades cartão de
+crédito consignado e cartão consignado de benefício.
+
+48. Desse modo, considera-se estar configurado o pressuposto da fumaça do bom direito em maior
+magnitude nas modalidades cartão de crédito consignado e cartão consignado de benefício, em
+comparação com a modalidade empréstimo consignado.
+
+49. É oportuno mencionar, ainda, que o Superior Tribunal de Justiça (STJ) está atualmente apreciando
+
+matéria sobre os cartões consignados no âmbito do Tema 1414 dos recursos repetitivos, em que será
+
+apreciada a definição de parâmetros objetivos para a aferição da validade e eventual caráter abusivo dos
+
+contratos  de  cartão                         de           crédito                                                              consignado
+
+(https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa
+
+=T&sg_classe=REsp&num_processo_classe=2215853, acesso em 9/4/2026).
+
+II. Análise quanto à presença dos pressupostos do perigo da demora e do perigo da demora
+reverso
+
+                                                                                                                                9
+
+Para verificar as assinaturas, acesse www.tcu.gov.br/autenticidade e informe o código 80217382.
+TRIBUNAL DE CONTAS DA UNIÃO                                                                      TC 003.276/2026-0
+
+II.1. Histórico
+
+50. Na instrução inicial, a unidade técnica entendeu estar presente o pressuposto do perigo da demora,
+pois, caso as medidas preventivas e corretivas atualmente adotadas pelos gestores fossem insuficientes
+para minimizar a ocorrência de novas irregularidades, os descontos indevidos em larga escala poderiam
+permanecer em prejuízo dos beneficiários (peça 5, p. 4).
+
+51. Além disso, a unidade técnica entendeu haver, em certa medida, o perigo da demora reverso, tendo
+em vista que a suspensão do crédito consignado nas suas três modalidades impossibilitaria, durante toda
+a vigência de uma eventual medida cautelar, o acesso a crédito a taxas menores por um público
+vulnerável, ou até impediria a contratação de qualquer crédito por essa população, já que grande parte
+dos beneficiários do INSS possui renda próxima a um salário mínimo, o que restringiria bastante o
+acesso dessa população aos empréstimos tradicionais ofertados pelas instituições financeiras (peça 5, p.
+4).
+
+52. A unidade técnica ainda ponderou o possível alto impacto na economia decorrente da eventual
+suspensão da liberação de recursos decorrentes de crédito consignado. Isso porque os descontos mensais
+de empréstimo consignado em benefícios atualmente somam mais de R$ 9 bilhões por mês, conforme
+consta da página 15 da edição de fevereiro de 2026 do Portal da Transparência Previdenciária
+(https://www.gov.br/inss/pt-br/portal-de-transparencia, acesso em 9/4/2026).
+
+II.2. Análise
+
+53. Em suas manifestações, o INSS e a Dataprev não apresentaram considerações especificamente com
+relação aos pressupostos do perigo da demora e do perigo da demora reverso.
+
+54. Mantém-se o entendimento exposto na instrução anterior de que o perigo da demora está presente,
+tendo em vista que, caso permaneça a atual insuficiência dos controles internos relacionados ao crédito
+consignado, pode-se perpetuar a ocorrência de descontos indevidos em larga escala em prejuízo dos
+beneficiários. Assim, dadas as limitações de recursos humanos e operacionais que enfrenta o INSS, há
+urgência na implementação de controles automatizados para detecção e bloqueio prévio de
+irregularidades relacionadas às operações de crédito consignado.
+
+55. No tocante ao perigo da demora reverso, também permanece o entendimento exposto na instrução
+anterior de que uma eventual suspensão do crédito consignado em suas três modalidades acarretaria
+danos especialmente à população mais vulnerável, que teria restrição de acesso a crédito a taxas de juros
+menores ou, inclusive, restrição total de acesso ao crédito que é tradicionalmente ofertado no mercado
+pelas instituições financeiras, em razão de seus baixos rendimentos mensais.
+
+56. Além disso, vislumbra-se impacto negativo na economia em razão de uma medida cautelar
+abarcando as três modalidades de crédito consignado, tendo em vista o elevado volume de recursos
+mensalmente liberados na economia em decorrência dessas consignações.
+
+57. Por outro lado, considera-se que, caso a medida cautelar alcance somente as modalidades cartão de
+crédito consignado e cartão consignado de benefício, esse perigo da demora reverso é expressivamente
+minimizado, tendo em vista que os beneficiários do INSS interessados na contratação de crédito
+consignado ainda terão acesso à modalidade empréstimo consignado, havendo, meramente, bloqueio das
+parcelas da margem consignável atualmente atribuídas a cartão de crédito consignado e a cartão
+consignado de benefício, conforme previsão legal transcrita abaixo:
+
+                 Lei 10.820, de 17/12/2003
+
+                 Art. 6º Os titulares de benefícios de aposentadoria e pensão do Regime Geral de Previdência Social
+                 e do benefício de prestação continuada de que trata o art. 20 da Lei nº 8.742, de 7 de dezembro de
+                 1993, poderão autorizar que o Instituto Nacional do Seguro Social (INSS) proceda aos descontos
+                 referidos no art. 1º desta Lei e, de forma irrevogável e irretratável, que a instituição financeira na
+                 qual recebam os seus benefícios retenha, para fins de amortização, valores referentes ao pagamento
+                 mensal de empréstimos, financiamentos, cartões de crédito e operações de arrendamento mercantil
+                 por ela concedidos, quando previstos em contrato, na forma estabelecida em regulamento,
+                 observadas as normas editadas pelo INSS e ouvido o Conselho Nacional de Previdência Social.
+                 (Redação dada pela Lei nº 14.431, de 2022)
+
+                 (...)
+
+                                                                                                                 10
+
+Para verificar as assinaturas, acesse www.tcu.gov.br/autenticidade e informe o código 80217382.
+TRIBUNAL DE CONTAS DA UNIÃO                                                                      TC 003.276/2026-0
+
+                 § 5º Para os titulares de benefícios de aposentadoria e pensão do Regime Geral de Previdência
+                 Social, os descontos e as retenções referidos no caput deste artigo não poderão ultrapassar o limite
+                 de 45% (quarenta e cinco por cento) do valor dos benefícios, dos quais 35% (trinta e cinco por
+                 cento) destinados exclusivamente a empréstimos, a financiamentos e a arrendamentos mercantis, 5%
+                 (cinco por cento) destinados exclusivamente à amortização de despesas contraídas por meio de
+                 cartão de crédito consignado ou à utilização com a finalidade de saque por meio de cartão de crédito
+                 consignado e 5% (cinco por cento) destinados exclusivamente à amortização de despesas contraídas
+                 por meio de cartão consignado de benefício ou à utilização com a finalidade de saque por meio de
+                 cartão consignado de benefício. (Redação dada pela Lei nº 14.601, de 2023)
+
+                 § 5º-A Para os titulares do benefício de prestação continuada de que trata o art. 20 da Lei nº 8.742,
+                 de 7 de dezembro de 1993 (Lei Orgânica da Assistência Social), os descontos e as retenções
+                 referidos no caput deste artigo não poderão ultrapassar o limite de 35% (trinta e cinco por cento) do
+                 valor dos benefícios, dos quais 30% (trinta por cento) destinados exclusivamente a empréstimos, a
+                 financiamentos e a arrendamentos mercantis e 5% (cinco por cento) destinados exclusivamente à
+                 amortização de despesas contraídas por meio de cartão de crédito consignado ou cartão consignado
+                 de benefício ou à utilização com a finalidade de saque por meio de cartão de crédito consignado ou
+                 cartão consignado de benefício. (Redação dada pela Lei nº 14.601, de 2023)
+
+58. Ou seja, o perigo da demora reverso é bastante minimizado caso a medida cautelar seja deferida
+somente para as modalidades cartão de crédito consignado e cartão consignado de benefício, tendo em
+vista que os aposentados e pensionistas do INSS estarão impedidos de novas averbações que
+representam apenas 10% dos 45% de sua margem consignável, e os titulares do Benefício de Prestação
+Continuada estarão impedidos de novas averbações que representam somente 5% dos 35% de sua
+margem consignável.
+
+59. Da mesma forma, o eventual impacto negativo na economia também será bastante minimizado, já
+que os percentuais destinados ao empréstimo pessoal consignado permanecerão inalterados.
+
+III. Avaliação quanto aos principais pedidos do representante
+
+60. Transcrevem-se, abaixo, os principais pedidos do representante:
+
+                 a) adotar medida cautelar, fazendo-se presentes, no caso ora em consideração, o fumus boni iuris e o
+                 periculum in mora, determinando ao INSS e às instituições financeiras conveniadas a suspensão
+                 temporária da concessão de novos empréstimos consignados aos beneficiários do sistema
+                 previdenciário, até que sejam esclarecidas as irregularidades apontadas e implementadas medidas
+                 efetivas para garantir a segurança e a transparência dessas operações;
+
+                 b) apurar os indícios de vazamento de dados sigilosos de aposentados e pensionistas do INSS, bem
+                 como as práticas abusivas e fraudulentas relacionadas aos empréstimos consignados;
+
+61. Com relação ao pedido para apuração de vazamento de dados sigilosos de aposentados e
+pensionistas do INSS (item “b” acima), cabe mencionar recente deliberação do TCU sobre auditoria
+operacional, realizada pela Unidade de Auditoria Especializada em Tecnologia da Informação (AudTI),
+que avaliou a maturidade em governança de dados em cinco órgãos e entidades da administração
+pública federal, incluindo o INSS (TC 018.269/2024-9).
+
+62. Essa auditoria classificou o nível de maturidade em governança de dados no INSS como
+“Iniciando”, e destacou que isso pode comprometer o cumprimento de sua missão institucional. A
+fiscalização resultou na seguinte recomendação ao INSS, por meio do Acórdão 457/2026-TCU-
+Plenário, de 4/3/2026 (de relatoria do Ministro Augusto Nardes):
+
+                 9.1. recomendar. com fundamento no art. 11 da Resolução TCU 315/2020, aos órgãos a seguir
+                 enumerados que, levando em consideração as boas práticas contidas no framework DAMA
+                 DMBOK2, desenvolva ou revise seu programa de dados, alinhado aos seus objetivos de negócio e
+                 estratégicos, com a finalidade de orientar os esforços em governança e gestão de dados,
+                 contemplando avaliação e mecanismos de tratamento de riscos decorrentes das fragilidades
+                 identificadas na auditoria, em especial as listadas abaixo:
+
+                 (...)
+
+                 9.1.5. Instituto Nacional do Seguro Social (INSS):
+
+                 9.1.5.1. inexistência de política de governança de dados;
+
+                 9.1.5.2. implementação insuficiente de normas e diretrizes para gestão de dados;
+
+                                                                                                                 11
+
+Para verificar as assinaturas, acesse www.tcu.gov.br/autenticidade e informe o código 80217382.
+TRIBUNAL DE CONTAS DA UNIÃO                                                                      TC 003.276/2026-0
+
+                 9.1.5.3. inexistência de comitê ou conselho de governança de dados;
+                 9.1.5.4. indefinição de papéis e responsabilidades para governança de dados;
+                 9.1.5.5. inexistência de unidade/escritório de governança de dados institucionalizado separadamente
+                 da área de TI;
+                 9.1.5.6. realização limitada de ações de capacitação ou treinamento em governança de dados;
+                 9.1.5.7. não realização de ações para fomentar a cultura de dados;
+                 9.1.5.8. catálogo de dados limitado;
+                 9.1.5.9. glossário limitado de termos do negócio;
+                 9.1.5.10. informações limitadas sobre metadados;
+                 9.1.5.11. existência limitada de métricas e indicadores para monitorar e avaliar a qualidade de dados;
+                 9.1.5.12. existência de poucos procedimentos para tratar problemas de qualidade de dados;
+                 9.1.5.13. adoção de poucos padrões e protocolos para facilitar a integração e interoperabilidade de
+                 dados;
+                 9.1.5.14. utilização de poucas ferramentas ou plataformas que suportam a integração de dados de
+                 diferentes fontes;
+                 9.1.5.15. solução centralizada limitada para armazenar e gerenciar dados de diferentes fontes;
+                 9.1.5.16. processo limitado de gestão de maturidade em governança de dados;
+                 9.1.5.17. lacunas na conformidade com as leis e regulamentações aplicáveis à proteção de dados;
+                 9.1.5.18. não realização de auditoria e monitoramentos para garantir o cumprimento de políticas de
+                 governança de dados e requisitos legais;
+                 9.1.5.19. processo limitado para gestão de incidentes de governança de dados;
+
+63. Também é oportuno mencionar a auditoria objeto do TC 024.569/2024-0, que teve por objetivo
+avaliar medidas no INSS no contexto de segurança da informação. O relatório de fiscalização foi
+apreciado em março deste ano, por meio do Acórdão 685/2026-TCU-Plenário (Relator: Ministro Bruno
+Dantas).
+
+64. Entende-se que as auditorias citadas acima atendem ao pleito do representante no que tange ao
+vazamento de dados sigilosos no INSS, tendo em vista que os recentes acórdãos do TCU, que serão
+oportunamente monitorados, ensejarão a adoção de medidas estruturantes importantes para prevenção
+de vazamento de dados pessoais de beneficiários do INSS.
+
+65. No tocante à solicitação para apuração de práticas abusivas referentes ao crédito consignado (item
+“a” acima), entende-se estarem presentes os pressupostos da fumaça do bom direito e do perigo na
+demora. No entanto, por se vislumbrar, em certa medida, a presença do perigo da demora reverso,
+propõe-se deferir parcialmente o pedido de cautelar para que a suspensão de novas averbações de
+crédito consignado pelo INSS alcance somente as modalidades cartão de crédito consignado e cartão
+consignado de benefício, por ser o controle pelo INSS e pela Dataprev com relação a tais modalidades
+de crédito consignado bastante limitado em razão do sigilo bancário.
+
+66. Complementarmente, propõe-se que este Tribunal acompanhe, em trinta dias, as medidas adotadas
+para a efetiva implementação no sistema eConsignado das demandas do INSS constantes do Quadro 1
+desta instrução, sem prejuízo de eventuais ajustes técnicos nessas demandas que se façam necessários.
+
+67. Por fim, para o adequado exame de mérito destes autos, entende-se necessária a realização de
+diligência ao INSS, à Dataprev e ao Bacen, para que se manifestem sobre possíveis alternativas para o
+efetivo controle das consignações nas modalidades cartão de crédito consignado e cartão consignado de
+benefícios, conforme se detalha na proposta de encaminhamento.
+
+PROCESSOS CONEXOS
+
+NÚMERO DO TC    DESCRIÇÃO SUMÁRIA  ESTADO                                                        SITUAÇÃO ATUAL
+023.804/2025-4                     ATUAL
+                                                                                                 Aguardando
+                Representação acerca de concessão de Aberto                                      providências
+                crédito consignado em nome de menores
+                absolutamente incapazes                                                                            12
+
+Para verificar as assinaturas, acesse www.tcu.gov.br/autenticidade e informe o código 80217382.
+TRIBUNAL DE CONTAS DA UNIÃO                                                                      TC 003.276/2026-0
+
+024.015/2025-3  Representação acerca da criação,         Aberto                                  Aguardando
+                regulamentação e perpetuação do crédito                                          pronunciamento do
+                consignado, com especial atenção à                                               gabinete de ministro
+                modalidade de cartão de crédito
+                consignado
+
+018.269/2024-9  Auditoria operacional com o objetivo de  Aberto                                  Aguardando
+                avaliar a maturidade em governança de                                            providências
+                dados em cinco organizações públicas do                                          (Acórdão 457/2026-
+                Poder Executivo Federal, incluindo o                                             TCU-Plenário,
+                INSS                                                                             Relator: Ministro
+                                                                                                 Augusto Nardes)
+
+024.569/2024-0  Auditoria para avaliar medidas do INSS no Aberto                                 Em comunicação
+                contexto de segurança da informação                                              (Acórdão 685/2026-
+                                                                                                 TCU-Plenário,
+                                                                                                 Relator: Ministro
+                                                                                                 Bruno Dantas)
+
+CONCLUSÃO
+
+68. Em face do exame técnico efetuado nesta instrução, propõe-se deferir parcialmente o pedido de
+medida cautelar, na forma constante da proposta de encaminhamento desta instrução, uma vez que estão
+presentes os pressupostos do perigo da demora e da fumaça do bom direito, essenciais para sua
+concessão, mas resta caracterizado, em certa medida, o perigo da demora reverso (itens 65-66).
+
+69. Adicionalmente, propõe-se a realização de diligência ao Bacen, ao INSS e à Dataprev, para a
+obtenção de elementos essenciais para o exame de mérito destes autos (item 67).
+
+PROPOSTA DE ENCAMINHAMENTO
+
+70. Ante todo o exposto, submetem-se os autos à consideração superior, propondo:
+
+a) deferir parcialmente o pedido de concessão de medida cautelar, com fulcro no art. 276 do
+Regimento Interno/TCU, tendo em vista a existência dos elementos necessários para sua adoção parcial,
+a fim de que:
+
+a.1) o Instituto Nacional do Seguro Social suspenda novas averbações de crédito consignado nas
+modalidades “cartão de crédito consignado” e “cartão consignado de benefício” até a deliberação
+definitiva deste Tribunal;
+
+a.2) o Instituto Nacional do Seguro Social e a Empresa de Tecnologia e Informações da Previdência
+Social, em conjunto, em trinta dias, informem as medidas até então adotadas para a efetiva
+implementação das demandas DM.206791, DM.208207, DM.209361, DM.209362, DM.209363,
+DM.209364, DM.209365 e DM.209366, sem prejuízo de eventuais ajustes técnicos nessas demandas
+que se façam necessários;
+
+b) diligenciar o Instituto Nacional do Seguro Social, a Empresa de Tecnologia e Informações da
+Previdência Social e o Banco Central do Brasil, com fundamento nos artigos 157 e 187 do Regimento
+Interno deste Tribunal, para que, tendo em vista o sigilo bancário característico das modalidades cartão
+de crédito consignado e cartão consignado de benefício, que praticamente impossibilita o efetivo
+controle, pelo INSS, da regularidade dos descontos consignados nessas duas modalidades, informem, no
+prazo de trinta dias:
+
+b.1) alternativas que entendam mais adequadas para resolução dessa questão, a exemplo de:
+
+b.1.1) quebra excepcional do sigilo bancário para acesso, pelo INSS, das informações necessárias à
+efetiva fiscalização dessas consignações;
+
+b.1.2) mudança da competência de fiscalização dessas consignações para o Bacen, que originalmente
+possui a atribuição legal de fiscalizar as instituições financeiras, ou para outro órgão/entidade federal;
+
+b.1.3) medidas para passar a exigir manifestação prévia do beneficiário, por meio do aplicativo Meu
+INSS, sobre os termos das contratações;
+
+                                                                                                 13
+
+Para verificar as assinaturas, acesse www.tcu.gov.br/autenticidade e informe o código 80217382.
+TRIBUNAL DE CONTAS DA UNIÃO  TC 003.276/2026-0
+
+b.1.4) extinção dessas duas modalidades de crédito consignado, em razão da:
+
+b.1.4.1) inviabilidade ou ausência de custo-benefício em efetivamente fiscalizar a regularidade dessas
+operações, de modo que a permanência dessas modalidades afronta os princípios constitucionais da
+moralidade e da eficiência administrativa;
+
+b.1.4.2) natureza de crédito rotativo dessas duas modalidades, o que pode induzir mais facilmente os
+beneficiários do INSS ao superendividamento, em comparação com a modalidade empréstimo
+consignado;
+
+b.2) outras opções que entendam viáveis e demais informações que julgarem necessárias;
+
+c) encaminhar cópia da presente instrução ao Instituto Nacional do Seguro Social, à Empresa de
+Tecnologia e Informações da Previdência Social e ao Banco Central do Brasil, de maneira a embasar as
+respostas às diligências; e
+
+d) comunicar ao representante a decisão que vier a ser prolatada.”
+
+É o relatório.
+
+                                                                                                          14
+
+Para verificar as assinaturas, acesse www.tcu.gov.br/autenticidade e informe o código 80217382.
+TRIBUNAL DE CONTAS DA UNIÃO                                                                      TC 003.276/2026-0
+
+                                                          VOTO
+
+        Inicialmente, registro que atuo nos presentes autos em virtude da aposentadoria do Ministro
+Aroldo Cedraz de Oliveira, de acordo com a Portaria-TCU nº 11-SEAE, de 20/3/2026.
+
+2. Cuidam os autos de representação formulada pelo Ministério Público junto ao TCU (MPTCU),
+por meio de seu Subprocurador-Geral Lucas Rocha Furtado, acerca de supostas irregularidades
+relacionadas ao vazamento de dados sigilosos de aposentados e pensionistas do Instituto Nacional do
+Seguro Social (INSS) e a práticas abusivas e fraudulentas em empréstimos consignados (peça 1).
+
+3. O presente processo foi autuado e inicialmente submetido ao eminente Ministro Antônio
+Anastasia, relator primeiramente sorteado, para exame de admissibilidade, realizado mediante o
+despacho à peça 8, o qual também autorizou a realização de medidas saneadoras propostas pela
+unidade técnica e ordenou o subsequente apensamento do feito ao TC 016.470/2024-9 (relatado
+originalmente pelo Ministro Aroldo Cedraz), que trata de monitoramento com objeto conexo.
+
+4. No decorrer da instrução, contudo, a unidade técnica identificou conexão mais estreita com o
+TC 023.804/2025-4, o que motivou a redistribuição do feito, por prevenção, a esta Relatoria, em
+virtude desse processo, conforme acolhido no despacho à peça 33.
+
+5. A representação fundamenta-se em graves indícios de práticas abusivas e fraudulentas em
+empréstimos consignados, impulsionadas pelo vazamento de dados sigilosos de aposentados e
+pensionistas do INSS.
+
+6. As principais irregularidades apontadas incluem, além do acesso ilegal e recorrente aos dados
+de aposentados, a realização de práticas irregulares como contratos pós-óbito, fraude no consignado e
+cobrança de taxa abusiva.
+
+7. Derradeiramente, o representante requereu, cautelarmente, a suspensão total de novos
+empréstimos.
+
+8. Nesta etapa processual, o processo foi remetido ao meu gabinete, após a realização de oitivas
+prévias e diligências ao INSS, à Dataprev e à Controladoria-Geral da União (CGU) para colher
+subsídios acerca da fragilidade dos controles internos e dos sistemas de tecnologia da informação.
+
+9. Após análise das informações colhidas, a unidade técnica propõe a concessão parcial da
+cautelar solicitada para que o INSS suspenda novas averbações de crédito consignado nas modalidades
+“cartão de crédito consignado” e “cartão consignado de benefício” até a deliberação definitiva deste
+Tribunal, bem como diligências àquele instituto, à Empresa de Tecnologia e Informações da
+Previdência Social e ao Banco Central do Brasil.
+
+10. Por oportuno, é importante rememorar que atualmente existem 3 modalidades de consignação
+de empréstimos em benefícios previdenciários operadas pelo INSS: cartão de crédito consignado,
+cartão consignado em benefício e empréstimo pessoal consignado.
+
+11. No que tange às modalidades de cartão de crédito consignado e cartão consignado de benefício,
+o INSS esclarece que tais operações fundamentam-se em uma estrutura de crédito rotativo.
+Diferentemente de contratos tradicionais, estas modalidades não possuem um cronograma fixo de
+amortização, caracterizando-se como uma relação creditícia dinâmica e contínua, na qual o valor
+efetivamente utilizado pelo beneficiário e o saldo devedor variam conforme o uso do limite disponível.
+
+12. Em razão dessa natureza rotativa, a autarquia aponta que sua fiscalização é limitada, pois o
+sistema gerido pelo INSS registra apenas a autorização do desconto e o comprometimento da margem
+consignável. Consequentemente, o órgão informa que não possui visibilidade sobre a composição
+detalhada das faturas, a evolução dos encargos financeiros ou a confirmação de que os valores foram
+
+                                                                                                                           1
+
+Para verificar as assinaturas, acesse www.tcu.gov.br/autenticidade e informe o código 80217383.
+TRIBUNAL DE CONTAS DA UNIÃO                                                                      TC 003.276/2026-0
+
+efetivamente disponibilizados ao segurado, limitando-se ao controle da regularidade formal da
+averbação.
+
+13. Por outro lado, o empréstimo pessoal consignado é descrito como uma operação de crédito com
+valor previamente definido, prazo determinado e parcelas fixas. Embora essa modalidade possua uma
+estrutura mais previsível, o INSS ressalta que a fiscalização integral é dificultada por barreiras
+estruturais, como o volume massivo de milhões de operações ativas e a redução do quadro de
+servidores, que obriga a administração a priorizar a concessão de benefícios em detrimento do
+acompanhamento detalhado de contratos bancários.
+
+14. Por fim, a autarquia destaca que a contratação dessas operações ocorre fora de seu ambiente
+administrativo, diretamente entre o segurado e a instituição financeira, tratando-se de relações
+contratuais de natureza privada que fogem à sua competência institucional. Atualmente, o sistema é
+operacionalizado por meio de 57 Acordos de Cooperação Técnica (ACT) vigentes, que habilitam
+instituições financeiras a oferecer as três modalidades de crédito aos beneficiários da Previdência
+Social.
+
+15. No exame das manifestações e dos elementos probatórios coligidos, a unidade técnica
+consignou que o atual modelo de fiscalização das consignações em benefícios previdenciários sofre de
+fragilidades estruturais acentuadas, exacerbadas pela desproporcionalidade entre a magnitude do
+sistema e a capacidade operacional da autarquia. A Unidade de Auditoria Especializada em
+Previdência, Assistência e Trabalho (AudBenefícios) destacou que a Diretoria de Benefícios do INSS
+dispõe de apenas quatro servidores para a supervisão de um universo de 65,35 milhões de contratos, o
+que torna a fiscalização humana meramente residual e ineficaz frente ao volume de operações.
+
+16. Para que se tenha a exata dimensão da precariedade relatada, a atual estrutura impõe a cada um
+dos quatro servidores a responsabilidade hercúlea por fiscalizar mais de 16 milhões de contratos. Tal
+desproporção desnatura o conceito de controle administrativo, transmutando-o em uma “fiscalização
+de fachada”, que, por ser fisicamente impossível, equivale à própria inexistência de tutela estatal sobre
+o patrimônio dos segurados.
+
+17. Nesse contexto, a instrução técnica evidenciou que o sistema eConsignado, operado pela
+Dataprev, atua predominantemente como um repositório passivo de informações alimentadas pelas
+instituições consignatárias, carecendo de mecanismos de controle preventivo e travas automatizadas
+que condicionem a averbação do desconto à validação da regularidade contratual. A ausência de
+conferência automática de documentos essenciais, como o instrumento contratual e a validação
+biométrica efetiva, permite que averbações ocorram mesmo em casos de identificação prejudicada ou
+ausência de autorização do titular. Adicionalmente, a unidade técnica apontou um potencial conflito de
+interesses na celeridade da implementação desses controles, uma vez que o faturamento da Dataprev é
+significativamente composto por receitas provenientes das próprias instituições financeiras, atingindo
+67% de suas entradas de caixa em 2024.
+
+18. Quanto às modalidades específicas de crédito, a análise técnica demonstrou uma assimetria de
+informações crítica nas modalidades de cartão de crédito consignado e cartão consignado de benefício.
+Em razão da natureza rotativa desses créditos e da proteção conferida pelo sigilo bancário, o INSS não
+possui visibilidade sobre a evolução do saldo devedor, a composição das faturas ou a efetiva
+disponibilização do limite ao segurado, limitando-se ao controle da margem consignável. Tal
+opacidade é corroborada pelos achados da CGU, que indicam que 36% das contratações nestas
+modalidades não são reconhecidas pelos beneficiários e 78% dos usuários sequer recebem as faturas
+correspondentes. Diante da insuficiência dos controles internos para mitigar práticas abusivas e fraudes
+em larga escala, exemplificadas pelos prejuízos de R$ 6,5 bilhões identificados na Operação Sem
+Desconto, a unidade técnica concluiu pela imperatividade de uma intervenção cautelar que segregue as
+modalidades de maior risco, visando interromper o ciclo de danos ao patrimônio dos segurados
+enquanto se aperfeiçoam os mecanismos sistêmicos de detecção e bloqueio de irregularidades.
+
+                                                                                                                           2
+
+Para verificar as assinaturas, acesse www.tcu.gov.br/autenticidade e informe o código 80217383.
+TRIBUNAL DE CONTAS DA UNIÃO                                                                      TC 003.276/2026-0
+
+19. Reforça a plausibilidade jurídica o fato de que o INSS e a Dataprev, na condição de
+controladores de dados sensíveis, possuem o dever legal de segurança e sigilo estipulado pela Lei
+Geral de Proteção de Dados (Lei 13.709/2018). A prevenção do vazamento de informações não é
+apenas uma necessidade técnica, mas visa cumprir os deveres estabelecidos nos arts. 6º, VII, e 46 da
+referida Lei, que ao fim, são imperiosos para a prevenção de eventuais fraudes na autorização de
+consignação dos benefícios.
+
+20. De fato, a plausibilidade jurídica resta demonstrada pelos resultados da Operação Sem
+Desconto, que estimou danos de R$ 6,5 bilhões em descontos indevidos. A confirmação de que o
+sistema eConsignado permite a averbação de descontos sem a documentação mínima necessária e a
+incapacidade operacional do INSS em fiscalizar o volume massivo de contratos configura afronta aos
+princípios da legalidade e da eficiência administrativa. A fumaça do bom direito é especialmente densa
+nas modalidades de cartão de crédito e cartão de benefício, onde a opacidade das operações é maior.
+
+21. Porém, também na modalidade de “empréstimo pessoal consignado”, percebo que as
+fragilidades representadas apresentam plausibilidade jurídica, dada a informação de que fiscalização
+em curso na Controladoria-Geral da União identificou a realização de empréstimo pessoal consignado
+“sem envio da documentação contratual exigida ou sem comprovação da autorização da consignação;
+(ii) de mais de uma operação de empréstimo pessoal utilizando a mesma biometria; (iii) com indicação
+de conta corrente para depósito não correspondente à conta de pagamento do benefício; e (iv) com
+cobrança indevida de seguro prestamista e taxa administrativa.”.
+
+22. O perigo da demora também resta caracterizado, pois a manutenção do status quo permite que
+milhares de cidadãos vulneráveis continuem sendo, diariamente, vítimas de fraudes, passando à
+condição de endividamento excessivo. O volume de consignados alcança R$ 9 bilhões por mês, e cada
+dia de atraso na implementação de controles automatizados representa novos danos irreparáveis ao
+patrimônio alimentar dos segurados do INSS, que incluem pessoas com vulnerabilidade média acima
+da média, como idosos e pessoas com deficiência.
+
+23. Por outro lado, há que se ponderar o risco de uma suspensão total do crédito consignado, o que
+privaria a população de baixa renda do acesso à modalidade de crédito mais barata do mercado,
+empurrando-os para juros bancários tradicionais substancialmente superiores.
+
+24. Nesse contexto, a unidade técnica propõe a suspensão apenas das modalidades de cartão, que
+representam apenas 10% da margem consignável (5% para cada tipo de cartão). Isso, na visão da
+unidade, mantém o acesso ao empréstimo pessoal (35% da margem), minimizando o impacto
+econômico e protegendo o núcleo mais crítico de fraudes.
+
+25. No entanto, penso que, com as informações trazidas aos autos, e até que haja informações
+concretas sobre o alcance das potenciais fragilidades no processo de consignação, devem ser adotadas
+cautelas adicionais a fim de mitigar ao máximo o risco de que as consignações efetuadas sejam eivadas
+de vícios.
+
+26. Nesse ponto, observo que foram cadastradas no sistema Clarity demandas à Dataprev de
+controles internos no sistema eConsignado, que atendem as preocupações refletidas por meio dos itens
+diligenciados com base na instrução à peça 5, conforme despacho do Ministro Antônio Anastasia à
+peça 8.
+
+27. As demandas de segurança abertas pelo INSS junto à Dataprev visam instituir um controle
+preventivo e automatizado no sistema eConsignado, substituindo a atual fiscalização precária por
+travas sistêmicas mais rígidas e automatizadas. Entre as medidas principais, destacam-se a validação
+de contratos via Inteligência Artificial e o bloqueio automático de descontos sem a devida
+documentação, impedindo a averbação de empréstimos em nome de segurados falecidos ou de
+menores de idade sem autorização judicial. Essas travas são fundamentais para garantir que a margem
+consignável só seja utilizada mediante a comprovação inequívoca da vontade do titular.
+
+                                                                                                                           3
+
+Para verificar as assinaturas, acesse www.tcu.gov.br/autenticidade e informe o código 80217383.
+TRIBUNAL DE CONTAS DA UNIÃO                                                                      TC 003.276/2026-0
+
+28. Além da validação documental, os controles requisitados focam na integridade do fluxo
+financeiro e na identificação biométrica. As demandas buscam impedir que o crédito seja depositado
+em contas correntes diferentes daquelas em que o beneficiário recebe seu pagamento, dificultando
+desvios de valores por terceiros. Paralelamente, o incremento da segurança biométrica visa barrar
+contratos com identificação prejudicada, assegurando que o processo de contratação ocorra com níveis
+de autenticação robustos e auditáveis, mitigando o risco de fraudes de identidade.
+
+29. A importância dessas medidas reside na proteção do beneficiário contra o superendividamento
+e a “venda casada”. As travas sistêmicas devem impedir o acréscimo de produtos não autorizados,
+como o seguro prestamista, que frequentemente é embutido nos contratos de forma indevida. Ao
+centralizar esses controles na plataforma da Dataprev, o INSS busca sanar sua incapacidade
+operacional de fiscalizar milhões de contratos individuais, garantindo que o sistema rejeite, na origem,
+qualquer operação que não atenda estritamente aos requisitos normativos e de segurança.
+
+30. Ressalta-se, que mesmo nesse cenário de precariedade, o INSS, em março deste ano, suspendeu
+novas averbações de crédito consignado do banco C6, em virtude de auditoria realizada pela
+Controladoria-Geral da União (CGU), que identificou pelo menos 320 mil contratos com indícios de
+cobrança de custos adicionais, referentes a seguros e pacotes de serviços, resultando em redução do
+valor líquido efetivamente disponibilizado aos beneficiários. Tal conduta foi considerada de elevada
+gravidade, levando o INSS a pleitear a devolução de R$ 300.000.000,00 (trezentos milhões de reais),
+em face dessas irregularidades (ver https://www.gov.br/inss/pt-br/assuntos/inss-suspende-novos-
+creditos-consignados-do-banco-c6 e https://economia.uol.com.br/noticias/redacao/2026/03/17/inss-
+suspende-emprestimos-consignados-do-c6-e-cobra-devolucao-de-r-300-mi.ghtm, acessados em
+24/4/2026).
+
+31. Ademais, percebo a existência de decisões judiciais que apontam para a responsabilidade do
+INSS em caso de fraudes em empréstimos consignados nos benefícios pagos, motivadas,
+essencialmente, pela fragilidade da fiscalização adotada nesses casos, o que demonstra a existência de
+risco elevado para a concessão de benefícios, sem que sejam adotadas as cautelas mínimas para a
+prevenção de tais descontos irregulares (ver em https://web.trf3.jus.br/noticias-intranet-
+sjms/Noticiar/ExibirNoticia/1163-inss-tera-que-indenizar-familia-de-aposentado-por, acessado em
+24/4/2026).
+
+32. Assim, nesse juízo preliminar, ante os indícios de precariedade da fiscalização exercida pelo
+INSS e o grave cenário de vulnerabilidade sistêmica detalhado nos autos, entendo insuficiente que esta
+Corte apenas acompanhe a implementação dos referidos controles.
+
+33. Dessa forma, cabe determinar ao Instituto Nacional do Seguro Social (INSS) que suspenda,
+imediatamente, novas averbações de empréstimos pessoais consignados até que as travas de segurança
+e controles internos constantes nas demandas DM.206791, DM.208207, DM.209361, DM.209362,
+DM.209363, DM.209364, DM.209365 e DM.209366 estejam efetivamente implementadas e em plena
+operação no sistema eConsignado.
+
+34. A medida é necessária diante do risco iminente de dano ao erário e aos segurados, uma vez que
+a ausência desses controles permite a ocorrência de fraudes críticas, tais como: (i) consignações em
+nome de pessoas falecidas; (ii) contratações sem suporte contratual ou com identificação biométrica
+prejudicada; (iii) depósitos em contas de terceiros; (iv) inclusão ilegal de seguros e outros produtos; e
+(v) empréstimos a menores de idade, bem como da evidenciada precariedade na fiscalização manual
+exercida pelo INSS.
+
+35. Nesse ponto, cabe à Empresa de Tecnologia e Informações da Previdência Social (Dataprev)
+priorizar a execução das referidas demandas, abertas entre novembro de 2025 e março de 2026,
+considerando que a demora na implementação de ajustes sistêmicos básicos prolonga
+injustificadamente a exposição de milhões de beneficiários a práticas abusivas e erros operacionais.
+
+                                                                                                 4
+
+Para verificar as assinaturas, acesse www.tcu.gov.br/autenticidade e informe o código 80217383.
+TRIBUNAL DE CONTAS DA UNIÃO                         TC 003.276/2026-0
+
+36. Ademais, entendo necessário que, uma vez implementados os controles, deve o INSS
+apresentar relatório técnico que comprove a plena eficácia das travas de segurança para mitigar as
+irregularidades apontadas neste momento processual.
+
+37. Por fim, entendo oportuno deferir, com ajustes, a proposta de diligência da unidade técnica, por
+entender que as sugestões apresentadas na instrução são meramente elucidativas, sendo mais adequado
+que os órgãos mencionados indiquem as eventuais adequações administrativas e normativas viáveis
+para a solução das questões já identificadas. Além disso, contribuirá para o aprofundamento das
+análises por esta Corte com vistas a identificar necessidades de ajustes adicionais para a melhoria da
+fiscalização e gestão das consignações de empréstimos pessoais aos segurados do INSS.
+
+38. Entendo que a gravidade das ocorrências relatadas, aliada à manifesta fragilidade dos
+mecanismos de controle do INSS, impõe a atuação célere e incisiva deste Tribunal. A possibilidade de
+existência de um volume sistêmico de consignações irregulares – que variam desde a ausência de
+manifestação de vontade do segurado até a concessão de empréstimos em nome de pessoas falecidas
+ou menores de idade - exige uma apuração técnica pormenorizada. Não se trata apenas de falhas
+operacionais, mas de potencial afronta aos princípios da moralidade e da eficiência administrativa,
+além do risco iminente de prejuízo irreversível a milhões de beneficiários vulneráveis. Diante desse
+cenário, faz-se imperativo determinar a realização de inspeção junto ao INSS e à Dataprev com o
+objetivo de mapear o arcabouço normativo vigente, avaliar a eficácia das travas preventivas e,
+sobretudo, quantificar a extensão das irregularidades e dos conflitos de interesses que possam estar
+retardando as soluções sistêmicas necessárias.
+
+39. Cumpre registrar que a proteção aqui buscada transcende a esfera patrimonial, alcançando a
+própria dignidade dos segurados, visto que o benefício previdenciário detém natureza alimentar e, para
+a vasta maioria, representa o limite do mínimo existencial, cabendo ao Estado a garantia da
+inviolabilidade desses benefícios.
+
+        Diante do exposto, incorporo os pareceres da unidade técnica às peças 49-51 e 5-7 às minhas
+razões de decidir, e VOTO por que o Tribunal adote a deliberação que ora submeto a este Colegiado.
+
+TCU, Sala das Sessões, em 29 de abril de 2026.
+
+                          MARCOS BEMQUERER COSTA
+                                           Relator
+
+                                                                                                            5
+
+Para verificar as assinaturas, acesse www.tcu.gov.br/autenticidade e informe o código 80217383.
+TRIBUNAL DE CONTAS DA UNIÃO                                                                      TC 003.276/2026-0
+
+                                     ACÓRDÃO Nº 1094/2026 – TCU – Plenário
+
+1. Processo nº TC 003.276/2026-0.
+2. Grupo I – Classe de Assunto: VII – Representação
+3. Interessados: Controladoria-Geral da União (26.664.015/0001-48); Empresa de Tecnologia e
+Informações da Previdência - Dataprev (42.422.253/0001-01); Instituto Nacional do Seguro Social
+(29.979.036/0001-40).
+4. Órgão/Entidade: Instituto Nacional do Seguro Social.
+5. Relator: Ministro-Substituto Marcos Bemquerer Costa, em virtude da aposentadoria do Ministro
+Aroldo Cedraz de Oliveira, Portaria-TCU nº 11-SEAE, de 20/3/2026.
+6. Representante do Ministério Público: não atuou.
+7. Unidade Técnica: Unidade de Auditoria Especializada em Previdência, Assistência e Trabalho
+(AudBenefícios).
+8. Representação legal: não há
+
+9. Acórdão:
+              VISTOS, relatados e discutidos estes autos de representação formulada pelo Ministério
+
+Público junto ao TCU (MPTCU), por meio de seu Subprocurador-Geral Lucas Rocha Furtado, acerca
+de supostas irregularidades relacionadas ao vazamento de dados sigilosos de aposentados e
+pensionistas do Instituto Nacional do Seguro Social (INSS) e a práticas abusivas e fraudulentas em
+empréstimos consignados.
+
+              ACORDAM os Ministros do Tribunal de Contas da União, reunidos em sessão do
+Plenário, por unanimidade, ante os motivos expostos pelo Relator, em:
+
+              9.1. deferir parcialmente o pedido de concessão de medida cautelar, com fulcro no art. 276
+do Regimento Interno/TCU, tendo em vista a existência dos elementos necessários para sua adoção
+parcial, a fim de que:
+
+              9.1.1. o Instituto Nacional do Seguro Social suspenda, imediatamente, novas averbações de
+crédito consignado nas modalidades “cartão de crédito consignado” e “cartão consignado de benefício”
+até a deliberação definitiva deste Tribunal;
+
+              9.1.2. o Instituto Nacional do Seguro Social suspenda, imediatamente, novas averbações de
+empréstimos pessoais consignados até que as travas de segurança e controles internos constantes nas
+demandas DM.206791, DM.208207, DM.209361, DM.209362, DM.209363, DM.209364, DM.209365
+e DM.209366 estejam efetivamente implementadas e em plena operação no sistema eConsignado;
+
+              9.1.3. a Empresa de Tecnologia e Informações da Previdência Social (Dataprev) priorize a
+execução das referidas demandas, abertas entre novembro de 2025 e março de 2026, considerando que
+a demora na implementação de ajustes sistêmicos básicos prolonga injustificadamente a exposição de
+milhões de beneficiários a práticas abusivas e erros operacionais, sem prejuízo de eventuais ajustes e
+acréscimos técnicos nessas demandas que se façam necessários para a prevenção de irregularidades na
+consignação de empréstimos pessoais nos benefícios previdenciários;
+
+              9.1.4. o Instituto Nacional do Seguro Social, em conjunto com a Empresa de Tecnologia e
+Informações da Previdência Social, apresente, no prazo de 45 (quarenta e cinco) dias contados da
+notificação deste acórdão, relatório técnico que comprove a plena eficácia das travas de segurança para
+mitigar as irregularidades apontadas neste momento processual.
+
+              9.2. diligenciar o Instituto Nacional do Seguro Social, a Empresa de Tecnologia e
+Informações da Previdência Social e o Banco Central do Brasil, com fundamento nos artigos 157 e 187
+do Regimento Interno deste Tribunal, para que, tendo em vista o sigilo bancário característico das
+modalidades cartão de crédito consignado e cartão consignado de benefício, informem, no prazo de 30
+(trinta) dias contados da notificação deste acórdão, alternativas que entendam mais adequadas para a
+efetiva fiscalização dessas consignações, considerando o arcabouço jurídico existente, notadamente no
+
+                                                                                                                           1
+
+Para verificar as assinaturas, acesse www.tcu.gov.br/autenticidade e informe o código 80217384.
+           TRIBUNAL DE CONTAS DA UNIÃO                                     TC 003.276/2026-0
+
+que tange ao sigilo bancário, indicando, caso pertinente, a necessidade de alterações normativas e
+
+administrativas necessárias para esse fim;
+
+           9.3.   autorizar, com fulcro no art. 240 do Regimento Interno do TCU, a realização de
+
+inspeção junto ao Ministério da Previdência Social, ao Instituto Nacional do Seguro Social (INSS) e à
+
+Empresa de Tecnologia e Informações da Previdência Social (Dataprev), com o objetivo de:
+
+           9.3.1. identificar e analisar o arcabouço legal e infralegal que rege as autorizações de
+
+consignação de empréstimos, com especial ênfase nas normas editadas pelo INSS e pelo Conselho
+
+Nacional de Previdência Social;
+
+           9.3.2. verificar a existência e a eficácia dos mecanismos de controle preventivo e travas
+
+automatizadas que condicionem a averbação dos descontos à efetiva validação da regularidade
+
+contratual e à manifestação inequívoca da vontade do segurado;
+
+           9.3.3. identificar e quantificar as averbações de descontos desprovidas de documentação de
+
+suporte ou de comprovação inequívoca da manifestação de vontade do segurado, abrangendo, em
+
+especial:
+
+           9.3.3.1. casos de desconhecimento da autorização pelo beneficiário ou ausência de
+
+recebimento das faturas correspondentes;
+
+           9.3.3.2. ocorrências de empréstimos concedidos a múltiplas pessoas mediante o uso da
+
+mesma biometria;
+
+                  9.3.3.3. indicação de conta corrente para depósito em titularidade diversa
+
+           da do beneficiário;
+
+           9.3.3.4. cobranças indevidas de seguro prestamista e taxas administrativas não previstas;
+
+           9.3.4. identificar e quantificar as ocorrências de práticas irregulares tais como contratos
+
+celebrados pós-óbito, fraudes estruturadas no sistema de consignado e aplicação de taxas abusivas;
+
+           9.3.5. avaliar os mecanismos contratuais existentes que visem mitigar potenciais conflitos
+
+de interesses que possam estar prejudicando a celeridade na implementação de controles e travas de
+
+segurança sobre as autorizações de consignações pela Dataprev;
+
+           9.3.6. avaliar os controles existentes para prevenir o vazamento de dados pessoais de
+
+aposentados e pensionistas do Instituto Nacional do Seguro Social (INSS);
+
+           9.3.7. avaliar as medidas adotadas pelo Ministério da Previdência Social e pelo Instituto
+
+Nacional do Seguro Social para apurar as responsabilidades dos servidores e das instituições
+
+financeiras que tem Acordos de Cooperação Técnica com os órgãos, nos casos em que são
+
+identificadas irregularidades nas consignações de empréstimos nos benefícios dos segurados;
+
+           9.4. encaminhar cópia do presente acórdão, bem como do Relatório e Voto que o
+
+embasaram, acompanhada das instruções da unidade técnica às peças 49-51 e 5-7 ao Instituto Nacional
+
+do Seguro Social, à Empresa de Tecnologia e Informações da Previdência Social e ao Banco Central
+
+do Brasil, de maneira a embasar o cumprimento das medidas cautelares e as respostas às diligências; e
+
+           9.5. comunicar esta decisão ao representante.
+
+10. Ata n° 14/2026 – Plenário.
+11. Data da Sessão: 29/4/2026 – Ordinária.
+12. Código eletrônico para localização na página do TCU na Internet: AC-1094-14/26-P.
+
+                                                                                                                       2
+
+           Para verificar as assinaturas, acesse www.tcu.gov.br/autenticidade e informe o código 80217384.
+TRIBUNAL DE CONTAS DA UNIÃO                   TC 003.276/2026-0
+
+13. Especificação do quórum:
+13.1. Ministros presentes: Vital do Rêgo (Presidente), Benjamin Zymler, Bruno Dantas, Jorge Oliveira,
+Antonio Anastasia e Jhonatan de Jesus.
+13.2. Ministro-Substituto convocado: Marcos Bemquerer Costa (Relator).
+13.3. Ministro-Substituto presente: Weder de Oliveira.
+
+(Assinado Eletronicamente)                         (Assinado Eletronicamente)
+
+  VITAL DO RÊGO                            MARCOS BEMQUERER COSTA
+       Presidente                                           Relator
+
+                            Fui presente:
+
+                  (Assinado Eletronicamente)
+
+CRISTINA MACHADO DA COSTA E SILVA
+                 Procuradora-Geral
+
+                                                                                                            3
+
+Para verificar as assinaturas, acesse www.tcu.gov.br/autenticidade e informe o código 80217384.
+

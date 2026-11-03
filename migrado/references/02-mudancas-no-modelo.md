@@ -15,11 +15,11 @@ Fontes comparadas: a inicial "Francisco_Agibank_2021-2025" (docx do escritório,
 | 9 | Doutrina nominal (Cláudia Lima Marques, Pontes de Miranda, Marcos Bernardes de Mello, Peyrano, Cavalieri Filho, Bodin de Moraes, Bittar) | Retirada; os conceitos ficam sem atribuição | nenhuma obra está no acervo |
 | 10 | Hipervulnerabilidade com tabela de quatro dimensões e dispositivos da Constituição (arts. 1º, III, 5º, XXXII, 6º, 170, V, e 230) | Retirados | a Constituição não está no acervo; o CDC e o Estatuto da Pessoa Idosa bastam |
 | 11 | Res. CMN 4.753/2019 como base da "fidedignidade dos registros" no tópico do Motivo da Exclusão | Retirada; fundamentos: CPC, arts. 497 e 537; CDC, arts. 6º, VI, e 43 | a Res. 4.753 trata de conta de depósitos (D2) |
-| 12 | Acórdão TCU 1.094/2026 como sexta vantagem do Motivo da Exclusão | Retirado | não confirmado em fonte |
+| 12 | Acórdão TCU 1.094/2026 como sexta vantagem do Motivo da Exclusão | Mantido como reforço do item 6, ao lado da IN 138/2022, pelo que o acórdão diz (item 9.3.2: travas que condicionem a averbação à manifestação inequívoca da vontade do segurado) | lido no documento assinado do TCU em 03/11/2026 (`references/jurisprudencia/acordao-1094-2026-tcu.md`); é cautelar e não trata do Motivo da Exclusão |
 | 13 | Tutela da evidência pelo art. 311, II (com o Tema 1061) e IV | Só o art. 311, IV | o Tema 1061 trata de assinatura impugnada em contrato juntado pelo banco; aqui não há contrato juntado |
 | 14 | Tema 466 citado junto com a Súmula 479, sem fonte | Tema 466/STJ conferido no portal do STJ e incluído no acervo | tese e dados batem (REsp 1.197.929/PR e 1.199.782/PR; trânsito em 18/10/2011) |
 | 15 | Honorários de 20% sobre a soma da condenação e do proveito econômico, com REsp 2.168.312/PR, Tema 1.076 e REsp 2.062.421/SP | Tópico só em Justiça Comum; Tema 1076 conferido no portal do STJ; REsp 2.168.312/PR com `[VERIFICAR]` (Informativo 875/STJ, portal do STJ); REsp 2.062.421/SP retirado | o Tema 1076 bate com a página do STJ; a tese do REsp 2.168.312/PR bate com o Informativo 875 no portal do STJ; o REsp 2.062.421/SP não foi localizado |
-| 16 | Valor da causa inclui o proveito declaratório (parcelas vincendas) | Valor da causa = dobro + R$ 20.000,00; o proveito entra como alternativa, só em Justiça Comum com contrato ativo, por decisão do advogado | o modelo-base do escritório e o JEC não somam o proveito; art. 292, II e VI, do CPC |
+| 16 | Valor da causa inclui o proveito declaratório (parcelas vincendas) | Valor da causa = dobro + R$ 20.000,00 + proveito declaratório (parcelas vincendas dos ativos), sempre, em qualquer rito | decisão do escritório de 03/11/2026 (antes era alternativa marcada como decisão do advogado); art. 292, II e VI, do CPC; no JEC o script alerta se passar de 40 salários mínimos |
 | 17 | Gratuidade pelo art. 5º, LXXIV, da CF; "desinteresse na audiência de conciliação" fixo | Gratuidade pelos arts. 98 e 99 do CPC; interesse ou desinteresse perguntado ao advogado | a CF não está no acervo; no JEC a conciliação é central |
 | 18 | LGPD (arts. 5º, II, 6º, 11 e 46) em tópico fixo | Tópico condicional, por decisão do advogado | os dispositivos estão no acervo (`lgpd.md`); a LGPD como fundamento da trilha (art. 37) já foi retirada em outros modelos |
 | 19 | Tópico de prescrição com "imprescritibilidade" e prazo decenal sem precedente | Tópico do `nao-contratado` (art. 169 do CC; art. 205 do CC por analogia com o EAREsp 738.991/RS, `[VERIFICAR]`; art. 27 do CDC subsidiário) | precedente conferido apenas em fonte secundária |
@@ -34,7 +34,7 @@ Fontes comparadas: a inicial "Francisco_Agibank_2021-2025" (docx do escritório,
 - Contrato e banco de origem extraídos do campo de origem; divergência de número alertada.
 - Norma pela data da primeira averbação, em qualquer banco.
 - Segunda via do total de descontos.
-- Proveito econômico dos contratos ativos (parcelas vincendas) e valor da causa com e sem ele.
+- Proveito econômico dos contratos ativos (parcelas vincendas), somado ao valor da causa.
 - Teste de regressão com extrato fictício (`testes/caso-ficticio/teste.py`) e verificador do pacote.
 
 ## Resolvido depois da montagem

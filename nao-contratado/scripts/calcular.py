@@ -10,7 +10,9 @@ Regras do escritório (protocolo.md, "Cálculos"):
   - contrato ATIVO conta até a competência do mês anterior à data da peça;
   - restituição = dobro do total descontado;
   - dano moral = R$ 20.000,00 (fixo);
-  - valor da causa = restituição em dobro + dano moral (Vara Federal: valor real, sem renúncia a teto).
+  - proveito econômico declaratório = parcelas vincendas dos contratos ativos (da competência da peça ao fim do contrato);
+  - valor da causa = restituição em dobro + dano moral + proveito declaratório, sempre, em qualquer rito (art. 292, II e VI,
+    do CPC; decisão do escritório de 03/11/2026). Vara Federal: valor real, sem renúncia a teto.
 Todo número sai como CÁLCULO A CONFERIR.
 
 Uso:
@@ -29,6 +31,7 @@ import extrato as ext  # noqa: E402
 import escrutinio as esc  # noqa: E402
 
 DANO_MORAL = 20000.00
+TETO_JEC = 40 * 1621.00  # 40 salários mínimos (Decreto 12.797/2025, 2026)
 CONFERIR = "[CONFERIR]"
 AQUI = Path(__file__).resolve().parent.parent
 
@@ -81,7 +84,7 @@ def main():
     ap.add_argument("--saida", required=True)
     ap.add_argument("--rito", choices=["jec", "comum"], help="rito escolhido pelo advogado (FSC9)")
     ap.add_argument("--extrato-bancario", choices=["sim", "nao"], dest="extrato_bancario",
-                    help="o cliente trouxe o extrato bancário do mês da averbação? (VF6, Súmula 42/TJBA)")
+                    help="só se um documento dos autos mostrar crédito em conta (o escritório não pede o extrato bancário; VF6, Súmula 42/TJBA)")
     ap.add_argument("--dossie-pre-acao", action="store_true", dest="dossie_pre_acao",
                     help="o banco entregou contrato ou trilha antes da ação (VF2, VF4, VF5)")
     a = ap.parse_args()
@@ -109,7 +112,7 @@ def main():
         if not achados:
             conferir.append(f"Contrato {c['contrato']} não localizado no extrato: linha da tabela em branco.")
             linhas.append({"contrato": c["contrato"], "status": CONFERIR, "qtde": 0, "total": 0.0, "dobro": 0.0,
-                           "ativo": False})
+                           "ativo": False, "vincendas_qtde": 0, "vincendas_valor": 0.0})
             continue
         do_reu = [x for x in achados if x["banco"].replace(" ", "").startswith(f"{cod}-")]
         if do_reu:
@@ -127,6 +130,7 @@ def main():
         ate = min(fim, mes_ref) if ativo else fim
         qtde = max(0, ate - ini + 1)
         total = round(qtde * r["parcela"], 2)
+        vinc = max(0, fim - mes_ref) if ativo else 0  # parcelas vincendas: proveito econômico declaratório
         # segunda via: soma mês a mês
         total2 = round(sum(r["parcela"] for _ in range(ini, ate + 1)), 2) if qtde else 0.0
         if abs(total - total2) > 0.005:
@@ -137,6 +141,7 @@ def main():
             "parcela": r["parcela"], "liberado": r["liberado"], "qtde": qtde, "total": total,
             "dobro": round(2 * total, 2), "status": status, "ativo": ativo, "ini_n": ini, "ate_n": ate,
             "ate_comp": comp_str(ate) if qtde else None, "bloco": c.get("bloco"),
+            "vincendas_qtde": vinc, "vincendas_valor": round(vinc * r["parcela"], 2),
             "motivo_exclusao": r["motivo_exclusao"], "exclusao": data4(r["exclusao"]),
         })
         if c.get("bloco") in ("B", "C") and ativo:
@@ -153,7 +158,10 @@ def main():
     ativos = [l["contrato"] for l in linhas if l["ativo"]]
     tot_desc = round(sum(l["total"] for l in linhas), 2)
     tot_dobro = round(sum(l["dobro"] for l in linhas), 2)
-    valor_causa = round(tot_dobro + DANO_MORAL, 2)
+    proveito = round(sum(l["vincendas_valor"] for l in linhas), 2)
+    valor_causa = round(tot_dobro + DANO_MORAL + proveito, 2)
+    if a.rito == "jec" and valor_causa > TETO_JEC:
+        alertas.append(f"Valor da causa ({brl(valor_causa)}) acima de 40 salários mínimos ({brl(TETO_JEC)}): incompatível com o JEC; rever o rito.")
     com_desc = [l for l in linhas if l.get("qtde")]
     inicios = [l["ini_n"] for l in com_desc]
     limite5 = (hoje.year - 5) * 12 + hoje.month - 1
@@ -170,11 +178,19 @@ def main():
     res_esc = esc.checagem(sel, todos_ext, "nao-contratado", hoje=hoje, rito=a.rito, extrato_bancario=a.extrato_bancario,
                            dossie_pre_acao=a.dossie_pre_acao)
     alertas.extend(x for x in res_esc["roteamento"] if x not in alertas)
+    foro = esc.foro(proc, a.rito)  # endereçamento e fecho pela competência da ficha (decisão de 03/11/2026)
+    if foro["conferir"]:
+        conferir.append(f"Foro: {foro['conferir']}.")
+    if foro.get("jec_sem_vara_do_sistema") and a.rito == "jec":
+        alertas.append("Comarca sem Vara do Sistema dos Juizados: o JEC corre na vara cível; a peça diz 'pelo procedimento da Lei nº 9.099/95' no preâmbulo.")
+    if not a.rito:
+        conferir.append("Rito não informado (--rito jec|comum): o endereçamento do calculo.json traz as duas formas; perguntar ao advogado.")
     out = {
         "data_peca": hoje.isoformat(), "processo": a.processo, "nb": proc.get("nb"), "reu": proc["reu"],
-        "reu_cadastrado": bool(reu), "caixa": eh_caixa, "competencia": proc.get("competencia"),
+        "reu_cadastrado": bool(reu), "caixa": eh_caixa, "competencia": proc.get("competencia"), "foro": foro,
         "contratos": linhas, "ativos": ativos, "tutela": bool(ativos), "prescricao_5_anos": prescricao,
         "total_descontado": tot_desc, "total_dobro": tot_dobro, "dano_moral": DANO_MORAL,
+        "proveito_declaratorio": proveito, "proveito_declaratorio_extenso": brl_ext(proveito),
         "valor_causa": valor_causa, "valor_causa_extenso": brl_ext(valor_causa),
         "dano_moral_extenso": brl_ext(DANO_MORAL), "alertas": alertas, "conferir": conferir, "checagem_fsc": res_esc["fsc"], "checagem_vf": res_esc["vf"],
         "mesma_data": res_esc["mesma_data"],
@@ -186,14 +202,15 @@ def main():
 
     md = [f"# Cálculo do processo {a.processo} (NB {proc.get('nb')}) — **CÁLCULO A CONFERIR**", "",
           f"Data da peça: {hoje.strftime('%d/%m/%Y')} · última competência de contrato ativo: {comp_str(mes_ref)}", "",
-          "| Contrato | Status | Início | Fim usado | Qtde | Parcela | Total | Dobro |", "|---|---|---|---|---|---|---|---|"]
+          "| Contrato | Status | Início | Fim usado | Qtde | Parcela | Total | Dobro | Vincendas |", "|---|---|---|---|---|---|---|---|---|"]
     for l in linhas:
         md.append(f"| {l['contrato']} | {l['status']} | {l.get('inicio', '')} | {l.get('ate_comp') or ''} | {l['qtde']} | "
-                  f"{brl(l.get('parcela') or 0)} | {brl(l['total'])} | {brl(l['dobro'])} |")
+                  f"{brl(l.get('parcela') or 0)} | {brl(l['total'])} | {brl(l['dobro'])} | {l['vincendas_qtde']} ({brl(l['vincendas_valor'])}) |")
     md += ["", f"- Total descontado: **{brl(tot_desc)}**",
            f"- Restituição em dobro: **{brl(tot_dobro)}**",
            f"- Dano moral (fixo): **{brl(DANO_MORAL)}**",
-           f"- Valor da causa: **{brl_ext(valor_causa)}**" + (" (Vara Federal: valor real, sem renúncia a teto)" if eh_caixa else ""),
+           f"- Proveito econômico declaratório (parcelas vincendas dos ativos): **{brl(proveito)}**",
+           f"- Valor da causa (dobro + dano moral + proveito declaratório): **{brl_ext(valor_causa)}**" + (" (Vara Federal: valor real, sem renúncia a teto)" if eh_caixa else ""),
            f"- Tutela de urgência: {'SIM, só sobre ' + ', '.join(ativos) if ativos else 'não (sem contrato ativo)'}",
            f"- Tópico de prescrição (algum desconto com mais de 5 anos): {'SIM' if prescricao else 'não'}", ""]
     if conferir:

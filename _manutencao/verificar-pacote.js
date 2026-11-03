@@ -355,6 +355,9 @@ if (X) {
         const c = JSON.parse(ler(cj)); const exigidos = [['valor da causa', c.valor_causa], ['total em dobro', c.total_dobro], ['total descontado', c.total_descontado]];
         for (const l of c.contratos || []) exigidos.push([`total do contrato ${l.contrato}`, l.total], [`dobro do contrato ${l.contrato}`, l.dobro]);
         for (const [nome, v] of exigidos) if (v && !t.includes('R$ ' + fmt(v))) erro('peças', `${r}: ${nome} (R$ ${fmt(v)}) não consta da peça; os números vêm de ${PG.calculo || 'calculo.json'}`);
+        // foro: endereçamento e fecho saem do endereço do autor (calculo.json, chave foro)
+        if (c.foro && c.foro.fecho && !t.includes(c.foro.fecho + ',')) erro('peças', `${r}: o fecho não é "${c.foro.fecho}" (sede do juízo, foro do ${PG.calculo || 'calculo.json'})`);
+        if (c.foro && c.foro.enderecamento && !t.includes(c.foro.enderecamento)) erro('peças', `${r}: o endereçamento não é o do foro do ${PG.calculo || 'calculo.json'} (${c.foro.enderecamento.slice(0, 70)}…)`);
       }
     }
   }
@@ -386,6 +389,21 @@ if (mistos.length) aviso('quebras de linha', `${mistos.length} arquivo(s) com CR
 // ---------- 8. cobertura das skills ----------
 for (const s of skills) { const p = path.join(RAIZ, s, 'protocolo', 'protocolo.md'); if (!C.semProtocolo.includes(s) && !fs.existsSync(p)) erro('estrutura', `${s}: sem protocolo/protocolo.md`); }
 const lixo = listar(RAIZ).filter(f => /[\\/]~\$|\.tmp$|\.bak$/.test(f) && !/backup-sincronizacao/.test(f)); if (lixo.length) aviso('estrutura', `arquivos temporários: ${lixo.map(rel).join(', ')}`);
+
+// ---------- 9. figuras (PNG): largura em px e resolução do bloco pHYs ----------
+if (C.figuras) for (const f of listar(RAIZ).filter(f => C.figuras.arquivo.test(f) && !/backup-sincronizacao/.test(f))) {
+  const b = fs.readFileSync(f);
+  if (b.readUInt32BE(12) !== 0x49484452) { erro('figuras', `${rel(f)}: não é PNG`); continue; }
+  const w = b.readUInt32BE(16);
+  let dpi = 0;
+  for (let i = 8; i + 8 <= b.length;) {  // percorre os blocos até o pHYs (pixels por metro)
+    const n = b.readUInt32BE(i), tipo = b.toString('latin1', i + 4, i + 8);
+    if (tipo === 'pHYs' && b[i + 16] === 1) { dpi = Math.round(b.readUInt32BE(i + 8) * 0.0254); break; }
+    if (tipo === 'IDAT' || tipo === 'IEND') break;
+    i += 12 + n;
+  }
+  if (w !== C.figuras.larguraPx || dpi !== C.figuras.dpi) erro('figuras', `${rel(f)}: ${w} px a ${dpi || '?'} dpi, ${C.figuras.msg}`);
+}
 
 // ---------- resumo ----------
 const por = l => l.reduce((a, x) => (a[x.cat] = (a[x.cat] || 0) + 1, a), {});

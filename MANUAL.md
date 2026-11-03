@@ -58,7 +58,7 @@ Se já sabe o que quer, chame a skill direto pelo nome, com a barra (seção 3).
 | Etapa | Documentos | Observação |
 |---|---|---|
 | Entrada (triagem) | Termo de Responsabilidade assinado; Análise Jurídico-Documental (uma por benefício); extrato do INSS (Histórico de Empréstimo Consignado), um por benefício | **Só vira ação o contrato que está na análise e no termo.** O que não está no termo não é ajuizado, sem pergunta. |
-| Inicial | a ficha aprovada; extrato do INSS; documentos pessoais e comprovante de residência atuais e legíveis | Recomendado: **extrato bancário do cliente no mês de cada averbação** (seção 5). No RMC, o histórico mensal completo do cartão (HISCRE ou faturas). |
+| Inicial | a ficha aprovada; extrato do INSS; documentos pessoais e comprovante de residência atuais e legíveis | Não é preciso extrato bancário do cliente: o escritório ajuíza sem ele. No RMC, o histórico mensal completo do cartão (HISCRE ou faturas). |
 | Réplica | a inicial, a contestação e os documentos do banco; se tiver, o `dossie-do-caso.json` que a inicial gerou | A skill abre a primeira página de cada documento do banco antes de dizer o que ele é. |
 | Recurso | a sentença, a inicial e a réplica; se tiver, o `dossie-do-caso.json` e o `fichas.json` | O prazo é controlado pelo escritório; a skill não pergunta a data da intimação. |
 
@@ -68,14 +68,12 @@ Documento ilegível vira `[CONFERIR]`. Documento que falta e muda o próximo pas
 
 ## 5. As perguntas que você vai responder (e por quê)
 
-A skill pergunta **uma vez**, no máximo três coisas por rodada, e não escolhe por você:
+A skill pergunta **uma vez**, no máximo três coisas por rodada, e não escolhe por você. O **juízo e a cidade do fecho não são perguntados**: saem do endereço do cliente (a comarca do TJBA ou a subseção da Justiça Federal), e a cidade do fecho é a sede desse juízo.
 
 | Pergunta | Por quê |
 |---|---|
-| **Rito: JEC ou Justiça Comum?** | Muda o juízo, os pedidos de prova (exibição e perícia só na Justiça Comum) e o recurso. A skill pode sugerir; quem decide é você. |
-| **Cidade e UF do fecho** | Não se presume pelo endereço do cliente nem pela comarca. |
-| **O cliente trouxe o extrato bancário do mês da averbação?** | Se o dinheiro do empréstimo caiu na conta e a peça negar tudo, o juiz pode ver má-fé (Súmula 42 do TJBA). É **recomendado**, não obrigatório: sem ele, fica registrado como pendência e você decide se ajuíza. |
-| **Se caiu dinheiro na conta: devolução, depósito em juízo ou compensação?** | A peça reconhece o lançamento e nega a contratação; o tratamento do valor é decisão sua, e fica marcado até você decidir. |
+| **Rito: JEC ou Justiça Comum?** | Muda o juízo, os pedidos de prova (exibição só na Justiça Comum; perícia nunca na inicial, decidida na réplica conforme os documentos do banco) e o recurso. A skill pode sugerir; quem decide é você. |
+| **Só se um documento dos autos mostrar dinheiro na conta: devolução, depósito em juízo ou compensação?** | A peça reconhece o lançamento e nega a contratação; o tratamento do valor é decisão sua, e fica marcado até você decidir. |
 | **O banco entregou contrato ou trilha antes da ação?** | Muda as verificações sobre os documentos do banco. |
 | Só no migrado: **interesse na audiência de conciliação** (Justiça Comum) | Requisito da inicial. |
 | Só no RMC: **ação anterior sobre o mesmo cartão?** e **só o mínimo da fatura é descontado em folha?** | Coisa julgada e a premissa da tese. |
@@ -87,7 +85,7 @@ A skill pergunta **uma vez**, no máximo três coisas por rodada, e não escolhe
 Toda resposta traz, nesta ordem:
 
 1. **Painel do Caso:** quem é o cliente (com identificador abreviado), cada processo (benefício, banco, tese, etapa) e o que foi feito.
-2. **Quadro de fatos:** cada fato com um estado. `confirmado` tem documento, ID e página. `relatado` vem do cliente e **nunca vira prova na peça**. `inferido` foi deduzido. `desconhecido` é o que falta. A linha do tempo do caso (averbação, descontos, exclusão, ciência, prescrição) vem do script.
+2. **Quadro de fatos:** cada fato com um estado. `confirmado` tem documento (na inicial, o anexo, porque ainda não há ID; na réplica e no recurso, ID e página). `relatado` vem do cliente e **nunca vira prova na peça**. `inferido` foi deduzido. `desconhecido` é o que falta. A linha do tempo do caso (averbação, descontos, exclusão, ciência, prescrição) vem do script.
 3. **A minuta**, em Markdown.
 4. **Os quatro portões**, cada um como passou, pendente ou bloqueado:
    - fatos e enquadramento;
@@ -115,7 +113,7 @@ Toda resposta traz, nesta ordem:
 **A. Cliente novo, contrato que ele não reconhece.**
 1. Mande termo, análise e extrato do INSS (ou a pasta inteira, com `/consignado`).
 2. Confira a **ficha de ajuizamento**: processos, réus, contratos, skill de cada um. Aprove ou corrija.
-3. Responda rito, cidade e se há extrato bancário.
+3. Responda o rito. O juízo e a cidade do fecho saem do endereço do cliente, sem pergunta.
 4. Receba a minuta e a tabela do cálculo. Confira as marcas e os portões.
 5. Peça o Word.
 
@@ -154,7 +152,7 @@ A skill seguinte parte deles sem repetir as perguntas. Esses arquivos são rotei
 - **Citações:** o pacote só cita o que está no acervo dele, e transcrição é conferida letra a letra contra a fonte. O que não está no acervo vira `[CONFERIR]`. Mesmo assim, leia cada precedente citado antes de assinar.
 - **Números:** vêm do script. Confira a tabela do cálculo, principalmente a quantidade de parcelas de contrato ativo.
 - **Fatos:** nada que seja só relato do cliente deve aparecer como provado.
-- **Rito, cidade e decisões marcadas:** sempre suas.
+- **Rito e decisões marcadas:** sempre seus. Confira se o juízo e a cidade do fecho batem com o endereço do cliente: saem dele, sem pergunta.
 - **Dados pessoais:** a resposta mascara CPF e NB quando não são necessários. Não cole documentos inteiros na conversa sem necessidade.
 - **Atualização:** normas, temas do STJ e súmulas mudam. O pacote informa a data da consulta de cada fonte; se a data estiver antiga, avise quem mantém o pacote.
 

@@ -41,12 +41,12 @@ A redação desses artigos mudou ao longo do tempo (o arquivo consolidado traz r
 | Prescrição | algum desconto com mais de 5 anos | `calculo.json`, `prescricao_5_anos` |
 | Litispendência | `litispendencia` preenchido na ficha | ficha |
 | Tramitação prioritária | autor com 60 anos ou mais | qualificação (nascimento) |
-| Exibição e perícia com quesitos | rito = Justiça Comum | pergunta ao advogado |
+| Exibição (perícia: só na réplica) | rito = Justiça Comum | pergunta ao advogado |
 | Endereçamento federal | réu = Caixa (código 104) | `reus.json` |
 
 ## Campos do quadro de fatos específicos desta tese
 
-Além dos campos comuns (`protocolo/quadro-de-fatos.md`), registre, para cada derivado e com ID e página do extrato: número do derivado e da raiz; averbação e exclusão da raiz, com o motivo; data e origem da averbação do derivado ("Averbação nova" ou "Migrado do contrato…"); parcela, prazo, início e fim dos descontos; valor liberado; exclusão do derivado e motivo, se houver; o mesmo número em outro banco, com banco, datas e motivo; e se o cliente reconhece o contrato-raiz. Estado de cada campo: confirmado (extrato), relatado (cliente), inferido ou desconhecido.
+Além dos campos comuns (`protocolo/quadro-de-fatos.md`), registre, para cada derivado e com a página do extrato: número do derivado e da raiz; averbação e exclusão da raiz, com o motivo; data e origem da averbação do derivado ("Averbação nova" ou "Migrado do contrato…"); parcela, prazo, início e fim dos descontos; valor liberado; exclusão do derivado e motivo, se houver; o mesmo número em outro banco, com banco, datas e motivo; e se o cliente reconhece o contrato-raiz. Estado de cada campo: confirmado (extrato), relatado (cliente), inferido ou desconhecido.
 
 ## Anomalias que exigem pausa
 
@@ -62,8 +62,8 @@ Além dos campos comuns (`protocolo/quadro-de-fatos.md`), registre, para cada de
 ## Perguntas típicas (máximo três por rodada)
 
 1. Rito: JEC ou Justiça Comum? (sempre)
-2. Cidade e UF do fecho? (sempre)
-3. O cliente recebeu algum crédito em conta na data do derivado? Há extrato bancário?
+2. (não se pergunta) Juízo e cidade do fecho: vêm do `foro` do calculo.json, pelo endereço do autor.
+3. Algum documento já nos autos mostra crédito em conta na data do derivado? (O extrato bancário não é pedido nem perguntado.)
 4. O cliente reconhece o contrato-raiz? (a peça não discute a raiz; a resposta evita contradição com outra ação)
 
 ## Mapa da checagem pré-recurso (FSC) para o modelo
@@ -75,6 +75,6 @@ Além dos campos comuns (`protocolo/quadro-de-fatos.md`), registre, para cada de
 | FSC4, proveito econômico | mesmo subtópico (valor liberado do extrato) e tabela de documentos (comprovante do crédito) |
 | FSC6, impugnação tardia | fatos (data da ciência) e tópico de prescrição |
 | FSC8, mero dissabor | subtópico do dano extrapatrimonial (Súmula 40 do TJBA, particularidades) |
-| FSC9, FSC10, prova técnica | inversão (JEC) ou exibição e perícia com quesitos (Justiça Comum) |
+| FSC9, FSC10, prova técnica | inversão (JEC) ou exibição (Justiça Comum; perícia decidida na réplica) |
 | FSC12, litigância predatória | documentos legíveis e atuais; um processo por benefício + banco + tese; nada sobre outras ações |
 | FSC5, FSC11, cessão e mesma data | a tese **é** o caso de mesma data (exclusão e reinclusão); descrever só pelo extrato |

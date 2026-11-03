@@ -58,7 +58,7 @@ def main():
         got = (l["qtde"], l["total"], l["dobro"], l["status"])
         if got != esp:
             erros.append(f"{l['contrato']}: obtido {got}, esperado {esp}")
-    for campo, esp in (("total_descontado", 9865.10), ("total_dobro", 19730.20), ("valor_causa", 39730.20)):
+    for campo, esp in (("total_descontado", 9865.10), ("total_dobro", 19730.20), ("proveito_declaratorio", 7080.00), ("valor_causa", 46810.20)):
         if abs(calc[campo] - esp) > 0.005:
             erros.append(f"{campo}: obtido {calc[campo]}, esperado {esp}")
     if calc["ativos"] != ["00555111222"] or not calc["tutela"]:
@@ -72,13 +72,13 @@ def main():
     fsc = {f["fsc"]: f["status"] for f in calc["checagem_fsc"]}
     if len(calc["checagem_fsc"]) != 12 or len(calc["checagem_vf"]) != 9:
         erros.append("checagem FSC/VF incompleta no calculo.json")
-    if fsc.get(4) != "ATIVADO" or fsc.get(6) != "ATIVADO" or fsc.get(5) != "NAO_SE_APLICA":
+    if fsc.get(4) != "OK" or fsc.get(6) != "ATIVADO" or fsc.get(5) != "NAO_SE_APLICA":
         erros.append(f"FSC4/FSC6/FSC5 inesperados: {fsc}")
     if any("ROTEAMENTO" in a for a in calc["alertas"]):
         erros.append("o caso fictício não deveria ter alerta de roteamento")
     if erros:
         sys.exit("TESTE FALHOU:\n- " + "\n- ".join(erros))
-    print("TESTE OK: 3 contratos lidos; 33, 22 e 25 parcelas; dobro R$ 19.730,20; valor da causa R$ 39.730,20; "
+    print("TESTE OK: 3 contratos lidos; 33, 22 e 25 parcelas; dobro R$ 19.730,20; proveito R$ 7.080,00; valor da causa R$ 46.810,20; "
           "tutela só sobre o ativo; prescrição e anomalia sinalizadas.")
 
 

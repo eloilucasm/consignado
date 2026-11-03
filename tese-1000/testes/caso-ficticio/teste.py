@@ -82,8 +82,8 @@ def main():
     confere(erros, "p1", d1, {"qtde": 11, "total": 371.25, "dobro": 742.50, "regime_norma": "IN28", "categoria_intervalo": "MESMO_DIA",
                               "intervalo_dias": 0, "raiz": "51-000111/00001", "sufixo": "_0001", "status": "EXCLUÍDO", "troca_de_titularidade": False})
     confere(erros, "p2", d2, {"qtde": 30, "total": 1500.00, "dobro": 3000.00, "regime_norma": "IN138", "categoria_intervalo": "MESMO_DIA",
-                              "intervalo_dias": 0, "raiz": "51-000222/00002", "sufixo": "_0001", "status": "ATIVO"})
-    for nome, c, vc, tutela, presc in (("p1", c1, 20742.50, False, True), ("p2", c2, 23000.00, True, False)):
+                              "intervalo_dias": 0, "raiz": "51-000222/00002", "sufixo": "_0001", "status": "ATIVO", "vincendas_qtde": 54, "vincendas_valor": 2700.00})
+    for nome, c, vc, tutela, presc in (("p1", c1, 20742.50, False, True), ("p2", c2, 25700.00, True, False)):
         confere(erros, nome, c, {"valor_causa": vc, "tutela": tutela, "prescricao_5_anos": presc})
         if "20.000,00 (vinte mil reais)" not in c["dano_moral_extenso"]:
             erros.append(f"{nome}: dano moral por extenso incorreto")
@@ -96,7 +96,7 @@ def main():
     a, b = c3["derivados"]
     confere(erros, "p3 _0001", a, {"qtde": 41, "total": 1640.00, "categoria_intervalo": "ATE_30_DIAS", "intervalo_dias": 2, "regime_norma": "IN138"})
     confere(erros, "p3 _0002", b, {"qtde": 38, "total": 1140.00, "categoria_intervalo": "MAIS_DE_30_DIAS", "intervalo_dias": 79, "regime_norma": "IN138"})
-    confere(erros, "p3", c3, {"total_descontado": 2780.00, "total_dobro": 5560.00, "valor_causa": 25560.00, "tutela": True})
+    confere(erros, "p3", c3, {"total_descontado": 2780.00, "total_dobro": 5560.00, "proveito_declaratorio": 3100.00, "valor_causa": 28660.00, "tutela": True})
     if len(c3["ativos"]) != 2 or any("mais de um contrato-raiz" in x.lower() for x in c3["alertas"]):
         erros.append("p3: dois derivados da MESMA raiz não deveriam gerar alerta de mais de uma raiz")
 
@@ -131,10 +131,14 @@ def main():
         with tempfile.TemporaryDirectory() as tmp2:
             cj = Path(tmp2) / "calculo.json"
             cj.write_text(json.dumps(c1, ensure_ascii=False), encoding="utf-8")
-            roda(RAIZ / "scripts/diagramas_1000.py", "--calculo", cj, "--saida", Path(tmp2) / "fig", "--fonte", "ID 12, p. 3")
-            for nome, tam in (("fig_anatomia_1.png", (1400, 470)), ("fig_linha_tempo_1.png", (1400, 500))):
+            roda(RAIZ / "scripts/diagramas_1000.py", "--calculo", cj, "--saida", Path(tmp2) / "fig")
+            for nome in ("fig_anatomia_1.png", "fig_linha_tempo_1.png"):  # 17 cm a 300 dpi; altura pelo conteúdo
                 f = Path(tmp2) / "fig" / nome
-                if not f.exists() or Image.open(f).size != tam:
+                tam, dpi = (0, 0), 0
+                if f.exists():
+                    with Image.open(f) as im:
+                        tam, dpi = im.size, round(im.info.get("dpi", (0,))[0])
+                if tam[0] != 2008 or dpi != 300 or not 500 < tam[1] < 1600:
                     erros.append(f"figura {nome} ausente ou com tamanho errado")
     except ImportError:
         print("AVISO: Pillow ausente; figuras não testadas")

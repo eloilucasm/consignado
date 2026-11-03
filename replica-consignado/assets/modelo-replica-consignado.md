@@ -116,11 +116,15 @@ O silêncio só importa anuência "quando as circunstâncias ou os usos o autori
 O ônus de provar a regularidade da contratação é do réu por força de lei: no fato do serviço, o fornecedor só se exime se provar a inexistência do defeito ou a culpa exclusiva do consumidor ou de terceiro (art. 14, § 3º, do CDC); impugnada a autenticidade, o ônus é de quem produziu o documento (art. 429, II, do CPC; Tema 1061/STJ). A inversão do art. 6º, VIII, do CDC, já requerida, reforça essa distribuição. A fraude de terceiro é fortuito interno e não afasta a responsabilidade do banco (Súmula 479/STJ).
 
 [[SE JUSTIÇA COMUM]]
-# Das provas: exibição e perícia
+# Das provas: exibição[[SE PERÍCIA]] e perícia[[FIM]]
 
-A parte autora reitera a exibição dos documentos indicados na inicial e nesta réplica (arts. 396 a 404 do CPC) e requer a produção de perícia [grafotécnica, se a assinatura é manuscrita / em informática forense, se a contratação é eletrônica], com os quesitos abaixo, sob pena de cerceamento de defesa:
+A parte autora reitera a exibição dos documentos indicados na inicial e nesta réplica (arts. 396 a 404 do CPC).
 
-1. [QUESITOS DA INICIAL, MAIS OS QUE OS ACHADOS DESTA RÉPLICA SUGEREM]
+[DECISÃO DO ADVOGADO: perícia. A inicial não a pediu; decide-se aqui, à vista dos documentos do réu. Se o réu não juntou instrumento ou trilha, ou se o que juntou não prova a contratação, não se pede perícia: o ônus era dele (art. 429, II, do CPC), e a falta de prova se resolve contra ele. Se o réu juntou documento que só prova técnica afasta, use o bloco abaixo.]
+
+[[SE PERÍCIA]] Diante da impugnação específica da autenticidade dos documentos juntados pelo réu, requer a produção de perícia [grafotécnica, se a assinatura é manuscrita / em informática forense, se a contratação é eletrônica / contábil, no RMC], com os quesitos abaixo, sob pena de cerceamento de defesa:
+
+1. [QUESITOS: os que os achados desta réplica sugerem, documento a documento] [[FIM]]
 [[FIM]]
 
 [[SE JEC]]
@@ -165,7 +169,7 @@ b) [[SE CONTRATO SEM DEFESA]] o reconhecimento da presunção de veracidade das 
 
 c) o reconhecimento de que os documentos juntados pelo réu, cuja autenticidade foi especificamente impugnada, não provam a contratação (arts. 428, I, e 429, II, do CPC);
 
-d) [[SE JUSTIÇA COMUM]] a exibição dos documentos e a produção da perícia requeridas, com os quesitos apresentados; [[SE JEC]] a valoração, contra o réu, das lacunas dos documentos que juntou; [[FIM]]
+d) [[SE JUSTIÇA COMUM]] a exibição dos documentos requerida[[SE PERÍCIA]] e a produção da perícia, com os quesitos apresentados[[FIM]]; [[SE JEC]] a valoração, contra o réu, das lacunas dos documentos que juntou; [[FIM]]
 
 e) a apreciação expressa de cada precedente evocado, nos termos do art. 489, § 1º, VI, do CPC;
 
@@ -175,7 +179,7 @@ g) a procedência dos pedidos, nos termos da inicial.
 
 Termos em que, pede deferimento.
 
-[CIDADE DO FECHO, perguntada ao advogado] - [UF], [dd] de [mês por extenso] de [aaaa].
+[FECHO: comarca onde o processo corre] - BA, [dd] de [mês por extenso] de [aaaa].
 
 
 DIEGO RAMOS ARLÉO BARBOSA

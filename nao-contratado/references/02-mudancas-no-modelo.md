@@ -25,7 +25,7 @@ O modelo anterior vivia em `modelo_formatado_amn.docx` (que é, no fundo, o text
 
 ## Itens do modelo anterior mantidos com marca de conferência
 
-- Tabela das seis "vantagens" do campo "Motivo da Exclusão": os fundamentos 4 (coisa julgada, CPC 497 e CC 422) e 6 (Acórdão TCU 1.094/2026, fora do acervo) estão `[CONFERIR]`.
+- Tabela das seis "vantagens" do campo "Motivo da Exclusão": o fundamento 4 (coisa julgada, CPC 497 e CC 422) está `[CONFERIR]`; o 6 cita o Acórdão 1.094/2026-TCU-Plenário, incluído no acervo em 03/11/2026 (`references/jurisprudencia/acordao-1094-2026-tcu.md`), pelo item 9.3.2.
 - Multa diária de R$ 500,00 e prazo de 10 dias úteis do campo "Motivo da Exclusão": mantidos por decisão do escritório.
 - Dano moral de R$ 20.000,00: fixo.
 

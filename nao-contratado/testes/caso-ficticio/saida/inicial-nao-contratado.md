@@ -1,6 +1,6 @@
-> **MINUTA DE TESTE — CASO FICTÍCIO. NÃO PROTOCOLAR.** Nenhum dado é de pessoa real (exceto a qualificação pública do réu, tirada de `references/dados/reus.json`). Gerada em 28/10/2026 a partir de `assets/modelo-inicial-nao-contratado.md`, `calculo.json` e do quadro de fatos desta pasta. Premissas do teste: o advogado respondeu **JEC** ao rito e **Ilhéus - BA** à cidade do fecho; confirmou a tutela sobre o contrato ativo; a cliente confirmou a data de ciência e a reclamação prévia. **Observação interna (Título 6): remover antes de protocolar.**
+> **MINUTA DE TESTE — CASO FICTÍCIO. NÃO PROTOCOLAR.** Nenhum dado é de pessoa real (exceto a qualificação pública do réu, tirada de `references/dados/reus.json`). Gerada em 28/10/2026 a partir de `assets/modelo-inicial-nao-contratado.md`, `calculo.json` e do quadro de fatos desta pasta. Premissas do teste: o advogado respondeu **JEC** ao rito; juízo e cidade do fecho (Ilhéus - BA) vieram do endereço do autor; confirmou a tutela sobre o contrato ativo; ciência pela data de emissão do extrato e sem tentativa administrativa prévia (padrão do escritório). **Observação interna (Título 6): remover antes de protocolar.**
 
-AO JUÍZO DA [PREENCHER: N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BAHIA
+AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BA
 
 **EMENTA:** Empréstimo consignado não contratado. Beneficiária do INSS. Ausência de manifestação volitiva. Ato juridicamente inexistente. Desconto indevido sobre verba de natureza alimentar. Responsabilidade objetiva da instituição financeira. Repetição do indébito. Dano extrapatrimonial. Tutela de urgência para suspensão imediata dos descontos.
 
@@ -18,7 +18,7 @@ Requer sejam deferidos os benefícios da gratuidade da justiça, o que faz por d
 
 # Da tramitação prioritária
 
-Conforme documento pessoal anexo (ID 3), a parte autora é pessoa idosa e faz jus à prioridade na tramitação (art. 1.048, I, do CPC; art. 71 da Lei 10.741/2003 — Estatuto da Pessoa Idosa).
+Conforme documento pessoal anexo, a parte autora é pessoa idosa e faz jus à prioridade na tramitação (art. 1.048, I, do CPC; art. 71 da Lei 10.741/2003 — Estatuto da Pessoa Idosa).
 
 # Dos fatos
 
@@ -33,21 +33,19 @@ Em 10/08/2026, ao consultar o portal Meu INSS, tomou conhecimento da existência
 | 00555111222 | 05/09/2024 | 09/2024 | 08/2031 | R$ 120,00 | 25 | R$ 3.000,00 | R$ 6.000,00 | ATIVO |
 | **Total** | | | | | | **R$ 9.865,10** | **R$ 19.730,20** | |
 
-*Fonte: Histórico de Empréstimo Consignado do INSS, emitido em 28/10/2026 (ID 5). Para o contrato ativo, a quantidade vai até a competência 09/2026. **CÁLCULO A CONFERIR.***
+*Fonte: Histórico de Empréstimo Consignado do INSS, emitido em 28/10/2026 (anexo). Para o contrato ativo, a quantidade vai até a competência 09/2026. **CÁLCULO A CONFERIR.***
 
 ## A parte autora nega, contrato a contrato, a existência de manifestação de vontade
 
-**Contrato nº 00123456789.** A parte autora nega ter firmado esse contrato, nega ter assinado qualquer instrumento a ele relativo e nega ter autorizado a averbação. O extrato do INSS registra valor liberado de R$ 4.800,00 (ID 5). Cabe ao banco comprovar o crédito, em conta de titularidade da parte autora, de valor idêntico ao liberado (art. 373, II, do CPC).
+**Contrato nº 00123456789.** A parte autora nega ter firmado esse contrato, nega ter assinado qualquer instrumento a ele relativo e nega ter autorizado a averbação. O extrato do INSS registra valor liberado de R$ 4.800,00 (anexo). Cabe ao banco comprovar o crédito, em conta de titularidade da parte autora, de valor idêntico ao liberado (art. 373, II, do CPC).
 
-**Contrato nº 00987654321.** A parte autora nega ter firmado esse contrato, nega ter assinado qualquer instrumento a ele relativo e nega ter autorizado a averbação. O extrato do INSS registra valor liberado de R$ 3.100,00 (ID 5). Cabe ao banco comprovar o crédito, em conta de titularidade da parte autora, de valor idêntico ao liberado (art. 373, II, do CPC).
+**Contrato nº 00987654321.** A parte autora nega ter firmado esse contrato, nega ter assinado qualquer instrumento a ele relativo e nega ter autorizado a averbação. O extrato do INSS registra valor liberado de R$ 3.100,00 (anexo). Cabe ao banco comprovar o crédito, em conta de titularidade da parte autora, de valor idêntico ao liberado (art. 373, II, do CPC).
 
-**Contrato nº 00555111222.** A parte autora nega ter firmado esse contrato, nega ter assinado qualquer instrumento a ele relativo e nega ter autorizado a averbação. O extrato do INSS registra valor liberado de R$ 4.200,00 (ID 5). Cabe ao banco comprovar o crédito, em conta de titularidade da parte autora, de valor idêntico ao liberado (art. 373, II, do CPC).
+**Contrato nº 00555111222.** A parte autora nega ter firmado esse contrato, nega ter assinado qualquer instrumento a ele relativo e nega ter autorizado a averbação. O extrato do INSS registra valor liberado de R$ 4.200,00 (anexo). Cabe ao banco comprovar o crédito, em conta de titularidade da parte autora, de valor idêntico ao liberado (art. 373, II, do CPC).
 
 Casos de fraude envolvendo aposentados e pensionistas, com descontos de contratos que o beneficiário não reconhece, são de conhecimento público. A parte autora não reconhece os empréstimos a ela atribuídos e não recebeu qualquer atendimento do banco que lhe permitisse resolver a situação.
 
-Em 02/09/2026, a parte autora registrou reclamação perante o banco pelo consumidor.gov.br (ID 7) e não obteve resposta.
-
-Por cautela, a parte autora informa que, da data desta petição até o trânsito em julgado, o banco poderá continuar descontando valores do benefício, caso não haja provimento que o impeça. Eventuais novas cobranças serão incluídas na liquidação, o que se requer.
+Por oportuno, como medida de precaução, a parte autora informa que, quanto ao contrato ainda ativo, da presente data até o trânsito em julgado, o banco réu poderá continuar debitando valores indevidos do benefício da parte autora, caso não haja provimento jurisdicional que o impeça. Dessa forma, eventuais novas cobranças deverão ser incluídas no pedido de restituição em dobro, com oportuna apresentação na liquidação, o que se requer.
 
 # Do direito
 
@@ -87,8 +85,6 @@ O art. 42, parágrafo único, do Código de Defesa do Consumidor dispõe:
 
 O dispositivo ressalva apenas o engano justificável. Descontos mensais de empréstimo que a parte autora não contratou, lançados diretamente sobre verba de natureza alimentar, não decorrem de engano justificável. A parte autora pede, por isso, a restituição em dobro de **todos** os descontos.
 
-A reclamação prévia sem resposta (ID 7) mostra que o banco foi informado de que a cobrança era indevida e manteve os descontos.
-
 **Contrato nº 00123456789.** Até a presente data, a parte autora suportou 33 parcelas, cuja soma resulta em R$ 4.702,50 (quatro mil, setecentos e dois reais e cinquenta centavos). Assim, o banco deve restituir os valores descontados em dobro, que correspondem a R$ 9.405,00 (nove mil, quatrocentos e cinco reais).
 
 **Contrato nº 00987654321.** Até a presente data, a parte autora suportou 22 parcelas, cuja soma resulta em R$ 2.162,60 (dois mil, cento e sessenta e dois reais e sessenta centavos). Assim, o banco deve restituir os valores descontados em dobro, que correspondem a R$ 4.325,20 (quatro mil, trezentos e vinte e cinco reais e vinte centavos).
@@ -101,7 +97,7 @@ Totalizando, R$ 19.730,20 (dezenove mil, setecentos e trinta reais e vinte centa
 
 A situação vivida pela parte autora ultrapassa o mero aborrecimento cotidiano. Os descontos incidem mensalmente sobre benefício previdenciário, de natureza alimentar, durante o período de 03/2019 a 09/2026 (com intervalos entre os contratos), sem que a parte autora pudesse impedi-los na origem.
 
-A Súmula 40 da Turma de Uniformização das Turmas Recursais do TJBA admite o dano moral por desconto indevido quando, observadas as particularidades do caso, demonstrada violação significativa a direito da personalidade. As particularidades aqui são: a natureza alimentar do benefício, o valor e a duração dos descontos, a condição de pessoa idosa e as tentativas de solução junto ao banco (ID 7).
+A Súmula 40 da Turma de Uniformização das Turmas Recursais do TJBA admite o dano moral por desconto indevido quando, observadas as particularidades do caso, demonstrada violação significativa a direito da personalidade. As particularidades aqui são: a natureza alimentar do benefício, o valor e a duração dos descontos e a condição de pessoa idosa.
 
 Além da função compensatória, a indenização cumpre função pedagógica: o valor deve ser suficiente para desestimular a repetição da conduta por instituição de grande porte **[DECISÃO DO ESCRITÓRIO: manter o caráter punitivo-pedagógico; não citar a Súmula 326/STJ para esse fim, pois ela trata de sucumbência]**. Considerados o porte econômico do banco, a gravidade da falha e o caráter alimentar da verba, o valor de **R$ 20.000,00 (vinte mil reais)** é justo e razoável e não gera enriquecimento sem causa.
 
@@ -190,7 +186,7 @@ A parte autora não pretende alterar o campo "Origem da Exclusão". Pretende ape
 | 3 | Libera a margem consignável de forma documentada | CDC, art. 6º, VI |
 | 4 | Impede que a baixa seja revertida por lançamento posterior | CPC, art. 497; CC, art. 422 **[CONFERIR: adequação do fundamento]** |
 | 5 | Corrige dado pessoal incompleto de base oficial | LGPD, art. 18, III |
-| 6 | Alinha-se à transparência exigida dos operadores do sistema consignado | IN 138/2022 **[CONFERIR: o modelo anterior citava também o Acórdão TCU 1.094/2026, fora do acervo]** |
+| 6 | Alinha-se à transparência exigida dos operadores do sistema consignado | IN 138/2022; Acórdão 1.094/2026-TCU-Plenário, que mandou verificar travas que condicionem a averbação à "manifestação inequívoca da vontade do segurado" (item 9.3.2) |
 
 Quanto aos contratos já excluídos (nº 00123456789 e nº 00987654321), a exclusão já ocorreu e o campo permanece vazio, de modo que o provimento consiste na simples complementação do registro histórico. Quanto ao contrato ainda ativo (nº 00555111222), a providência será cumprida no momento da baixa determinada por este Juízo.
 
@@ -202,7 +198,7 @@ A probabilidade do direito resulta da negativa específica de contratação, da 
 
 Não há perigo de irreversibilidade (art. 300, § 3º, do CPC): a suspensão dos descontos pode ser revertida se o banco comprovar a contratação.
 
-Requer-se a antecipação dos efeitos da tutela para que o banco se abstenha de realizar novos descontos no benefício referentes ao contrato nº 00555111222, sob pena de multa diária a ser fixada por este Juízo.
+Requer-se a antecipação dos efeitos da tutela para que o banco se abstenha de realizar novos descontos no benefício referentes ao contrato nº 00555111222, sob pena de multa diária de R$ 500,00 (quinhentos reais), nos termos dos arts. 297 e 537 do CPC, sem prejuízo de sua majoração caso se mostre insuficiente (art. 537, § 1º, I, do CPC) e da restituição em dobro de cada desconto realizado após a intimação.
 
 # Das provas
 
@@ -218,7 +214,7 @@ b) a prioridade de tramitação (art. 1.048, I, do CPC; art. 71 da Lei 10.741/20
 
 c) a citação do réu para que apresente contestação no prazo legal, sob pena de revelia, manifestando a parte autora interesse na audiência de conciliação;
 
-d) a antecipação dos efeitos da tutela, nos termos do tópico próprio, para que o réu se abstenha de novos descontos referentes ao contrato nº 00555111222;
+d) a antecipação dos efeitos da tutela, nos termos do tópico próprio, para que o réu se abstenha de novos descontos referentes ao contrato nº 00555111222, sob pena de multa diária de R$ 500,00 (arts. 297 e 537 do CPC);
 
 e) a inversão do ônus da prova, com o encargo de o réu juntar, com a contestação, os documentos do tópico "Da inversão do ônus da prova";
 
@@ -240,7 +236,7 @@ Requer, ainda, que todas as intimações e publicações sejam feitas exclusivam
 
 # Do valor da causa
 
-Dá-se à causa o valor de R$ 39.730,20 (trinta e nove mil, setecentos e trinta reais e vinte centavos), correspondente à restituição em dobro (R$ 19.730,20) e ao dano extrapatrimonial (R$ 20.000,00) (art. 292 do CPC). ***CÁLCULO A CONFERIR.***
+Dá-se à causa o valor de R$ 46.810,20 (quarenta e seis mil, oitocentos e dez reais e vinte centavos), correspondente à soma da restituição em dobro (R$ 19.730,20), do dano extrapatrimonial (R$ 20.000,00) e do proveito econômico declaratório, equivalente às parcelas vincendas dos contratos ativos (R$ 7.080,00) (art. 292, II e VI, do CPC). ***CÁLCULO A CONFERIR.***
 
 Termos em que, pede deferimento.
 

@@ -1,6 +1,6 @@
-> **MINUTA DE TESTE — CASO FICTÍCIO. NÃO PROTOCOLAR.** Nenhum dado é de pessoa real (exceto a qualificação pública do réu, tirada de `references/dados/reus.json`). Gerada em 28/10/2026 a partir de `assets/modelo-inicial-tese-1000.md`, `calculo.json` e do quadro de fatos desta pasta. Premissas do teste (processo 1 do caso fictício): o advogado respondeu **JEC** ao rito e **Ilhéus - BA** à cidade do fecho; o derivado está excluído (sem tutela); a cliente confirmou a data de ciência e a reclamação prévia. **Observação interna (Título 6): remover antes de protocolar.**
+> **MINUTA DE TESTE — CASO FICTÍCIO. NÃO PROTOCOLAR.** Nenhum dado é de pessoa real (exceto a qualificação pública do réu, tirada de `references/dados/reus.json`). Gerada em 28/10/2026 a partir de `assets/modelo-inicial-tese-1000.md`, `calculo.json` e do quadro de fatos desta pasta. Premissas do teste (processo 1 do caso fictício): o advogado respondeu **JEC** ao rito; juízo e cidade do fecho (Ilhéus - BA) vieram do endereço do autor; o derivado está excluído (sem tutela); ciência pela data de emissão do extrato e sem tentativa administrativa prévia (padrão do escritório). **Observação interna (Título 6): remover antes de protocolar.**
 
-AO JUÍZO DA [PREENCHER: N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BAHIA
+AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BA
 
 **EMENTA:** Empréstimo consignado. Contrato derivado com sufixo numérico, averbado sobre número-raiz de contrato já excluído. Beneficiária do INSS. Ausência de nova manifestação de vontade. Inexistência do negócio jurídico. Desconto indevido sobre verba de natureza alimentar. Responsabilidade objetiva da instituição financeira. Repetição do indébito em dobro. Dano extrapatrimonial.
 
@@ -18,7 +18,7 @@ Requer sejam deferidos os benefícios da gratuidade da justiça, o que faz por d
 
 # Da tramitação prioritária
 
-Conforme documento pessoal anexo (ID 3), a parte autora é pessoa idosa e faz jus à prioridade na tramitação (art. 1.048, I, do CPC; art. 71 da Lei 10.741/2003 — Estatuto da Pessoa Idosa).
+Conforme documento pessoal anexo, a parte autora é pessoa idosa e faz jus à prioridade na tramitação (art. 1.048, I, do CPC; art. 71 da Lei 10.741/2003 — Estatuto da Pessoa Idosa).
 
 # Da gratuidade da justiça
 
@@ -28,7 +28,7 @@ Requer sejam deferidos os benefícios da gratuidade da justiça, o que faz por d
 
 # Da tramitação prioritária
 
-Conforme documento pessoal anexo (ID 3), a parte autora é pessoa idosa e faz jus à prioridade na tramitação (art. 1.048, I, do CPC; art. 71 da Lei 10.741/2003 — Estatuto da Pessoa Idosa).
+Conforme documento pessoal anexo, a parte autora é pessoa idosa e faz jus à prioridade na tramitação (art. 1.048, I, do CPC; art. 71 da Lei 10.741/2003 — Estatuto da Pessoa Idosa).
 
 # Da competência do Juizado Especial
 
@@ -38,7 +38,7 @@ A causa é de competência do Juizado Especial Cível (art. 3º, I, da Lei 9.099
 
 A parte autora é beneficiária do INSS (NB 999.999.999-9, aposentadoria por idade), e o benefício previdenciário é a sua única fonte de renda ****.
 
-Em 10/08/2026, ao consultar o Histórico de Empréstimo Consignado emitido pelo INSS em 28/10/2026 (ID 5, p. 1), a parte autora tomou conhecimento de contrato com numeração terminada em sufixo ("_0001"), nº 51-000111/00001_0001, vinculado ao réu, com descontos nas competências de 09/2018 a 07/2019.
+Em 10/08/2026, ao consultar o Histórico de Empréstimo Consignado emitido pelo INSS em 28/10/2026 (anexo), a parte autora tomou conhecimento de contrato com numeração terminada em sufixo ("_0001"), nº 51-000111/00001_0001, vinculado ao réu, com descontos nas competências de 09/2018 a 07/2019.
 
 A análise do histórico mostra que o número-raiz do contrato derivado (51-000111/00001) é o mesmo de contrato anterior atribuído à parte autora, averbado em 05/05/2015 e excluído em 11/08/2018 (motivo registrado: "Exclusão Banco"). A reinclusão deu-se no próprio dia da exclusão: o extrato registra, em 11/08/2018, a exclusão do contrato-raiz e a averbação do contrato derivado ("Averbação nova"), sem intervalo entre uma e outra.
 
@@ -50,25 +50,23 @@ Esta ação tem por objeto exclusivamente o contrato derivado, sem discutir a va
 | 51-000111/00001 | raiz | 05/05/2015 | | | | | | | EXCLUÍDO em 11/08/2018 |
 | **Total** | | | | | | | R$ 371,25 | R$ 742,50 | |
 
-*Fonte: Histórico de Empréstimo Consignado do INSS, emitido em 28/10/2026 (ID 5, p. 1). CÁLCULO A CONFERIR.*
+*Fonte: Histórico de Empréstimo Consignado do INSS, emitido em 28/10/2026 (anexo). CÁLCULO A CONFERIR.*
 
 Sequência registrada no extrato:
 
 ![Figura 1: Anatomia da reaverbação do contrato nº 51-000111/00001_0001](figuras/fig_anatomia_1.png)
 
-*Figura 1: Anatomia da reaverbação do contrato nº 51-000111/00001_0001 (número-raiz 51-000111/00001). Fonte: Histórico de Empréstimo Consignado do INSS (ID 12, p. 3). A figura reproduz o extrato e não introduz fato novo.*
+*Figura 1: Anatomia da reaverbação do contrato nº 51-000111/00001_0001 (número-raiz 51-000111/00001). Fonte: Histórico de Empréstimo Consignado do INSS (anexo). A figura reproduz o extrato e não introduz fato novo.*
 
 ![Figura 2: Linha do tempo do contrato nº 51-000111/00001_0001](figuras/fig_linha_tempo_1.png)
 
-*Figura 2: Linha do tempo do contrato nº 51-000111/00001_0001, conforme o extrato do INSS (ID 12, p. 3).*
+*Figura 2: Linha do tempo do contrato nº 51-000111/00001_0001, conforme o extrato do INSS (anexo).*
 
 ## A parte autora nega a manifestação de vontade quanto ao contrato derivado
 
 > **Contrato nº 51-000111/00001_0001.** A parte autora nega ter firmado esse contrato, nega ter assinado nova Cédula de Crédito Bancário e nega ter autorizado a nova averbação. Entre a exclusão do contrato-raiz e a averbação do derivado, a parte autora não foi contatada, notificada ou consultada ****. O extrato do INSS registra valor liberado de R$ 337,57; a destinação desse valor incumbe ao banco demonstrar (art. 373, II, do CPC).
 
 A parte autora não utiliza plataformas digitais de autenticação, não domina mecanismos de verificação biométrica, tokens ou senhas dinâmicas e jamais forneceu sua imagem facial, dados biométricos ou credenciais de acesso.
-
-Em 02/09/2026, a parte autora registrou reclamação perante o banco pelo consumidor.gov.br (ID 7) e não obteve resposta.
 
 # Do direito
 
@@ -112,8 +110,6 @@ O art. 42, parágrafo único, do Código de Defesa do Consumidor dispõe:
 
 O dispositivo ressalva apenas o engano justificável. Descontos mensais de contrato derivado, averbado sem nova contratação e lançado diretamente sobre verba de natureza alimentar, não decorrem de engano justificável. A parte autora pede, por isso, a restituição em dobro de **todos** os descontos.
 
-A reclamação prévia sem resposta (ID 7) mostra que o banco foi informado de que a cobrança era indevida e manteve os descontos.
-
 **Contrato nº 51-000111/00001_0001.** Até a presente data, a parte autora suportou 11 parcelas, cuja soma resulta em R$ 371,25 (trezentos e setenta e um reais e vinte e cinco centavos). Assim, o banco deve restituir os valores descontados em dobro, que correspondem a R$ 742,50 (setecentos e quarenta e dois reais e cinquenta centavos).
 
 Totalizando, R$ 742,50 (setecentos e quarenta e dois reais e cinquenta centavos). ***CÁLCULO A CONFERIR.***
@@ -122,7 +118,7 @@ Totalizando, R$ 742,50 (setecentos e quarenta e dois reais e cinquenta centavos)
 
 A situação vivida pela parte autora ultrapassa o mero aborrecimento cotidiano. Os descontos incidem mensalmente sobre benefício previdenciário, de natureza alimentar, durante o período de 09/2018 a 07/2019, sem que a parte autora pudesse impedi-los na origem.
 
-A Súmula 40 da Turma de Uniformização das Turmas Recursais do TJBA admite o dano moral por desconto indevido quando, observadas as particularidades do caso, demonstrada violação significativa a direito da personalidade. As particularidades aqui são: a natureza alimentar do benefício, o valor e a duração dos descontos, a condição de pessoa idosa e as tentativas de solução junto ao banco (ID 7). A jurisprudência do STJ e dos tribunais estaduais reconhece a presunção do dano moral nos descontos indevidos sobre benefício previdenciário **[VERIFICAR ANTES DE PROTOCOLAR: indicar os julgados; nenhum consta do acervo, e a Súmula 40 do TJBA diz que o desconto indevido, por si só, não configura dano moral; mantido por decisão do escritório (D28)]**.
+A Súmula 40 da Turma de Uniformização das Turmas Recursais do TJBA admite o dano moral por desconto indevido quando, observadas as particularidades do caso, demonstrada violação significativa a direito da personalidade. As particularidades aqui são: a natureza alimentar do benefício, o valor e a duração dos descontos e a condição de pessoa idosa. A jurisprudência do STJ e dos tribunais estaduais reconhece a presunção do dano moral nos descontos indevidos sobre benefício previdenciário **[VERIFICAR ANTES DE PROTOCOLAR: indicar os julgados; nenhum consta do acervo, e a Súmula 40 do TJBA diz que o desconto indevido, por si só, não configura dano moral; mantido por decisão do escritório (D28)]**.
 
 Além da função compensatória, a indenização cumpre função pedagógica: o valor deve ser suficiente para desestimular a repetição da conduta por instituição de grande porte. Considerados o porte econômico do banco, a gravidade da falha e o caráter alimentar da verba, o valor de **R$ 20.000,00 (vinte mil reais)** é justo e razoável e não gera enriquecimento sem causa. O valor é estimativo: conforme a Súmula 326 do STJ, a condenação em montante inferior ao postulado na inicial não implica sucumbência recíproca.
 
@@ -130,7 +126,7 @@ Além da função compensatória, a indenização cumpre função pedagógica: o
 
 Por cautela, afasta-se desde logo a alegação de prescrição. A pretensão não decorre de defeito de serviço contratado, mas da cobrança de valores sem lastro contratual, por averbação que a parte autora jamais autorizou. A Corte Especial do STJ decidiu, em caso de cobrança de serviços não contratados de telefonia fixa, que a repetição de indébito prescreve em dez anos, pelo art. 205 do Código Civil, e não em três **(EAREsp 738.991/RS, Rel. Min. Og Fernandes, j. 20/02/2019, DJe 11/06/2019; julgado de telefonia fixa, aplicado ao consignado por analogia)**.¹ Além disso, a declaração de inexistência da relação jurídica não está sujeita a prazo prescricional: o negócio nulo não convalesce pelo decurso do tempo (art. 169 do CC).
 
-Subsidiariamente, ainda que se aplicasse o prazo quinquenal do art. 27 do CDC, ele só começa a correr do conhecimento do dano e de sua autoria. A parte autora só soube da origem dos descontos em 10/08/2026, pelo Histórico de Empréstimo Consignado emitido em 28/10/2026. Sustenta-se, portanto, o prazo decenal do art. 205 do Código Civil (decisão do escritório). **[DECISÃO DO ADVOGADO: termo inicial do prazo]**
+Subsidiariamente, ainda que se aplicasse o prazo quinquenal do art. 27 do CDC, ele só começa a correr do conhecimento do dano e de sua autoria. A parte autora só soube da origem dos descontos em 10/08/2026, pelo Histórico de Empréstimo Consignado emitido em 28/10/2026. Sustenta-se, portanto, o prazo decenal do art. 205 do Código Civil.
 
 ¹ BRASIL. Superior Tribunal de Justiça. Corte Especial. Embargos de Divergência em Agravo em Recurso Especial n. 738.991/RS. Relator: Ministro Og Fernandes. Julgado em: 20 fev. 2019. Publicado no DJe em: 11 jun. 2019.
 
@@ -240,7 +236,7 @@ Requer, ainda, que todas as intimações e publicações sejam feitas exclusivam
 
 # Do valor da causa
 
-Dá-se à causa o valor de R$ 20.742,50 (vinte mil, setecentos e quarenta e dois reais e cinquenta centavos), correspondente à restituição em dobro (R$ 742,50) e ao dano extrapatrimonial (R$ 20.000,00) (art. 292 do CPC). *CÁLCULO A CONFERIR.*
+Dá-se à causa o valor de R$ 20.742,50 (vinte mil, setecentos e quarenta e dois reais e cinquenta centavos), correspondente à soma da restituição em dobro (R$ 742,50) e do dano extrapatrimonial (R$ 20.000,00) (art. 292, II e VI, do CPC). *CÁLCULO A CONFERIR.*
 
 Termos em que, pede deferimento.
 

@@ -3,7 +3,7 @@
 
 Para cada contrato da ficha (o derivado), localiza no extrato do INSS o derivado e o contrato-raiz (número sem o sufixo),
 mede o intervalo entre a exclusão da raiz e a PRIMEIRA averbação do derivado (em qualquer banco), conta os descontos (início a
-fim, inclusive; contrato ativo só até o mês anterior à data da peça), calcula o dobro e o valor da causa (dobro + R$ 20.000,00) e
+fim, inclusive; contrato ativo só até o mês anterior à data da peça), calcula o dobro e o valor da causa (dobro + R$ 20.000,00 + parcelas vincendas dos derivados ativos, sempre: art. 292, II e VI, do CPC) e
 escolhe a norma pela data da primeira averbação do derivado: IN INSS/PRES 28/2008 até 12/12/2022; IN 138/2022 desde 13/12/2022.
 Todo número sai como CÁLCULO A CONFERIR.
 
@@ -33,6 +33,7 @@ import escrutinio as esc  # noqa: E402
 from valores import brl, brl_ext  # noqa: E402
 
 DANO_MORAL = 20000.00
+TETO_JEC = 40 * 1621.00  # 40 salários mínimos (Decreto 12.797/2025, 2026)
 CONFERIR = "[CONFERIR]"
 AQUI = HERE.parent
 VIGENCIA_IN138 = dt.date(2022, 12, 13)
@@ -99,14 +100,15 @@ def carregar_reu(banco):
 
 
 def descontos(r, mes_ref):
-    """(qtde, total, até-competência, ativo) de um registro do extrato."""
+    """(qtde, total, total pela 2ª via, até-competência, início, ativo, vincendas) de um registro do extrato."""
     ini, fim = comp(r["inicio"]), comp(r["fim"])
     ativo = r["secao"] == "ATIVO"
     ate = min(fim, mes_ref) if ativo else fim
     qtde = max(0, ate - ini + 1)
     total = round(qtde * r["parcela"], 2)
     total2 = round(sum(r["parcela"] for _ in range(ini, ate + 1)), 2) if qtde else 0.0  # segunda via
-    return qtde, total, total2, ate, ini, ativo
+    vinc = max(0, fim - mes_ref) if ativo else 0
+    return qtde, total, total2, ate, ini, ativo, vinc
 
 
 def data_emissao(caminho):
@@ -127,7 +129,7 @@ def main():
     ap.add_argument("--saida", required=True)
     ap.add_argument("--rito", choices=["jec", "comum"], help="rito escolhido pelo advogado (FSC9)")
     ap.add_argument("--extrato-bancario", choices=["sim", "nao"], dest="extrato_bancario",
-                    help="o cliente trouxe o extrato bancário do mês da averbação? (VF6, Súmula 42/TJBA)")
+                    help="só se um documento dos autos mostrar crédito em conta (o escritório não pede o extrato bancário; VF6, Súmula 42/TJBA)")
     ap.add_argument("--dossie-pre-acao", action="store_true", dest="dossie_pre_acao",
                     help="o banco entregou contrato ou trilha antes da ação (VF2, VF4, VF5)")
     ap.add_argument("--incluir-outros-bancos", action="store_true",
@@ -167,14 +169,14 @@ def main():
         raiz = raizes[-1] if raizes else None
         if raiz_num and not raiz:
             conferir.append(f"Contrato-raiz {raiz_num} do derivado {r['contrato']} não localizado no extrato.")
-        qtde, total, total2, ate, ini, ativo = descontos(r, mes_ref)
+        qtde, total, total2, ate, ini, ativo, vinc = descontos(r, mes_ref)
         if abs(total - total2) > 0.005:
             alertas.append(f"Derivado {r['contrato']}: as duas vias do total divergem ({total} x {total2}).")
 
         # outros bancos: o mesmo número em outra instituição (troca de titularidade)
         info_outros = []
         for o in outros:
-            oq, ot, ot2, oate, oini, oativo = descontos(o, mes_ref)
+            oq, ot, ot2, oate, oini, oativo, _ = descontos(o, mes_ref)
             info_outros.append({"contrato": o["contrato"], "banco": o["banco"], "situacao": o["situacao"], "motivo_exclusao": o["motivo_exclusao"],
                                 "origem_averbacao": o["origem_averbacao"], "inclusao": data4(o["inclusao"]), "exclusao": data4(o["exclusao"]),
                                 "inicio": o["inicio"], "fim": o["fim"], "parcela": o["parcela"], "qtde": oq, "total": ot})
@@ -205,6 +207,7 @@ def main():
             "origem_averbacao": r["origem_averbacao"], "inicio": r["inicio"], "fim": r["fim"],
             "ate_comp": comp_str(ate) if qtde_reu else None, "parcela": r["parcela"], "prazo": r["qtde_contratada"], "liberado": r["liberado"],
             "qtde": qtde, "total": total, "dobro": round(2 * total, 2), "qtde_registro_do_reu": qtde_reu, "total_registro_do_reu": total_reu,
+            "vincendas_qtde": vinc, "vincendas_valor": round(vinc * r["parcela"], 2),
             "exclusao": data4(r["exclusao"]), "motivo_exclusao": r["motivo_exclusao"], "ini_n": ini, "regime_norma": regime,
             "troca_de_titularidade": migrado, "outros_bancos_somados": bool(outros) and a.incluir_outros_bancos,
             "raiz_dados": ({"banco": raiz["banco"], "averbacao": data4(raiz["inclusao"]), "exclusao": data4(raiz["exclusao"]),
@@ -231,7 +234,10 @@ def main():
     ativos = [d["contrato"] for d in derivs if d["ativo"]]
     tot_desc = round(sum(d["total"] for d in derivs), 2)
     tot_dobro = round(sum(d["dobro"] for d in derivs), 2)
-    valor_causa = round(tot_dobro + DANO_MORAL, 2)
+    proveito = round(sum(d["vincendas_valor"] for d in derivs), 2)
+    valor_causa = round(tot_dobro + DANO_MORAL + proveito, 2)
+    if a.rito == "jec" and valor_causa > TETO_JEC:
+        alertas.append(f"Valor da causa ({brl(valor_causa)}) acima de 40 salários mínimos ({brl(TETO_JEC)}): incompatível com o JEC; rever o rito.")
     com_desc = [d for d in derivs if d["qtde"]]
     limite5 = (hoje.year - 5) * 12 + hoje.month - 1
     prescricao = bool(com_desc) and min(d["ini_n"] for d in com_desc) < limite5
@@ -243,12 +249,20 @@ def main():
     res_esc = esc.checagem(sel, todos_ext, "tese-1000", hoje=hoje, rito=a.rito, extrato_bancario=a.extrato_bancario,
                            dossie_pre_acao=a.dossie_pre_acao)
     alertas.extend(x for x in res_esc["roteamento"] if x not in alertas)
+    foro = esc.foro(proc, a.rito)  # endereçamento e fecho pela competência da ficha (decisão de 03/11/2026)
+    if foro["conferir"]:
+        conferir.append(f"Foro: {foro['conferir']}.")
+    if foro.get("jec_sem_vara_do_sistema") and a.rito == "jec":
+        alertas.append("Comarca sem Vara do Sistema dos Juizados: o JEC corre na vara cível; a peça diz 'pelo procedimento da Lei nº 9.099/95' no preâmbulo.")
+    if not a.rito:
+        conferir.append("Rito não informado (--rito jec|comum): o endereçamento do calculo.json traz as duas formas; perguntar ao advogado.")
     out = {
         "data_peca": hoje.isoformat(), "processo": a.processo, "nb": proc.get("nb"), "reu": proc["reu"],
-        "reu_cadastrado": bool(reu), "caixa": cod == "104", "competencia": proc.get("competencia"),
+        "reu_cadastrado": bool(reu), "caixa": cod == "104", "competencia": proc.get("competencia"), "foro": foro,
         "derivados": derivs, "ativos": ativos, "tutela": bool(ativos), "prescricao_5_anos": prescricao,
         "troca_de_titularidade": any(d["troca_de_titularidade"] for d in derivs), "outros_bancos_somados": a.incluir_outros_bancos,
         "total_descontado": tot_desc, "total_dobro": tot_dobro, "dano_moral": DANO_MORAL,
+        "proveito_declaratorio": proveito, "proveito_declaratorio_extenso": brl_ext(proveito),
         "valor_causa": valor_causa, "valor_causa_extenso": brl_ext(valor_causa), "total_dobro_extenso": brl_ext(tot_dobro),
         "dano_moral_extenso": brl_ext(DANO_MORAL), "alertas": alertas, "conferir": conferir, "checagem_fsc": res_esc["fsc"], "checagem_vf": res_esc["vf"],
         "mesma_data": res_esc["mesma_data"], "marca": "CÁLCULO A CONFERIR",
@@ -269,7 +283,8 @@ def main():
                   f"{d['qtde']} | {brl(d['parcela'])} | {brl(d['total'])} | {brl(d['dobro'])} | {d['status']} |")
     md += ["", f"- Total descontado: **{brl(tot_desc)}**", f"- Restituição em dobro: **{brl_ext(tot_dobro)}**",
            f"- Dano extrapatrimonial (fixo): **{brl(DANO_MORAL)}**",
-           f"- Valor da causa: **{brl_ext(valor_causa)}**" + (" (Vara Federal: valor real, sem renúncia a teto)" if cod == "104" else ""),
+           f"- Proveito econômico declaratório (parcelas vincendas dos derivados ativos): **{brl(proveito)}**",
+           f"- Valor da causa (dobro + dano extrapatrimonial + proveito declaratório): **{brl_ext(valor_causa)}**" + (" (Vara Federal: valor real, sem renúncia a teto)" if cod == "104" else ""),
            f"- Tutela de urgência: {'SIM, só sobre ' + ', '.join(ativos) if ativos else 'não (sem derivado ativo)'}",
            f"- Tópico de prescrição (algum desconto com mais de 5 anos): {'SIM' if prescricao else 'não'}",
            f"- Troca de titularidade (mesmo número em outro banco): {'SIM; descontos do outro banco ' + ('SOMADOS' if a.incluir_outros_bancos else 'NÃO somados') if out['troca_de_titularidade'] else 'não'}", ""]

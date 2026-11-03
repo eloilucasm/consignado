@@ -50,7 +50,7 @@ O STJ afetou, em 06/03/2026, o Tema Repetitivo 1414 (Segunda Seção, relator Mi
 | Coisa julgada (distinguishing) | houve ação anterior sobre o cartão | pergunta ao advogado |
 | Litispendência | `litispendencia` preenchido na ficha | ficha |
 | Tramitação prioritária | autor com 60 anos ou mais | qualificação (nascimento) |
-| Exibição e perícia contábil com quesitos | rito = Justiça Comum | pergunta ao advogado |
+| Exibição (perícia: só na réplica) | rito = Justiça Comum | pergunta ao advogado |
 | Endereçamento federal | réu = Caixa (código 104) | `reus.json` |
 | Queda da taxa de juros | taxa do mês do refinanciamento menor que a de todos os vizinhos | `calculo.json`, campo `juros_cai` |
 | Histórico complementado | `--historico-extra` usado | `calculo.json`, campo `fontes_extra` |
@@ -75,7 +75,7 @@ Não há tópico de prescrição: a repetição pedida é só a posterior ao ref
 ## Perguntas típicas (máximo três por rodada)
 
 1. Rito: JEC ou Justiça Comum? (sempre)
-2. Cidade e UF do fecho? (sempre)
+2. (não se pergunta) Juízo e cidade do fecho: vêm do `foro` do calculo.json, pelo endereço do autor.
 3. Houve ação anterior sobre esse cartão? Número e resultado? (sempre; define a coisa julgada)
 4. No cartão, só o mínimo da fatura é descontado em folha e o restante é pago por boleto? (sempre; é a premissa de D1)
 5. O cliente tem as faturas ou o HISCRE? (se o histórico estiver incompleto)
@@ -90,6 +90,6 @@ Não há tópico de prescrição: a repetição pedida é só a posterior ao ref
 | FSC4, proveito econômico | fatos (ausência de repasse no refinanciamento) e tabela de documentos (comprovante do crédito) |
 | FSC6, impugnação tardia | fatos (data da ciência) |
 | FSC8, mero dissabor | subtópico do dano extrapatrimonial |
-| FSC9, FSC10, prova técnica | inversão (JEC) ou exibição e perícia contábil com quesitos (Justiça Comum) |
+| FSC9, FSC10, prova técnica | inversão (JEC) ou exibição (Justiça Comum; perícia decidida na réplica) |
 | FSC12, litigância predatória | documentos legíveis e atuais; um processo por benefício + banco + tese; nada sobre outras ações |
 | Coisa julgada | tópico condicional de distinguishing |

@@ -66,7 +66,8 @@ module.exports = {
     // Skills do plano que ainda não foram criadas: a citação gera aviso, não erro. Remova da lista ao criar.
     planejadas: [],
     // Skills que existem fora do pacote (instaladas à parte no ambiente do escritório): a citação é válida.
-    externas: ['tipografia-azul'],
+    // A tipografia-azul passou a fazer parte do pacote em 03/11/2026 (pasta tipografia-azul/).
+    externas: [],
   },
 
   modelos: {
@@ -168,8 +169,9 @@ module.exports = {
       proibe: [
         { re: /\[\[(?:SE|SENÃO|FIM)/, msg: 'marcador de condicional [[SE…]] sobrando' },
         { re: /�/, msg: 'caractere de substituição (problema de codificação)' },
+        { re: /requer-se(,? também,?)? (a produção de )?per[íi]cia|seguintes quesitos|grafot[ée]cnic|inform[áa]tica forense/i, msg: 'pedido de perícia ou quesitos na inicial (decisão de 03/11/2026: a perícia é decidida na réplica)' },
         { re: /R\$ ?0,00 \(zero reais\)|R\$0,00/, msg: 'valor de modelo (R$ 0,00) não substituído' },
-        { re: /\[(?:CONTRATO|NOME DO AUTOR|RÉU|CPF|RG|ENDEREÇO|CEP|CIDADE|NB|QTDE|VALOR[^\]]*|TOTAL[^\]]*)\]/, msg: 'campo de modelo não preenchido' },
+        { re: /\[(?:CONTRATO|NOME DO AUTOR|RÉU|CPF|RG|ENDEREÇO|CEP|CIDADE|FECHO[^\]]*|NB|QTDE|VALOR[^\]]*|TOTAL[^\]]*)\]/, msg: 'campo de modelo não preenchido' },
         ...PROIBIDOS,
         { ...JUROS_RMC, arquivo: /inicial-rmc[^\\/]*[.]md$/ },
       ],
@@ -201,4 +203,6 @@ module.exports = {
     [/\bdossiê\b/i, 'termo "dossiê" (usar "quadro de fatos")'],
     [/6 a 8 perguntas|TODAS estas perguntas|Não pule fases/, 'regra antiga de muitas perguntas ou fases obrigatórias'],
   ],
+  // figuras das peças: largura útil da página (17 cm) a 300 dpi; regras em _acervo/pecas/padrao-figuras.md
+  figuras: { arquivo: /[\\/]fig_[^\\/]*\.png$/, larguraPx: 2008, dpi: 300, msg: 'fora do padrão de figuras (17 cm a 300 dpi): gere com scripts/figuras.py' },
 };

@@ -205,7 +205,7 @@ PEDIDOS = {
     "art341": "o reconhecimento da presunção de veracidade",
     "documentos": "não provam a contratação",
     "prova": "a valoração, contra o réu, das lacunas dos documentos que juntou",          # JEC
-    "prova_comum": "a exibição dos documentos e a produção da perícia requeridas",        # Justiça Comum
+    "prova_comum": "a exibição dos documentos requerida",        # Justiça Comum
     "ma_fe": "a rejeição do pedido de condenação da parte autora por litigância de má-fé",
     "procedencia": "a procedência dos pedidos, nos termos da inicial",
 }

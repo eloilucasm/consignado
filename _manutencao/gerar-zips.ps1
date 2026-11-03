@@ -20,7 +20,7 @@ foreach ($s in $Skills) {
   if ($todas -notcontains $s) { Write-Warning "Skill não encontrada: $s"; continue }
   $z = Join-Path $Saida "$s.zip"
   if (Test-Path $z) { Remove-Item $z -Force }
-  tar.exe -a -c -f $z --exclude '~$*' $s
+  tar.exe -a -c -f $z --exclude '~$*' --exclude '__pycache__' --exclude '*.pyc' $s
   $n = (tar.exe -tf $z | Where-Object { $_ -eq "$s/SKILL.md" }).Count
   '{0,-28} {1,6:N2} MB   SKILL.md na raiz: {2}' -f $s, ((Get-Item $z).Length / 1MB), $n
 }

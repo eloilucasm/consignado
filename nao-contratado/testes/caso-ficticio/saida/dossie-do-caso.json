@@ -11,6 +11,15 @@
     "reu_cadastrado": true,
     "caixa": false,
     "competencia": "Vara Cível da Comarca de Ilhéus/BA (tabela TJBA)",
+    "foro": {
+      "competencia": "Vara Cível da Comarca de Ilhéus/BA (tabela TJBA)",
+      "fecho": "Ilhéus - BA",
+      "enderecamento": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BA",
+      "enderecamento_jec": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BA",
+      "enderecamento_comum": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE ILHÉUS - BA",
+      "conferir": null,
+      "jec_sem_vara_do_sistema": false
+    },
     "contratos": [
       {
         "contrato": "00123456789",
@@ -28,6 +37,8 @@
         "ate_n": 24262,
         "ate_comp": "11/2021",
         "bloco": "B",
+        "vincendas_qtde": 0,
+        "vincendas_valor": 0.0,
         "motivo_exclusao": "Exclusão Banco",
         "exclusao": "15/12/2021"
       },
@@ -47,6 +58,8 @@
         "ate_n": 24289,
         "ate_comp": "02/2024",
         "bloco": "C",
+        "vincendas_qtde": 0,
+        "vincendas_valor": 0.0,
         "motivo_exclusao": "Exclusão INSS",
         "exclusao": "03/03/2024"
       },
@@ -66,6 +79,8 @@
         "ate_n": 24320,
         "ate_comp": "09/2026",
         "bloco": "B",
+        "vincendas_qtde": 59,
+        "vincendas_valor": 7080.0,
         "motivo_exclusao": null,
         "exclusao": null
       }
@@ -78,11 +93,13 @@
     "total_descontado": 9865.1,
     "total_dobro": 19730.2,
     "dano_moral": 20000.0,
-    "valor_causa": 39730.2,
-    "valor_causa_extenso": "R$ 39.730,20 (trinta e nove mil, setecentos e trinta reais e vinte centavos)",
+    "proveito_declaratorio": 7080.0,
+    "proveito_declaratorio_extenso": "R$ 7.080,00 (sete mil e oitenta reais)",
+    "valor_causa": 46810.2,
+    "valor_causa_extenso": "R$ 46.810,20 (quarenta e seis mil, oitocentos e dez reais e vinte centavos)",
     "dano_moral_extenso": "R$ 20.000,00 (vinte mil reais)",
     "alertas": [
-      "Contrato 00123456789: há descontos anteriores a 30/03/2021. O marco do EAREsp 676.608/RS não é usado na peça (decisão do escritório de 29/10/2026: sem Tema 929 e sem modulação): pedir o dobro de todos os descontos, fundado no art. 42, parágrafo único, do CDC.",
+      "Contrato 00123456789: há descontos anteriores a 30/03/2021. Usar o bloco [[SE HÁ DESCONTO ANTES DE 30/03/2021]] do tópico da dobra: o EAREsp 676.608/RS foi modulado para pagamentos posteriores a essa data, e para os anteriores a dobra se apoia só no art. 42, parágrafo único, do CDC (decisão R7, 01/11/2026).",
       "ANOMALIA: contrato 00555111222 (bloco B) está ATIVO no extrato; a análise só põe contratos não ativos em B e C. Mostrar ao advogado."
     ],
     "conferir": [],
@@ -107,9 +124,9 @@
       },
       {
         "fsc": 4,
-        "status": "ATIVADO",
-        "achado": "00123456789: liberado R$ 4.800,00; 00987654321: liberado R$ 3.100,00; 00555111222: liberado R$ 4.200,00. extrato bancário do mês da averbação ainda não informado. Risco da Súmula 42/TJBA se o crédito chegou à conta e a peça nega tudo [DECISÃO DO ADVOGADO: devolução, depósito ou compensação]",
-        "onde_na_peca": "fatos; tabela de documentos; pedido"
+        "status": "OK",
+        "achado": "00123456789: liberado R$ 4.800,00; 00987654321: liberado R$ 3.100,00; 00555111222: liberado R$ 4.200,00. Sem extrato bancário (padrão do escritório): a peça afirma que o banco não comprovou o crédito em conta (art. 373, II, do CPC), sem negar o recebimento em nome do cliente; o TED do banco é confrontado na réplica (VF6)",
+        "onde_na_peca": "negativa por contrato; inversão do ônus"
       },
       {
         "fsc": 5,
@@ -144,7 +161,7 @@
       {
         "fsc": 10,
         "status": "PENDENTE_ADVOGADO",
-        "achado": "pedir que o banco identifique o correspondente e junte a trilha completa; registrar a residência do cliente com ID e página para a réplica",
+        "achado": "pedir que o banco identifique o correspondente e junte a trilha completa; registrar o comprovante de residência do cliente para a réplica",
         "onde_na_peca": "tabela de documentos"
       },
       {
@@ -164,7 +181,7 @@
       {
         "vf": 1,
         "status": "PENDENTE_ADVOGADO",
-        "achado": "índice dos documentos do cliente (ID provisório de cada um)"
+        "achado": "lista dos documentos do cliente anexados à inicial (sem ID: o processo ainda não existe)"
       },
       {
         "vf": 2,
@@ -188,8 +205,8 @@
       },
       {
         "vf": 6,
-        "status": "PENDENTE_ADVOGADO",
-        "achado": "pedir ao cliente o extrato bancário do mês da averbação de cada contrato (Súmula 42/TJBA)"
+        "status": "NAO_SE_APLICA",
+        "achado": "extrato bancário não é pedido ao cliente (padrão do escritório); o TED que o banco juntar é confrontado com o valor liberado na réplica"
       },
       {
         "vf": 7,
@@ -204,7 +221,7 @@
       {
         "vf": 9,
         "status": "PENDENTE_ADVOGADO",
-        "achado": "registrar a residência com ID e página (e coordenada, se houver) para a geolocalização da réplica"
+        "achado": "registrar o comprovante de residência (e coordenada, se houver) para a geolocalização da réplica"
       }
     ],
     "mesma_data": [],
@@ -332,9 +349,9 @@
       },
       {
         "fsc": 4,
-        "status": "ATIVADO",
-        "achado": "00123456789: liberado R$ 4.800,00; 00987654321: liberado R$ 3.100,00; 00555111222: liberado R$ 4.200,00. extrato bancário do mês da averbação ainda não informado. Risco da Súmula 42/TJBA se o crédito chegou à conta e a peça nega tudo [DECISÃO DO ADVOGADO: devolução, depósito ou compensação]",
-        "onde_na_peca": "fatos; tabela de documentos; pedido"
+        "status": "OK",
+        "achado": "00123456789: liberado R$ 4.800,00; 00987654321: liberado R$ 3.100,00; 00555111222: liberado R$ 4.200,00. Sem extrato bancário (padrão do escritório): a peça afirma que o banco não comprovou o crédito em conta (art. 373, II, do CPC), sem negar o recebimento em nome do cliente; o TED do banco é confrontado na réplica (VF6)",
+        "onde_na_peca": "negativa por contrato; inversão do ônus"
       },
       {
         "fsc": 5,
@@ -369,7 +386,7 @@
       {
         "fsc": 10,
         "status": "PENDENTE_ADVOGADO",
-        "achado": "pedir que o banco identifique o correspondente e junte a trilha completa; registrar a residência do cliente com ID e página para a réplica",
+        "achado": "pedir que o banco identifique o correspondente e junte a trilha completa; registrar o comprovante de residência do cliente para a réplica",
         "onde_na_peca": "tabela de documentos"
       },
       {
@@ -389,7 +406,7 @@
       {
         "vf": 1,
         "status": "PENDENTE_ADVOGADO",
-        "achado": "índice dos documentos do cliente (ID provisório de cada um)"
+        "achado": "lista dos documentos do cliente anexados à inicial (sem ID: o processo ainda não existe)"
       },
       {
         "vf": 2,
@@ -413,8 +430,8 @@
       },
       {
         "vf": 6,
-        "status": "PENDENTE_ADVOGADO",
-        "achado": "pedir ao cliente o extrato bancário do mês da averbação de cada contrato (Súmula 42/TJBA)"
+        "status": "NAO_SE_APLICA",
+        "achado": "extrato bancário não é pedido ao cliente (padrão do escritório); o TED que o banco juntar é confrontado com o valor liberado na réplica"
       },
       {
         "vf": 7,
@@ -429,7 +446,7 @@
       {
         "vf": 9,
         "status": "PENDENTE_ADVOGADO",
-        "achado": "registrar a residência com ID e página (e coordenada, se houver) para a geolocalização da réplica"
+        "achado": "registrar o comprovante de residência (e coordenada, se houver) para a geolocalização da réplica"
       }
     ],
     "roteamento": [],

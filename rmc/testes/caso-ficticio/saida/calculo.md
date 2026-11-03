@@ -87,19 +87,19 @@ Data da peça: 28/10/2026 · cartão RMC nº 90000001 · situação Ativo · cap
 | FSC1 | OK | negativa específica por contrato no modelo; conferir que cada número aparece na negativa | subtópico da negativa de contratação |
 | FSC2 | OK | a parte não usou plataforma digital nem forneceu biometria; autenticação controvertida por antecipação | subtópico da negativa de contratação |
 | FSC3 | OK | art. 14, § 3º, do CDC + art. 429, II, do CPC + Tema 1061/STJ antes do art. 6º, VIII | tópico da inversão do ônus da prova |
-| FSC4 | PENDENTE_ADVOGADO | sem contrato do extrato neste cálculo: tratar o valor liberado pelas faturas ou pelo extrato bancário | fatos e tabela de documentos |
+| FSC4 | PENDENTE_ADVOGADO | sem contrato do extrato neste cálculo: tratar o valor sacado pelas faturas do cartão (o extrato bancário não é pedido) | fatos e tabela de documentos |
 | FSC5 | NAO_SE_APLICA | sem origem de migração, portabilidade ou refinanciamento no extrato | — |
 | FSC6 | OK | ciência pela análise do extrato de consignado (padrão do escritório): data de emissão do extrato; separar inexistência (não prescreve) de repetição e dano | fatos (ciência) |
 | FSC7 | OK | negativa específica por contrato e pedido de juntada de cada documento com a contestação; o risco maior é da réplica | negativa específica; inversão do ônus |
 | FSC8 | OK | natureza alimentar, período e valor vêm do cálculo; sem tentativa administrativa prévia (padrão do escritório) | subtópico do dano extrapatrimonial |
 | FSC9 | OK | JEC: sem exibição nem perícia; inversão do ônus e encargo de juntar documentos com a contestação | inversão do ônus |
-| FSC10 | PENDENTE_ADVOGADO | pedir que o banco identifique o correspondente e junte a trilha completa; registrar a residência do cliente com ID e página para a réplica | tabela de documentos |
+| FSC10 | PENDENTE_ADVOGADO | pedir que o banco identifique o correspondente e junte a trilha completa; registrar o comprovante de residência do cliente para a réplica | tabela de documentos |
 | FSC11 | NAO_SE_APLICA | nenhuma inclusão no mesmo dia nem em até 7 dias de outro contrato do extrato | — |
 | FSC12 | PENDENTE_ADVOGADO | documentos de identidade e residência atuais e legíveis; procuração atualizada; um processo por benefício + banco + tese; nada sobre outras ações | lista de documentos |
 
 | VF | Status | Achado |
 |---|---|---|
-| VF1 | PENDENTE_ADVOGADO | índice dos documentos do cliente (ID provisório de cada um) |
+| VF1 | PENDENTE_ADVOGADO | lista dos documentos do cliente anexados à inicial (sem ID: o processo ainda não existe) |
 | VF2 | NAO_SE_APLICA | sem documento do banco antes da ação; ficha do contrato fica para a réplica |
 | VF3 | NAO_SE_APLICA | extrato sem origem de migração |
 | VF4 | NAO_SE_APLICA | sem documento do banco antes da ação; autenticação eletrônica fica para a réplica |
@@ -107,4 +107,4 @@ Data da peça: 28/10/2026 · cartão RMC nº 90000001 · situação Ativo · cap
 | VF6 | NAO_SE_APLICA | sem contrato do extrato neste cálculo |
 | VF7 | NAO_SE_APLICA | sem contrato do extrato neste cálculo |
 | VF8 | NAO_SE_APLICA | sem contrato do extrato neste cálculo |
-| VF9 | PENDENTE_ADVOGADO | registrar a residência com ID e página (e coordenada, se houver) para a geolocalização da réplica |
+| VF9 | PENDENTE_ADVOGADO | registrar o comprovante de residência (e coordenada, se houver) para a geolocalização da réplica |

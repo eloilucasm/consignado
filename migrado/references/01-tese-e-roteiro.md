@@ -52,7 +52,7 @@ A migração, portanto, é **permitida**, desde que atenda às normas do BCB e d
 | Prescrição | algum desconto com mais de 5 anos | `calculo.json`, `prescricao_5_anos` |
 | Litispendência | `litispendencia` preenchido na ficha | ficha |
 | Tramitação prioritária | autor com 60 anos ou mais | qualificação (nascimento) |
-| Exibição e perícia com quesitos | rito = Justiça Comum | pergunta ao advogado |
+| Exibição (perícia: só na réplica) | rito = Justiça Comum | pergunta ao advogado |
 | Honorários sobre condenação mais proveito | rito = Justiça Comum | pergunta ao advogado |
 | Proveito econômico declaratório no valor da causa | Justiça Comum e contrato ativo | `calculo.json`, `proveito_declaratorio`; decisão do advogado |
 | LGPD | decisão do advogado | pergunta ao advogado |
@@ -71,15 +71,15 @@ A migração, portanto, é **permitida**, desde que atenda às normas do BCB e d
 
 ## Campos do quadro de fatos específicos desta tese
 
-Além dos campos comuns (`protocolo/quadro-de-fatos.md`), registre, para cada contrato e com ID e página do extrato: número do contrato; **origem da averbação** (texto literal do campo) e o **código do banco de origem**; data da averbação; parcela, prazo, início e fim dos descontos; valor liberado; exclusão e motivo, se houver; o mesmo número no banco anterior, com datas, situação e motivo da baixa; data e meio da ciência; reclamação prévia; e se o cliente alguma vez teve relação com o banco de origem. Estado de cada campo: confirmado (extrato), relatado (cliente), inferido ou desconhecido.
+Além dos campos comuns (`protocolo/quadro-de-fatos.md`), registre, para cada contrato e com a página do extrato: número do contrato; **origem da averbação** (texto literal do campo) e o **código do banco de origem**; data da averbação; parcela, prazo, início e fim dos descontos; valor liberado; exclusão e motivo, se houver; o mesmo número no banco anterior, com datas, situação e motivo da baixa; data e meio da ciência; reclamação prévia; e se o cliente alguma vez teve relação com o banco de origem. Estado de cada campo: confirmado (extrato), relatado (cliente), inferido ou desconhecido.
 
 ## Perguntas típicas (máximo três por rodada)
 
 1. Rito: JEC ou Justiça Comum? (sempre)
-2. Cidade e UF do fecho? (sempre)
+2. (não se pergunta) Juízo e cidade do fecho: vêm do `foro` do calculo.json, pelo endereço do autor.
 3. Interesse ou desinteresse na audiência de conciliação? (Justiça Comum)
 4. O cliente já teve algum contrato com o banco de origem? (muda a tese: se teve, a inexistência pode não valer)
-5. O cliente recebeu algum crédito em conta nas datas dos contratos? Há extrato bancário?
+5. Algum documento já nos autos mostra crédito em conta nas datas dos contratos? (O extrato bancário não é pedido nem perguntado.)
 
 ## Mapa da checagem pré-recurso (FSC) para o modelo
 
@@ -91,5 +91,5 @@ Além dos campos comuns (`protocolo/quadro-de-fatos.md`), registre, para cada co
 | FSC4, proveito econômico | mesmo subtópico (valor liberado do extrato) e tabela de documentos |
 | FSC6, impugnação tardia | fatos (data da ciência) e tópico de prescrição |
 | FSC8, mero dissabor | subtópico do dano extrapatrimonial (Súmula 40 do TJBA) |
-| FSC9, FSC10, prova técnica | inversão (JEC) ou exibição e perícia com quesitos (Justiça Comum) |
+| FSC9, FSC10, prova técnica | inversão (JEC) ou exibição (Justiça Comum; perícia decidida na réplica) |
 | FSC12, litigância predatória | documentos legíveis e atuais; um processo por benefício + banco + tese; nada sobre outras ações |

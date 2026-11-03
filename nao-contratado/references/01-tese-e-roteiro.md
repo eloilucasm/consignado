@@ -15,7 +15,7 @@ Não é desta skill: contrato **migrado** de outro banco sem anuência (bloco A)
 | Litispendência | `litispendencia` preenchido na ficha | ficha |
 | Tramitação prioritária | autor com 60 anos ou mais | qualificação (nascimento) |
 | Campo "Motivo da Exclusão" | sempre que há contrato excluído com o campo em branco, ou ativo | extrato |
-| Exibição e perícia com quesitos | rito = Justiça Comum | pergunta ao advogado |
+| Exibição (perícia: só na réplica) | rito = Justiça Comum | pergunta ao advogado |
 | Endereçamento federal | réu = Caixa (código 104) | `reus.json` |
 
 ## Anomalias que exigem pausa
@@ -30,9 +30,9 @@ Não é desta skill: contrato **migrado** de outro banco sem anuência (bloco A)
 ## Perguntas típicas (máximo três por rodada)
 
 1. Rito: JEC ou Justiça Comum? (peça sempre)
-2. Cidade e UF do fecho? (peça sempre)
-3. O cliente recebeu algum crédito em conta nas datas dos contratos? Há extrato bancário?
-4. O cliente tem assinatura manuscrita em algum documento do banco, ou a contratação foi eletrônica? (define a perícia na Justiça Comum)
+2. (não se pergunta) Juízo e cidade do fecho: vêm do `foro` do calculo.json, pelo endereço do autor.
+3. Algum documento já nos autos mostra crédito em conta nas datas dos contratos? (O extrato bancário não é pedido nem perguntado.)
+4. O cliente tem assinatura manuscrita em algum documento do banco, ou a contratação foi eletrônica? (registro para a réplica, que decide a perícia)
 
 ## Mapa da checagem pré-recurso (FSC) para o modelo
 
@@ -44,5 +44,5 @@ Não é desta skill: contrato **migrado** de outro banco sem anuência (bloco A)
 | FSC5, FSC11, cessão e mesma data | não se aplica a esta tese, salvo contratos do mesmo dia (descrever nos fatos) |
 | FSC6, impugnação tardia | fatos (data da ciência) e tópico de prescrição |
 | FSC8, mero dissabor | subtópico do dano extrapatrimonial (Súmula 40 do TJBA, particularidades) |
-| FSC9, FSC10, prova técnica | tópico da inversão (JEC) ou exibição e perícia com quesitos (Justiça Comum) |
+| FSC9, FSC10, prova técnica | tópico da inversão (JEC) ou exibição (Justiça Comum; perícia decidida na réplica) |
 | FSC12, litigância predatória | documentos legíveis e atuais; um processo por benefício + banco + tese; nada sobre outras ações |

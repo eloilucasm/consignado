@@ -36,7 +36,7 @@ Para migrado: contrato de origem, banco de origem e banco de destino. Para Tese 
 
 O script de cálculo monta a linha do tempo a partir do extrato e a grava na seção "Linha do tempo" do `checagem-fsc-vf.md` e na chave `cronologia` do `dossie-do-caso.json`: averbação de cada contrato (com a norma do INSS da data), primeiro e último desconto, exclusão e motivo, emissão do extrato (ciência), limite de 5 anos da prescrição e data da peça; no migrado, a primeira averbação no banco de origem; na Tese 1000, averbação e exclusão da raiz e a reaverbação com o intervalo; no RMC, inclusão do cartão, fim do prazo de 90 dias da Lei 14.690/2023, marco de 200% e refinanciamento. Copie a tabela para cá e acrescente o que só os documentos mostram (crédito em conta, contato do banco, ajuizamento de outra ação). Data que decide norma, prazo ou tese e não tem documento fica `desconhecido` no quadro.
 
-| Data | Evento | Documento (ID e página) | Efeito jurídico |
+| Data | Evento | Documento (na inicial, o nome; depois, ID e página) | Efeito jurídico |
 |---|---|---|---|
 | | | | |
 
@@ -50,11 +50,11 @@ O script de cálculo monta a linha do tempo a partir do extrato e a grava na se�
 | 15 | — (não se aplica: o escritório não faz tentativa administrativa prévia) | | | |
 | 16 | Contratos incluídos no mesmo dia ou em intervalo curto | | | |
 | 17 | Correspondente bancário identificado? | | | |
-| 18 | Assinatura manuscrita ou eletrônica? Há perícia ou prova técnica a pedir (Justiça Comum)? | | | |
-| 19 | Cidade e UF do fecho (**perguntado ao advogado**) | | | |
-| 20 | **Extrato bancário** do cliente do mês da averbação de cada contrato: houve crédito? de quanto? (VF6; Súmula 42/TJBA). **Recomendado** antes de ajuizar: sem ele, fica a pendência e o advogado decide se ajuíza. Se houver crédito, o tratamento (devolução, depósito em juízo ou compensação) é decisão do advogado | | | |
+| 18 | Assinatura manuscrita ou eletrônica? (A perícia não é pedida na inicial: decide-se na réplica.) | | | |
+| 19 | Cidade e UF do fecho: sede do juízo, tirada do endereço do autor (`foro.fecho` do cálculo); **não se pergunta** | | | |
+| 20 | **Extrato bancário** do cliente do mês da averbação de cada contrato: houve crédito? de quanto? (VF6; Súmula 42/TJBA). **Não é pedido nem perguntado** (o escritório ajuíza sem ele); preencha só se o documento já estiver nos autos. Se houver crédito, o tratamento (devolução, depósito em juízo ou compensação) é decisão do advogado | | | |
 | 21 | O banco entregou contrato, trilha de assinatura ou dossiê **antes da ação** (só se os autos trouxerem; o escritório não faz tentativa administrativa prévia)? (VF2, VF4, VF5) | | | |
-| 22 | Residência com ID e página do comprovante e, se o advogado der, coordenada copiada de um mapa (VF9, para a réplica) | | | |
+| 22 | Residência pelo comprovante (ID e página só depois do protocolo) e, se o advogado der, coordenada copiada de um mapa (VF9, para a réplica) | | | |
 | 23 | Índice dos documentos do cliente, com a identificação provisória de cada um (VF1) | | | |
 
 ## E. Pendências, fontes e portões

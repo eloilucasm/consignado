@@ -18,6 +18,7 @@ STJ, TJBA, FON = "sumulas-stj.md", "sumulas-tjba-turma-uniformizacao.md", "fonaj
 S326, T929, T1061, T1198, E738 = "sumula-326-stj.md", "tema-929-stj.md", "tema-1061-stj.md", "tema-1198-stj.md", "earesp-738991-stj.md"
 T1414 = "tema-1414-stj.md"
 T466, T1076, R2168312 = "tema-466-stj.md", "tema-1076-stj.md", "resp-2168312-pr-stj.md"
+TCU1094 = "acordao-1094-2026-tcu.md"
 
 # (assunto, citar como, o que diz, arquivo, uso em nao-contratado, uso em rmc). Uso None = a linha não entra na skill.
 DADOS = [
@@ -31,6 +32,8 @@ DADOS = [
      None, "**o banco a invocará**; o modelo tem subtópico próprio: não se discute o cartão, discute-se o refinanciamento e a informação"),
     ("Prova, ônus e inversão", "Tema 1061/STJ", "na impugnação da assinatura do contrato bancário, o ônus de provar a autenticidade é de quem produziu o documento (o banco)", T1061,
      "no modelo (inversão do ônus)", None),
+    ("Prova, ônus e inversão", "Acórdão 1.094/2026-TCU-Plenário", "cautelar em representação: o TCU mandou verificar travas que condicionem a averbação à manifestação inequívoca da vontade do segurado e quantificar averbações sem essa prova (itens 9.3.2 e 9.3.3); não é precedente judicial", TCU1094,
+     "no modelo (tabela do Motivo da Exclusão, item 6), só como contexto; **não afirmar que a suspensão está em vigor**", None),
     ("Prova, ônus e inversão", "Enunciado 53 do FONAJE", "a citação deve advertir, em termos claros, da possibilidade de inversão do ônus da prova", FON,
      "disponível; reforça o pedido de inversão no JEC (ainda não está no modelo)", "disponível; reforça o pedido de inversão no JEC (ainda não está no modelo)"),
     ("Prova, ônus e inversão", "Enunciado 12 do FONAJE", "a perícia informal é admissível (art. 35 da Lei 9.099/95)", FON,
@@ -164,6 +167,7 @@ def montar(skill, dir_jur):
         T466: ("Tema Repetitivo 466/STJ", "trânsito em julgado em 18/10/2011; origem da Súmula 479"),
         T1076: ("Tema Repetitivo 1076/STJ", "acórdão publicado em 31/05/2022; só Justiça Comum"),
         R2168312: ("REsp 2.168.312/PR", "Informativo 875/STJ (portal do STJ); acórdão não lido"),
+        TCU1094: ("Acórdão 1.094/2026-TCU-Plenário (TC 003.276/2026-0)", "lido no documento assinado do TCU (cópia da Conjur, sha256 na ficha); cautelar; situação posterior só pela imprensa"),
         T1414: ("Tema Repetitivo 1414/STJ", "**afetado, sem tese**; suspensão nacional; página do STJ lida em 28/10/2026"),
         "fonajef-enunciados.md": ("Enunciados 1 a 226 do FONAJEF (Juizados Federais)", "até o XVIII FONAJEF; sem as Recomendações; só para processo da Caixa em Juizado Especial Federal"),
     }

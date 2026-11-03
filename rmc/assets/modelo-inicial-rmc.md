@@ -9,7 +9,7 @@ Como usar (instruções para quem redige; apague este comentário na peça):
 - Não digite número de tópico: a tipografia-azul numera. Remissão interna: "tópico ..." calculado depois de fechada a estrutura.
 - Títulos de tópico (#) no formato "Da/Do/Dos…"; subtópicos (##) em frase completa.
 - Citação de lei: texto literal do acervo. Marcas [VERIFICAR ANTES DE PROTOCOLAR] ficam no ponto exato.
-- Perguntar ao advogado ANTES de gerar: rito (JEC ou Justiça Comum), cidade/UF do fecho e ação anterior sobre o cartão.
+- Perguntar ao advogado ANTES de gerar: rito (JEC ou Justiça Comum) e ação anterior sobre o cartão. Juízo e fecho não se perguntam: vêm do `foro` do calculo.json (endereço do autor).
 - Forma, endereçamento, qualificação e pedidos de rotina: assets/padrao-pecas.md (prevalece em caso de conflito).
 -->
 
@@ -38,7 +38,7 @@ Requer sejam deferidos os benefícios da gratuidade da justiça, o que faz por d
 [[SE JEC]]
 # Da competência do Juizado Especial
 
-A causa é de competência do Juizado Especial Cível (art. 3º, I, da Lei 9.099/95): o valor da causa, [VALOR DA CAUSA], é inferior a 40 (quarenta) salários mínimos, que, à razão de [SALÁRIO MÍNIMO VIGENTE NO AJUIZAMENTO: Decreto 12.797/2025, R$ 1.621,00, para 2026; outro ano, decreto daquele ano], correspondem a [40 × SALÁRIO MÍNIMO: R$ 64.840,00 em 2026]. A prova é documental (o extrato oficial do INSS) e a tese se apura pela soma dos descontos mensais ali registrados. [CONFERIR: se o advogado entender necessária perícia contábil, a causa é complexa e o rito deve ser a Justiça Comum.]
+A causa é de competência do Juizado Especial Cível (art. 3º, I, da Lei 9.099/95): o valor da causa, [VALOR DA CAUSA], é inferior a 40 (quarenta) salários mínimos, que, à razão de [SALÁRIO MÍNIMO VIGENTE NO AJUIZAMENTO: Decreto 12.797/2025, R$ 1.621,00, para 2026; outro ano, decreto daquele ano], correspondem a [40 × SALÁRIO MÍNIMO: R$ 64.840,00 em 2026]. A prova é documental (o extrato oficial do INSS) e a tese se apura pela soma dos descontos mensais ali registrados.
 [[FIM]]
 
 [[SE COISA JULGADA]]
@@ -76,7 +76,7 @@ Em [DATA DE EMISSÃO], ao analisar o Histórico de Empréstimo Consignado, a par
 
 ## O extrato oficial do INSS prova o refinanciamento
 
-Em [COMPETÊNCIA DO REFINANCIAMENTO], sem contato, proposta, nova assinatura ou repasse de numerário à parte autora, o banco registrou no sistema do INSS/DATAPREV nova operação sobre o cartão nº [NÚMERO DO CARTÃO]. O Histórico de Empréstimo Consignado, emitido em [DATA DE EMISSÃO] (ID [__], p. [__]), registra, para o contrato de id [ID DA LINHA DO EXTRATO], os seguintes sinais:
+Em [COMPETÊNCIA DO REFINANCIAMENTO], sem contato, proposta, nova assinatura ou repasse de numerário à parte autora, o banco registrou no sistema do INSS/DATAPREV nova operação sobre o cartão nº [NÚMERO DO CARTÃO]. O Histórico de Empréstimo Consignado, emitido em [DATA DE EMISSÃO], anexo, registra, para o contrato de id [ID DA LINHA DO EXTRATO], os seguintes sinais:
 
 a) **Salto do "utilizado no mês".** [[SE HÁ VALORES ANTERIORES]] Nas competências anteriores, o campo registra apenas [UTILIZADO NOS MESES ANTERIORES]. [[FIM]] Em [COMPETÊNCIA DO REFINANCIAMENTO] passa a [UTILIZADO NO MÊS], [idêntico/praticamente idêntico] ao saldo devedor então registrado ([SALDO DEVEDOR]), como se tivesse sido novo saque, sem solicitação ou assinatura da parte autora.
 
@@ -90,11 +90,11 @@ O documento é oficial e sua autenticidade pode ser conferida pelo código do ro
 
 ## O custo real da dívida
 
-A tabela abaixo reúne os descontos mensais do cartão nº [NÚMERO DO CARTÃO], extraídos do Histórico de Empréstimo Consignado emitido em [DATA DE EMISSÃO][[SE HISTÓRICO COMPLEMENTADO]] e complementados por [FONTE: HISCRE / faturas], anexo [ID] [[FIM]], de [PRIMEIRA COMPETÊNCIA] a [ÚLTIMA COMPETÊNCIA].[[SE HÁ COMPETÊNCIAS AUSENTES]] As competências [COMPETÊNCIAS AUSENTES] não constam do documento e foram registradas como ausentes, sem interpolação; o total é, portanto, o piso do efetivamente pago.[[FIM]]
+A tabela abaixo reúne os descontos mensais do cartão nº [NÚMERO DO CARTÃO], extraídos do Histórico de Empréstimo Consignado emitido em [DATA DE EMISSÃO][[SE HISTÓRICO COMPLEMENTADO]] e complementados por [FONTE: HISCRE / faturas], anexo [[FIM]], de [PRIMEIRA COMPETÊNCIA] a [ÚLTIMA COMPETÊNCIA].[[SE HÁ COMPETÊNCIAS AUSENTES]] As competências [COMPETÊNCIAS AUSENTES] não constam do documento e foram registradas como ausentes, sem interpolação; o total é, portanto, o piso do efetivamente pago.[[FIM]]
 
 [COLAR AQUI a tabela "Planilha" de calculo.md: mês/ano, desconto, acumulado, % do capital, com o refinanciamento e o marco de 200% marcados]
 
-*Fonte: Histórico de Empréstimo Consignado do INSS, emitido em [DATA DE EMISSÃO] (ID [__], p. [__]). CÁLCULO A CONFERIR.*
+*Fonte: Histórico de Empréstimo Consignado do INSS, emitido em [DATA DE EMISSÃO], anexo. CÁLCULO A CONFERIR.*
 
 Em [COMPETÊNCIA DO MARCO DE 200%], o acumulado pago, [ACUMULADO NO MARCO], chegou a [PERCENTUAL NO MARCO] do capital adotado, [MESES ENTRE O MARCO E O REFINANCIAMENTO] [mês/meses] antes do refinanciamento.
 
@@ -112,7 +112,7 @@ Em [COMPETÊNCIA DO MARCO DE 200%], o acumulado pago, [ACUMULADO NO MARCO], cheg
 | Custo total mínimo (pago + saldo devedor) | [CUSTO TOTAL] |
 | Onerosidade sobre o capital adotado | [ONEROSIDADE] |
 
-[[SE CONTRATO ATIVO]] Por cautela, a parte autora informa que, da data desta petição até o trânsito em julgado, o banco poderá continuar descontando valores do benefício, caso não haja provimento que o impeça. Eventuais novas cobranças serão incluídas na liquidação, o que se requer. [[FIM]]
+[[SE CONTRATO ATIVO]] Por oportuno, como medida de precaução, a parte autora informa que, quanto ao cartão ainda ativo, da presente data até o trânsito em julgado, o banco réu poderá continuar debitando valores indevidos do benefício da parte autora, caso não haja provimento jurisdicional que o impeça. Dessa forma, eventuais novas cobranças deverão ser incluídas no pedido de restituição em dobro, com oportuna apresentação na liquidação, o que se requer. [[FIM]]
 
 # Do direito
 
@@ -232,17 +232,11 @@ A verossimilhança está no extrato oficial do INSS e na hipossuficiência técn
 | Histórico completo de transações do cartão no DATAPREV | Art. 373, II, do CPC | Mesma consequência |
 
 [[SE JUSTIÇA COMUM]]
-## A exibição dos documentos e a perícia contábil são necessárias
+## A exibição dos documentos é necessária
 
 Requer-se, também, a exibição dos documentos acima (arts. 396 a 404 do CPC) no prazo do art. 398, com as consequências do art. 400.
 
-Requer-se perícia contábil, com os seguintes quesitos [QUESITOS A VALIDAR PELO ADVOGADO; propostos abaixo]:
-
-1. Qual o total pago de [DATA DE INCLUSÃO] a [COMPETÊNCIA DO REFINANCIAMENTO]?
-2. Qual o saldo devedor na data do refinanciamento, considerados os pagamentos?
-3. Os juros e encargos pagos já haviam atingido o valor original da dívida ([LIMITE]) nessa data?
-4. O saldo refinanciado ([UTILIZADO NO MÊS]) considerou a amortização do capital?
-5. Qual seria o saldo correto aplicando o art. 28, § 1º, da Lei 14.690/2023, descontados os juros e encargos já pagos?
+A parte autora não requer, nesta fase, prova pericial: o ônus de provar a regularidade do refinanciamento e dos encargos é do réu (art. 6º, VIII, do CDC; art. 373, II, do CPC). A necessidade de perícia será examinada na réplica, à vista dos documentos que o réu juntar com a contestação.
 [[FIM]]
 
 [[SE JEC]] Nos Juizados Especiais não se pede perícia nem exibição autônoma: a juntada dos documentos acima decorre do ônus do banco, e a omissão é valorada contra ele. A parte reserva-se a faculdade de apresentar parecer técnico contábil (art. 35 da Lei 9.099/95). [[FIM]]
@@ -290,7 +284,7 @@ A tutela provisória pode fundamentar-se em urgência ou evidência (art. 294 do
 
 A probabilidade do direito resulta do extrato oficial do INSS, que registra o refinanciamento em [COMPETÊNCIA DO REFINANCIAMENTO] e uma onerosidade de [ONEROSIDADE] sobre o capital adotado. O perigo de dano está no desconto mensal sobre verba alimentar, que se renova a cada competência. Não há perigo de irreversibilidade (art. 300, § 3º, do CPC): a suspensão dos descontos pode ser revertida se o banco comprovar a regularidade do refinanciamento.
 
-Requer-se a antecipação dos efeitos da tutela para que o banco suspenda os descontos do cartão nº [NÚMERO DO CARTÃO] no benefício NB [NB] e não repasse a margem a terceiros, sob pena de multa diária de R$ 500,00. Alternativamente, tutela da evidência (art. 311, IV, do CPC), por estar a inicial instruída com prova documental suficiente.
+Requer-se a antecipação dos efeitos da tutela para que o banco suspenda os descontos do cartão nº [NÚMERO DO CARTÃO] no benefício NB [NB] e não repasse a margem a terceiros, sob pena de multa diária de R$ 500,00 (quinhentos reais), nos termos dos arts. 297 e 537 do CPC, sem prejuízo de sua majoração caso se mostre insuficiente (art. 537, § 1º, I, do CPC) e da restituição em dobro de cada desconto realizado após a intimação. Alternativamente, tutela da evidência (art. 311, IV, do CPC), por estar a inicial instruída com prova documental suficiente.
 [[FIM]]
 
 # Das provas
@@ -307,9 +301,9 @@ b) a prioridade de tramitação [[SE IDADE ≥ 60]] (art. 1.048, I, do CPC; art.
 
 c) a citação do réu para que apresente contestação no prazo legal, sob pena de revelia, manifestando a parte autora interesse na audiência de conciliação;
 
-[[SE TUTELA]] d) a antecipação dos efeitos da tutela, nos termos do tópico próprio, para suspender os descontos do cartão nº [NÚMERO DO CARTÃO], sob pena de multa diária de R$ 500,00; [[FIM]]
+[[SE TUTELA]] d) a antecipação dos efeitos da tutela, nos termos do tópico próprio, para suspender os descontos do cartão nº [NÚMERO DO CARTÃO], sob pena de multa diária de R$ 500,00 (arts. 297 e 537 do CPC); [[FIM]]
 
-e) a inversão do ônus da prova, com o encargo de o réu juntar, com a contestação, os documentos do tópico [REMISSÃO: tópico da inversão do ônus]; [[SE JUSTIÇA COMUM]] a exibição desses documentos e a perícia contábil com os quesitos do tópico [REMISSÃO]; [[FIM]]
+e) a inversão do ônus da prova, com o encargo de o réu juntar, com a contestação, os documentos do tópico [REMISSÃO: tópico da inversão do ônus]; [[SE JUSTIÇA COMUM]] a exibição desses documentos (arts. 396 a 404 do CPC); [[FIM]]
 
 f) a apreciação expressa de cada precedente evocado, nos termos do art. 489, § 1º, VI, do CPC;
 
@@ -336,7 +330,7 @@ Dá-se à causa o valor de [VALOR DA CAUSA POR EXTENSO], correspondente ao saldo
 
 Termos em que, pede deferimento.
 
-[CIDADE DO FECHO, perguntada ao advogado] - [UF], [dd] de [mês por extenso] de [aaaa].
+[FECHO: `foro.fecho` do calculo.json, por exemplo Ilhéus - BA], [dd] de [mês por extenso] de [aaaa].
 
 
 DIEGO RAMOS ARLÉO BARBOSA

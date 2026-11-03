@@ -62,15 +62,15 @@ Incluir sempre que cabíveis:
 
 **Prova por rito:**
 - **JEC:** formule a juntada de documentos **somente como encargo decorrente da inversão do ônus** (CDC, art. 14, § 3º; CPC, art. 429, II; Tema 1061/STJ), para a contestação. Não peça exibição autônoma, perícia nem ofício.
-- **Justiça Comum:** acrescente o pedido expresso de **exibição** (CPC, arts. 396 a 404) e de **perícia**, com os **quesitos já na inicial** (grafotécnica para assinatura manuscrita; informática forense para trilha eletrônica; contábil na RMC). O efeito da não exibição é o do art. 400 do CPC, e não uma "inexistência confirmada" (ponto D6).
+- **Justiça Comum:** acrescente o pedido expresso de **exibição** (CPC, arts. 396 a 404). **Perícia e quesitos não entram na inicial:** a decisão é da réplica, depois de ver os documentos que o banco juntar. Se o banco não juntar o instrumento ou a trilha, ou se o que juntar não provar a contratação, não se pede perícia: o ônus é dele (CPC, art. 429, II). O efeito da não exibição é o do art. 400 do CPC, e não uma "inexistência confirmada" (ponto D6).
 
 ## 5. Valor da causa
 
-Restituição em dobro de todos os descontos, mais R$ 20.000,00 de dano moral (CPC, art. 292). Em Vara Federal, valor real, sem renúncia a teto. Mostre a memória do cálculo por contrato (premissas, quantidade de descontos, parcela, total, dobro) e marque `CÁLCULO A CONFERIR`.
+Restituição em dobro de todos os descontos, mais R$ 20.000,00 de dano moral, mais o proveito econômico declaratório: as parcelas vincendas dos contratos ativos (no RMC, o saldo refinanciado). A soma vale sempre, em qualquer rito (CPC, art. 292, II e VI; decisão do escritório de 03/11/2026); sem contrato ativo, o proveito é zero. No JEC, se a soma passar de 40 salários mínimos, o script alerta: rever o rito. Em Vara Federal, valor real, sem renúncia a teto. Mostre a memória do cálculo por contrato (premissas, quantidade de descontos, parcela, total, dobro) e marque `CÁLCULO A CONFERIR`.
 
 ## 6. Documentos
 
-A peça **não leva** o tópico "Dos documentos": cada documento é identificado por ID e página no ponto do corpo em que é citado.
+A peça **não leva** o tópico "Dos documentos": cada documento é identificado no ponto do corpo em que é citado: **na inicial, pelo nome, como anexo** ("extrato do INSS anexo"), porque o processo ainda não existe e não há ID; em réplica, recurso e demais peças de processo em curso, por ID e página.
 
 A lista dos anexos fica **fora da peça**, na nota de entrega ao advogado, como conferência para o protocolo: numerada na ordem em que os documentos são citados, com o que cada um comprova. Base: procuração, declaração de hipossuficiência, documento de identidade, comprovante de residência atual e legível, extrato do INSS (Histórico de Empréstimo Consignado) do NB do processo, e os demais conforme a tese.
 
@@ -86,7 +86,7 @@ Termos em que, pede deferimento.
 OAB/[UF] nº [00.000]
 ```
 
-A data é a do dia da produção da peça. Nunca deixe "[dd]" nem data de exemplo. **Pergunte ao advogado a cidade e a UF do fecho** antes de gerar; não presuma.
+A data é a do dia da produção da peça. Nunca deixe "[dd]" nem data de exemplo. A cidade e a UF do fecho **não se perguntam**: são a cidade-sede do juízo competente, tirada do endereço do autor (`foro.fecho` do `calculo.json`; na réplica e no recurso, a comarca do processo).
 
 Assinam as peças do escritório (a skill não pergunta quem assina):
 
@@ -157,7 +157,8 @@ Toda peça passa por esta revisão antes de ser entregue ou formatada. Marque ca
 - [ ] Só contratos que estão **na análise e no termo**
 - [ ] Gratuidade, prioridade de tramitação (se 60 anos ou mais) e pedidos de rotina (seção 4)
 - [ ] Valor da causa com memória por contrato (seção 5)
-- [ ] Todo documento citado identificado por ID e página; sem tópico "Dos documentos"; lista dos anexos na nota de entrega
+- [ ] Todo documento citado identificado (inicial: pelo nome, como anexo, sem ID; demais peças: ID e página); sem tópico "Dos documentos"; lista dos anexos na nota de entrega
+- [ ] Figuras (se houver) no padrão de `assets/padrao-figuras.md`: 17 cm a 300 dpi, nada abaixo de 9 pt, nada sobreposto, rodapé sem ID na inicial
 
 **Fundamentação**
 - [ ] Cada artigo, súmula e tema citado existe no acervo; o resto ficou `[CONFERIR]`
@@ -169,13 +170,13 @@ Toda peça passa por esta revisão antes de ser entregue ou formatada. Marque ca
 - [ ] Todo pedido tem fundamento e todo fundamento leva a um pedido
 
 **Checagem pré-recurso (FSC1 a FSC12)** — cada item responde "a sentença que perderíamos tinha este fundamento?" Rode o script de cálculo e confira `checagem-fsc-vf.md` (`assets/escrutinio-fsc-vf.md`): nenhum FSC ATIVADO sem tratamento na peça.
-- [ ] Extrato bancário do mês da averbação visto, ou a pendência registrada (Súmula 42/TJBA) (FSC4, FSC12)
+- [ ] A peça não nega, em nome do cliente, o recebimento do valor: afirma que o banco não comprovou o crédito (art. 373, II, do CPC; Súmula 42/TJBA) (FSC4, FSC12)
 - [ ] Ônus: art. 14, § 3º, CDC + art. 429, II, CPC + Tema 1061 antes do art. 6º, VIII (FSC3)
 - [ ] Autoria negada de forma específica por contrato, sem fato novo que só o banco prova (FSC7, FSC1, FSC2)
 - [ ] Valor liberado do extrato tratado; portabilidade pura e mesmo dia identificados (FSC4, FSC11); cadeia de cessão questionada nos eixos existência e eficácia, quando migrado (FSC5)
 - [ ] Data de ciência no quadro; declaração de inexistência separada de repetição e dano (FSC6)
 - [ ] Dano moral com natureza alimentar e particularidades do caso (FSC8)
-- [ ] Rito e prova: JEC sem exibição, perícia ou ofício; Justiça Comum com exibição e perícia com quesitos (FSC9, FSC10)
+- [ ] Rito e prova: JEC sem exibição, perícia ou ofício; Justiça Comum com exibição, sem perícia nem quesitos na inicial (perícia: decisão da réplica) (FSC9, FSC10)
 - [ ] Documentos de identidade e residência atuais e legíveis; um processo por benefício + banco + tese; nada sobre outras ações (FSC12)
 
 **Precedentes**
@@ -187,7 +188,7 @@ Toda peça passa por esta revisão antes de ser entregue ou formatada. Marque ca
 
 **Coerência**
 - [ ] Fatos iguais aos do quadro de fatos; relato do cliente não apresentado como prova
-- [ ] Datas coerentes; sem contradição interna; fecho com data real e com a cidade informada pelo advogado
+- [ ] Datas coerentes; sem contradição interna; fecho com data real e com a cidade-sede do juízo (`foro.fecho`)
 - [ ] Dano moral em R$ 20.000,00
 
 **Pendências**

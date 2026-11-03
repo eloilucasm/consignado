@@ -1,6 +1,8 @@
 {
-  "fonte": "ID 12, p. 3",
   "fonte_tipografica": "C:\\Windows\\Fonts\\LatoWeb-Regular.ttf",
+  "largura_cm": 17,
+  "dpi": 300,
+  "pt_minimo": 9,
   "figuras": [
     {
       "derivado": "51-000111/00001_0001",

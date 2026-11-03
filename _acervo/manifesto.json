@@ -399,6 +399,22 @@
    "rmc",
    "tese-1000",
    "triagem-consignado"
+  ],
+  "scripts/figuras.py": [
+   "tese-1000"
+  ],
+  "pecas/padrao-figuras.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000"
+  ],
+  "jurisprudencia/acordao-1094-2026-tcu.md": [
+   "migrado",
+   "nao-contratado",
+   "tese-1000"
   ]
  }
 }

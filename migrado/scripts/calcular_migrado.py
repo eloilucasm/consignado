@@ -9,8 +9,8 @@ Todo número sai como CÁLCULO A CONFERIR.
 Troca de titularidade: se o mesmo número aparece em outro banco, o script NÃO soma os descontos registrados lá, a menos que o advogado
 decida e passe --incluir-outros-bancos. Sem a flag, o total é só o do registro do réu e sai um alerta com o que ficou de fora.
 
-Valor da causa: o campo valor_causa é dobro + R$ 20.000,00. O campo valor_causa_com_proveito soma as parcelas vincendas dos contratos
-ativos (proveito econômico declaratório, usado só em Justiça Comum, por decisão do advogado).
+Valor da causa: o campo valor_causa é sempre dobro + R$ 20.000,00 + parcelas vincendas dos contratos ativos (proveito econômico
+declaratório; art. 292, II e VI, do CPC; decisão do escritório de 03/11/2026).
 
 Alerta: contrato sem origem de migração; contrato não localizado; mesmo número em outro banco; descontos com mais de 5 e 10 anos.
 
@@ -33,6 +33,7 @@ import escrutinio as esc  # noqa: E402
 from valores import brl, brl_ext  # noqa: E402
 
 DANO_MORAL = 20000.00
+TETO_JEC = 40 * 1621.00  # 40 salários mínimos (Decreto 12.797/2025, 2026)
 CONFERIR = "[CONFERIR]"
 AQUI = HERE.parent
 VIGENCIA_IN138 = dt.date(2022, 12, 13)
@@ -119,7 +120,7 @@ def main():
     ap.add_argument("--saida", required=True)
     ap.add_argument("--rito", choices=["jec", "comum"], help="rito escolhido pelo advogado (FSC9)")
     ap.add_argument("--extrato-bancario", choices=["sim", "nao"], dest="extrato_bancario",
-                    help="o cliente trouxe o extrato bancário do mês da averbação? (VF6, Súmula 42/TJBA)")
+                    help="só se um documento dos autos mostrar crédito em conta (o escritório não pede o extrato bancário; VF6, Súmula 42/TJBA)")
     ap.add_argument("--dossie-pre-acao", action="store_true", dest="dossie_pre_acao",
                     help="o banco entregou contrato ou trilha antes da ação (VF2, VF4, VF5)")
     ap.add_argument("--incluir-outros-bancos", action="store_true",
@@ -208,7 +209,9 @@ def main():
     tot_desc = round(sum(l["total"] for l in linhas), 2)
     tot_dobro = round(sum(l["dobro"] for l in linhas), 2)
     proveito = round(sum(l["vincendas_valor"] for l in linhas), 2)
-    valor_causa = round(tot_dobro + DANO_MORAL, 2)
+    valor_causa = round(tot_dobro + DANO_MORAL + proveito, 2)
+    if a.rito == "jec" and valor_causa > TETO_JEC:
+        alertas.append(f"Valor da causa ({brl(valor_causa)}) acima de 40 salários mínimos ({brl(TETO_JEC)}): incompatível com o JEC; rever o rito.")
     com_desc = [l for l in linhas if l["qtde"]]
     limite5 = (hoje.year - 5) * 12 + hoje.month - 1
     prescricao = bool(com_desc) and min(l["ini_n"] for l in com_desc) < limite5
@@ -220,15 +223,21 @@ def main():
     res_esc = esc.checagem(sel, todos_ext, "migrado", hoje=hoje, rito=a.rito, extrato_bancario=a.extrato_bancario,
                            dossie_pre_acao=a.dossie_pre_acao)
     alertas.extend(x for x in res_esc["roteamento"] if x not in alertas and "`nao-contratado`" not in x)
+    foro = esc.foro(proc, a.rito)  # endereçamento e fecho pela competência da ficha (decisão de 03/11/2026)
+    if foro["conferir"]:
+        conferir.append(f"Foro: {foro['conferir']}.")
+    if foro.get("jec_sem_vara_do_sistema") and a.rito == "jec":
+        alertas.append("Comarca sem Vara do Sistema dos Juizados: o JEC corre na vara cível; a peça diz 'pelo procedimento da Lei nº 9.099/95' no preâmbulo.")
+    if not a.rito:
+        conferir.append("Rito não informado (--rito jec|comum): o endereçamento do calculo.json traz as duas formas; perguntar ao advogado.")
     out = {
         "data_peca": hoje.isoformat(), "processo": a.processo, "nb": proc.get("nb"), "reu": proc["reu"],
-        "reu_cadastrado": bool(reu), "caixa": cod == "104", "competencia": proc.get("competencia"),
+        "reu_cadastrado": bool(reu), "caixa": cod == "104", "competencia": proc.get("competencia"), "foro": foro,
         "contratos": linhas, "ativos": ativos, "tutela": bool(ativos), "prescricao_5_anos": prescricao,
         "todos_migrados": all(l["migrado"] for l in linhas), "troca_de_titularidade": any(l["troca_de_titularidade"] for l in linhas),
         "outros_bancos_somados": a.incluir_outros_bancos, "total_descontado": tot_desc, "total_dobro": tot_dobro,
         "dano_moral": DANO_MORAL, "valor_causa": valor_causa, "valor_causa_extenso": brl_ext(valor_causa),
-        "proveito_declaratorio": proveito, "valor_causa_com_proveito": round(valor_causa + proveito, 2),
-        "valor_causa_com_proveito_extenso": brl_ext(round(valor_causa + proveito, 2)), "total_dobro_extenso": brl_ext(tot_dobro),
+        "proveito_declaratorio": proveito, "proveito_declaratorio_extenso": brl_ext(proveito), "total_dobro_extenso": brl_ext(tot_dobro),
         "dano_moral_extenso": brl_ext(DANO_MORAL), "alertas": alertas, "conferir": conferir, "checagem_fsc": res_esc["fsc"], "checagem_vf": res_esc["vf"],
         "mesma_data": res_esc["mesma_data"], "marca": "CÁLCULO A CONFERIR",
     }
@@ -246,8 +255,8 @@ def main():
                   f"{l['vincendas_qtde']} ({brl(l['vincendas_valor'])}) | {l['status']} |")
     md += ["", f"- Total descontado: **{brl(tot_desc)}**", f"- Restituição em dobro: **{brl_ext(tot_dobro)}**",
            f"- Dano extrapatrimonial (fixo): **{brl(DANO_MORAL)}**",
-           f"- Valor da causa: **{brl_ext(valor_causa)}**" + (" (Vara Federal: valor real, sem renúncia a teto)" if cod == "104" else ""),
-           f"- Proveito econômico declaratório (parcelas vincendas dos ativos, só Justiça Comum, decisão do advogado): {brl(proveito)} · valor da causa com proveito: {brl_ext(out['valor_causa_com_proveito'])}",
+           f"- Proveito econômico declaratório (parcelas vincendas dos ativos): **{brl(proveito)}**",
+           f"- Valor da causa (dobro + dano extrapatrimonial + proveito declaratório): **{brl_ext(valor_causa)}**" + (" (Vara Federal: valor real, sem renúncia a teto)" if cod == "104" else ""),
            f"- Tutela de urgência: {'SIM, só sobre ' + ', '.join(ativos) if ativos else 'não (sem contrato ativo)'}",
            f"- Tópico de prescrição (algum desconto com mais de 5 anos): {'SIM' if prescricao else 'não'}",
            f"- Troca de titularidade (mesmo número em outro banco): {'SIM; descontos do banco anterior ' + ('SOMADOS' if a.incluir_outros_bancos else 'NÃO somados') if out['troca_de_titularidade'] else 'não'}", ""]

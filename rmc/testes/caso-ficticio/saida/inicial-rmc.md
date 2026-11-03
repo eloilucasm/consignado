@@ -1,6 +1,6 @@
 > **MINUTA DE TESTE — CASO FICTÍCIO. NÃO PROTOCOLAR.** Nenhum dado é de pessoa real (exceto a qualificação pública do réu, tirada de `references/dados/reus.json`). Gerada em 28/10/2026 a partir de `assets/modelo-inicial-rmc.md`, `calculo.json` e `calculo.md` desta pasta. As marcas `[CONFIRMAR]`, `[CONFERIR]`, `[VERIFICAR]` e `[DECISÃO]` ficam na minuta para o advogado; no Word recebem realce amarelo. As decisões D1 e D25 foram tomadas pelo escritório em 29/10/2026.
 
-AO JUÍZO DA [PREENCHER: N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BAHIA
+AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BA
 
 **EMENTA:** Cartão de crédito consignado (RMC/RCC). Beneficiária do INSS. Refinanciamento do saldo pelo banco sem manifestação de vontade e sem repasse de numerário. Total pago superior a 200% do capital antes do refinanciamento. Teto de juros e encargos do art. 28, § 1º, da Lei 14.690/2023. Nulidade (art. 166, VI, do CC). Repetição do indébito em dobro. Dano extrapatrimonial. Tutela de urgência para suspensão imediata dos descontos.
 
@@ -14,11 +14,11 @@ em face do **BANCO BMG S.A.**, pessoa jurídica de direito privado, inscrito no 
 
 A parte autora não tem condições de arcar com as despesas do processo, uma vez que são insuficientes seus recursos financeiros para pagar todas as despesas processuais, inclusive o recolhimento das custas iniciais.
 
-Requer sejam deferidos os benefícios da gratuidade da justiça, o que faz por declaração de seus advogados, nos termos do art. 99, § 4º, c/c o art. 105, in fine, ambos do CPC, prerrogativa que consta do instrumento procuratório anexo. Presume-se verdadeira a alegação de insuficiência deduzida por pessoa natural (art. 99, § 3º, do CPC). Seu benefício tem base de cálculo de R$ 1.621,00 (ID 5, p. 1). No Juizado Especial, o acesso em primeiro grau independe do pagamento de custas, taxas ou despesas (art. 54 da Lei 9.099/95).
+Requer sejam deferidos os benefícios da gratuidade da justiça, o que faz por declaração de seus advogados, nos termos do art. 99, § 4º, c/c o art. 105, in fine, ambos do CPC, prerrogativa que consta do instrumento procuratório anexo. Presume-se verdadeira a alegação de insuficiência deduzida por pessoa natural (art. 99, § 3º, do CPC). Seu benefício tem base de cálculo de R$ 1.621,00 (anexo). No Juizado Especial, o acesso em primeiro grau independe do pagamento de custas, taxas ou despesas (art. 54 da Lei 9.099/95).
 
 # Da tramitação prioritária
 
-Conforme documento pessoal anexo (ID 3), a parte autora é pessoa idosa e faz jus à prioridade na tramitação (art. 1.048, I, do CPC; art. 71 da Lei 10.741/2003 — Estatuto da Pessoa Idosa).
+Conforme documento pessoal anexo, a parte autora é pessoa idosa e faz jus à prioridade na tramitação (art. 1.048, I, do CPC; art. 71 da Lei 10.741/2003 — Estatuto da Pessoa Idosa).
 
 # Da competência do Juizado Especial
 
@@ -38,7 +38,7 @@ Em 10/08/2026, ao consultar o Histórico de Empréstimo Consignado, a parte auto
 
 ## O extrato oficial do INSS prova o refinanciamento
 
-Em 11/2025, sem contato, proposta, nova assinatura ou repasse de numerário à parte autora ****, o banco registrou no sistema do INSS/DATAPREV nova operação sobre o cartão nº 90000001. O Histórico de Empréstimo Consignado, emitido em 28/10/2026 (ID 5, p. 1), registra, para o contrato de id 90000001318112025, os seguintes sinais:
+Em 11/2025, sem contato, proposta, nova assinatura ou repasse de numerário à parte autora ****, o banco registrou no sistema do INSS/DATAPREV nova operação sobre o cartão nº 90000001. O Histórico de Empréstimo Consignado, emitido em 28/10/2026 (anexo), registra, para o contrato de id 90000001318112025, os seguintes sinais:
 
 a) **Salto do "utilizado no mês".** Nas competências anteriores, o campo registra apenas R$ 30,00 e R$ 30,00. Em 11/2025 passa a R$ 1.800,00, idêntico ao saldo devedor então registrado (R$ 1.800,00), como se tivesse sido novo saque, sem solicitação ou assinatura da parte autora.
 
@@ -107,7 +107,7 @@ A tabela abaixo reúne os descontos mensais do cartão nº 90000001, extraídos 
 | 08/2026 | 55,00 | 2.650,00 | 265,0% |
 | 09/2026 | 55,00 | 2.705,00 | 270,5% |
 
-*Fonte: Histórico de Empréstimo Consignado do INSS, emitido em 28/10/2026 (ID 5, p. 1). CÁLCULO A CONFERIR.*
+*Fonte: Histórico de Empréstimo Consignado do INSS, emitido em 28/10/2026 (anexo). CÁLCULO A CONFERIR.*
 
 Em 08/2025, o acumulado pago, R$ 2.000,00, chegou a 200,0% do capital adotado, 3 meses antes do refinanciamento.
 
@@ -125,7 +125,7 @@ Em 08/2025, o acumulado pago, R$ 2.000,00, chegou a 200,0% do capital adotado, 3
 | Custo total mínimo (pago + saldo devedor) | R$ 4.405,00 |
 | Onerosidade sobre o capital adotado | 440,5% |
 
-Por cautela, a parte autora informa que, da data desta petição até o trânsito em julgado, o banco poderá continuar descontando valores do benefício, caso não haja provimento que o impeça. Eventuais novas cobranças serão incluídas na liquidação, o que se requer.
+Por oportuno, como medida de precaução, a parte autora informa que, quanto ao cartão ainda ativo, da presente data até o trânsito em julgado, o banco réu poderá continuar debitando valores indevidos do benefício da parte autora, caso não haja provimento jurisdicional que o impeça. Dessa forma, eventuais novas cobranças deverão ser incluídas no pedido de restituição em dobro, com oportuna apresentação na liquidação, o que se requer.
 
 # Do direito
 
@@ -283,7 +283,7 @@ A tutela provisória pode fundamentar-se em urgência ou evidência (art. 294 do
 
 A probabilidade do direito resulta do extrato oficial do INSS, que registra o refinanciamento em 11/2025 e uma onerosidade de 440,5% sobre o capital adotado. O perigo de dano está no desconto mensal sobre verba alimentar, que se renova a cada competência. Não há perigo de irreversibilidade (art. 300, § 3º, do CPC): a suspensão dos descontos pode ser revertida se o banco comprovar a regularidade do refinanciamento.
 
-Requer-se a antecipação dos efeitos da tutela para que o banco suspenda os descontos do cartão nº 90000001 no benefício NB 999.999.999-9 e não repasse a margem a terceiros, sob pena de multa diária de R$ 500,00. Alternativamente, tutela da evidência (art. 311, IV, do CPC), por estar a inicial instruída com prova documental suficiente.
+Requer-se a antecipação dos efeitos da tutela para que o banco suspenda os descontos do cartão nº 90000001 no benefício NB 999.999.999-9 e não repasse a margem a terceiros, sob pena de multa diária de R$ 500,00 (quinhentos reais), nos termos dos arts. 297 e 537 do CPC, sem prejuízo de sua majoração caso se mostre insuficiente (art. 537, § 1º, I, do CPC) e da restituição em dobro de cada desconto realizado após a intimação. Alternativamente, tutela da evidência (art. 311, IV, do CPC), por estar a inicial instruída com prova documental suficiente.
 
 # Das provas
 
@@ -299,7 +299,7 @@ b) a prioridade de tramitação (art. 1.048, I, do CPC; art. 71 da Lei 10.741/20
 
 c) a citação do réu para que apresente contestação no prazo legal, sob pena de revelia, manifestando a parte autora interesse na audiência de conciliação;
 
-d) a antecipação dos efeitos da tutela, nos termos do tópico próprio, para suspender os descontos do cartão nº 90000001, sob pena de multa diária de R$ 500,00;
+d) a antecipação dos efeitos da tutela, nos termos do tópico próprio, para suspender os descontos do cartão nº 90000001, sob pena de multa diária de R$ 500,00 (arts. 297 e 537 do CPC);
 
 e) a inversão do ônus da prova, com o encargo de o réu juntar, com a contestação, os documentos do tópico da inversão do ônus da prova;
 

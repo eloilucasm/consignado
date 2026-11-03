@@ -20,6 +20,7 @@ Gerado por `python3 _manutencao/gerar-indice-jurisprudencia.py` (não edite à m
 | Citar como | O que diz | Arquivo | Uso nesta skill |
 |---|---|---|---|
 | Tema 1061/STJ | na impugnação da assinatura do contrato bancário, o ônus de provar a autenticidade é de quem produziu o documento (o banco) | `tema-1061-stj.md` | no modelo (inversão do ônus) |
+| Acórdão 1.094/2026-TCU-Plenário | cautelar em representação: o TCU mandou verificar travas que condicionem a averbação à manifestação inequívoca da vontade do segurado e quantificar averbações sem essa prova (itens 9.3.2 e 9.3.3); não é precedente judicial | `acordao-1094-2026-tcu.md` | no modelo (tabela do Motivo da Exclusão, item 6), só como contexto; **não afirmar que a suspensão está em vigor** |
 | Enunciado 53 do FONAJE | a citação deve advertir, em termos claros, da possibilidade de inversão do ônus da prova | `fonaje-enunciados-civeis.md` | disponível; reforça o pedido de inversão no JEC (ainda não está no modelo) |
 | Enunciado 12 do FONAJE | a perícia informal é admissível (art. 35 da Lei 9.099/95) | `fonaje-enunciados-civeis.md` | disponível, para o JEC quando houver prova técnica |
 
@@ -143,6 +144,7 @@ Gerado por `python3 _manutencao/gerar-indice-jurisprudencia.py` (não edite à m
 
 | Arquivo | Conteúdo | Situação |
 |---|---|---|
+| `acordao-1094-2026-tcu.md` | Acórdão 1.094/2026-TCU-Plenário (TC 003.276/2026-0) | lido no documento assinado do TCU (cópia da Conjur, sha256 na ficha); cautelar; situação posterior só pela imprensa |
 | `earesp-738991-stj.md` | EAREsp 738.991/RS | fonte secundária; caso de telefonia |
 | `fonaje-encontros.md` | Encontros do FONAJE e do FONAJEF: cidade e data, para a nota de rodapé do enunciado | FONAJEF completo (Ajufe, mês e ano); FONAJE parcial, com `[CONFERIR]` onde não há fonte de data |
 | `fonaje-enunciados-civeis.md` | Enunciados cíveis 1 a 178 do FONAJE (139 vigentes) | até o 57º Encontro (27 a 29/05/2026); os revogados estão no fim do arquivo |

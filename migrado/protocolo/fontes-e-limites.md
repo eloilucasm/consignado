@@ -45,7 +45,7 @@ Data da consulta: 2026-10-28. Níveis de confiança: VERIFICADO, FEITO, PRESUMID
 | Lei 10.820/2003 | citada no modelo anterior; **disponível** em `references/normas/lei-10820.md` desde 01/11/2026 (VERIFICADO); o modelo atual não a cita | citar pelo arquivo, se o advogado quiser; a IN 138 e a IN 28 bastam para a tese |
 | Constituição Federal | citada no modelo anterior (arts. 1º, III, 5º, XXXII e XXXV, 6º, 170, V, 230); **disponível** em `references/normas/cf88.md` desde 01/11/2026 | o modelo atual não a cita; incluir é decisão do escritório |
 | Aplicação do art. 290 do CC à troca de titularidade da carteira de consignado | sem precedente no acervo | `[VERIFICAR ANTES DE PROTOCOLAR]` |
-| Contexto de fraude em escala (operação policial de 2025, Dataprev, TCU) | a operação apurou descontos associativos, e os demais itens não foram confirmados | a peça não o usa |
+| Contexto de fraude em escala (operação policial de 2025, Dataprev, TCU) | a operação apurou descontos associativos; o Acórdão 1.094/2026-TCU-Plenário foi lido em 03/11/2026 e está no acervo (`references/jurisprudencia/acordao-1094-2026-tcu.md`), mas é cautelar e a situação posterior só se conhece pela imprensa | a peça usa o acórdão só no item 6 da tabela do Motivo da Exclusão (item 9.3.2); não afirma que a suspensão está em vigor |
 | REsp 2.062.421/SP | citado no modelo anterior; não localizado em nenhuma fonte | não citar |
 | Doutrina nominal | nenhuma obra no acervo | conceitos sem atribuição |
 | Vigência da IN 138 | o escritório conferiu no DOU (29/10/2026) que a publicação é de 13/12/2022 (republicação; a original, de 11/11/2022, saiu com incorreções); art. 40: vigência no ato da publicação | a peça usa 13/12/2022; IN 28 até 12/12/2022 (decisão D30) |

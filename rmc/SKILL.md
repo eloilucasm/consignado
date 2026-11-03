@@ -1,6 +1,6 @@
 ---
 name: rmc
-description: Redige a petição inicial de nulidade de refinanciamento de cartão consignado RMC/RCC (reserva de margem consignável), cumulada com repetição do indébito em dobro e dano extrapatrimonial, com a tese do marco de 200% da Lei 14.690/2023. Lê o histórico mensal do cartão no extrato do INSS, detecta o refinanciamento, monta a planilha, confere os bloqueios da tese (refinanciamento depois do prazo de 90 dias, 200% atingido antes dele, histórico completo), pergunta o rito (JEC ou Justiça Comum) e a cidade do fecho e entrega minuta em Markdown para a tipografia-azul. Acione com "RMC", "RCC", "cartão consignado", "refinanciamento do cartão", "reserva de margem", "marco de 200%", "Desenrola". Não use para empréstimo não contratado, migrado ou Tese 1000, nem para recurso.
+description: Redige a petição inicial de nulidade de refinanciamento de cartão consignado RMC/RCC (reserva de margem consignável), cumulada com repetição do indébito em dobro e dano extrapatrimonial, com a tese do marco de 200% da Lei 14.690/2023. Lê o histórico mensal do cartão no extrato do INSS, detecta o refinanciamento, monta a planilha, confere os bloqueios da tese (refinanciamento depois do prazo de 90 dias, 200% atingido antes dele, histórico completo), pergunta o rito (JEC ou Justiça Comum), fixa o juízo e o fecho pelo endereço do autor e entrega minuta em Markdown para a tipografia-azul. Acione com "RMC", "RCC", "cartão consignado", "refinanciamento do cartão", "reserva de margem", "marco de 200%", "Desenrola". Não use para empréstimo não contratado, migrado ou Tese 1000, nem para recurso.
 ---
 
 # Inicial de refinanciamento de cartão consignado (RMC/RCC)
@@ -13,7 +13,7 @@ Leia `protocolo/protocolo.md` (regras comuns, portões e marcas) e `assets/padra
 
 1. Peça só o que falta: ficha de ajuizamento, extrato do INSS do NB do cartão, qualificação do autor. Extraia dos documentos antes de perguntar.
 2. Monte o **quadro de fatos** (`protocolo/quadro-de-fatos.md`) e mostre o Painel do Caso. No máximo **três lacunas por rodada**.
-3. **Antes de gerar, pergunte sempre ao advogado:** (a) o rito, **JEC ou Justiça Comum**; (b) a **cidade e a UF do fecho**; (c) se houve **ação anterior sobre esse cartão** (entra o tópico de coisa julgada); (d) se, no cartão, só o **mínimo** da fatura é descontado em folha e o restante é pago por boleto (premissa da decisão D1: por isso o art. 4º da Res. CMN 4.549 não afasta a resolução). **Não pergunte D1 nem D25: já decididas pelo escritório em 29/10/2026** (mantém-se o teto pela lei e pela Res. CMN 4.549; a ação não se enquadra na suspensão do Tema 1414, e o tópico de distinção entra sempre). Pergunte também, sem contar nas três lacunas, se o cliente trouxe o **extrato bancário do mês da averbação** e se o banco **entregou contrato ou trilha antes da ação**; passe as respostas ao script (`--rito jec|comum`, `--extrato-bancario sim|nao`, `--dossie-pre-acao`).
+3. **Antes de gerar, pergunte sempre ao advogado:** (a) o rito, **JEC ou Justiça Comum**; (b) se houve **ação anterior sobre esse cartão** (entra o tópico de coisa julgada); (c) se, no cartão, só o **mínimo** da fatura é descontado em folha e o restante é pago por boleto (premissa da decisão D1: por isso o art. 4º da Res. CMN 4.549 não afasta a resolução). **Não pergunte D1 nem D25: já decididas pelo escritório em 29/10/2026** (mantém-se o teto pela lei e pela Res. CMN 4.549; a ação não se enquadra na suspensão do Tema 1414, e o tópico de distinção entra sempre). **Não pergunte o juízo nem a cidade do fecho:** saem do endereço do autor (ficha da triagem) e vêm prontos no `foro` do `calculo.json`: endereçamento do rito escolhido e fecho na cidade-sede do juízo, UF BA (decisão do escritório de 03/11/2026). Endereço fora das tabelas vira pendência no `conferir`. Pergunte também, sem contar nas três lacunas, se o banco **entregou contrato ou trilha antes da ação**; passe as respostas ao script (`--rito jec|comum`, `--dossie-pre-acao`). **Não pergunte pelo extrato bancário do cliente:** o escritório ajuíza sem ele, e a peça afirma que o banco não comprovou o crédito (protocolo, "Não recebimento").
 4. Um cartão por processo.
 
 ## Cálculo
@@ -32,7 +32,7 @@ O leitor do extrato foi herdado do pacote AMN e só foi testado aqui com extrato
 
 Preencha `assets/modelo-inicial-rmc.md` com o quadro de fatos e o `calculo.json`. Ao fim, registre os quatro portões do protocolo. O portão 3 inclui a **checagem pré-recurso** (FSC1 a FSC12, `assets/escrutinio-fsc-vf.md`; o registro fica em `checagem-fsc-vf.md`). Dois portões falhos seguidos: entregue só o diagnóstico ou minuta `BLOQUEADO PARA USO FINAL`.
 
-**Bloqueios específicos:** histórico do cartão incompleto; nenhum refinanciamento no histórico; 200% não atingido antes do refinanciamento; mais de um cartão no mesmo processo; rito ou cidade do fecho não informados; réu sem cadastro em `references/dados/reus.json`.
+**Bloqueios específicos:** histórico do cartão incompleto; nenhum refinanciamento no histórico; 200% não atingido antes do refinanciamento; mais de um cartão no mesmo processo; rito não informado; foro sem comarca ou subseção (endereço do autor fora das tabelas); réu sem cadastro em `references/dados/reus.json`.
 
 ## Peças e arquivos
 
@@ -60,4 +60,4 @@ Estão em `references/normas/` (texto literal e datado) e `references/jurisprude
 
 ## Formatação
 
-Entregue Markdown. Ofereça gerar o Word com a skill `tipografia-azul`, com **realce amarelo** nas marcas de pendência (decisão do escritório; passe a instrução junto).
+Entregue Markdown. Ofereça gerar o Word com a skill `tipografia-azul`, que aplica o **realce amarelo** nas marcas de pendência.

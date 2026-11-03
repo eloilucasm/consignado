@@ -11,7 +11,7 @@ Leia `protocolo/protocolo.md` (regras comuns, portões e marcas), `assets/padrao
 
 ## Etapas
 
-1. **Escopo.** Leia a **inicial** primeiro: contratos impugnados, rito, pedidos e cidade do fecho. Se o advogado trouxer o `dossie-do-caso.json` da inicial, use-o (checagem FSC, residência, extrato bancário). Sem ele, extraia do processo. Leia o extrato do INSS e anote a origem da averbação de cada contrato.
+1. **Escopo.** Leia a **inicial** primeiro: contratos impugnados, rito, pedidos e a comarca onde o processo corre (é a cidade do fecho, UF BA; não se pergunta). Se o advogado trouxer o `dossie-do-caso.json` da inicial, use-o (checagem FSC, residência, extrato bancário). Sem ele, extraia do processo. Leia o extrato do INSS e anote a origem da averbação de cada contrato.
 2. **Índice dos autos (VF1)** e **lista dos pontos da contestação**: cada preliminar e cada alegação de fato, com ID e página. Abra a primeira página de cada documento do banco antes de afirmar o que é.
 3. **Fichas e quadro de indícios.** Registre os dados dos documentos do banco em `contestacao.json` (formato em `references/01-roteiro-e-vf.md`, seção 3) e rode:
 
@@ -23,7 +23,7 @@ python3 scripts/geo_check.py geo.json --saida-md quadro_geo.md --saida-json quad
 
    Requer `pip install pypdf`. Sem execução de código, monte as fichas e o quadro à mão, pelo mesmo roteiro, e marque `CONFERIR`.
    Registre também, em `pontos` do `contestacao.json`, cada preliminar e alegação com o código do catálogo (`P1`…, `M1`…; `NOVO` se não estiver lá) e o ID e a página. O `fichas.py` grava o **mapa de argumentos** (`mapa-argumentos.md` e `.json`): ponto, resposta e fonte do catálogo, provas dos autos e o pedido da réplica que atende o ponto; acrescenta sozinho os contratos sem defesa (M11) e a substituição de objeto (M12).
-4. **Cartão de pausa (obrigatório).** Mostre ao advogado, antes de redigir: escopo e contratos sem defesa; quadro de indícios por gravidade; resultado de VF4 e VF9, com os itens de **REVISÃO HUMANA OBRIGATÓRIA** em bloco próprio; o **mapa de argumentos** (cada ponto da contestação com a resposta de `references/02-defesas-do-banco.md`, a prova e o pedido); e as decisões pendentes, inclusive todo ponto `NOVO`. **ALERTA_CONTRA** (TED igual ao valor liberado, na conta do benefício) exige decisão expressa sobre o valor (Súmula 42 do TJBA). Pergunte o rito, se não estiver claro nos autos, e a cidade e a UF do fecho. **Só redija depois da confirmação.**
+4. **Cartão de pausa (obrigatório).** Mostre ao advogado, antes de redigir: escopo e contratos sem defesa; quadro de indícios por gravidade; resultado de VF4 e VF9, com os itens de **REVISÃO HUMANA OBRIGATÓRIA** em bloco próprio; o **mapa de argumentos** (cada ponto da contestação com a resposta de `references/02-defesas-do-banco.md`, a prova e o pedido); e as decisões pendentes, inclusive todo ponto `NOVO`. **ALERTA_CONTRA** (TED igual ao valor liberado, na conta do benefício) exige decisão expressa sobre o valor (Súmula 42 do TJBA). Pergunte o rito só se não estiver claro nos autos; a cidade do fecho é a comarca do processo. **Só redija depois da confirmação.**
 5. **Redação** com `assets/modelo-replica-consignado.md`: um subtópico por preliminar e por alegação efetivamente feitas; um subtópico por contrato, com os achados e ID e página de cada dado. Cada subtópico abre pela resposta (a conclusão do ponto), dá a norma ou o precedente do mapa, aplica aos documentos do caso e fecha no pedido correspondente. Todo pedido do mapa entra em "Dos pedidos"; pedido sem ponto no mapa não entra.
 
 ## Regras que não se quebram
@@ -32,7 +32,7 @@ python3 scripts/geo_check.py geo.json --saida-md quadro_geo.md --saida-json quad
 - Impugnação específica de cada documento; contratos diferentes nunca se misturam; o banco que defende outro contrato não defendeu o impugnado (art. 341 do CPC).
 - Nada sobre imagem, selfie ou assinatura sem visualizar a página.
 - Geolocalização: "o log juntado pelo réu registra"; referência sempre a **residência**, com ID e página; REVISÃO HUMANA OBRIGATÓRIA não entra sem decisão.
-- JEC: sem pedido de exibição, perícia ou ofício. Justiça Comum: reiterar exibição e perícia com quesitos.
+- JEC: sem pedido de exibição, perícia ou ofício. Justiça Comum: reiterar a exibição; **a perícia é decidida aqui** (a inicial não a pede): só se o banco juntou documento que apenas prova técnica afasta. Se o banco não juntou ou não provou a contratação, não se pede perícia (ônus dele) — decisão do advogado no cartão de pausa.
 - Nada sobre outras ações do autor ou do escritório, nem sobre a colheita da procuração.
 - Valores e pedidos da inicial não mudam. **Não use o Tema 929/STJ como fundamento** (acórdão não publicado).
 
@@ -62,4 +62,4 @@ Estão em `references/normas/` (texto literal e datado) e `references/jurisprude
 
 ## Formatação
 
-Entregue Markdown. Ofereça gerar o Word com a skill `tipografia-azul`, com **realce amarelo** nas marcas de pendência (passe a instrução junto, porque a `tipografia-azul` ainda não descreve o realce).
+Entregue Markdown. Ofereça gerar o Word com a skill `tipografia-azul`, que aplica o **realce amarelo** nas marcas de pendência.

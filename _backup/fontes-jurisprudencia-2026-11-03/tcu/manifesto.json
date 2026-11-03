@@ -1,0 +1,20 @@
+[
+ {
+  "url": "https://www.conjur.com.br/wp-content/uploads/2026/05/Acordao-1094-de-2026-Plenario.pdf",
+  "http": 200,
+  "content_type": "application/pdf",
+  "last_modified": "Mon, 04 May 2026 16:14:34 GMT",
+  "obtido_em": "2026-11-03T17:55:43+00:00",
+  "bytes": 525585,
+  "sha256": "c6281016a83bf586fc0dd24209f5337a4eaf3b90f9278bb0625ca40be84f41c4",
+  "arquivo": "acordao-1094-2026-plenario.pdf",
+  "documento": "Acórdão 1094/2026-TCU-Plenário (TC 003.276/2026-0), relatório, voto e acórdão assinados",
+  "autenticidade_tcu": [
+   "80217382",
+   "80217383",
+   "80217384"
+  ],
+  "coletor": "_manutencao/coleta/fontes.py (Rede, PdfHttp, pdftotext UTF-8)",
+  "observacao": "portal.tcu.gov.br, pesquisa.apps.tcu.gov.br e dados-abertos.apps.tcu.gov.br sem conexão desta rede em 03/11/2026; a cópia é o PDF assinado do TCU publicado pela Conjur. Conferir pelos códigos em www.tcu.gov.br/autenticidade."
+ }
+]

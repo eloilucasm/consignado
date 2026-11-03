@@ -78,7 +78,7 @@ def main():
     ap.add_argument("--historico-extra")
     ap.add_argument("--rito", choices=["jec", "comum"], help="rito escolhido pelo advogado (FSC9)")
     ap.add_argument("--extrato-bancario", choices=["sim", "nao"], dest="extrato_bancario",
-                    help="o cliente trouxe o extrato bancário do mês da averbação? (VF6, Súmula 42/TJBA)")
+                    help="só se um documento dos autos mostrar crédito em conta (o escritório não pede o extrato bancário; VF6, Súmula 42/TJBA)")
     ap.add_argument("--dossie-pre-acao", action="store_true", dest="dossie_pre_acao",
                     help="o banco entregou contrato ou trilha antes da ação (VF2, VF4, VF5)")
     a = ap.parse_args()
@@ -214,9 +214,16 @@ def main():
     res_esc = esc.checagem([], [], "rmc", hoje=hoje, rito=a.rito, extrato_bancario=a.extrato_bancario,
                            dossie_pre_acao=a.dossie_pre_acao)
     alertas.extend(res_esc["roteamento"])
+    foro = esc.foro(proc, a.rito)  # endereçamento e fecho pela competência da ficha (decisão de 03/11/2026)
+    if foro["conferir"]:
+        conferir.append(f"Foro: {foro['conferir']}.")
+    if foro.get("jec_sem_vara_do_sistema") and a.rito == "jec":
+        alertas.append("Comarca sem Vara do Sistema dos Juizados: o JEC corre na vara cível; a peça diz 'pelo procedimento da Lei nº 9.099/95' no preâmbulo.")
+    if not a.rito:
+        conferir.append("Rito não informado (--rito jec|comum): o endereçamento do calculo.json traz as duas formas; perguntar ao advogado.")
     out = {
         "data_peca": hoje.isoformat(), "processo": a.processo, "nb": proc.get("nb"), "reu": proc["reu"],
-        "reu_cadastrado": bool(reu), "caixa": cod == "104", "competencia": proc.get("competencia"),
+        "reu_cadastrado": bool(reu), "caixa": cod == "104", "competencia": proc.get("competencia"), "foro": foro,
         "cartao": {"numero": numero, "tipo": cart.get("tipo") or "RMC", "banco": cart["banco"], "limite": capital,
                    "situacao": cart["situacao"], "inclusao": incl4},
         "ativo": ativo, "tutela": ativo,

@@ -20,6 +20,7 @@ Autoteste: python3 escrutinio.py --teste
 import datetime as dt
 import re
 import sys
+from pathlib import Path
 
 STATUS_FSC = ("ATIVADO", "OK", "NAO_SE_APLICA", "PENDENTE_ADVOGADO")
 STATUS_VF = ("EXECUTADA", "NAO_SE_APLICA", "PENDENTE_ADVOGADO")
@@ -167,7 +168,8 @@ def checagem(do_processo, todos, skill, hoje=None, rito=None, extrato_bancario=N
     do_processo: ocorrências do extrato que entram no processo (dicts de extrato.contratos()); pode ser [] (RMC).
     todos: todas as ocorrências do extrato (todos os bancos), para FSC11/VF8.
     rito: 'jec', 'comum' ou None (ainda não informado).
-    extrato_bancario: 'sim' (cliente trouxe o extrato do mês da averbação), 'nao' ou None (não informado).
+    extrato_bancario: 'sim' só se o extrato bancário do cliente chegou aos autos e mostra crédito; o escritório não o pede
+                      (None ou 'nao': ausência de crédito presumida).
     """
     hoje = hoje or dt.date.today()
     f4 = [(r["contrato"], fsc4_contrato(r), r.get("liberado")) for r in do_processo]
@@ -185,15 +187,18 @@ def checagem(do_processo, todos, skill, hoje=None, rito=None, extrato_bancario=N
 
     # FSC4
     if not f4:
-        fsc.append(_fsc(4, "PENDENTE_ADVOGADO", "sem contrato do extrato neste cálculo: tratar o valor liberado pelas faturas ou pelo extrato bancário",
+        fsc.append(_fsc(4, "PENDENTE_ADVOGADO", "sem contrato do extrato neste cálculo: tratar o valor sacado pelas faturas do cartão (o extrato bancário não é pedido)",
                         "fatos e tabela de documentos"))
     elif any(s == "LIBERADO_POSITIVO" for _, s, _ in f4):
         det = "; ".join(f"{c}: liberado {_brl(v)}" for c, s, v in f4 if s == "LIBERADO_POSITIVO")
-        eb = {"sim": "extrato bancário do cliente trazido: comparar o crédito com o valor liberado",
-              "nao": "cliente não tem o extrato bancário: decisão do advogado",
-              None: "extrato bancário do mês da averbação ainda não informado"}[extrato_bancario]
-        fsc.append(_fsc(4, "ATIVADO", f"{det}. {eb}. Risco da Súmula 42/TJBA se o crédito chegou à conta e a peça nega tudo "
-                        f"[DECISÃO DO ADVOGADO: devolução, depósito ou compensação]", "fatos; tabela de documentos; pedido"))
+        if extrato_bancario == "sim":  # só quando o documento chegou por outra via e mostra crédito
+            fsc.append(_fsc(4, "ATIVADO", f"{det}. Extrato bancário nos autos: comparar o crédito com o valor liberado. Risco da Súmula "
+                            f"42/TJBA se o crédito chegou à conta e a peça nega tudo [DECISÃO DO ADVOGADO: devolução, depósito ou compensação]",
+                            "fatos; tabela de documentos; pedido"))
+        else:  # padrão do escritório: o extrato bancário não é pedido; presume-se a ausência de crédito
+            fsc.append(_fsc(4, "OK", f"{det}. Sem extrato bancário (padrão do escritório): a peça afirma que o banco não comprovou o "
+                            f"crédito em conta (art. 373, II, do CPC), sem negar o recebimento em nome do cliente; o TED do banco é "
+                            f"confrontado na réplica (VF6)", "negativa por contrato; inversão do ônus"))
     elif any(s == "LIBERADO_ZERO" for _, s, _ in f4):
         fsc.append(_fsc(4, "ATIVADO", "valor liberado ausente ou R$ 0,00 (possível portabilidade pura): registrar e não afirmar que não houve "
                         "crédito sem prova", "fatos; tabela de documentos"))
@@ -229,11 +234,11 @@ def checagem(do_processo, todos, skill, hoje=None, rito=None, extrato_bancario=N
         fsc.append(_fsc(9, "OK", "JEC: sem exibição nem perícia; inversão do ônus e encargo de juntar documentos com a contestação",
                         "inversão do ônus"))
     elif rito == "comum":
-        fsc.append(_fsc(9, "OK", "Justiça Comum: exibição (arts. 396 a 404 do CPC) e perícia com quesitos pedidas já na inicial",
-                        "exibição e perícia"))
+        fsc.append(_fsc(9, "OK", "Justiça Comum: exibição (arts. 396 a 404 do CPC) pedida na inicial; perícia decidida na réplica, à vista dos documentos do banco",
+                        "exibição dos documentos"))
     else:
         fsc.append(_fsc(9, "PENDENTE_ADVOGADO", "rito ainda não informado (JEC ou Justiça Comum)", "—"))
-    fsc.append(_fsc(10, "PENDENTE_ADVOGADO", "pedir que o banco identifique o correspondente e junte a trilha completa; registrar a residência do cliente com ID e página para a réplica",
+    fsc.append(_fsc(10, "PENDENTE_ADVOGADO", "pedir que o banco identifique o correspondente e junte a trilha completa; registrar o comprovante de residência do cliente para a réplica",
                     "tabela de documentos"))
 
     # FSC11
@@ -256,7 +261,7 @@ def checagem(do_processo, todos, skill, hoje=None, rito=None, extrato_bancario=N
 
     # VF
     vf = []
-    vf.append(_vf(1, "PENDENTE_ADVOGADO", "índice dos documentos do cliente (ID provisório de cada um)"))
+    vf.append(_vf(1, "PENDENTE_ADVOGADO", "lista dos documentos do cliente anexados à inicial (sem ID: o processo ainda não existe)"))
     for n, nome in ((2, "ficha do contrato"), (4, "autenticação eletrônica"), (5, "correspondente bancário")):
         if dossie_pre_acao:
             vf.append(_vf(n, "PENDENTE_ADVOGADO", f"há dossiê do banco entregue antes da ação: impugnar já na inicial ({nome})"))
@@ -268,7 +273,7 @@ def checagem(do_processo, todos, skill, hoje=None, rito=None, extrato_bancario=N
     if f4 and extrato_bancario == "sim":
         vf.append(_vf(6, "PENDENTE_ADVOGADO", "extrato bancário trazido: confrontar o crédito do mês da averbação com o valor liberado do extrato do INSS"))
     elif f4:
-        vf.append(_vf(6, "PENDENTE_ADVOGADO", "pedir ao cliente o extrato bancário do mês da averbação de cada contrato (Súmula 42/TJBA)"))
+        vf.append(_vf(6, "NAO_SE_APLICA", "extrato bancário não é pedido ao cliente (padrão do escritório); o TED que o banco juntar é confrontado com o valor liberado na réplica"))
     else:
         vf.append(_vf(6, "NAO_SE_APLICA", "sem contrato do extrato neste cálculo"))
     mesmo_banco = [p for p in md if len({b for _, b, _ in p["contratos"]}) == 1]
@@ -276,7 +281,7 @@ def checagem(do_processo, todos, skill, hoje=None, rito=None, extrato_bancario=N
                   (f"{len(mesmo_banco)} par(es) do mesmo banco em datas próximas" if mesmo_banco else "sem repetição de datas entre contratos do mesmo banco")
                   if do_processo else "sem contrato do extrato neste cálculo"))
     vf.append(_vf(8, "EXECUTADA" if do_processo else "NAO_SE_APLICA", f"{len(md)} par(es) até {dias_curto} dias" if do_processo else "sem contrato do extrato neste cálculo"))
-    vf.append(_vf(9, "PENDENTE_ADVOGADO", "registrar a residência com ID e página (e coordenada, se houver) para a geolocalização da réplica"))
+    vf.append(_vf(9, "PENDENTE_ADVOGADO", "registrar o comprovante de residência (e coordenada, se houver) para a geolocalização da réplica"))
     vf.sort(key=lambda x: x["vf"])
 
     return {"fsc": fsc, "vf": vf, "roteamento": rot, "mesma_data": md}
@@ -294,6 +299,53 @@ def para_markdown(res, titulo="Checagem FSC e VF"):
     if res["roteamento"]:
         L += ["", "**Roteamento:**"] + [f"- {x}" for x in res["roteamento"]]
     return "\n".join(L) + "\n"
+
+
+# ------------------------------------------------------------------ foro: endereçamento e cidade do fecho
+
+def _dados_dir():
+    aqui = Path(__file__).resolve().parent.parent
+    for d in (aqui / "references" / "dados", aqui / "dados"):  # skill: references/dados; acervo: dados
+        if (d / "tjba_unidades.json").exists():
+            return d
+    return None
+
+
+def foro(proc, rito=None):
+    """Endereçamento e cidade do fecho a partir da competência da ficha (que vem do endereço do autor, na triagem).
+
+    Regra do escritório (03/11/2026): o fecho é a cidade-sede do juízo competente, UF BA; não se pergunta ao advogado.
+    TJBA: a unidade sai de references/dados/tjba_unidades.json (JEC ou Justiça Comum, conforme o rito).
+    Caixa: Vara Federal da (sub)seção do TRF1 da ficha. Devolve dict com fecho, enderecamento(s) e o que conferir.
+    """
+    import json
+    comp = (proc or {}).get("competencia") or ""
+    out = {"competencia": comp, "fecho": None, "enderecamento": None, "enderecamento_jec": None,
+           "enderecamento_comum": None, "conferir": None}
+    m = re.search(r"Vara Federal da (Subse[çc][ãa]o Judici[áa]ria de (.+?)|Se[çc][ãa]o Judici[áa]ria d[ae] Bahia[^/]*)/BA", comp)
+    if m:
+        cidade = m.group(2) or "Salvador"
+        e = (f"AO JUÍZO DA [N]ª VARA FEDERAL DA SUBSEÇÃO JUDICIÁRIA DE {cidade.upper()} - BA" if m.group(2)
+             else "AO JUÍZO DA [N]ª VARA FEDERAL DA SEÇÃO JUDICIÁRIA DA BAHIA - BA")
+        out.update(fecho=f"{cidade} - BA", enderecamento=e, enderecamento_jec=e, enderecamento_comum=e)
+        return out
+    m = re.search(r"Comarca de (.+?)/BA", comp)
+    d = _dados_dir()
+    if not m or not d:
+        out["conferir"] = "competência da ficha sem comarca do TJBA nem subseção do TRF1: rode a triagem ou confira o endereço do autor"
+        return out
+    tab = json.loads((d / "tjba_unidades.json").read_text(encoding="utf-8"))["comarcas"]
+    chave = next((k for k in tab if m.group(1) in (k, k.split("/")[0].strip(), tab[k]["grafia_2026"])), None)
+    if not chave:
+        out["conferir"] = f"comarca {m.group(1)} fora de tjba_unidades.json"
+        return out
+    u = tab[chave]
+    out.update(fecho=f"{u['grafia_2026']} - BA", enderecamento_jec=u["jec"]["enderecamento"],
+               enderecamento_comum=u["comum"]["enderecamento"], conferir=u.get("conferir"))
+    if rito in ("jec", "comum"):
+        out["enderecamento"] = out["enderecamento_jec"] if rito == "jec" else out["enderecamento_comum"]
+    out["jec_sem_vara_do_sistema"] = u["jec"]["tipo"] != "vara_do_sistema"
+    return out
 
 
 # ------------------------------------------------------------------ linha do tempo do caso
@@ -451,7 +503,9 @@ def _teste():
     res = checagem([a, b], todos, "nao-contratado", hoje=hoje, rito="jec")
     s = {f["fsc"]: f["status"] for f in res["fsc"]}
     assert len(res["fsc"]) == 12 and len(res["vf"]) == 9
-    assert s[4] == "ATIVADO" and "Súmula 42" in res["fsc"][3]["achado"] and "R$ 2.000,00" in res["fsc"][3]["achado"]
+    assert s[4] == "OK" and "art. 373, II" in res["fsc"][3]["achado"] and "R$ 2.000,00" in res["fsc"][3]["achado"]  # sem extrato bancário (padrão)
+    r_eb = checagem([a, b], todos, "nao-contratado", hoje=hoje, rito="jec", extrato_bancario="sim")
+    assert r_eb["fsc"][3]["status"] == "ATIVADO" and "Súmula 42" in r_eb["fsc"][3]["achado"]  # extrato nos autos
     assert s[9] == "OK" and s[11] == "ATIVADO" and s[1] == "OK" and s[8] == "OK"  # FSC8: sem tentativa administrativa (padrão do escritório)
     assert checagem([a], todos, "nao-contratado", hoje=hoje, rito=None)["fsc"][8]["status"] == "PENDENTE_ADVOGADO"
     assert checagem([a], todos, "nao-contratado", hoje=hoje, rito="comum")["fsc"][8]["status"] == "OK"
@@ -469,7 +523,7 @@ def _teste():
     vf = {v["vf"]: v["status"] for v in checagem([a], todos, "nao-contratado", hoje=hoje, dossie_pre_acao=True)["vf"]}
     assert vf[2] == vf[4] == vf[5] == "PENDENTE_ADVOGADO"
     vf = {v["vf"]: v["status"] for v in checagem([a], todos, "nao-contratado", hoje=hoje)["vf"]}
-    assert vf[2] == vf[4] == vf[5] == "NAO_SE_APLICA" and vf[6] == "PENDENTE_ADVOGADO"
+    assert vf[2] == vf[4] == vf[5] == "NAO_SE_APLICA" and vf[6] == "NAO_SE_APLICA"
 
     vazio = checagem([], [], "rmc", hoje=hoje, rito="jec")                     # RMC: sem contratos do extrato
     assert len(vazio["fsc"]) == 12 and {f["fsc"]: f["status"] for f in vazio["fsc"]}[4] == "PENDENTE_ADVOGADO"
@@ -488,6 +542,16 @@ def _teste():
     assert any(e["evento"].startswith("Limite de 5 anos") and e["data"] == "2021-10-01" for e in crono)
     assert any("Motivo da Exclusão" in e["efeito"] for e in crono)
     assert "| 01/2019 | Primeiro desconto do contrato 444_0001 |" in cronologia_markdown(crono)
+    if _dados_dir():  # foro: endereçamento e fecho pela competência da ficha
+        f = foro({"competencia": "Vara Cível da Comarca de Ilhéus/BA (tabela TJBA)"}, "jec")
+        assert f["fecho"] == "Ilhéus - BA" and "SISTEMA DOS JUIZADOS" in f["enderecamento"] and not f["jec_sem_vara_do_sistema"]
+        f = foro({"competencia": "Comarca de Uruçuca/BA"}, "jec")
+        assert f["fecho"] == "Uruçuca - BA" and "JURISDIÇÃO PLENA" in f["enderecamento"] and f["jec_sem_vara_do_sistema"]
+        f = foro({"competencia": "Comarca de Camacã/BA"}, "comum")
+        assert f["fecho"] == "Camacan - BA" and "CAMACAN" in f["enderecamento"]
+        f = foro({"competencia": "Vara Federal da Subseção Judiciária de Ilhéus/BA"})
+        assert f["fecho"] == "Ilhéus - BA" and "VARA FEDERAL" in f["enderecamento"]
+        assert foro({"competencia": "Vara Cível da Comarca de Recife/PE"})["conferir"]
     with tempfile.TemporaryDirectory() as tmp:
         gravar(tmp, res, "nao-contratado", 1, hoje, {"x": 1}, cronologia=crono)
         md = (Path(tmp) / "checagem-fsc-vf.md").read_text(encoding="utf-8")

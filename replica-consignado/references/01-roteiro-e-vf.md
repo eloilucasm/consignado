@@ -86,7 +86,7 @@ A escala vem da skill de recurso e é **proposta a validar** pelo escritório. I
 3. **Contratos não se misturam.** Cada número é um contrato; o banco que defende outro contrato não defendeu o impugnado.
 4. **Nada sobre imagem não vista.** Selfie, assinatura e tela só se descrevem depois de visualizadas.
 5. **Geolocalização:** "o log juntado pelo réu registra", sem afirmar a fonte que o log não diz nem a posição da parte autora; a referência é sempre a **residência** (ID e página), e assim se chama na peça; dado sem ID e página não entra; REVISÃO HUMANA OBRIGATÓRIA não entra sem decisão.
-6. **Rito:** no JEC, nada de pedido de exibição, perícia ou ofício (a lacuna do banco vira argumento); na Justiça Comum, reiterar exibição e perícia com quesitos (sem isso, não há cerceamento a alegar no recurso, FSC9).
+6. **Rito:** no JEC, nada de pedido de exibição, perícia ou ofício (a lacuna do banco vira argumento); na Justiça Comum, reiterar a exibição e **decidir a perícia** (a inicial não a pede): pedir, com quesitos, só se o banco juntou documento que apenas prova técnica afasta; se não juntou ou não provou a contratação, não pedir (ônus dele). Sem pedido de perícia aqui, não há cerceamento a alegar no recurso (FSC9).
 7. **Sem fato sobre outras ações** e sem nada sobre a colheita da procuração (FSC12).
 8. **Valores da inicial** não mudam: a réplica reitera os pedidos.
 9. **Súmula 42 do TJBA:** se o crédito chegou à conta, a réplica não nega o recebimento; trata o valor conforme a decisão do advogado.
@@ -102,6 +102,6 @@ A escala vem da skill de recurso e é **proposta a validar** pelo escritório. I
 | FSC5 | Na migração, os dois eixos da cessão foram examinados? |
 | FSC6 | A alegação de silêncio ou anuência foi respondida (CC, art. 111; autorização expressa)? |
 | FSC8 | As particularidades do dano estão reafirmadas? |
-| FSC9 | Justiça Comum: perícia e exibição reiteradas, com quesitos? |
+| FSC9 | Justiça Comum: exibição reiterada; perícia decidida (pedida com quesitos, ou dispensada porque o banco não provou)? |
 | FSC11 | Contratos da mesma data descritos só pelo extrato? |
 | FSC12 | Nada sobre outras ações; documentos atualizados juntados, se o banco os contestou? |

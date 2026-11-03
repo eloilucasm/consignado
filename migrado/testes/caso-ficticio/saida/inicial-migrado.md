@@ -1,6 +1,6 @@
-> **MINUTA DE TESTE — CASO FICTÍCIO. NÃO PROTOCOLAR.** Nenhum dado é de pessoa real (exceto a qualificação pública do réu, tirada de `references/dados/reus.json`). Gerada em 28/10/2026 a partir de `assets/modelo-inicial-migrado.md`, `calculo.json` e do quadro de fatos desta pasta. Premissas do teste (processo 1 do caso fictício): o advogado respondeu **JEC** ao rito e **Ilhéus - BA** à cidade do fecho, e declarou **interesse** na audiência de conciliação; confirmou a tutela sobre o contrato ativo; a cliente confirmou a data de ciência e a reclamação prévia; o advogado decidiu **não somar** os descontos do banco anterior. **Observação interna (Título 6): remover antes de protocolar.**
+> **MINUTA DE TESTE — CASO FICTÍCIO. NÃO PROTOCOLAR.** Nenhum dado é de pessoa real (exceto a qualificação pública do réu, tirada de `references/dados/reus.json`). Gerada em 28/10/2026 a partir de `assets/modelo-inicial-migrado.md`, `calculo.json` e do quadro de fatos desta pasta. Premissas do teste (processo 1 do caso fictício): rito **JEC** e **interesse** na audiência, respondidos pelo advogado; foro do endereço do autor (Ilhéus - BA); tutela sobre o contrato ativo; sem tentativa administrativa prévia; o advogado decidiu **não somar** os descontos do banco anterior. **Observação interna (Título 6): remover antes de protocolar.**
 
-AO JUÍZO DA [PREENCHER: N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BAHIA
+AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BA
 
 **EMENTA:** Empréstimo consignado. Averbação por migração de contrato de outra instituição financeira (troca de titularidade), sem nova manifestação de vontade do beneficiário. Beneficiária do INSS. Cessão de crédito não notificada ao devedor (CC, art. 290). Inexistência de autorização para a migração. Nulidade da migração. Desconto indevido sobre verba de natureza alimentar. Responsabilidade objetiva da instituição financeira. Repetição do indébito em dobro. Dano extrapatrimonial. Tutela de urgência para suspensão imediata dos descontos.
 
@@ -18,7 +18,7 @@ Requer sejam deferidos os benefícios da gratuidade da justiça, o que faz por d
 
 # Da tramitação prioritária
 
-Conforme documento pessoal anexo (ID 3), a parte autora é pessoa idosa e faz jus à prioridade na tramitação (art. 1.048, I, do CPC; art. 71 da Lei 10.741/2003 — Estatuto da Pessoa Idosa).
+Conforme documento pessoal anexo, a parte autora é pessoa idosa e faz jus à prioridade na tramitação (art. 1.048, I, do CPC; art. 71 da Lei 10.741/2003 — Estatuto da Pessoa Idosa).
 
 # Da gratuidade da justiça
 
@@ -28,17 +28,17 @@ Requer sejam deferidos os benefícios da gratuidade da justiça, o que faz por d
 
 # Da tramitação prioritária
 
-Conforme documento pessoal anexo (ID 3), a parte autora é pessoa idosa e faz jus à prioridade na tramitação (art. 1.048, I, do CPC; art. 71 da Lei 10.741/2003 — Estatuto da Pessoa Idosa).
+Conforme documento pessoal anexo, a parte autora é pessoa idosa e faz jus à prioridade na tramitação (art. 1.048, I, do CPC; art. 71 da Lei 10.741/2003 — Estatuto da Pessoa Idosa).
 
 # Da competência do Juizado Especial
 
-A causa é de competência do Juizado Especial Cível (art. 3º, I, da Lei 9.099/95): o valor da causa, R$ 31.653,24, é inferior a 40 (quarenta) salários mínimos, que, à razão de R$ 1.621,00 (Decreto 12.797/2025), correspondem a R$ 64.840,00. A prova é documental (o extrato oficial do INSS).
+A causa é de competência do Juizado Especial Cível (art. 3º, I, da Lei 9.099/95): o valor da causa, R$ 36.632,44, é inferior a 40 (quarenta) salários mínimos, que, à razão de R$ 1.621,00 (Decreto 12.797/2025), correspondem a R$ 64.840,00. A prova é documental (o extrato oficial do INSS).
 
 # Dos fatos
 
 A parte autora é beneficiária do INSS (NB 999.999.999-9, aposentadoria por idade), e o benefício previdenciário é a sua única fonte de renda ****.
 
-Em 10/08/2026, ao consultar o Histórico de Empréstimo Consignado emitido pelo INSS em 28/10/2026 (ID 5, p. 1), a parte autora tomou conhecimento de descontos de contratos de empréstimo consignado migrados para o réu sem sua autorização, relacionados a seguir.
+Em 10/08/2026, ao consultar o Histórico de Empréstimo Consignado emitido pelo INSS em 28/10/2026 (anexo), a parte autora tomou conhecimento de descontos de contratos de empréstimo consignado migrados para o réu sem sua autorização, relacionados a seguir.
 
 O extrato registra, no campo "Origem da Averbação", que os contratos impugnados foram averbados pelo réu como migração de contrato anteriormente mantido com outra instituição financeira:
 
@@ -53,7 +53,7 @@ O extrato registra, no campo "Origem da Averbação", que os contratos impugnado
 | 7001003 | Migrado do contrato 7001003 CBC: 934 | 934 | 19/01/2025 | 02/2025 | 09/2026 | R$ 77,80 | 20 | R$ 1.556,00 | R$ 3.112,00 | ATIVO |
 | **Total** | | | | | | | | R$ 5.826,62 | R$ 11.653,24 | |
 
-*Fonte: Histórico de Empréstimo Consignado do INSS, emitido em 28/10/2026 (ID 5, p. 1). CÁLCULO A CONFERIR.*
+*Fonte: Histórico de Empréstimo Consignado do INSS, emitido em 28/10/2026 (anexo). CÁLCULO A CONFERIR.*
 
 O extrato registra ainda o mesmo número do contrato 7001003 sob o código 934 (BANCO ORIGEM FICTICIO S.A.), excluído em 15/01/2025 por "Exclusão por troca de titularidade", com 11 parcelas de R$ 77,80 entre 02/2024 e 12/2024. A contagem de descontos deste quadro **não inclui** os registrados no banco anterior **[DECISÃO DO ADVOGADO; script: --incluir-outros-bancos]**.
 
@@ -67,9 +67,7 @@ A parte autora jamais foi consultada, contatada ou informada sobre essas migraç
 
 A parte autora não utiliza plataformas digitais de autenticação, não domina mecanismos de verificação biométrica, tokens ou senhas dinâmicas e jamais forneceu sua imagem facial, dados biométricos ou credenciais de acesso.
 
-Em 02/09/2026, a parte autora registrou reclamação perante o banco pelo consumidor.gov.br (ID 7) e não obteve resposta.
-
-Por cautela, a parte autora informa que, da data desta petição até o trânsito em julgado, o banco poderá continuar descontando valores do benefício, caso não haja provimento que o impeça. Eventuais novas cobranças serão incluídas na liquidação, o que se requer.
+Por oportuno, como medida de precaução, a parte autora informa que, quanto ao contrato ainda ativo, da presente data até o trânsito em julgado, o banco réu poderá continuar debitando valores indevidos do benefício da parte autora, caso não haja provimento jurisdicional que o impeça. Dessa forma, eventuais novas cobranças deverão ser incluídas no pedido de restituição em dobro, com oportuna apresentação na liquidação, o que se requer.
 
 # Do direito
 
@@ -123,8 +121,6 @@ O art. 42, parágrafo único, do Código de Defesa do Consumidor dispõe:
 
 O dispositivo ressalva apenas o engano justificável. Descontos mensais de empréstimo que a parte autora não contratou, lançados diretamente sobre verba de natureza alimentar, não decorrem de engano justificável. A parte autora pede, por isso, a restituição em dobro de **todos** os descontos.
 
-A reclamação prévia sem resposta (ID 7) mostra que o banco foi informado de que a cobrança era indevida e manteve os descontos.
-
 **Contrato nº 7001001.** Até a presente data, a parte autora suportou 6 parcelas, cuja soma resulta em R$ 409,50 (quatrocentos e nove reais e cinquenta centavos). Assim, o banco deve restituir os valores descontados em dobro, que correspondem a R$ 819,00 (oitocentos e dezenove reais).
 
 **Contrato nº 7001002.** Até a presente data, a parte autora suportou 8 parcelas, cuja soma resulta em R$ 3.861,12 (três mil, oitocentos e sessenta e um reais e doze centavos). Assim, o banco deve restituir os valores descontados em dobro, que correspondem a R$ 7.722,24 (sete mil, setecentos e vinte e dois reais e vinte e quatro centavos).
@@ -137,7 +133,7 @@ Totalizando, R$ 11.653,24 (onze mil, seiscentos e cinquenta e três reais e vint
 
 A situação vivida pela parte autora ultrapassa o mero aborrecimento cotidiano. Os descontos incidem mensalmente sobre benefício previdenciário, de natureza alimentar, durante o período de 05/2021 a 09/2026 (com intervalos entre os contratos), sem que a parte autora pudesse impedi-los na origem.
 
-A Súmula 40 da Turma de Uniformização das Turmas Recursais do TJBA admite o dano moral por desconto indevido quando, observadas as particularidades do caso, demonstrada violação significativa a direito da personalidade. As particularidades aqui são: a natureza alimentar do benefício, o valor e a duração dos descontos, a condição de pessoa idosa e as tentativas de solução junto ao banco (ID 7).
+A Súmula 40 da Turma de Uniformização das Turmas Recursais do TJBA admite o dano moral por desconto indevido quando, observadas as particularidades do caso, demonstrada violação significativa a direito da personalidade. As particularidades aqui são: a natureza alimentar do benefício, o valor e a duração dos descontos e a condição de pessoa idosa.
 
 Além da função compensatória, a indenização cumpre função pedagógica: o valor deve ser suficiente para desestimular a repetição da conduta por instituição de grande porte. Considerados o porte econômico do banco, a gravidade da falha e o caráter alimentar da verba, o valor de **R$ 20.000,00 (vinte mil reais)** é justo e razoável e não gera enriquecimento sem causa. O valor é estimativo: conforme a Súmula 326 do STJ, a condenação em montante inferior ao postulado na inicial não implica sucumbência recíproca.
 
@@ -226,7 +222,7 @@ A parte autora não pretende alterar o campo "Origem da Exclusão". Pretende ape
 | 3 | Libera a margem consignável de forma documentada | CDC, art. 6º, VI |
 | 4 | Impede que a baixa seja revertida por lançamento posterior | CPC, art. 497; CC, art. 422 **[CONFERIR: adequação do fundamento]** |
 | 5 | Corrige dado pessoal incompleto de base oficial | LGPD, art. 18, III |
-| 6 | Alinha-se à transparência exigida dos operadores do sistema consignado | IN 138/2022 **[CONFERIR: o modelo anterior citava também o Acórdão TCU 1.094/2026, fora do acervo]** |
+| 6 | Alinha-se à transparência exigida dos operadores do sistema consignado | IN 138/2022; Acórdão 1.094/2026-TCU-Plenário, que mandou verificar travas que condicionem a averbação à "manifestação inequívoca da vontade do segurado" (item 9.3.2) |
 
 Quanto aos contratos já excluídos (nº 7001001 e nº 7001002), a exclusão já ocorreu e o campo permanece vazio, de modo que o provimento consiste na simples complementação do registro histórico. Quanto ao contrato ainda ativo (nº 7001003), a providência será cumprida no momento da baixa determinada por este Juízo.
 
@@ -238,7 +234,7 @@ A probabilidade do direito resulta da negativa específica de contratação, da 
 
 Não há perigo de irreversibilidade (art. 300, § 3º, do CPC): a suspensão dos descontos pode ser revertida se o banco comprovar a contratação.
 
-Requer-se a antecipação dos efeitos da tutela para que o banco se abstenha de realizar novos descontos no benefício referentes ao contrato nº 7001003, sob pena de multa diária a ser fixada por este Juízo.
+Requer-se a antecipação dos efeitos da tutela para que o banco se abstenha de realizar novos descontos no benefício referentes ao contrato nº 7001003, sob pena de multa diária de R$ 500,00 (quinhentos reais), nos termos dos arts. 297 e 537 do CPC, sem prejuízo de sua majoração caso se mostre insuficiente (art. 537, § 1º, I, do CPC) e da restituição em dobro de cada desconto realizado após a intimação.
 
 # Das provas
 
@@ -276,7 +272,7 @@ Requer, ainda, que todas as intimações e publicações sejam feitas exclusivam
 
 # Do valor da causa
 
-Dá-se à causa o valor de R$ 31.653,24 (trinta e um mil, seiscentos e cinquenta e três reais e vinte e quatro centavos), correspondente à restituição em dobro (R$ 11.653,24) e ao dano extrapatrimonial (R$ 20.000,00) (art. 292 do CPC). *CÁLCULO A CONFERIR.*
+Dá-se à causa o valor de R$ 36.632,44 (trinta e seis mil, seiscentos e trinta e dois reais e quarenta e quatro centavos), correspondente à soma da restituição em dobro (R$ 11.653,24), do dano extrapatrimonial (R$ 20.000,00) e do proveito econômico declaratório, equivalente às parcelas vincendas dos contratos ativos (R$ 4.979,20) (art. 292, II e VI, do CPC). *CÁLCULO A CONFERIR.*
 
 Termos em que, pede deferimento.
 

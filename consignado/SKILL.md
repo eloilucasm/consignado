@@ -70,12 +70,10 @@ A tabela de roteamento do `protocolo/protocolo.md` é a fonte única; aplique-a 
 As iniciais perguntam as mesmas coisas. Pergunte **uma vez**, no máximo três lacunas por rodada, e repasse a resposta às skills:
 
 - rito, **JEC ou Justiça Comum** (você pode sugerir pelo valor e pela prova, mas não escolhe);
-- cidade e UF do fecho;
-- se o cliente trouxe o **extrato bancário do mês da averbação**;
 - se o banco **entregou contrato ou trilha antes da ação**;
 - só no RMC: ação anterior sobre o cartão e se só o mínimo é descontado em folha; só no migrado: interesse na audiência de conciliação (Justiça Comum).
 
-Nunca responda por conta própria rito, cidade, escolha de risco ou qualquer pausa das especialistas.
+Juízo e cidade do fecho não se perguntam: saem do endereço do autor (triagem e `foro` do cálculo). Nunca responda por conta própria rito, escolha de risco ou qualquer pausa das especialistas.
 
 ## 5. Acionar de verdade
 
@@ -95,14 +93,14 @@ Nunca responda por conta própria rito, cidade, escolha de risco ou qualquer pau
          "contratos": ["número, todos na análise e no termo"],
          "documentos": ["arquivo: tipo"],
          "entradas": ["ficha.json | calculo.json | dossie-do-caso.json | fichas.json"],
-         "respostas": {"rito": "JEC | Justica Comum | pendente", "cidade_uf": "…", "extrato_bancario": "sim | nao | pendente", "documentos_pre_acao": "sim | nao | pendente"},
+         "respostas": {"rito": "JEC | Justica Comum | pendente", "foro": "comarca ou subseção da ficha (endereço do autor)", "documentos_pre_acao": "sim | nao | pendente"},
          "bloqueios": ["motivo em uma linha"]
        }
      ]
    }
    ```
 
-   `rito` e `cidade_uf` só saem de `pendente` com resposta do advogado.
+   `rito` só sai de `pendente` com resposta do advogado; o `foro` (juízo e cidade do fecho) vem da ficha, sem pergunta.
 3. **Leia o `SKILL.md` da especialista por inteiro** e siga-o a partir da rota, sem resumi-lo de memória nem pular portão ou pausa dele. Se a skill não estiver disponível, diga qual está indisponível e entregue só a triagem possível. Não simule a execução nem invente o conteúdo da skill.
 4. A especialista recebe a rota, o quadro de fatos atual e os arquivos de entrada, e não repete a abertura quando os dados já existem. A redação, o cálculo e os portões são dela.
 5. Ao receber o resultado, reconcilie divergências, atualize o quadro e a rota e só então passe ao processo ou à etapa seguinte. Resposta anterior do modelo não é prova.
@@ -118,7 +116,7 @@ Nunca responda por conta própria rito, cidade, escolha de risco ou qualquer pau
 
 Reúna em uma resposta ao advogado: Painel do Caso, o que foi feito em cada processo, o que ficou bloqueado e por quê, riscos e até três próximas diligências, mais os quatro portões de cada peça. Não despeje respostas duplicadas das especialistas. Triagem não vira parecer, cálculo não comprova direito e minuta com marca de pendência não está pronta para protocolo. **Sem protocolo, envio ou assinatura:** só o advogado responsável aprova.
 
-Formatação em Word ou Google Docs fica com `tipografia-azul`, com realce amarelo nas marcas de pendência, passado junto na instrução.
+Formatação em Word ou Google Docs fica com `tipografia-azul`, que aplica o realce amarelo nas marcas de pendência.
 
 ## Normas e jurisprudência
 

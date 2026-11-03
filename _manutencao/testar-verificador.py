@@ -86,7 +86,10 @@ CASOS = [  # (descrição, mutação, trecho esperado na mensagem de erro)
     ("registro sem a linha VF9", troca(REG, "| VF9 |", "| VX9 |"), "falta a linha VF9"),
     ("status de FSC inválido", troca(REG, "| FSC1 | OK |", "| FSC1 | TALVEZ |"), "status inválido"),
     ("FSC3: peça sem o art. 429, II, do CPC", troca_todas(PECA, "art. 429, II", "art. 429"), "FSC3"),
-    ("JEC em comarca sem Vara do Sistema sem o preâmbulo da Lei 9.099", troca(PECA, "AO JUÍZO DA [PREENCHER: N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BAHIA", "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE URUÇUCA - BAHIA"), "FSC9: peça de Justiça Comum sem o pedido de exibição"),
+    ("JEC em comarca sem Vara do Sistema sem o preâmbulo da Lei 9.099", troca(PECA, "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BA", "AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE URUÇUCA - BAHIA"), "FSC9: peça de Justiça Comum sem o pedido de exibição"),
+    ("fecho diferente da sede do juízo", troca(PECA, "Ilhéus - BA, 28 de outubro de 2026.", "Itabuna - BA, 28 de outubro de 2026."), "o fecho não é \"Ilhéus - BA\""),
+    ("endereçamento diferente do foro do cálculo", troca(PECA, "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BA", "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ITABUNA - BA"), "o endereçamento não é o do foro"),
+    ("campo do fecho do modelo sobrando", acrescenta(PECA, "[FECHO: `foro.fecho` do calculo.json]"), "campo de modelo"),
     ("FSC9: JEC com pedido de exibição", acrescenta(PECA, "Requer-se, também, a exibição dos documentos acima (arts. 396 a 404 do CPC)."), "FSC9"),
     ("arquivo do mapa alterado", acrescenta("recurso-inominado-consignado-geolocalizacao/scripts/geo_compor.py", "# alteração de teste"), "arquivo do mapa alterado"),
     ("arquivo do mapa ausente", remove("recurso-inominado-consignado-geolocalizacao/assets/mapa/lib/pmtiles.js"), "arquivo do mapa ausente"),
@@ -101,6 +104,7 @@ CASOS = [  # (descrição, mutação, trecho esperado na mensagem de erro)
     ("RMC com juros desde o evento danoso na peça", acrescenta("rmc/testes/caso-ficticio/saida/inicial-rmc.md", "juros de mora desde o evento danoso (Súmula 54 do STJ)"), "no RMC os juros contam da citação"),
     ("ponto do mapa de argumentos sem pedido", troca("replica-consignado/testes/caso-ficticio/saida/mapa-argumentos.json", '"pedidos": [\n      "preliminares"\n    ]', '"pedidos": []'), "sem pedido"),
     ("pedido do mapa ausente da réplica", acrescenta("replica-consignado/testes/caso-ficticio/saida/replica-teste.md", "# Dos pedidos\n\na) a procedência dos pedidos, nos termos da inicial."), "que não está nos pedidos da peça"),
+    ("perícia pedida na inicial", acrescenta(PECA, "Requer-se perícia grafotécnica, com os seguintes quesitos:"), "pedido de perícia ou quesitos na inicial"),
     ("ementa de precedente fora do acervo", acrescenta(PECA, "Conforme a ementa do TRF-4 (AC 5009999-11.2024.4.04.7100/RS):\n\n> 1. O banco responde por qualquer desconto feito em benefício previdenciário sem prova da contratação."), "que não está em references/jurisprudencia"),
 ]
 
@@ -123,7 +127,7 @@ def main():
     for numero, (desc, mut, esperado) in enumerate([("cópia limpa", None, None)] + CASOS):
         if copia.exists():
             shutil.rmtree(copia)
-        shutil.copytree(RAIZ, copia, ignore=shutil.ignore_patterns("_backup", "backup-sincronizacao", "__pycache__", "node_modules"))
+        shutil.copytree(RAIZ, copia, ignore=shutil.ignore_patterns(".git", "_backup", "backup-sincronizacao", "__pycache__", "node_modules"))
         if mut:
             mut(copia)
         codigo, saida = verifica(copia)

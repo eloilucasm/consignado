@@ -6,6 +6,15 @@
   "reu_cadastrado": true,
   "caixa": false,
   "competencia": "Vara Cível da Comarca de Ilhéus/BA (tabela TJBA)",
+  "foro": {
+    "competencia": "Vara Cível da Comarca de Ilhéus/BA (tabela TJBA)",
+    "fecho": "Ilhéus - BA",
+    "enderecamento": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BA",
+    "enderecamento_jec": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BA",
+    "enderecamento_comum": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE ILHÉUS - BA",
+    "conferir": null,
+    "jec_sem_vara_do_sistema": false
+  },
   "cartao": {
     "numero": "90000001",
     "tipo": "RMC",
@@ -97,7 +106,7 @@
     {
       "fsc": 4,
       "status": "PENDENTE_ADVOGADO",
-      "achado": "sem contrato do extrato neste cálculo: tratar o valor liberado pelas faturas ou pelo extrato bancário",
+      "achado": "sem contrato do extrato neste cálculo: tratar o valor sacado pelas faturas do cartão (o extrato bancário não é pedido)",
       "onde_na_peca": "fatos e tabela de documentos"
     },
     {
@@ -133,7 +142,7 @@
     {
       "fsc": 10,
       "status": "PENDENTE_ADVOGADO",
-      "achado": "pedir que o banco identifique o correspondente e junte a trilha completa; registrar a residência do cliente com ID e página para a réplica",
+      "achado": "pedir que o banco identifique o correspondente e junte a trilha completa; registrar o comprovante de residência do cliente para a réplica",
       "onde_na_peca": "tabela de documentos"
     },
     {
@@ -153,7 +162,7 @@
     {
       "vf": 1,
       "status": "PENDENTE_ADVOGADO",
-      "achado": "índice dos documentos do cliente (ID provisório de cada um)"
+      "achado": "lista dos documentos do cliente anexados à inicial (sem ID: o processo ainda não existe)"
     },
     {
       "vf": 2,
@@ -193,7 +202,7 @@
     {
       "vf": 9,
       "status": "PENDENTE_ADVOGADO",
-      "achado": "registrar a residência com ID e página (e coordenada, se houver) para a geolocalização da réplica"
+      "achado": "registrar o comprovante de residência (e coordenada, se houver) para a geolocalização da réplica"
     }
   ],
   "marca": "CÁLCULO A CONFERIR"

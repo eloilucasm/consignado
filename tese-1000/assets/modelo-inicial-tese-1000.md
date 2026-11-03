@@ -10,7 +10,7 @@ Como usar (instruções para quem redige; apague este comentário na peça):
 - Títulos de tópico (#) no formato "Da/Do/Dos…"; subtópicos (##) em frase completa.
 - Citação de lei: texto literal do acervo. Marcas [VERIFICAR ANTES DE PROTOCOLAR] ficam no ponto exato.
 - Não afirme que a prática é "sistêmica", "de massa" ou "reiterada" no banco, nem cite outras ações: o extrato prova este caso, e a afirmação sobre outros casos não tem fonte no acervo.
-- Perguntar ao advogado ANTES de gerar: rito (JEC ou Justiça Comum) e cidade/UF do fecho.
+- Perguntar ao advogado ANTES de gerar: rito (JEC ou Justiça Comum). Juízo e fecho não se perguntam: vêm do `foro` do calculo.json (endereço do autor).
 - Forma, endereçamento, qualificação e pedidos de rotina: assets/padrao-pecas.md (prevalece em caso de conflito).
 -->
 
@@ -46,7 +46,7 @@ A causa é de competência do Juizado Especial Cível (art. 3º, I, da Lei 9.099
 
 A parte autora é beneficiária do INSS, e o benefício previdenciário é a sua única fonte de renda.
 
-Em [DATA DE EMISSÃO], ao analisar o Histórico de Empréstimo Consignado emitido pelo INSS (ID [__], p. [__]), a parte autora tomou conhecimento de contrato com numeração terminada em sufixo ("[SUFIXO]"), nº [DERIVADO], vinculado ao réu, com descontos nas competências de [INÍCIO] a [FIM USADO].
+Em [DATA DE EMISSÃO], ao analisar o Histórico de Empréstimo Consignado emitido pelo INSS, anexo, a parte autora tomou conhecimento de contrato com numeração terminada em sufixo ("[SUFIXO]"), nº [DERIVADO], vinculado ao réu, com descontos nas competências de [INÍCIO] a [FIM USADO].
 
 A análise do histórico mostra que o número-raiz do contrato derivado ([RAIZ]) é o mesmo de contrato anterior atribuído à parte autora, averbado em [AVERBAÇÃO DA RAIZ] e excluído em [EXCLUSÃO DA RAIZ] (motivo registrado: "[MOTIVO DA EXCLUSÃO DA RAIZ]"). [[SE MESMO DIA]] A reinclusão deu-se no próprio dia da exclusão: o extrato registra, em [DATA], a exclusão do contrato-raiz e a averbação do contrato derivado ("[ORIGEM DA AVERBAÇÃO DO DERIVADO]"), sem intervalo entre uma e outra. [[FIM]] [[SE ATÉ 30 DIAS]] A reinclusão deu-se [INTERVALO] dia(s) depois da exclusão do contrato-raiz. [[FIM]] [[SE MAIS DE 30 DIAS]] A reinclusão deu-se [INTERVALO] dias depois da exclusão do contrato-raiz. [[FIM]]
 
@@ -58,17 +58,17 @@ Esta ação tem por objeto exclusivamente o(s) contrato(s) derivado(s), sem disc
 | [contrato-raiz, só para referência; sem valores] | raiz | | | | | | | | |
 | **Total** | | | | | | | [total] | [total em dobro] | |
 
-*Fonte: Histórico de Empréstimo Consignado do INSS, emitido em [DATA DE EMISSÃO] (ID [__], p. [__]). CÁLCULO A CONFERIR.*
+*Fonte: Histórico de Empréstimo Consignado do INSS, emitido em [DATA DE EMISSÃO], anexo. CÁLCULO A CONFERIR.*
 
 Sequência registrada no extrato (figuras geradas por `scripts/diagramas_1000.py` a partir do calculo.json):
 
 ![Figura [N]: Anatomia da reaverbação do contrato nº [DERIVADO]](figuras/fig_anatomia_[N].png)
 
-*Figura [N]: Anatomia da reaverbação do contrato nº [DERIVADO] (número-raiz [RAIZ]). Fonte: Histórico de Empréstimo Consignado do INSS (ID [__], p. [__]). A figura reproduz o extrato e não introduz fato novo.*
+*Figura [N]: Anatomia da reaverbação do contrato nº [DERIVADO] (número-raiz [RAIZ]). Fonte: Histórico de Empréstimo Consignado do INSS, anexo. A figura reproduz o extrato e não introduz fato novo.*
 
 ![Figura [N+1]: Linha do tempo do contrato nº [DERIVADO]](figuras/fig_linha_tempo_[N].png)
 
-*Figura [N+1]: Linha do tempo do contrato nº [DERIVADO], conforme o extrato do INSS (ID [__], p. [__]).*
+*Figura [N+1]: Linha do tempo do contrato nº [DERIVADO], conforme o extrato do INSS anexo.*
 
 [[SE SEM FIGURAS]] Se as figuras não puderem ser geradas (sem Pillow), use a tabela:
 
@@ -88,14 +88,14 @@ Para cada derivado, escrever um parágrafo com os campos do quadro de fatos. Nã
 
 A parte autora não utiliza plataformas digitais de autenticação, não domina mecanismos de verificação biométrica, tokens ou senhas dinâmicas e jamais forneceu sua imagem facial, dados biométricos ou credenciais de acesso.
 
-[[SE CONTRATO ATIVO]] Por cautela, a parte autora informa que, da data desta petição até o trânsito em julgado, o banco poderá continuar descontando valores do benefício, caso não haja provimento que o impeça. Eventuais novas cobranças serão incluídas na liquidação, o que se requer. [[FIM]]
+[[SE CONTRATO ATIVO]] Por oportuno, como medida de precaução, a parte autora informa que, quanto ao(s) contrato(s) derivado(s) ainda ativo(s), da presente data até o trânsito em julgado, o banco réu poderá continuar debitando valores indevidos do benefício da parte autora, caso não haja provimento jurisdicional que o impeça. Dessa forma, eventuais novas cobranças deverão ser incluídas no pedido de restituição em dobro, com oportuna apresentação na liquidação, o que se requer. [[FIM]]
 
 [[SE CRÉDITO EM CONTA]]
-<!-- Entra só quando o extrato bancário da parte autora (pedido antes de ajuizar: VF6, Súmula 42/TJBA) mostra crédito ligado ao contrato. A peça não nega o recebimento: reconhece o lançamento e nega a contratação. O tratamento do valor é decisão do advogado. -->
+<!-- Exceção: entra só quando um documento dos autos (por exemplo, extrato bancário trazido pelo cliente sem pedido) mostra crédito ligado ao contrato. O escritório não pede o extrato bancário; sem documento, o bloco não entra. A peça não nega o recebimento: reconhece o lançamento e nega a contratação. O tratamento do valor é decisão do advogado. -->
 
 ## O crédito que aparece na conta da parte autora não prova a contratação
 
-O extrato bancário da parte autora (ID [__], p. [__]) registra, em [DATA DO CRÉDITO], crédito de [VALOR CREDITADO] [DESCREVER: histórico do lançamento, como consta do extrato bancário]. A parte autora não omite esse lançamento. Ele não prova, porém, quem contratou: o depósito é feito pela própria instituição financeira, por iniciativa dela, e não contém manifestação de vontade do titular da conta. A existência do negócio continua a depender do instrumento e da trilha de contratação, que só o banco detém (art. 373, II, do CPC).
+O extrato bancário da parte autora, anexo, registra, em [DATA DO CRÉDITO], crédito de [VALOR CREDITADO] [DESCREVER: histórico do lançamento, como consta do extrato bancário]. A parte autora não omite esse lançamento. Ele não prova, porém, quem contratou: o depósito é feito pela própria instituição financeira, por iniciativa dela, e não contém manifestação de vontade do titular da conta. A existência do negócio continua a depender do instrumento e da trilha de contratação, que só o banco detém (art. 373, II, do CPC).
 
 [DECISÃO DO ADVOGADO: devolução, depósito em juízo ou compensação] A parte autora põe o valor recebido à disposição do juízo, para [devolução ao réu depois de declarada a inexistência | depósito em juízo, à disposição do réu | compensação com a restituição material]. Em nenhuma hipótese o valor se compensa com a indenização extrapatrimonial, que tem causa e função distintas.
 [[FIM]]
@@ -187,7 +187,7 @@ A orientação de que o desconto indevido em benefício de pessoa idosa extrapol
 
 Por cautela, afasta-se desde logo a alegação de prescrição. A pretensão não decorre de defeito de serviço contratado, mas da cobrança de valores sem lastro contratual, por averbações que a parte autora jamais autorizou. A Corte Especial do STJ decidiu, em caso de cobrança de serviços não contratados de telefonia fixa, que a repetição de indébito prescreve em dez anos, pelo art. 205 do Código Civil, e não em três (EAREsp 738.991/RS, Rel. Min. Og Fernandes, j. 20/02/2019, DJe 11/06/2019; julgado de telefonia fixa, aplicado ao consignado por analogia).² Além disso, a declaração de inexistência da relação jurídica não está sujeita a prazo prescricional: o negócio nulo não convalesce pelo decurso do tempo (art. 169 do CC).
 
-Subsidiariamente, ainda que se aplicasse o prazo quinquenal do art. 27 do CDC, ele só começa a correr do conhecimento do dano e de sua autoria. [[SE CIÊNCIA INFORMADA]] A parte autora só soube da origem dos descontos em [DATA DA CIÊNCIA], pelo Histórico de Empréstimo Consignado emitido em [DATA DE EMISSÃO]. [[FIM]] Sustenta-se, portanto, o prazo decenal do art. 205 do Código Civil (decisão do escritório). [DECISÃO DO ADVOGADO: termo inicial do prazo]
+Subsidiariamente, ainda que se aplicasse o prazo quinquenal do art. 27 do CDC, ele só começa a correr do conhecimento do dano e de sua autoria. [[SE CIÊNCIA INFORMADA]] A parte autora só soube da origem dos descontos em [DATA DA CIÊNCIA], pelo Histórico de Empréstimo Consignado emitido em [DATA DE EMISSÃO]. [[FIM]] Sustenta-se, portanto, o prazo decenal do art. 205 do Código Civil.
 
 ² BRASIL. Superior Tribunal de Justiça. Corte Especial. Embargos de Divergência em Agravo em Recurso Especial n. 738.991/RS. Relator: Ministro Og Fernandes. Julgado em: 20 fev. 2019. Publicado no DJe em: 11 jun. 2019.
 [[FIM]]
@@ -218,15 +218,11 @@ A verossimilhança está no próprio extrato: o mesmo número-raiz, a exclusão 
 | Registro do motivo da exclusão do contrato-raiz e da razão da averbação do derivado | Art. 373, II, do CPC | Mesma consequência |
 
 [[SE JUSTIÇA COMUM]]
-## A exibição dos documentos e a perícia são necessárias
+## A exibição dos documentos é necessária
 
 Requer-se, também, a exibição dos documentos acima (arts. 396 a 404 do CPC) no prazo do art. 398, com as consequências do art. 400.
 
-Havendo [[SE ASSINATURA MANUSCRITA]] assinatura manuscrita impugnada, requer-se perícia grafotécnica [[SE TRILHA ELETRÔNICA]] trilha eletrônica de contratação, requer-se perícia em informática forense [[FIM]], com os seguintes quesitos [QUESITOS A VALIDAR PELO ADVOGADO; propostos abaixo]:
-
-1. A assinatura aposta no instrumento do derivado (ID [__]) procede do punho da parte autora, confrontada com os padrões indicados (documento de identidade, procuração)?
-2. Há elementos de imitação, decalque ou montagem na assinatura questionada?
-3. [Trilha eletrônica] Os registros de IP, dispositivo e localização do aceite (ID [__]) são compatíveis com o local de residência da parte autora?
+A parte autora não requer, nesta fase, prova pericial: o ônus de provar a autenticidade da contratação é do réu (art. 429, II, do CPC). A necessidade de perícia será examinada na réplica, à vista dos documentos que o réu juntar com a contestação.
 [[FIM]]
 
 [[SE JEC]] Nos Juizados Especiais não se pede perícia nem exibição autônoma: a juntada dos documentos acima decorre do ônus do banco, e a omissão é valorada contra ele. [[FIM]]
@@ -282,7 +278,7 @@ A parte autora não pretende alterar o campo "Origem da Exclusão". Pretende ape
 | 3 | Libera a margem consignável de forma documentada | CDC, art. 6º, VI |
 | 4 | Impede que a baixa seja revertida por lançamento posterior | CPC, art. 497; CC, art. 422 |
 | 5 | Corrige dado pessoal incompleto de base oficial | LGPD, art. 18, III |
-| 6 | Alinha-se à transparência exigida dos operadores do sistema consignado | IN 138/2022 [CONFERIR: o modelo anterior citava também o Acórdão TCU 1.094/2026, fora do acervo] |
+| 6 | Alinha-se à transparência exigida dos operadores do sistema consignado | IN 138/2022; Acórdão 1.094/2026-TCU-Plenário, que mandou verificar travas que condicionem a averbação à "manifestação inequívoca da vontade do segurado" (item 9.3.2) |
 
 [[SE HÁ ATIVO E EXCLUÍDO]] Quanto aos contratos já excluídos, a exclusão já ocorreu e o campo permanece vazio, de modo que o provimento consiste na simples complementação do registro histórico. Quanto ao(s) contrato(s) ainda ativo(s), a providência será cumprida no momento da baixa determinada por este Juízo. [[FIM]] [[SE SÓ ATIVO]] Tratando-se de contrato ainda ativo, o preenchimento dar-se-á no momento da baixa determinada por este Juízo. [[FIM]] [[SE SÓ EXCLUÍDO]] Tratando-se de contratos já excluídos, a exclusão já ocorreu e o campo permanece vazio, de modo que o provimento consiste na simples complementação do registro histórico. [[FIM]]
 
@@ -295,7 +291,7 @@ A probabilidade do direito resulta da negativa específica de contratação, da 
 
 Não há perigo de irreversibilidade (art. 300, § 3º, do CPC): a suspensão dos descontos pode ser revertida se o banco comprovar a contratação.
 
-Requer-se a antecipação dos efeitos da tutela para que o banco se abstenha de realizar novos descontos no benefício referentes ao(s) contrato(s) nº [CONTRATOS ATIVOS], sob pena de multa diária a ser fixada por este Juízo.
+Requer-se a antecipação dos efeitos da tutela para que o banco se abstenha de realizar novos descontos no benefício referentes ao(s) contrato(s) nº [CONTRATOS ATIVOS], sob pena de multa diária de R$ 500,00 (quinhentos reais), nos termos dos arts. 297 e 537 do CPC, sem prejuízo de sua majoração caso se mostre insuficiente (art. 537, § 1º, I, do CPC) e da restituição em dobro de cada desconto realizado após a intimação.
 [[FIM]]
 
 # Das provas
@@ -312,9 +308,9 @@ b) a prioridade de tramitação [[SE IDADE ≥ 60]] (art. 1.048, I, do CPC; art.
 
 c) a citação do réu para que apresente contestação no prazo legal, sob pena de revelia, manifestando a parte autora interesse na audiência de conciliação;
 
-[[SE TUTELA]] d) a antecipação dos efeitos da tutela, nos termos do tópico próprio, para que o réu se abstenha de novos descontos referentes ao(s) contrato(s) derivado(s) nº [DERIVADOS ATIVOS]; [[FIM]]
+[[SE TUTELA]] d) a antecipação dos efeitos da tutela, nos termos do tópico próprio, para que o réu se abstenha de novos descontos referentes ao(s) contrato(s) derivado(s) nº [DERIVADOS ATIVOS], sob pena de multa diária de R$ 500,00 (arts. 297 e 537 do CPC); [[FIM]]
 
-e) a inversão do ônus da prova, com o encargo de o réu juntar, com a contestação, os documentos do tópico [REMISSÃO: tópico da inversão do ônus]; [[SE JUSTIÇA COMUM]] a exibição desses documentos e a perícia [grafotécnica / em informática forense] com os quesitos do tópico [REMISSÃO]; [[FIM]]
+e) a inversão do ônus da prova, com o encargo de o réu juntar, com a contestação, os documentos do tópico [REMISSÃO: tópico da inversão do ônus]; [[SE JUSTIÇA COMUM]] a exibição desses documentos (arts. 396 a 404 do CPC); [[FIM]]
 
 f) a apreciação expressa de cada precedente evocado, nos termos do art. 489, § 1º, VI, do CPC;
 
@@ -326,7 +322,7 @@ g) a procedência dos pedidos, confirmada a tutela ou concedida em sentença, pa
 4. o réu seja condenado à obrigação de fazer de preencher, no sistema eConsignado/DATAPREV, o campo "Motivo da Exclusão", hoje em branco, com a expressão "Por força de decisão judicial", mantido inalterado o campo "Origem da Exclusão", em 10 (dez) dias úteis, sob pena de multa diária de R$ 500,00, nos termos dos arts. 497 e 537 do CPC [[SE HÁ ATIVO]], providência que, quanto a derivado ativo, será cumprida no momento da baixa [[FIM]];
 5. o réu seja condenado a restituir em dobro os valores descontados, no total atual de [TOTAL DO DOBRO POR EXTENSO], assim discriminados: [uma linha por derivado com o dobro por extenso]. Correção monetária desde a data de cada desconto (Súmula 43 do STJ) e juros moratórios a contar do evento danoso (Súmula 54 do STJ). Requer-se que os descontos posteriores a esta petição, até o trânsito em julgado, sejam apurados na liquidação;
 6. o réu seja condenado ao pagamento de indenização por danos extrapatrimoniais de **R$ 20.000,00 (vinte mil reais)**, com correção monetária desde o arbitramento (Súmula 362 do STJ) e juros de mora desde o evento danoso (Súmula 54 do STJ);
-7. seja vedada a compensação entre eventual valor comprovadamente creditado à parte autora e a indenização por dano extrapatrimonial, que tem causa e função distintas, restringindo-se eventual acerto à restituição (art. 182 do CC);[[SE CRÉDITO EM CONTA]] quanto ao valor de [VALOR CREDITADO] creditado em [DATA DO CRÉDITO] (ID [__], p. [__]), requer-se [DECISÃO DO ADVOGADO: devolução, depósito em juízo ou compensação] [a sua devolução ao réu depois de declarada a inexistência | a autorização para depositá-lo em juízo | a sua compensação com a restituição material];[[FIM]]
+7. seja vedada a compensação entre eventual valor comprovadamente creditado à parte autora e a indenização por dano extrapatrimonial, que tem causa e função distintas, restringindo-se eventual acerto à restituição (art. 182 do CC);[[SE CRÉDITO EM CONTA]] quanto ao valor de [VALOR CREDITADO] creditado em [DATA DO CRÉDITO] (extrato bancário anexo), requer-se [DECISÃO DO ADVOGADO: devolução, depósito em juízo ou compensação] [a sua devolução ao réu depois de declarada a inexistência | a autorização para depositá-lo em juízo | a sua compensação com a restituição material];[[FIM]]
 
 [[SE JUSTIÇA COMUM]] h) a condenação do réu ao pagamento das custas e dos honorários advocatícios de sucumbência (art. 85 do CPC); [[FIM]]
 [[SE JEC]] (Sem pedido de custas e honorários: a sentença de primeiro grau não condena o vencido, salvo litigância de má-fé — art. 55 da Lei 9.099/95.) [[FIM]]
@@ -335,11 +331,11 @@ Requer, ainda, que todas as intimações e publicações sejam feitas exclusivam
 
 # Do valor da causa
 
-Dá-se à causa o valor de [VALOR DA CAUSA POR EXTENSO], correspondente à restituição em dobro ([TOTAL DO DOBRO]) e ao dano extrapatrimonial (R$ 20.000,00) (art. 292 do CPC). *CÁLCULO A CONFERIR.* [[SE CAIXA]] Valor real, sem renúncia a teto. [[FIM]]
+Dá-se à causa o valor de [VALOR DA CAUSA POR EXTENSO], correspondente à soma da restituição em dobro ([TOTAL DO DOBRO]) [[SE HÁ ATIVO]], do dano extrapatrimonial (R$ 20.000,00) e do proveito econômico declaratório, equivalente às parcelas vincendas dos contratos ativos ([VINCENDAS]) [[SE SÓ EXCLUÍDO]] e do dano extrapatrimonial (R$ 20.000,00) [[FIM]] (art. 292, II e VI, do CPC). *CÁLCULO A CONFERIR.* [[SE CAIXA]] Valor real, sem renúncia a teto. [[FIM]]
 
 Termos em que, pede deferimento.
 
-[CIDADE DO FECHO, perguntada ao advogado] - [UF], [dd] de [mês por extenso] de [aaaa].
+[FECHO: `foro.fecho` do calculo.json, por exemplo Ilhéus - BA], [dd] de [mês por extenso] de [aaaa].
 
 
 DIEGO RAMOS ARLÉO BARBOSA

@@ -91,4 +91,4 @@ Divergências de qualificação ou de digitação no termo (RG em branco, contra
   - benefício diferente: dizer a qual benefício e a qual NB a ação se refere e citar o(s) NB do(s) outro(s);
   - mesmo benefício, tese diferente (ex.: não contratado × Tese 1000): dizer que são contratos e teses diferentes.
 - Benefício com extrato e sem análise: avisar. A análise é feita pelo processo normal do escritório; não classifique por conta própria.
-- A ficha não fixa rito nem cidade do fecho: a skill de inicial pergunta ao advogado.
+- A ficha não fixa o rito (a skill de inicial pergunta ao advogado). A comarca ou subseção da ficha define o endereçamento e a cidade do fecho, sem pergunta.
