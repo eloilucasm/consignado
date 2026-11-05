@@ -5,7 +5,8 @@ A figura é desenhada no tamanho em que entra na peça: largura útil da página
 a 300 dpi. Os tamanhos de fonte são em pt no papel; o menor é 9 pt (corpo da peça: 12 pt). A altura acompanha o conteúdo.
 
 Blocos: cabecalho, caixas (lado a lado, com número e sufixo destacado), seta, faixa (destaque em largura total), linha_tempo
-(marcos com espaço igual e o tempo entre eles escrito), rodape. Uso típico:
+(marcos com espaço igual e o tempo entre eles escrito), grafico (linha mês a mês, com referências e marcos numerados fora
+da área), legenda, documento (recorte de documento, sem nada escrito por cima), frase, rodape. Uso típico:
 
     import figuras as fg
     im, dr = fg.tela()
@@ -105,6 +106,16 @@ def parcelas(n):
     return f"{n} parcela" if n == 1 else f"{n} parcelas"
 
 
+def plural(n, um, varios):
+    """'1 desconto', '11 descontos'."""
+    return f"{n} {um if abs(n) == 1 else varios}"
+
+
+def brl_inteiro(v):
+    """Valor sem centavos, para eixo de gráfico: 'R$ 2.000'."""
+    return "R$ " + f"{round(v):,}".replace(",", ".")
+
+
 def entre_datas(a, b, competencia=False):
     """Tempo entre duas datas: dias até 60; depois, anos e meses. competencia=True compara só mês e ano."""
     if competencia:
@@ -157,8 +168,8 @@ def centrado(dr, xc, y, txt, f, cor, maxw):
 
 # ---------- tela ----------
 
-def tela():
-    im = Image.new("RGB", (LARG, 4000), FUNDO)  # recortada no fim, pela altura do conteúdo
+def tela(altura=4000):
+    im = Image.new("RGB", (LARG, altura), FUNDO)  # recortada no fim, pela altura do conteúdo
     return im, ImageDraw.Draw(im)
 
 
@@ -290,6 +301,136 @@ def linha_tempo(dr, y, marcos, trechos):
         yy = centrado(dr, x, yb, rot, f1, cor, mw)
         fundo = max(fundo, centrado(dr, x, yy, txt or "—", f2, TEXTO, mw))
     return fundo
+
+
+def _tracejado(dr, x1, y1, x2, y2, cor, w, passo=None):
+    passo = passo or P(4)
+    comp = max(abs(x2 - x1), abs(y2 - y1)) or 1
+    k = 0.0
+    while k < comp:
+        a, b = k / comp, min(k + passo, comp) / comp
+        dr.line([x1 + (x2 - x1) * a, y1 + (y2 - y1) * a, x1 + (x2 - x1) * b, y1 + (y2 - y1) * b], fill=cor, width=w)
+        k += 2 * passo
+
+
+def _passo_eixo(vmax, n_max=6):
+    """Passo 'redondo' (1, 2, 2,5 ou 5 x 10^k) com no máximo n_max divisões até vmax."""
+    base = 1
+    while True:
+        for m in (1, 2, 2.5, 5):
+            if vmax / (m * base) <= n_max:
+                return m * base
+        base *= 10
+
+
+def grafico(dr, y, pontos, rotulo_x, horizontais=(), verticais=(), destaque_desde=None, rotulo_y=None, altura_pt=150):
+    """Gráfico de linha em largura total (ex.: acumulado pago mês a mês). Nada vai escrito dentro da área do gráfico.
+
+    pontos:         [(x inteiro, valor)] em ordem; x que falta na sequência é ausência e quebra a linha (não interpola)
+    rotulo_x(x):    texto do eixo horizontal (ex.: competência "01/2024"); o passo é o menor que não sobrepõe rótulos
+    horizontais:    [(valor, rótulo, cor)] linha tracejada de referência; o rótulo vai à direita, fora da área
+    verticais:      [(x, cor)] marco numerado 1, 2... numa faixa acima da área (explique-o numa legenda())
+    destaque_desde: x a partir do qual o fundo fica em vermelho-claro (período que a figura quer provar)
+    Devolve o y seguinte.
+    """
+    rotulo_y = rotulo_y or brl_inteiro
+    f, fn, r = F("rotulo"), F("marco", True), P(8)
+    vals = [v for _, v in pontos if v is not None] + [v for v, _, _ in horizontais]
+    passo = _passo_eixo(max(vals or [1]) * 1.08)
+    ticks = [passo * i for i in range(int(max(vals or [1]) * 1.08 / passo) + 2)]
+    vmax = ticks[-1]
+    esq = max(larg(dr, rotulo_y(t), f) for t in ticks) + P(5)
+    dir_ = max([larg(dr, rot, F("rotulo", True)) for _, rot, _ in horizontais] or [0]) + P(5)
+    x0, x1 = M + esq, LARG - M - dir_
+    topo = y + (2 * r + P(6) if verticais else alt(f) // 2)
+    base = topo + P(altura_pt)
+    xs = [x for x, _ in pontos]
+    xmin, xmax = min(xs), max(xs)
+    cw = (x1 - x0) / (xmax - xmin + 1)
+    px = lambda x: x0 + (x - xmin + 0.5) * cw  # noqa: E731
+    py = lambda v: base - (v / vmax) * (base - topo)  # noqa: E731
+    if destaque_desde is not None:
+        dr.rectangle([px(destaque_desde) - cw / 2, topo, x1, base], fill=VERMELHO_CLARO)
+    for t in ticks:  # grade e rótulos do eixo vertical
+        yy = py(t)
+        dr.line([x0, yy, x1, yy], fill="#E3E6EB", width=2)
+        dr.text((x0 - P(5), yy), rotulo_y(t), font=f, fill=CINZA, anchor="rm")
+    dr.line([x0, base, x1, base], fill=CINZA, width=3)
+    dr.line([x0, topo, x0, base], fill=CINZA, width=3)
+    lw = max(larg(dr, rotulo_x(x), f) for x in range(xmin, xmax + 1)) + P(8)  # eixo horizontal
+    k = next((s for s in (1, 2, 3, 6, 12, 24, 36, 60, 120) if s * cw >= lw), 120)
+    for x in range(xmin, xmax + 1):
+        if x % k == 0 and px(x) - lw / 2 >= x0 - esq and px(x) + lw / 2 <= LARG - M:
+            dr.line([px(x), base, px(x), base + P(2)], fill=CINZA, width=3)
+            dr.text((px(x), base + P(3)), rotulo_x(x), font=f, fill=TEXTO, anchor="ma")
+    rot_h = []  # referências horizontais, com o rótulo à direita sem sobrepor outro
+    for v, rot, cor in sorted(horizontais, key=lambda h: -h[0]):
+        yy = py(v)
+        _tracejado(dr, x0, yy, x1, yy, cor, 4)
+        yl = max(yy, rot_h[-1] + alt(f)) if rot_h else yy
+        rot_h.append(yl)
+        dr.text((x1 + P(4), yl), rot, font=F("rotulo", True), fill=cor, anchor="lm")
+    trecho = []  # série: quebra onde falta x
+    for x, v in pontos + [(None, None)]:
+        if x is not None and v is not None and (not trecho or x == trecho[-1][0] + 1):
+            trecho.append((x, v))
+            continue
+        if len(trecho) > 1:
+            dr.line([(px(a), py(b)) for a, b in trecho], fill=AZUL, width=P(1.2), joint="curve")
+        trecho = [(x, v)] if x is not None and v is not None else []
+    serie = dict(pontos)
+    cx_ant = None
+    for i, (x, cor) in enumerate(sorted(verticais)):  # marcos numerados, afastados se muito próximos
+        cx = px(x) if cx_ant is None else max(px(x), cx_ant + 2 * r + P(3))
+        cx = min(cx, x1 - r)
+        cx_ant = cx
+        cy = y + r + P(1)
+        _tracejado(dr, px(x), topo, px(x), base, cor, 4, P(3))
+        if abs(cx - px(x)) > 1:
+            dr.line([cx, cy + r, px(x), topo], fill=cor, width=3)
+        dr.ellipse([cx - r, cy - r, cx + r, cy + r], fill=cor, outline="#FFFFFF", width=3)
+        dr.text((cx, cy), str(i + 1), font=fn, fill="#FFFFFF", anchor="mm")
+        if serie.get(x) is not None:
+            yy, d = py(serie[x]), P(3)
+            dr.ellipse([px(x) - d, yy - d, px(x) + d, yy + d], fill=cor, outline="#FFFFFF", width=3)
+    return base + P(3) + alt(f)
+
+
+def legenda(dr, y, itens):
+    """Legenda, um item por linha. itens: [(marcador, cor, texto)]; marcador = número do marco, "linha", "tracejado",
+    "area" ou None (nota sem marcador). Devolve o y seguinte."""
+    f, fn, r = F("texto"), F("marco", True), P(4.5)  # marcador menor que a entrelinha: itens não se encostam
+    xt = M + 2 * r + P(6)
+    for marc, cor, txt in itens:
+        cy = y + alt(f) // 2
+        if isinstance(marc, int):
+            dr.ellipse([M, cy - r, M + 2 * r, cy + r], fill=cor)
+            dr.text((M + r, cy), str(marc), font=fn, fill="#FFFFFF", anchor="mm")
+        elif marc == "linha":
+            dr.line([M, cy, M + 2 * r, cy], fill=cor, width=P(1.2))
+        elif marc == "tracejado":
+            _tracejado(dr, M, cy, M + 2 * r, cy, cor, 4, P(2))
+        elif marc == "area":
+            dr.rectangle([M, cy - r, M + 2 * r, cy + r], fill=VERMELHO_CLARO if cor == VERMELHO else AZUL_CLARO, outline=cor, width=2)
+        y = texto(dr, xt, y, txt, f, TEXTO, LARG - M - xt)
+    return y
+
+
+def documento(im, dr, y, recorte, destaques=()):
+    """Recorte de documento (imagem PIL) em largura total, com fio cinza em volta.
+
+    O recorte só reproduz o documento: nada é escrito sobre ele. destaques = [(x0, y0, x1, y1)] em px do recorte: no máximo
+    um contorno discreto, em vermelho, em volta da linha que a figura quer provar (entre as linhas, sem cobrir texto).
+    Devolve o y seguinte.
+    """
+    w = LARG - 2 * M
+    if recorte.width != w:
+        recorte = recorte.resize((w, round(recorte.height * w / recorte.width)), Image.LANCZOS)
+    im.paste(recorte, (M, y))
+    dr.rectangle([M - 2, y - 2, M + w + 1, y + recorte.height + 1], outline="#D5D9E0", width=2)
+    for a, b, c, d in destaques:
+        dr.rectangle([M + a, y + b, M + c, y + d], outline=VERMELHO, width=4)
+    return y + recorte.height
 
 
 def frase(dr, y, txt, cor=AZUL):

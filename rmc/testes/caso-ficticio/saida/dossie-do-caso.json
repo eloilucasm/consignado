@@ -80,6 +80,326 @@
     ],
     "fontes_extra": [],
     "n_competencias": 53,
+    "planilha": [
+      {
+        "competencia": "04/2022",
+        "desconto": 50.0,
+        "acumulado": 50.0,
+        "pct": 5.0
+      },
+      {
+        "competencia": "05/2022",
+        "desconto": 50.0,
+        "acumulado": 100.0,
+        "pct": 10.0
+      },
+      {
+        "competencia": "06/2022",
+        "desconto": 50.0,
+        "acumulado": 150.0,
+        "pct": 15.0
+      },
+      {
+        "competencia": "07/2022",
+        "desconto": 50.0,
+        "acumulado": 200.0,
+        "pct": 20.0
+      },
+      {
+        "competencia": "08/2022",
+        "desconto": 50.0,
+        "acumulado": 250.0,
+        "pct": 25.0
+      },
+      {
+        "competencia": "09/2022",
+        "desconto": 50.0,
+        "acumulado": 300.0,
+        "pct": 30.0
+      },
+      {
+        "competencia": "10/2022",
+        "desconto": 50.0,
+        "acumulado": 350.0,
+        "pct": 35.0
+      },
+      {
+        "competencia": "11/2022",
+        "desconto": 50.0,
+        "acumulado": 400.0,
+        "pct": 40.0
+      },
+      {
+        "competencia": "12/2022",
+        "desconto": 50.0,
+        "acumulado": 450.0,
+        "pct": 45.0
+      },
+      {
+        "competencia": "01/2023",
+        "desconto": 50.0,
+        "acumulado": 500.0,
+        "pct": 50.0
+      },
+      {
+        "competencia": "02/2023",
+        "desconto": 50.0,
+        "acumulado": 550.0,
+        "pct": 55.0
+      },
+      {
+        "competencia": "03/2023",
+        "desconto": 50.0,
+        "acumulado": 600.0,
+        "pct": 60.0
+      },
+      {
+        "competencia": "04/2023",
+        "desconto": 50.0,
+        "acumulado": 650.0,
+        "pct": 65.0
+      },
+      {
+        "competencia": "05/2023",
+        "desconto": 50.0,
+        "acumulado": 700.0,
+        "pct": 70.0
+      },
+      {
+        "competencia": "06/2023",
+        "desconto": 50.0,
+        "acumulado": 750.0,
+        "pct": 75.0
+      },
+      {
+        "competencia": "07/2023",
+        "desconto": 50.0,
+        "acumulado": 800.0,
+        "pct": 80.0
+      },
+      {
+        "competencia": "08/2023",
+        "desconto": 50.0,
+        "acumulado": 850.0,
+        "pct": 85.0
+      },
+      {
+        "competencia": "09/2023",
+        "desconto": 50.0,
+        "acumulado": 900.0,
+        "pct": 90.0
+      },
+      {
+        "competencia": "10/2023",
+        "desconto": 50.0,
+        "acumulado": 950.0,
+        "pct": 95.0
+      },
+      {
+        "competencia": "11/2023",
+        "desconto": 50.0,
+        "acumulado": 1000.0,
+        "pct": 100.0
+      },
+      {
+        "competencia": "12/2023",
+        "desconto": 50.0,
+        "acumulado": 1050.0,
+        "pct": 105.0
+      },
+      {
+        "competencia": "01/2024",
+        "desconto": 50.0,
+        "acumulado": 1100.0,
+        "pct": 110.0
+      },
+      {
+        "competencia": "02/2024",
+        "desconto": 50.0,
+        "acumulado": 1150.0,
+        "pct": 115.0
+      },
+      {
+        "competencia": "03/2024",
+        "desconto": 50.0,
+        "acumulado": 1200.0,
+        "pct": 120.0
+      },
+      {
+        "competencia": "04/2024",
+        "desconto": 50.0,
+        "acumulado": 1250.0,
+        "pct": 125.0
+      },
+      {
+        "competencia": "05/2024",
+        "desconto": 50.0,
+        "acumulado": 1300.0,
+        "pct": 130.0
+      },
+      {
+        "competencia": "07/2024",
+        "desconto": 50.0,
+        "acumulado": 1350.0,
+        "pct": 135.0
+      },
+      {
+        "competencia": "08/2024",
+        "desconto": 50.0,
+        "acumulado": 1400.0,
+        "pct": 140.0
+      },
+      {
+        "competencia": "09/2024",
+        "desconto": 50.0,
+        "acumulado": 1450.0,
+        "pct": 145.0
+      },
+      {
+        "competencia": "10/2024",
+        "desconto": 50.0,
+        "acumulado": 1500.0,
+        "pct": 150.0
+      },
+      {
+        "competencia": "11/2024",
+        "desconto": 50.0,
+        "acumulado": 1550.0,
+        "pct": 155.0
+      },
+      {
+        "competencia": "12/2024",
+        "desconto": 50.0,
+        "acumulado": 1600.0,
+        "pct": 160.0
+      },
+      {
+        "competencia": "01/2025",
+        "desconto": 50.0,
+        "acumulado": 1650.0,
+        "pct": 165.0
+      },
+      {
+        "competencia": "02/2025",
+        "desconto": 50.0,
+        "acumulado": 1700.0,
+        "pct": 170.0
+      },
+      {
+        "competencia": "03/2025",
+        "desconto": 50.0,
+        "acumulado": 1750.0,
+        "pct": 175.0
+      },
+      {
+        "competencia": "04/2025",
+        "desconto": 50.0,
+        "acumulado": 1800.0,
+        "pct": 180.0
+      },
+      {
+        "competencia": "05/2025",
+        "desconto": 50.0,
+        "acumulado": 1850.0,
+        "pct": 185.0
+      },
+      {
+        "competencia": "06/2025",
+        "desconto": 50.0,
+        "acumulado": 1900.0,
+        "pct": 190.0
+      },
+      {
+        "competencia": "07/2025",
+        "desconto": 50.0,
+        "acumulado": 1950.0,
+        "pct": 195.0
+      },
+      {
+        "competencia": "08/2025",
+        "desconto": 50.0,
+        "acumulado": 2000.0,
+        "pct": 200.0
+      },
+      {
+        "competencia": "09/2025",
+        "desconto": 50.0,
+        "acumulado": 2050.0,
+        "pct": 205.0
+      },
+      {
+        "competencia": "10/2025",
+        "desconto": 50.0,
+        "acumulado": 2100.0,
+        "pct": 210.0
+      },
+      {
+        "competencia": "11/2025",
+        "desconto": 55.0,
+        "acumulado": 2155.0,
+        "pct": 215.5
+      },
+      {
+        "competencia": "12/2025",
+        "desconto": 55.0,
+        "acumulado": 2210.0,
+        "pct": 221.0
+      },
+      {
+        "competencia": "01/2026",
+        "desconto": 55.0,
+        "acumulado": 2265.0,
+        "pct": 226.5
+      },
+      {
+        "competencia": "02/2026",
+        "desconto": 55.0,
+        "acumulado": 2320.0,
+        "pct": 232.0
+      },
+      {
+        "competencia": "03/2026",
+        "desconto": 55.0,
+        "acumulado": 2375.0,
+        "pct": 237.5
+      },
+      {
+        "competencia": "04/2026",
+        "desconto": 55.0,
+        "acumulado": 2430.0,
+        "pct": 243.0
+      },
+      {
+        "competencia": "05/2026",
+        "desconto": 55.0,
+        "acumulado": 2485.0,
+        "pct": 248.5
+      },
+      {
+        "competencia": "06/2026",
+        "desconto": 55.0,
+        "acumulado": 2540.0,
+        "pct": 254.0
+      },
+      {
+        "competencia": "07/2026",
+        "desconto": 55.0,
+        "acumulado": 2595.0,
+        "pct": 259.5
+      },
+      {
+        "competencia": "08/2026",
+        "desconto": 55.0,
+        "acumulado": 2650.0,
+        "pct": 265.0
+      },
+      {
+        "competencia": "09/2026",
+        "desconto": 55.0,
+        "acumulado": 2705.0,
+        "pct": 270.5
+      }
+    ],
     "bloqueios_juridicos": [],
     "pode_gerar": true,
     "alertas": [

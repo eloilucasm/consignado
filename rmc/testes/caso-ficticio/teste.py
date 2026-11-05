@@ -2,10 +2,11 @@
 """teste.py - regressão do caso fictício da skill rmc.
 
 Gera o extrato fictício em PDF, calcula com scripts/calcular_rmc.py e confere os números esperados (conta feita à mão).
-Também confere que a variante "antigo" (refinanciamento em 11/2022) sai com o alerta B2, sem bloqueio.
+Também confere que a variante "antigo" (refinanciamento em 11/2022) sai com o alerta B2, sem bloqueio, e gera as figuras
+(scripts/diagramas_rmc.py): recortes do extrato, gráfico do acumulado e linha do tempo, com 17 cm a 300 dpi.
 Sai com código 0 se tudo bate.
 
-Uso:  python3 teste.py          (requer: pip install pypdf)
+Uso:  python3 teste.py          (requer: pip install pypdf; para as figuras, pillow e pymupdf)
 """
 import json
 import subprocess
@@ -36,11 +37,59 @@ def calcula(tmp, variante):
     return c
 
 
+FIGURAS = {  # nome: (tipo, faixa de altura em px); largura sempre 2008 px (17 cm a 300 dpi)
+    "fig_extrato_cartao.png": ("recorte", (500, 1200)),
+    "fig_extrato_refinanciamento.png": ("recorte", (900, 2200)),
+    "fig_acumulado.png": ("grafico", (1200, 2200)),
+    "fig_linha_tempo.png": ("linha_tempo", (600, 1300)),
+}
+
+
+def figuras(tmp):
+    """Gera as figuras do caso fictício (recortes do extrato, gráfico e linha do tempo) e confere tamanho e legendas."""
+    try:
+        from PIL import Image
+    except ImportError:
+        print("AVISO: Pillow ausente; figuras não testadas")
+        return []
+    erros = []
+    fig = Path(tmp) / "fig"
+    saida = roda(RAIZ / "scripts/diagramas_rmc.py", "--calculo", Path(tmp) / "atual" / "calculo.json",
+                 "--extrato", Path(tmp) / "extrato-atual.pdf", "--saida", fig)
+    if "PyMuPDF ausente" in saida:
+        print("AVISO: PyMuPDF ausente; recortes do extrato não testados")
+    j = json.loads((fig / "figuras.json").read_text(encoding="utf-8"))
+    por_nome = {f["arquivo"]: f for f in j["figuras"]}
+    for nome, (tipo, (hmin, hmax)) in FIGURAS.items():
+        if tipo == "recorte" and "PyMuPDF ausente" in saida:
+            continue
+        f = fig / nome
+        tam, dpi = (0, 0), 0
+        if f.exists():
+            with Image.open(f) as im:  # com 'with': no Windows o arquivo aberto trava a limpeza da pasta temporária
+                tam, dpi = im.size, round(im.info.get("dpi", (0,))[0])
+        if tam[0] != 2008 or dpi != 300 or not hmin < tam[1] < hmax:
+            erros.append(f"figura {nome}: {tam[0]} x {tam[1]} px a {dpi} dpi (esperado 2008 px de largura, 300 dpi, "
+                         f"altura entre {hmin} e {hmax})")
+        x = por_nome.get(nome)
+        if not x or x["tipo"] != tipo or not x["legenda"].startswith(f"Figura {x['numero']}: "):
+            erros.append(f"figuras.json sem a figura {nome} ou com legenda fora do padrão")
+    if j["avisos"] and "PyMuPDF ausente" not in saida:
+        erros.append(f"figuras com aviso no caso fictício: {j['avisos']}")
+    if [f["numero"] for f in j["figuras"]] != list(range(1, len(j["figuras"]) + 1)):
+        erros.append("figuras.json com numeração fora de ordem")
+    leg = " ".join(f["legenda"] for f in j["figuras"])
+    if "11/2025" not in leg or "08/2025" not in leg:
+        erros.append("legendas sem a competência do refinanciamento (11/2025) ou do marco (08/2025)")
+    return erros
+
+
 def main():
     erros = []
     with tempfile.TemporaryDirectory() as tmp:
         c = calcula(tmp, "atual")
         antigo = calcula(tmp, "antigo")
+        erros += figuras(tmp)
     esperado = {  # conta feita à mão: 42 descontos de R$ 50,00 até 10/2025 (falta 06/2024) e 11 de R$ 55,00 desde 11/2025
         "capital": 1000.00, "dobro_capital": 2000.00, "total_ate_refin": 2100.00, "total_pos_refin": 605.00,
         "dobro": 1210.00, "total_pago": 2705.00, "saldo_atual": 1700.00, "custo_total": 4405.00,
@@ -85,7 +134,7 @@ def main():
     if erros:
         sys.exit("TESTE FALHOU:\n- " + "\n- ".join(erros))
     print("TESTE OK: marco de 200% em 08/2025; refinanciamento em 11/2025; dobro R$ 1.210,00; valor da causa "
-          "R$ 23.010,00; competência ausente sinalizada; alerta B2 na variante antiga (sem bloqueio).")
+          "R$ 23.010,00; competência ausente sinalizada; alerta B2 na variante antiga (sem bloqueio); 4 figuras com 17 cm a 300 dpi.")
 
 
 if __name__ == "__main__":

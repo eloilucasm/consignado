@@ -5,6 +5,7 @@ Como usar (instruções para quem redige; apague este comentário na peça):
 - Preencha os campos [PREENCHER: ...] com o quadro de fatos e o calculo.json (scripts/calcular_rmc.py). Campo sem fonte vira [CONFERIR: ...].
 - Blocos entre [[SE ...]] e [[FIM]] entram só quando a condição vale. Apague os marcadores.
 - Números, datas de competência e valores vêm de calculo.json. Nunca refaça a conta de cabeça. A planilha mensal vem pronta em calculo.md.
+- Figuras 1 a 4: geradas por scripts/diagramas_rmc.py (recortes do extrato, acumulado pago e linha do tempo); a legenda de cada uma vem do figuras.json. Padrão em assets/padrao-figuras.md. Entregue os PNG junto com a minuta.
 - Se calculo.json trouxer alerta B2 (refinanciamento anterior a 01/2024), leve-o ao advogado. A minuta **não** é bloqueada: o escritório decidiu em 29/10/2026 manter a tese do teto (references/01-tese-e-roteiro.md, B1 a B4).
 - Não digite número de tópico: a tipografia-azul numera. Remissão interna: "tópico ..." calculado depois de fechada a estrutura.
 - Títulos de tópico (#) no formato "Da/Do/Dos…"; subtópicos (##) em frase completa.
@@ -86,7 +87,19 @@ b) **IOF lançado na mesma competência**, no valor de [IOF], tributo que incide
 c) **Queda da taxa de juros.** A taxa mensal, de [MENOR TAXA DOS VIZINHOS]% ou mais nas competências próximas, cai para [TAXA DO REFINANCIAMENTO]% na competência do refinanciamento.
 [[FIM]]
 
-O documento é oficial e sua autenticidade pode ser conferida pelo código do rodapé. A prova é a soma dos lançamentos que ele traz.
+O documento é oficial e sua autenticidade pode ser conferida pelo código do rodapé. A prova é a soma dos lançamentos que ele traz. Reproduzem-se abaixo, sem alteração, a linha do cartão e as competências em torno do refinanciamento, com a de [COMPETÊNCIA DO REFINANCIAMENTO] contornada.
+
+[[SE HÁ RECORTES]] Figuras geradas por `scripts/diagramas_rmc.py` (legendas do `figuras.json`; inserir com 17 cm de largura, sem redimensionar):
+
+![Figura 1: Linha do cartão no extrato do INSS](figuras/fig_extrato_cartao.png)
+
+*Figura 1: Recorte do Histórico de Empréstimo Consignado do INSS: linha do cartão [RMC/RCC] nº [NÚMERO DO CARTÃO]. Fonte: Histórico de Empréstimo Consignado do INSS, anexo.*
+
+![Figura 2: Refinanciamento no extrato do INSS](figuras/fig_extrato_refinanciamento.png)
+
+*Figura 2: Recorte do Histórico de Empréstimo Consignado do INSS: descontos do cartão nº [NÚMERO DO CARTÃO] de [PRIMEIRA COMPETÊNCIA DO RECORTE] a [ÚLTIMA COMPETÊNCIA DO RECORTE], com a competência do refinanciamento ([COMPETÊNCIA DO REFINANCIAMENTO]) contornada. Fonte: Histórico de Empréstimo Consignado do INSS, anexo.*
+[[FIM]]
+[[SE SEM RECORTES]] Se o `figuras.json` avisar que o recorte não saiu (extrato digitalizado ou layout não reconhecido), recorte à mão a página do extrato no mesmo padrão ou suprima a frase "Reproduzem-se abaixo…" e renumere as figuras seguintes. [[FIM]]
 
 ## O custo real da dívida
 
@@ -96,7 +109,17 @@ A tabela abaixo reúne os descontos mensais do cartão nº [NÚMERO DO CARTÃO],
 
 *Fonte: Histórico de Empréstimo Consignado do INSS, emitido em [DATA DE EMISSÃO], anexo. CÁLCULO A CONFERIR.*
 
-Em [COMPETÊNCIA DO MARCO DE 200%], o acumulado pago, [ACUMULADO NO MARCO], chegou a [PERCENTUAL NO MARCO] do capital adotado, [MESES ENTRE O MARCO E O REFINANCIAMENTO] [mês/meses] antes do refinanciamento.
+Em [COMPETÊNCIA DO MARCO DE 200%], o acumulado pago, [ACUMULADO NO MARCO], chegou a [PERCENTUAL NO MARCO] do capital adotado, [MESES ENTRE O MARCO E O REFINANCIAMENTO] [mês/meses] antes do refinanciamento. A evolução do acumulado e a sequência dos fatos estão nas figuras a seguir.
+
+![Figura 3: Acumulado pago e marco de 200%](figuras/fig_acumulado.png)
+
+*Figura 3: Acumulado pago no cartão nº [NÚMERO DO CARTÃO] e marco de 200% do capital adotado ([COMPETÊNCIA DO MARCO DE 200%]), antes do refinanciamento ([COMPETÊNCIA DO REFINANCIAMENTO]). Fonte: Histórico de Empréstimo Consignado do INSS, anexo. A figura reproduz o extrato e não introduz fato novo.*
+
+![Figura 4: Linha do tempo do cartão](figuras/fig_linha_tempo.png)
+
+*Figura 4: Linha do tempo do cartão nº [NÚMERO DO CARTÃO], conforme o extrato do INSS anexo.*
+
+[[SE SEM FIGURAS]] Sem Pillow, as Figuras 3 e 4 não saem: suprima a última frase do parágrafo anterior; a tabela acima basta. [[FIM]]
 
 ## Resumo financeiro
 

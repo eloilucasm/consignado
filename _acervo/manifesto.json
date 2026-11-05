@@ -401,6 +401,7 @@
    "triagem-consignado"
   ],
   "scripts/figuras.py": [
+   "rmc",
    "tese-1000"
   ],
   "pecas/padrao-figuras.md": [

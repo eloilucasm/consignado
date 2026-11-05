@@ -2,7 +2,7 @@
 """gerar_extrato_ficticio.py - cria um PDF FICTÍCIO com um cartão RMC e o histórico mensal de descontos.
 
 Serve só para testar scripts/cartao.py e scripts/calcular_rmc.py. Todo dado é inventado. O layout (uma linha por
-registro, "R$" colado ao valor) segue as expressões regulares do cartao.py herdado do AMN; NÃO é cópia de um extrato
+registro, "R$" colado ao valor, cabeçalho da tabela repetido a cada página) segue as expressões regulares do cartao.py herdado do AMN; NÃO é cópia de um extrato
 real do INSS, e por isso não prova que o leitor funciona com o PDF verdadeiro (D18).
 
 Variantes:
@@ -52,10 +52,19 @@ def esc(t):
     return t.replace("\\", "\\\\").replace("(", r"\(").replace(")", r"\)")
 
 
+CABECALHO = "CONTRATO BANCO SALDO DEVEDOR SITUAÇÃO COMPETÊNCIA UTILIZADO NO MÊS DESCONTO TIPO IOF CET MENSAL CET ANUAL JUROS"
+
+
 def montar(variante):
+    """Conteúdo de cada página. Como no extrato: cabeçalho da tabela repetido e registro nunca partido entre páginas."""
     desl = 0 if variante == "atual" else -3
-    ops = []
+    paginas, ops = [], []
     y = [800]
+
+    def nova_pagina():
+        paginas.append("\n".join(ops).encode("cp1252"))
+        ops.clear()
+        y[0] = 800
 
     def texto(s, tam=7):
         ops.append(f"BT /F1 {tam} Tf 20 {y[0]} Td ({esc(s)}) Tj ET")
@@ -66,27 +75,36 @@ def montar(variante):
     texto("Benefício NB 999.999.999-9 Espécie 41 - Aposentadoria por idade")
     texto("VALORES DO BENEFÍCIO Base de cálculo R$1.621,00")
     texto("CARTÃO DE CRÉDITO", 9)
+    texto("CONTRATO BANCO LIMITE SITUAÇÃO ORIGEM INCLUSÃO RESERVADO")
     inclusao = f"05/03/{22 + desl}"
     texto(f"{NUMERO} {BANCO} - BANCO BMG S.A. R$1.000,00Ativo Averbação Banco {inclusao} R$40,00")
     texto("Cartão de crédito (RMC)")
     texto("DESCONTOS DE CARTÃO", 9)
+    texto(CABECALHO)
     for comp, desc, saldo, util, iof, refin in competencias(desl):
+        if y[0] < 40:
+            nova_pagina()
+            texto("DESCONTOS DE CARTÃO (continuação)", 9)
+            texto(CABECALHO)
         id_ = f"{NUMERO}{BANCO}{comp.replace('/', '')}"
         texto(f"{id_} {BANCO} - BANCO BMG S.A. {brl(saldo)}Ativo {comp} {brl(util)}{brl(desc)}Desconto de cartão")
         if refin:
             texto(f"(RMC) {brl(iof)} 3,46 51,26 0,10 0,10")
         else:
             texto("(RMC)")
-    return "\n".join(ops).encode("cp1252")
+    nova_pagina()
+    return paginas
 
 
-def pdf(conteudo):
-    objs = []
-    objs.append(b"<< /Type /Catalog /Pages 2 0 R >>")
-    objs.append(b"<< /Type /Pages /Kids [3 0 R] /Count 1 >>")
-    objs.append(b"<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>")
-    objs.append(b"<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>")
-    objs.append(b"<< /Length %d >>\nstream\n" % len(conteudo) + conteudo + b"\nendstream")
+def pdf(conteudos):
+    n = len(conteudos)
+    kids = " ".join(f"{4 + 2 * i} 0 R" for i in range(n))
+    objs = [b"<< /Type /Catalog /Pages 2 0 R >>", f"<< /Type /Pages /Kids [{kids}] /Count {n} >>".encode(),
+            b"<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>"]
+    for i, c in enumerate(conteudos):
+        objs.append(f"<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> "
+                    f"/Contents {5 + 2 * i} 0 R >>".encode())
+        objs.append(b"<< /Length %d >>\nstream\n" % len(c) + c + b"\nendstream")
     out = bytearray(b"%PDF-1.4\n")
     pos = []
     for i, o in enumerate(objs, 1):

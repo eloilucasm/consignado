@@ -26,6 +26,14 @@ python3 scripts/calcular_rmc.py --ficha ficha.json --processo N --extrato extrat
 
 O script lê o cartão e o histórico mensal (`scripts/cartao.py`, requer `pip install pypdf`), detecta o refinanciamento, monta a planilha acumulada, acha o marco de 200%, calcula o dobro e o valor da causa e grava `calculo.json` e `calculo.md` (com a planilha pronta para colar). **Ele para** quando falta histórico, quando não há refinanciamento ou quando o marco de 200% não vem antes dele, e **avisa** quando o refinanciamento é anterior ao prazo de 90 dias do art. 2º-D da Res. CMN 4.549. Sem execução de código, faça a tabela à mão e marque `CÁLCULO A CONFERIR`.
 
+Depois, gere as figuras da inicial:
+
+```
+python3 scripts/diagramas_rmc.py --calculo pasta/calculo.json --extrato extrato.pdf --saida pasta/figuras
+```
+
+Saem quatro PNG e o `figuras.json` (legendas): dois **recortes do extrato** (linha do cartão; competências em torno do refinanciamento, com a dele contornada), achados pelas coordenadas do texto no PDF (requer `pip install pymupdf`), o **acumulado pago x 200% do capital** e a **linha do tempo** do cartão (`scripts/figuras.py`, requer `pip install pillow`). Padrão em `assets/padrao-figuras.md`: 17 cm a 300 dpi, inserir sem redimensionar, logo após o parágrafo que as anuncia; entregue as imagens junto com a peça. **Olhe cada imagem antes de entregar.** Extrato digitalizado (sem texto) ou de layout não reconhecido: o recorte não sai e o `figuras.json` avisa; recorte à mão no mesmo padrão.
+
 O leitor do extrato foi herdado do pacote AMN e só foi testado aqui com extrato fictício. Confira a primeira leitura real contra o PDF.
 
 ## Entrega e portões
@@ -40,6 +48,8 @@ Preencha `assets/modelo-inicial-rmc.md` com o quadro de fatos e o `calculo.json`
 |---|---|
 | `assets/modelo-inicial-rmc.md` | modelo da inicial, com condicionais por rito, tutela e coisa julgada |
 | `assets/padrao-pecas.md` | endereçamento, qualificação, pedidos de rotina, precedentes e revisão |
+| `assets/padrao-figuras.md` | tamanho, fonte, cores e composição das figuras e dos recortes do extrato |
+| `scripts/diagramas_rmc.py` | figuras da inicial (recortes do extrato, acumulado x 200%, linha do tempo) e `figuras.json` |
 | `assets/escrutinio-fsc-vf.md` | FSC1 a FSC12 e VF1 a VF9 antes do ajuizamento e formato do registro |
 | `references/01-tese-e-roteiro.md` | a tese, os bloqueios jurídicos e as perguntas típicas |
 | `references/02-mudancas-no-modelo.md` | o que mudou em relação ao modelo AMN v1.4 e por quê |

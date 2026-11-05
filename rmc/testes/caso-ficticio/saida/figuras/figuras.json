@@ -1,0 +1,37 @@
+{
+  "fonte_tipografica": "C:\\Windows\\Fonts\\LatoWeb-Regular.ttf",
+  "largura_cm": 17,
+  "dpi": 300,
+  "pt_minimo": 9,
+  "avisos": [],
+  "figuras": [
+    {
+      "arquivo": "fig_extrato_cartao.png",
+      "tipo": "recorte",
+      "onde": "dos fatos: o extrato prova o refinanciamento",
+      "legenda": "Figura 1: Recorte do Histórico de Empréstimo Consignado do INSS: linha do cartão RMC nº 90000001.",
+      "numero": 1
+    },
+    {
+      "arquivo": "fig_extrato_refinanciamento.png",
+      "tipo": "recorte",
+      "onde": "dos fatos: o extrato prova o refinanciamento",
+      "legenda": "Figura 2: Recorte do Histórico de Empréstimo Consignado do INSS: descontos do cartão nº 90000001 de 07/2025 a 01/2026, com a competência do refinanciamento (11/2025) contornada.",
+      "numero": 2
+    },
+    {
+      "arquivo": "fig_acumulado.png",
+      "tipo": "grafico",
+      "onde": "dos fatos: o custo real da dívida",
+      "legenda": "Figura 3: Acumulado pago no cartão nº 90000001 e marco de 200% do capital adotado (08/2025), antes do refinanciamento (11/2025).",
+      "numero": 3
+    },
+    {
+      "arquivo": "fig_linha_tempo.png",
+      "tipo": "linha_tempo",
+      "onde": "dos fatos: o custo real da dívida",
+      "legenda": "Figura 4: Linha do tempo do cartão nº 90000001, conforme o extrato do INSS.",
+      "numero": 4
+    }
+  ]
+}

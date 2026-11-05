@@ -245,6 +245,9 @@ def main():
         "valor_causa": valor_causa, "valor_causa_extenso": brl_ext(valor_causa),
         "primeira": calc["primeira"], "ultima": calc["ultima"], "competencias_ausentes": aus,
         "fontes_extra": sorted(fontes_extra), "n_competencias": len(calc["planilha"]),
+        # mês a mês, para as figuras (scripts/diagramas_rmc.py)
+        "planilha": [{"competencia": p["competencia"], "desconto": p["desconto"] or 0, "acumulado": p["acumulado"],
+                      "pct": round(p["pct"], 1) if p["pct"] is not None else None} for p in calc["planilha"]],
         "bloqueios_juridicos": bloqueios, "pode_gerar": not bloqueios,
         "alertas": alertas, "conferir": conferir, "checagem_fsc": res_esc["fsc"], "checagem_vf": res_esc["vf"], "marca": "CÁLCULO A CONFERIR",
     }
