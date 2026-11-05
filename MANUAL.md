@@ -74,9 +74,10 @@ A skill pergunta **uma vez**, no máximo três coisas por rodada, e não escolhe
 |---|---|
 | **Rito: JEC ou Justiça Comum?** | Muda o juízo, os pedidos de prova (exibição só na Justiça Comum; perícia nunca na inicial, decidida na réplica conforme os documentos do banco) e o recurso. A skill pode sugerir; quem decide é você. |
 | **Só se um documento dos autos mostrar dinheiro na conta: devolução, depósito em juízo ou compensação?** | A peça reconhece o lançamento e nega a contratação; o tratamento do valor é decisão sua, e fica marcado até você decidir. |
-| **O banco entregou contrato ou trilha antes da ação?** | Muda as verificações sobre os documentos do banco. |
 | Só no migrado: **interesse na audiência de conciliação** (Justiça Comum) | Requisito da inicial. |
-| Só no RMC: **ação anterior sobre o mesmo cartão?** e **só o mínimo da fatura é descontado em folha?** | Coisa julgada e a premissa da tese. |
+| Só no RMC: **ação anterior sobre o mesmo cartão?** | Coisa julgada. |
+
+**O que a skill não pergunta mais** (padrão do escritório, 05/11/2026): se o banco entregou contrato ou trilha antes da ação (nunca entrega; a análise fica para a réplica); o prazo da prescrição (desconto com mais de 5 anos leva sempre ao tópico com o prazo decenal do art. 205 do CC, sem pedido subsidiário pelo art. 27 do CDC); se o tópico da LGPD entra (sempre entra); o percentual dos honorários na Justiça Comum (sempre 20%); no RMC, se só o mínimo da fatura é descontado em folha (premissa fixa, com `[CONFERIR: faturas]` na peça). O **número da vara** não se preenche na inicial: o endereçamento sai com "__ª Vara", porque quem define a vara é o distribuidor; só nas peças intermediárias e recursais a unidade é preenchida.
 
 ---
 
@@ -86,7 +87,7 @@ Toda resposta traz, nesta ordem:
 
 1. **Painel do Caso:** quem é o cliente (com identificador abreviado), cada processo (benefício, banco, tese, etapa) e o que foi feito.
 2. **Quadro de fatos:** cada fato com um estado. `confirmado` tem documento (na inicial, o anexo, porque ainda não há ID; na réplica e no recurso, ID e página). `relatado` vem do cliente e **nunca vira prova na peça**. `inferido` foi deduzido. `desconhecido` é o que falta. A linha do tempo do caso (averbação, descontos, exclusão, ciência, prescrição) vem do script.
-3. **A minuta**, em Markdown.
+3. **A minuta**, em Markdown e em Word (`.docx`, pela `tipografia-azul`).
 4. **Os quatro portões**, cada um como passou, pendente ou bloqueado:
    - fatos e enquadramento;
    - prova e cálculo;
@@ -114,8 +115,7 @@ Toda resposta traz, nesta ordem:
 1. Mande termo, análise e extrato do INSS (ou a pasta inteira, com `/consignado`).
 2. Confira a **ficha de ajuizamento**: processos, réus, contratos, skill de cada um. Aprove ou corrija.
 3. Responda o rito. O juízo e a cidade do fecho saem do endereço do cliente, sem pergunta.
-4. Receba a minuta e a tabela do cálculo. Confira as marcas e os portões.
-5. Peça o Word.
+4. Receba a minuta (`.md` e `.docx`) e a tabela do cálculo. Confira as marcas e os portões.
 
 **B. O banco contestou e juntou TED do valor do empréstimo na conta do cliente.**
 1. Chame `/replica-consignado` com a inicial e a contestação.
@@ -133,7 +133,7 @@ Toda resposta traz, nesta ordem:
 
 ## 8. Word e Google Docs
 
-Ao fim da peça, peça o Word: a `tipografia-azul` aplica o padrão do escritório (A4, Lato, azul-marinho, numeração 1./a./i.) e o **realce amarelo** nas marcas. Sem execução de código, a peça fica em Markdown e a formatação fica pendente. O título da ação sai em maiúsculas só na primeira letra das palavras principais, nunca todo em caixa alta.
+Toda peça sai também em Word, sem precisar pedir: a `tipografia-azul` aplica o padrão do escritório (A4, Lato, azul-marinho, numeração 1./a./i.) e o **realce amarelo** nas marcas. Sem execução de código, a peça fica em Markdown e a formatação fica pendente. O título da ação sai em maiúsculas só na primeira letra das palavras principais, nunca todo em caixa alta.
 
 ---
 

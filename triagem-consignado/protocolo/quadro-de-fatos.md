@@ -53,7 +53,7 @@ O script de cálculo monta a linha do tempo a partir do extrato e a grava na se�
 | 18 | Assinatura manuscrita ou eletrônica? (A perícia não é pedida na inicial: decide-se na réplica.) | | | |
 | 19 | Cidade e UF do fecho: sede do juízo, tirada do endereço do autor (`foro.fecho` do cálculo); **não se pergunta** | | | |
 | 20 | **Extrato bancário** do cliente do mês da averbação de cada contrato: houve crédito? de quanto? (VF6; Súmula 42/TJBA). **Não é pedido nem perguntado** (o escritório ajuíza sem ele); preencha só se o documento já estiver nos autos. Se houver crédito, o tratamento (devolução, depósito em juízo ou compensação) é decisão do advogado | | | |
-| 21 | O banco entregou contrato, trilha de assinatura ou dossiê **antes da ação** (só se os autos trouxerem; o escritório não faz tentativa administrativa prévia)? (VF2, VF4, VF5) | | | |
+| 21 | O banco entregou contrato, trilha de assinatura ou dossiê **antes da ação**? **Não perguntar:** padrão "não" (o banco nunca entrega; o escritório não faz tentativa administrativa prévia). Só preencher se o advogado trouxer o documento por conta própria. (VF2, VF4, VF5) | não (padrão) | | |
 | 22 | Residência pelo comprovante (ID e página só depois do protocolo) e, se o advogado der, coordenada copiada de um mapa (VF9, para a réplica) | | | |
 | 23 | Índice dos documentos do cliente, com a identificação provisória de cada um (VF1) | | | |
 

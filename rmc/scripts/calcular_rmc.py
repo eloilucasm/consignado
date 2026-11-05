@@ -175,8 +175,8 @@ def main():
     if CT.comp_n(marco) < CT.comp_n(PRIMEIRA_COMPETENCIA_COM_TETO):
         alertas.append(f"O marco de 200% ({marco}) é anterior à vigência do teto: o banco dirá que pagamentos feitos "
                        "antes dele não entram na conta. O modelo conta todos os pagamentos; decisão do advogado.")
-    alertas.append("Confirmar nas faturas e com o cliente que, no cartão, só o mínimo é descontado em folha e o restante é pago por boleto: "
-                   "é a premissa pela qual o art. 4º da Res. CMN 4.549 não afasta a resolução (decisão D1 do escritório, 29/10/2026).")
+    alertas.append("Premissa fixa (não se pergunta ao advogado): no cartão, só o mínimo é descontado em folha e o restante é pago por boleto; "
+                   "por isso o art. 4º da Res. CMN 4.549 não afasta a resolução (decisão D1, 29/10/2026). A peça mantém [CONFERIR: faturas].")
     alertas.append(f"Capital = limite do cartão ({brl(capital)}), premissa: o extrato não informa o valor sacado.")
     aus = calc["ausentes"]
     if aus:

@@ -70,10 +70,9 @@ A tabela de roteamento do `protocolo/protocolo.md` é a fonte única; aplique-a 
 As iniciais perguntam as mesmas coisas. Pergunte **uma vez**, no máximo três lacunas por rodada, e repasse a resposta às skills:
 
 - rito, **JEC ou Justiça Comum** (você pode sugerir pelo valor e pela prova, mas não escolhe);
-- se o banco **entregou contrato ou trilha antes da ação**;
-- só no RMC: ação anterior sobre o cartão e se só o mínimo é descontado em folha; só no migrado: interesse na audiência de conciliação (Justiça Comum).
+- só no RMC: ação anterior sobre o cartão; só no migrado: interesse na audiência de conciliação (Justiça Comum).
 
-Juízo e cidade do fecho não se perguntam: saem do endereço do autor (triagem e `foro` do cálculo). Nunca responda por conta própria rito, escolha de risco ou qualquer pausa das especialistas.
+Também não se pergunta se o banco entregou contrato ou trilha antes da ação (nunca entrega; fica para a réplica) nem o prazo da prescrição (sempre o decenal), nem se o tópico da LGPD entra (sempre entra, no migrado), nem o percentual dos honorários na Justiça Comum (sempre 20%), nem, no RMC, se só o mínimo da fatura é descontado em folha (premissa fixa). Na inicial, o número da vara fica em branco ("__ª Vara"): o distribuidor define. Juízo e cidade do fecho não se perguntam: saem do endereço do autor (triagem e `foro` do cálculo). Nunca responda por conta própria rito, escolha de risco ou qualquer pausa das especialistas.
 
 ## 5. Acionar de verdade
 
@@ -116,7 +115,7 @@ Juízo e cidade do fecho não se perguntam: saem do endereço do autor (triagem 
 
 Reúna em uma resposta ao advogado: Painel do Caso, o que foi feito em cada processo, o que ficou bloqueado e por quê, riscos e até três próximas diligências, mais os quatro portões de cada peça. Não despeje respostas duplicadas das especialistas. Triagem não vira parecer, cálculo não comprova direito e minuta com marca de pendência não está pronta para protocolo. **Sem protocolo, envio ou assinatura:** só o advogado responsável aprova.
 
-Formatação em Word ou Google Docs fica com `tipografia-azul`, que aplica o realce amarelo nas marcas de pendência.
+Cada peça sai em `.md` e em `.docx`; o Word é gerado pela `tipografia-azul`, que aplica o realce amarelo nas marcas de pendência. Confira que a especialista entregou os dois arquivos.
 
 ## Normas e jurisprudência
 

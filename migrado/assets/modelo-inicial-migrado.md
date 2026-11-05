@@ -167,7 +167,7 @@ A orientação de que o desconto indevido em benefício de pessoa idosa extrapol
 
 Por cautela, afasta-se desde logo a alegação de prescrição. A pretensão não decorre de defeito de serviço contratado, mas da cobrança de valores sem lastro contratual, por averbações que a parte autora jamais autorizou. A Corte Especial do STJ decidiu, em caso de cobrança de serviços não contratados de telefonia fixa, que a repetição de indébito prescreve em dez anos, pelo art. 205 do Código Civil, e não em três (EAREsp 738.991/RS, Rel. Min. Og Fernandes, j. 20/02/2019, DJe 11/06/2019; julgado de telefonia fixa, aplicado ao consignado por analogia).² Além disso, a declaração de inexistência da relação jurídica não está sujeita a prazo prescricional: o negócio nulo não convalesce pelo decurso do tempo (art. 169 do CC).
 
-Subsidiariamente, ainda que se aplicasse o prazo quinquenal do art. 27 do CDC, ele só começa a correr do conhecimento do dano e de sua autoria. [[SE CIÊNCIA INFORMADA]] A parte autora só soube da origem dos descontos em [DATA DA CIÊNCIA], pelo Histórico de Empréstimo Consignado emitido em [DATA DE EMISSÃO]. [[FIM]] O prazo e o termo inicial aplicáveis são decisão do advogado responsável [DECISÃO DO ADVOGADO: art. 27 do CDC ou art. 205 do CC].
+Aplica-se, portanto, o prazo decenal do art. 205 do Código Civil.
 
 ² BRASIL. Superior Tribunal de Justiça. Corte Especial. Embargos de Divergência em Agravo em Recurso Especial n. 738.991/RS. Relator: Ministro Og Fernandes. Julgado em: 20 fev. 2019. Publicado no DJe em: 11 jun. 2019.
 [[FIM]]
@@ -184,13 +184,9 @@ Declarada a inexistência e a nulidade, as partes voltam ao estado anterior (art
 
 A vedação ao enriquecimento sem causa (art. 884 do CC) não socorre o banco, que desconta sem comprovar desembolso. A boa-fé objetiva (art. 422 do CC) veda ainda o comportamento contraditório: o banco, que não verificou a contratação, não pode invocá-la para reaver o que não prova ter entregue.
 
-[[SE LGPD]]
 # Da Lei Geral de Proteção de Dados
 
-[DECISÃO DO ADVOGADO: manter ou retirar este tópico. Os dispositivos estão em normas/lgpd.md; o modelo anterior do escritório os usava, e o AMN v1.4 usava o art. 37 da LGPD como norma de guarda da trilha, o que se retirou.]
-
 A averbação de contrato que a parte autora não firmou pressupõe o tratamento de seus dados pessoais (nome, documentos, número de benefício). Sem base legal e sem consentimento, esse tratamento viola a Lei 13.709/2018. O dado biométrico é dado pessoal sensível (art. 5º, II) e só pode ser tratado com consentimento específico e destacado do titular (art. 11, I). O controlador deve observar os princípios da segurança, da prevenção e da responsabilização (art. 6º, VII, VIII e X) e adotar medidas de segurança aptas a proteger os dados (art. 46). A falha que permitiu a averbação reforça a responsabilidade do banco.
-[[FIM]]
 
 # Da inversão do ônus da prova
 
@@ -291,10 +287,10 @@ Requer-se a antecipação dos efeitos da tutela para que o banco se abstenha de 
 
 Protesta provar o alegado por todos os meios admitidos em direito (art. 369 do CPC), especialmente a prova documental anexa e o depoimento pessoal do representante do réu, bem como os documentos que o banco deva juntar.
 
-[[SE JUSTIÇA COMUM]]
+[[SE JUSTIÇA COMUM E HÁ ATIVO]]
 # Dos honorários sobre a soma da condenação e do proveito econômico
 
-O art. 85, § 2º, do CPC fixa os honorários entre 10% e 20% "sobre o valor da condenação, do proveito econômico obtido ou, não sendo possível mensurá-lo, sobre o valor atualizado da causa". Esta ação tem dois resultados econômicos distintos: o capítulo condenatório (repetição em dobro e reparação extrapatrimonial) e o capítulo declaratório, que libera a parte autora das parcelas vincendas dos contratos ativos, no valor de [VINCENDAS, de calculo.json], descontadas mensalmente do benefício [DECISÃO DO ADVOGADO: adotar o proveito declaratório como base; só vale com contrato ativo].
+O art. 85, § 2º, do CPC fixa os honorários entre 10% e 20% "sobre o valor da condenação, do proveito econômico obtido ou, não sendo possível mensurá-lo, sobre o valor atualizado da causa". Esta ação tem dois resultados econômicos distintos: o capítulo condenatório (repetição em dobro e reparação extrapatrimonial) e o capítulo declaratório, que libera a parte autora das parcelas vincendas dos contratos ativos, no valor de [VINCENDAS, de calculo.json], descontadas mensalmente do benefício.
 
 O Tema Repetitivo 1076 do STJ firmou que a fixação de honorários por apreciação equitativa não é permitida quando os valores da condenação, da causa ou o proveito econômico forem elevados, e que o arbitramento por equidade só se admite quando o proveito econômico for inestimável ou irrisório, ou o valor da causa for muito baixo. Aqui o proveito é líquido e calculado contrato a contrato. Em ação declaratória de inexistência de contrato bancário cumulada com danos morais, a Terceira Turma do STJ admitiu a soma do valor da condenação com o proveito econômico (REsp 2.168.312/PR, Rel. Min. Humberto Martins, j. 03/11/2025, DJEN 06/11/2025; Informativo 875/STJ), segundo o qual o art. 85, § 2º, do CPC "não impede a cumulação das bases de cálculo dos honorários advocatícios sucumbenciais, sendo possível considerar tanto o valor da condenação quanto o proveito econômico obtido".
 [[FIM]]
@@ -325,7 +321,7 @@ g) a procedência dos pedidos, confirmada a tutela ou concedida em sentença, pa
 6. o réu seja condenado ao pagamento de indenização por danos extrapatrimoniais de **R$ 20.000,00 (vinte mil reais)**, com correção monetária desde o arbitramento (Súmula 362 do STJ) e juros de mora desde o evento danoso (Súmula 54 do STJ);
 7. seja vedada a compensação entre eventual valor comprovadamente creditado à parte autora e a indenização por dano extrapatrimonial, que tem causa e função distintas, restringindo-se eventual acerto à restituição (art. 182 do CC);[[SE CRÉDITO EM CONTA]] quanto ao valor de [VALOR CREDITADO] creditado em [DATA DO CRÉDITO] (extrato bancário anexo), requer-se [DECISÃO DO ADVOGADO: devolução, depósito em juízo ou compensação] [a sua devolução ao réu depois de declarada a inexistência | a autorização para depositá-lo em juízo | a sua compensação com a restituição material];[[FIM]]
 
-[[SE JUSTIÇA COMUM]] h) a condenação do réu ao pagamento das custas e dos honorários advocatícios de sucumbência (art. 85 do CPC), [PERCENTUAL: de 10% a 20%, art. 85, § 2º; o modelo anterior pedia 20%] sobre a soma do valor da condenação e do proveito econômico, este de [VINCENDAS], com a fixação expressa dessa base na sentença; subsidiariamente, sobre o proveito econômico total ou o valor atualizado da causa, vedada a equidade (Tema 1076/STJ); [[FIM]]
+[[SE JUSTIÇA COMUM]] h) a condenação do réu ao pagamento das custas e dos honorários advocatícios de sucumbência (art. 85 do CPC), em 20% (vinte por cento) [[SE HÁ ATIVO]] sobre a soma do valor da condenação e do proveito econômico, este de [VINCENDAS], com a fixação expressa dessa base na sentença; subsidiariamente, sobre o proveito econômico total ou o valor atualizado da causa, vedada a equidade (Tema 1076/STJ); [[SE SÓ EXCLUÍDO]] sobre o valor da condenação (art. 85, § 2º, do CPC), vedada a equidade (Tema 1076/STJ); [[FIM]] [[FIM]]
 [[SE JEC]] (Sem pedido de custas e honorários: a sentença de primeiro grau não condena o vencido, salvo litigância de má-fé — art. 55 da Lei 9.099/95.) [[FIM]]
 
 Requer, ainda, que todas as intimações e publicações sejam feitas exclusivamente em nome de Diego Ramos Arléo Barbosa, OAB/BA nº 38.179, e Michael Santos Neves, OAB/BA nº 50.954.

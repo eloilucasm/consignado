@@ -29,7 +29,7 @@ Data da peça: 28/10/2026 · última competência de contrato ativo: 09/2026
 | FSC3 | OK | art. 14, § 3º, do CDC + art. 429, II, do CPC + Tema 1061/STJ antes do art. 6º, VIII | tópico da inversão do ônus da prova |
 | FSC4 | OK | 51-000111/00001_0001: liberado R$ 337,57. Sem extrato bancário (padrão do escritório): a peça afirma que o banco não comprovou o crédito em conta (art. 373, II, do CPC), sem negar o recebimento em nome do cliente; o TED do banco é confrontado na réplica (VF6) | negativa por contrato; inversão do ônus |
 | FSC5 | NAO_SE_APLICA | sem origem de migração, portabilidade ou refinanciamento no extrato | — |
-| FSC6 | ATIVADO | contrato(s) 51-000111/00001_0001 com desconto iniciado há mais de 5 anos: tratar prescrição (decisão do advogado) e a data da ciência | fatos (ciência); tópico de prescrição |
+| FSC6 | ATIVADO | contrato(s) 51-000111/00001_0001 com desconto iniciado há mais de 5 anos: o tópico de prescrição sustenta o prazo decenal (art. 205 do CC), sem perguntar ao advogado (padrão do escritório, 05/11/2026); registrar a data da ciência | fatos (ciência); tópico de prescrição |
 | FSC7 | OK | negativa específica por contrato e pedido de juntada de cada documento com a contestação; o risco maior é da réplica | negativa específica; inversão do ônus |
 | FSC8 | OK | natureza alimentar, período e valor vêm do cálculo; sem tentativa administrativa prévia (padrão do escritório) | subtópico do dano extrapatrimonial |
 | FSC9 | OK | JEC: sem exibição nem perícia; inversão do ônus e encargo de juntar documentos com a contestação | inversão do ônus |

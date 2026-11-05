@@ -66,7 +66,7 @@ Presume-se verdadeira a alegação de insuficiência deduzida por pessoa natural
 [[SE PRESCRIÇÃO OU DECADÊNCIA]]
 ## Não há prescrição nem decadência
 
-A declaração de inexistência da relação jurídica não se sujeita a prazo: o negócio nulo "não é suscetível de confirmação, nem convalesce pelo decurso do tempo" (art. 169 do CC). Quanto à repetição e ao dano, [DECISÃO DO ADVOGADO: prazo e termo inicial; art. 27 do CDC, a partir do conhecimento do dano e de sua autoria, ou prazo decenal por analogia ao EAREsp 738.991/RS, com VERIFICAR ANTES DE PROTOCOLAR]. A parte autora soube dos descontos em [DATA DA CIÊNCIA] ([FONTE]).
+A declaração de inexistência da relação jurídica não se sujeita a prazo: o negócio nulo "não é suscetível de confirmação, nem convalesce pelo decurso do tempo" (art. 169 do CC). Quanto à repetição e ao dano, aplica-se o prazo decenal do art. 205 do Código Civil, como decidiu a Corte Especial do STJ para a cobrança de serviços não contratados (EAREsp 738.991/RS, Rel. Min. Og Fernandes, j. 20/02/2019, DJe 11/06/2019; julgado de telefonia fixa, aplicado ao consignado por analogia). A parte autora soube dos descontos em [DATA DA CIÊNCIA] ([FONTE]).
 [[FIM]]
 
 # Do mérito: impugnação específica dos documentos do réu

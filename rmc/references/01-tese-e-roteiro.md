@@ -77,7 +77,7 @@ Não há tópico de prescrição: a repetição pedida é só a posterior ao ref
 1. Rito: JEC ou Justiça Comum? (sempre)
 2. (não se pergunta) Juízo e cidade do fecho: vêm do `foro` do calculo.json, pelo endereço do autor.
 3. Houve ação anterior sobre esse cartão? Número e resultado? (sempre; define a coisa julgada)
-4. No cartão, só o mínimo da fatura é descontado em folha e o restante é pago por boleto? (sempre; é a premissa de D1)
+4. (não se pergunta) Só o mínimo da fatura descontado em folha: premissa fixa de D1; a peça segue com ela e com `[CONFERIR: faturas]` (05/11/2026)
 5. O cliente tem as faturas ou o HISCRE? (se o histórico estiver incompleto)
 6. O cliente recebeu algum valor em conta na data do refinanciamento? (confirma a ausência de repasse)
 7. O cliente reclamou ao banco? Há prova? (reforça a dobra)

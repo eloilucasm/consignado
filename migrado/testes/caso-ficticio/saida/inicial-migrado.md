@@ -1,6 +1,6 @@
 > **MINUTA DE TESTE — CASO FICTÍCIO. NÃO PROTOCOLAR.** Nenhum dado é de pessoa real (exceto a qualificação pública do réu, tirada de `references/dados/reus.json`). Gerada em 28/10/2026 a partir de `assets/modelo-inicial-migrado.md`, `calculo.json` e do quadro de fatos desta pasta. Premissas do teste (processo 1 do caso fictício): rito **JEC** e **interesse** na audiência, respondidos pelo advogado; foro do endereço do autor (Ilhéus - BA); tutela sobre o contrato ativo; sem tentativa administrativa prévia; o advogado decidiu **não somar** os descontos do banco anterior. **Observação interna (Título 6): remover antes de protocolar.**
 
-AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BA
+AO JUÍZO DA __ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BA
 
 **EMENTA:** Empréstimo consignado. Averbação por migração de contrato de outra instituição financeira (troca de titularidade), sem nova manifestação de vontade do beneficiário. Beneficiária do INSS. Cessão de crédito não notificada ao devedor (CC, art. 290). Inexistência de autorização para a migração. Nulidade da migração. Desconto indevido sobre verba de natureza alimentar. Responsabilidade objetiva da instituição financeira. Repetição do indébito em dobro. Dano extrapatrimonial. Tutela de urgência para suspensão imediata dos descontos.
 
@@ -141,7 +141,7 @@ Além da função compensatória, a indenização cumpre função pedagógica: o
 
 Por cautela, afasta-se desde logo a alegação de prescrição. A pretensão não decorre de defeito de serviço contratado, mas da cobrança de valores sem lastro contratual, por averbações que a parte autora jamais autorizou. A Corte Especial do STJ decidiu, em caso de cobrança de serviços não contratados de telefonia fixa, que a repetição de indébito prescreve em dez anos, pelo art. 205 do Código Civil, e não em três **(EAREsp 738.991/RS, Rel. Min. Og Fernandes, j. 20/02/2019, DJe 11/06/2019; julgado de telefonia fixa, aplicado ao consignado por analogia)**.¹ Além disso, a declaração de inexistência da relação jurídica não está sujeita a prazo prescricional: o negócio nulo não convalesce pelo decurso do tempo (art. 169 do CC).
 
-Subsidiariamente, ainda que se aplicasse o prazo quinquenal do art. 27 do CDC, ele só começa a correr do conhecimento do dano e de sua autoria. A parte autora só soube da origem dos descontos em 10/08/2026, pelo Histórico de Empréstimo Consignado emitido em 28/10/2026. O prazo e o termo inicial aplicáveis são decisão do advogado responsável **[DECISÃO DO ADVOGADO: art. 27 do CDC ou art. 205 do CC]**.
+Aplica-se, portanto, o prazo decenal do art. 205 do Código Civil.
 
 ¹ BRASIL. Superior Tribunal de Justiça. Corte Especial. Embargos de Divergência em Agravo em Recurso Especial n. 738.991/RS. Relator: Ministro Og Fernandes. Julgado em: 20 fev. 2019. Publicado no DJe em: 11 jun. 2019.
 
@@ -150,6 +150,10 @@ Subsidiariamente, ainda que se aplicasse o prazo quinquenal do art. 27 do CDC, e
 Declarada a inexistência e a nulidade, as partes voltam ao estado anterior (art. 182 do CC). Aqui a restituição opera em uma só direção: o banco não comprovou crédito algum em conta de titularidade da parte autora, e a anotação de valor liberado no extrato é lançamento da própria instituição ****. A restituição ao estado anterior é a devolução à parte autora, em dobro, do que lhe foi descontado. Eventual crédito que o banco demonstre por documento idôneo só poderá ser considerado no acerto da restituição material, e nunca por compensação com a indenização extrapatrimonial, que tem causa e função distintas.
 
 A vedação ao enriquecimento sem causa (art. 884 do CC) não socorre o banco, que desconta sem comprovar desembolso. A boa-fé objetiva (art. 422 do CC) veda ainda o comportamento contraditório: o banco, que não verificou a contratação, não pode invocá-la para reaver o que não prova ter entregue.
+
+# Da Lei Geral de Proteção de Dados
+
+A averbação de contrato que a parte autora não firmou pressupõe o tratamento de seus dados pessoais (nome, documentos, número de benefício). Sem base legal e sem consentimento, esse tratamento viola a Lei 13.709/2018. O dado biométrico é dado pessoal sensível (art. 5º, II) e só pode ser tratado com consentimento específico e destacado do titular (art. 11, I). O controlador deve observar os princípios da segurança, da prevenção e da responsabilização (art. 6º, VII, VIII e X) e adotar medidas de segurança aptas a proteger os dados (art. 46). A falha que permitiu a averbação reforça a responsabilidade do banco.
 
 # Da inversão do ônus da prova
 

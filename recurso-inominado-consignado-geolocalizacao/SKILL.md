@@ -449,6 +449,7 @@ PEÇA em `estrutura_recurso.md`) e nenhum número é digitado à mão.
    estiver disponível, usar o plano B (ABNT) do mesmo arquivo e avisar o
    usuário
 3. Gerar com a lib `docx` na pasta de trabalho, com a formatação do passo 2.
+   Grave também a peça em Markdown (`.md`, mesmo nome do `.docx`): a entrega são os dois arquivos.
    Figuras da VF9: percorrer a lista `paineis` de cada figura em `figuras.json`, na
    ordem, e inserir cada imagem em parágrafo próprio, com 17 cm de largura, seguida da
    legenda própria (Normal, 10 pt), mantendo imagem e legenda juntas na página. Com

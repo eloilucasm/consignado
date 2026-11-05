@@ -171,7 +171,7 @@ prova que o rito veda é erro.
 **Subseção IV.7 — DA INEXISTÊNCIA DE SILÊNCIO QUALIFICADO / IMPUGNAÇÃO TARDIA** *(gatilho: FSC6)*
 Conteúdo: ver catálogo FSC6. Desconto automático sem ação do titular; nulidade
 inexistente não convalesce (art. 169, CC: a declaração não prescreve); repetição e dano moral
-com prazo e termo inicial decididos pelo advogado (art. 27, CDC ou art. 205, CC); ausência de *supressio* sem inércia voluntária e ciente.
+com prazo decenal (art. 205, CC; tese do escritório), sem pedido subsidiário pelo art. 27 do CDC; ausência de *supressio* sem inércia voluntária e ciente.
 
 **Subseção IV.8 — DO CORRESPONDENTE BANCÁRIO E DOS INDÍCIOS NÃO ENFRENTADOS** *(gatilho: FSC10)*
 Conteúdo: ver catálogo FSC10. IP privado no log = falta do IP público da sessão (lacuna do

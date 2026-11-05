@@ -281,10 +281,9 @@ o lapso como indício de ausência de vício de consentimento.
 - Separar as pretensões:
   (a) **declaração de inexistência** do contrato não consentido: não prescreve (negócio
       inexistente ou nulo não convalesce pelo tempo, art. 169, CC);
-  (b) **repetição do indébito e dano moral**: prescrevem. Prazo e termo inicial são DECISÃO DO
-      ADVOGADO (pendência): art. 27, CDC (5 anos, fato do serviço, a partir do conhecimento do
-      dano e da autoria) ou art. 205, CC (10 anos); em desconto mensal, discutir se cada parcela
-      tem prazo próprio. Não citar posição do STJ sobre o termo inicial; se o advogado fornecer o
+  (b) **repetição do indébito e dano moral**: prescrevem. Tese do escritório, sem perguntar ao
+      advogado (05/11/2026): prazo decenal do art. 205, CC (EAREsp 738.991/RS, por analogia),
+      sem pedido subsidiário pelo art. 27 do CDC; em desconto mensal, discutir se cada parcela tem prazo próprio. Não citar posição do STJ sobre o termo inicial; se o advogado fornecer o
       acórdão, citar com os dados que ele indicar.
 - "Impugnação tardia" dentro do prazo não é fundamento de mérito: é, no máximo, prescrição de
   parcelas antigas, que tem regime próprio e não se confunde com falta de verossimilhança.

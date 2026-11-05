@@ -13,14 +13,14 @@ Juízo, sempre pelas tabelas oficiais da triagem, nunca de memória:
 
 ## 1. Endereçamento e tratamento
 
-Fórmula impessoal dirigida ao órgão (CPC, art. 319, I). Evite "Excelentíssimo", "Exmo.", "Meritíssimo" e "V. Exa." (tratamento impessoal; o modelo anterior usava "Excelência" no corpo).
+Fórmula impessoal dirigida ao órgão (CPC, art. 319, I). **Na inicial, o número da vara fica em branco** ("AO JUÍZO DA __ª VARA…"): quem define a vara é o distribuidor do tribunal, não o advogado; não é pendência nem se pergunta. Onde a tabela traz `[N]ª`, a inicial usa `__ª`. Nas peças intermediárias e recursais, a unidade é a da capa dos autos (decisão do escritório, 05/11/2026). Evite "Excelentíssimo", "Exmo.", "Meritíssimo" e "V. Exa." (tratamento impessoal; o modelo anterior usava "Excelência" no corpo).
 
 | Destino | Endereçamento | No corpo |
 |---|---|---|
-| Justiça Comum (TJBA) | o `comum.enderecamento` da comarca em `tjba_unidades.json`; por exemplo, AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE [CIDADE] - BA; em Salvador, AO JUÍZO DA [N]ª VARA DE RELAÇÕES DE CONSUMO DA COMARCA DE SALVADOR - BA | "este Juízo" |
-| Juizado Especial Cível, comarca com Vara do Sistema (40) | o `jec.enderecamento`; por exemplo, AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE [CIDADE] - BA; em Salvador, AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DO CONSUMIDOR DA COMARCA DE SALVADOR - BA | "este Juízo" |
+| Justiça Comum (TJBA) | o `comum.enderecamento` da comarca em `tjba_unidades.json`; por exemplo, AO JUÍZO DA __ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE [CIDADE] - BA; em Salvador, AO JUÍZO DA __ª VARA DE RELAÇÕES DE CONSUMO DA COMARCA DE SALVADOR - BA | "este Juízo" |
+| Juizado Especial Cível, comarca com Vara do Sistema (40) | o `jec.enderecamento`; por exemplo, AO JUÍZO DA __ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE [CIDADE] - BA; em Salvador, AO JUÍZO DA __ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DO CONSUMIDOR DA COMARCA DE SALVADOR - BA | "este Juízo" |
 | Juizado Especial Cível, comarca sem Vara do Sistema | o `jec.enderecamento`; por exemplo, AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE [CIDADE] - BA. No preâmbulo, depois do nome da ação: "pelo procedimento da Lei nº 9.099/95" | "este Juízo" |
-| Vara Federal (Caixa) | AO JUÍZO DA [N]ª VARA FEDERAL DA SUBSEÇÃO JUDICIÁRIA DE [CIDADE] - [UF] | "este Juízo" |
+| Vara Federal (Caixa) | AO JUÍZO DA __ª VARA FEDERAL DA SUBSEÇÃO JUDICIÁRIA DE [CIDADE] - [UF] | "este Juízo" |
 | Recurso (inominado ou apelação) | petição de interposição ao juízo de origem e razões à Turma Recursal ou ao Tribunal | vocativo "Colenda Turma," / "Egrégio Tribunal," |
 
 ## 2. Qualificação
@@ -58,7 +58,7 @@ Incluir sempre que cabíveis:
 - **Obrigação de fazer**: cessação dos descontos, baixa da averbação no INSS e liberação da margem. Se o extrato mostra o campo "Motivo da Exclusão" em branco, pedir seu preenchimento com "Por força de decisão judicial", mantida a origem da exclusão, em 10 dias úteis, com multa diária de R$ 500,00 (CPC, arts. 497 e 537). - **Repetição em dobro** de **todos** os descontos, fundada no texto do art. 42, parágrafo único, do CDC e na primeira tese do EAREsp 676.608/RS (Corte Especial, DJe 30/03/2021); para descontos anteriores a 30/03/2021, a dobra se apoia só no art. 42 (o acórdão modulou a tese). **Não cite o Tema 929/STJ** (acórdão não publicado, cabem embargos); o escritório atualizará quando sair. Corrigir a quantia com a Súmula 43/STJ (desde cada desconto), juros pela Súmula 54/STJ (desde o evento danoso); no RMC, juros desde a citação (Súmula 33 da Turma de Uniformização do TJBA), porque o cartão é contrato. Pedir que descontos posteriores à inicial, até o trânsito em julgado, entrem na liquidação.
 - **Dano moral de R$ 20.000,00**, sempre. Fundamento: natureza alimentar do benefício; particularidades do caso (valor e tempo dos descontos), como a Súmula 40 do TJBA exige; tentativa administrativa só entra se os autos trouxerem uma (protocolo, "Presunções do escritório"). O caráter punitivo-pedagógico é mantido sem marca, mas não use a Súmula 326/STJ para sustentá-lo: ela trata de sucumbência.
 - **Inversão do ônus da prova** (ver abaixo, por rito).
-- **Honorários**: no primeiro grau do JEC, **não** pedir condenação em custas e honorários (Lei 9.099/95, art. 55); só em recurso, contra o recorrente vencido. Na Justiça Comum, pedir os honorários de sucumbência (CPC, art. 85).
+- **Honorários**: no primeiro grau do JEC, **não** pedir condenação em custas e honorários (Lei 9.099/95, art. 55); só em recurso, contra o recorrente vencido. Na Justiça Comum, pedir os honorários de sucumbência **sempre em 20%** (CPC, art. 85, § 2º), sem perguntar ao advogado (padrão do escritório, 05/11/2026); havendo contrato ativo, sobre a soma da condenação e do proveito econômico.
 
 **Prova por rito:**
 - **JEC:** formule a juntada de documentos **somente como encargo decorrente da inversão do ônus** (CDC, art. 14, § 3º; CPC, art. 429, II; Tema 1061/STJ), para a contestação. Não peça exibição autônoma, perícia nem ofício.

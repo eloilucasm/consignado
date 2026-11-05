@@ -220,8 +220,8 @@ def checagem(do_processo, todos, skill, hoje=None, rito=None, extrato_bancario=N
     # FSC6
     antigos = [r["contrato"] for r in do_processo if mais_de_5_anos(r, hoje)]
     if antigos:
-        fsc.append(_fsc(6, "ATIVADO", f"contrato(s) {', '.join(antigos)} com desconto iniciado há mais de 5 anos: tratar prescrição "
-                        f"(decisão do advogado) e a data da ciência", "fatos (ciência); tópico de prescrição"))
+        fsc.append(_fsc(6, "ATIVADO", f"contrato(s) {', '.join(antigos)} com desconto iniciado há mais de 5 anos: o tópico de prescrição "
+                        f"sustenta o prazo decenal (art. 205 do CC), sem perguntar ao advogado (padrão do escritório, 05/11/2026); registrar a data da ciência", "fatos (ciência); tópico de prescrição"))
     else:
         fsc.append(_fsc(6, "OK", "ciência pela análise do extrato de consignado (padrão do escritório): data de emissão do extrato; separar inexistência (não prescreve) de repetição e dano",
                         "fatos (ciência)"))
@@ -317,6 +317,7 @@ def foro(proc, rito=None):
     Regra do escritório (03/11/2026): o fecho é a cidade-sede do juízo competente, UF BA; não se pergunta ao advogado.
     TJBA: a unidade sai de references/dados/tjba_unidades.json (JEC ou Justiça Comum, conforme o rito).
     Caixa: Vara Federal da (sub)seção do TRF1 da ficha. Devolve dict com fecho, enderecamento(s) e o que conferir.
+    Na inicial o número da vara fica em branco ("__ª"): quem o define é o distribuidor (decisão do escritório, 05/11/2026).
     """
     import json
     comp = (proc or {}).get("competencia") or ""
@@ -325,8 +326,8 @@ def foro(proc, rito=None):
     m = re.search(r"Vara Federal da (Subse[çc][ãa]o Judici[áa]ria de (.+?)|Se[çc][ãa]o Judici[áa]ria d[ae] Bahia[^/]*)/BA", comp)
     if m:
         cidade = m.group(2) or "Salvador"
-        e = (f"AO JUÍZO DA [N]ª VARA FEDERAL DA SUBSEÇÃO JUDICIÁRIA DE {cidade.upper()} - BA" if m.group(2)
-             else "AO JUÍZO DA [N]ª VARA FEDERAL DA SEÇÃO JUDICIÁRIA DA BAHIA - BA")
+        e = (f"AO JUÍZO DA __ª VARA FEDERAL DA SUBSEÇÃO JUDICIÁRIA DE {cidade.upper()} - BA" if m.group(2)
+             else "AO JUÍZO DA __ª VARA FEDERAL DA SEÇÃO JUDICIÁRIA DA BAHIA - BA")
         out.update(fecho=f"{cidade} - BA", enderecamento=e, enderecamento_jec=e, enderecamento_comum=e)
         return out
     m = re.search(r"Comarca de (.+?)/BA", comp)
@@ -340,8 +341,9 @@ def foro(proc, rito=None):
         out["conferir"] = f"comarca {m.group(1)} fora de tjba_unidades.json"
         return out
     u = tab[chave]
-    out.update(fecho=f"{u['grafia_2026']} - BA", enderecamento_jec=u["jec"]["enderecamento"],
-               enderecamento_comum=u["comum"]["enderecamento"], conferir=u.get("conferir"))
+    vara = lambda e: e.replace("[N]ª", "__ª")  # noqa: E731  (número da vara: o distribuidor define)
+    out.update(fecho=f"{u['grafia_2026']} - BA", enderecamento_jec=vara(u["jec"]["enderecamento"]),
+               enderecamento_comum=vara(u["comum"]["enderecamento"]), conferir=u.get("conferir"))
     if rito in ("jec", "comum"):
         out["enderecamento"] = out["enderecamento_jec"] if rito == "jec" else out["enderecamento_comum"]
     out["jec_sem_vara_do_sistema"] = u["jec"]["tipo"] != "vara_do_sistema"

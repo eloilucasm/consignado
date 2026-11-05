@@ -1,6 +1,6 @@
 > **MINUTA DE TESTE — CASO FICTÍCIO. NÃO PROTOCOLAR.** Nenhum dado é de pessoa real (exceto a qualificação pública do réu, tirada de `references/dados/reus.json`). Gerada em 28/10/2026 a partir de `assets/modelo-inicial-nao-contratado.md`, `calculo.json` e do quadro de fatos desta pasta. Premissas do teste: o advogado respondeu **JEC** ao rito; juízo e cidade do fecho (Ilhéus - BA) vieram do endereço do autor; confirmou a tutela sobre o contrato ativo; ciência pela data de emissão do extrato e sem tentativa administrativa prévia (padrão do escritório). **Observação interna (Título 6): remover antes de protocolar.**
 
-AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BA
+AO JUÍZO DA __ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BA
 
 **EMENTA:** Empréstimo consignado não contratado. Beneficiária do INSS. Ausência de manifestação volitiva. Ato juridicamente inexistente. Desconto indevido sobre verba de natureza alimentar. Responsabilidade objetiva da instituição financeira. Repetição do indébito. Dano extrapatrimonial. Tutela de urgência para suspensão imediata dos descontos.
 
@@ -111,7 +111,7 @@ A orientação de que o desconto indevido em benefício de pessoa idosa extrapol
 
 Por cautela, afasta-se desde logo a alegação de prescrição. A pretensão não decorre de defeito de serviço contratado, mas da cobrança de valores sem lastro contratual, por averbações que a parte autora jamais autorizou. A Corte Especial do STJ decidiu, em caso de cobrança de serviços não contratados de telefonia fixa, que a repetição de indébito prescreve em dez anos, pelo art. 205 do Código Civil, e não em três **(EAREsp 738.991/RS, Rel. Min. Og Fernandes, j. 20/02/2019, DJe 11/06/2019; julgado de telefonia fixa, aplicado ao consignado por analogia)**.² Além disso, a declaração de inexistência da relação jurídica não está sujeita a prazo prescricional: o negócio nulo não convalesce pelo decurso do tempo (art. 169 do CC).
 
-Subsidiariamente, ainda que se aplicasse o prazo quinquenal do art. 27 do CDC, ele só começa a correr do conhecimento do dano e de sua autoria. A parte autora só soube da origem dos descontos em 10/08/2026, pelo Histórico de Empréstimo Consignado emitido em 28/10/2026. O prazo e o termo inicial aplicáveis são decisão do advogado responsável **[DECISÃO DO ADVOGADO: art. 27 do CDC ou art. 205 do CC]**.
+Aplica-se, portanto, o prazo decenal do art. 205 do Código Civil.
 
 ² BRASIL. Superior Tribunal de Justiça. Corte Especial. Embargos de Divergência em Agravo em Recurso Especial n. 738.991/RS. Relator: Ministro Og Fernandes. Julgado em: 20 fev. 2019. Publicado no DJe em: 11 jun. 2019.
 

@@ -319,7 +319,7 @@ h) **subsidiariamente** ao pedido g.1: [DECISÃO DO ADVOGADO: manter ou retirar 
    1. a anulação do refinanciamento por lesão (art. 157 do CC), com recálculo do saldo devedor deduzidos os valores pagos e aplicado o teto da Lei 14.690/2023;
    2. a revisão judicial do contrato, com abatimento dos valores pagos e vedação de novo refinanciamento sem anuência expressa e escrita da parte autora (art. 6º, V, do CDC);
 
-[[SE JUSTIÇA COMUM]] i) a condenação do réu ao pagamento das custas e dos honorários advocatícios de sucumbência (art. 85 do CPC); [[FIM]]
+[[SE JUSTIÇA COMUM]] i) a condenação do réu ao pagamento das custas e dos honorários advocatícios de sucumbência, em 20% (vinte por cento) sobre o valor da condenação (art. 85, § 2º, do CPC); [[FIM]]
 [[SE JEC]] (Sem pedido de custas e honorários: a sentença de primeiro grau não condena o vencido, salvo litigância de má-fé — art. 55 da Lei 9.099/95.) [[FIM]]
 
 Requer, ainda, que todas as intimações e publicações sejam feitas exclusivamente em nome de Diego Ramos Arléo Barbosa, OAB/BA nº 38.179, e Michael Santos Neves, OAB/BA nº 50.954.

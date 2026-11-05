@@ -9,9 +9,9 @@
   "foro": {
     "competencia": "Vara Cível da Comarca de Ilhéus/BA (tabela TJBA)",
     "fecho": "Ilhéus - BA",
-    "enderecamento": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BA",
-    "enderecamento_jec": "AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BA",
-    "enderecamento_comum": "AO JUÍZO DA [N]ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE ILHÉUS - BA",
+    "enderecamento": "AO JUÍZO DA __ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BA",
+    "enderecamento_jec": "AO JUÍZO DA __ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BA",
+    "enderecamento_comum": "AO JUÍZO DA __ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE ILHÉUS - BA",
     "conferir": null,
     "jec_sem_vara_do_sistema": false
   },
@@ -183,7 +183,7 @@
     {
       "fsc": 6,
       "status": "ATIVADO",
-      "achado": "contrato(s) 7001001, 7001002 com desconto iniciado há mais de 5 anos: tratar prescrição (decisão do advogado) e a data da ciência",
+      "achado": "contrato(s) 7001001, 7001002 com desconto iniciado há mais de 5 anos: o tópico de prescrição sustenta o prazo decenal (art. 205 do CC), sem perguntar ao advogado (padrão do escritório, 05/11/2026); registrar a data da ciência",
       "onde_na_peca": "fatos (ciência); tópico de prescrição"
     },
     {

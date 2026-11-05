@@ -74,7 +74,7 @@ Data da peça: 28/10/2026 · cartão RMC nº 90000001 · situação Ativo · cap
 
 ## Alertas
 
-- Confirmar nas faturas e com o cliente que, no cartão, só o mínimo é descontado em folha e o restante é pago por boleto: é a premissa pela qual o art. 4º da Res. CMN 4.549 não afasta a resolução (decisão D1 do escritório, 29/10/2026).
+- Premissa fixa (não se pergunta ao advogado): no cartão, só o mínimo é descontado em folha e o restante é pago por boleto; por isso o art. 4º da Res. CMN 4.549 não afasta a resolução (decisão D1, 29/10/2026). A peça mantém [CONFERIR: faturas].
 - Capital = limite do cartão (R$ 1.000,00), premissa: o extrato não informa o valor sacado.
 - Competências ausentes no histórico (não interpoladas): 06/2024. O total é piso.
 - Taxa de juros no refinanciamento (0.1%) não é menor que a de todos os meses vizinhos ([0.1, 0.1, 0.1]): o argumento da queda da taxa foi omitido.

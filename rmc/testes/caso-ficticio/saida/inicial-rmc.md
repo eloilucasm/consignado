@@ -1,6 +1,6 @@
 > **MINUTA DE TESTE — CASO FICTÍCIO. NÃO PROTOCOLAR.** Nenhum dado é de pessoa real (exceto a qualificação pública do réu, tirada de `references/dados/reus.json`). Gerada em 28/10/2026 a partir de `assets/modelo-inicial-rmc.md`, `calculo.json` e `calculo.md` desta pasta. As marcas `[CONFIRMAR]`, `[CONFERIR]`, `[VERIFICAR]` e `[DECISÃO]` ficam na minuta para o advogado; no Word recebem realce amarelo. As decisões D1 e D25 foram tomadas pelo escritório em 29/10/2026.
 
-AO JUÍZO DA [N]ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BA
+AO JUÍZO DA __ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BA
 
 **EMENTA:** Cartão de crédito consignado (RMC/RCC). Beneficiária do INSS. Refinanciamento do saldo pelo banco sem manifestação de vontade e sem repasse de numerário. Total pago superior a 200% do capital antes do refinanciamento. Teto de juros e encargos do art. 28, § 1º, da Lei 14.690/2023. Nulidade (art. 166, VI, do CC). Repetição do indébito em dobro. Dano extrapatrimonial. Tutela de urgência para suspensão imediata dos descontos.
 

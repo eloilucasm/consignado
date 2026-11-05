@@ -109,8 +109,8 @@ abaixo ou com outro arquivo desta skill, prevalecem estas:
   requisitos alternativos). Não chamar de inversão "de pleno direito".
 - Arts. 6º, III e 31, CDC → informação e transparência
 - Art. 27, CDC → prescrição quinquenal da pretensão por fato do serviço, a partir do conhecimento do
-  dano e da autoria (prazo e termo inicial no consignado: decisão do advogado; posição do STJ só com
-  acórdão conferido)
+  dano e da autoria (no consignado não se usa: a tese do escritório é só o prazo decenal do art. 205, CC;
+  posição do STJ só com acórdão conferido)
 - Art. 42, parágrafo único, CDC → repetição em dobro do indébito, salvo engano justificável.
 - **Tema Repetitivo 929/STJ: NÃO citar como fundamento** (decisão do escritório de 29/10/2026: o acórdão ainda não
   foi publicado e cabem embargos; o escritório avisará quando sair). A dobra se apoia no texto do art. 42, parágrafo

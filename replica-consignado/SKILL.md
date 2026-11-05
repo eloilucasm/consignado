@@ -1,6 +1,6 @@
 ---
 name: replica-consignado
-description: Redige a RÉPLICA (impugnação à contestação) em ação de empréstimo consignado do INSS (não contratado, migrado, Tese 1000 ou RMC) contra banco. Fixa o escopo pela inicial, monta o índice dos autos, faz as verificações forenses VF1 a VF9 sobre os documentos do banco (ficha do contrato, dados cadastrais, autenticação, IP e geolocalização, TED × valor liberado, correspondente, cessão, análise cruzada, mesma data), responde ponto a ponto cada preliminar e alegação, pausa para o advogado e entrega minuta em Markdown para a tipografia-azul. Acione com "réplica", "impugnação à contestação", "o banco contestou", "responder a contestação do consignado". Não use para petição inicial nem para recurso.
+description: Redige a RÉPLICA (impugnação à contestação) em ação de empréstimo consignado do INSS (não contratado, migrado, Tese 1000 ou RMC) contra banco. Fixa o escopo pela inicial, monta o índice dos autos, faz as verificações forenses VF1 a VF9 sobre os documentos do banco (ficha do contrato, dados cadastrais, autenticação, IP e geolocalização, TED × valor liberado, correspondente, cessão, análise cruzada, mesma data), responde ponto a ponto cada preliminar e alegação, pausa para o advogado e entrega minuta em Markdown e em Word (tipografia-azul). Acione com "réplica", "impugnação à contestação", "o banco contestou", "responder a contestação do consignado". Não use para petição inicial nem para recurso.
 ---
 
 # Réplica em ação de consignado
@@ -62,4 +62,4 @@ Estão em `references/normas/` (texto literal e datado) e `references/jurisprude
 
 ## Formatação
 
-Entregue Markdown. Ofereça gerar o Word com a skill `tipografia-azul`, que aplica o **realce amarelo** nas marcas de pendência.
+Entregue a peça em dois arquivos, com o mesmo nome: o Markdown (`.md`) e o Word (`.docx`). Gere o Word com a skill `tipografia-azul` (leia o SKILL.md dela por inteiro antes), sem esperar pedido; ela aplica o **realce amarelo** nas marcas de pendência e informa a contagem. Sem execução de código, entregue o Markdown e diga que o Word ficou pendente.
