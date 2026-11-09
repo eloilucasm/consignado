@@ -33,7 +33,9 @@ Considerando a necessidade de estabelecer critérios para as consignações nos 
 
 Art. 1º O desconto no valor d aposentadoria e pensão por morte pagas pela Previdência Social das parcelas referentes ao pagamento de empréstimo pessoal e cartão de crédito,concedidos por instituições financeiras,obedecerão ao disposto nesta Instrução Normativa.
 
-§ 1º Os benefícios referidos no caput, uma vez concedidos, permanecerão bloqueados para a realização de operações relacionadas à consignação de valores relativos a empréstimos, financiamentos, cartões de crédito e operações de arrendamento mercantil até que haja autorização expressa para desbloqueio por parte de seu titular ou representante legal. (incluído pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018) § 2º O desbloqueio referido no § 1º deste artigo somente poderá ser autorizado após noventa dias contados a partir da Data de Despacho do Benefício – DDB, por meio de serviço eletrônico com acesso autenticado, para tratamento das autorizações emitidas em meio físico ou eletrônico. (incluído pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018) (alterado pela Instrução Normativa nº 107 /PRES/INSS, de 22/7/2020, publicada no DOU 140, de 23/7/2020, Seção 1, pág. 51)
+§ 1º Os benefícios referidos no caput, uma vez concedidos, permanecerão bloqueados para a realização de operações relacionadas à consignação de valores relativos a empréstimos, financiamentos, cartões de crédito e operações de arrendamento mercantil até que haja autorização expressa para desbloqueio por parte de seu titular ou representante legal. (incluído pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
+
+§ 2º O desbloqueio referido no § 1º deste artigo somente poderá ser autorizado após noventa dias contados a partir da Data de Despacho do Benefício – DDB, por meio de serviço eletrônico com acesso autenticado, para tratamento das autorizações emitidas em meio físico ou eletrônico. (incluído pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018) (alterado pela Instrução Normativa nº 107 /PRES/INSS, de 22/7/2020, publicada no DOU 140, de 23/7/2020, Seção 1, pág. 51)
 
 § 2º Durante o estado de calamidade pública, reconhecido pelo Decreto Legislativo nº 6, de 20 de março de 2020, com efeitos até 31 de dezembro de 2020, o desbloqueio referido no § 1º somente poderá ser autorizado após 30 (trinta) dias contados a partir da Data de Despacho do Benefício – DDB, por meio de serviço eletrônico com acesso autenticado, para tratamento das autorizações emitidas em meio físico ou eletrônico.
 
@@ -57,7 +59,9 @@ I - autorização por meio eletrônico: rotina que permite confirmar a operaçã
 
 II - averbação: o aceite do contrato de crédito no sistema informatizado do INSS / Dataprev;
 
-III - beneficiário: o titular de aposentadoria ou de pensão por morte; IV - consignação: o desconto efetuado nos benefícios pagos pela Previdência Social, em razão de operação financeira de crédito;
+III - beneficiário: o titular de aposentadoria ou de pensão por morte;
+
+IV - consignação: o desconto efetuado nos benefícios pagos pela Previdência Social, em razão de operação financeira de crédito;
 
 V - consignações obrigatórias: os descontos obrigatórios a serem feitos na forma do inciso I do art. 12 desta Instrução Normativa; (alterado pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
@@ -75,7 +79,9 @@ IX - instituição financeira mantenedora de benefícios: a instituição pagado
 
 X - instituição financeira pagadora de benefícios: a instituição pagadora de benefícios da Previdência Social autorizada a conceder empréstimo pessoal e cartão de crédito, por meio de troca de informações em meio magnético, com desconto no valor do benefício pelo INSS / Dataprev e repasse desse valor em data posterior;
 
-XI - instituição financeira não pagadora de benefícios: a instituição que concede empréstimo pessoal e cartão de crédito por meio de troca de informações em meio magnético, com desconto no valor do benefício pelo INSS/Dataprev e repasse desse valor em data posterior; XII - repactuação/refinanciamento: a renegociação pelo beneficiário do empréstimo pessoal em novos prazos, taxas e/ou novos valores;
+XI - instituição financeira não pagadora de benefícios: a instituição que concede empréstimo pessoal e cartão de crédito por meio de troca de informações em meio magnético, com desconto no valor do benefício pelo INSS/Dataprev e repasse desse valor em data posterior;
+
+XII - repactuação/refinanciamento: a renegociação pelo beneficiário do empréstimo pessoal em novos prazos, taxas e/ou novos valores;
 
 XIII - Reserva de Margem Consignável - RMC: o limite reservado no valor da renda mensal do benefício para uso exclusivo do cartão de crédito; e
 
@@ -101,7 +107,9 @@ II - mediante contrato firmado e assinado com apresentação do documento de ide
 
 III - a autorização seja dada de forma expressa,por escrito ou por meio eletrônico e em caráter irrevogável e irretratável,não sendo aceita autorização dada por telefone e nem a gravação de voz reconhecida como meio de prova de ocorrência. (alterado pela Instrução Normativa INSS/PRESS nº 39, de 18 de junho de 2009)
 
-III - a autorização seja dada de forma expressa, por escrito ou por meio eletrônico e em caráter irrevogável e irretratável, não sendo aceita autorização dada por telefone e nem a gravação de voz reconhecida como meio de prova de ocorrência. IV - o representante legal (tutor ou curador) poderá autorizar o desconto no respectivo benefício elegível de seu tutelado ou curatelado, na forma do caput, mediante autorização judicial; (incluído pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
+III - a autorização seja dada de forma expressa, por escrito ou por meio eletrônico e em caráter irrevogável e irretratável, não sendo aceita autorização dada por telefone e nem a gravação de voz reconhecida como meio de prova de ocorrência.
+
+IV - o representante legal (tutor ou curador) poderá autorizar o desconto no respectivo benefício elegível de seu tutelado ou curatelado, na forma do caput, mediante autorização judicial; (incluído pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
 V - a revogação ou a destituição dos poderes ao representante legal não atingem os atos praticados durante sua vigência, salvo decisão judicial dispondo o contrário; (incluído pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
@@ -127,7 +135,9 @@ I - até 30% (trinta por cento) para as operações de empréstimo pessoal; e II
 
 § 2º Observado o disposto no § 1º, quando o beneficiário não contratar cartão de crédito, isto implicará em ampliação do percentual da margem consignável para empréstimo pessoal até o limite de 30% (trinta por cento). (alterado pela INSTRUÇÃO NORMATIVA INSS/PRES Nº 37, DE 1º DE ABRIL DE 2009 - DOU DE 02/04/2009)
 
-§ 2º Observado o disposto no § 1º, a não utilização do limite de uma modalidade de crédito não implica ampliação do percentual da outra. (alterado pela Instrução Normativa INSS/PRESS nº 39, de 18 de junho de 2009) § 2º Caso o beneficiário opte por contratar a modalidade de cartão de crédito, ficará reservada sua margem consignável no montante fixo de 10% (dez por cento), observado o disposto no parágrafo anterior. (revogado pela Instrução Normativa INSS/PRESS nº 80, de 14 de agosto de 2015)
+§ 2º Observado o disposto no § 1º, a não utilização do limite de uma modalidade de crédito não implica ampliação do percentual da outra. (alterado pela Instrução Normativa INSS/PRESS nº 39, de 18 de junho de 2009)
+
+§ 2º Caso o beneficiário opte por contratar a modalidade de cartão de crédito, ficará reservada sua margem consignável no montante fixo de 10% (dez por cento), observado o disposto no parágrafo anterior. (revogado pela Instrução Normativa INSS/PRESS nº 80, de 14 de agosto de 2015)
 
 § 3º A autorização, por escrito ou por meio eletrônico, para a efetivação da consignação, retenção ou constituição de RMC valerá enquanto subscrita pelo titular do benefício, não persistindo, por sucessão, em relação aos respectivos pensionistas e dependentes. (alterado pela Instrução Normativa INSS/PRESS nº 39, de 18 de junho de 2009)
 
@@ -149,7 +159,9 @@ I - até 30% (trinta por cento) para as operações de empréstimo pessoal; e II
 
 § 7º A instituição financeira que receber uma solicitação do beneficiário para cancelamento do cartão de crédito, deverá procedê-lo imediatamente, devendo enviar o comando de exclusão da Reserva de Margem Consignável - RMC, à Dataprev, no prazo máximo de cinco dias úteis da data da liquidação do saldo devedor.(alterado pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
-§ 8º Caso o beneficiário opte por contratar a modalidade cartão de crédito, ficará reservada sua margem consignável no montante fixo de 10% (dez por cento), observado o disposto no parágrafo 1º. (incluído pela Instrução Normativa INSS/PRES nº 37, de 1º de abril de 2009) (revogado pela Instrução Normativa INSS/PRESS nº 80, de 14 de agosto de 2015) § 9º A pré-autorização de que trata o inciso XV do art. 2º é pré-requisito para disponibilização das informações do beneficiário, necessárias à elaboração do contrato, cujo instrumento deverá ser disponibilizado em canal eletrônico, contendo documento de identificação do beneficiário e termo de autorização digitalizados. (incluído pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
+§ 8º Caso o beneficiário opte por contratar a modalidade cartão de crédito, ficará reservada sua margem consignável no montante fixo de 10% (dez por cento), observado o disposto no parágrafo 1º. (incluído pela Instrução Normativa INSS/PRES nº 37, de 1º de abril de 2009) (revogado pela Instrução Normativa INSS/PRESS nº 80, de 14 de agosto de 2015)
+
+§ 9º A pré-autorização de que trata o inciso XV do art. 2º é pré-requisito para disponibilização das informações do beneficiário, necessárias à elaboração do contrato, cujo instrumento deverá ser disponibilizado em canal eletrônico, contendo documento de identificação do beneficiário e termo de autorização digitalizados. (incluído pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
 § 10. Será dispensada a apresentação do termo de autorização digitalizado de que trata o § 9º deste artigo quando produzido de forma eletrônica, caso em que deverá ser enviado arquivo contendo os requisitos de segurança que garantam sua integridade e não repúdio." (incluído pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
@@ -169,7 +181,9 @@ Art. 6º A inobservância do disposto no art. 5º implicará total responsabilid
 
 Art. 7º A concessão de empréstimo pessoal e cartão de crédito será feita a critério da instituição consignatária, sendo os valores e demais condições objeto de livre negociação entre ela e o beneficiário, respeitadas as demais disposições desta Instrução Normativa.
 
-Art. 8º As informações necessárias à formalização do contrato de crédito poderão ser obtidas: I - pelos beneficiários, diretamente no sítio eletrônico da Previdência Social (www.previdencia.gov.br/), na opção serviços/extratos de pagamentos; e
+Art. 8º As informações necessárias à formalização do contrato de crédito poderão ser obtidas:
+
+I - pelos beneficiários, diretamente no sítio eletrônico da Previdência Social (www.previdencia.gov.br/), na opção serviços/extratos de pagamentos; e
 
 II - pelas instituições financeiras, valendo-se de dados fornecidos pelo respectivo beneficiário.
 
@@ -189,7 +203,9 @@ II - pagos por intermédio de empresa convenente.
 
 Art. 11. O disposto nesta Instrução Normativa não se aplica às seguintes espécies de benefícios assistenciais:
 
-I - renda mensal vitalícia por invalidez ou idade; II - pensão mensal vitalícia do seringueiro; e III - Benefícios de Prestação Continuada - BPC (Lei Orgânica da Assistência Social - LOAS).
+I - renda mensal vitalícia por invalidez ou idade;
+
+II - pensão mensal vitalícia do seringueiro; e III - Benefícios de Prestação Continuada - BPC (Lei Orgânica da Assistência Social - LOAS).
 
 CAPÍTULO IV DA IDENTIFICAÇÃO DA MARGEM CONSIGNÁVEL
 
@@ -199,7 +215,9 @@ Art. 12. A identificação do limite de 35% (trinta e cinco por cento) de que tr
 
 Art. 12. A identificação do limite de 35% (trinta e cinco por cento) de que trata o § 1º do art. 3º dar-se-á após a dedução das seguintes consignações obrigatórias:
 
-I - consignações obrigatórias: contribuições devidas pelo segurado à Previdência Social; pagamento de benefícios além do devido; imposto de renda; e pensão alimentícia judicial; (alterado pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018) I - contribuições devidas pelo segurado à Previdência Social;
+I - consignações obrigatórias: contribuições devidas pelo segurado à Previdência Social; pagamento de benefícios além do devido; imposto de renda; e pensão alimentícia judicial; (alterado pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
+
+I - contribuições devidas pelo segurado à Previdência Social;
 
 II - consignações voluntárias: mensalidades de associações e demais entidades de aposentados/pensionistas legalmente reconhecidas, desde que autorizadas por seus filiados. (alterado pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
@@ -207,7 +225,11 @@ II - pagamento de benefícios além do devido;
 
 III - imposto de renda retido na fonte; e (incluído pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
-IV - pensão alimentícia fixada por: a) decisão judicial; b) acordo homologado pela Defensoria Pública ou Ministério Público; ou c) estabelecida em escritura pública nos casos em que legalmente admitida. (incluído pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
+IV - pensão alimentícia fixada por:
+
+a) decisão judicial;
+
+b) acordo homologado pela Defensoria Pública ou Ministério Público; ou c) estabelecida em escritura pública nos casos em que legalmente admitida. (incluído pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
 § 1º Na hipótese de coexistência de descontos da alínea "b" do inciso I do caput, com o empréstimo pessoal e/ou cartão de crédito, prevalecerá o desconto previsto na alínea "b", inciso I. (alterado pela Instrução Normativa INSS/PRESS nº 80, de 14 de agosto de 2015)
 
@@ -251,7 +273,9 @@ CAPÍTULO VI DO CARTÃO DE CRÉDITO
 
 Art. 15. Os titulares dos benefícios previdenciários de aposentadoria e pensão por morte, pagos pela Previdência Social, poderão constituir RMC para utilização de cartão de crédito, de acordo com os seguintes critérios, observado no que couber o disposto no art. 58 desta Instrução Normativa:
 
-I - a constituição de RMC somente poderá ocorrer após a solicitação formal firmada pelo titular do benefício, por escrito ou por meio eletrônico, sendo vedada à instituição financeira: emitir cartão de crédito adicional ou derivado; e cobrar taxa de manutenção ou anuidade; II - a instituição financeira poderá cobrar até R$ 15,00 (quinze reais) de taxa pela emissão do cartão que, a critério do beneficiário, poderá ser parcelada em até três vezes.
+I - a constituição de RMC somente poderá ocorrer após a solicitação formal firmada pelo titular do benefício, por escrito ou por meio eletrônico, sendo vedada à instituição financeira: emitir cartão de crédito adicional ou derivado; e cobrar taxa de manutenção ou anuidade;
+
+II - a instituição financeira poderá cobrar até R$ 15,00 (quinze reais) de taxa pela emissão do cartão que, a critério do beneficiário, poderá ser parcelada em até três vezes.
 
 Parágrafo único. O valor previsto no inciso II do caput poderá ser atualizado anualmente, a partir de 1º de janeiro de 2020, de acordo com a variação do Índice de Preços ao Consumidor Amplo – IPCA do ano anterior. (incluído pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
@@ -275,7 +299,9 @@ III - a taxa de juros não poderá ser superior a 3,06% (três vírgula zero sei
 
 III - a taxa de juros não poderá ser superior a três inteiros por cento (3%) ao mês, de forma que expresse o custo efetivo; (alterado pela Instrução Normativa nº 106 /PRES/INSS, de 18 de março de 2020)
 
-III - a taxa de juros não poderá ser superior a dois inteiros e setenta centésimos por cento (2,70%) de forma que expresse o custo efetivo; IV - é vedada a cobrança da TAC e quaisquer outras taxas administrativas, exceto a prevista no inciso II do art. 15 e § 1º deste artigo; e
+III - a taxa de juros não poderá ser superior a dois inteiros e setenta centésimos por cento (2,70%) de forma que expresse o custo efetivo;
+
+IV - é vedada a cobrança da TAC e quaisquer outras taxas administrativas, exceto a prevista no inciso II do art. 15 e § 1º deste artigo; e
 
 V - o beneficiário, ao constituir a RMC, não poderá ser onerado com a cobrança de qualquer custo adicional de manutenção ou anuidade, excetuando o previsto nesta Instrução Normativa, de forma que a taxa de juros expresse o custo efetivo do cartão de crédito.
 
@@ -315,7 +341,9 @@ Art. 20. Para a efetivação da consignação/retenção/constituição de RMC n
 
 Art. 20. Para a efetivação da consignação/retenção/constituição de RMC nos benefícios previdenciários, as instituições financeiras que firmarem convênio com o INSS deverão encaminhar à Dataprev, até o segundo dia útil de cada mês, conforme procedimentos previstos no protocolo de integração definido entre as partes, para processamento no referido mês.
 
-Parágrafo único. Para os comandos de exclusões de empréstimos/RMC/cartão de crédito, deverá ser observado o mesmo prazo do caput. (alterado pela Instrução Normativa INSS/PRES nº 37, de 1º de abril de 2009) Parágrafo único. Os comandos de exclusões de empréstimo/ RMC/cartão de crédito, não serão aceitos durante o período de processamento da folha de pagamento dos beneficiários da Previdência Social.
+Parágrafo único. Para os comandos de exclusões de empréstimos/RMC/cartão de crédito, deverá ser observado o mesmo prazo do caput. (alterado pela Instrução Normativa INSS/PRES nº 37, de 1º de abril de 2009)
+
+Parágrafo único. Os comandos de exclusões de empréstimo/ RMC/cartão de crédito, não serão aceitos durante o período de processamento da folha de pagamento dos beneficiários da Previdência Social.
 
 Art. 21. A instituição financeira, ao realizar as operações de consignação/retenção/constituição de RMC dos titulares de benefícios deverá, sem prejuízo de outras informações legais exigidas (art. 52 do Código de Defesa do Consumidor - CDC), observar a regulamentação expedida pelo Conselho Monetário Nacional e pelo Banco Central do Brasil, em especial as disposições constantes da Resolução nº 2.878, de 26 de julho de 2001, e alterações posteriores, bem como dar ciência prévia ao beneficiário, no mínimo, das seguintes informações: (alterado pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
@@ -363,11 +391,19 @@ V - o número do CNPJ do correspondente bancário e o número do Cadastro de Pes
 
 V - imagem em tamanho real do cartão de crédito contratado, ainda que com gravura meramente ilustrativa;
 
-VI - o tipo de operação realizada (cartão de crédito, reserva de margem consignável), indicado de forma clara e objetiva, discriminando com clareza sua forma de pagamento; (alterado pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018) VI - necessariamente como última informação do documento, espaço para preenchimento de local, data e assinatura do cliente;
+VI - o tipo de operação realizada (cartão de crédito, reserva de margem consignável), indicado de forma clara e objetiva, discriminando com clareza sua forma de pagamento; (alterado pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
+
+VI - necessariamente como última informação do documento, espaço para preenchimento de local, data e assinatura do cliente;
 
 VII - informações quanto: (alterado pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
-a) ao montante dos juros de mora e da taxa efetiva anual de juros; b) aos acréscimos legalmente previstos; c) ao número e periodicidade das prestações, incluindo seus termos inicial e final; e d) à soma total a pagar, com e sem financiamento. Parágrafo único. Quando da omissão de qualquer uma das informações disciplinadas nos incisos de I a VII do caput, a operação será considerada irregular e não autorizada, sendo motivo de exclusão da consignação, cabendo exclusivamente à entidade consignatária ressarcir ao beneficiário, conforme disposto no art. 47, § 5º. (incluído pela Instrução Normativa INSS/PRES nº 94, de 1º de março de 2018)
+a) ao montante dos juros de mora e da taxa efetiva anual de juros;
+
+b) aos acréscimos legalmente previstos;
+
+c) ao número e periodicidade das prestações, incluindo seus termos inicial e final; e d) à soma total a pagar, com e sem financiamento.
+
+Parágrafo único. Quando da omissão de qualquer uma das informações disciplinadas nos incisos de I a VII do caput, a operação será considerada irregular e não autorizada, sendo motivo de exclusão da consignação, cabendo exclusivamente à entidade consignatária ressarcir ao beneficiário, conforme disposto no art. 47, § 5º. (incluído pela Instrução Normativa INSS/PRES nº 94, de 1º de março de 2018)
 
 VII - as seguintes inscrições, todas registradas em fonte com tamanho doze e na ordem aqui apresentada:
 
@@ -453,13 +489,23 @@ V - o CNPJ da agência bancária que realizou a contratação quando realizado n
 
 VI - outras informações definidas em ato complementar pelo INSS e previstas no termo de pré-autorização.(incluído pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
-§ 1º Para contrato de cartão de crédito o valor constante no campo "valor do contrato", onde deverá constar o limite de crédito disponibilizado ao beneficiário, não pode ser superior a duas vezes o valor mensal do benefício. § 2º O contrato celebrado não poderá ser alterado, podendo somente ocorrer a sua exclusão do sistema e averbação de um novo.
+§ 1º Para contrato de cartão de crédito o valor constante no campo "valor do contrato", onde deverá constar o limite de crédito disponibilizado ao beneficiário, não pode ser superior a duas vezes o valor mensal do benefício.
+
+§ 2º O contrato celebrado não poderá ser alterado, podendo somente ocorrer a sua exclusão do sistema e averbação de um novo.
 
 Art. 31. O primeiro desconto na renda do benefício dar-se-á no primeiro mês subseqüente ao do envio das informações pelas instituições financeiras para a Dataprev, desde que encaminhadas no prazo previsto no art. 20 desta Instrução Normativa.
 
 Art. 32. As operações de averbação, exclusão e reativação processadas mensalmente pela Dataprev serão identificadas como:
 
-I - consignação de empréstimo: código 98 e rubrica 216; II - retenção: código 75 e rubrica 321; III - RMC: código 76 e rubrica 322; IV - as operações de consignação efetuadas com cartão de crédito: código 77 e rubrica 217; e V - consignação empréstimo "Viaja Mais - Melhor Idade": código 71 e rubrica 216. VI - consignação empréstimo “Programa Mais Farmácia”: código 56 e rubrica 249. (incluído pela Instrução Normativa nº 92 /PRES/INSS, de 28 de dezembro de 2017) (Revogado conforme Instrução Normativa nº 95/PRES/INSS, de 3 de maio de 2018)
+I - consignação de empréstimo: código 98 e rubrica 216;
+
+II - retenção: código 75 e rubrica 321;
+
+III - RMC: código 76 e rubrica 322;
+
+IV - as operações de consignação efetuadas com cartão de crédito: código 77 e rubrica 217; e V - consignação empréstimo "Viaja Mais - Melhor Idade": código 71 e rubrica 216.
+
+VI - consignação empréstimo “Programa Mais Farmácia”: código 56 e rubrica 249. (incluído pela Instrução Normativa nº 92 /PRES/INSS, de 28 de dezembro de 2017) (Revogado conforme Instrução Normativa nº 95/PRES/INSS, de 3 de maio de 2018)
 
 Art. 33. A Dataprev disponibilizará ao INSS, em sistema de informações próprio, os dados das operações de crédito consignado em nível gerencial e operacional, para a rotina de acompanhamento do atendimento das instituições financeiras e cumprimento desta Instrução Normativa.
 
@@ -493,7 +539,9 @@ III - encerramento de agência bancária.
 
 § 2º Caso não haja agência bancária da instituição financeira que realizou o empréstimo, será permitida a transferência do benefício para outro município, alterando a modalidade de retenção para consignação.
 
-Art. 38. A Dirben verificará, trimestralmente, a situação de regularidade das instituições financeiras no SIAFI/SICAF, bem como se não integram o Cadastro Informativo de Créditos não Quitados- CADIN, oficiando à CGOFC, em caso de pendências. § 1º Na existência dependência registrada, o repasse dos valores consignados ficará suspenso até a efetiva regularização.
+Art. 38. A Dirben verificará, trimestralmente, a situação de regularidade das instituições financeiras no SIAFI/SICAF, bem como se não integram o Cadastro Informativo de Créditos não Quitados- CADIN, oficiando à CGOFC, em caso de pendências.
+
+§ 1º Na existência dependência registrada, o repasse dos valores consignados ficará suspenso até a efetiva regularização.
 
 § 2º Se a pendência não for regularizada no prazo de quinze dias contados da comunicação da ocorrência, a Dirben suspenderá o recebimento de novas averbações da instituição financeira até a efetiva regularização.
 
@@ -511,7 +559,9 @@ Art. 41. Na ocorrência de cessação de benefício com data retroativa ou de ev
 
 § 1º Caso o valor das glosas/deduções ultrapassem aquele a ser repassado à instituição financeira, a diferença apurada deverá ser transferida ao INSS, na data prevista no art. 35 desta Instrução Normativa, em atendimento à comunicação prévia à instituição concessora, por meio da mensagem específica, via STR, ou recolhimento na forma a ser indicada pela CGOFC.
 
-§ 2º O contrato de empréstimo e/ou de cartão de crédito é uma operação entre instituição financeira e beneficiário, devendo eventuais acertos de valores sobre retenções/consignações ser ajustados entre as partes. Art. 42. A glosa será considerada indevida quando aplicada em função de óbito de homônimo e sua regularização ocorrerá no próximo repasse, quando da geração de informações pela Dataprev para complemento de repasse para a instituição financeira envolvida.
+§ 2º O contrato de empréstimo e/ou de cartão de crédito é uma operação entre instituição financeira e beneficiário, devendo eventuais acertos de valores sobre retenções/consignações ser ajustados entre as partes.
+
+Art. 42. A glosa será considerada indevida quando aplicada em função de óbito de homônimo e sua regularização ocorrerá no próximo repasse, quando da geração de informações pela Dataprev para complemento de repasse para a instituição financeira envolvida.
 
 Parágrafo único. Na impossibilidade da regularização prevista no caput, o INSS poderá utilizar dos meios disponíveis para devolução ao beneficiário, para que este acerte a pendência perante a instituição financeira.
 
@@ -531,11 +581,17 @@ Art. 43. O beneficiário ou representante legal, conforme inciso IV do art. 3º,
 
 § 5º Os benefícios concedidos observarão o disposto no § 1º do art. 1º. (incluído pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
-Art. 44. A exclusão de empréstimo, RMC e parcelamento do cartão de crédito poderá ser efetuada pela instituição financeira ou pela APS. (alterado pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018) Art. 44. A exclusão de empréstimo, RMC e parcelamento do cartão de crédito poderá ser efetuada pela instituição financeira ou por meio de serviço eletrônico com acesso autenticado.
+Art. 44. A exclusão de empréstimo, RMC e parcelamento do cartão de crédito poderá ser efetuada pela instituição financeira ou pela APS. (alterado pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
+
+Art. 44. A exclusão de empréstimo, RMC e parcelamento do cartão de crédito poderá ser efetuada pela instituição financeira ou por meio de serviço eletrônico com acesso autenticado.
 
 § 1º A APS excluirá o empréstimo por determinação judicial, pelos órgãos de controle ou por solicitação da Dirben. (alterado pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
-§ 1º A APS excluirá o empréstimo por determinação: I - judicial; II - dos órgãos de controle; ou III - da Dirben, por interesse do INSS, inclusive quando se mostrar inviável a automação do procedimento.
+§ 1º A APS excluirá o empréstimo por determinação:
+
+I - judicial;
+
+II - dos órgãos de controle; ou III - da Dirben, por interesse do INSS, inclusive quando se mostrar inviável a automação do procedimento.
 
 § 2º A reativação de uma operação de crédito somente poderá ser realizada pela APS e dar-se-á por determinação judicial, pelos órgãos de controle, pela Dirben ou pelo próprio titular do benefício, sendo, no caso deste último, necessário seu comparecimento ou do representante legalmente constituído à APS. (alterado pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
@@ -555,7 +611,11 @@ Art. 45. As reclamações, críticas e sugestões pertinentes aos créditos cons
 
 Art. 46. O beneficiário que, a qualquer momento, se sentir prejudicado por operações irregulares ou inexistentes ou que identificar descumprimento do contrato por parte da instituição financeira ou, ainda, de normas estabelecidas por esta Instrução Normativa, deverá registrar sua reclamação como segue: (alterado pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
-Art. 46. O beneficiário que, a qualquer momento, se sentir prejudicado por operações irregulares ou inexistentes ou que identificar descumprimento do contrato por parte da instituição financeira ou, ainda, de normas estabelecidas por esta IN, poderá registrar sua reclamação na OGPS, como segue: I - no sítio eletrônico da Previdência Social (www.previdencia.gov.br); II - na Central de Atendimento da Previdência Social, pelo telefone número 135; ou III - excepcionalmente, nas APS. (revogado pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
+Art. 46. O beneficiário que, a qualquer momento, se sentir prejudicado por operações irregulares ou inexistentes ou que identificar descumprimento do contrato por parte da instituição financeira ou, ainda, de normas estabelecidas por esta IN, poderá registrar sua reclamação na OGPS, como segue:
+
+I - no sítio eletrônico da Previdência Social (www.previdencia.gov.br);
+
+II - na Central de Atendimento da Previdência Social, pelo telefone número 135; ou III - excepcionalmente, nas APS. (revogado pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
 § 1º Na hipótese de o beneficiário apresentar a reclamação na APS, esta providenciará, de imediato, a sua inclusão on line no sistema da OGPS, fornecendo o código de registro ao beneficiário com os elementos necessários para viabilizar a análise e, quando for o caso, os dados para ressarcimento dos valores descontados indevidamente. (revogado pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
@@ -575,7 +635,9 @@ II - a Dataprev recepcionará os registros e aplicará fluxo automatizado para t
 
 III - a Dirben, após o recebimento das respostas encaminhadas pelas instituições financeiras, verificará: (alterado pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
-III - As instituições financeiras terão prazo de até dez dias úteis para envio das informações citadas no inciso II do caput; IV - a Dataprev, após recebimento das respostas encaminhadas pelas instituições financeiras, verificará: (incluído pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
+III - As instituições financeiras terão prazo de até dez dias úteis para envio das informações citadas no inciso II do caput;
+
+IV - a Dataprev, após recebimento das respostas encaminhadas pelas instituições financeiras, verificará: (incluído pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
 a) se a reclamação for improcedente, as informações e os documentos apresentados pelas instituições financeiras, bem como outras informações relevantes, serão incluídos no sistema da OGPS, que comunicará ao beneficiário; e
 
@@ -597,7 +659,9 @@ b) se a reclamação for procedente, será efetuada a exclusão dos descontos, c
 
 § 5º Caberá, exclusivamente à instituição financeira, a responsabilidade pela devolução do valor consignado/retido indevidamente, no prazo máximo de dois dias úteis da constatação da irregularidade, corrigido com base na variação da SELIC, desde a data da averbação da consignação/retenção até o dia útil anterior ao da efetiva devolução, observada a forma disposta no art. 23 desta Instrução Normativa, enviando comprovante à Dirben. (alterado pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
-§ 5º Caberá, exclusivamente à instituição financeira, a responsabilidade pela devolução do valor consignado/retido indevidamente, no prazo máximo de dois dias úteis da constatação da irregularidade, corrigido com base na variação da SELIC, desde a data de vencimento da parcela referente ao desconto indevido em folha, até o dia útil anterior ao da efetiva devolução, observada a forma disposta no art. 23, enviando comprovante à Dataprev. § 6º A margem consignável ficará bloqueada enquanto estiver pendente de decisão a reclamação de que trata este artigo. (incluído pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
+§ 5º Caberá, exclusivamente à instituição financeira, a responsabilidade pela devolução do valor consignado/retido indevidamente, no prazo máximo de dois dias úteis da constatação da irregularidade, corrigido com base na variação da SELIC, desde a data de vencimento da parcela referente ao desconto indevido em folha, até o dia útil anterior ao da efetiva devolução, observada a forma disposta no art. 23, enviando comprovante à Dataprev.
+
+§ 6º A margem consignável ficará bloqueada enquanto estiver pendente de decisão a reclamação de que trata este artigo. (incluído pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
 Art. 48. Quando a reclamação for considerada procedente por irregularidade na contratação ou consignação/averbação incorreta ou indevida em benefício, a instituição financeira deverá:
 
@@ -621,7 +685,9 @@ Art. 49. Quando o beneficiário não concordar com o resultado da resposta comun
 
 Art. 49. Quando o beneficiário não concordar com o resultado da resposta comunicada nos termos da alínea "a", inciso IV, art. 47, deverá contestar junto às instituições de proteção e defesa do consumidor.
 
-Parágrafo único. Caso a resposta do novo registro de que trata o caput seja: I - procedente: será mantida a exclusão da operação e a instituição financeira deverá adotar, no que couber, o disposto no § 5º do art. 47, e inciso II, §§ 2º e 3º do art. 48 desta Instrução Normativa;
+Parágrafo único. Caso a resposta do novo registro de que trata o caput seja:
+
+I - procedente: será mantida a exclusão da operação e a instituição financeira deverá adotar, no que couber, o disposto no § 5º do art. 47, e inciso II, §§ 2º e 3º do art. 48 desta Instrução Normativa;
 
 II - improcedente: a Dirben solicitará à APS a reativação da consignação ou RMC, observado o disposto no § 2º do art. 44 desta Instrução Normativa; e
 
@@ -647,7 +713,9 @@ I - suspensão do recebimento de novas consignações/retenções/RMC pelo prazo
 
 a) reclamações ou recomendações oriundas de órgãos de fiscalização e/ou de defesa do consumidor, por prática lesiva ao beneficiário, referente à concessão de créditos; ou
 
-b) sentenças judiciais transitadas em julgado em que a instituição financeira tenha sido condenada por prática lesiva ao beneficiário ou ao INSS; II - suspensão do recebimento de novas consignações/retenções/RMC, pelo prazo mínimo de cinco dias e enquanto perdurar o motivo determinante, nos seguintes casos:
+b) sentenças judiciais transitadas em julgado em que a instituição financeira tenha sido condenada por prática lesiva ao beneficiário ou ao INSS;
+
+II - suspensão do recebimento de novas consignações/retenções/RMC, pelo prazo mínimo de cinco dias e enquanto perdurar o motivo determinante, nos seguintes casos:
 
 a) não atendimento ao disposto nos §§ 3º e 5° do art. 47, art. 48 e inciso I do parágrafo único do art. 49 desta Instrução Normativa; ou
 
@@ -691,7 +759,9 @@ VII - a CGGPB decidirá nos autos, concordando com a Nota Técnica expedida pela
 
 VII - da decisão da CGGPB caberá recurso hierárquico, no prazo de dez dias, contados da ciência da decisão, que será direcionado à autoridade que prolatou a decisão, a qual, não a reconsiderando no prazo de cinco dias, deverá encaminhar os autos à Dirben, para decisão no prazo de trinta dias, a partir do seu recebimento; e
 
-IX - da decisão da Dirben caberá novo recurso hierárquico, no prazo de dez dias, contados da ciência da decisão, direcionado à autoridade que prolatou a decisão, a qual, não reconsiderando no prazo de cinco dias, deverá encaminhar os autos à Presidência do INSS, no prazo de trinta dias a partir do seu recebimento. § 1º Os recursos hierárquicos previstos neste artigo não têm efeito suspensivo, salvo se assim expressamente deferidos, de ofício ou mediante requerimento, pela autoridade recorrida ou pela autoridade competente para decidir o recurso, em casos de justo receio de prejuízo de difícil ou incerta reparação decorrente da execução, devidamente motivados.
+IX - da decisão da Dirben caberá novo recurso hierárquico, no prazo de dez dias, contados da ciência da decisão, direcionado à autoridade que prolatou a decisão, a qual, não reconsiderando no prazo de cinco dias, deverá encaminhar os autos à Presidência do INSS, no prazo de trinta dias a partir do seu recebimento.
+
+§ 1º Os recursos hierárquicos previstos neste artigo não têm efeito suspensivo, salvo se assim expressamente deferidos, de ofício ou mediante requerimento, pela autoridade recorrida ou pela autoridade competente para decidir o recurso, em casos de justo receio de prejuízo de difícil ou incerta reparação decorrente da execução, devidamente motivados.
 
 § 2º A DCONB manterá controle dos processos de apuração e responsabilidade em curso ou já julgados para fins de avaliar eventual reincidência em condutas irregulares, para fins de dosimetria da sanção a ser eventualmente aplicada."
 
@@ -711,7 +781,9 @@ Parágrafo único. O INSS disporá em ato próprio o valor dos encargos a serem 
 
 § 5º Os custos específicos, relativos às operações de tecnologia da informação, poderão ser cobrados diretamente pela Dataprev às instituições financeiras e sociedades de arrendamento mercantil, na forma a ser definida pelo ato referido no § 2º deste artigo. (Incluído pela Instrução Normativa nº 100 /PRES/INSS, de 28/12/2018)
 
-Art. 54. A contratação de empréstimo ou cartão de crédito constitui uma operação entre instituição financeira e beneficiário, cabendo, unicamente às partes, zelar pelo seu cumprimento. Parágrafo único. Eventuais necessidades de acertos de valores sobre retenções/consignações pagas ou contratadas deverão ser objeto de ajuste entre o beneficiário e a instituição financeira.
+Art. 54. A contratação de empréstimo ou cartão de crédito constitui uma operação entre instituição financeira e beneficiário, cabendo, unicamente às partes, zelar pelo seu cumprimento.
+
+Parágrafo único. Eventuais necessidades de acertos de valores sobre retenções/consignações pagas ou contratadas deverão ser objeto de ajuste entre o beneficiário e a instituição financeira.
 
 Art. 55. Eventuais dúvidas sobre a operacionalização da contratação de empréstimo e cartão de crédito deverão ser dirimidas com a instituição financeira.
 
@@ -723,7 +795,17 @@ Art. 57. A instituição financeira que, após firmar convênio com o INSS/Datap
 
 Art. 58. A partir da vigência desta Instrução Normativa serão regulamentadas por portaria do Presidente do INSS eventuais alterações relativas:
 
-I - à atualização dos limites das margens consignáveis; II - à alteração de taxa de juros aplicada às operações de crédito; III - aos prazos de pagamento; IV - à alteração ou vedação de cobrança de taxas administrativas. V - as taxas de emissão de cartão de crédito e valor do seguro; VI - ao limite máximo de comprometimento no cartão de crédito; e VII - à quantidade de operações de empréstimo e cartão de crédito por benefício.
+I - à atualização dos limites das margens consignáveis;
+
+II - à alteração de taxa de juros aplicada às operações de crédito;
+
+III - aos prazos de pagamento;
+
+IV - à alteração ou vedação de cobrança de taxas administrativas.
+
+V - as taxas de emissão de cartão de crédito e valor do seguro;
+
+VI - ao limite máximo de comprometimento no cartão de crédito; e VII - à quantidade de operações de empréstimo e cartão de crédito por benefício.
 
 CAPÍTULO XIV DAS DISPOSIÇÕES FINAIS E TRANSITÓRIAS
 
@@ -731,7 +813,9 @@ Art. 59. As instituições financeiras que já celebraram convênio com o INSS/D
 
 § 1º A implementação das alterações em contrato físico do previsto nos incisos VII e VIII do art. 21, ocorrerá em trinta dias a partir da data de publicação desta Instrução Normativa. (incluído pela Instrução Normativa INSS/PRES nº 43, de 19 de janeiro de 2010)
 
-§ 2º O INSS, Dataprev e FEBRABAN farão os ajustes no protocolo CNAB 240, previstos no inciso VIII do art. 21 desta instrução. A comunicação do novo formato e o prazo para implantação será feita por meio de ofício pelo INSS. (incluído pela Instrução Normativa INSS/PRES nº 43, de 19 de janeiro de 2010) Art. 60. Esta Instrução Normativa entra em vigor na data de sua publicação.
+§ 2º O INSS, Dataprev e FEBRABAN farão os ajustes no protocolo CNAB 240, previstos no inciso VIII do art. 21 desta instrução. A comunicação do novo formato e o prazo para implantação será feita por meio de ofício pelo INSS. (incluído pela Instrução Normativa INSS/PRES nº 43, de 19 de janeiro de 2010)
+
+Art. 60. Esta Instrução Normativa entra em vigor na data de sua publicação.
 
 Art. 60-A. As atualizações e posteriores alterações dos Anexos desta Instrução Normativa poderão ser objeto de Despacho Decisório da Dirben. (incluído pela Instrução Normativa INSS/PRESS nº 80, de 14 de agosto de 2015)
 

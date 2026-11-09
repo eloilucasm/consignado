@@ -25,7 +25,6 @@ const PROIBIDOS = [
   { re: /nenhuma das normas de reg[êe]ncia autoriza|Opera[çc][ãa]o Sem Desconto/i, msg: 'migração "que nenhuma norma autoriza" (a IN 138, art. 11, e a IN 28, art. 56, admitem a cessão) ou Operação Sem Desconto como contexto de consignado (ela apurou descontos associativos)' },
   { re: /\[(?:VERIFICAR|CONFERIR)[^\]]{0,80}(?:data de publica[çc][ãa]o|DJe|DOU|encontro e data|contagem do prazo|situa[çc][ãa]o do tema)/i, msg: 'marca de data de publicação, vigência ou situação de tema (protocolo, "Datas de julgamento, publicação e vigência": a skill resolve; omita o elemento sem fonte e relate na nota de entrega)' },
   { re: /S[úu]mula 30 (?:da Turma|do TJBA)|desvio produtivo/i, msg: 'Súmula 30/TJBA (desvio produtivo): o escritório não faz reclamação administrativa (decisão de 30/10/2026)' },
-  { re: /Lei (?:n[ºo.]? ?)?14[.]905/, msg: 'Lei 14.905/2024 nos pedidos de correção e juros (decisão de 30/10/2026: não se aplica)' },
   { re: /nega a contrata[çc][ãa]o de origem|nega ter firmado esse contrato, com o banco de origem/i, msg: 'migrado: nega-se a migração, não a contratação de origem (decisão de 30/10/2026)' },
   { re: /\[CONFIRMAR COM O CLIENTE/, msg: 'marca de confirmação com o cliente: os fatos do cliente são presumidos (decisão de 30/10/2026)' },
   { re: /(?:^|\n)#{0,3} ?\**A[ÇC][ÃA]O (?:DECLARAT|[A-ZÀ-Ú]{4,} )/, msg: 'nome da ação em caixa alta (decisão de 30/10/2026: só a primeira letra de cada palavra principal em maiúscula)' },
@@ -90,6 +89,7 @@ module.exports = {
     ],
     avisosCondicionais: [
       { se: /barreira t[ée]cnica/i, exige: /barreira t[ée]cnica[^\n]{0,200}CONFERIR/i, msg: '"barreira técnica" sem a marca [CONFERIR] da fonte (D28)' },
+      { se: /Lei (?:n[ºo.]? ?)?14[.]905/, exige: /observada a Lei 14[.]905\/2024 a partir de 30\/08\/2024/, msg: 'Lei 14.905/2024 fora da forma do protocolo: só a ressalva "observada a Lei 14.905/2024 a partir de 30/08/2024"' },
       { se: /Tema 929/, exige: /VERIFICAR ANTES DE PROTOCOLAR/, msg: 'cita o Tema 929/STJ sem a marca [VERIFICAR ANTES DE PROTOCOLAR]' },
       { se: /IN 143|IN PRES\/INSS 138/, exige: /CONFERIR/, msg: 'trata de biometria sem marca [CONFERIR] sobre o prazo prorrogado pela IN 143/2023' },
     ],

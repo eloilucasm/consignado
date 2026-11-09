@@ -24,7 +24,7 @@ No Cowork, rode os scripts e **confira por segunda via**:
 python3 scripts/calcular.py --ficha ficha.json --processo N --extrato extrato.pdf --data AAAA-MM-DD --saida pasta/ [--rito jec|comum] [--extrato-bancario sim|nao] [--dossie-pre-acao]
 ```
 
-Eles leem o extrato (`scripts/extrato.py`, requer `pip install pypdf`), contam descontos, calculam dobro e valor da causa e gravam `calculo.json` e `calculo.md`. Sem execução de código, faça a tabela à mão, refaça por outro caminho e marque `CÁLCULO A CONFERIR`. O extrato novo deve ter a primeira leitura conferida contra o PDF: o leitor foi herdado do pacote AMN e só foi testado aqui com extrato fictício.
+Eles leem o extrato (`scripts/extrato.py`, requer `pip install pypdf`), contam descontos, calculam dobro e valor da causa e gravam `calculo.json` e `calculo.md`. Sem execução de código, faça a tabela à mão, refaça por outro caminho e marque `[CÁLCULO A CONFERIR]`. O extrato novo deve ter a primeira leitura conferida contra o PDF: o leitor foi herdado do pacote AMN e só foi testado aqui com extrato fictício.
 
 ## Entrega e portões
 

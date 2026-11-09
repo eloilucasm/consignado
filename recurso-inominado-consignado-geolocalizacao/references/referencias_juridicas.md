@@ -96,7 +96,6 @@ abaixo ou com outro arquivo desta skill, prevalecem estas:
     biométrico. Marco: [CONFERIR: calcular pela regra de contagem do escritório (D3), a partir da vigência de 13/12/2022
     e da prorrogação]. Não afirmar que contrato sem biometria descumpre a IN sem calcular o marco e examinar o acesso
     autenticado.
-  - art. 38, § 3º → remete à IN 28/2008 "enquanto da vigência" (confirma a transição entre as duas)
   - art. 39 → revoga a IN INSS/PRES nº 28/2008
   - A IN não trata de geolocalização nos trechos conferidos: a tese de geolocalização se apoia nos arts. 14, § 3º,
     CDC e 411/412 CPC e na prova do log, nunca em dispositivo da IN. Citar só os artigos acima, sem
@@ -185,8 +184,11 @@ abaixo ou com outro arquivo desta skill, prevalecem estas:
 # ADENDO A — RECURSO INOMINADO / TURMA RECURSAL (RITO DO JEC)
 
 ## RITO RECURSAL (Lei 9.099/95)
-- Art. 35, IV → vedação à prova pericial complexa no JEC (referência à
-  complexidade probatória; conferir redação ao citar)
+- Art. 3º, caput, e art. 51, II → o JEC julga causas de menor complexidade, aferida pelo
+  objeto da prova (Enunciado 54 do FONAJE); prova pericial complexa torna o procedimento
+  inadmissível. Fundamento para afastar a perícia complexa no JEC
+- Art. 35 → o juiz pode inquirir técnicos de sua confiança e as partes podem apresentar
+  parecer técnico (perícia informal: Enunciado 12 do FONAJE)
 - Art. 41 → cabimento do recurso inominado contra a sentença
 - Art. 42 → prazo de 10 dias; interposição por petição escrita com razões
 - Art. 12-A (incluído pela Lei 13.728/2018) → "Na contagem de prazo em dias, estabelecido por lei
@@ -219,7 +221,9 @@ abaixo ou com outro arquivo desta skill, prevalecem estas:
 - Art. 1.009, CPC → cabimento da apelação contra a sentença
 - Art. 1.003, § 5º, CPC → prazo de 15 dias úteis
 - Art. 1.010, CPC → requisitos da petição de apelação
-- Art. 1.012, CPC → efeito devolutivo em regra; suspensivo excepcional
+- Art. 1.012, CPC → a apelação tem efeito suspensivo (caput). Nas hipóteses do § 1º, entre elas a
+  sentença que confirma, concede ou revoga tutela provisória (inciso V), a sentença produz efeitos de
+  imediato e o efeito suspensivo depende de requerimento ao tribunal ou ao relator (§§ 3º e 4º)
 - Art. 98, § 1º, CPC → dispensa de preparo com gratuidade
 - Art. 85, § 11, CPC → honorários recursais, somados aos já fixados
 

@@ -43,10 +43,22 @@ def inicio(linha):
     return t or "(sem texto na primeira linha)"
 
 
+def titulo_de(linhas):
+    """Primeiro "# " depois do cabeçalho YAML; sem ele, o campo titulo do cabeçalho."""
+    fim = linhas.index("---", 1) + 1 if linhas and linhas[0] == "---" and "---" in linhas[1:] else 0
+    for l in linhas[fim:]:
+        if l.startswith("# "):
+            return l[2:].strip()
+    for l in linhas[:fim]:
+        if l.startswith("titulo:"):
+            return l[7:].strip().strip('"').replace('\\"', '"')
+    return (linhas[0] if linhas else "").lstrip("# ").strip()
+
+
 def mapear(arq):
     texto = arq.read_text(encoding="utf-8").replace("\r\n", "\n")
     linhas = texto.split("\n")
-    titulo = (linhas[0] if linhas else "").lstrip("# ").strip()
+    titulo = titulo_de(linhas)
     out = []
     for n, l in enumerate(linhas, 1):
         m = ART.match(l)

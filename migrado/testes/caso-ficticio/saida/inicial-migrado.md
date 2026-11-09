@@ -36,9 +36,7 @@ A causa é de competência do Juizado Especial Cível (art. 3º, I, da Lei 9.099
 
 # Dos fatos
 
-A parte autora é beneficiária do INSS (NB 999.999.999-9, aposentadoria por idade), e o benefício previdenciário é a sua única fonte de renda ****.
-
-Em 10/08/2026, ao consultar o Histórico de Empréstimo Consignado emitido pelo INSS em 28/10/2026 (anexo), a parte autora tomou conhecimento de descontos de contratos de empréstimo consignado migrados para o réu sem sua autorização, relacionados a seguir.
+A parte autora é beneficiária do INSS, percebendo aposentadoria por idade (NB 999.999.999-9). Em 10/08/2026, ao consultar o Histórico de Empréstimo Consignado emitido pelo INSS em 28/10/2026 (anexo), a parte autora tomou conhecimento de descontos de contratos de empréstimo consignado migrados para o réu sem sua autorização, relacionados a seguir.
 
 O extrato registra, no campo "Origem da Averbação", que os contratos impugnados foram averbados pelo réu como migração de contrato anteriormente mantido com outra instituição financeira:
 
@@ -53,7 +51,7 @@ O extrato registra, no campo "Origem da Averbação", que os contratos impugnado
 | 7001003 | Migrado do contrato 7001003 CBC: 934 | 934 | 19/01/2025 | 02/2025 | 09/2026 | R$ 77,80 | 20 | R$ 1.556,00 | R$ 3.112,00 | ATIVO |
 | **Total** | | | | | | | | R$ 5.826,62 | R$ 11.653,24 | |
 
-*Fonte: Histórico de Empréstimo Consignado do INSS, emitido em 28/10/2026 (anexo). CÁLCULO A CONFERIR.*
+*Fonte: Histórico de Empréstimo Consignado do INSS, emitido em 28/10/2026 (anexo).* **[CÁLCULO A CONFERIR]**
 
 O extrato registra ainda o mesmo número do contrato 7001003 sob o código 934 (BANCO ORIGEM FICTICIO S.A.), excluído em 15/01/2025 por "Exclusão por troca de titularidade", com 11 parcelas de R$ 77,80 entre 02/2024 e 12/2024. A contagem de descontos deste quadro **não inclui** os registrados no banco anterior **[DECISÃO DO ADVOGADO; script: --incluir-outros-bancos]**.
 
@@ -127,7 +125,7 @@ O dispositivo ressalva apenas o engano justificável. Descontos mensais de empr�
 
 **Contrato nº 7001003.** Até a presente data, a parte autora suportou 20 parcelas, cuja soma resulta em R$ 1.556,00 (mil, quinhentos e cinquenta e seis reais). Assim, o banco deve restituir os valores descontados em dobro, que correspondem a R$ 3.112,00 (três mil, cento e doze reais).
 
-Totalizando, R$ 11.653,24 (onze mil, seiscentos e cinquenta e três reais e vinte e quatro centavos). ***CÁLCULO A CONFERIR.***
+Totalizando, R$ 11.653,24 (onze mil, seiscentos e cinquenta e três reais e vinte e quatro centavos). **[CÁLCULO A CONFERIR]**
 
 ## O dano extrapatrimonial é devido e decorre da natureza alimentar da verba
 
@@ -234,7 +232,7 @@ Quanto aos contratos já excluídos (nº 7001001 e nº 7001002), a exclusão já
 
 A tutela provisória pode fundamentar-se em urgência ou evidência (art. 294 do CPC). Aqui se pede a de urgência, que será concedida quando houver elementos que evidenciem a probabilidade do direito e o perigo de dano ou o risco ao resultado útil do processo (art. 300 do CPC).
 
-A probabilidade do direito resulta da negativa específica de contratação, da titularidade do benefício e dos documentos anexos, e do ônus que a lei impõe ao banco (tópico da inversão do ônus). O perigo de dano está no desconto mensal sobre verba alimentar, única renda da parte autora ****, que se renova a cada competência.
+A probabilidade do direito resulta da negativa específica de contratação, da titularidade do benefício e dos documentos anexos, e do ônus que a lei impõe ao banco (tópico da inversão do ônus). O perigo de dano está no desconto mensal sobre verba alimentar, que se renova a cada competência.
 
 Não há perigo de irreversibilidade (art. 300, § 3º, do CPC): a suspensão dos descontos pode ser revertida se o banco comprovar a contratação.
 
@@ -276,7 +274,7 @@ Requer, ainda, que todas as intimações e publicações sejam feitas exclusivam
 
 # Do valor da causa
 
-Dá-se à causa o valor de R$ 36.632,44 (trinta e seis mil, seiscentos e trinta e dois reais e quarenta e quatro centavos), correspondente à soma da restituição em dobro (R$ 11.653,24), do dano extrapatrimonial (R$ 20.000,00) e do proveito econômico declaratório, equivalente às parcelas vincendas dos contratos ativos (R$ 4.979,20) (art. 292, II e VI, do CPC). *CÁLCULO A CONFERIR.*
+Dá-se à causa o valor de R$ 36.632,44 (trinta e seis mil, seiscentos e trinta e dois reais e quarenta e quatro centavos), correspondente à soma da restituição em dobro (R$ 11.653,24), do dano extrapatrimonial (R$ 20.000,00) e do proveito econômico declaratório, equivalente às parcelas vincendas dos contratos ativos (R$ 4.979,20) (art. 292, II e VI, do CPC). **[CÁLCULO A CONFERIR]**
 
 Termos em que, pede deferimento.
 

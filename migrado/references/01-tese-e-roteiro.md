@@ -17,7 +17,7 @@ O modelo do escritório (Francisco x Agibank) dizia que a migração é "figura 
 A migração, portanto, é **permitida**, desde que atenda às normas do BCB e do CMN. Se a petição disser o contrário, o banco cita o art. 11 e a peça perde credibilidade. A tese correta tem três passos, todos no modelo (decisão do escritório de 29/10/2026: **não** sustentar a inexistência do crédito cedido, porque o argumento é perigoso; trabalhar só a hipótese de a cessão não ter sido notificada ao devedor):
 
 1. **A cessão não vale contra o devedor sem notificação** (CC, art. 290). O extrato não mostra notificação nem ciência. `[VERIFICAR]` a aplicação do art. 290 à troca de titularidade da carteira de consignado.
-2. **Se o banco alegar nova contratação**, ela exigiria instrumento e autorização assinados (IN 28, art. 5º; IN 138, art. 5º, II e III). A origem "Migrado" mostra que o banco não se apresenta como autor de nova contratação.
+2. **Se o banco alegar nova contratação**, ela exigiria instrumento e autorização assinados (IN 28, arts. 3º, II e III, e 5º; IN 138, art. 5º, II e III). A origem "Migrado" mostra que o banco não se apresenta como autor de nova contratação.
 3. **Inexistência por falta de consentimento** (CC, art. 104), com o ônus da prova no banco (CDC, art. 14, § 3º; CPC, art. 429, II; Tema 1061/STJ).
 
 **Pendente:** o escritório informou que há uma petição de migrado mais robusta, que deve orientar esta skill. Ela ainda não foi incorporada (arquivo não localizado na pasta do projeto em 29/10/2026).

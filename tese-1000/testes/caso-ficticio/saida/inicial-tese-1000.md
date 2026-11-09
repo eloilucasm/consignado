@@ -36,9 +36,7 @@ A causa é de competência do Juizado Especial Cível (art. 3º, I, da Lei 9.099
 
 # Dos fatos
 
-A parte autora é beneficiária do INSS (NB 999.999.999-9, aposentadoria por idade), e o benefício previdenciário é a sua única fonte de renda ****.
-
-Em 10/08/2026, ao consultar o Histórico de Empréstimo Consignado emitido pelo INSS em 28/10/2026 (anexo), a parte autora tomou conhecimento de contrato com numeração terminada em sufixo ("_0001"), nº 51-000111/00001_0001, vinculado ao réu, com descontos nas competências de 09/2018 a 07/2019.
+A parte autora é beneficiária do INSS, percebendo aposentadoria por idade (NB 999.999.999-9). Em 10/08/2026, ao consultar o Histórico de Empréstimo Consignado emitido pelo INSS em 28/10/2026 (anexo), a parte autora tomou conhecimento de contrato com numeração terminada em sufixo ("_0001"), nº 51-000111/00001_0001, vinculado ao réu, com descontos nas competências de 09/2018 a 07/2019.
 
 A análise do histórico mostra que o número-raiz do contrato derivado (51-000111/00001) é o mesmo de contrato anterior atribuído à parte autora, averbado em 05/05/2015 e excluído em 11/08/2018 (motivo registrado: "Exclusão Banco"). A reinclusão deu-se no próprio dia da exclusão: o extrato registra, em 11/08/2018, a exclusão do contrato-raiz e a averbação do contrato derivado ("Averbação nova"), sem intervalo entre uma e outra.
 
@@ -50,7 +48,7 @@ Esta ação tem por objeto exclusivamente o contrato derivado, sem discutir a va
 | 51-000111/00001 | raiz | 05/05/2015 | | | | | | | EXCLUÍDO em 11/08/2018 |
 | **Total** | | | | | | | R$ 371,25 | R$ 742,50 | |
 
-*Fonte: Histórico de Empréstimo Consignado do INSS, emitido em 28/10/2026 (anexo). CÁLCULO A CONFERIR.*
+*Fonte: Histórico de Empréstimo Consignado do INSS, emitido em 28/10/2026 (anexo).* **[CÁLCULO A CONFERIR]**
 
 Sequência registrada no extrato:
 
@@ -112,7 +110,7 @@ O dispositivo ressalva apenas o engano justificável. Descontos mensais de contr
 
 **Contrato nº 51-000111/00001_0001.** Até a presente data, a parte autora suportou 11 parcelas, cuja soma resulta em R$ 371,25 (trezentos e setenta e um reais e vinte e cinco centavos). Assim, o banco deve restituir os valores descontados em dobro, que correspondem a R$ 742,50 (setecentos e quarenta e dois reais e cinquenta centavos).
 
-Totalizando, R$ 742,50 (setecentos e quarenta e dois reais e cinquenta centavos). ***CÁLCULO A CONFERIR.***
+Totalizando, R$ 742,50 (setecentos e quarenta e dois reais e cinquenta centavos). **[CÁLCULO A CONFERIR]**
 
 ## O dano extrapatrimonial é devido e decorre da natureza alimentar da verba
 
@@ -143,7 +141,7 @@ A verossimilhança está no próprio extrato: o mesmo número-raiz, a exclusão 
 | Documento | Fundamento | Se não for apresentado |
 |---|---|---|
 | Instrumento contratual próprio do derivado (CCB), datado da averbação | Art. 429, II, do CPC; Tema 1061/STJ; IN 28/2008, art. 5º (até 12/12/2022) | O fato impeditivo não está provado, e isso se valora contra o banco (art. 373, II, do CPC) |
-| Autorização expressa da consignação do derivado | IN 28/2008, art. 5º (até 12/12/2022) | Mesma consequência |
+| Autorização expressa da consignação do derivado | IN 28/2008, art. 3º, III (até 12/12/2022) | Mesma consequência |
 | Comprovante do crédito de valor novo em conta de titularidade da parte autora, idêntico ao liberado no extrato | Art. 14, § 3º, do CDC; art. 373, II, do CPC | Mesma consequência |
 | Registro do motivo da exclusão do contrato-raiz e da razão da averbação do derivado | Art. 373, II, do CPC | Mesma consequência |
 
@@ -236,7 +234,7 @@ Requer, ainda, que todas as intimações e publicações sejam feitas exclusivam
 
 # Do valor da causa
 
-Dá-se à causa o valor de R$ 20.742,50 (vinte mil, setecentos e quarenta e dois reais e cinquenta centavos), correspondente à soma da restituição em dobro (R$ 742,50) e do dano extrapatrimonial (R$ 20.000,00) (art. 292, II e VI, do CPC). *CÁLCULO A CONFERIR.*
+Dá-se à causa o valor de R$ 20.742,50 (vinte mil, setecentos e quarenta e dois reais e cinquenta centavos), correspondente à soma da restituição em dobro (R$ 742,50) e do dano extrapatrimonial (R$ 20.000,00) (art. 292, II e VI, do CPC). **[CÁLCULO A CONFERIR]**
 
 Termos em que, pede deferimento.
 

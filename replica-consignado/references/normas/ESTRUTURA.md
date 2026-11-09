@@ -4,7 +4,7 @@ Gerado por `node _manutencao/gerar-estrutura.js` (não edite à mão). Os númer
 
 **Regra:** nunca leia uma norma inteira. Ache o dispositivo aqui, depois leia só a janela (Read com offset/limit) ou use `grep -n "^Art. 73"`. Nas normas sem divisão (portarias curtas), `grep -n` direto. Conferir a redação vigente ao fato gerador continua valendo.
 
-## ---
+## Lei nº 10.406/2002 — Código Civil
 `cc.md` · 9384 linhas
 
 - L39–40 · LIVRO I DAS PESSOAS (s/ artigos)
@@ -455,7 +455,7 @@ Gerado por `node _manutencao/gerar-estrutura.js` (não edite à mão). Os númer
     - L9379–9380 · CAPÍTULO VII DA ANULAÇÃO DA PARTILHA (s/ artigos)
 - L9381–9384 · LIVRO COMPLEMENTAR DAS DISPOSIÇÕES FINAIS E TRANSITÓRIAS (s/ artigos)
 
-## ---
+## Lei nº 8.078/1990 — Código de Defesa do Consumidor
 `cdc.md` · 1118 linhas
 
 - L45–46 · TÍTULO I Dos Direitos do Consumidor (s/ artigos)
@@ -478,7 +478,7 @@ Gerado por `node _manutencao/gerar-estrutura.js` (não edite à mão). Os númer
 - L1055–1066 · TÍTULO V Da Convenção Coletiva de Consumo (Art. 107 a Art. 108)
 - L1067–1118 · TÍTULO VI Disposições Finais (Art. 109 a Art. 119)
 
-## ---
+## Lei nº 13.105/2015 — Código de Processo Civil
 `cpc.md` · 8622 linhas
 
 - L43–44 · PARTE GERAL (s/ artigos)
@@ -616,46 +616,46 @@ Gerado por `node _manutencao/gerar-estrutura.js` (não edite à mão). Os númer
       - L8051–8418 · CAPÍTULO VI DOS RECURSOS PARA O SUPREMO TRIBUNAL FEDERAL E PARA O SUPERIOR TRIBUNAL DE JUSTIÇA (Art. 1.027 a Art. 1.044)
   - L8419–8622 · LIVRO COMPLEMENTAR DISPOSIÇÕES FINAIS E TRANSITÓRIAS (Art. 1.045 a Art. 1.072)
 
-## ---
+## Decreto nº 12.797/2025 — Salário mínimo a partir de 1º/1/2026
 `dec-12797.md` · 57 linhas
 
 _Norma curta: leia inteira ou use `grep -n`._
 
-## ---
-`in-inss-138-2022-consolidada.md` · 826 linhas
+## IN PRES/INSS nº 138/2022 — texto consolidado "com as alterações" (PDF do INSS, atualizado em 19/5/2026)
+`in-inss-138-2022-consolidada.md` · 922 linhas
 
-- L77–352 · CAPÍTULO I DAS DISPOSIÇÕES GERAIS (Art. 3º a Art. 11)
-- L353–478 · CAPÍTULO II DAS ESPECIFICIDADES DO CRÉDITO CONSIGNADO (Art. 13 a Art. 16)
-- L479–606 · CAPÍTULO III DA OPERACIONALIZAÇÃO DO CRÉDITO CONSIGNADO (Art. 17 a Art. 26)
-- L607–796 · CAPÍTULO IV DAS RESPONSABILIDADES (Art. 27 a Art. 36)
-- L797–826 · CAPÍTULO V DAS DISPOSIÇÕES FINAIS E TRANSITÓRIAS (Art. 38 a Art. 40)
+- L79–394 · CAPÍTULO I DAS DISPOSIÇÕES GERAIS (Art. 3º a Art. 11)
+- L395–526 · CAPÍTULO II DAS ESPECIFICIDADES DO CRÉDITO CONSIGNADO (Art. 13 a Art. 16)
+- L527–664 · CAPÍTULO III DA OPERACIONALIZAÇÃO DO CRÉDITO CONSIGNADO (Art. 17 a Art. 26)
+- L665–890 · CAPÍTULO IV DAS RESPONSABILIDADES (Art. 27 a Art. 37)
+- L891–922 · CAPÍTULO V DAS DISPOSIÇÕES FINAIS E TRANSITÓRIAS (Art. 38 a Art. 40)
 
-## ---
+## IN PRES/INSS nº 143, de 10 de fevereiro de 2023 — altera a IN 138/2022
 `in-inss-143-2023.md` · 82 linhas
 
 _Norma curta: leia inteira ou use `grep -n`._
 
-## ---
-`in-inss-28-2008-consolidada-2020.md` · 901 linhas
+## IN INSS/PRES nº 28, de 16 de maio de 2008 — texto consolidado "atualizado 22.07.2020" (REVOGADA)
+`in-inss-28-2008-consolidada-2020.md` · 985 linhas
 
-- L86–177 · CAPÍTULO II DA AUTORIZAÇÃO DO DESCONTO (Art. 3º a Art. 9º)
-- L178–193 · CAPÍTULO III DAS ESPÉCIES DE BENEFÍCIOS (Art. 10 a Art. 11)
-- L194–249 · CAPÍTULO IV DA IDENTIFICAÇÃO DA MARGEM CONSIGNÁVEL (Art. 12 a Art. 14)
-- L250–309 · CAPÍTULO VI DO CARTÃO DE CRÉDITO (Art. 15 a Art. 18)
-- L310–435 · CAPÍTULO VIII PROCEDIMENTOS DAS INSTITUIÇÕES FINANCEIRAS (Art. 19 a Art. 28)
-- L436–473 · CAPÍTULO IX DOS PROCEDIMENTOS DA DATAPREV (Art. 29 a Art. 34-A)
-- L474–549 · CAPÍTULO X DOS PROCEDIMENTOS DO INSS Seção I – Direção Central (Art. 35 a Art. 44)
-- L550–641 · CAPÍTULO XI DAS RECLAMAÇÕES À OUVIDORIA-GERAL DA PRE- (Art. 45 a Art. 51)
-- L642–697 · CAPÍTULO XII DAS PENALIDADES (Art. 52 a Art. 52-A)
-- L698–727 · CAPÍTULO XIII DISPOSIÇÕES GERAIS (Art. 53 a Art. 58)
-- L728–901 · CAPÍTULO XIV DAS DISPOSIÇÕES FINAIS E TRANSITÓRIAS (Art. 59 a Art. 61)
+- L92–191 · CAPÍTULO II DA AUTORIZAÇÃO DO DESCONTO (Art. 3º a Art. 9º)
+- L192–209 · CAPÍTULO III DAS ESPÉCIES DE BENEFÍCIOS (Art. 10 a Art. 11)
+- L210–271 · CAPÍTULO IV DA IDENTIFICAÇÃO DA MARGEM CONSIGNÁVEL (Art. 12 a Art. 14)
+- L272–335 · CAPÍTULO VI DO CARTÃO DE CRÉDITO (Art. 15 a Art. 18)
+- L336–471 · CAPÍTULO VIII PROCEDIMENTOS DAS INSTITUIÇÕES FINANCEIRAS (Art. 19 a Art. 28)
+- L472–519 · CAPÍTULO IX DOS PROCEDIMENTOS DA DATAPREV (Art. 29 a Art. 34-A)
+- L520–605 · CAPÍTULO X DOS PROCEDIMENTOS DO INSS Seção I – Direção Central (Art. 35 a Art. 44)
+- L606–707 · CAPÍTULO XI DAS RECLAMAÇÕES À OUVIDORIA-GERAL DA PRE- (Art. 45 a Art. 51)
+- L708–767 · CAPÍTULO XII DAS PENALIDADES (Art. 52 a Art. 52-A)
+- L768–809 · CAPÍTULO XIII DISPOSIÇÕES GERAIS (Art. 53 a Art. 58)
+- L810–985 · CAPÍTULO XIV DAS DISPOSIÇÕES FINAIS E TRANSITÓRIAS (Art. 59 a Art. 61)
 
-## ---
+## INs de 2022 que alteraram a IN INSS/PRES 28/2008 (INs 131, 136 e 137)
 `in-inss-alteradoras-da-in28-2022.md` · 184 linhas
 
 _Sem divisão em títulos/capítulos no texto: use `grep -n "^Art. N"`._
 
-## ---
+## Lei nº 10.741/2003 — Estatuto da Pessoa Idosa
 `lei-10741.md` · 1194 linhas
 
 - L45–110 · TÍTULO I Disposições Preliminares (Art. 1º a Art. 7º)
@@ -689,12 +689,12 @@ _Sem divisão em títulos/capítulos no texto: use `grep -n "^Art. N"`._
   - L939–1044 · CAPÍTULO II Dos Crimes em Espécie (Art. 95 a Art. 108)
 - L1045–1194 · TÍTULO VII Disposições Finais e Transitórias (Art. 109 a Art. 118)
 
-## ---
+## Lei nº 14.905/2024 — Atualização monetária e juros
 `lei-14905.md` · 106 linhas
 
 _Norma curta: leia inteira ou use `grep -n`._
 
-## ---
+## Lei nº 9.099/1995 — Juizados Especiais
 `lei-9099.md` · 656 linhas
 
 - L31–38 · CAPÍTULO I — Disposições Gerais (Art. 1º a Art. 2º)
@@ -702,7 +702,7 @@ _Norma curta: leia inteira ou use `grep -n`._
 - L421–632 · CAPÍTULO III — Dos Juizados Especiais Criminais (Art. 60 a Art. 92)
 - L633–656 · CAPÍTULO IV — Disposições Finais Comuns (Art. 93 a Art. 97)
 
-## ---
+## Lei nº 13.709/2018 — LGPD
 `lgpd.md` · 1346 linhas
 
 - L43–206 · CAPÍTULO I DISPOSIÇÕES PRELIMINARES (Art. 1º a Art. 6º)
@@ -718,7 +718,7 @@ _Norma curta: leia inteira ou use `grep -n`._
 - L881–1268 · CAPÍTULO IX — (Redação dada pela Lei nº 15.352, de 2026) (Art. 55 a Art. 59)
 - L1269–1346 · CAPÍTULO X DISPOSIÇÕES FINAIS E TRANSITÓRIAS (Art. 60 a Art. 65)
 
-## ---
+## Resolução CMN nº 3.954, de 24 de fevereiro de 2011 — texto ORIGINAL (correspondentes no País)
 `res-cmn-3954-original.md` · 297 linhas
 
 - L60–117 · CAPÍTULO II — DO OBJETO DO CONTRATO DE CORRESPONDENTE (Art. 8º a Art. 9º)
@@ -728,7 +728,7 @@ _Norma curta: leia inteira ou use `grep -n`._
 - L206–223 · CAPÍTULO VI — DA DIVULGAÇÃO DE INFORMAÇÕES (Art. 15 a Art. 16)
 - L224–297 · CAPÍTULO VII — DISPOSIÇÕES GERAIS (Art. 17 a Art. 23)
 
-## ---
+## Resolução CMN nº 4.935, de 29 de julho de 2021 — contratação de correspondentes no País
 `res-cmn-4935.md` · 338 linhas
 
 - L31–34 · CAPÍTULO IDO OBJETO (Art. 1º)

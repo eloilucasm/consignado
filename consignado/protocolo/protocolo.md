@@ -51,7 +51,7 @@ Ao fim de cada etapa, escreva um **resumo de continuidade** (o que está no quad
 
 Estes fatos são **presumidos confirmados pelo cliente**. Escreva-os sem `[CONFIRMAR COM O CLIENTE]` e sem `[CONFERIR]`, e não os devolva ao advogado como pendência:
 
-- O benefício previdenciário é a única fonte de renda; as despesas básicas (medicamentos, contas essenciais) são o destino dos valores descontados.
+- O benefício previdenciário tem natureza alimentar; as despesas básicas (medicamentos, contas essenciais) são o destino dos valores descontados. **Não afirme que é a única fonte de renda:** há quem receba mais de um benefício. Os fatos abrem num só parágrafo com a espécie e o NB do benefício deste processo: "A parte autora é beneficiária do INSS, percebendo [espécie] (NB [NB]). Em [data], ao analisar o Histórico…" (padrão do escritório, 05/11/2026).
 - O cliente não foi consultado, contatado nem informado; não assinou instrumento, não deu autorização biométrica e não manifestou vontade de contratar, migrar, refinanciar ou transferir dívida; não houve proposta nem aceite. No RMC, o relato de boa-fé (acreditava que os descontos amortizavam a dívida) entra como relato.
 - **Ciência dos descontos:** pela análise do extrato de consignado (Histórico de Empréstimo Consignado). A data da ciência é a **data de emissão do extrato**. Só use outra data se o quadro de fatos trouxer data anterior documentada.
 - **Migrado: nega-se a migração, nunca a contratação de origem.** A peça não diz que o cliente "jamais firmou" o contrato de origem nem "nega a contratação de origem", mesmo quando o número do contrato é o mesmo no banco de origem e no réu (a troca de titularidade pode manter ou mudar o número). O cliente contratou com o banco de origem; não consentiu com a migração.
@@ -73,7 +73,9 @@ Valem para toda peça do pacote, sem marca:
 | Dano moral | **R$ 20.000,00**, sempre. Caráter punitivo-pedagógico mantido; **não** cite a Súmula 326/STJ para isso (trata de sucumbência) |
 | Desvio produtivo | **Não** cite a Súmula 30 da Turma de Uniformização do TJBA (o escritório não faz reclamação administrativa). Vale a Súmula 40 |
 | Repetição em dobro | Art. 42, parágrafo único, do CDC, sobre **todos** os descontos, com a primeira tese do EAREsp 676.608/RS (Corte Especial: a dobra independe de má-fé e cabe quando a cobrança contraria a boa-fé objetiva). O acórdão modulou a tese para os pagamentos posteriores a 30/03/2021: com desconto anterior, a peça diz que, para ele, a dobra decorre do próprio art. 42 (bloco do modelo). **Não** cite o Tema 929/STJ (acórdão não publicado) |
-| Correção e juros | Correção pela Súmula 43/STJ, desde cada desconto. Juros pela Súmula 54/STJ, desde o evento danoso; **no RMC**, desde a citação (Súmula 33 da Turma de Uniformização do TJBA), porque o cartão é contrato. **Não** cite a Lei 14.905/2024 nos pedidos |
+| Correção e juros | Correção pela Súmula 43/STJ, desde cada desconto. Juros pela Súmula 54/STJ, desde o evento danoso; **no RMC**, desde a citação (Súmula 33 da Turma de Uniformização do TJBA), porque o cartão é contrato. Nos pedidos de correção e juros, só a ressalva "observada a Lei 14.905/2024 a partir de 30/08/2024" |
+| Prescrição | **Sempre o prazo decenal** (art. 205 do CC), sem pedido subsidiário pelo art. 27 do CDC e sem perguntar ao advogado. Base: a segunda tese do EAREsp 676.608/RS (transcrita literalmente, **não modulada**: a modulação alcançou só a primeira tese) e o EAREsp 738.991/RS, ambos de telefonia, aplicados ao consignado por analogia, dito na peça. A declaração de inexistência não prescreve (art. 169 do CC) |
+| Audiência de conciliação | **Justiça Comum**: tópico próprio declarando desinteresse (CPC, art. 319, VII, e art. 334, § 5º), com convite à composição extrajudicial pelos e-mails michaelneves.adv@gmail.com e diegoarleo@gmail.com e pelo telefone +55 73 9104-5925. **JEC**: a peça não trata do assunto (a sessão de conciliação é parte do procedimento, Lei 9.099/95, art. 16): sem tópico e sem manifestação de interesse ou desinteresse |
 | RMC | **Não** cite a MP 1.393/2026. Só o mínimo da fatura é consignado e o resto é pago por boleto, então o art. 4º da Res. CMN 4.549/2017 não afasta a resolução |
 
 Confira cada linha desta tabela na revisão final (portão 4).
@@ -128,7 +130,7 @@ Em qualquer ambiente:
 1. escreva as **premissas** (datas, valores, regra e o artigo de onde vem);
 2. mostre a conta em tabela;
 3. refaça o total por outro caminho e compare;
-4. marque o resultado como `CÁLCULO A CONFERIR` e peça validação do advogado.
+4. marque o resultado como `[CÁLCULO A CONFERIR]` e peça validação do advogado.
 
 **Regras de cálculo do escritório** (herdadas do pacote AMN v1.4; o advogado pode alterá-las):
 - Quantidade de descontos = meses de "Início" a "Fim" do contrato, **inclusive**; 0 se o contrato foi excluído antes do primeiro desconto. Contrato **ativo** conta até a competência do mês anterior à data da peça.
@@ -167,7 +169,7 @@ A triagem entrega a ficha e as pendências, sem peça. As especialistas exigem p
 
 A peça sai em dois arquivos, com o mesmo nome: **Markdown** (`.md`) e **Word** (`.docx`), este gerado pela skill `tipografia-azul` sem esperar pedido. O Google Docs abre o `.docx`. A `tipografia-azul` faz parte do pacote e não usa página amarela nem cabeçalho de rascunho: peça bloqueada ou com pendências leva no topo uma **Observação interna** (Título 6) com "BLOQUEADO PARA USO FINAL" e a lista do que falta, a remover antes de protocolar. Sem execução de código, entregue o Markdown e diga que a formatação ficou pendente.
 
-**Marcas de pendência** (`[CONFERIR…]`, `[PREENCHER…]`, `[VERIFICAR ANTES DE PROTOCOLAR]`, `CÁLCULO A CONFERIR`) precisam saltar aos olhos. No chat, em negrito. No Word, saem com **realce amarelo**, aplicado ao texto da marca como realce de caractere, nunca como página amarela; a `tipografia-azul` aplica o realce (seção "Marcas de pendência e minuta bloqueada"). Nunca omita, resuma ou mova uma marca: ela fica no ponto exato da pendência. Peça com marca não está pronta para protocolo.
+**Marcas de pendência** (`[CONFERIR…]`, `[PREENCHER…]`, `[VERIFICAR ANTES DE PROTOCOLAR]`, `[CÁLCULO A CONFERIR]`) precisam saltar aos olhos. No chat, em negrito. No Word, saem com **realce amarelo**, aplicado ao texto da marca como realce de caractere, nunca como página amarela; a `tipografia-azul` aplica o realce (seção "Marcas de pendência e minuta bloqueada"). Nunca omita, resuma ou mova uma marca: ela fica no ponto exato da pendência. Peça com marca não está pronta para protocolo.
 
 Na resposta ao advogado: Painel do Caso, conclusão no alcance possível, fundamento com norma e artigo, cálculo quando aplicável, riscos e até três próximas diligências. Não exponha nomes internos de etapas ou arquivos, salvo para indicar uma ação.
 

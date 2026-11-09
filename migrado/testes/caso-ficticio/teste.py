@@ -64,6 +64,22 @@ def main():
         if m.origem_da_migracao(o) != esp:
             erros.append(f"origem_da_migracao({o!r}) = {m.origem_da_migracao(o)}, esperado {esp}")
 
+    # corte da troca de titularidade (decisão de 08/11/2026): o registro do réu que repete o histórico do banco anterior conta só desde a troca
+    reg = {"inicio": "03/2018", "fim": "08/2023", "parcela": 9.78, "secao": "EXCLUIDO"}
+    troca = [{"motivo_exclusao": "Exclusão por troca de titularidade", "exclusao": "01/07/2020"}]
+    corte, quando = m.corte_da_troca(reg, troca)
+    if corte is None or m.comp_str(corte) != "07/2020" or quando != "01/07/2020":
+        erros.append(f"corte_da_troca com sobreposição: {corte}, {quando}")
+    else:
+        q, t = m.descontos(reg, 0, corte)[:2]
+        if q != 38 or abs(t - 371.64) > 0.005:
+            erros.append(f"descontos com corte: {q} parcelas, {t}; esperado 38 e 371,64")
+    sem_sobrep = {"inicio": "02/2021", "fim": "05/2022", "parcela": 52.25, "secao": "EXCLUIDO"}
+    if m.corte_da_troca(sem_sobrep, [{"motivo_exclusao": "Exclusão por troca de titularidade", "exclusao": "29/01/2021"}]) != (None, None):
+        erros.append("corte_da_troca sem sobreposição deve ser (None, None)")
+    if m.corte_da_troca(reg, [{"motivo_exclusao": "Liquidação antecipada", "exclusao": "01/07/2020"}]) != (None, None):
+        erros.append("corte_da_troca só vale para exclusão por troca de titularidade")
+
     with tempfile.TemporaryDirectory() as tmp:
         pdf = Path(tmp) / "extrato.pdf"
         roda(AQUI / "gerar_extrato_ficticio.py", pdf)

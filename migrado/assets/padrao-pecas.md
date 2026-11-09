@@ -53,7 +53,7 @@ Incluir sempre que cabíveis:
 
 - **Gratuidade**: CPC, arts. 98 e 99, com a presunção do § 3º do art. 99 para pessoa natural; a assistência por advogado particular não impede (art. 99, § 4º). No JEC, acrescente o art. 54 da Lei 9.099/95.
 - **Prioridade de tramitação**, se 60 anos ou mais (CPC, art. 1.048, I; Lei 10.741/2003, art. 71), com prova da idade.
-- **Citação** para audiência ou contestação, e intimações em nome do advogado subscritor.
+- **Citação** para contestação e intimações em nome do advogado subscritor. **Audiência de conciliação**: na Justiça Comum, desinteresse em tópico próprio (CPC, arts. 319, VII, e 334, § 5º), com convite à composição extrajudicial pelos e-mails michaelneves.adv@gmail.com e diegoarleo@gmail.com e pelo telefone +55 73 9104-5925; no JEC, nada se declara (a sessão de conciliação é parte do procedimento, Lei 9.099/95, art. 16).
 - **Declaração de inexistência/nulidade** da relação, conforme a tese (migrado: nulidade da migração e da averbação).
 - **Obrigação de fazer**: cessação dos descontos, baixa da averbação no INSS e liberação da margem. Se o extrato mostra o campo "Motivo da Exclusão" em branco, pedir seu preenchimento com "Por força de decisão judicial", mantida a origem da exclusão, em 10 dias úteis, com multa diária de R$ 500,00 (CPC, arts. 497 e 537). - **Repetição em dobro** de **todos** os descontos, fundada no texto do art. 42, parágrafo único, do CDC e na primeira tese do EAREsp 676.608/RS (Corte Especial, DJe 30/03/2021); para descontos anteriores a 30/03/2021, a dobra se apoia só no art. 42 (o acórdão modulou a tese). **Não cite o Tema 929/STJ** (acórdão não publicado, cabem embargos); o escritório atualizará quando sair. Corrigir a quantia com a Súmula 43/STJ (desde cada desconto), juros pela Súmula 54/STJ (desde o evento danoso); no RMC, juros desde a citação (Súmula 33 da Turma de Uniformização do TJBA), porque o cartão é contrato. Pedir que descontos posteriores à inicial, até o trânsito em julgado, entrem na liquidação.
 - **Dano moral de R$ 20.000,00**, sempre. Fundamento: natureza alimentar do benefício; particularidades do caso (valor e tempo dos descontos), como a Súmula 40 do TJBA exige; tentativa administrativa só entra se os autos trouxerem uma (protocolo, "Presunções do escritório"). O caráter punitivo-pedagógico é mantido sem marca, mas não use a Súmula 326/STJ para sustentá-lo: ela trata de sucumbência.
@@ -66,7 +66,7 @@ Incluir sempre que cabíveis:
 
 ## 5. Valor da causa
 
-Restituição em dobro de todos os descontos, mais R$ 20.000,00 de dano moral, mais o proveito econômico declaratório: as parcelas vincendas dos contratos ativos (no RMC, o saldo refinanciado). A soma vale sempre, em qualquer rito (CPC, art. 292, II e VI; decisão do escritório de 03/11/2026); sem contrato ativo, o proveito é zero. No JEC, se a soma passar de 40 salários mínimos, o script alerta: rever o rito. Em Vara Federal, valor real, sem renúncia a teto. Mostre a memória do cálculo por contrato (premissas, quantidade de descontos, parcela, total, dobro) e marque `CÁLCULO A CONFERIR`.
+Restituição em dobro de todos os descontos, mais R$ 20.000,00 de dano moral, mais o proveito econômico declaratório: as parcelas vincendas dos contratos ativos (no RMC, o saldo refinanciado). A soma vale sempre, em qualquer rito (CPC, art. 292, II e VI; decisão do escritório de 03/11/2026); sem contrato ativo, o proveito é zero. No JEC, se a soma passar de 40 salários mínimos, o script alerta: rever o rito. Em Vara Federal, valor real, sem renúncia a teto. Mostre a memória do cálculo por contrato (premissas, quantidade de descontos, parcela, total, dobro) e marque `[CÁLCULO A CONFERIR]`.
 
 ## 6. Documentos
 
@@ -192,7 +192,7 @@ Toda peça passa por esta revisão antes de ser entregue ou formatada. Marque ca
 - [ ] Dano moral em R$ 20.000,00
 
 **Pendências**
-- [ ] Todas as marcas `[PREENCHER]`, `[CONFERIR]`, `[VERIFICAR ANTES DE PROTOCOLAR]` e `CÁLCULO A CONFERIR` listadas ao final da entrega
+- [ ] Todas as marcas `[PREENCHER]`, `[CONFERIR]`, `[VERIFICAR ANTES DE PROTOCOLAR]` e `[CÁLCULO A CONFERIR]` listadas ao final da entrega
 
 **Resultado**
 - **Aprovado:** nenhuma FALHA. Sai como documento final, com as pendências listadas.

@@ -36,6 +36,18 @@ Fontes comparadas: a skill de RMC do pacote AMN v1.4 (`SKILL.md` e `scripts/gera
 - Segunda via do total descontado desde o refinanciamento.
 - Teste de regressão com extrato fictício (`testes/caso-ficticio/teste.py`) e verificador do pacote.
 
+## Revisão de 08/11/2026 (comparativo com a peça do advogado de referência)
+
+- Acabamento: "em face" com artigo; tramitação prioritária e pedido "b" condicionais; "confirmada a tutela" só com tutela; linha de tabela condicional por linha inteira; instruções de acabamento no topo do modelo.
+- Lei 14.905/2024: só a ressalva "observada a Lei 14.905/2024 a partir de 30/08/2024" nos pedidos de restituição e de dano moral.
+- Audiência: tópico de desinteresse só na Justiça Comum, com convite à composição extrajudicial; JEC não trata do assunto.
+- Modulação do EAREsp: frase própria quando todos os descontos são posteriores a 30/03/2021.
+- Tutela da evidência: o art. 311, IV, passa a ser pedido depois da contestação (não se concede liminarmente).
+- Ciência: se há extrato anterior que já registra o refinanciamento, a data da ciência é decisão do advogado.
+- Narrativa dos fatos em PRIMEIRO a QUINTO, no estilo da Peça A, só com dados do extrato; tom do "Do direito" mais firme, com citações e marcas intactas.
+- Decidido em 08/11/2026 (comparativo E x F, itens 5 e 4.1): (a) **pedido de quitação no marco de 200% (g.2) mantido** depois de retirado por poucas horas: o acervo já tem a sentença de primeiro grau da 12ª VSJE do Consumidor de Salvador (Processo 0209760-63.2026.8.05.0001) que declarou a quitação na competência do marco e deu o dobro só desde o refinanciamento, estrutura idêntica à do modelo. O tópico do marco ganhou um parágrafo que declara a delimitação (repetição só desde o refinanciamento, sem afetar a quitação) e cita a sentença como exemplo de primeiro grau, não como precedente; (b) **subtópico novo** "O refinanciamento sem proposta, sem assinatura e sem repasse é serviço não solicitado" (art. 39, III, do CDC, literal do acervo), com remissão à IN 28, art. 2º, XII, ou à IN 138, art. 4º, XVII, conforme a data, e o pedido g.1 passa a ter o fundamento autônomo (art. 104 do CC; art. 39, III); o parágrafo do Tema 1.414/STJ foi ajustado; (c) **tópico e pedido do "Motivo da Exclusão"** (`[[SE MOTIVO]]`: cartão ativo ou excluído), com a providência na baixa quando o cartão está ativo; `lgpd.md` e o Acórdão 1.094/2026-TCU foram incluídos na skill pelo sincronizador para esse tópico; (d) **início da repetição mantido** na competência do refinanciamento (o `calcular_rmc.py` já conta assim).
+- Fica para o advogado: o valor do primeiro desconto (10/2023, R$ 64,54) ser ou não parte da repetição, se preferir o critério mais conservador da Peça E (a partir de 11/2023).
+
 ## O que continua em aberto
 
 - Premissa de fato da D1: conferir nas faturas que só o mínimo é consignado.

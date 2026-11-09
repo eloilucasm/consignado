@@ -164,8 +164,8 @@ ele (art. 412, parágrafo único, CPC). Depois, reexame documento a documento do
 VF2): tipo de assinatura, coerência de datas (CCB antes da trilha?), dados cadastrais, IP,
 correspondente. Não usar "impugnação suprida" nem "inovação" no texto da peça (preclusão: arts.
 411, III, 430 e 1.014, CPC). "Não
-requereu perícia" — vedada no JEC (art. 35, IV, Lei 9.099/95); cobrar do autor
-prova que o rito veda é erro.
+requereu perícia" — a perícia complexa não cabe no JEC (arts. 3º, caput, e 51, II, Lei 9.099/95;
+Enunciado 54 do FONAJE); cobrar do autor prova que o rito não comporta é erro.
 > TRAVA: nada de fato ou documento novo — só o que já está nos autos.
 
 **Subseção IV.7 — DA INEXISTÊNCIA DE SILÊNCIO QUALIFICADO / IMPUGNAÇÃO TARDIA** *(gatilho: FSC6)*
@@ -245,9 +245,10 @@ Corpo:
    gratuidade nos autos → requerer no recurso (art. 99, caput, CPC), com a dispensa de preparo do § 7º
    (o relator aprecia e, se indeferir, fixa prazo para o recolhimento); só se o usuário não for pedir
    gratuidade, recolhimento das custas recursais conforme a lei estadual de custas.
-5. Requer o recebimento no efeito devolutivo (e suspensivo, se cabível e
-   requerido fundamentadamente — art. 1.012, CPC) e a remessa ao Egrégio
-   Tribunal de Justiça, após as contrarrazões.
+5. Requer o recebimento nos efeitos devolutivo e suspensivo (art. 1.012, caput,
+   CPC) e a remessa ao Egrégio Tribunal de Justiça, após as contrarrazões. Se a
+   sentença revogou tutela provisória, ela produz efeitos de imediato (art. 1.012,
+   § 1º, V): pedir o efeito suspensivo de forma fundamentada (art. 1.012, §§ 3º e 4º).
 
 ## B.2 — RAZÕES DE APELAÇÃO
 *(dirigidas ao Tribunal de Justiça)*

@@ -108,7 +108,7 @@ Para cada contrato impugnado e defendido, escrever um subtópico com os achados 
 [[SE ANUÊNCIA OU SILÊNCIO]]
 ## O silêncio da parte autora não é anuência
 
-O silêncio só importa anuência "quando as circunstâncias ou os usos o autorizarem, e não for necessária a declaração de vontade expressa" (art. 111 do CC). O desconto consignado exige autorização expressa do titular ([[SE CONTRATO ATÉ 12/12/2022]] art. 5º da IN INSS/PRES 28/2008 [[SE CONTRATO A PARTIR DE 13/12/2022]] art. 5º, III, da IN PRES/INSS 138/2022 [[FIM]]). O desconto é automático, e a parte autora não tinha como impedi-lo na origem.
+O silêncio só importa anuência "quando as circunstâncias ou os usos o autorizarem, e não for necessária a declaração de vontade expressa" (art. 111 do CC). O desconto consignado exige autorização expressa do titular ([[SE CONTRATO ATÉ 12/12/2022]] art. 3º, III, da IN INSS/PRES 28/2008 [[SE CONTRATO A PARTIR DE 13/12/2022]] art. 5º, III, da IN PRES/INSS 138/2022 [[FIM]]). O desconto é automático, e a parte autora não tinha como impedi-lo na origem.
 [[FIM]]
 
 # Do ônus da prova

@@ -22,9 +22,7 @@ Conforme documento pessoal anexo, a parte autora é pessoa idosa e faz jus à pr
 
 # Dos fatos
 
-A parte autora é beneficiária do INSS (NB 999.999.999-9, aposentadoria por idade), e o benefício previdenciário é a sua única fonte de renda ****.
-
-Em 10/08/2026, ao consultar o portal Meu INSS, tomou conhecimento da existência de descontos mensais referentes a contratos de empréstimo consignado que jamais contratou, relacionados a seguir.
+A parte autora é beneficiária do INSS, percebendo aposentadoria por idade (NB 999.999.999-9). Em 10/08/2026, ao consultar o portal Meu INSS, tomou conhecimento da existência de descontos mensais referentes a contratos de empréstimo consignado que jamais contratou, relacionados a seguir.
 
 | Contrato | Averbação | Início | Fim | Parcela | Qtde. | Total descontado | Restituição (dobro) | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -33,7 +31,7 @@ Em 10/08/2026, ao consultar o portal Meu INSS, tomou conhecimento da existência
 | 00555111222 | 05/09/2024 | 09/2024 | 08/2031 | R$ 120,00 | 25 | R$ 3.000,00 | R$ 6.000,00 | ATIVO |
 | **Total** | | | | | | **R$ 9.865,10** | **R$ 19.730,20** | |
 
-*Fonte: Histórico de Empréstimo Consignado do INSS, emitido em 28/10/2026 (anexo). Para o contrato ativo, a quantidade vai até a competência 09/2026. **CÁLCULO A CONFERIR.***
+*Fonte: Histórico de Empréstimo Consignado do INSS, emitido em 28/10/2026 (anexo). Para o contrato ativo, a quantidade vai até a competência 09/2026.* **[CÁLCULO A CONFERIR]**
 
 ## A parte autora nega, contrato a contrato, a existência de manifestação de vontade
 
@@ -91,7 +89,7 @@ O dispositivo ressalva apenas o engano justificável. Descontos mensais de empr�
 
 **Contrato nº 00555111222.** Até a presente data, a parte autora suportou 25 parcelas, cuja soma resulta em R$ 3.000,00 (três mil reais). Assim, o banco deve restituir os valores descontados em dobro, que correspondem a R$ 6.000,00 (seis mil reais).
 
-Totalizando, R$ 19.730,20 (dezenove mil, setecentos e trinta reais e vinte centavos). ***CÁLCULO A CONFERIR.***
+Totalizando, R$ 19.730,20 (dezenove mil, setecentos e trinta reais e vinte centavos). **[CÁLCULO A CONFERIR]**
 
 ## O dano extrapatrimonial é devido e decorre da natureza alimentar da verba
 
@@ -129,7 +127,7 @@ A verossimilhança está na própria negativa de fato e na hipossuficiência té
 |---|---|---|
 | Instrumento contratual original, assinado | Art. 429, II, do CPC; Tema 1061/STJ; IN 28/2008, art. 5º (até 12/12/2022); IN 138/2022, art. 5º, II (desde 13/12/2022) | o fato impeditivo não está provado, e isso se valora contra o banco (art. 373, II, do CPC) |
 | Registro de autenticação da contratação (biometria com prova de vida e índice de similaridade, ou acesso autenticado, conforme a data) | IN 138/2022, art. 4º, VIII, e art. 5º, II, III e § 11 | Mesma consequência |
-| Autorização expressa da consignação | IN 28/2008, art. 5º (até 12/12/2022); IN 138/2022, art. 5º, III | Mesma consequência |
+| Autorização expressa da consignação | IN 28/2008, art. 3º, III (até 12/12/2022); IN 138/2022, art. 5º, III | Mesma consequência |
 | Comprovante do crédito efetivo em conta de titularidade da parte autora, de valor idêntico ao liberado no extrato | Art. 14, § 3º, do CDC; art. 373, II, do CPC; IN 138/2022, art. 5º, VII | Mesma consequência |
 | Trilha de auditoria da contratação (IP, dispositivo, localização, etapas) | Dever da instituição contratante de garantir a integridade, a confiabilidade, a segurança e o sigilo das transações realizadas pelo correspondente (Res. CMN 4.935/2021, art. 3º, parágrafo único; Res. CMN 3.954/2011, art. 2º, para fatos até 31/01/2022) | Mesma consequência |
 
@@ -194,7 +192,7 @@ Quanto aos contratos já excluídos (nº 00123456789 e nº 00987654321), a exclu
 
 A tutela provisória pode fundamentar-se em urgência ou evidência (art. 294 do CPC). Aqui se pede a de urgência, que será concedida quando houver elementos que evidenciem a probabilidade do direito e o perigo de dano ou o risco ao resultado útil do processo (art. 300 do CPC).
 
-A probabilidade do direito resulta da negativa específica de contratação, da titularidade do benefício e dos documentos anexos, e do ônus que a lei impõe ao banco (tópico da inversão do ônus). O perigo de dano está no desconto mensal sobre verba alimentar, única renda da parte autora ****, que se renova a cada competência.
+A probabilidade do direito resulta da negativa específica de contratação, da titularidade do benefício e dos documentos anexos, e do ônus que a lei impõe ao banco (tópico da inversão do ônus). O perigo de dano está no desconto mensal sobre verba alimentar, que se renova a cada competência.
 
 Não há perigo de irreversibilidade (art. 300, § 3º, do CPC): a suspensão dos descontos pode ser revertida se o banco comprovar a contratação.
 
@@ -236,7 +234,7 @@ Requer, ainda, que todas as intimações e publicações sejam feitas exclusivam
 
 # Do valor da causa
 
-Dá-se à causa o valor de R$ 46.810,20 (quarenta e seis mil, oitocentos e dez reais e vinte centavos), correspondente à soma da restituição em dobro (R$ 19.730,20), do dano extrapatrimonial (R$ 20.000,00) e do proveito econômico declaratório, equivalente às parcelas vincendas dos contratos ativos (R$ 7.080,00) (art. 292, II e VI, do CPC). ***CÁLCULO A CONFERIR.***
+Dá-se à causa o valor de R$ 46.810,20 (quarenta e seis mil, oitocentos e dez reais e vinte centavos), correspondente à soma da restituição em dobro (R$ 19.730,20), do dano extrapatrimonial (R$ 20.000,00) e do proveito econômico declaratório, equivalente às parcelas vincendas dos contratos ativos (R$ 7.080,00) (art. 292, II e VI, do CPC). **[CÁLCULO A CONFERIR]**
 
 Termos em que, pede deferimento.
 

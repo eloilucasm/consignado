@@ -116,7 +116,7 @@ Pergunte ao escritório, por escrito, o que ele presume em todo caso: renda, ci�
 ### 5.4 Script de cálculo
 
 Contrato mínimo de saída, válido para qualquer ramo:
-- `calculo.json`: todos os números da peça, com a marca `CÁLCULO A CONFERIR`;
+- `calculo.json`: todos os números da peça, com a marca `[CÁLCULO A CONFERIR]`;
 - `calculo.md`: tabela para o advogado;
 - `checagem-fsc-vf.md` e `dossie-do-caso.json`, gravados por `escrutinio.gravar()`, com a **linha do tempo** (`escrutinio.cronologia()`).
 

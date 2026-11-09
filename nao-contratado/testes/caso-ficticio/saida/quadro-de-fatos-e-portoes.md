@@ -56,7 +56,7 @@ Ver `calculo.md`. Os três têm valor liberado no extrato (R$ 4.800,00; R$ 3.100
 ## Portões
 
 1. **Fatos e enquadramento: PASSOU com pendência.** Rito e fecho confirmados; contratos conferidos contra termo e análise; status tirado do extrato; competência pela tabela do TJBA (Ilhéus); idade 68 anos; litispendência `desconhecido` (confirmar). Anomalia de bloco B ativo mostrada e tutela confirmada.
-2. **Prova e cálculo: PASSOU com pendência.** Cálculo pelas duas vias (33, 22 e 25 parcelas; total do dobro R$ 19.730,20; valor da causa R$ 46.810,20), marcado `CÁLCULO A CONFERIR`. O crédito em conta não está provado (fato 13).
+2. **Prova e cálculo: PASSOU com pendência.** Cálculo pelas duas vias (33, 22 e 25 parcelas; total do dobro R$ 19.730,20; valor da causa R$ 46.810,20), marcado `[CÁLCULO A CONFERIR]`. O crédito em conta não está provado (fato 13).
 3. **Contraditório (checagem pré-recurso): PASSOU com pendência.** FSC3 (art. 14, § 3º; art. 429, II; Tema 1061) feito. FSC7/1/2/4 (negativa por contrato; valor liberado) feito. FSC6 (ciência em 10/08/2026) feito, com prova pendente. FSC8 (Súmula 40, natureza alimentar, reclamação prévia) feito. FSC9/10 (JEC: sem exibição, perícia ou ofício) feito. FSC12 (documentos legíveis, um processo por NB + banco + tese, nada sobre outras ações) feito.
 4. **Revisão final: PENDENTE.** Restam marcas `[VERIFICAR ANTES DE PROTOCOLAR]` (Tema 929, EAREsp 738.991, TRF-4), `[CONFERIR]` (art. 6º da IN 28, Lei 14.905, prazo da IN 143, fundamentos 4 e 6 do campo "Motivo da Exclusão"), `[PREENCHER]` (vara, advogado e OAB) e `[CONFIRMAR COM O CLIENTE]`.
 

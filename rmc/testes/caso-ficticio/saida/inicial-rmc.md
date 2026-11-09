@@ -107,7 +107,7 @@ A tabela abaixo reúne os descontos mensais do cartão nº 90000001, extraídos 
 | 08/2026 | 55,00 | 2.650,00 | 265,0% |
 | 09/2026 | 55,00 | 2.705,00 | 270,5% |
 
-*Fonte: Histórico de Empréstimo Consignado do INSS, emitido em 28/10/2026 (anexo). CÁLCULO A CONFERIR.*
+*Fonte: Histórico de Empréstimo Consignado do INSS, emitido em 28/10/2026 (anexo).* **[CÁLCULO A CONFERIR]**
 
 Em 08/2025, o acumulado pago, R$ 2.000,00, chegou a 200,0% do capital adotado, 3 meses antes do refinanciamento.
 
@@ -173,7 +173,7 @@ O art. 166, VI, do Código Civil dispõe:
 
 > Art. 166. É nulo o negócio jurídico quando: (...) VI - tiver por objetivo fraudar lei imperativa;
 
-A nulidade é declarável de ofício (art. 168, caput, do CC) e não se convalida (art. 169 do CC). Duas normas foram contornadas:
+A nulidade é declarável de ofício (art. 168, parágrafo único, do CC) e não se convalida (art. 169 do CC). Duas normas foram contornadas:
 
 a) o art. 28, § 1º, da Lei 14.690/2023, acima transcrito. O refinanciamento levou o custo total do cartão a 440,5% do capital adotado;
 
@@ -213,7 +213,7 @@ O art. 42, parágrafo único, do Código de Defesa do Consumidor dispõe:
 
 O dispositivo ressalva apenas o engano justificável. A cobrança sobre saldo sem lastro, mantida mês a mês e sem aviso, não decorre de engano justificável.
 
-Todos os descontos a partir de 11/2025 incidem sobre saldo sem lastro, e a cobrança é unilateral e sem aviso. Somam R$ 605,00 em valor simples e **R$ 1.210,00 (um mil, duzentos e dez reais)** em dobro. *CÁLCULO A CONFERIR.*
+Todos os descontos a partir de 11/2025 incidem sobre saldo sem lastro, e a cobrança é unilateral e sem aviso. Somam R$ 605,00 em valor simples e **R$ 1.210,00 (um mil, duzentos e dez reais)** em dobro. **[CÁLCULO A CONFERIR]**
 
 ## O dano extrapatrimonial é devido e decorre da natureza alimentar da verba
 
@@ -308,7 +308,7 @@ f) a apreciação expressa de cada precedente evocado, nos termos do art. 489, �
 g) a procedência dos pedidos, confirmada a tutela ou concedida em sentença, para que:
 
 1. seja declarada a nulidade do refinanciamento de 11/2025 sobre o cartão nº 90000001 (saldo registrado de R$ 1.800,00, com IOF de R$ 4,50), por fraude à lei imperativa (art. 166, VI, do CC, c/c o art. 28, § 1º, da Lei 14.690/2023), com desconstituição de seus efeitos desde a data da prática;
-2. seja declarada a quitação do contrato do cartão nº 90000001 em 11/2025, quando os pagamentos somavam R$ 2.100,00, 210,0% do capital adotado, acima do teto do art. 28, § 1º, da Lei 14.690/2023;
+2. seja declarada a quitação do contrato do cartão nº 90000001 em 08/2025, quando os pagamentos somavam R$ 2.000,00, 200,0% do capital adotado, e atingiram o teto do art. 28, § 1º, da Lei 14.690/2023;
 3. o réu seja condenado à obrigação de fazer de, em 5 (cinco) dias úteis do trânsito em julgado, baixar o bloqueio da margem consignável junto ao INSS/DATAPREV e cessar os descontos, sob pena de multa diária de R$ 500,00, nos termos dos arts. 497 e 537 do CPC;
 4. o réu seja condenado a restituir em dobro os valores descontados desde 11/2025, no total atual de R$ 1.210,00 (um mil, duzentos e dez reais). Correção monetária desde cada desconto (Súmula 43 do STJ) e juros de mora desde a citação, ressalvada a constituição anterior em mora (Súmula 33 da Turma de Uniformização do TJBA; art. 397, parágrafo único, do CC). Requer-se que os descontos posteriores a esta petição, até o trânsito em julgado, sejam apurados na liquidação;
 5. o réu seja condenado ao pagamento de indenização por danos extrapatrimoniais de **R$ 20.000,00 (vinte mil reais)**, com correção monetária desde o arbitramento (Súmula 362 do STJ) e juros de mora desde a citação, ressalvada a constituição anterior em mora (Súmula 33 da Turma de Uniformização do TJBA; art. 397, parágrafo único, do CC);
@@ -323,7 +323,7 @@ Requer, ainda, que todas as intimações e publicações sejam feitas exclusivam
 
 # Do valor da causa
 
-Dá-se à causa o valor de R$ 23.010,00 (vinte e três mil e dez reais), correspondente ao saldo do refinanciamento declarado nulo (R$ 1.800,00; art. 292, II, do CPC), à restituição em dobro (R$ 1.210,00; art. 292, VI, do CPC) e ao dano extrapatrimonial (R$ 20.000,00) (art. 292, V, do CPC). *CÁLCULO A CONFERIR.*
+Dá-se à causa o valor de R$ 23.010,00 (vinte e três mil e dez reais), correspondente ao saldo do refinanciamento declarado nulo (R$ 1.800,00; art. 292, II, do CPC), à restituição em dobro (R$ 1.210,00; art. 292, VI, do CPC) e ao dano extrapatrimonial (R$ 20.000,00) (art. 292, V, do CPC). **[CÁLCULO A CONFERIR]**
 
 Termos em que, pede deferimento.
 

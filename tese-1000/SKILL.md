@@ -25,7 +25,7 @@ python3 scripts/calcular_1000.py --ficha ficha.json --processo N --extrato extra
 python3 scripts/diagramas_1000.py --calculo pasta/calculo.json --saida pasta/figuras
 ```
 
-O script lê o extrato (`scripts/extrato.py`, requer `pip install pypdf`), acha cada derivado e a sua raiz, mede o intervalo entre a exclusão da raiz e a averbação do derivado, conta os descontos, calcula o dobro e o valor da causa e grava `calculo.json` e `calculo.md`. Se o mesmo derivado aparece em **outro banco** (troca de titularidade), o script **não soma** os descontos do outro banco e alerta; só a decisão do advogado liga `--incluir-outros-bancos`. Sem execução de código, faça a tabela à mão e marque `CÁLCULO A CONFERIR`. O leitor do extrato foi herdado do pacote AMN e só foi testado aqui com extrato fictício: confira a primeira leitura real contra o PDF.
+O script lê o extrato (`scripts/extrato.py`, requer `pip install pypdf`), acha cada derivado e a sua raiz, mede o intervalo entre a exclusão da raiz e a averbação do derivado, conta os descontos, calcula o dobro e o valor da causa e grava `calculo.json` e `calculo.md`. Se o mesmo derivado aparece em **outro banco** (troca de titularidade), o script **não soma** os descontos do outro banco e alerta; só a decisão do advogado liga `--incluir-outros-bancos`. Sem execução de código, faça a tabela à mão e marque `[CÁLCULO A CONFERIR]`. O leitor do extrato foi herdado do pacote AMN e só foi testado aqui com extrato fictício: confira a primeira leitura real contra o PDF.
 
 ## Entrega e portões
 

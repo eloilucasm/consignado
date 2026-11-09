@@ -75,7 +75,9 @@ Art. 4-A É vedado às instituições financeiras postergar saques em espécie d
 
 Art. 5º Para o encerramento de conta devem ser adotadas, no mínimo, as seguintes providências:
 
-I - comunicação entre as partes da intenção de rescindir o contrato, informando os motivos da rescisão, caso se refiram à hipótese prevista no art. 6º ou a outra prevista na legislação ou na regulamentação vigente; II - indicação pelo cliente da destinação do eventual saldo credor na conta, que deve abranger a transferência dos recursos para conta diversa na própria ou em outra instituição ou a colocação dos recursos a sua disposição para posterior retirada em espécie;
+I - comunicação entre as partes da intenção de rescindir o contrato, informando os motivos da rescisão, caso se refiram à hipótese prevista no art. 6º ou a outra prevista na legislação ou na regulamentação vigente;
+
+II - indicação pelo cliente da destinação do eventual saldo credor na conta, que deve abranger a transferência dos recursos para conta diversa na própria ou em outra instituição ou a colocação dos recursos a sua disposição para posterior retirada em espécie;
 
 III - devolução pelo cliente das folhas de cheque não utilizadas ou a realização do seu cancelamento pela instituição;
 
@@ -107,7 +109,9 @@ Parágrafo único. O documento referido no caput deve ser mantido atualizado e �
 
 Art. 9º As instituições devem indicar ao Banco Central do Brasil diretor responsável pelo cumprimento das obrigações previstas nesta Resolução.
 
-Parágrafo único. O diretor mencionado no caput pode desempenhar outras funções na instituição, desde que não haja conflito de interesses. Art. 10. Observada a regulamentação específica, o disposto nesta Resolução aplica-se também às contas de depósitos em moeda nacional de titularidade de pessoas naturais ou jurídicas, residentes, domiciliadas ou com sede no exterior, bem como às contas de depósitos em moeda estrangeira no País.
+Parágrafo único. O diretor mencionado no caput pode desempenhar outras funções na instituição, desde que não haja conflito de interesses.
+
+Art. 10. Observada a regulamentação específica, o disposto nesta Resolução aplica-se também às contas de depósitos em moeda nacional de titularidade de pessoas naturais ou jurídicas, residentes, domiciliadas ou com sede no exterior, bem como às contas de depósitos em moeda estrangeira no País.
 
 Art. 11. A Resolução nº 3.972, de 28 de abril de 2011, passa a vigorar com as seguintes alterações:
 
@@ -153,6 +157,12 @@ V - a Resolução nº 2.953, de 25 de abril de 2002;
 
 VI - a Resolução nº 3.211, de 30 de junho de 2004;
 
-VII - a Resolução nº 3.222, de 29 de julho de 2004; VIII - a Resolução nº 4.480, de 25 de abril de 2016; IX - a Resolução nº 4.697, de 27 de novembro de 2018; e X - o parágrafo único do art. 2º da Resolução nº 3.972, de 2011. Art. 15. Esta Resolução entra em vigor em 1º de janeiro de 2020.
+VII - a Resolução nº 3.222, de 29 de julho de 2004;
+
+VIII - a Resolução nº 4.480, de 25 de abril de 2016;
+
+IX - a Resolução nº 4.697, de 27 de novembro de 2018; e X - o parágrafo único do art. 2º da Resolução nº 3.972, de 2011.
+
+Art. 15. Esta Resolução entra em vigor em 1º de janeiro de 2020.
 
 Roberto de Oliveira Campos Neto Presidente do Banco Central do Brasil Este texto não substitui o publicado no DOU de 30/9/2019, Seção 1, p. 50/51, e no Sisbacen.

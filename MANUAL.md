@@ -103,7 +103,7 @@ Toda resposta traz, nesta ordem:
 | `[PREENCHER: …]` | campo sem informação | preencher |
 | `[VERIFICAR ANTES DE PROTOCOLAR: …]` | tese ou citação que depende do seu juízo | ler e decidir se mantém |
 | `[DECISÃO DO ADVOGADO: …]` | escolha que é sua (por exemplo, o valor que caiu na conta) | escolher e apagar a alternativa |
-| `CÁLCULO A CONFERIR` | conta feita pelo pacote | conferir a tabela do cálculo |
+| `[CÁLCULO A CONFERIR]` | conta feita pelo pacote | conferir a tabela do cálculo |
 
 **Peça com marca não está pronta para protocolo.** Peça com a **Observação interna "BLOQUEADO PARA USO FINAL"** no topo é só diagnóstico ou minuta parcial: algo essencial falta. A observação lista o quê.
 

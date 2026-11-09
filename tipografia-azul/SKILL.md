@@ -37,12 +37,14 @@ Para Word: use numeração automática em lista de vários níveis ligada aos es
 
 ## Marcas de pendência e minuta bloqueada
 
-Marcas como `[CONFERIR: …]`, `[PREENCHER: …]`, `[VERIFICAR ANTES DE PROTOCOLAR: …]`, `[DECISÃO DO ADVOGADO: …]`, `[CONFIRMAR …]` e `CÁLCULO A CONFERIR` precisam saltar aos olhos no documento:
+Marcas como `[CONFERIR: …]`, `[PREENCHER: …]`, `[VERIFICAR ANTES DE PROTOCOLAR: …]`, `[DECISÃO DO ADVOGADO: …]`, `[CONFIRMAR …]` e `[CÁLCULO A CONFERIR]` precisam saltar aos olhos no documento:
 
 - Aplique **realce amarelo** de caractere (no Word, `highlight` amarelo; no Google Docs, cor de realce amarela) ao texto inteiro da marca, colchetes incluídos. Nunca pinte a página, o parágrafo inteiro nem o fundo da célula.
 - Mantenha a marca no ponto exato em que veio, com o texto completo. Não a omita, não a resuma, não a mova para o fim e não a converta em nota de rodapé.
 - Dentro de tabela, de citação (Título 3) ou de nota de rodapé, a marca também leva o realce.
 - Peça bloqueada ou com pendências traz no topo uma **Observação interna** (Título 6) com "BLOQUEADO PARA USO FINAL" ou com a lista do que falta. Ela é removida antes de protocolar.
+- Toda marca vem **entre colchetes**, inclusive `[CÁLCULO A CONFERIR]`. Se o rascunho trouxer a marca solta ou em itálico (`*CÁLCULO A CONFERIR.*`, de modelo antigo), ponha os colchetes e aplique o realce do mesmo jeito.
+- **Confira antes de entregar:** conte as marcas no Markdown (`\[(?:CONFERIR|PREENCHER|VERIFICAR|DECISÃO|CONFIRMAR|CÁLCULO A CONFERIR)[^\]]*\]`) e os trechos com realce amarelo no .docx (no XML, `<w:highlight w:val="yellow"/>`). Os números têm de bater; se não baterem, ache a marca sem realce e corrija. Marca sem realce passa sem a revisora ver.
 - Na resposta, diga quantas marcas ficaram no documento. Documento com marca não está pronto para protocolo.
 
 ## Estilos (nome no Word)

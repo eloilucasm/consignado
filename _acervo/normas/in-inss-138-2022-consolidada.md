@@ -60,7 +60,9 @@ Art. 1º Esta Instrução Normativa dispõe sobre o desconto do valor das parcel
 
 § 7º A antecipação salarial: (Incluído pela Instrução Normativa PRES/INSS nº 175, de 28 de novembro de 2024, publicada no DOU nº 230, de 29 de novembro de 2024, Seção 1, Página 217) (Revogado pela Instrução Normativa PRES/INSS nº 213, de 17 de agosto de 2026, publicada no DOU nº 156-A, de 19 de agosto de 2026, Seção 1 - Edição Extra, Página 7)
 
-I - solicitada por meio do cartão físico do segurado, com chip e inserção de senha pessoal de confirmação da transação, não dependerá de desbloqueio prévio do benefício; e (Alterado pela Instrução Normativa PRES/INSS nº 175, de 28 de novembro de 2024, publicada no DOU nº 230, de 29 de novembro de 2024, Seção 1, Página 217) I - solicitada por meio do cartão físico do segurado, com chip e inserção de senha pessoal de confirmação da transação, não dependerá de desbloqueio prévio do benefício; e (Alterado pela Instrução Normativa PRES/INSS nº 179, de 17 de janeiro de 2025, publicada no DOU nº 17, de 20 de janeiro de 2025, Seção 1, Página 297)
+I - solicitada por meio do cartão físico do segurado, com chip e inserção de senha pessoal de confirmação da transação, não dependerá de desbloqueio prévio do benefício; e (Alterado pela Instrução Normativa PRES/INSS nº 175, de 28 de novembro de 2024, publicada no DOU nº 230, de 29 de novembro de 2024, Seção 1, Página 217)
+
+I - solicitada por meio do cartão físico do segurado, com chip e inserção de senha pessoal de confirmação da transação, não dependerá de desbloqueio prévio do benefício; e (Alterado pela Instrução Normativa PRES/INSS nº 179, de 17 de janeiro de 2025, publicada no DOU nº 17, de 20 de janeiro de 2025, Seção 1, Página 297)
 
 I - solicitada por meio do cartão físico do segurado, com chip e inserção de senha pessoal de confirmação da transação, não dependerá de desbloqueio prévio do benefício, sendo facultada a sua solicitação por outros meios disponíveis, desde que contratada mediante biometria.
 
@@ -80,7 +82,9 @@ Seção I Das Definições Básicas
 
 Art. 3º O crédito consignado, cujas parcelas contratadas são deduzidas diretamente do pagamento mensal do benefício, compreende as seguintes modalidades:
 
-I - empréstimo pessoal consignado; II - cartão de crédito consignado; e III - cartão consignado de benefício.
+I - empréstimo pessoal consignado;
+
+II - cartão de crédito consignado; e III - cartão consignado de benefício.
 
 Art. 3º-B Os titulares de benefícios elegíveis pagos pelo INSS, poderão antecipar valores do pagamento do seu benefício referente à competência imediatamente posterior, à título de antecipação salarial, concedidos por instituições financeiras, desde que: (Incluído pela Instrução Normativa PRES/INSS nº 175, de 28 de novembro de 2024, publicada no DOU nº 230, de 29 de novembro de 2024, Seção 1, Página 217) (Revogado pela Instrução Normativa PRES/INSS nº 213, de 17 de agosto de 2026, publicada no DOU nº 156-A, de 19 de agosto de 2026, Seção 1 - Edição Extra, Página 7)
 
@@ -98,7 +102,9 @@ II - mediante utilização de cartão físico do segurado, com chip e senha pess
 
 § 3º O limite de descontos estabelecido no § 1º poderá ser reajustado ou revisto decorridos 3 (três) meses da publicação desta Instrução Normativa. (Incluído pela Instrução Normativa PRES/INSS nº 175, de 28 de novembro de 2024, publicada no DOU nº 230, de 29 de novembro de 2024, Seção 1, Página 217)
 
-§ 4º Após o prazo estipulado no § 3º, poderá, a qualquer tempo, quando identificada necessidade e desde que devidamente motivada, ser alterada a forma de cálculo e estipulado novo limite para descontos referentes ao pagamento da antecipação salarial. (Incluído pela Instrução Normativa PRES/INSS nº 175, de 28 de novembro de 2024, publicada no DOU nº 230, de 29 de novembro de 2024, Seção 1, Página 217) § 5º Fica vedada a utilização da antecipação salarial para pagamento de apostas físicas ou eletrônicas. (Incluído pela Instrução Normativa PRES/INSS nº 175, de 28 de novembro de 2024, publicada no DOU nº 230, de 29 de novembro de 2024, Seção 1, Página 217)
+§ 4º Após o prazo estipulado no § 3º, poderá, a qualquer tempo, quando identificada necessidade e desde que devidamente motivada, ser alterada a forma de cálculo e estipulado novo limite para descontos referentes ao pagamento da antecipação salarial. (Incluído pela Instrução Normativa PRES/INSS nº 175, de 28 de novembro de 2024, publicada no DOU nº 230, de 29 de novembro de 2024, Seção 1, Página 217)
+
+§ 5º Fica vedada a utilização da antecipação salarial para pagamento de apostas físicas ou eletrônicas. (Incluído pela Instrução Normativa PRES/INSS nº 175, de 28 de novembro de 2024, publicada no DOU nº 230, de 29 de novembro de 2024, Seção 1, Página 217)
 
 Art. 4º Para os fins desta Instrução Normativa, considera-se:
 
@@ -118,7 +124,9 @@ VII - Termo de Autorização para Acesso a Dados: o formulário padrão, com lei
 
 VII - Termo de Autorização para Acesso a Dados: o formulário padrão, com leiaute pré-aprovado pelo INSS, que deve ser preenchido pela instituição consignatária acordante e assinado pelo beneficiário, para autorizar a consulta aos dados de elegibilidade e margem consignável de seu benefício, conforme o Anexo III, observados os limites legais estabelecidos pela Lei nº 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados Pessoais – LGPD);
 
-VIII - reconhecimento biométrico: rotina que permite confirmar a operação realizada pelo beneficiário junto às instituições consignatárias acordantes, garantindo a integridade e não repúdio das informações, a autenticidade, e a titularidade a partir de ferramentas tecnológicas de captura biométrica, cujos requisitos técnicos serão definidos pela Dataprev; IX - margem consignável: percentual da renda do benefício, apurada após a dedução das consignações obrigatórias, que pode ser comprometida com descontos de crédito consignado;
+VIII - reconhecimento biométrico: rotina que permite confirmar a operação realizada pelo beneficiário junto às instituições consignatárias acordantes, garantindo a integridade e não repúdio das informações, a autenticidade, e a titularidade a partir de ferramentas tecnológicas de captura biométrica, cujos requisitos técnicos serão definidos pela Dataprev;
+
+IX - margem consignável: percentual da renda do benefício, apurada após a dedução das consignações obrigatórias, que pode ser comprometida com descontos de crédito consignado;
 
 X - averbação de contrato: comunicação através de interface de programação – API, definida por padronização em documentação técnica, enviada pela instituição consignatária acordante à Dataprev, para inclusão automática da contratação do crédito consignado no Sistema Corporativo do INSS, quando atendidos os requisitos da legislação vigente e existir margem consignável;
 
@@ -146,7 +154,9 @@ XIX - instituição financeira: aquela que assim se enquadrar na forma do art. 1
 
 XX - entidades fechadas de previdência complementar: aquelas que cumpram o objeto principal de administração de planos de benefícios de natureza previdenciária de que trata a Lei Complementar nº 109, de 29 de maio de 2001, e atuem acessoriamente com operações de empréstimo consignado, na forma verificada pela Superintendência Nacional de Previdência Complementar – PREVIC;
 
-XXI - correspondente bancário: é a pessoa natural ou jurídica contratada por uma instituição financeira para atuar em seu nome, e sob suas diretrizes, na oferta de serviços bancários, remunerada por meio de comissões, observadas as normas fixadas na Resolução nº 4.935 de 29 de julho de 2021, do BCB; XXII - beneficiário: o titular de aposentadoria, de pensão por morte, da Renda Mensal Vitalícia, prevista na Lei nº 6.179, de 11 de dezembro de 1974, de BPC de que trata o art. 20 da Lei nº 8.742, de 1993, e de benefícios que tenham como requisito para sua concessão a preexistência do BPC; (Alterado pela Instrução Normativa PRES/INSS nº 146, de 30 de março de 2023, publicada no DOU nº 63, de 31/3/2023, Seção 1, Página 73/74)
+XXI - correspondente bancário: é a pessoa natural ou jurídica contratada por uma instituição financeira para atuar em seu nome, e sob suas diretrizes, na oferta de serviços bancários, remunerada por meio de comissões, observadas as normas fixadas na Resolução nº 4.935 de 29 de julho de 2021, do BCB;
+
+XXII - beneficiário: o titular de aposentadoria, de pensão por morte, da Renda Mensal Vitalícia, prevista na Lei nº 6.179, de 11 de dezembro de 1974, de BPC de que trata o art. 20 da Lei nº 8.742, de 1993, e de benefícios que tenham como requisito para sua concessão a preexistência do BPC; (Alterado pela Instrução Normativa PRES/INSS nº 146, de 30 de março de 2023, publicada no DOU nº 63, de 31/3/2023, Seção 1, Página 73/74)
 
 XXII - beneficiário: o titular de aposentadoria, de pensão por morte, da Renda Mensal Vitalícia, prevista na Lei nº 6.179, de 11 de dezembro de 1974, e de benefícios que tenham como requisito para sua concessão a preexistência do BPC; (Alterado pela Instrução Normativa PRES/INSS nº 154, de 12 de setembro de 2023, publicada no DOU nº 175, de 13 de setembro de 2023, Seção 1, Página 108/109)
 
@@ -172,7 +182,9 @@ Seção II Dos Critérios Operacionais para Averbação, da Apuração da Margem
 
 e Desbloqueio
 
-Art. 5º A averbação da contratação de crédito consignado pelo titular do benefício ocorrerá desde que: I - a operação seja realizada com a própria instituição consignatária acordante ou por meio do correspondente bancário a ela vinculado, na forma da Resolução nº 4.935, de 29 de julho de 2021, do Conselho Monetário Nacional - CMN, sendo, a primeira, responsável pelos atos praticados em seu nome;
+Art. 5º A averbação da contratação de crédito consignado pelo titular do benefício ocorrerá desde que:
+
+I - a operação seja realizada com a própria instituição consignatária acordante ou por meio do correspondente bancário a ela vinculado, na forma da Resolução nº 4.935, de 29 de julho de 2021, do Conselho Monetário Nacional - CMN, sendo, a primeira, responsável pelos atos praticados em seu nome;
 
 II - o desconto seja formalizado por meio de contrato firmado e assinado, com uso de reconhecimento biométrico, apresentação do documento de identificação oficial, válido e com foto, e Cadastro de Pessoa Física – CPF, junto com a autorização da consignação tratada no inciso III;
 
@@ -250,7 +262,11 @@ b) 5% (cinco por cento) destinado exclusivamente à: (Revogado pela Instrução 
 
 § 18. O titular do benefício deverá avaliar a proposta de operação no prazo de cinco dias de sua disponibilização no aplicativo Meu INSS, e poderá: (Incluído pela Instrução Normativa PRES/INSS nº 207, de 19 de maio de 2026, publicada no DOU nº 92-A, de 19 de maio de 2026, Seção 1 - Edição Extra, Página 2)
 
-I - autorizar a operação, nos moldes do inciso IX do caput; II - desistir da contratação; III - contestar a proposta indicando que:
+I - autorizar a operação, nos moldes do inciso IX do caput;
+
+II - desistir da contratação;
+
+III - contestar a proposta indicando que:
 
 a) não atende aos termos em que a solicitou; ou b) não a solicitou. § 19. A não avaliação pelo titular do benefício no prazo previsto no § 18 importará no cancelamento da proposta. (Incluído pela Instrução Normativa PRES/INSS nº 207, de 19 de maio de 2026, publicada no DOU nº 92-A, de 19 de maio de 2026, Seção 1 - Edição Extra, Página 2)
 
@@ -260,9 +276,13 @@ a) não atende aos termos em que a solicitou; ou b) não a solicitou. § 19. A n
 
 Art. 6º A averbação da contratação do crédito consignado não será permitida nos benefícios tratados no art. 1º, quando:
 
-I - pagos: a) em países com os quais o Brasil mantém Acordo Internacional de
+I - pagos:
 
-Previdência Social para beneficiários residentes no exterior; b) por intermédio de empresa acordante, nos termos do art. 117-A da Lei
+a) em países com os quais o Brasil mantém Acordo Internacional de
+
+Previdência Social para beneficiários residentes no exterior;
+
+b) por intermédio de empresa acordante, nos termos do art. 117-A da Lei
 
 nº 8.213, de 1991; e c) a título de pensão alimentícia;
 
@@ -270,15 +290,29 @@ II - estiver bloqueado para empréstimos, observado o disposto no art. 8º; e II
 
 Art. 7º A identificação do limite de 45% (quarenta e cinco por cento) dar-se-á no momento da averbação, após a dedução das seguintes consignações, observada a última competência paga, excluída a que contenha o 13º (décimo terceiro) salário:
 
-I - pagamento de benefícios além do devido; II - imposto de renda retido na fonte; III - pensão alimentícia; e IV - contribuições devidas pelo segurado à previdência social.
+I - pagamento de benefícios além do devido;
+
+II - imposto de renda retido na fonte;
+
+III - pensão alimentícia; e IV - contribuições devidas pelo segurado à previdência social.
 
 § 1º Na hipótese de coexistência dos descontos previstos nos incisos I a IV do caput com as consignações de crédito consignado, prevalecerão os descontos previstos nos incisos I a IV do caput.
 
-§ 2º No caso de redução da renda do titular do benefício durante a vigência do contrato de crédito consignado, o INSS manterá o desconto das parcelas originalmente pactuadas. § 3º Na hipótese do § 2º, caso o desconto relativo ao crédito consignado supere o percentual previsto no caput, o beneficiário deverá procurar a instituição consignatária acordante para repactuação do contrato, sem acréscimo de custos operacionais, considerando a nova margem consignável.
+§ 2º No caso de redução da renda do titular do benefício durante a vigência do contrato de crédito consignado, o INSS manterá o desconto das parcelas originalmente pactuadas.
+
+§ 3º Na hipótese do § 2º, caso o desconto relativo ao crédito consignado supere o percentual previsto no caput, o beneficiário deverá procurar a instituição consignatária acordante para repactuação do contrato, sem acréscimo de custos operacionais, considerando a nova margem consignável.
 
 Art. 8º O bloqueio dos benefícios elegíveis para averbação do crédito consignado é realizado:
 
-I - automaticamente, quando da concessão do benefício; II - pela alteração do local de pagamento que implique Transferência do Benefício em Manutenção – TBM para outra Agência da Previdência Social – APS, por comando do INSS ou da rede bancária, com possibilidade de desbloqueio após 60 (sessenta) dias; III - por solicitação do titular, representante legal ou procurador, observado o disposto nos §§ 5º e 8º; (Alterado pela Instrução Normativa PRES/INSS nº 190, de 15 de julho de 2025, publicada no DOU nº 132, de 16 de julho de 2025, Seção 1, Página 91) III - por solicitação do titular ou procurador, observado o disposto nos §§ 5º e 8º; IV - quando alterado dados sensíveis via meu INSS como: meio de pagamento, dados bancários e exclusão de representante legal; e V - quando comandada reativação do benefício.
+I - automaticamente, quando da concessão do benefício;
+
+II - pela alteração do local de pagamento que implique Transferência do Benefício em Manutenção – TBM para outra Agência da Previdência Social – APS, por comando do INSS ou da rede bancária, com possibilidade de desbloqueio após 60 (sessenta) dias;
+
+III - por solicitação do titular, representante legal ou procurador, observado o disposto nos §§ 5º e 8º; (Alterado pela Instrução Normativa PRES/INSS nº 190, de 15 de julho de 2025, publicada no DOU nº 132, de 16 de julho de 2025, Seção 1, Página 91)
+
+III - por solicitação do titular ou procurador, observado o disposto nos §§ 5º e 8º;
+
+IV - quando alterado dados sensíveis via meu INSS como: meio de pagamento, dados bancários e exclusão de representante legal; e V - quando comandada reativação do benefício.
 
 § 1º Os benefícios referidos no art. 1º, concedidos a partir de 1º de abril de 2019, permanecerão bloqueados para a realização de crédito consignado por 90 (noventa) dias, contados da Data de Despacho do Benefício – DDB, ou seja, da data de concessão do benefício. (Alterado pela Instrução Normativa PRES/INSS nº 172, de 28 de agosto de 2024, publicada no DOU nº 168, de 30 de agosto de 2024, Seção 1, Página 313)
 
@@ -288,7 +322,9 @@ I - automaticamente, quando da concessão do benefício; II - pela alteração d
 
 § 2º O disposto no inciso II do caput não se aplica às Transferências de Benefício em Bloco – TBB ou TBM realizadas pela área de atendimento de Demandas Judiciais.
 
-§ 3º O requerimento de bloqueio não será aceito enquanto não for concluído o processamento da operação de refinanciamento ou portabilidade, realizado conforme as regras do BCB. § 4º As solicitações de bloqueio ou desbloqueio do benefício para crédito consignado não serão processadas durante o período de processamento mensal da folha de pagamento dos benefícios administrados pelo INSS (maciça).
+§ 3º O requerimento de bloqueio não será aceito enquanto não for concluído o processamento da operação de refinanciamento ou portabilidade, realizado conforme as regras do BCB.
+
+§ 4º As solicitações de bloqueio ou desbloqueio do benefício para crédito consignado não serão processadas durante o período de processamento mensal da folha de pagamento dos benefícios administrados pelo INSS (maciça).
 
 § 5º É vedado ao procurador, cadastrado para fins de recebimento do benefício, autorizar o bloqueio ou o desbloqueio deste para operações de crédito consignado, salvo autorização expressa em instrumento de mandato público para este fim. (Alterado pela Instrução Normativa PRES/INSS nº 172, de 28 de agosto de 2024, publicada no DOU nº 168, de 30 de agosto de 2024, Seção 1, Página 313)
 
@@ -306,11 +342,15 @@ II - a partir do 91º (nonagésimo primeiro) dia contado da DDB, na hipótese do
 
 III - a qualquer tempo, na hipótese do inciso V do caput. (Alterado pela Instrução Normativa PRES/INSS nº 172, de 28 de agosto de 2024, publicada no DOU nº 168, de 30 de agosto de 2024, Seção 1, Página 313)
 
-III - a qualquer tempo, nas hipóteses dos incisos II, III e IV do caput. § 7º Conforme o nível de acesso à conta "gov.br", o titular do benefício poderá autorizar o bloqueio ou o desbloqueio do benefício: (Alterado pela Instrução Normativa PRES/INSS nº 194, de 8 de setembro de 2025, publicada no DOU nº 172, de 10 de setembro de 2025, Seção 1, Página 180)
+III - a qualquer tempo, nas hipóteses dos incisos II, III e IV do caput.
+
+§ 7º Conforme o nível de acesso à conta "gov.br", o titular do benefício poderá autorizar o bloqueio ou o desbloqueio do benefício: (Alterado pela Instrução Normativa PRES/INSS nº 194, de 8 de setembro de 2025, publicada no DOU nº 172, de 10 de setembro de 2025, Seção 1, Página 180)
 
 I - por meio de serviço eletrônico com acesso autenticado, conforme canais remotos disponibilizados pelo INSS, se detentor do nível prata ou ouro, de acordo com o estabelecido na Portaria DIRBEN/INSS nº 929, de 24 de setembro de 2021; ou (Revogada pela Instrução Normativa PRES/INSS nº 194, de 8 de setembro de 2025, publicada no DOU nº 172, de 10 de setembro de 2025, Seção 1, Página 180)
 
-II - por intermédio de atendimento presencial na Agência da Previdência Social, mediante apresentação do documento de identificação e CPF, previamente agendado pela Central 135 ou APS. (Revogada pela Instrução Normativa PRES/INSS nº 194, de 8 de setembro de 2025, publicada no DOU nº 172, de 10 de setembro de 2025, Seção 1, Página 180) § 7º O desbloqueio do benefício para empréstimo consignado, solicitado via Meu INSS, será processado mediante a confirmação da biometria do titular do benefício, com validação de vivacidade e correspondência facial por meio de cruzamento com os registros oficiais.
+II - por intermédio de atendimento presencial na Agência da Previdência Social, mediante apresentação do documento de identificação e CPF, previamente agendado pela Central 135 ou APS. (Revogada pela Instrução Normativa PRES/INSS nº 194, de 8 de setembro de 2025, publicada no DOU nº 172, de 10 de setembro de 2025, Seção 1, Página 180)
+
+§ 7º O desbloqueio do benefício para empréstimo consignado, solicitado via Meu INSS, será processado mediante a confirmação da biometria do titular do benefício, com validação de vivacidade e correspondência facial por meio de cruzamento com os registros oficiais.
 
 § 8º Na impossibilidade de comparecimento do titular, na hipótese do inciso II do § 7º, o atendimento poderá ser feito ao: (Alterado pela Instrução Normativa PRES/INSS nº 194, de 8 de setembro de 2025, publicada no DOU nº 172, de 10 de setembro de 2025, Seção 1, Página 180)
 
@@ -340,7 +380,9 @@ Art. 10. A instituição consignatária acordante deverá disponibilizar ao bene
 
 § 1º Quando não houver saldo devedor, a instituição consignatária acordante deverá enviar o comando de exclusão da RMC e/ou RCC à Dataprev, via comando de interface de programação - API, no prazo máximo de 5 (cinco) dias úteis, contados da data da solicitação de cancelamento do cartão de crédito consignado ou cartão consignado de benefício.
 
-§ 2º A instituição consignatária acordante: I - após confirmação da liquidação, terá o prazo de até 5 (cinco) dias úteis para
+§ 2º A instituição consignatária acordante:
+
+I - após confirmação da liquidação, terá o prazo de até 5 (cinco) dias úteis para
 
 envio à Dataprev da informação de exclusão da operação do crédito consignado liquidado antecipadamente; e
 
@@ -378,7 +420,9 @@ Art. 13. A portabilidade entre instituições financeiras poderá ser realizada,
 
 Parágrafo único. Os titulares das operações de empréstimo pessoal e consignado poderão requerer a portabilidade do crédito, a qualquer tempo, observadas as disposições legais e regulamentares vigentes. (Alterado pela Instrução Normativa PRES/INSS nº 172, de 28 de agosto de 2024, publicada no DOU nº 168, de 30 de agosto de 2024, Seção 1, Página 313)
 
-§ 1º Os titulares das operações de empréstimo pessoal consignado poderão requerer a portabilidade do crédito, a qualquer tempo, exceto quanto a contratação realizada nos termos do § 1º do art. 8º, observadas as disposições legais e regulamentares vigentes. (Incluído pela Instrução Normativa PRES/INSS nº 172, de 28 de agosto de 2024, publicada no DOU nº 168, de 30 de agosto de 2024, Seção 1, Página 313) § 2º Os empréstimos pessoais consignados contratados junto à primeira instituição financeira pagadora, somente poderão ser portados após o prazo de 90 (noventa) dias, contados da DDB. (Incluído pela Instrução Normativa PRES/INSS nº 172, de 28 de agosto de 2024, publicada no DOU nº 168, de 30 de agosto de 2024, Seção 1, Página 313)
+§ 1º Os titulares das operações de empréstimo pessoal consignado poderão requerer a portabilidade do crédito, a qualquer tempo, exceto quanto a contratação realizada nos termos do § 1º do art. 8º, observadas as disposições legais e regulamentares vigentes. (Incluído pela Instrução Normativa PRES/INSS nº 172, de 28 de agosto de 2024, publicada no DOU nº 168, de 30 de agosto de 2024, Seção 1, Página 313)
+
+§ 2º Os empréstimos pessoais consignados contratados junto à primeira instituição financeira pagadora, somente poderão ser portados após o prazo de 90 (noventa) dias, contados da DDB. (Incluído pela Instrução Normativa PRES/INSS nº 172, de 28 de agosto de 2024, publicada no DOU nº 168, de 30 de agosto de 2024, Seção 1, Página 313)
 
 Art. 14. O refinanciamento entre o beneficiário e a instituição financeira contratada poderá ser realizado, desde que atenda às normas editadas pelo BCB e pelo CMN, bem como às normas editadas pelo INSS.
 
@@ -418,7 +462,9 @@ IX - é vedado à instituição consignatária acordante:
 
 a) emitir cartão de crédito consignado ou cartão consignado de benefício adicional ou derivado;
 
-b) cobrar taxa de abertura de crédito, manutenção ou anuidade; c) formalizar o contrato por telefone; e
+b) cobrar taxa de abertura de crédito, manutenção ou anuidade;
+
+c) formalizar o contrato por telefone; e
 
 d) aplicar juros sobre o valor das compras pagas com cartão de crédito consignado ou cartão consignado de benefício, quando o beneficiário consignar a liquidação do valor total da fatura em uma única parcela na data de vencimento;
 
@@ -452,7 +498,9 @@ Art. 16. Exclusivamente, na contratação do cartão consignado de benefício de
 
 Art. 16. Nas contratações de cartão consignado de benefício e de cartão de crédito consignado, além do disposto no art. 15, é obrigatória:
 
-I - a oferta mínima de: auxílio funeral e seguro de vida, sem limite de idade, no valor de, no mínimo, R$ 2.000,00 (dois mil reais) cada, atualizado anualmente pelo Índice Nacional de Preços ao Consumidor – INPC, independente da causa mortis, bem como descontos em redes de farmácias conveniadas; II - a entrega do cartão consignado de benefício, exclusivamente em meio físico, para o beneficiário; e (Alterado pela Instrução Normativa PRES/INSS nº 158, de 27 de novembro de 2023, publicada no DOU nº 225, de 28 de novembro de 2023, Seção 1, Página 74)
+I - a oferta mínima de: auxílio funeral e seguro de vida, sem limite de idade, no valor de, no mínimo, R$ 2.000,00 (dois mil reais) cada, atualizado anualmente pelo Índice Nacional de Preços ao Consumidor – INPC, independente da causa mortis, bem como descontos em redes de farmácias conveniadas;
+
+II - a entrega do cartão consignado de benefício, exclusivamente em meio físico, para o beneficiário; e (Alterado pela Instrução Normativa PRES/INSS nº 158, de 27 de novembro de 2023, publicada no DOU nº 225, de 28 de novembro de 2023, Seção 1, Página 74)
 
 II - a entrega do (s) cartão (ões) para o beneficiário, exclusivamente em meio
 
@@ -518,7 +566,9 @@ VIII - o valor do imposto sobre operações financeiras (IOF), incidente sobre c
 
 IX - outras informações definidas em ato complementar pelo INSS e previstas no Termo de Autorização para Acesso a Dados. (Incluído pela Instrução Normativa PRES/INSS nº 148, de 1º de junho de 2023, publicada no DOU nº 105, de 2/6/2023, Seção 1, Página 247)
 
-§ 1º Para contrato de cartão de crédito consignado ou cartão consignado de benefício, o valor constante no campo "valor do contrato", no qual deverá constar o limite de crédito disponibilizado ao beneficiário, não pode ser superior ao disposto no inciso IV do art. 15. § 2º Na averbação, ficam estabelecidas no sistema as datas de início de contrato, primeira competência de desconto e data de encerramento do contrato, considerando o quantitativo de parcelas pactuadas.
+§ 1º Para contrato de cartão de crédito consignado ou cartão consignado de benefício, o valor constante no campo "valor do contrato", no qual deverá constar o limite de crédito disponibilizado ao beneficiário, não pode ser superior ao disposto no inciso IV do art. 15.
+
+§ 2º Na averbação, ficam estabelecidas no sistema as datas de início de contrato, primeira competência de desconto e data de encerramento do contrato, considerando o quantitativo de parcelas pactuadas.
 
 § 3º Havendo a cessação do benefício para concessão de outro de espécie inacumulável, seja por decisão judicial ou recursal, os contratos de crédito consignado não serão transferidos automaticamente para o novo benefício.
 
@@ -530,13 +580,19 @@ Art. 19. As operações de crédito consignado, processadas mensalmente pela Dat
 
 I - 216: consignação - empréstimo bancário (código 98: empréstimo pessoal consignado);
 
-II - 217: consignação sobre a RMC (código 77: cartão de crédito consignado); III - 322: Reserva de Margem Consignável (RMC), trata-se de informação da margem reservada para uso do cartão de crédito consignado (código 76: RMC); IV - 268: consignação sobre a RCC (código 99: cartão consignado de benefício); e V - 383: Reserva Cartão Consignado (RCC), trata-se de informação de margem reservada para cartão consignado de benefício (código 44: RCC).
+II - 217: consignação sobre a RMC (código 77: cartão de crédito consignado);
+
+III - 322: Reserva de Margem Consignável (RMC), trata-se de informação da margem reservada para uso do cartão de crédito consignado (código 76: RMC);
+
+IV - 268: consignação sobre a RCC (código 99: cartão consignado de benefício); e V - 383: Reserva Cartão Consignado (RCC), trata-se de informação de margem reservada para cartão consignado de benefício (código 44: RCC).
 
 Seção II Do Repasse e Glosas
 
 Art. 20. A Dataprev, mensalmente, encaminhará às instituições consignatárias acordantes, por arquivo, as parcelas consignadas, não consignadas, glosadas e estornadas, na competência, devidamente identificadas, respeitando os requisitos técnicos definidos em contrato com a empresa.
 
-Art. 21. Com base nos valores apurados no arquivo magnético de que trata o art. 20, o INSS efetuará o repasse financeiro às respectivas instituições consignatárias acordantes, até o 5º (quinto) dia útil do mês seguinte ao de processamento do desconto, à conta reserva ou corrente indicada pela acordante. Parágrafo único. Se houver rejeição de valores por motivo de alteração de dados cadastrais ou bancários da instituição credora, não informados ao INSS até o dia 20 (vinte) do mês que anteceder o repasse, este somente será efetuado na competência seguinte à da regularização do cadastro.
+Art. 21. Com base nos valores apurados no arquivo magnético de que trata o art. 20, o INSS efetuará o repasse financeiro às respectivas instituições consignatárias acordantes, até o 5º (quinto) dia útil do mês seguinte ao de processamento do desconto, à conta reserva ou corrente indicada pela acordante.
+
+Parágrafo único. Se houver rejeição de valores por motivo de alteração de dados cadastrais ou bancários da instituição credora, não informados ao INSS até o dia 20 (vinte) do mês que anteceder o repasse, este somente será efetuado na competência seguinte à da regularização do cadastro.
 
 Art. 22. Serão deduzidas do próximo repasse de valores às instituições consignatárias acordantes, credoras das parcelas, as consignações referentes:
 
@@ -572,7 +628,9 @@ benefício; e
 
 e) por processamento de revisão, que altere a data de início do benefício – DIB para data posterior ao início do respectivo contrato;
 
-II - da situação do contrato de crédito consignado, em razão de: a) suspensão por determinação judicial ou do Ministério Público, comandada pelo INSS ou pela instituição consignatária acordante; e
+II - da situação do contrato de crédito consignado, em razão de:
+
+a) suspensão por determinação judicial ou do Ministério Público, comandada pelo INSS ou pela instituição consignatária acordante; e
 
 b) exclusão, por comando da instituição consignatária acordante.
 
@@ -608,7 +666,9 @@ CAPÍTULO IV DAS RESPONSABILIDADES
 
 Seção I Do INSS e da Dataprev
 
-Art. 27. Cabe ao INSS: I - credenciar as instituições financeiras, por intermédio da celebração de ACT,
+Art. 27. Cabe ao INSS:
+
+I - credenciar as instituições financeiras, por intermédio da celebração de ACT,
 
 desde que atendidos os requisitos legais e técnicos exigidos, nos termos da Portaria nº 76/DIRBEN/INSS, de 2020;
 
@@ -618,9 +678,13 @@ III - repassar os valores descontados na forma do art. 21, observado o disposto 
 
 IV - orientar os beneficiários do INSS a buscar atendimento junto aos Programas de Proteção e Defesa do Consumidor – Procon, quando não obtiverem êxito na resolução da reclamação efetuada na plataforma consumidor.gov.br; e
 
-V - acompanhar periodicamente: a) a manutenção das condições de habilitação e qualificação das
+V - acompanhar periodicamente:
 
-instituições financeiras acordantes, por consulta à situação de regularidade no Siafi/Sicaf, bem como se estão adimplentes no Cadin; b) o cumprimento das normas e ACTs relativos à operação do crédito consignado disciplinado nesta Instrução Normativa; e
+a) a manutenção das condições de habilitação e qualificação das
+
+instituições financeiras acordantes, por consulta à situação de regularidade no Siafi/Sicaf, bem como se estão adimplentes no Cadin;
+
+b) o cumprimento das normas e ACTs relativos à operação do crédito consignado disciplinado nesta Instrução Normativa; e
 
 c) a qualidade dos serviços prestados pelas instituições consignatárias acordantes por meio:
 
@@ -642,7 +706,11 @@ Art. 30. Os custos operacionais diretos e indiretos acarretados ao INSS pelas op
 
 Parágrafo único. O não ressarcimento dos valores referidos no caput, nos prazos definidos pelo INSS, ensejará a adoção de medidas de cobrança, nos termos e na forma da legislação aplicável, em especial considerando o que dispõe a Lei nº 10.522, de 19 de julho de 2002, no que couber.
 
-Art. 31. Cabe à Dataprev: I - efetivar as operações tratadas nas Seções I, II e III do Capítulo III; II - disponibilizar ao INSS, em sistema de informações próprio, os dados das operações de crédito consignado em nível gerencial e operacional, para a rotina de acompanhamento do atendimento das instituições financeiras e cumprimento desta Instrução Normativa; e
+Art. 31. Cabe à Dataprev:
+
+I - efetivar as operações tratadas nas Seções I, II e III do Capítulo III;
+
+II - disponibilizar ao INSS, em sistema de informações próprio, os dados das operações de crédito consignado em nível gerencial e operacional, para a rotina de acompanhamento do atendimento das instituições financeiras e cumprimento desta Instrução Normativa; e
 
 III - disponibilizar na Central de Serviços Meu INSS os contratos de operações de crédito consignado, ativos ou suspensos, iniciados a partir de 1º de outubro de 2021, encaminhados na forma da alínea "b" do inciso VI do art. 34.
 
@@ -674,7 +742,9 @@ I - divulgar as regras do ACT aos titulares de benefícios que formalizarem oper
 
 II - incluir, no contrato de crédito consignado, cláusula expressa do direito de desistência, previsto no art. 49 da Lei nº 8.078, de 1990;
 
-III - manter: a) à disposição dos beneficiários serviço centralizado de bloqueio de chamadas e mensagens de oferta de operações de crédito consignado, denominado “Não me Perturbe”;
+III - manter:
+
+a) à disposição dos beneficiários serviço centralizado de bloqueio de chamadas e mensagens de oferta de operações de crédito consignado, denominado “Não me Perturbe”;
 
 b) em sítio da internet, a lista consolidada de seus correspondentes bancários, definidos nos termos do inciso XX do art. 4º, contratados para ofertar operações de crédito consignado;
 
@@ -702,7 +772,9 @@ d) o número de SAC ou Central de Atendimento (CAC) a ser disponibilizado ao ben
 
 e) a informação diária das taxas de juros ofertadas para as novas operações de empréstimo pessoal consignado, cartão de crédito consignado e cartão consignado de benefício, a serem disponibilizadas ao beneficiário no aplicativo Meu INSS. (Incluído pela Instrução Normativa PRES/INSS nº 148, de 1º de junho de 2023, publicada no DOU nº 105, de 2/6/2023, Seção 1, Página 247)
 
-f) dados estruturados referentes ao depósito dos valores correspondentes às operações de crédito consignado em até sete dias úteis da contratação; (Incluído pela Instrução Normativa PRES/INSS nº 213, de 17 de agosto de 2026, publicada no DOU nº 156-A, de 19 de agosto de 2026, Seção 1 - Edição Extra, Página 7) VII - devolver os valores descontados indevidamente do beneficiário em até 2 (dois) dias úteis, na hipótese da alínea “a” do inciso VIII do caput, corrigindo-os com base na variação da Selic, desde a data do vencimento da parcela referente ao desconto indevido até o dia útil anterior ao da efetiva devolução, observada a forma disposta no inciso VII do art. 5º; (Alterado pela Instrução Normativa PRES/INSS nº 143, de 10 de fevereiro de 2023, publicada no DOU nº 31, de 13/2/2023, Seção 1, Página 72)
+f) dados estruturados referentes ao depósito dos valores correspondentes às operações de crédito consignado em até sete dias úteis da contratação; (Incluído pela Instrução Normativa PRES/INSS nº 213, de 17 de agosto de 2026, publicada no DOU nº 156-A, de 19 de agosto de 2026, Seção 1 - Edição Extra, Página 7)
+
+VII - devolver os valores descontados indevidamente do beneficiário em até 2 (dois) dias úteis, na hipótese da alínea “a” do inciso VIII do caput, corrigindo-os com base na variação da Selic, desde a data do vencimento da parcela referente ao desconto indevido até o dia útil anterior ao da efetiva devolução, observada a forma disposta no inciso VII do art. 5º; (Alterado pela Instrução Normativa PRES/INSS nº 143, de 10 de fevereiro de 2023, publicada no DOU nº 31, de 13/2/2023, Seção 1, Página 72)
 
 VII - devolver os valores descontados indevidamente do beneficiário em até 2 (dois) dias úteis, na hipótese da alínea “a” do inciso VII do caput, corrigindo-os com base na variação da Selic, desde a data do vencimento da parcela referente ao desconto indevido até o dia útil anterior ao da efetiva devolução, observada a forma disposta no inciso VII do art. 5º;
 
@@ -730,7 +802,9 @@ I - suspensão dos repasses dos valores consignados, até a efetiva regularizaç
 
 II - inelegibilidade para novo ACT.
 
-§ 2º Aplica-se o disposto no inciso XI às determinações judiciais direcionadas ao INSS em que a instituição consignatária acordante, responsável pela operação de crédito consignado em questão, não seja ré, no prazo de 10 (dez) dias úteis contados da data de encaminhamento da decisão judicial pelo INSS, por ofício, em meio eletrônico. § 3º O descumprimento de determinações judiciais subsidiará a instauração de processo de apuração de irregularidade, para fins de aplicação de penalidade, e será considerado na análise para a renovação dos ACTs vigentes.
+§ 2º Aplica-se o disposto no inciso XI às determinações judiciais direcionadas ao INSS em que a instituição consignatária acordante, responsável pela operação de crédito consignado em questão, não seja ré, no prazo de 10 (dez) dias úteis contados da data de encaminhamento da decisão judicial pelo INSS, por ofício, em meio eletrônico.
+
+§ 3º O descumprimento de determinações judiciais subsidiará a instauração de processo de apuração de irregularidade, para fins de aplicação de penalidade, e será considerado na análise para a renovação dos ACTs vigentes.
 
 § 4º As instituições financeiras autorizadas a operar o crédito consignado respondem solidariamente pelos atos praticados pelos correspondentes bancários que contratarem, sem prejuízo da responsabilidade criminal e administrativa.
 
@@ -762,19 +836,35 @@ Parágrafo único. As atividades referidas no inciso II, se realizadas no prazo 
 
 Art. 36. Constatadas irregularidades nas operações de crédito consignado ou descumprimento das obrigações, pelas instituições consignatárias acordantes ou por correspondentes bancários a seu serviço, aplicar-se-ão as seguintes penalidades:
 
-I - advertência, por inobservância aos: a) incisos I, II e alíneas "a" e "b" do inciso III do art. 34; e b) incisos I a IV do art. 35;
+I - advertência, por inobservância aos:
+
+a) incisos I, II e alíneas "a" e "b" do inciso III do art. 34; e b) incisos I a IV do art. 35;
 
 II - suspensão de novas averbações para consignações de empréstimo e/ou RMC/RCC, pelos seguintes prazos:
 
-a) 5 (cinco) dias, por inobservância: 1. à alínea "c" do inciso III, aos incisos IV e V, às alíneas "a" e "b" do inciso VI, e ao inciso VII, todos do art. 34; (Alterado pela Instrução Normativa PRES/INSS nº 213, de 17 de agosto de 2026, publicada no DOU nº 156-A, de 19 de agosto de 2026, Seção 1 - Edição Extra, Página 7) 1. ao art. 34, caput, inciso III, alínea "c", incisos IV e V, inciso VI, alíneas "a", "b" e "f", e inciso VII; 2. ao inciso V do art. 35; e 3. reincidência das infrações punidas com a penalidade prevista no inciso I; b) 10 (dez) dias, por inobservância: 1. ao art. 33; e 2. à alínea "d" do inciso III e incisos VIII a XIII, todos do art. 34; c) 15 (quinze) dias, por inobservância: 1. à alínea "c" do inciso VI do art. 34; 2. aos incisos VI a VIII do art. 35; e 3. reincidência das infrações punidas com as penalidades tratadas nas alíneas “a” e “b”; d) 30 (trinta) dias, em caso de reincidência das infrações punidas com a penalidade prevista na alínea “c”; e
+a) 5 (cinco) dias, por inobservância: 1. à alínea "c" do inciso III, aos incisos IV e V, às alíneas "a" e "b" do inciso VI, e ao inciso VII, todos do art. 34; (Alterado pela Instrução Normativa PRES/INSS nº 213, de 17 de agosto de 2026, publicada no DOU nº 156-A, de 19 de agosto de 2026, Seção 1 - Edição Extra, Página 7) 1. ao art. 34, caput, inciso III, alínea "c", incisos IV e V, inciso VI, alíneas "a", "b" e "f", e inciso VII; 2. ao inciso V do art. 35; e 3. reincidência das infrações punidas com a penalidade prevista no inciso I;
 
-III - rescisão do ACT: a) havendo reincidência das infrações punidas com a penalidade prevista
+b) 10 (dez) dias, por inobservância: 1. ao art. 33; e 2. à alínea "d" do inciso III e incisos VIII a XIII, todos do art. 34;
 
-na alínea "d" do inciso II; b) caso a pendência ensejadora da penalidade prevista na alínea “b” do
+c) 15 (quinze) dias, por inobservância: 1. à alínea "c" do inciso VI do art. 34; 2. aos incisos VI a VIII do art. 35; e 3. reincidência das infrações punidas com as penalidades tratadas nas alíneas “a” e “b”;
 
-inciso II não seja regularizada no prazo de 30 (trinta) dias úteis; c) em caso de desativação definitiva da instituição financeira da plataforma
+d) 30 (trinta) dias, em caso de reincidência das infrações punidas com a penalidade prevista na alínea “c”; e
 
-consumidor.gov.br; d) na hipótese do § 2º do art. 32; e e) constatada como falsa a declaração exigida no inciso XIV do art. 34.
+III - rescisão do ACT:
+
+a) havendo reincidência das infrações punidas com a penalidade prevista
+
+na alínea "d" do inciso II;
+
+b) caso a pendência ensejadora da penalidade prevista na alínea “b” do
+
+inciso II não seja regularizada no prazo de 30 (trinta) dias úteis;
+
+c) em caso de desativação definitiva da instituição financeira da plataforma
+
+consumidor.gov.br;
+
+d) na hipótese do § 2º do art. 32; e e) constatada como falsa a declaração exigida no inciso XIV do art. 34.
 
 § 1º Se o ato infracional que deu causa à penalidade de suspensão não for regularizado no prazo estabelecido, o recebimento de novas averbações de crédito consignado ficará suspenso até que seja sanada a infração ou até conclusão da análise pelo INSS, referente a impugnação apresentada pela instituição consignatária acordante.
 
@@ -790,9 +880,13 @@ consumidor.gov.br; d) na hipótese do § 2º do art. 32; e e) constatada como fa
 
 § 7º Será proibida a celebração de novo ACT pelo prazo de até 2 (dois) anos, a contar da data da publicação da penalidade máxima referente à rescisão do ACT.
 
-§ 8º As penalidades previstas neste artigo serão aplicadas no âmbito do INSS, independentemente das que possam ser adotadas, pelo mesmo fato, nos procedimentos instaurados nos órgãos e entidades de proteção e defesa do consumidor. Art. 37. As penalidades previstas no art. 36 serão aplicadas mediante observância ao devido processo legal, respeitados o contraditório e a ampla defesa, na forma e prazos definidos em ato próprio do INSS, exceto, se este receber a indicação de punição a ser aplicada por:
+§ 8º As penalidades previstas neste artigo serão aplicadas no âmbito do INSS, independentemente das que possam ser adotadas, pelo mesmo fato, nos procedimentos instaurados nos órgãos e entidades de proteção e defesa do consumidor.
 
-I - determinação judicial transitada em julgado; II - relatório da apuração realizada pela Senacon; ou III - relatório de avaliação do Comitê Nacional de Avaliação do Atendimento na Rede Bancária - CNARB.
+Art. 37. As penalidades previstas no art. 36 serão aplicadas mediante observância ao devido processo legal, respeitados o contraditório e a ampla defesa, na forma e prazos definidos em ato próprio do INSS, exceto, se este receber a indicação de punição a ser aplicada por:
+
+I - determinação judicial transitada em julgado;
+
+II - relatório da apuração realizada pela Senacon; ou III - relatório de avaliação do Comitê Nacional de Avaliação do Atendimento na Rede Bancária - CNARB.
 
 CAPÍTULO V DAS DISPOSIÇÕES FINAIS E TRANSITÓRIAS
 
@@ -806,7 +900,9 @@ Art. 38. As instituições que possuem ACT com o INSS e contrato com a Dataprev 
 
 § 4º Nos ACTs já firmados com os termos exigidos no inciso XIV do art. 34, a penalidade estabelecida na alínea “e” do inciso III do art. 36, terá aplicação na data de vigência desta Instrução Normativa.
 
-§ 5º A implementação das alterações nos contratos das operações de crédito consignado, no que se refere ao envio da documentação contratual prevista no inciso II do art. 5º e na alínea "b", inciso VI, do art. 34, ocorrerá em 60 (sessenta) dias, a partir da data de vigência desta Instrução Normativa. (Prazo prorrogado pela Instrução Normativa PRES/INSS nº 143, de 10 de fevereiro de 2023, publicada no DOU nº 31, de 13/2/2023, Seção 1, Página 72) § 6º Em caso de descumprimento do envio da documentação contratual, conforme previsto no inciso II do art. 5º e na alínea "b" do inciso VI do caput do art. 34, por parte das instituições financeiras, nos prazos estabelecidos nesta Instrução Normativa e requisitos definidos pelo INSS, por meio da Dataprev, poderão ser aplicadas as penalidades previstas no inciso II do art. 36, podendo culminar em rescisão do ACT, nas hipóteses das alíneas "a" e "b" do inciso III do art. 36. (Incluído pela Instrução Normativa PRES/INSS nº 148, de 1º de junho de 2023, publicada no DOU nº 105, de 2/6/2023, Seção 1, Página 247)
+§ 5º A implementação das alterações nos contratos das operações de crédito consignado, no que se refere ao envio da documentação contratual prevista no inciso II do art. 5º e na alínea "b", inciso VI, do art. 34, ocorrerá em 60 (sessenta) dias, a partir da data de vigência desta Instrução Normativa. (Prazo prorrogado pela Instrução Normativa PRES/INSS nº 143, de 10 de fevereiro de 2023, publicada no DOU nº 31, de 13/2/2023, Seção 1, Página 72)
+
+§ 6º Em caso de descumprimento do envio da documentação contratual, conforme previsto no inciso II do art. 5º e na alínea "b" do inciso VI do caput do art. 34, por parte das instituições financeiras, nos prazos estabelecidos nesta Instrução Normativa e requisitos definidos pelo INSS, por meio da Dataprev, poderão ser aplicadas as penalidades previstas no inciso II do art. 36, podendo culminar em rescisão do ACT, nas hipóteses das alíneas "a" e "b" do inciso III do art. 36. (Incluído pela Instrução Normativa PRES/INSS nº 148, de 1º de junho de 2023, publicada no DOU nº 105, de 2/6/2023, Seção 1, Página 247)
 
 § 7º A implementação das obrigações, por parte das instituições consignatárias acordantes, mencionadas no inciso XII do caput do art. 15, nos incisos IV a VIII e § 5º do art. 18, e nas alíneas "d" e "e" do inciso VI do art. 34, ocorrerá em prazo a ser estabelecido em ato próprio, pela DIRBEN, considerando a disponibilização, por parte do INSS, dos manuais e descritores dos serviços, a serem elaborados pela Dataprev. (Incluído pela Instrução Normativa PRES/INSS nº 148, de 1º de junho de 2023, publicada no DOU nº 105, de 2/6/2023, Seção 1, Página 247)
 

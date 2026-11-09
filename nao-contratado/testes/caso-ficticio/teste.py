@@ -6,6 +6,8 @@ números esperados (conta feita à mão). Sai com código 0 se tudo bate.
 
 Uso:  python3 teste.py          (requer: pip install pypdf)
 """
+import datetime as dt
+import importlib.util
 import json
 import subprocess
 import sys
@@ -67,6 +69,18 @@ def main():
         erros.append("tópico de prescrição deveria estar ativo (desconto desde 03/2019)")
     if not any("ANOMALIA" in a for a in calc["alertas"]):
         erros.append("faltou o alerta de ANOMALIA (bloco B ativo)")
+    # alerta entre 3 e 5 anos (decisão de 08/11/2026): três contratos de 2022, 12 parcelas desde 10/2022, peça em 11/2026
+    spec = importlib.util.spec_from_file_location("calcnc", RAIZ / "scripts" / "calcular.py")
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    ini22 = 2022 * 12 + 10 - 1
+    l22 = [{"contrato": "A", "qtde": 12, "parcela": 17.40, "ini_n": ini22}, {"contrato": "B", "qtde": 12, "parcela": 21.00, "ini_n": ini22},
+           {"contrato": "C", "qtde": 12, "parcela": 51.41, "ini_n": ini22}]
+    av = m.alerta_trienal(l22, dt.date(2026, 11, 8))
+    if not av or "3 contrato(s)" not in av or "1.077,72" not in av:
+        erros.append(f"alerta trienal: {av!r}")
+    if m.alerta_trienal([{"contrato": "X", "qtde": 5, "parcela": 10.0, "ini_n": 2025 * 12}], dt.date(2026, 11, 8)) is not None:
+        erros.append("alerta trienal não deveria disparar para desconto recente")
     if "20.000,00 (vinte mil reais)" not in calc["dano_moral_extenso"]:
         erros.append("dano moral por extenso incorreto")
     fsc = {f["fsc"]: f["status"] for f in calc["checagem_fsc"]}

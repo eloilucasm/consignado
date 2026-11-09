@@ -250,7 +250,8 @@
    "migrado",
    "nao-contratado",
    "recurso-inominado-consignado-geolocalizacao",
-   "replica-consignado"
+   "replica-consignado",
+   "rmc"
   ],
   "normas/res-bcb-96-2021.md": [],
   "normas/res-cmn-3954-original.md": [
@@ -415,7 +416,11 @@
   "jurisprudencia/acordao-1094-2026-tcu.md": [
    "migrado",
    "nao-contratado",
+   "rmc",
    "tese-1000"
+  ],
+  "jurisprudencia/sentenca-0209760-2026-tjba-rmc.md": [
+   "rmc"
   ]
  }
 }

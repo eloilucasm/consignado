@@ -27,6 +27,13 @@ Fontes comparadas: a inicial "Francisco_Agibank_2021-2025" (docx do escritório,
 | 21 | Fecho "Candeias/BA, na data do protocolo eletrônico" | Pergunta a cidade e a UF; data do dia | padrão do pacote |
 | 22 | Tópico de precedentes ausente | Tópico completo (art. 489, § 1º, VI; *distinguishing*; *overruling*), com ponte para o JEC | padrão de peças do escritório |
 | 23 | Mesmo número de contrato em outro banco não tratado | O script mede a norma pela primeira averbação, não soma os descontos do banco anterior sem decisão e alerta | decisão D29 (troca de titularidade) |
+| 24 | Audiência: interesse ou desinteresse perguntado ao advogado (linha 17) | **Justiça Comum**: tópico "Da audiência de conciliação e da composição extrajudicial" com desinteresse (CPC, arts. 319, VII, e 334, § 5º), e-mails michaelneves.adv@gmail.com e diegoarleo@gmail.com e telefone +55 73 9104-5925; **JEC**: a peça não trata do assunto; não se pergunta mais | decisão do escritório de 08/11/2026; a sessão de conciliação integra o procedimento do JEC (Lei 9.099/95, art. 16) |
+| 25 | Correção e juros só pelas Súmulas 43, 54 e 362 | Mesmas súmulas, com a ressalva "observada a Lei 14.905/2024 a partir de 30/08/2024" nos pedidos de restituição e de dano moral | decisão de 08/11/2026 (substitui a de 30/10/2026) |
+| 26 | Obrigação de não fazer sem multa | Multa de R$ 1.000,00 por evento de descumprimento (CPC, art. 537) | decisão de 08/11/2026 |
+| 27 | Prescrição só pelo EAREsp 738.991/RS (linha 19) | Decenal, com a segunda tese do EAREsp 676.608/RS (trecho transcrito, não modulado, truncado antes da Súmula 412) e o EAREsp 738.991/RS ao lado, ambos de telefonia, por analogia | acervo (inteiro teor do 676.608); regra de 05/11/2026 mantida |
+| 28 | Fatos em tópico curto e descritivo | Tópico narrativo "Da migração do contrato: a sequência que o extrato registra" (PRIMEIRO a QUINTO; fecho em forma de pergunta ao banco: com que notificação a parte autora foi informada da cessão), só com dados do extrato | decisão de 08/11/2026 (tom persuasivo); sem "prática sistêmica" nem inexistência do crédito cedido |
+| 29 | Tom neutro no "Do direito" | Frases de ligação e de argumento mais firmes; citações, transcrições, artigos, marcas e condicionais intactos | decisão de 08/11/2026 |
+| 30 | Defeitos de acabamento do template | "em face" com artigo; título e pedido da prioridade dentro do condicional; "confirmada a tutela" só com tutela; "no período de"; tabela de documentos por norma e por linha; frase de biometria limitada às migrações impugnadas; Motivo da Exclusão só com contrato ativo ou excluído (`[[SE MOTIVO]]`); frase da modulação do EAREsp quando todos os descontos são posteriores a 30/03/2021 | peça gerada de modelo irmão (comparativo de 08/11/2026) |
 
 ## O que o script confere e o AMN não conferia
 
@@ -41,7 +48,15 @@ Fontes comparadas: a inicial "Francisco_Agibank_2021-2025" (docx do escritório,
 
 - Res. CMN 2.836/2001 (cessão de crédito; remissão da IN 28, art. 56): no acervo desde 30/10/2026 (`normas/res-cmn-2836-consolidada.md`); cita-se sem marca.
 
+## Revisão de 08/11/2026 (comparativo G x H, Bradesco, Nilzete)
+
+- **Contagem só desde a troca de titularidade** (`corte_da_troca` em `calcular_migrado.py`): quando o registro do réu repete o histórico do banco anterior (mesma inclusão e início), a contagem parte da competência da exclusão "por troca de titularidade" no banco anterior; o que o banco anterior recebeu antes não é cobrado do réu. Só vale com sobreposição. Caso Nilzete: o contrato 319310572-7 passa de 66 parcelas (R$ 645,48) para 38 (R$ 371,64); o 338966780-3 não muda. Com `--incluir-outros-bancos`, do banco anterior soma-se só até a véspera da troca, para não contar duas vezes. O calculo.json traz `inicio` (já cortado), `inicio_registro_do_reu` e `corte_da_troca`; o teste cobre o corte com sobreposição, sem sobreposição e com outro motivo de exclusão.
+- **Contradições internas retiradas:** "jamais celebrou os contratos impugnados" e "nem com o banco de origem nem com o réu" foram trocados por "não consentiu com as migrações impugnadas" e "perante o réu, nem de notificação da cessão", porque o modelo não contesta a contratação de origem. O tópico da LGPD deixou de falar em "contrato que a parte autora não firmou".
+- **Motivo da Exclusão por contrato:** o modelo ganhou o condicional para contrato que já registra motivo (por exemplo "Liquidação antecipada"), que fica fora do pedido (`[[SE HÁ CONTRATO COM MOTIVO REGISTRADO]]`).
+- **Decidido manter:** a tese de 29/10/2026 (cessão não notificada, art. 290 do CC, com dobra de todas as parcelas contadas) e o dano moral de R$ 20.000,00. O comparativo vê a repetição como incompatível com a origem admitida; o usuário optou por manter, sem portal de triagem.
+
 ## O que continua em aberto
 
 - Jurisprudência sobre migração de consignado sem contratação de origem: **nenhuma no acervo**.
+- Se há desconto duplo no benefício (Pan e Bradesco na mesma competência): só o extrato de pagamento do benefício mostra; o HISCON não basta.
 - D18: o leitor do extrato foi testado só com PDF fictício; conferir a primeira leitura real do campo "Origem da Averbação" e do código do banco de origem.

@@ -31,7 +31,7 @@ A curadoria está em `_manutencao/gerar-indice-jurisprudencia.py` (lista `DADOS`
 
 ## Quando uma regra do verificador muda
 
-`python3 _manutencao/testar-verificador.py --tmp <pasta temporária>` copia o pacote, aplica 28 defeitos, um por vez, e confere que cada um reprova com a mensagem certa. **Cada erro que aparecer duas vezes vira regra nova** em `verificador.config.js`, com um caso novo em `testar-verificador.py`.
+`python3 _manutencao/testar-verificador.py --tmp <pasta temporária>` copia o pacote, aplica 53 defeitos (conferido em 06/11/2026), um por vez, e confere que cada um reprova com a mensagem certa. **Cada erro que aparecer duas vezes vira regra nova** em `verificador.config.js`, com um caso novo em `testar-verificador.py`.
 
 ## Teste da skill rmc
 

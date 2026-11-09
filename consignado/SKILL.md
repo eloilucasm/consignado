@@ -70,7 +70,7 @@ A tabela de roteamento do `protocolo/protocolo.md` é a fonte única; aplique-a 
 As iniciais perguntam as mesmas coisas. Pergunte **uma vez**, no máximo três lacunas por rodada, e repasse a resposta às skills:
 
 - rito, **JEC ou Justiça Comum** (você pode sugerir pelo valor e pela prova, mas não escolhe);
-- só no RMC: ação anterior sobre o cartão; só no migrado: interesse na audiência de conciliação (Justiça Comum).
+- só no RMC: ação anterior sobre o cartão. A audiência de conciliação não se pergunta (protocolo, "Regras de citação e de pedido vigentes").
 
 Também não se pergunta se o banco entregou contrato ou trilha antes da ação (nunca entrega; fica para a réplica) nem o prazo da prescrição (sempre o decenal), nem se o tópico da LGPD entra (sempre entra, no migrado), nem o percentual dos honorários na Justiça Comum (sempre 20%), nem, no RMC, se só o mínimo da fatura é descontado em folha (premissa fixa). Na inicial, o número da vara fica em branco ("__ª Vara"): o distribuidor define. Juízo e cidade do fecho não se perguntam: saem do endereço do autor (triagem e `foro` do cálculo). Nunca responda por conta própria rito, escolha de risco ou qualquer pausa das especialistas.
 

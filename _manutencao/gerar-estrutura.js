@@ -10,9 +10,18 @@ const CAB = /^(?:~~)?(PARTE|LIVRO|TÍTULO|CAPÍTULO)\b(.*)$/i;
 const ART = /^(?:~~)?Art\. ?(\d+(?:\.\d+)*)\s*([ºo°])?(?:-([A-Z]))?/;
 const nivel = r => ({ PARTE: 0, LIVRO: 1, TÍTULO: 2, CAPÍTULO: 3 })[r.toUpperCase()];
 
+// Título da norma: primeiro "# " depois do cabeçalho YAML; sem ele, o campo titulo do cabeçalho.
+function tituloDe(L) {
+  const fim = L[0] === '---' ? L.indexOf('---', 1) + 1 : 0;
+  const h = L.slice(fim).find(t => /^#\s/.test(t));
+  if (h) return h.replace(/^#\s*/, '').trim();
+  const y = L.slice(0, fim).find(t => /^titulo:/.test(t));
+  return y ? y.replace(/^titulo:\s*"?|"\s*$/g, '').replace(/\\"/g, '"') : (L[0] || '').replace(/^#\s*/, '');
+}
+
 function mapear(arq) {
   const L = fs.readFileSync(arq, 'utf8').split(/\r?\n/);
-  const titulo = (L[0] || '').replace(/^#\s*/, '');
+  const titulo = tituloDe(L);
   const arts = []; // [linha, rotulo]
   const cabs = []; // {lin, nivel, rotulo}
   L.forEach((t, k) => {

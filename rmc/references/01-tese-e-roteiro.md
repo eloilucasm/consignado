@@ -2,7 +2,7 @@
 
 ## Quando esta skill se aplica
 
-Cartão de crédito consignado (RMC: reserva de margem consignável; RCC: cartão consignado de benefício) averbado no benefício do INSS, cujo **saldo foi refinanciado pelo banco** depois de o beneficiário já ter pago, em descontos mensais, **mais de 200% do capital**. A tese é de **nulidade do refinanciamento**, com declaração de quitação, repetição em dobro do que foi descontado desde o refinanciamento, obrigação de liberar a margem e dano extrapatrimonial.
+Cartão de crédito consignado (RMC: reserva de margem consignável; RCC: cartão consignado de benefício) averbado no benefício do INSS, cujo **saldo foi refinanciado pelo banco** depois de o beneficiário já ter pago, em descontos mensais, **mais de 200% do capital**. A tese é de **nulidade do refinanciamento**, com declaração de quitação **na competência do marco de 200%** (não na do refinanciamento; correção do escritório, 06/11/2026; assim decidiu a sentença do Processo 0209760-63.2026.8.05.0001, 12ª VSJE do Consumidor de Salvador, ficha em `references/jurisprudencia/sentenca-0209760-2026-tjba-rmc.md`), repetição em dobro do que foi descontado desde o refinanciamento, obrigação de liberar a margem e dano extrapatrimonial.
 
 Não é desta skill: empréstimo consignado não contratado, contrato migrado, Tese 1000 (cada um tem a sua) e recurso.
 

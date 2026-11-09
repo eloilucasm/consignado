@@ -28,7 +28,7 @@ A redação desses artigos mudou ao longo do tempo (o arquivo consolidado traz r
 3. **"Ilícito de massa" e "Operação Sem Desconto"**: a petição Francisco x Agibank do escritório usa esse contexto, em tese de migração. Ele não faz parte desta skill e tem de ser conferido na fonte antes de qualquer uso.
 4. **IN 138, art. 5º, § 1º** como fundamento de que "a autorização não persiste": o parágrafo trata de sucessão aos pensionistas e dependentes, não de reuso para outro contrato.
 5. **Dano moral *in re ipsa***: questão em aberto no Tema 1414/STJ. A peça usa a Súmula 40/TJBA.
-6. **Prazo decenal atribuído ao EAREsp 676.608/RS**: esse é o precedente da dobra. O da prescrição é o EAREsp 738.991/RS (telefonia), por analogia, com `[VERIFICAR]`.
+6. **Prazo decenal atribuído ao EAREsp 676.608/RS sem separar as teses**: a dobra é a primeira tese (modulada, vale a partir de 30/03/2021); o prazo é a segunda tese (de telefonia, **não modulada**). Cite a segunda tese literalmente no tópico de prescrição, ao lado do EAREsp 738.991/RS, ambos por analogia.
 
 ## Gatilhos dos tópicos condicionais
 

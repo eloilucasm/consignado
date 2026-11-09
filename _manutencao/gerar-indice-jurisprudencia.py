@@ -19,6 +19,7 @@ S326, T929, T1061, T1198, E738 = "sumula-326-stj.md", "tema-929-stj.md", "tema-1
 T1414 = "tema-1414-stj.md"
 T466, T1076, R2168312 = "tema-466-stj.md", "tema-1076-stj.md", "resp-2168312-pr-stj.md"
 TCU1094 = "acordao-1094-2026-tcu.md"
+SENT_RMC = "sentenca-0209760-2026-tjba-rmc.md"
 
 # (assunto, citar como, o que diz, arquivo, uso em nao-contratado, uso em rmc). Uso None = a linha não entra na skill.
 DADOS = [
@@ -60,6 +61,8 @@ DADOS = [
      "no modelo (migrado), com [VERIFICAR]", "no modelo (migrado), com [VERIFICAR]"),
     ("Cartão consignado (RMC) e suspensão nacional", "Tema 1414/STJ", "validade e abusividade dos contratos de RMC (informação; prolongamento da dívida frente aos juros rotativos no refinanciamento; decadência ou nulidade; consequência; dano moral in re ipsa); **afetado, sem tese; suspensão nacional dos processos pendentes, exceto cumprimentos de sentença**", T1414,
      "**alerta**: se a ação envolver cartão consignado, o juiz pode suspendê-la; para inexistência por fraude há decisões do TJMG afastando a suspensão (outro estado; ementa de fonte secundária)", "**alerta**: a questão II.b do tema (prolongamento da dívida frente aos juros do refinanciamento) tem proximidade com a tese; o escritório decidiu em 29/10/2026 pedir o prosseguimento por distinção"),
+    ("Cartão consignado (RMC) e suspensão nacional", "Sentença 0209760-63.2026.8.05.0001 (TJBA, 12ª VSJE do Consumidor de Salvador)", "RMC: nulidade do refinanciamento compulsório (art. 166, VI, do CC), quitação desde o marco de 200% (Lei 14.690/2023, art. 28, § 1º), dobro desde o refinanciamento; decadência do art. 178 afastada; sentença de primeiro grau", SENT_RMC,
+     None, "exemplo de procedência: reforça a quitação no marco de 200% e a nulidade pelo art. 166, VI; **só como exemplo, não como precedente**"),
     ("Dano extrapatrimonial", "Julgados do STJ citados na Súmula 40/TJBA", "AgInt no AREsp 2149415/MG (3ª T., j. 29/05/2023); AgInt no AREsp 2157547/SC (4ª T., j. 12/12/2022); AgInt no AREsp n. 1.622.003/SP (4ª T., j. 19/10/2020); REsp 1.550.509-RJ (j. 03/03/2016) e outros", TJBA,
      "disponíveis só pela lista do texto da súmula (inteiros teores não baixados); conferir antes de citar; poderiam substituir o acórdão do TRF-4 do modelo", "idem"),
     ("Repetição em dobro e prescrição", "Tema 929/STJ", "hipóteses de repetição em dobro do art. 42, parágrafo único, do CDC; **NÃO CITAR na peça (decisão de 29/10/2026): tese não publicada**", T929,
@@ -167,6 +170,7 @@ def montar(skill, dir_jur):
         T466: ("Tema Repetitivo 466/STJ", "trânsito em julgado em 18/10/2011; origem da Súmula 479"),
         T1076: ("Tema Repetitivo 1076/STJ", "acórdão publicado em 31/05/2022; só Justiça Comum"),
         R2168312: ("REsp 2.168.312/PR", "Informativo 875/STJ (portal do STJ); acórdão não lido"),
+        SENT_RMC: ("Sentença 0209760-63.2026.8.05.0001 (TJBA, 12ª VSJE do Consumidor de Salvador), RMC contra o Banco Inter", "primeiro grau; parcialmente procedente; inteiro teor lido; dados pessoais omitidos"),
         TCU1094: ("Acórdão 1.094/2026-TCU-Plenário (TC 003.276/2026-0)", "lido no documento assinado do TCU (cópia da Conjur, sha256 na ficha); cautelar; situação posterior só pela imprensa"),
         T1414: ("Tema Repetitivo 1414/STJ", "**afetado, sem tese**; suspensão nacional; página do STJ lida em 28/10/2026"),
         "fonajef-enunciados.md": ("Enunciados 1 a 226 do FONAJEF (Juizados Federais)", "até o XVIII FONAJEF; sem as Recomendações; só para processo da Caixa em Juizado Especial Federal"),

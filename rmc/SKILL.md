@@ -24,7 +24,7 @@ No Cowork, rode e **confira por segunda via**:
 python3 scripts/calcular_rmc.py --ficha ficha.json --processo N --extrato extrato.pdf --data AAAA-MM-DD --saida pasta/ [--historico-extra historico.csv] [--rito jec|comum] [--extrato-bancario sim|nao] [--dossie-pre-acao]
 ```
 
-O script lê o cartão e o histórico mensal (`scripts/cartao.py`, requer `pip install pypdf`), detecta o refinanciamento, monta a planilha acumulada, acha o marco de 200%, calcula o dobro e o valor da causa e grava `calculo.json` e `calculo.md` (com a planilha pronta para colar). **Ele para** quando falta histórico, quando não há refinanciamento ou quando o marco de 200% não vem antes dele, e **avisa** quando o refinanciamento é anterior ao prazo de 90 dias do art. 2º-D da Res. CMN 4.549. Sem execução de código, faça a tabela à mão e marque `CÁLCULO A CONFERIR`.
+O script lê o cartão e o histórico mensal (`scripts/cartao.py`, requer `pip install pypdf`), detecta o refinanciamento, monta a planilha acumulada, acha o marco de 200%, calcula o dobro e o valor da causa e grava `calculo.json` e `calculo.md` (com a planilha pronta para colar). **Ele para** quando falta histórico, quando não há refinanciamento ou quando o marco de 200% não vem antes dele, e **avisa** quando o refinanciamento é anterior ao prazo de 90 dias do art. 2º-D da Res. CMN 4.549. Sem execução de código, faça a tabela à mão e marque `[CÁLCULO A CONFERIR]`.
 
 Depois, gere as figuras da inicial:
 

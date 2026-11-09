@@ -55,6 +55,7 @@ Gerado por `python3 _manutencao/gerar-indice-jurisprudencia.py` (não edite à m
 | Citar como | O que diz | Arquivo | Uso nesta skill |
 |---|---|---|---|
 | Tema 1414/STJ | validade e abusividade dos contratos de RMC (informação; prolongamento da dívida frente aos juros rotativos no refinanciamento; decadência ou nulidade; consequência; dano moral in re ipsa); **afetado, sem tese; suspensão nacional dos processos pendentes, exceto cumprimentos de sentença** | `tema-1414-stj.md` | **alerta**: a questão II.b do tema (prolongamento da dívida frente aos juros do refinanciamento) tem proximidade com a tese; o escritório decidiu em 29/10/2026 pedir o prosseguimento por distinção |
+| Sentença 0209760-63.2026.8.05.0001 (TJBA, 12ª VSJE do Consumidor de Salvador) | RMC: nulidade do refinanciamento compulsório (art. 166, VI, do CC), quitação desde o marco de 200% (Lei 14.690/2023, art. 28, § 1º), dobro desde o refinanciamento; decadência do art. 178 afastada; sentença de primeiro grau | `sentenca-0209760-2026-tjba-rmc.md` | exemplo de procedência: reforça a quitação no marco de 200% e a nulidade pelo art. 166, VI; **só como exemplo, não como precedente** |
 
 ## Dano extrapatrimonial
 
@@ -133,9 +134,11 @@ Gerado por `python3 _manutencao/gerar-indice-jurisprudencia.py` (não edite à m
 
 | Arquivo | Conteúdo | Situação |
 |---|---|---|
+| `acordao-1094-2026-tcu.md` | Acórdão 1.094/2026-TCU-Plenário (TC 003.276/2026-0) | lido no documento assinado do TCU (cópia da Conjur, sha256 na ficha); cautelar; situação posterior só pela imprensa |
 | `fonaje-encontros.md` | Encontros do FONAJE e do FONAJEF: cidade e data, para a nota de rodapé do enunciado | FONAJEF completo (Ajufe, mês e ano); FONAJE parcial, com `[CONFERIR]` onde não há fonte de data |
 | `fonaje-enunciados-civeis.md` | Enunciados cíveis 1 a 178 do FONAJE (139 vigentes) | até o 57º Encontro (27 a 29/05/2026); os revogados estão no fim do arquivo |
 | `fonajef-enunciados.md` | Enunciados 1 a 226 do FONAJEF (Juizados Federais) | até o XVIII FONAJEF; sem as Recomendações; só para processo da Caixa em Juizado Especial Federal |
+| `sentenca-0209760-2026-tjba-rmc.md` | Sentença 0209760-63.2026.8.05.0001 (TJBA, 12ª VSJE do Consumidor de Salvador), RMC contra o Banco Inter | primeiro grau; parcialmente procedente; inteiro teor lido; dados pessoais omitidos |
 | `sumula-326-stj.md` | Súmula 326/STJ | vigente; trata de sucumbência |
 | `sumulas-stj.md` | Súmulas do STJ conferidas para o consignado (43, 54, 203, 297, 362, 479) e súmulas 1 a 10 | conferidas |
 | `sumulas-tjba-turma-uniformizacao.md` | Súmulas 1 a 55 da Turma de Uniformização das Turmas Recursais do TJBA | todas com data de aprovação (55 de 55; a da Súmula 55, 10/11/2025, foi informada pelo advogado); 3 e 22 revogadas; 45 alterada em 03/09/2025 |

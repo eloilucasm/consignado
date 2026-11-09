@@ -1,3 +1,6 @@
 .claude/
 __pycache__/
 *.pyc
+
+# inteiro teor com dados pessoais de cliente: fica no disco, fora do git
+_backup/fontes-jurisprudencia-2026-11-06/rmc/*.html

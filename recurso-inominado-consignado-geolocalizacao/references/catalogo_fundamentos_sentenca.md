@@ -97,9 +97,11 @@ plataforma de assinatura), matéria de perícia em informática forense.
   tornam a assinatura duvidosa (traço, posição, confronto com outras assinaturas do autor nos
   autos: procuração, RG, outros contratos). É questão de valoração da prova, devolvida ao órgão
   recursal (art. 1.013, § 1º, CPC).
-- **JEC:** perícia grafotécnica é vedada (art. 35, IV, Lei 9.099/95) — mas isso
-  reforça que o juízo não podia dar por resolvida, a olho, controvérsia que o
-  próprio rito impede de instruir com perícia. Nesse cenário, o correto é a
+- **JEC:** a perícia grafotécnica complexa não cabe no rito (arts. 3º, caput, e
+  51, II, Lei 9.099/95; Enunciado 54 do FONAJE), que só admite inquirir técnico
+  ou receber parecer técnico (art. 35) — mas isso reforça que o juízo não podia
+  dar por resolvida, a olho, controvérsia que o próprio rito impede de instruir
+  com perícia. Nesse cenário, o correto é a
   inversão do ônus (FSC3) fazer o réu arcar com a fragilidade probatória, não
   o juízo suprir a lacuna com exame leigo.
 - **Justiça Comum:** aqui a perícia grafotécnica é não só cabível como

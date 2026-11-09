@@ -74,6 +74,26 @@ def carregar_reu(banco):
     return reu, cod
 
 
+def alerta_trienal(linhas, hoje):
+    """Alerta quando há desconto com mais de 3 anos, mas o gatilho do tópico de prescrição (5 anos) não disparou.
+
+    O prazo trienal (art. 206, § 3º, IV, do CC) é a defesa que o EAREsp 738.991/RS afastou; entre 3 e 5 anos o tópico
+    decenal não entra sozinho (padrão de 05/11/2026), então o script avisa o advogado (decisão de 08/11/2026)."""
+    limite3 = (hoje.year - 3) * 12 + hoje.month - 1
+    expostos, valor = [], 0.0
+    for l in linhas:
+        if not l.get("qtde"):
+            continue
+        meses = max(0, min(l["qtde"], limite3 - l["ini_n"]))
+        if meses:
+            expostos.append(l["contrato"])
+            valor += meses * l["parcela"]
+    if not expostos:
+        return None
+    return (f"Há descontos com mais de 3 anos em {len(expostos)} contrato(s) ({brl(round(valor, 2))} em valor simples), mas nenhum com mais de 5: "
+            "o tópico de prescrição não entra sozinho. O banco pode alegar o prazo trienal; o advogado decide se inclui o tópico decenal por cautela.")
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")  # no Windows, a saída redirecionada sairia em cp1252
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -167,6 +187,10 @@ def main():
     limite5 = (hoje.year - 5) * 12 + hoje.month - 1
     limite10 = (hoje.year - 10) * 12 + hoje.month - 1
     prescricao = bool(inicios) and min(inicios) < limite5
+    if not prescricao:
+        av3 = alerta_trienal(com_desc, hoje)
+        if av3:
+            alertas.append(av3)
     if inicios and min(inicios) < limite10:
         alertas.append("Há descontos com MAIS DE 10 ANOS: o tópico de prescrição não pode afirmar que todos estão no "
                        "prazo decenal. Decisão do advogado sobre o pedido dessas parcelas.")

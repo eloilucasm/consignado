@@ -9,7 +9,7 @@ Gerado por `python3 _manutencao/gerar-mapa.py` (não edite à mão). Um disposit
 - Dispositivo ~~riscado~~ ou marcado (revogado) não é vigente: não o cite como vigente.
 
 
-## ---
+## Lei nº 10.406/2002 — Código Civil
 
 `cc.md` · 9384 linhas
 
@@ -29,7 +29,7 @@ _Mapa seletivo: só os 11 artigos que as peças usam. Os demais estão em `ESTRU
 | Art. 398 | 1611 | Nas obrigações provenientes de ato ilícito, considera-se o devedor em mora, desde que o praticou. |
 | Art. 422 | 1703 | Os contratantes são obrigados a guardar, assim na conclusão do contrato, como em sua execução, os princípios de probidade e boa-fé. |
 
-## ---
+## Lei nº 8.078/1990 — Código de Defesa do Consumidor
 
 `cdc.md` · 1118 linhas
 
@@ -166,7 +166,7 @@ _Mapa seletivo: só os 11 artigos que as peças usam. Os demais estão em `ESTRU
 | Art. 118 | 1107 | Este código entrará em vigor dentro de cento e oitenta dias a contar de sua publicação. |
 | Art. 119 | 1109 | Revogam-se as disposições em contrário. |
 
-## ---
+## Constituição da República Federativa do Brasil de 1988
 
 `cf88.md` · 7020 linhas
 
@@ -597,7 +597,7 @@ _Mapa seletivo: só os 11 artigos que as peças usam. Os demais estão em `ESTRU
 | Art. 137 | 7009 | Os saldos financeiros dos recursos transferidos pelo Fundo Nacional de Saúde e pelo Fundo Nacional de Assistência Social, para enfrentamento da… |
 | Art. 138 | 7011 | Até 2032, qualquer criação, alteração ou prorrogação de vinculação legal ou constitucional de receitas a despesas, inclusive na hipótese de aplicação… |
 
-## ---
+## Lei nº 13.105/2015 — Código de Processo Civil
 
 `cpc.md` · 8622 linhas
 
@@ -634,7 +634,7 @@ _Mapa seletivo: só os 28 artigos que as peças usam. Os demais estão em `ESTRU
 | Art. 537 | 4251 | A multa independe de requerimento da parte e poderá ser aplicada na fase de conhecimento, em tutela provisória ou na sentença, ou na fase de… |
 | Art. 1.048 | 8437 | Terão prioridade de tramitação, em qualquer juízo ou tribunal, os procedimentos judiciais: |
 
-## ---
+## Decreto nº 12.797/2025 — Salário mínimo a partir de 1º/1/2026
 
 `dec-12797.md` · 57 linhas
 
@@ -643,9 +643,9 @@ _Mapa seletivo: só os 28 artigos que as peças usam. Os demais estão em `ESTRU
 | Art. 1º | 38 | A partir de 1º de janeiro de 2026, o valor do salário mínimo será de R$ 1.621,00 (mil seiscentos e vinte e um reais). |
 | Art. 2º | 42 | Este Decreto entra em vigor em 1º de janeiro de 2026. |
 
-## ---
+## IN PRES/INSS nº 138/2022 — texto consolidado "com as alterações" (PDF do INSS, atualizado em 19/5/2026)
 
-`in-inss-138-2022-consolidada.md` · 826 linhas
+`in-inss-138-2022-consolidada.md` · 922 linhas
 
 | Dispositivo | Linha | Início do texto |
 |---|---|---|
@@ -654,49 +654,50 @@ _Mapa seletivo: só os 28 artigos que as peças usam. Os demais estão em `ESTRU
 | Art. 1º | 41 | O desconto do valor das parcelas referentes ao pagamento de empréstimo pessoal consignado, cartão de crédito consignado e cartão consignado de… |
 | Art. 1º | 43 | Esta Instrução Normativa, dispõe sobre o desconto do valor das parcelas referentes ao pagamento de empréstimo pessoal consignado, cartão de crédito… |
 | Art. 1º | 45 | Esta Instrução Normativa dispõe sobre o desconto do valor das parcelas referentes ao pagamento de empréstimo pessoal consignado, cartão de crédito… |
-| Art. 2º | 69 | Em qualquer circunstância, a responsabilidade do INSS em relação ao crédito consignado restringe-se à retenção dos valores autorizados pelo… |
-| Art. 3º | 81 | O crédito consignado, cujas parcelas contratadas são deduzidas diretamente do pagamento mensal do benefício, compreende as seguintes modalidades: |
-| Art. 3º-B | 85 | Os titulares de benefícios elegíveis pagos pelo INSS, poderão antecipar valores do pagamento do seu benefício referente à competência imediatamente… |
-| Art. 4º | 103 | Para os fins desta Instrução Normativa, considera-se: |
-| Art. 5º | 175 | A averbação da contratação de crédito consignado pelo titular do benefício ocorrerá desde que: I - a operação seja realizada com a própria… |
-| Art. 6º | 261 | A averbação da contratação do crédito consignado não será permitida nos benefícios tratados no art. 1º, quando: |
-| Art. 7º | 271 | A identificação do limite de 45% (quarenta e cinco por cento) dar-se-á no momento da averbação, após a dedução das seguintes consignações, observada… |
-| Art. 8º | 279 | O bloqueio dos benefícios elegíveis para averbação do crédito consignado é realizado: |
-| Art. 10 | 339 | A instituição consignatária acordante deverá disponibilizar ao beneficiário que solicitar a quitação antecipada do seu contrato a planilha… |
-| Art. 11 | 349 | A cessão de créditos entre instituições financeiras poderá ser realizada, desde que atenda às normas editadas pelo BCB e pelo CMN. |
-| Art. 13 | 377 | A portabilidade entre instituições financeiras poderá ser realizada, desde que atenda às normas editadas pelo BCB e CMN. |
-| Art. 14 | 383 | O refinanciamento entre o beneficiário e a instituição financeira contratada poderá ser realizado, desde que atenda às normas editadas pelo BCB e… |
-| Art. 15 | 391 | Os beneficiários, sem limite de idade, poderão constituir RMC para utilização de cartão de crédito consignado e RCC para utilização do cartão… |
-| Art. 16 | 451 | Exclusivamente, na contratação do cartão consignado de benefício de que trata o inciso V do art. 4º, além do disposto no art. 15, é obrigatória: |
-| Art. 16 | 453 | Nas contratações de cartão consignado de benefício e de cartão de crédito consignado, além do disposto no art. 15, é obrigatória: |
-| Art. 17 | 483 | Atendidos os requisitos da legislação vigente e havendo margem consignável disponível no benefício, a averbação do desconto relativo ao crédito… |
-| Art. 18 | 487 | A Dataprev, ao receber as informações para averbação do crédito consignado, considerará como campos obrigatórios de informação, além dos fixados no… |
-| Art. 19 | 529 | As operações de crédito consignado, processadas mensalmente pela Dataprev, serão identificadas no extrato de pagamento do benefício por meio das… |
-| Art. 20 | 537 | A Dataprev, mensalmente, encaminhará às instituições consignatárias acordantes, por arquivo, as parcelas consignadas, não consignadas, glosadas e… |
-| Art. 21 | 539 | Com base nos valores apurados no arquivo magnético de que trata o art. 20, o INSS efetuará o repasse financeiro às respectivas instituições… |
-| Art. 22 | 541 | Serão deduzidas do próximo repasse de valores às instituições consignatárias acordantes, credoras das parcelas, as consignações referentes: |
-| Art. 23 | 559 | Os descontos, e respectivos repasses, são interrompidos por ocorrências relacionadas às alterações: |
-| Art. 23-A | 585 | Os descontos e respectivos repasses serão interrompidos em razão do não envio de documentos ou informações exigidas nesta Instrução Normativa pelas… |
-| Art. 24 | 587 | O contrato de crédito consignado suspenso, cuja vigência não tenha expirado, poderá ser reativado, observado que: |
-| Art. 25 | 599 | O beneficiário que, a qualquer momento, sentir-se prejudicado por operação ou contrato de crédito consignado considerados irregular ou inexistente,… |
-| Art. 26 | 605 | As reclamações não abrangidas pelo disposto no art. 25 deverão ser registradas na Plataforma Integrada de Ouvidoria e Acesso à informação – Fala.BR… |
-| Art. 27 | 611 | Cabe ao INSS: I - credenciar as instituições financeiras, por intermédio da celebração de ACT, |
-| Art. 28 | 635 | A Dataprev está autorizada pelo INSS a processar as operações do crédito consignado, abrangidas pela Lei nº 10.820, de 2003, com redação dada pela… |
-| Art. 29 | 637 | A Dataprev efetuará cobrança direta da instituição consignatária acordante relativa aos custos de operacionalização do crédito consignado, conforme… |
-| Art. 30 | 639 | Os custos operacionais diretos e indiretos acarretados ao INSS pelas operações de crédito consignado e relacionados à gestão dos benefícios elegíveis… |
-| Art. 30 | 641 | Os custos operacionais diretos e indiretos acarretados ao INSS pelas operações de crédito consignado e relacionados à gestão dos benefícios elegíveis… |
-| Art. 31 | 645 | Cabe à Dataprev: I - efetivar as operações tratadas nas Seções I, II e III do Capítulo III; II - disponibilizar ao INSS, em sistema de informações… |
-| Art. 32 | 655 | Para a formalização do ACT com o INSS, a instituição consignatária deverá seguir o disciplinado na Portaria nº 76/DIRBEN/INSS, de 2020. |
-| Art. 33 | 669 | As instituições consignatárias acordantes deverão cumprir as cláusulas do ACT celebrado com o INSS. |
-| Art. 34 | 671 | Caberá às instituições consignatárias acordantes ou seus correspondentes bancários: |
-| Art. 35 | 739 | É vedado às instituições consignatárias acordantes ou seus correspondentes bancários: |
-| Art. 36 | 763 | Constatadas irregularidades nas operações de crédito consignado ou descumprimento das obrigações, pelas instituições consignatárias acordantes ou por… |
-| Art. 38 | 799 | As instituições que possuem ACT com o INSS e contrato com a Dataprev vigentes deverão adaptar-se a todos os seus termos, inclusive quanto às normas… |
-| Art. 38-A | 813 | Para reajuste do teto das operações de empréstimo consignado em benefício previdenciário, serão usados como referência os juros reais anualizados, em… |
-| Art. 39 | 815 | Fica revogada a Instrução Normativa INSS/PRES nº 28, de 2008. |
-| Art. 40 | 817 | Esta Instrução Normativa entra em vigor no ato da publicação. |
+| Art. 2º | 71 | Em qualquer circunstância, a responsabilidade do INSS em relação ao crédito consignado restringe-se à retenção dos valores autorizados pelo… |
+| Art. 3º | 83 | O crédito consignado, cujas parcelas contratadas são deduzidas diretamente do pagamento mensal do benefício, compreende as seguintes modalidades: |
+| Art. 3º-B | 89 | Os titulares de benefícios elegíveis pagos pelo INSS, poderão antecipar valores do pagamento do seu benefício referente à competência imediatamente… |
+| Art. 4º | 109 | Para os fins desta Instrução Normativa, considera-se: |
+| Art. 5º | 185 | A averbação da contratação de crédito consignado pelo titular do benefício ocorrerá desde que: |
+| Art. 6º | 277 | A averbação da contratação do crédito consignado não será permitida nos benefícios tratados no art. 1º, quando: |
+| Art. 7º | 291 | A identificação do limite de 45% (quarenta e cinco por cento) dar-se-á no momento da averbação, após a dedução das seguintes consignações, observada… |
+| Art. 8º | 305 | O bloqueio dos benefícios elegíveis para averbação do crédito consignado é realizado: |
+| Art. 10 | 379 | A instituição consignatária acordante deverá disponibilizar ao beneficiário que solicitar a quitação antecipada do seu contrato a planilha… |
+| Art. 11 | 391 | A cessão de créditos entre instituições financeiras poderá ser realizada, desde que atenda às normas editadas pelo BCB e pelo CMN. |
+| Art. 13 | 419 | A portabilidade entre instituições financeiras poderá ser realizada, desde que atenda às normas editadas pelo BCB e CMN. |
+| Art. 14 | 427 | O refinanciamento entre o beneficiário e a instituição financeira contratada poderá ser realizado, desde que atenda às normas editadas pelo BCB e… |
+| Art. 15 | 435 | Os beneficiários, sem limite de idade, poderão constituir RMC para utilização de cartão de crédito consignado e RCC para utilização do cartão… |
+| Art. 16 | 497 | Exclusivamente, na contratação do cartão consignado de benefício de que trata o inciso V do art. 4º, além do disposto no art. 15, é obrigatória: |
+| Art. 16 | 499 | Nas contratações de cartão consignado de benefício e de cartão de crédito consignado, além do disposto no art. 15, é obrigatória: |
+| Art. 17 | 531 | Atendidos os requisitos da legislação vigente e havendo margem consignável disponível no benefício, a averbação do desconto relativo ao crédito… |
+| Art. 18 | 535 | A Dataprev, ao receber as informações para averbação do crédito consignado, considerará como campos obrigatórios de informação, além dos fixados no… |
+| Art. 19 | 579 | As operações de crédito consignado, processadas mensalmente pela Dataprev, serão identificadas no extrato de pagamento do benefício por meio das… |
+| Art. 20 | 591 | A Dataprev, mensalmente, encaminhará às instituições consignatárias acordantes, por arquivo, as parcelas consignadas, não consignadas, glosadas e… |
+| Art. 21 | 593 | Com base nos valores apurados no arquivo magnético de que trata o art. 20, o INSS efetuará o repasse financeiro às respectivas instituições… |
+| Art. 22 | 597 | Serão deduzidas do próximo repasse de valores às instituições consignatárias acordantes, credoras das parcelas, as consignações referentes: |
+| Art. 23 | 615 | Os descontos, e respectivos repasses, são interrompidos por ocorrências relacionadas às alterações: |
+| Art. 23-A | 643 | Os descontos e respectivos repasses serão interrompidos em razão do não envio de documentos ou informações exigidas nesta Instrução Normativa pelas… |
+| Art. 24 | 645 | O contrato de crédito consignado suspenso, cuja vigência não tenha expirado, poderá ser reativado, observado que: |
+| Art. 25 | 657 | O beneficiário que, a qualquer momento, sentir-se prejudicado por operação ou contrato de crédito consignado considerados irregular ou inexistente,… |
+| Art. 26 | 663 | As reclamações não abrangidas pelo disposto no art. 25 deverão ser registradas na Plataforma Integrada de Ouvidoria e Acesso à informação – Fala.BR… |
+| Art. 27 | 669 | Cabe ao INSS: |
+| Art. 28 | 699 | A Dataprev está autorizada pelo INSS a processar as operações do crédito consignado, abrangidas pela Lei nº 10.820, de 2003, com redação dada pela… |
+| Art. 29 | 701 | A Dataprev efetuará cobrança direta da instituição consignatária acordante relativa aos custos de operacionalização do crédito consignado, conforme… |
+| Art. 30 | 703 | Os custos operacionais diretos e indiretos acarretados ao INSS pelas operações de crédito consignado e relacionados à gestão dos benefícios elegíveis… |
+| Art. 30 | 705 | Os custos operacionais diretos e indiretos acarretados ao INSS pelas operações de crédito consignado e relacionados à gestão dos benefícios elegíveis… |
+| Art. 31 | 709 | Cabe à Dataprev: |
+| Art. 32 | 723 | Para a formalização do ACT com o INSS, a instituição consignatária deverá seguir o disciplinado na Portaria nº 76/DIRBEN/INSS, de 2020. |
+| Art. 33 | 737 | As instituições consignatárias acordantes deverão cumprir as cláusulas do ACT celebrado com o INSS. |
+| Art. 34 | 739 | Caberá às instituições consignatárias acordantes ou seus correspondentes bancários: |
+| Art. 35 | 813 | É vedado às instituições consignatárias acordantes ou seus correspondentes bancários: |
+| Art. 36 | 837 | Constatadas irregularidades nas operações de crédito consignado ou descumprimento das obrigações, pelas instituições consignatárias acordantes ou por… |
+| Art. 37 | 885 | As penalidades previstas no art. 36 serão aplicadas mediante observância ao devido processo legal, respeitados o contraditório e a ampla defesa, na… |
+| Art. 38 | 893 | As instituições que possuem ACT com o INSS e contrato com a Dataprev vigentes deverão adaptar-se a todos os seus termos, inclusive quanto às normas… |
+| Art. 38-A | 909 | Para reajuste do teto das operações de empréstimo consignado em benefício previdenciário, serão usados como referência os juros reais anualizados, em… |
+| Art. 39 | 911 | Fica revogada a Instrução Normativa INSS/PRES nº 28, de 2008. |
+| Art. 40 | 913 | Esta Instrução Normativa entra em vigor no ato da publicação. |
 
-## ---
+## IN PRES/INSS nº 143, de 10 de fevereiro de 2023 — altera a IN 138/2022
 
 `in-inss-143-2023.md` · 82 linhas
 
@@ -707,91 +708,94 @@ _Mapa seletivo: só os 28 artigos que as peças usam. Os demais estão em `ESTRU
 | Art. 3º | 77 | Fica revogado o § 4º do art. 1º da Instrução Normativa PRES/INSS nº 138, de 2022. |
 | Art. 4º | 79 | Esta Instrução Normativa entra em vigor na data de sua publicação. |
 
-## ---
+## IN INSS/PRES nº 28, de 16 de maio de 2008 — texto consolidado "atualizado 22.07.2020" (REVOGADA)
 
-`in-inss-28-2008-consolidada-2020.md` · 901 linhas
+`in-inss-28-2008-consolidada-2020.md` · 985 linhas
 
 | Dispositivo | Linha | Início do texto |
 |---|---|---|
 | Art. 1º | 34 | O desconto no valor d aposentadoria e pensão por morte pagas pela Previdência Social das parcelas referentes ao pagamento de empréstimo pessoal e… |
-| Art. 2º | 52 | Para os fins desta Instrução Normativa, considera se: |
-| Art. 3º | 88 | Os titulares de benefícios de aposentadoria e pensão por morte, pagos pela Previdência Social, poderão autorizar o desconto no respectivo benefício… |
-| Art. 3º | 90 | Os titulares de benefícios de aposentadoria e pensão por morte, pagos pela Previdência Social, poderão autorizar o desconto no respectivo benefício… |
-| Art. 4º | 156 | A contratação de operações de crédito consignado só poderá ocorrer, desde que: |
-| Art. 5º | 164 | A instituição financeira, independentemente da modalidade de crédito adotada, somente encaminhará o arquivo para averbação de crédito após a devida… |
-| Art. 6º | 166 | A inobservância do disposto no art. 5º implicará total responsabilidade da instituição financeira envolvida e, em caso de reclamação registrada pelo… |
-| Art. 6º | 168 | A inobservância do disposto no art. 5º implicará total responsabilidade da instituição financeira envolvida e, em caso de ilegalidade constatada pelo… |
-| Art. 7º | 170 | A concessão de empréstimo pessoal e cartão de crédito será feita a critério da instituição consignatária, sendo os valores e demais condições objeto… |
-| Art. 8º | 172 | As informações necessárias à formalização do contrato de crédito poderão ser obtidas: I - pelos beneficiários, diretamente no sítio eletrônico da… |
-| Art. 9º | 176 | A contratação de empréstimo e cartão de crédito somente poderá ser efetivada no Estado em que o beneficiário tem seu benefício mantido. |
-| Art. 10 | 180 | O desconto relativo às consignações/retenções de que trata esta Instrução Normativa se aplica aos benefícios de aposentadoria, qualquer que seja sua… |
-| Art. 11 | 190 | O disposto nesta Instrução Normativa não se aplica às seguintes espécies de benefícios assistenciais: |
-| Art. 12 | 196 | A identificação do limite de 30% (trinta por cento) de que trata o § 1º do art. 3º dar-se-á após a apuração das seguintes deduções: (alterado pela… |
-| Art. 12 | 198 | A identificação do limite de 35% (trinta e cinco por cento) de que trata o § 1º do art. 3º dar-se-á após a apuração das seguintes deduções: (alterado… |
-| Art. 12 | 200 | A identificação do limite de 35% (trinta e cinco por cento) de que trata o § 1º do art. 3º dar-se-á após a dedução das seguintes consignações… |
-| Art. 14 | 248 | O titular do benefício pode efetuar o empréstimo para aquisição de pacote turístico, no âmbito do programa de viagens para aposentados e pensionistas… |
-| Art. 15 | 252 | Os titulares dos benefícios previdenciários de aposentadoria e pensão por morte, pagos pela Previdência Social, poderão constituir RMC para… |
-| Art. 16 | 258 | Nas operações de cartão de crédito serão considerados, observado, no que couber, o disposto no art. 58 desta Instrução Normativa: |
-| Art. 17 | 290 | A instituição financeira deverá encaminhar aos titulares dos benefícios com quem tenha celebrado contrato de cartão de crédito, mensalmente, extrato… |
-| Art. 17-A | 292 | O beneficiário poderá, a qualquer tempo, independentemente de seu adimplemento contratual, solicitar o cancelamento do cartão de crédito junto à… |
-| Art. 18 | 300 | O convênio como INSS/Dataprev será firmado e mantido com a instituição financeira que satisfaça, cumulativamente, as seguintes condições: |
-| Art. 19 | 312 | A contratação de empréstimo pessoal e cartão de crédito de que trata esta Instrução Normativa, firmada pelos titulares dos benefícios… |
-| Art. 20 | 314 | Para a efetivação da consignação/retenção/constituição de RMC nos benefícios previdenciários, as instituições financeiras que firmarem convênio com o… |
-| Art. 20 | 316 | Para a efetivação da consignação/retenção/constituição de RMC nos benefícios previdenciários, as instituições financeiras que firmarem convênio com o… |
-| Art. 21 | 320 | A instituição financeira, ao realizar as operações de consignação/retenção/constituição de RMC dos titulares de benefícios deverá, sem prejuízo de… |
-| Art. 21 | 322 | A instituição financeira, ao realizar as operações de consignação/retenção/constituição de RMC dos titulares de benefícios deverá, sem prejuízo de… |
-| Art. 21-A | 342 | Sem prejuízo das informações do art. 21, nas autorizações de descontos decorrentes da celebração de contratos de Cartão de Crédito com Reserva de… |
-| Art. 21-A | 344 | Sem prejuízo das informações do art. 21, nas autorizações de descontos decorrentes da celebração de contratos de Cartão de Crédito com Reserva de… |
-| Art. 22 | 392 | Sempre que o beneficiário receber o benefício por meio de crédito em conta corrente, o crédito do empréstimo concedido deverá ser feito,… |
-| Art. 23 | 394 | Confirmado o efetivo registro da consignação pela Dataprev, a instituição financeira obriga-se a liberar o valor contratado ao beneficiário no prazo… |
-| Art. 23 | 396 | Confirmado o efetivo registro da consignação pela Dataprev, a instituição financeira obriga-se a liberar o valor contratado ao beneficiário no prazo… |
-| Art. 24 | 418 | Os encargos praticados pela instituição financeira nas operações de crédito realizadas na mesma unidade da federação, deverão ser idênticos para… |
-| Art. 25 | 420 | A instituição financeira concedente do empréstimo é obrigada a confirmar se a operadora de turismo está devidamente autorizada e credenciada pelo… |
-| Art. 26 | 428 | A instituição financeira deverá divulgar as regras de consignações/retenções/constituição de RMC acordadas em contrato com os… |
-| Art. 27 | 430 | Eventuais alterações das taxas de juros deverão ser comunicadas ao INSS por meio do correio eletrônico institucional estabelecido pela Diretoria de… |
-| Art. 27-A | 432 | As instituições financeiras que utilizam os serviços de terceirização para a operacionalização da venda de crédito consignado informarão ao INSS os… |
-| Art. 28 | 434 | A instituição financeira concedente de crédito deverá conservar os documentos que comprovam a operação pelo prazo de cinco anos, contados da data do… |
-| Art. 29 | 438 | A Dataprev é o órgão responsável, tanto pelos procedimentos operacionais quanto pela segurança da rotina de envio das informações de créditos em… |
-| Art. 30 | 440 | A Dataprev, ao receber os arquivos para averbação de empréstimo ou cartão de crédito, considerará como campos obrigatórios de informação no arquivo… |
-| Art. 30 | 442 | A Dataprev, ao receber as informações para averbação de empréstimo ou cartão de crédito, considerará como campos obrigatórios de informação, além dos… |
-| Art. 31 | 458 | O primeiro desconto na renda do benefício dar-se-á no primeiro mês subseqüente ao do envio das informações pelas instituições financeiras para a… |
-| Art. 32 | 460 | As operações de averbação, exclusão e reativação processadas mensalmente pela Dataprev serão identificadas como: |
-| Art. 33 | 464 | A Dataprev disponibilizará ao INSS, em sistema de informações próprio, os dados das operações de crédito consignado em nível gerencial e operacional,… |
-| Art. 34 | 466 | A Dataprev indicará à instituição financeira a conta corrente bancária para depósito do pagamento dos seus custos operacionais, conforme previsto no… |
-| Art. 34-A | 470 | Os custos operacionais diretos e indiretos acarretados ao INSS pelas operações de crédito consignado e relacionados à gestão dos benefícios… |
-| Art. 35 | 476 | O INSS repassará os valores descontados dos benefícios em razão das consignações processadas às respectivas instituições financeiras até o quinto dia… |
-| Art. 36 | 480 | Tratando-se de operação realizada com a instituição financeira mantenedora do benefício, o INSS repassará a ela o valor integral do benefício,… |
-| Art. 37 | 484 | O INSS manterá o benefício cujo titular autorizar a retenção referida no art. 36desta Instrução Normativa na instituição financeira mantenedora do… |
-| Art. 38 | 496 | A Dirben verificará, trimestralmente, a situação de regularidade das instituições financeiras no SIAFI/SICAF, bem como se não integram o Cadastro… |
-| Art. 39 | 500 | O INSS se encarregará de disponibilizar as informações sobre empréstimos consignados no sítio eletrônico da Previdência Social… |
-| Art. 40 | 502 | O INSS poderá, a qualquer momento, solicitar a apresentação de contratos das operações de crédito ou mesmo a devolução de importâncias, atualizadas… |
-| Art. 41 | 510 | Na ocorrência de cessação de benefício com data retroativa ou de eventuais importâncias repassadas indevidamente, inclusive relativas a créditos com… |
-| Art. 43 | 520 | A APS poderá, a pedido do beneficiário e a qualquer tempo, bloquear ou desbloquear o benefício para averbações de empréstimos ou cartão de crédito,… |
-| Art. 43 | 522 | O beneficiário ou representante legal, conforme inciso IV do art. 3º, poderá, respeitado o disposto no § 2º do art. 1º, efetuar bloqueio ou… |
-| Art. 44 | 534 | A exclusão de empréstimo, RMC e parcelamento do cartão de crédito poderá ser efetuada pela instituição financeira ou pela APS. (alterado pela… |
-| Art. 45 | 554 | As reclamações, críticas e sugestões pertinentes aos créditos consignados serão recebidas e tratadas, no âmbito da Previdência Social, pela OGPS. |
-| Art. 46 | 556 | O beneficiário que, a qualquer momento, se sentir prejudicado por operações irregulares ou inexistentes ou que identificar descumprimento do contrato… |
-| Art. 46 | 558 | O beneficiário que, a qualquer momento, se sentir prejudicado por operações irregulares ou inexistentes ou que identificar descumprimento do contrato… |
-| Art. 47 | 566 | As reclamações serão recebidas diariamente pela OGPS e serão adotadas as seguintes providências: |
-| Art. 48 | 602 | Quando a reclamação for considerada procedente por irregularidade na contratação ou consignação/averbação incorreta ou indevida em benefício, a… |
-| Art. 49 | 620 | Quando o beneficiário não concordar com o resultado da resposta comunicada nos termos da alínea "a", inciso III, art. 47 desta Instrução Normativa,… |
-| Art. 49 | 622 | Quando o beneficiário não concordar com o resultado da resposta comunicada nos termos da alínea "a", inciso IV, art. 47, deverá contestar junto às… |
-| Art. 50 | 630 | A Dirben enviará, periodicamente, relatório ao Banco Central - Bacen, contendo as informações das reclamações de que tratam os arts.46, 47 e § 3º do… |
-| Art. 50 | 632 | A Dataprev disponibilizará ao INSS relatório contendo as informações das reclamações de que tratam os arts. 46 e 47, para as providências cabíveis,… |
-| Art. 51 | 634 | Os procedimentos previstos no inciso I do art. 47 desta Instrução Normativa poderão, a qualquer momento, ser alterados para disponibilização das… |
-| Art. 52 | 644 | Constatadas irregularidades nas operações de consignação/retenção/RMC realizadas pelas instituições financeiras ou por correspondentes bancários a… |
-| Art. 52-A | 676 | As penalidades previstas neste capítulo serão aplicadas mediante observância do devido processo legal, respeitados o contraditório e a ampla defesa,… |
-| Art. 53 | 700 | O INSS não responde, em nenhuma hipótese, pelos débitos contratados, restringindo sua responsabilidade à averbação dos valores autorizados pelo… |
-| Art. 54 | 714 | A contratação de empréstimo ou cartão de crédito constitui uma operação entre instituição financeira e beneficiário, cabendo, unicamente às partes,… |
-| Art. 55 | 716 | Eventuais dúvidas sobre a operacionalização da contratação de empréstimo e cartão de crédito deverão ser dirimidas com a instituição financeira. |
-| Art. 56 | 718 | A cessão de créditos entre instituições financeiras poderá ser realizada, desde que atenda às normas editadas pelo Conselho Monetário Nacional,… |
-| Art. 57 | 722 | A instituição financeira que, após firmar convênio com o INSS/Dataprev, permanecer por três meses consecutivos sem realizar operações de empréstimo… |
-| Art. 58 | 724 | A partir da vigência desta Instrução Normativa serão regulamentadas por portaria do Presidente do INSS eventuais alterações relativas: |
-| Art. 59 | 730 | As instituições financeiras que já celebraram convênio com o INSS/Dataprev, para os fins previstos nesta Instrução Normativa, deverão, no prazo de… |
-| Art. 60-A | 736 | As atualizações e posteriores alterações dos Anexos desta Instrução Normativa poderão ser objeto de Despacho Decisório da Dirben. (incluído pela… |
-| Art. 61 | 738 | Revoga-se a Instrução Normativa INSS/DC Nº 121, de 1º de julho de |
+| Art. 2º | 54 | Para os fins desta Instrução Normativa, considera se: |
+| Art. 3º | 94 | Os titulares de benefícios de aposentadoria e pensão por morte, pagos pela Previdência Social, poderão autorizar o desconto no respectivo benefício… |
+| Art. 3º | 96 | Os titulares de benefícios de aposentadoria e pensão por morte, pagos pela Previdência Social, poderão autorizar o desconto no respectivo benefício… |
+| Art. 4º | 168 | A contratação de operações de crédito consignado só poderá ocorrer, desde que: |
+| Art. 5º | 176 | A instituição financeira, independentemente da modalidade de crédito adotada, somente encaminhará o arquivo para averbação de crédito após a devida… |
+| Art. 6º | 178 | A inobservância do disposto no art. 5º implicará total responsabilidade da instituição financeira envolvida e, em caso de reclamação registrada pelo… |
+| Art. 6º | 180 | A inobservância do disposto no art. 5º implicará total responsabilidade da instituição financeira envolvida e, em caso de ilegalidade constatada pelo… |
+| Art. 7º | 182 | A concessão de empréstimo pessoal e cartão de crédito será feita a critério da instituição consignatária, sendo os valores e demais condições objeto… |
+| Art. 8º | 184 | As informações necessárias à formalização do contrato de crédito poderão ser obtidas: |
+| Art. 9º | 190 | A contratação de empréstimo e cartão de crédito somente poderá ser efetivada no Estado em que o beneficiário tem seu benefício mantido. |
+| Art. 10 | 194 | O desconto relativo às consignações/retenções de que trata esta Instrução Normativa se aplica aos benefícios de aposentadoria, qualquer que seja sua… |
+| Art. 11 | 204 | O disposto nesta Instrução Normativa não se aplica às seguintes espécies de benefícios assistenciais: |
+| Art. 12 | 212 | A identificação do limite de 30% (trinta por cento) de que trata o § 1º do art. 3º dar-se-á após a apuração das seguintes deduções: (alterado pela… |
+| Art. 12 | 214 | A identificação do limite de 35% (trinta e cinco por cento) de que trata o § 1º do art. 3º dar-se-á após a apuração das seguintes deduções: (alterado… |
+| Art. 12 | 216 | A identificação do limite de 35% (trinta e cinco por cento) de que trata o § 1º do art. 3º dar-se-á após a dedução das seguintes consignações… |
+| Art. 14 | 270 | O titular do benefício pode efetuar o empréstimo para aquisição de pacote turístico, no âmbito do programa de viagens para aposentados e pensionistas… |
+| Art. 15 | 274 | Os titulares dos benefícios previdenciários de aposentadoria e pensão por morte, pagos pela Previdência Social, poderão constituir RMC para… |
+| Art. 16 | 282 | Nas operações de cartão de crédito serão considerados, observado, no que couber, o disposto no art. 58 desta Instrução Normativa: |
+| Art. 17 | 316 | A instituição financeira deverá encaminhar aos titulares dos benefícios com quem tenha celebrado contrato de cartão de crédito, mensalmente, extrato… |
+| Art. 17-A | 318 | O beneficiário poderá, a qualquer tempo, independentemente de seu adimplemento contratual, solicitar o cancelamento do cartão de crédito junto à… |
+| Art. 18 | 326 | O convênio como INSS/Dataprev será firmado e mantido com a instituição financeira que satisfaça, cumulativamente, as seguintes condições: |
+| Art. 19 | 338 | A contratação de empréstimo pessoal e cartão de crédito de que trata esta Instrução Normativa, firmada pelos titulares dos benefícios… |
+| Art. 20 | 340 | Para a efetivação da consignação/retenção/constituição de RMC nos benefícios previdenciários, as instituições financeiras que firmarem convênio com o… |
+| Art. 20 | 342 | Para a efetivação da consignação/retenção/constituição de RMC nos benefícios previdenciários, as instituições financeiras que firmarem convênio com o… |
+| Art. 21 | 348 | A instituição financeira, ao realizar as operações de consignação/retenção/constituição de RMC dos titulares de benefícios deverá, sem prejuízo de… |
+| Art. 21 | 350 | A instituição financeira, ao realizar as operações de consignação/retenção/constituição de RMC dos titulares de benefícios deverá, sem prejuízo de… |
+| Art. 21-A | 370 | Sem prejuízo das informações do art. 21, nas autorizações de descontos decorrentes da celebração de contratos de Cartão de Crédito com Reserva de… |
+| Art. 21-A | 372 | Sem prejuízo das informações do art. 21, nas autorizações de descontos decorrentes da celebração de contratos de Cartão de Crédito com Reserva de… |
+| Art. 22 | 428 | Sempre que o beneficiário receber o benefício por meio de crédito em conta corrente, o crédito do empréstimo concedido deverá ser feito,… |
+| Art. 23 | 430 | Confirmado o efetivo registro da consignação pela Dataprev, a instituição financeira obriga-se a liberar o valor contratado ao beneficiário no prazo… |
+| Art. 23 | 432 | Confirmado o efetivo registro da consignação pela Dataprev, a instituição financeira obriga-se a liberar o valor contratado ao beneficiário no prazo… |
+| Art. 24 | 454 | Os encargos praticados pela instituição financeira nas operações de crédito realizadas na mesma unidade da federação, deverão ser idênticos para… |
+| Art. 25 | 456 | A instituição financeira concedente do empréstimo é obrigada a confirmar se a operadora de turismo está devidamente autorizada e credenciada pelo… |
+| Art. 26 | 464 | A instituição financeira deverá divulgar as regras de consignações/retenções/constituição de RMC acordadas em contrato com os… |
+| Art. 27 | 466 | Eventuais alterações das taxas de juros deverão ser comunicadas ao INSS por meio do correio eletrônico institucional estabelecido pela Diretoria de… |
+| Art. 27-A | 468 | As instituições financeiras que utilizam os serviços de terceirização para a operacionalização da venda de crédito consignado informarão ao INSS os… |
+| Art. 28 | 470 | A instituição financeira concedente de crédito deverá conservar os documentos que comprovam a operação pelo prazo de cinco anos, contados da data do… |
+| Art. 29 | 474 | A Dataprev é o órgão responsável, tanto pelos procedimentos operacionais quanto pela segurança da rotina de envio das informações de créditos em… |
+| Art. 30 | 476 | A Dataprev, ao receber os arquivos para averbação de empréstimo ou cartão de crédito, considerará como campos obrigatórios de informação no arquivo… |
+| Art. 30 | 478 | A Dataprev, ao receber as informações para averbação de empréstimo ou cartão de crédito, considerará como campos obrigatórios de informação, além dos… |
+| Art. 31 | 496 | O primeiro desconto na renda do benefício dar-se-á no primeiro mês subseqüente ao do envio das informações pelas instituições financeiras para a… |
+| Art. 32 | 498 | As operações de averbação, exclusão e reativação processadas mensalmente pela Dataprev serão identificadas como: |
+| Art. 33 | 510 | A Dataprev disponibilizará ao INSS, em sistema de informações próprio, os dados das operações de crédito consignado em nível gerencial e operacional,… |
+| Art. 34 | 512 | A Dataprev indicará à instituição financeira a conta corrente bancária para depósito do pagamento dos seus custos operacionais, conforme previsto no… |
+| Art. 34-A | 516 | Os custos operacionais diretos e indiretos acarretados ao INSS pelas operações de crédito consignado e relacionados à gestão dos benefícios… |
+| Art. 35 | 522 | O INSS repassará os valores descontados dos benefícios em razão das consignações processadas às respectivas instituições financeiras até o quinto dia… |
+| Art. 36 | 526 | Tratando-se de operação realizada com a instituição financeira mantenedora do benefício, o INSS repassará a ela o valor integral do benefício,… |
+| Art. 37 | 530 | O INSS manterá o benefício cujo titular autorizar a retenção referida no art. 36desta Instrução Normativa na instituição financeira mantenedora do… |
+| Art. 38 | 542 | A Dirben verificará, trimestralmente, a situação de regularidade das instituições financeiras no SIAFI/SICAF, bem como se não integram o Cadastro… |
+| Art. 39 | 548 | O INSS se encarregará de disponibilizar as informações sobre empréstimos consignados no sítio eletrônico da Previdência Social… |
+| Art. 40 | 550 | O INSS poderá, a qualquer momento, solicitar a apresentação de contratos das operações de crédito ou mesmo a devolução de importâncias, atualizadas… |
+| Art. 41 | 558 | Na ocorrência de cessação de benefício com data retroativa ou de eventuais importâncias repassadas indevidamente, inclusive relativas a créditos com… |
+| Art. 42 | 564 | A glosa será considerada indevida quando aplicada em função de óbito de homônimo e sua regularização ocorrerá no próximo repasse, quando da geração… |
+| Art. 43 | 570 | A APS poderá, a pedido do beneficiário e a qualquer tempo, bloquear ou desbloquear o benefício para averbações de empréstimos ou cartão de crédito,… |
+| Art. 43 | 572 | O beneficiário ou representante legal, conforme inciso IV do art. 3º, poderá, respeitado o disposto no § 2º do art. 1º, efetuar bloqueio ou… |
+| Art. 44 | 584 | A exclusão de empréstimo, RMC e parcelamento do cartão de crédito poderá ser efetuada pela instituição financeira ou pela APS. (alterado pela… |
+| Art. 44 | 586 | A exclusão de empréstimo, RMC e parcelamento do cartão de crédito poderá ser efetuada pela instituição financeira ou por meio de serviço eletrônico… |
+| Art. 45 | 610 | As reclamações, críticas e sugestões pertinentes aos créditos consignados serão recebidas e tratadas, no âmbito da Previdência Social, pela OGPS. |
+| Art. 46 | 612 | O beneficiário que, a qualquer momento, se sentir prejudicado por operações irregulares ou inexistentes ou que identificar descumprimento do contrato… |
+| Art. 46 | 614 | O beneficiário que, a qualquer momento, se sentir prejudicado por operações irregulares ou inexistentes ou que identificar descumprimento do contrato… |
+| Art. 47 | 626 | As reclamações serão recebidas diariamente pela OGPS e serão adotadas as seguintes providências: |
+| Art. 48 | 666 | Quando a reclamação for considerada procedente por irregularidade na contratação ou consignação/averbação incorreta ou indevida em benefício, a… |
+| Art. 49 | 684 | Quando o beneficiário não concordar com o resultado da resposta comunicada nos termos da alínea "a", inciso III, art. 47 desta Instrução Normativa,… |
+| Art. 49 | 686 | Quando o beneficiário não concordar com o resultado da resposta comunicada nos termos da alínea "a", inciso IV, art. 47, deverá contestar junto às… |
+| Art. 50 | 696 | A Dirben enviará, periodicamente, relatório ao Banco Central - Bacen, contendo as informações das reclamações de que tratam os arts.46, 47 e § 3º do… |
+| Art. 50 | 698 | A Dataprev disponibilizará ao INSS relatório contendo as informações das reclamações de que tratam os arts. 46 e 47, para as providências cabíveis,… |
+| Art. 51 | 700 | Os procedimentos previstos no inciso I do art. 47 desta Instrução Normativa poderão, a qualquer momento, ser alterados para disponibilização das… |
+| Art. 52 | 710 | Constatadas irregularidades nas operações de consignação/retenção/RMC realizadas pelas instituições financeiras ou por correspondentes bancários a… |
+| Art. 52-A | 744 | As penalidades previstas neste capítulo serão aplicadas mediante observância do devido processo legal, respeitados o contraditório e a ampla defesa,… |
+| Art. 53 | 770 | O INSS não responde, em nenhuma hipótese, pelos débitos contratados, restringindo sua responsabilidade à averbação dos valores autorizados pelo… |
+| Art. 54 | 784 | A contratação de empréstimo ou cartão de crédito constitui uma operação entre instituição financeira e beneficiário, cabendo, unicamente às partes,… |
+| Art. 55 | 788 | Eventuais dúvidas sobre a operacionalização da contratação de empréstimo e cartão de crédito deverão ser dirimidas com a instituição financeira. |
+| Art. 56 | 790 | A cessão de créditos entre instituições financeiras poderá ser realizada, desde que atenda às normas editadas pelo Conselho Monetário Nacional,… |
+| Art. 57 | 794 | A instituição financeira que, após firmar convênio com o INSS/Dataprev, permanecer por três meses consecutivos sem realizar operações de empréstimo… |
+| Art. 58 | 796 | A partir da vigência desta Instrução Normativa serão regulamentadas por portaria do Presidente do INSS eventuais alterações relativas: |
+| Art. 59 | 812 | As instituições financeiras que já celebraram convênio com o INSS/Dataprev, para os fins previstos nesta Instrução Normativa, deverão, no prazo de… |
+| Art. 60 | 818 | Esta Instrução Normativa entra em vigor na data de sua publicação. |
+| Art. 60-A | 820 | As atualizações e posteriores alterações dos Anexos desta Instrução Normativa poderão ser objeto de Despacho Decisório da Dirben. (incluído pela… |
+| Art. 61 | 822 | Revoga-se a Instrução Normativa INSS/DC Nº 121, de 1º de julho de |
 
-## ---
+## INs de 2022 que alteraram a IN INSS/PRES 28/2008 (INs 131, 136 e 137)
 
 `in-inss-alteradoras-da-in28-2022.md` · 184 linhas
 
@@ -808,7 +812,7 @@ _Mapa seletivo: só os 28 artigos que as peças usam. Os demais estão em `ESTRU
 | Art. 2º | 179 | Fica revogado o § 1º-A do art. 3º da Instrução Normativa INSS/PRES nº 28, de 2008. |
 | Art. 3º | 181 | Esta Instrução Normativa entra em vigor na data de sua publicação. |
 
-## ---
+## Lei nº 10.741/2003 — Estatuto da Pessoa Idosa
 
 `lei-10741.md` · 1194 linhas
 
@@ -994,7 +998,7 @@ _Mapa seletivo: só os 28 artigos que as peças usam. Os demais estão em `ESTRU
 | Art. 117 | 1167 | O Poder Executivo encaminhará ao Congresso Nacional projeto de lei revendo os critérios de concessão do Benefício de Prestação Continuada previsto na… |
 | Art. 118 | 1169 | Esta Lei entra em vigor decorridos 90 (noventa) dias da sua publicação, ressalvado o disposto no caput do art. 36, que vigorará a partir de 1o de… |
 
-## ---
+## Lei nº 10.820/2003 — Crédito consignado
 
 `lei-10820.md` · 618 linhas
 
@@ -1053,7 +1057,7 @@ _Mapa seletivo: só os 28 artigos que as peças usam. Os demais estão em `ESTRU
 | Art. 8º-A | 603 | A União não responde pelo descumprimento das obrigações relativas aos contratos de financiamento de que trata esta Lei. |
 | Art. 9º | 605 | Esta Lei entra em vigor na data de sua publicação. |
 
-## ---
+## Lei nº 14.690/2023 — Programa Desenrola Brasil
 
 `lei-14690.md` · 588 linhas
 
@@ -1106,7 +1110,7 @@ _Mapa seletivo: só os 28 artigos que as peças usam. Os demais estão em `ESTRU
 | Art. 36 | 565 | Ficam revogados: |
 | Art. 37 | 573 | Esta Lei entra em vigor: |
 
-## ---
+## Lei nº 14.905/2024 — Atualização monetária e juros
 
 `lei-14905.md` · 106 linhas
 
@@ -1118,7 +1122,7 @@ _Mapa seletivo: só os 28 artigos que as peças usam. Os demais estão em `ESTRU
 | Art. 4º | 91 | O Banco Central do Brasil disponibilizará aplicação interativa, de acesso público, que permita simular o uso da taxa de juros legal estabelecida no… |
 | Art. 5º | 93 | Esta Lei entra em vigor na data de sua publicação e produzirá efeitos: |
 
-## ---
+## Lei nº 9.099/1995 — Juizados Especiais
 
 `lei-9099.md` · 656 linhas
 
@@ -1231,7 +1235,121 @@ _Mapa seletivo: só os 28 artigos que as peças usam. Os demais estão em `ESTRU
 | Art. 96 | 645 | Esta Lei entra em vigor no prazo de sessenta dias após a sua publicação. |
 | Art. 97 | 647 | Ficam revogadas a Lei nº 4.611, de 2 de abril de 1965 e a Lei nº 7.244, de 7 de novembro de 1984. |
 
-## ---
+## Lei nº 13.709/2018 — LGPD
+
+`lgpd.md` · 1346 linhas
+
+| Dispositivo | Linha | Início do texto |
+|---|---|---|
+| Art. 1º | 45 | Esta Lei dispõe sobre o tratamento de dados pessoais, inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público ou… |
+| Art. 2º | 49 | A disciplina da proteção de dados pessoais tem como fundamentos: |
+| Art. 3º | 65 | Esta Lei aplica-se a qualquer operação de tratamento realizada por pessoa natural ou por pessoa jurídica de direito público ou privado,… |
+| Art. 4º | 81 | Esta Lei não se aplica ao tratamento de dados pessoais: |
+| Art. 5º | 125 | Para os fins desta Lei, considera-se: |
+| Art. 6º | 185 | As atividades de tratamento de dados pessoais deverão observar a boa-fé e os seguintes princípios: |
+| Art. 7º | 211 | O tratamento de dados pessoais somente poderá ser realizado nas seguintes hipóteses: |
+| Art. 8º | 253 | O consentimento previsto no inciso I do art. 7º desta Lei deverá ser fornecido por escrito ou por outro meio que demonstre a manifestação de vontade… |
+| Art. 9º | 267 | O titular tem direito ao acesso facilitado às informações sobre o tratamento de seus dados, que deverão ser disponibilizadas de forma clara, adequada… |
+| Art. 10 | 289 | O legítimo interesse do controlador somente poderá fundamentar tratamento de dados pessoais para finalidades legítimas, consideradas a partir de… |
+| Art. 11 | 303 | O tratamento de dados pessoais sensíveis somente poderá ocorrer nas seguintes hipóteses: |
+| Art. 12 | 347 | Os dados anonimizados não serão considerados dados pessoais para os fins desta Lei, salvo quando o processo de anonimização ao qual foram submetidos… |
+| Art. 13 | 355 | Na realização de estudos em saúde pública, os órgãos de pesquisa poderão ter acesso a bases de dados pessoais, que serão tratados exclusivamente… |
+| Art. 14 | 367 | O tratamento de dados pessoais de crianças e de adolescentes deverá ser realizado em seu melhor interesse, nos termos deste artigo e da legislação… |
+| Art. 15 | 383 | O término do tratamento de dados pessoais ocorrerá nas seguintes hipóteses: |
+| Art. 16 | 393 | Os dados pessoais serão eliminados após o término de seu tratamento, no âmbito e nos limites técnicos das atividades, autorizada a conservação para… |
+| Art. 17 | 405 | Toda pessoa natural tem assegurada a titularidade de seus dados pessoais e garantidos os direitos fundamentais de liberdade, de intimidade e de… |
+| Art. 18 | 407 | O titular dos dados pessoais tem direito a obter do controlador, em relação aos dados do titular por ele tratados, a qualquer momento e mediante… |
+| Art. 19 | 449 | A confirmação de existência ou o acesso a dados pessoais serão providenciados, mediante requisição do titular: |
+| Art. 20 (revogado) | 467 | O titular dos dados tem direito a solicitar revisão, por pessoa natural, de decisões tomadas unicamente com base em tratamento automatizado de dados… |
+| Art. 20 (revogado) | 469 | O titular dos dados tem direito a solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado de dados pessoais que afetem… |
+| Art. 20 | 471 | O titular dos dados tem direito a solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado de dados pessoais que afetem… |
+| Art. 21 | 479 | Os dados pessoais referentes ao exercício regular de direitos pelo titular não podem ser utilizados em seu prejuízo. |
+| Art. 22 | 481 | A defesa dos interesses e dos direitos dos titulares de dados poderá ser exercida em juízo, individual ou coletivamente, na forma do disposto na… |
+| Art. 23 | 487 | O tratamento de dados pessoais pelas pessoas jurídicas de direito público referidas no parágrafo único do art. 1º da Lei nº 12.527, de 18 de novembro… |
+| Art. 24 | 509 | As empresas públicas e as sociedades de economia mista que atuam em regime de concorrência, sujeitas ao disposto no art. 173 da Constituição Federal… |
+| Art. 25 | 513 | Os dados deverão ser mantidos em formato interoperável e estruturado para o uso compartilhado, com vistas à execução de políticas públicas, à… |
+| Art. 26 | 515 | O uso compartilhado de dados pessoais pelo Poder Público deve atender a finalidades específicas de execução de políticas públicas e atribuição legal… |
+| Art. 27 (revogado) | 541 | A comunicação ou o uso compartilhado de dados pessoais de pessoa jurídica de direito público a pessoa de direito privado será informado à autoridade… |
+| Art. 27 (revogado) | 543 | A comunicação ou o uso compartilhado de dados pessoais de pessoa jurídica de direito público a pessoa jurídica de direito privado dependerá de… |
+| Art. 27 | 545 | A comunicação ou o uso compartilhado de dados pessoais de pessoa jurídica de direito público a pessoa de direito privado será informado à autoridade… |
+| Art. 28 | 555 | (VETADO). |
+| Art. 29 (revogado) | 557 | A autoridade nacional poderá solicitar, a qualquer momento, às entidades do Poder Público, a realização de operações de tratamento de dados pessoais,… |
+| Art. 29 (revogado) | 559 | A autoridade nacional poderá solicitar, a qualquer momento, aos órgãos e às entidades do Poder Público a realização de operações de tratamento de… |
+| Art. 29 | 561 | A autoridade nacional poderá solicitar, a qualquer momento, aos órgãos e às entidades do poder público a realização de operações de tratamento de… |
+| Art. 30 | 563 | A autoridade nacional poderá estabelecer normas complementares para as atividades de comunicação e de uso compartilhado de dados pessoais. |
+| Art. 31 | 567 | Quando houver infração a esta Lei em decorrência do tratamento de dados pessoais por órgãos públicos, a autoridade nacional poderá enviar informe com… |
+| Art. 32 | 569 | A autoridade nacional poderá solicitar a agentes do Poder Público a publicação de relatórios de impacto à proteção de dados pessoais e sugerir a… |
+| Art. 33 | 573 | A transferência internacional de dados pessoais somente é permitida nos seguintes casos: |
+| Art. 34 | 603 | O nível de proteção de dados do país estrangeiro ou do organismo internacional mencionado no inciso I do caput do art. 33 desta Lei será avaliado… |
+| Art. 35 | 617 | A definição do conteúdo de cláusulas-padrão contratuais, bem como a verificação de cláusulas contratuais específicas para uma determinada… |
+| Art. 36 | 629 | As alterações nas garantias apresentadas como suficientes de observância dos princípios gerais de proteção e dos direitos do titular referidas no… |
+| Art. 37 | 635 | O controlador e o operador devem manter registro das operações de tratamento de dados pessoais que realizarem, especialmente quando baseado no… |
+| Art. 38 | 637 | A autoridade nacional poderá determinar ao controlador que elabore relatório de impacto à proteção de dados pessoais, inclusive de dados sensíveis,… |
+| Art. 39 | 641 | O operador deverá realizar o tratamento segundo as instruções fornecidas pelo controlador, que verificará a observância das próprias instruções e das… |
+| Art. 40 | 643 | A autoridade nacional poderá dispor sobre padrões de interoperabilidade para fins de portabilidade, livre acesso aos dados e segurança, assim como… |
+| Art. 41 | 647 | O controlador deverá indicar encarregado pelo tratamento de dados pessoais. |
+| Art. 42 | 667 | O controlador ou o operador que, em razão do exercício de atividade de tratamento de dados pessoais, causar a outrem dano patrimonial, moral,… |
+| Art. 43 | 681 | Os agentes de tratamento só não serão responsabilizados quando provarem: |
+| Art. 44 | 689 | O tratamento de dados pessoais será irregular quando deixar de observar a legislação ou quando não fornecer a segurança que o titular dele pode… |
+| Art. 45 | 699 | As hipóteses de violação do direito do titular no âmbito das relações de consumo permanecem sujeitas às regras de responsabilidade previstas na… |
+| Art. 46 | 705 | Os agentes de tratamento devem adotar medidas de segurança, técnicas e administrativas aptas a proteger os dados pessoais de acessos não autorizados… |
+| Art. 47 | 711 | Os agentes de tratamento ou qualquer outra pessoa que intervenha em uma das fases do tratamento obriga-se a garantir a segurança da informação… |
+| Art. 48 | 713 | O controlador deverá comunicar à autoridade nacional e ao titular a ocorrência de incidente de segurança que possa acarretar risco ou dano relevante… |
+| Art. 49 | 737 | Os sistemas utilizados para o tratamento de dados pessoais devem ser estruturados de forma a atender aos requisitos de segurança, aos padrões de boas… |
+| Art. 50 | 741 | Os controladores e operadores, no âmbito de suas competências, pelo tratamento de dados pessoais, individualmente ou por meio de associações, poderão… |
+| Art. 51 | 769 | A autoridade nacional estimulará a adoção de padrões técnicos que facilitem o controle pelos titulares dos seus dados pessoais. |
+| Art. 52 | 775 | Os agentes de tratamento de dados, em razão das infrações cometidas às normas previstas nesta Lei, ficam sujeitos às seguintes sanções… |
+| Art. 53 | 853 | A autoridade nacional definirá, por meio de regulamento próprio sobre sanções administrativas a infrações a esta Lei, que deverá ser objeto de… |
+| Art. 54 | 859 | O valor da sanção de multa diária aplicável às infrações a esta Lei deve observar a gravidade da falta e a extensão do dano ou prejuízo causado e ser… |
+| Art. 55 | 889 | (VETADO). |
+| Art. 55-A (revogado) | 891 | Fica criada, sem aumento de despesa, a Autoridade Nacional de Proteção de Dados - ANPD, órgão da administração pública federal, integrante da… |
+| Art. 55-B (revogado) | 893 | É assegurada autonomia técnica à ANPD. |
+| Art. 55-C (revogado) | 895 | ANPD é composta por: |
+| Art. 55-D (revogado) | 909 | O Conselho Diretor da ANPD será composto por cinco diretores, incluído o Diretor-Presidente. |
+| Art. 55-E (revogado) | 921 | Os membros do Conselho Diretor somente perderão seus cargos em virtude de renúncia, condenação judicial transitada em julgado ou pena de demissão… |
+| Art. 55-F (revogado) | 927 | Aplica-se aos membros do Conselho Diretor, após o exercício do cargo, o disposto no art. 6º da Lei nº 12.813, de 16 de maio de 2013 . |
+| Art. 55-G (revogado) | 931 | Ato do Presidente da República disporá sobre a estrutura regimental da ANPD. |
+| Art. 55-H (revogado) | 935 | Os cargos em comissão e as funções de confiança da ANPD serão remanejados de outros órgãos e entidades do Poder Executivo federal. |
+| Art. 55-I (revogado) | 937 | Os ocupantes dos cargos em comissão e das funções de confiança da ANPD serão indicados pelo Conselho Diretor e nomeados ou designados pelo… |
+| Art. 55-J (revogado) | 939 | Compete à ANPD: |
+| Art. 55-K (revogado) | 983 | A aplicação das sanções previstas nesta Lei compete exclusivamente à ANPD, cujas demais competências prevalecerão, no que se refere à proteção de… |
+| Art. 55-A (revogado) | 987 | Fica criada, sem aumento de despesa, a Autoridade Nacional de Proteção de Dados (ANPD), órgão da administração pública federal, integrante da… |
+| Art. 55-A (revogado) | 995 | Fica criada a Autoridade Nacional de Proteção de Dados - ANPD, autarquia de natureza especial, dotada de autonomia técnica e decisória, com… |
+| Art. 55-A (revogado) | 997 | Fica criada a Autoridade Nacional de Proteção de Dados (ANPD), autarquia de natureza especial, dotada de autonomia técnica e decisória, com… |
+| Art. 55-A (revogado) | 999 | Fica criada a Agência Nacional de Proteção de Dados – ANPD, autarquia de natureza especial vinculada ao Ministério da Justiça e Segurança Pública,… |
+| Art. 55-A | 1001 | Fica criada a Agência Nacional de Proteção de Dados (ANPD), autarquia de natureza especial vinculada ao Ministério da Justiça e Segurança Pública,… |
+| Art. 55-B (revogado) | 1003 | É assegurada autonomia técnica e decisória à ANPD. |
+| Art. 55-C | 1005 | A ANPD é composta de: |
+| Art. 55-D | 1037 | O Conselho Diretor da ANPD será composto de 5 (cinco) diretores, incluído o Diretor-Presidente. |
+| Art. 55-E | 1049 | Os membros do Conselho Diretor somente perderão seus cargos em virtude de renúncia, condenação judicial transitada em julgado ou pena de demissão… |
+| Art. 55-F | 1055 | Aplica-se aos membros do Conselho Diretor, após o exercício do cargo, o disposto no art. 6º da Lei nº 12.813, de 16 de maio de 2013. |
+| Art. 55-G | 1059 | Ato do Presidente da República disporá sobre a estrutura regimental da ANPD. |
+| Art. 55-H | 1065 | Os cargos em comissão e as funções de confiança da ANPD serão remanejados de outros órgãos e entidades do Poder Executivo federal. |
+| Art. 55-I | 1067 | Os ocupantes dos cargos em comissão e das funções de confiança da ANPD serão indicados pelo Conselho Diretor e nomeados ou designados pelo… |
+| Art. 55-J | 1069 | Compete à ANPD: |
+| Art. 55-K | 1131 | A aplicação das sanções previstas nesta Lei compete exclusivamente à ANPD, e suas competências prevalecerão, no que se refere à proteção de dados… |
+| Art. 55-L | 1135 | Constituem receitas da ANPD: |
+| Art. 55-M (revogado) | 1151 | Constituem o patrimônio da ANPD os bens e os direitos: |
+| Art. 55-M | 1157 | Constituem o patrimônio da ANPD os bens e os direitos: |
+| Art. 56 | 1163 | (VETADO). |
+| Art. 5 | 1165 | 7. (VETADO). |
+| Art. 58 | 1169 | (VETADO). |
+| Art. 58-A (revogado) | 1171 | O Conselho Nacional de Proteção de Dados Pessoais e da Privacidade será composto por vinte e três representantes, titulares suplentes, dos seguintes… |
+| Art. 58-B (revogado) | 1205 | Compete ao Conselho Nacional de Proteção de Dados Pessoais e da Privacidade: |
+| Art. 58-A | 1217 | O Conselho Nacional de Proteção de Dados Pessoais e da Privacidade será composto de 23 (vinte e três) representantes, titulares e suplentes, dos… |
+| Art. 58-B | 1255 | Compete ao Conselho Nacional de Proteção de Dados Pessoais e da Privacidade: |
+| Art. 59 | 1267 | (VETADO). |
+| Art. 60 | 1271 | A Lei nº 12.965, de 23 de abril de 2014 (Marco Civil da Internet) , passa a vigorar com as seguintes alterações: Vigência |
+| Art. 61 | 1287 | A empresa estrangeira será notificada e intimada de todos os atos processuais previstos nesta Lei, independentemente de procuração ou de disposição… |
+| Art. 62 (revogado) | 1289 | A autoridade nacional e o Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep), no âmbito de suas competências, editarão… |
+| Art. 62 | 1291 | A autoridade nacional e o Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep), no âmbito de suas competências, editarão… |
+| Art. 63 | 1293 | A autoridade nacional estabelecerá normas sobre a adequação progressiva de bancos de dados constituídos até a data de entrada em vigor desta Lei,… |
+| Art. 64 | 1295 | Os direitos e princípios expressos nesta Lei não excluem outros previstos no ordenamento jurídico pátrio relacionados à matéria ou nos tratados… |
+| Art. 65 (revogado) | 1297 | Esta Lei entra em vigor após decorridos 18 (dezoito) meses de sua publicação oficial . |
+| Art. 65 (revogado) | 1299 | Esta Lei entra em vigor: |
+| Art. 65 | 1305 | Esta Lei entra em vigor: |
+
+## Resolução CMN nº 4.549/2017 — financiamento do saldo devedor da fatura de cartão (texto consolidado, com os arts. 2º-A a 2º-D incluídos pela Res. CMN nº 5.112/2023)
 
 `res-cmn-4549-consolidada.md` · 77 linhas
 

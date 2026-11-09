@@ -90,9 +90,12 @@ def carregar_reu(banco):
     return reu, cod
 
 
-def descontos(r, mes_ref):
-    """(qtde, total, total pela 2ª via, até-competência, início, ativo, vincendas) de um registro do extrato."""
+def descontos(r, mes_ref, desde=None):
+    """(qtde, total, total pela 2ª via, até-competência, início, ativo, vincendas) de um registro do extrato.
+    `desde`: competência mínima a contar (corte da troca de titularidade; ver corte_da_troca)."""
     ini, fim = comp(r["inicio"]), comp(r["fim"])
+    if desde is not None and desde > ini:
+        ini = desde
     ativo = r["secao"] == "ATIVO"
     ate = min(fim, mes_ref) if ativo else fim
     qtde = max(0, ate - ini + 1)
@@ -100,6 +103,23 @@ def descontos(r, mes_ref):
     total2 = round(sum(r["parcela"] for _ in range(ini, ate + 1)), 2) if qtde else 0.0  # segunda via
     vinc = max(0, fim - mes_ref) if ativo else 0
     return qtde, total, total2, ate, ini, ativo, vinc
+
+
+def corte_da_troca(r, outros):
+    """Competência a partir da qual o registro do réu conta para ele, e a data da troca; (None, None) se não há corte.
+
+    Na migração, o registro do réu pode herdar a inclusão e o início do banco anterior (mesmas competências nos dois
+    registros). O que o banco anterior recebeu até a troca de titularidade não é do réu. O corte é a competência da
+    exclusão do registro anterior ("Exclusão por troca de titularidade"), só quando ela é posterior ao início do registro
+    do réu (sobreposição). Sem sobreposição, nada muda (decisão de 08/11/2026)."""
+    corte, quando = None, None
+    for o in outros:
+        if "troca de titularidade" in (o.get("motivo_exclusao") or "").lower() and o.get("exclusao"):
+            d = data(o["exclusao"])
+            c = d.year * 12 + d.month - 1
+            if c > comp(r["inicio"]) and (corte is None or c > corte):
+                corte, quando = c, o["exclusao"]
+    return corte, quando
 
 
 def data_emissao(caminho):
@@ -160,13 +180,23 @@ def main():
             alertas.append(f"Contrato {r['contrato']}: a origem da averbação é '{r['origem_averbacao']}', e não migração. Rever a tese: pode ser não contratado comum (skill nao-contratado).")
         elif contrato_origem and re.sub(r"\W", "", contrato_origem).lstrip("0") != re.sub(r"\W", "", r["contrato"]).lstrip("0"):
             alertas.append(f"Contrato {r['contrato']}: a origem aponta outro número ({contrato_origem}); descrever os dois números e conferir no extrato.")
-        qtde, total, total2, ate, ini, ativo, vinc = descontos(r, mes_ref)
+        desde_troca, data_troca = corte_da_troca(r, outros)
+        qtde, total, total2, ate, ini, ativo, vinc = descontos(r, mes_ref, desde_troca)
         if abs(total - total2) > 0.005:
             alertas.append(f"Contrato {r['contrato']}: as duas vias do total divergem ({total} x {total2}).")
+        if desde_troca:
+            antes = desde_troca - comp(r["inicio"])
+            alertas.append(f"TROCA DE TITULARIDADE: o registro do réu para o contrato {r['contrato']} repete o histórico do banco anterior desde {r['inicio']}. "
+                           f"Contadas só as competências desde {comp_str(desde_troca)} (exclusão no banco anterior em {data_troca}). Ficaram de fora {antes} parcela(s) "
+                           f"({brl(round(antes * r['parcela'], 2))}), anteriores à troca, que o banco anterior recebeu.")
 
         info_outros = []
         for o in outros:
             oq, ot, _, _, _, _, _ = descontos(o, mes_ref)
+            if desde_troca:  # sobreposição: do banco anterior, só até a véspera da troca
+                o_ate = min(comp(o["fim"]), desde_troca - 1)
+                oq = max(0, o_ate - comp(o["inicio"]) + 1)
+                ot = round(oq * o["parcela"], 2)
             info_outros.append({"contrato": o["contrato"], "banco": o["banco"], "situacao": o["situacao"], "motivo_exclusao": o["motivo_exclusao"],
                                 "origem_averbacao": o["origem_averbacao"], "inclusao": data4(o["inclusao"]), "exclusao": data4(o["exclusao"]),
                                 "inicio": o["inicio"], "fim": o["fim"], "parcela": o["parcela"], "qtde": oq, "total": ot})
@@ -189,7 +219,8 @@ def main():
             "contrato": r["contrato"], "origem_averbacao": r["origem_averbacao"], "migrado": migrado, "contrato_origem": contrato_origem,
             "banco_origem_cbc": banco_origem, "status": status, "ativo": ativo, "inclusao": data4(r["inclusao"]),
             "primeira_averbacao": d_incl.strftime("%d/%m/%Y") if d_incl else None, "regime_norma": regime_da_data(d_incl),
-            "inicio": r["inicio"], "fim": r["fim"], "ate_comp": comp_str(ate) if qtde_reu else None, "parcela": r["parcela"], "prazo": r["qtde_contratada"],
+            "inicio": comp_str(ini) if desde_troca else r["inicio"], "inicio_registro_do_reu": r["inicio"], "corte_da_troca": comp_str(desde_troca) if desde_troca else None,
+            "fim": r["fim"], "ate_comp": comp_str(ate) if qtde_reu else None, "parcela": r["parcela"], "prazo": r["qtde_contratada"],
             "liberado": r["liberado"], "qtde": qtde, "total": total, "dobro": round(2 * total, 2), "qtde_registro_do_reu": qtde_reu,
             "total_registro_do_reu": total_reu, "vincendas_qtde": vinc, "vincendas_valor": vinc_valor, "exclusao": data4(r["exclusao"]),
             "motivo_exclusao": r["motivo_exclusao"], "ini_n": ini, "bloco": c.get("bloco"),
