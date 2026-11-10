@@ -13,7 +13,7 @@ Regras do escritório (protocolo.md, "Cálculos"):
   - proveito econômico declaratório = parcelas vincendas dos contratos ativos (da competência da peça ao fim do contrato);
   - valor da causa = restituição em dobro + dano moral + proveito declaratório, sempre, em qualquer rito (art. 292, II e VI,
     do CPC; decisão do escritório de 03/11/2026). Vara Federal: valor real, sem renúncia a teto.
-Todo número sai como CÁLCULO A CONFERIR.
+Todo número sai como [CÁLCULO A CONFERIR].
 
 Uso:
   python3 calcular.py --ficha ficha.json --processo 1 --extrato extrato.pdf --data 2026-10-28 --saida pasta/
@@ -218,13 +218,13 @@ def main():
         "valor_causa": valor_causa, "valor_causa_extenso": brl_ext(valor_causa),
         "dano_moral_extenso": brl_ext(DANO_MORAL), "alertas": alertas, "conferir": conferir, "checagem_fsc": res_esc["fsc"], "checagem_vf": res_esc["vf"],
         "mesma_data": res_esc["mesma_data"],
-        "marca": "CÁLCULO A CONFERIR",
+        "marca": "[CÁLCULO A CONFERIR]",
     }
     saida = Path(a.saida)
     saida.mkdir(parents=True, exist_ok=True)
     (saida / "calculo.json").write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8", newline="\n")
 
-    md = [f"# Cálculo do processo {a.processo} (NB {proc.get('nb')}) — **CÁLCULO A CONFERIR**", "",
+    md = [f"# Cálculo do processo {a.processo} (NB {proc.get('nb')}) — **[CÁLCULO A CONFERIR]**", "",
           f"Data da peça: {hoje.strftime('%d/%m/%Y')} · última competência de contrato ativo: {comp_str(mes_ref)}", "",
           "| Contrato | Status | Início | Fim usado | Qtde | Parcela | Total | Dobro | Vincendas |", "|---|---|---|---|---|---|---|---|---|"]
     for l in linhas:

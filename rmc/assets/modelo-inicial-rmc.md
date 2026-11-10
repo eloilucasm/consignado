@@ -315,7 +315,7 @@ Esta ação não discute a validade do contrato do cartão contratado em [DATA D
 
 # Dos precedentes judiciais evocados ao caso concreto
 
-Precedentes evocados nesta peça: [LISTA COM O TÓPICO DE CADA UM: Súmula 297/STJ; Súmula 479/STJ; Súmula 326/STJ (sucumbência recíproca no dano moral); Súmula 41 e Súmula 33 da Turma de Uniformização do TJBA (cartão consignável; juros); Tema 1414/STJ (suspensão e distinção); Súmula 40 da Turma de Uniformização do TJBA; EAREsp 676.608/RS (repetição em dobro)]. [CONFERIR: o acervo não tem acórdão sobre o teto de 200% em cartão consignado; só a sentença de primeiro grau citada no tópico do teto. Incluir aqui os acórdãos que o advogado trouxer e conferir.]
+Precedentes evocados nesta peça: [LISTA COM O TÓPICO DE CADA UM: Súmula 297/STJ; Súmula 479/STJ; Súmula 326/STJ (sucumbência recíproca no dano moral); Súmula 41 e Súmula 33 da Turma de Uniformização do TJBA (cartão consignável; juros); Tema 1414/STJ (suspensão e distinção); Súmula 40 da Turma de Uniformização do TJBA; EAREsp 676.608/RS (repetição em dobro)].
 
 O Código de Processo Civil estabelece sistema de precedentes destinado a assegurar coerência e integridade aos julgamentos, de modo que decisões sobre o mesmo tema e as mesmas circunstâncias não destoem entre si.
 
@@ -409,7 +409,7 @@ g) a procedência dos pedidos[[SE TUTELA]], confirmada a tutela ou concedida em 
 5. o réu seja condenado a restituir em dobro os valores descontados desde [COMPETÊNCIA DO REFINANCIAMENTO], no total atual de [DOBRO POR EXTENSO]. Correção monetária desde cada desconto (Súmula 43 do STJ) e juros de mora desde a citação, ressalvada a constituição anterior em mora (Súmula 33 da Turma de Uniformização do TJBA; art. 397, parágrafo único, do CC), observada a Lei 14.905/2024 a partir de 30/08/2024. Requer-se que os descontos posteriores a esta petição, até o trânsito em julgado, sejam apurados na liquidação;
 6. o réu seja condenado ao pagamento de indenização por danos extrapatrimoniais de **R$ 20.000,00 (vinte mil reais)**, com correção monetária desde o arbitramento (Súmula 362 do STJ) e juros de mora desde a citação, ressalvada a constituição anterior em mora (Súmula 33 da Turma de Uniformização do TJBA; art. 397, parágrafo único, do CC), observada a Lei 14.905/2024 a partir de 30/08/2024;
 
-h) **subsidiariamente** ao pedido g.1: [DECISÃO DO ADVOGADO: manter ou retirar os dois pedidos subsidiários abaixo, que vêm do modelo AMN e não têm fonte no acervo sobre lesão]
+h) **subsidiariamente** ao pedido g.1:
    1. a anulação do refinanciamento por lesão (art. 157 do CC), com recálculo do saldo devedor deduzidos os valores pagos e aplicado o teto da Lei 14.690/2023;
    2. a revisão judicial do contrato, com abatimento dos valores pagos e vedação de novo refinanciamento sem anuência expressa e escrita da parte autora (art. 6º, V, do CDC);
 

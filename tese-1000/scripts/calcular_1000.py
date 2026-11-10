@@ -5,7 +5,7 @@ Para cada contrato da ficha (o derivado), localiza no extrato do INSS o derivado
 mede o intervalo entre a exclusão da raiz e a PRIMEIRA averbação do derivado (em qualquer banco), conta os descontos (início a
 fim, inclusive; contrato ativo só até o mês anterior à data da peça), calcula o dobro e o valor da causa (dobro + R$ 20.000,00 + parcelas vincendas dos derivados ativos, sempre: art. 292, II e VI, do CPC) e
 escolhe a norma pela data da primeira averbação do derivado: IN INSS/PRES 28/2008 até 12/12/2022; IN 138/2022 desde 13/12/2022.
-Todo número sai como CÁLCULO A CONFERIR.
+Todo número sai como [CÁLCULO A CONFERIR].
 
 Troca de titularidade: se o mesmo número do derivado aparece em outro banco (migração da carteira), o script NÃO soma os descontos
 registrados nesse outro banco, a menos que o advogado decida e passe --incluir-outros-bancos. Sem a flag, o total é só o do
@@ -265,13 +265,13 @@ def main():
         "proveito_declaratorio": proveito, "proveito_declaratorio_extenso": brl_ext(proveito),
         "valor_causa": valor_causa, "valor_causa_extenso": brl_ext(valor_causa), "total_dobro_extenso": brl_ext(tot_dobro),
         "dano_moral_extenso": brl_ext(DANO_MORAL), "alertas": alertas, "conferir": conferir, "checagem_fsc": res_esc["fsc"], "checagem_vf": res_esc["vf"],
-        "mesma_data": res_esc["mesma_data"], "marca": "CÁLCULO A CONFERIR",
+        "mesma_data": res_esc["mesma_data"], "marca": "[CÁLCULO A CONFERIR]",
     }
     saida = Path(a.saida)
     saida.mkdir(parents=True, exist_ok=True)
     (saida / "calculo.json").write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8", newline="\n")
 
-    md = [f"# Cálculo do processo {a.processo} (NB {proc.get('nb')}): **CÁLCULO A CONFERIR**", "",
+    md = [f"# Cálculo do processo {a.processo} (NB {proc.get('nb')}): **[CÁLCULO A CONFERIR]**", "",
           f"Data da peça: {hoje.strftime('%d/%m/%Y')} · última competência de contrato ativo: {comp_str(mes_ref)}", "",
           "| Derivado | Raiz | Raiz: averbação → exclusão | Intervalo | 1ª averbação do derivado | Norma | Qtde | Parcela | Total | Dobro | Status |",
           "|---|---|---|---|---|---|---|---|---|---|---|"]

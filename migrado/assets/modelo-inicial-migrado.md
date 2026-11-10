@@ -20,6 +20,7 @@ Como usar (instruções para quem redige; apague este comentário na peça):
   - Depois de aplicar os condicionais, reletre os pedidos (a, b, c…) e renumere os subitens do pedido g em sequência, sem pular letra nem número.
   - Qualificação: o que vem em [profissão] depende da espécie do benefício. Pensão por morte é "pensionista", não "aposentado/aposentada". RG/CIN: use o documento do termo; se a CIN anexa traz só o CPF, marque [CONFERIR].
   - Valor do extrato: cite pelo rótulo literal do campo (valor liberado). Não troque por "valor emprestado" nem "valor pago"; se o extrato trouxer mais de um, cite cada um com o seu rótulo.
+  - [[SE HÁ ATIVO]] = algum contrato do réu com status ATIVO no calculo.json. [[SE SÓ EXCLUÍDO]] = nenhum contrato ativo: vale também quando todos estão "Encerrado" (o extrato lista excluídos e encerrados na mesma seção). Um dos dois ramos sempre entra; nunca apague os dois.
   - [[SE MOTIVO]] = algum contrato com situação Ativa ou Excluída. Contrato só "Encerrado" não tem o campo "Motivo da Exclusão" a preencher: o tópico e o pedido saem.
   - A frase sobre biometria se limita às migrações impugnadas: a contratação de origem não é contestada e pode ter tido biometria própria.
 -->
@@ -216,7 +217,7 @@ Gerar conforme o quadro de fatos (item 10): objeto exclusivo do NB deste process
 
 ## A restituição ao estado anterior opera em favor da parte autora
 
-Declarada a inexistência e a nulidade, as partes voltam ao estado anterior (art. 182 do CC). Aqui a restituição opera em uma só direção: [[SE CRÉDITO EM CONTA]] o crédito que o extrato bancário da parte autora registra não prova a migração e tem o tratamento do tópico dos fatos e do pedido 7. [[SENÃO]] o banco não comprovou crédito algum em conta de titularidade da parte autora, e a anotação de valor liberado no extrato é lançamento da própria instituição. [[FIM]] A restituição ao estado anterior é a devolução à parte autora, em dobro, do que lhe foi descontado. Eventual crédito que o banco demonstre por documento idôneo só poderá ser considerado no acerto da restituição material, e nunca por compensação com a indenização extrapatrimonial, que tem causa e função distintas.
+Declarada a inexistência e a nulidade, as partes voltam ao estado anterior (art. 182 do CC). Aqui a restituição opera em uma só direção: [[SE CRÉDITO EM CONTA]] o crédito que o extrato bancário da parte autora registra não prova a migração e tem o tratamento do tópico dos fatos e do pedido de vedação da compensação. [[SENÃO]] o banco não comprovou crédito algum em conta de titularidade da parte autora, e a anotação de valor liberado no extrato é lançamento da própria instituição. [[FIM]] A restituição ao estado anterior é a devolução à parte autora, em dobro, do que lhe foi descontado. Eventual crédito que o banco demonstre por documento idôneo só poderá ser considerado no acerto da restituição material, e nunca por compensação com a indenização extrapatrimonial, que tem causa e função distintas.
 
 A vedação ao enriquecimento sem causa (art. 884 do CC) não socorre o banco, que desconta sem comprovar desembolso. A boa-fé objetiva (art. 422 do CC) veda ainda o comportamento contraditório: o banco, que não verificou a contratação, não pode invocá-la para reaver o que não prova ter entregue.
 

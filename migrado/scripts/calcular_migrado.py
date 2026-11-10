@@ -4,7 +4,7 @@
 Para cada contrato da ficha, localiza no extrato do INSS o registro do réu, confere a origem da averbação (migração), extrai o contrato e
 o código do banco de origem, procura o mesmo número no banco anterior, conta os descontos (início a fim, inclusive; contrato ativo só até
 o mês anterior à data da peça), calcula o dobro, o proveito econômico dos contratos ativos (parcelas vincendas) e o valor da causa.
-Todo número sai como CÁLCULO A CONFERIR.
+Todo número sai como [CÁLCULO A CONFERIR].
 
 Troca de titularidade: se o mesmo número aparece em outro banco, o script NÃO soma os descontos registrados lá, a menos que o advogado
 decida e passe --incluir-outros-bancos. Sem a flag, o total é só o do registro do réu e sai um alerta com o que ficou de fora.
@@ -270,13 +270,13 @@ def main():
         "dano_moral": DANO_MORAL, "valor_causa": valor_causa, "valor_causa_extenso": brl_ext(valor_causa),
         "proveito_declaratorio": proveito, "proveito_declaratorio_extenso": brl_ext(proveito), "total_dobro_extenso": brl_ext(tot_dobro),
         "dano_moral_extenso": brl_ext(DANO_MORAL), "alertas": alertas, "conferir": conferir, "checagem_fsc": res_esc["fsc"], "checagem_vf": res_esc["vf"],
-        "mesma_data": res_esc["mesma_data"], "marca": "CÁLCULO A CONFERIR",
+        "mesma_data": res_esc["mesma_data"], "marca": "[CÁLCULO A CONFERIR]",
     }
     saida = Path(a.saida)
     saida.mkdir(parents=True, exist_ok=True)
     (saida / "calculo.json").write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8", newline="\n")
 
-    md = [f"# Cálculo do processo {a.processo} (NB {proc.get('nb')}): **CÁLCULO A CONFERIR**", "",
+    md = [f"# Cálculo do processo {a.processo} (NB {proc.get('nb')}): **[CÁLCULO A CONFERIR]**", "",
           f"Data da peça: {hoje.strftime('%d/%m/%Y')} · última competência de contrato ativo: {comp_str(mes_ref)}", "",
           "| Contrato | Origem da averbação | Banco de origem (CBC) | 1ª averbação | Norma | Início | Fim usado | Qtde | Parcela | Total | Dobro | Vincendas | Status |",
           "|---|---|---|---|---|---|---|---|---|---|---|---|---|"]

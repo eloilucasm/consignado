@@ -1,20 +1,20 @@
-> **MINUTA DE TESTE — CASO FICTÍCIO. NÃO PROTOCOLAR.** Nenhum dado é de pessoa real (exceto a qualificação pública do réu, tirada de `references/dados/reus.json`). Gerada em 28/10/2026 a partir de `assets/modelo-inicial-rmc.md`, `calculo.json` e `calculo.md` desta pasta. As marcas `[CONFIRMAR]`, `[CONFERIR]`, `[VERIFICAR]` e `[DECISÃO]` ficam na minuta para o advogado; no Word recebem realce amarelo. As decisões D1 e D25 foram tomadas pelo escritório em 29/10/2026.
+> **MINUTA DE TESTE — CASO FICTÍCIO. NÃO PROTOCOLAR.** Nenhum dado é de pessoa real (exceto a qualificação pública do réu, tirada de `references/dados/reus.json`). Refeita em 10/11/2026 a partir do modelo atual (`assets/modelo-inicial-rmc.md`), com `calculo.json`, `calculo.md` e `figuras/figuras.json` desta pasta; rito JEC, data da peça 28/10/2026. As marcas `[CONFERIR]`, `[VERIFICAR ANTES DE PROTOCOLAR]` e `[CÁLCULO A CONFERIR]` ficam na minuta para o advogado; no Word recebem realce amarelo. As decisões D1 e D25 foram tomadas pelo escritório em 29/10/2026.
 
 AO JUÍZO DA __ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE ILHÉUS - BA
 
-**EMENTA:** Cartão de crédito consignado (RMC/RCC). Beneficiária do INSS. Refinanciamento do saldo pelo banco sem manifestação de vontade e sem repasse de numerário. Total pago superior a 200% do capital antes do refinanciamento. Teto de juros e encargos do art. 28, § 1º, da Lei 14.690/2023. Nulidade (art. 166, VI, do CC). Repetição do indébito em dobro. Dano extrapatrimonial. Tutela de urgência para suspensão imediata dos descontos.
+**EMENTA:** Cartão de crédito consignado (RMC/RCC). Beneficiária do INSS. Refinanciamento do saldo pelo banco sem manifestação de vontade e sem repasse de numerário. Total pago superior a 200% do capital antes do refinanciamento. Teto de juros e encargos do art. 28, § 1º, da Lei 14.690/2023. Nulidade (art. 166, VI, do CC) e serviço não solicitado (art. 39, III, do CDC). Repetição do indébito em dobro. Dano extrapatrimonial. Tutela de urgência para suspensão imediata dos descontos.
 
 **MARIA DAS GRAÇAS EXEMPLO SANTOS**, brasileira, viúva, aposentada, inscrita no CPF sob nº 000.000.000-00, RG sob nº 00.000.000-00 SSP/BA, beneficiária do INSS (NB 999.999.999-9, aposentadoria por idade), residente e domiciliada na Rua Exemplo, nº 100, Bairro Fictício, CEP 45600-000, cidade de Ilhéus/BA, por seu advogado que esta subscreve (procuração anexa), vem, respeitosamente, perante este Juízo, propor a presente
 
 ## Ação Declaratória de Nulidade de Refinanciamento de Cartão Consignado, Cumulada com Repetição do Indébito em Dobro, Obrigação de Fazer e Indenização por Danos Extrapatrimoniais, com Pedido de Tutela Provisória de Urgência
 
-em face do **BANCO BMG S.A.**, pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 61.186.680/0001-74, com sede na Avenida Presidente Juscelino Kubitschek, nº 1.830, Andares 10, 11, 13 e 14, Blocos 01 e 02, Salas 101, 102, 112, 131 e 141, Vila Nova Conceição, São Paulo/SP, CEP 04543-000, pelos seguintes fatos, fundamentos e razões de direito.
+em face do **BANCO BMG S.A.**, pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 61.186.680/0001-74, com sede na Avenida Presidente Juscelino Kubitschek, nº 1.830, Andares 10, 11, 13 e 14, Blocos 01 e 02, Salas 101, 102, 112, 131 e 141, Vila Nova Conceição, São Paulo/SP, CEP 04543-000, pelo procedimento da Lei nº 9.099/95, pelos seguintes fatos, fundamentos e razões de direito.
 
 # Da gratuidade da justiça
 
 A parte autora não tem condições de arcar com as despesas do processo, uma vez que são insuficientes seus recursos financeiros para pagar todas as despesas processuais, inclusive o recolhimento das custas iniciais.
 
-Requer sejam deferidos os benefícios da gratuidade da justiça, o que faz por declaração de seus advogados, nos termos do art. 99, § 4º, c/c o art. 105, in fine, ambos do CPC, prerrogativa que consta do instrumento procuratório anexo. Presume-se verdadeira a alegação de insuficiência deduzida por pessoa natural (art. 99, § 3º, do CPC). Seu benefício tem base de cálculo de R$ 1.621,00 (anexo). No Juizado Especial, o acesso em primeiro grau independe do pagamento de custas, taxas ou despesas (art. 54 da Lei 9.099/95).
+Requer sejam deferidos os benefícios da gratuidade da justiça, o que faz por declaração de seus advogados, nos termos do art. 99, § 4º, c/c o art. 105, in fine, ambos do CPC, prerrogativa que consta do instrumento procuratório anexo. Presume-se verdadeira a alegação de insuficiência deduzida por pessoa natural (art. 99, § 3º, do CPC). Seu benefício tem base de cálculo de R$ 1.621,00, conforme o extrato do INSS anexo. No Juizado Especial, o acesso em primeiro grau independe do pagamento de custas, taxas ou despesas (art. 54 da Lei 9.099/95).
 
 # Da tramitação prioritária
 
@@ -30,21 +30,29 @@ A causa é de competência do Juizado Especial Cível (art. 3º, I, da Lei 9.099
 
 A parte autora é beneficiária de aposentadoria por idade (NB 999.999.999-9), com base de cálculo de R$ 1.621,00. Em 05/03/2022 foi averbado no benefício o contrato de Cartão de Crédito com Reserva de Margem Consignável (RMC) nº 90000001, do BANCO BMG S.A., com limite de **R$ 1.000,00**.
 
-**Premissa do cálculo.** O extrato do INSS não informa o valor efetivamente utilizado pela parte autora. Adota-se, como capital originalmente disponibilizado, o limite do cartão registrado no INSS, R$ 1.000,00 **[CONFERIR: premissa; substituir pelo valor efetivamente sacado, se as faturas ou o relato do cliente o mostrarem]**. O banco detém as faturas e, no tópico da inversão do ônus, é instado a juntá-las.
+**Premissa do cálculo.** O extrato do INSS não informa o valor efetivamente utilizado pela parte autora. Adota-se, como capital originalmente disponibilizado, o limite do cartão registrado no INSS, R$ 1.000,00 [CONFERIR: premissa; substituir pelo valor efetivamente sacado, se as faturas ou o relato do cliente o mostrarem]. O banco detém as faturas e, no tópico da inversão do ônus, é instado a juntá-las.
 
-Desde então, descontos mensais foram feitos no benefício a título de "desconto de cartão (RMC)". A parte autora relata que acreditava que os descontos amortizavam a dívida ****.
+Desde então, descontos mensais foram feitos no benefício a título de "desconto de cartão (RMC)". A parte autora relata que acreditava que os descontos amortizavam a dívida.
 
-Em 10/08/2026, ao consultar o Histórico de Empréstimo Consignado, a parte autora tomou conhecimento do refinanciamento descrito abaixo.
+Em 28/10/2026, ao analisar o Histórico de Empréstimo Consignado, a parte autora tomou conhecimento do refinanciamento descrito abaixo.
 
 ## O extrato oficial do INSS prova o refinanciamento
 
-Em 11/2025, sem contato, proposta, nova assinatura ou repasse de numerário à parte autora ****, o banco registrou no sistema do INSS/DATAPREV nova operação sobre o cartão nº 90000001. O Histórico de Empréstimo Consignado, emitido em 28/10/2026 (anexo), registra, para o contrato de id 90000001318112025, os seguintes sinais:
+Em 11/2025, sem contato, proposta, nova assinatura ou repasse de numerário à parte autora, o banco registrou no sistema do INSS/DATAPREV nova operação sobre o cartão nº 90000001. O Histórico de Empréstimo Consignado, emitido em 28/10/2026, anexo, registra, para o contrato de id 90000001318112025, os seguintes sinais:
 
 a) **Salto do "utilizado no mês".** Nas competências anteriores, o campo registra apenas R$ 30,00 e R$ 30,00. Em 11/2025 passa a R$ 1.800,00, idêntico ao saldo devedor então registrado (R$ 1.800,00), como se tivesse sido novo saque, sem solicitação ou assinatura da parte autora.
 
-b) **IOF lançado na mesma competência**, no valor de R$ 4,50, tributo que incide sobre operação de crédito. **[CONFERIR: a incidência de IOF sobre a operação, nos termos da legislação tributária; não consta do acervo.]**
+b) **IOF lançado na mesma competência**, no valor de R$ 4,50, tributo que incide sobre operação de crédito. [CONFERIR: a incidência de IOF sobre a operação, nos termos da legislação tributária; não consta do acervo.]
 
-O documento é oficial e sua autenticidade pode ser conferida pelo código do rodapé. A prova é a soma dos lançamentos que ele traz.
+O documento é oficial e sua autenticidade pode ser conferida pelo código do rodapé. A prova é a soma dos lançamentos que ele traz. Reproduzem-se abaixo, sem alteração, a linha do cartão e as competências em torno do refinanciamento, com a de 11/2025 contornada.
+
+![Figura 1: Linha do cartão no extrato do INSS](figuras/fig_extrato_cartao.png)
+
+*Figura 1: Recorte do Histórico de Empréstimo Consignado do INSS: linha do cartão RMC nº 90000001. Fonte: Histórico de Empréstimo Consignado do INSS, anexo.*
+
+![Figura 2: Refinanciamento no extrato do INSS](figuras/fig_extrato_refinanciamento.png)
+
+*Figura 2: Recorte do Histórico de Empréstimo Consignado do INSS: descontos do cartão nº 90000001 de 07/2025 a 01/2026, com a competência do refinanciamento (11/2025) contornada. Fonte: Histórico de Empréstimo Consignado do INSS, anexo.*
 
 ## O custo real da dívida
 
@@ -107,9 +115,17 @@ A tabela abaixo reúne os descontos mensais do cartão nº 90000001, extraídos 
 | 08/2026 | 55,00 | 2.650,00 | 265,0% |
 | 09/2026 | 55,00 | 2.705,00 | 270,5% |
 
-*Fonte: Histórico de Empréstimo Consignado do INSS, emitido em 28/10/2026 (anexo).* **[CÁLCULO A CONFERIR]**
+*Fonte: Histórico de Empréstimo Consignado do INSS, emitido em 28/10/2026, anexo.* [CÁLCULO A CONFERIR]
 
-Em 08/2025, o acumulado pago, R$ 2.000,00, chegou a 200,0% do capital adotado, 3 meses antes do refinanciamento.
+Em 08/2025, o acumulado pago, R$ 2.000,00, chegou a 200,0% do capital adotado, 3 meses antes do refinanciamento. A evolução do acumulado e a sequência dos fatos estão nas figuras a seguir.
+
+![Figura 3: Acumulado pago e marco de 200%](figuras/fig_acumulado.png)
+
+*Figura 3: Acumulado pago no cartão nº 90000001 e marco de 200% do capital adotado (08/2025), antes do refinanciamento (11/2025). Fonte: Histórico de Empréstimo Consignado do INSS, anexo. A figura reproduz o extrato e não introduz fato novo.*
+
+![Figura 4: Linha do tempo do cartão](figuras/fig_linha_tempo.png)
+
+*Figura 4: Linha do tempo do cartão nº 90000001, conforme o extrato do INSS anexo.*
 
 ## Resumo financeiro
 
@@ -127,11 +143,27 @@ Em 08/2025, o acumulado pago, R$ 2.000,00, chegou a 200,0% do capital adotado, 3
 
 Por oportuno, como medida de precaução, a parte autora informa que, quanto ao cartão ainda ativo, da presente data até o trânsito em julgado, o banco réu poderá continuar debitando valores indevidos do benefício da parte autora, caso não haja provimento jurisdicional que o impeça. Dessa forma, eventuais novas cobranças deverão ser incluídas no pedido de restituição em dobro, com oportuna apresentação na liquidação, o que se requer.
 
+# Do refinanciamento do cartão: a sequência que o extrato registra
+
+O extrato do INSS conta a história sozinho. Não é preciso supor nada: basta lê-la em ordem, passo a passo.
+
+PRIMEIRO. Havia um cartão, e esta ação não o discute. Em 05/03/2022, foi averbado no benefício da parte autora o contrato nº 90000001, com limite de R$ 1.000,00. A validade desse contrato fica fora do pedido: o que se impugna é o que veio depois.
+
+SEGUNDO. Os pagamentos correram por anos. De 04/2022 até a véspera do refinanciamento, o banco descontou do benefício, mês a mês, a título de "desconto de cartão". Em 08/2025, o acumulado já havia atingido 200,0% do capital adotado, no limite dos 200% (R$ 2.000,00); em 10/2025, somava R$ 2.100,00 (210,0%).
+
+TERCEIRO. Em 11/2025, a dívida foi renovada. O campo "utilizado no mês", que registrava apenas R$ 30,00 e R$ 30,00, passa a R$ 1.800,00. O valor é idêntico ao saldo devedor então registrado (R$ 1.800,00) e vem com IOF de R$ 4,50 na mesma competência. Um saldo que se renova por inteiro, num único mês, não se parece com uso do cartão: parece, e é, refinanciamento.
+
+QUARTO. Nada foi pedido à parte autora. O extrato não registra proposta, nova assinatura nem repasse de numerário, e a parte autora não foi procurada, notificada nem consultada. A dívida foi renovada como se os pagamentos nada tivessem coberto, e o saldo devedor registrado no INSS em 09/2026 é de R$ 1.700,00.
+
+QUINTO. A conta fecha contra o banco. Até 09/2026, a parte autora pagou R$ 2.705,00 (270,5% do capital adotado) e ainda consta saldo de R$ 1.700,00: custo total mínimo de R$ 4.405,00, ou 440,5% sobre o capital adotado.
+
+Cada passo, isolado, poderia passar por rotina. Lidos juntos, formam uma só pergunta, e só o banco pode respondê-la: com que proposta, assinada por quem e quando, lançou-se em 11/2025 um saldo de R$ 1.800,00, se a parte autora já havia pago 200,0% do capital em 08/2025? A parte autora nega que tenha contratado o refinanciamento, e o extrato não registra nada em sentido contrário. A prova de que houve contratação é do banco e, antecipamos, não será demonstrada.
+
 # Do direito
 
 ## O Código de Defesa do Consumidor se aplica às instituições financeiras
 
-Conforme a Súmula 297 do STJ, o Código de Defesa do Consumidor é aplicável às instituições financeiras.
+A matéria dispensa debate: o Código de Defesa do Consumidor é aplicável às instituições financeiras, como enuncia a Súmula 297 do STJ.
 
 ## A responsabilidade do banco é objetiva
 
@@ -141,15 +173,15 @@ Dispõe o art. 14, caput e § 3º, do Código de Defesa do Consumidor:
 >
 > § 3° O fornecedor de serviços só não será responsabilizado quando provar: I - que, tendo prestado o serviço, o defeito inexiste; II - a culpa exclusiva do consumidor ou de terceiro.
 
-O refinanciamento foi ato do próprio banco, e não de terceiro. Se a fraude de terceiro já é fortuito interno (Súmula 479 do STJ), com mais razão responde o banco pelo ato que ele mesmo praticou.
+O refinanciamento foi ato do próprio banco, e não de terceiro. Se até a fraude de terceiro é fortuito interno (Súmula 479 do STJ), com razão ainda maior responde o banco pelo ato que ele mesmo praticou.
 
 ## A licitude do cartão consignável não alcança o refinanciamento
 
-A Súmula 41 da Turma de Uniformização das Turmas Recursais do TJBA reconhece como lícita a contratação de cartão de crédito consignável, desde que observado o direito à informação do consumidor e afastado qualquer vício de consentimento. Esta ação não pede a invalidade do cartão contratado em 05/03/2022. Pede a nulidade do refinanciamento de 11/2025, ato posterior e distinto, que o banco registrou sem proposta, sem nova assinatura e sem repasse de numerário ****. A própria súmula condiciona a licitude ao direito à informação (art. 6º, III, do CDC): cabe ao banco demonstrar que informou a parte autora do refinanciamento e de seus custos, o que se requer no tópico da inversão do ônus da prova.
+A Súmula 41 da Turma de Uniformização das Turmas Recursais do TJBA reconhece como lícita a contratação de cartão de crédito consignável, desde que observado o direito à informação do consumidor e afastado qualquer vício de consentimento. Esta ação não pede a invalidade do cartão contratado em 05/03/2022. Pede a nulidade do refinanciamento de 11/2025, ato posterior e distinto, que o banco registrou sem proposta, sem nova assinatura e sem repasse de numerário. A própria súmula condiciona a licitude ao direito à informação (art. 6º, III, do CDC): cabe ao banco demonstrar que informou a parte autora do refinanciamento e de seus custos, o que se requer no tópico da inversão do ônus da prova.
 
 ## O teto de juros e encargos do art. 28, § 1º, da Lei 14.690/2023 alcança o cartão consignado
 
-**[VERIFICAR ANTES DE PROTOCOLAR: tese do escritório, sem precedente no acervo sobre o teto em cartão consignado.]**
+[VERIFICAR ANTES DE PROTOCOLAR: tese do escritório, sem precedente no acervo sobre o teto em cartão consignado.]
 
 O art. 28 da Lei 14.690/2023 dispõe, em seu caput, sobre limites de juros e encargos no crédito rotativo e no parcelamento do saldo devedor das faturas de cartões de crédito e de outros instrumentos de pagamento pós-pagos, e prevê, em seus §§ 1º e 2º:
 
@@ -159,11 +191,11 @@ O art. 28 da Lei 14.690/2023 dispõe, em seu caput, sobre limites de juros e enc
 
 O banco poderá invocar o art. 4º da Resolução CMN 4.549/2017, segundo o qual "o disposto nesta Resolução não se aplica aos cartões de crédito e aos demais instrumentos de pagamento pós-pagos cujos contratos prevejam pagamento das faturas mediante consignação em folha de pagamento". O dispositivo não alcança o contrato da parte autora:
 
-1. **No cartão com reserva de margem consignável, a fatura não é paga por consignação.** Apenas o valor mínimo da fatura é descontado do benefício; o restante deve ser pago pelo consumidor, por boleto **[CONFERIR: faturas]**. O art. 4º afasta a resolução dos contratos que preveem o pagamento **das faturas** por consignação, e não daqueles em que só o mínimo é consignado. A Resolução CMN 4.549, com os arts. 2º-A a 2º-D, aplica-se, portanto, ao cartão desta ação.
-2. **A lei não excepciona o cartão com desconto do mínimo em folha.** O art. 28, § 1º, é norma legal e não depende da regulamentação do CMN. Ato infralegal não pode afastar de um grupo de consumidores a proteção que a lei concede a todos **[VERIFICAR ANTES DE PROTOCOLAR: precedentes sobre a hierarquia entre o art. 28 da Lei 14.690 e o art. 4º da Res. CMN 4.549; não há julgado no acervo]**.
+1. **No cartão com reserva de margem consignável, a fatura não é paga por consignação.** Apenas o valor mínimo da fatura é descontado do benefício; o restante deve ser pago pelo consumidor, por boleto [CONFERIR: faturas]. O art. 4º afasta a resolução dos contratos que preveem o pagamento **das faturas** por consignação, e não daqueles em que só o mínimo é consignado. A Resolução CMN 4.549, com os arts. 2º-A a 2º-D, aplica-se, portanto, ao cartão desta ação.
+2. **A lei não excepciona o cartão com desconto do mínimo em folha.** O art. 28, § 1º, é norma legal e não depende da regulamentação do CMN. Ato infralegal não pode afastar de um grupo de consumidores a proteção que a lei concede a todos [VERIFICAR ANTES DE PROTOCOLAR: precedentes sobre a hierarquia entre o art. 28 da Lei 14.690 e o art. 4º da Res. CMN 4.549; não há julgado no acervo].
 3. **O teto é o mesmo nas duas leituras.** Se os limites foram aprovados pelo CMN (art. 2º-C da Res. CMN 4.549, incluído pela Res. CMN 5.112/2023), vale esse limite, que é o do valor original da dívida. Se não foram aprovados para o cartão consignado, incide o § 1º, de igual conteúdo.
 
-O refinanciamento ocorreu em 11/2025, depois de decorrido o prazo de 90 dias contado da publicação da lei (DOU de 03/10/2023, edição extra) **(90 dias a partir de 03/10/2023, pela regra de contagem do escritório: 01/01/2024; o art. 2º-D da Res. CMN 4.549 limita os arts. 2º-A a 2º-C às operações posteriores a esse prazo)**.
+O refinanciamento ocorreu em 11/2025, depois de decorrido o prazo de 90 dias contado da publicação da lei (DOU de 03/10/2023, edição extra): contados 90 dias de 03/10/2023, o prazo terminou em 01/01/2024, e o art. 2º-D da Res. CMN 4.549 limita os arts. 2º-A a 2º-C às operações posteriores a esse prazo.
 
 Para a apuração, o art. 2º-A da Res. CMN 4.549 (incluído pela Res. CMN 5.112/2023) define "valor original da dívida" como o saldo das operações de crédito rotativo ou de parcelamento de fatura concedidas para o financiamento do saldo devedor, apurado toda vez que for concedida nova operação. Como o extrato do INSS não traz essa operação, a parte autora adota o limite do cartão como capital (tópico dos fatos) e pede ao banco as faturas.
 
@@ -183,27 +215,37 @@ b) o art. 2º-C da Res. CMN 4.549, incluído pela Res. CMN 5.112/2023, aplicáve
 
 O banco registrou o novo saldo de R$ 1.800,00 sem deduzir o que a parte autora já havia pago (R$ 2.100,00), conforme o extrato (tópico dos fatos). Declarada a nulidade, as partes voltam ao estado anterior (art. 182 do CC): desconstituição do refinanciamento, liberação da margem e devolução do que foi descontado desde 11/2025.
 
-## Quando o total pago supera 200% do capital, o teto estava esgotado antes do refinanciamento
+## Quando o total pago atinge 200% do capital, o teto estava esgotado antes do refinanciamento
 
 O raciocínio é encadeado, com a premissa de capital já explicitada nos fatos:
 
 1. O art. 28, § 1º, da Lei 14.690 impede que o total de juros e encargos exceda o valor original da dívida.
 2. Em 08/2025, a parte autora já havia pago R$ 2.000,00, 200,0% do capital adotado, no limite dos 200% (R$ 2.000,00).
-3. Quando o total pago supera 200% do capital, cobriram-se o capital (100%) e juros e encargos em valor igual ao do capital (mais 100%), que é o teto legal.
+3. Quando o total pago atinge 200% do capital, cobriram-se o capital (100%) e juros e encargos em valor igual ao do capital (mais 100%), que é o teto legal.
 4. Ao renegociar, o art. 2º-C exige descontar os juros e encargos já pagos. Com o teto já atingido em 08/2025, o saldo disponível para novos juros em 11/2025 era nulo.
-5. Logo, o saldo de R$ 1.800,00 registrado no refinanciamento não tem lastro, e o banco não comprovou o repasse na ocasião ****.
+5. Logo, o saldo de R$ 1.800,00 registrado no refinanciamento não tem lastro, e o banco não comprovou o repasse na ocasião.
 
 O banco detém o desdobramento de cada parcela entre capital e juros e deve demonstrar que o teto não havia sido atingido (art. 6º, VIII, do CDC). Na dúvida, interpreta-se a favor do consumidor (art. 47 do CDC).
+
+Atingido o teto em 08/2025, a obrigação do cartão estava quitada naquela competência, e a parte autora pede que o juízo assim a declare. A repetição em dobro, nesta ação, limita-se aos descontos posteriores ao refinanciamento, que é o pedido certo e demonstrado pelo extrato; a delimitação não afeta a quitação. Em caso análogo, a sentença da 12ª Vara do Sistema dos Juizados Especiais do Consumidor de Salvador declarou a quitação na competência do marco de 200% e deu o dobro dos descontos desde o refinanciamento (TJBA, Processo 0209760-63.2026.8.05.0001, sentença de 2026, de primeiro grau, citada como exemplo).
 
 ## O refinanciamento do cartão consignado deve respeitar as normas do CMN e do INSS
 
 O art. 14 da IN PRES/INSS 138/2022 admite o refinanciamento "desde que atenda às normas editadas pelo BCB e pelo CMN, bem como às normas editadas pelo INSS". Seu parágrafo único exige que a repactuação observe "os limites contidos nesta Instrução Normativa e no Código de Defesa do Consumidor, especialmente quanto à manutenção do mínimo existencial, evitando-se o superendividamento". O refinanciamento impugnado não atendeu à norma do CMN (tópico do teto de juros e encargos) e manteve o desconto sobre verba alimentar.
 
-A norma do INSS impõe ainda ao banco o envio mensal de fatura "com informações essenciais mínimas em destaque, descrição detalhada das operações realizadas" (IN 138, art. 15, VIII) ****. Para o cartão constituído até 12/12/2022, vigorava o art. 17 da IN INSS/PRES 28/2008, que já exigia o envio mensal de extrato com descrição detalhada das operações realizadas. Cabe ao banco demonstrar o cumprimento dessas exigências e a regularidade do refinanciamento, o que se requer no tópico da inversão do ônus da prova.
+A norma do INSS impõe ainda ao banco o envio mensal de fatura "com informações essenciais mínimas em destaque, descrição detalhada das operações realizadas" (IN 138, art. 15, VIII). Para o cartão constituído até 12/12/2022, vigorava o art. 17 da IN INSS/PRES 28/2008, que já exigia o envio mensal de extrato com descrição detalhada das operações realizadas. Cabe ao banco demonstrar o cumprimento dessas exigências e a regularidade do refinanciamento, o que se requer no tópico da inversão do ônus da prova.
+
+## O refinanciamento sem proposta, sem assinatura e sem repasse é serviço não solicitado
+
+Ainda que se desprezasse o teto de juros, o refinanciamento não se sustentaria por outra razão, mais simples: ninguém o pediu. O art. 39, III, do Código de Defesa do Consumidor dispõe:
+
+> III - enviar ou entregar ao consumidor, sem solicitação prévia, qualquer produto, ou fornecer qualquer serviço;
+
+A IN PRES/INSS 138/2022 trata o refinanciamento como ato "entre o beneficiário e a instituição financeira contratada" (art. 14, caput) e a repactuação como matéria de "livre negociação entre as partes" (art. 14, parágrafo único). O refinanciamento pressupõe, portanto, acordo com o beneficiário. Aqui, o extrato registra a operação sem proposta, sem nova assinatura e sem repasse de numerário, e a parte autora não foi procurada, notificada nem consultada. Sem solicitação, o que houve foi serviço imposto, e o negócio não se formou (art. 104 do CC). Esse fundamento independe do teto da Lei 14.690/2023: subsiste ainda que o juízo entenda de modo diverso sobre ele.
 
 ## O refinanciamento unilateral viola a boa-fé objetiva
 
-O art. 422 do Código Civil impõe aos contratantes a probidade e a boa-fé. O banco aceitou anos de pagamentos como amortização e depois renovou o saldo como se nada tivesse sido pago, sem aviso à parte autora: comportamento contraditório (venire contra factum proprium). O art. 39, V, do CDC veda exigir do consumidor vantagem manifestamente excessiva.
+O art. 422 do Código Civil impõe aos contratantes a probidade e a boa-fé. O banco recebeu anos de pagamentos como amortização e, num dado mês, renovou o saldo como se nada tivesse sido pago, sem aviso à parte autora. É o comportamento contraditório que o direito não tolera (venire contra factum proprium). O art. 39, V, do CDC veda exigir do consumidor vantagem manifestamente excessiva.
 
 ## Os valores descontados desde o refinanciamento devem ser restituídos em dobro
 
@@ -211,17 +253,19 @@ O art. 42, parágrafo único, do Código de Defesa do Consumidor dispõe:
 
 > Parágrafo único. O consumidor cobrado em quantia indevida tem direito à repetição do indébito, por valor igual ao dobro do que pagou em excesso, acrescido de correção monetária e juros legais, salvo hipótese de engano justificável.
 
-O dispositivo ressalva apenas o engano justificável. A cobrança sobre saldo sem lastro, mantida mês a mês e sem aviso, não decorre de engano justificável.
+O dispositivo ressalva apenas o engano justificável, e cobrança sobre saldo sem lastro, mantida mês a mês e sem aviso, não se explica por engano algum que se possa justificar.
 
-Todos os descontos a partir de 11/2025 incidem sobre saldo sem lastro, e a cobrança é unilateral e sem aviso. Somam R$ 605,00 em valor simples e **R$ 1.210,00 (um mil, duzentos e dez reais)** em dobro. **[CÁLCULO A CONFERIR]**
+A restituição em dobro não depende de prova de má-fé. A Corte Especial do Superior Tribunal de Justiça fixou que ela "independe da natureza do elemento volitivo do fornecedor que realizou a cobrança indevida, revelando-se cabível quando a referida cobrança consubstanciar conduta contrária à boa-fé objetiva" (EAREsp 676.608/RS, Corte Especial, Rel. Min. Og Fernandes, j. 21/10/2020, DJe 30/03/2021). Promover descontos em benefício previdenciário sem autorização do titular é conduta contrária à boa-fé objetiva. A tese foi modulada para as cobranças posteriores a 30/03/2021, e todos os descontos aqui discutidos são posteriores a essa data: a modulação alcança toda a repetição.
+
+Todos os descontos a partir de 11/2025 incidem sobre saldo sem lastro, e a cobrança é unilateral e sem aviso. Somam R$ 605,00 em valor simples e **R$ 1.210,00 (um mil, duzentos e dez reais)** em dobro. [CÁLCULO A CONFERIR]
 
 ## O dano extrapatrimonial é devido e decorre da natureza alimentar da verba
 
-A situação vivida pela parte autora ultrapassa o mero aborrecimento cotidiano. Os descontos incidem mensalmente sobre benefício previdenciário, de natureza alimentar, e a parte autora já pagou 270,5% do capital adotado e ainda é cobrada por saldo de R$ 1.700,00, após o banco renovar a dívida sem lhe dar ciência.
+O que a parte autora viveu não cabe na categoria do mero aborrecimento cotidiano. Os descontos recaem, mês a mês, sobre benefício previdenciário, de natureza alimentar; a parte autora já pagou 270,5% do capital adotado e ainda é cobrada por saldo de R$ 1.700,00, depois de o banco renovar a dívida sem lhe dar ciência.
 
-A Súmula 40 da Turma de Uniformização das Turmas Recursais do TJBA admite o dano moral por desconto indevido quando, observadas as particularidades do caso, demonstrada violação significativa a direito da personalidade. As particularidades aqui são: a natureza alimentar do benefício, o valor e a duração dos descontos e a condição de pessoa idosa.
+A Súmula 40 da Turma de Uniformização das Turmas Recursais do TJBA admite o dano moral por desconto indevido quando, observadas as particularidades do caso, demonstrada violação significativa a direito da personalidade. As particularidades aqui são: a natureza alimentar do benefício, o valor e a duração dos descontos e a condição de pessoa idosa. Estão todas presentes.
 
-Além da função compensatória, a indenização cumpre função pedagógica: o valor deve ser suficiente para desestimular a repetição da conduta por instituição de grande porte. Considerados o porte econômico do banco, a gravidade da falha e o caráter alimentar da verba, o valor de **R$ 20.000,00 (vinte mil reais)** é justo e razoável e não gera enriquecimento sem causa. O valor é estimativo: conforme a Súmula 326 do STJ, a condenação em montante inferior ao postulado na inicial não implica sucumbência recíproca.
+A indenização não se esgota na função compensatória: cumpre também função pedagógica, e o valor há de ser suficiente para desestimular a repetição da conduta por instituição de grande porte. Considerados o porte econômico do banco, a gravidade da falha e o caráter alimentar da verba, o valor de **R$ 20.000,00 (vinte mil reais)** é justo e razoável e não gera enriquecimento sem causa. O valor é estimativo: conforme a Súmula 326 do STJ, a condenação em montante inferior ao postulado na inicial não implica sucumbência recíproca.
 
 # Da inversão do ônus da prova
 
@@ -243,13 +287,13 @@ Nos Juizados Especiais não se pede perícia nem exibição autônoma: a juntada
 
 # Do prosseguimento do feito: distinção em relação ao Tema 1.414/STJ
 
-O Tema 1.414/STJ (Segunda Seção, Rel. Min. Raul Araújo) determinou a suspensão nacional dos processos que discutem a nulidade de contratos de cartão consignado por vício de informação, exceto cumprimentos de sentença **(situação "Afetado", sem tese, conforme a página do STJ lida em 28/10/2026; a skill relê a situação do tema na data da minuta e relata se mudou)**.
+O Tema 1.414/STJ (Segunda Seção, Rel. Min. Raul Araújo) determinou a suspensão nacional dos processos que discutem a nulidade de contratos de cartão consignado por vício de informação, exceto cumprimentos de sentença (situação "Afetado", sem tese, conforme a página do STJ lida em 28/10/2026).
 
-Esta ação não discute a validade do contrato do cartão contratado em [DATA DE INCLUSÃO DO CARTÃO], que não é impugnado. Discute a nulidade do refinanciamento de 11/2025, ato posterior, por violação ao teto legal do art. 28, § 1º, da Lei 14.690/2023, cuja análise depende do total já pago pela parte autora, e não de vício de informação nem da abusividade contratual que o Tema 1.414/STJ examinará. Demonstrada a distinção, a parte autora requer o prosseguimento do processo (art. 1.037, § 9º, do CPC).
+Esta ação não discute a validade do contrato do cartão contratado em 05/03/2022, que não é impugnado. Discute a nulidade do refinanciamento de 11/2025, ato posterior, por violação ao teto legal do art. 28, § 1º, da Lei 14.690/2023, cuja análise depende do total já pago pela parte autora, e, de modo autônomo, pela ausência de manifestação de vontade quanto ao refinanciamento, fato que o extrato registra. Nenhum dos dois fundamentos é vício de informação nem abusividade contratual, que são o que o Tema 1.414/STJ examinará. Demonstrada a distinção, a parte autora requer o prosseguimento do processo (art. 1.037, § 9º, do CPC).
 
 # Dos precedentes judiciais evocados ao caso concreto
 
-Precedentes evocados nesta peça: Súmula 297/STJ (aplicação do CDC); Súmula 479/STJ (responsabilidade do banco); Súmula 326/STJ (sucumbência recíproca no dano moral); Súmula 41 e Súmula 33 da Turma de Uniformização do TJBA (cartão consignável; juros); Tema 1414/STJ (suspensão e distinção); Súmula 40 da Turma de Uniformização do TJBA (dano extrapatrimonial). **[CONFERIR: o acervo não tem acórdão sobre o teto de 200% em cartão consignado; incluir aqui os que o advogado trouxer e conferir.]**
+Precedentes evocados nesta peça: Súmula 297/STJ (tópico 6, aplicação do CDC); Súmula 479/STJ (tópico 6, responsabilidade do banco); Súmula 41 da Turma de Uniformização do TJBA (tópico 6, cartão consignável); EAREsp 676.608/RS (tópico 6, repetição em dobro); Súmula 40 da Turma de Uniformização do TJBA (tópico 6, dano extrapatrimonial); Súmula 326/STJ (tópico 6, sucumbência recíproca no dano moral); Tema 1414/STJ (tópico 8, suspensão e distinção); Súmula 43/STJ, Súmula 362/STJ e Súmula 33 da Turma de Uniformização do TJBA (tópico 12, correção monetária e juros).
 
 O Código de Processo Civil estabelece sistema de precedentes destinado a assegurar coerência e integridade aos julgamentos, de modo que decisões sobre o mesmo tema e as mesmas circunstâncias não destoem entre si.
 
@@ -283,7 +327,7 @@ A tutela provisória pode fundamentar-se em urgência ou evidência (art. 294 do
 
 A probabilidade do direito resulta do extrato oficial do INSS, que registra o refinanciamento em 11/2025 e uma onerosidade de 440,5% sobre o capital adotado. O perigo de dano está no desconto mensal sobre verba alimentar, que se renova a cada competência. Não há perigo de irreversibilidade (art. 300, § 3º, do CPC): a suspensão dos descontos pode ser revertida se o banco comprovar a regularidade do refinanciamento.
 
-Requer-se a antecipação dos efeitos da tutela para que o banco suspenda os descontos do cartão nº 90000001 no benefício NB 999.999.999-9 e não repasse a margem a terceiros, sob pena de multa diária de R$ 500,00 (quinhentos reais), nos termos dos arts. 297 e 537 do CPC, sem prejuízo de sua majoração caso se mostre insuficiente (art. 537, § 1º, I, do CPC) e da restituição em dobro de cada desconto realizado após a intimação. Alternativamente, tutela da evidência (art. 311, IV, do CPC), por estar a inicial instruída com prova documental suficiente.
+Requer-se a antecipação dos efeitos da tutela para que o banco suspenda os descontos do cartão nº 90000001 no benefício NB 999.999.999-9 e não repasse a margem a terceiros, sob pena de multa diária de R$ 500,00 (quinhentos reais), nos termos dos arts. 297 e 537 do CPC, sem prejuízo de sua majoração caso se mostre insuficiente (art. 537, § 1º, I, do CPC) e da restituição em dobro de cada desconto realizado após a intimação. Se negada a urgência, requer-se a tutela da evidência (art. 311, IV, do CPC) depois da contestação, caso o banco não oponha prova capaz de gerar dúvida razoável, por estar a inicial instruída com prova documental dos fatos constitutivos do direito.
 
 # Das provas
 
@@ -297,38 +341,39 @@ a) o deferimento da gratuidade da justiça (arts. 98 e 99, caput e § 3º, do CP
 
 b) a prioridade de tramitação (art. 1.048, I, do CPC; art. 71 da Lei 10.741/2003);
 
-c) a citação do réu para que apresente contestação no prazo legal, sob pena de revelia, manifestando a parte autora interesse na audiência de conciliação;
+c) a citação do réu para que apresente contestação no prazo legal, sob pena de revelia;
 
 d) a antecipação dos efeitos da tutela, nos termos do tópico próprio, para suspender os descontos do cartão nº 90000001, sob pena de multa diária de R$ 500,00 (arts. 297 e 537 do CPC);
 
-e) a inversão do ônus da prova, com o encargo de o réu juntar, com a contestação, os documentos do tópico da inversão do ônus da prova;
+e) a inversão do ônus da prova, com o encargo de o réu juntar, com a contestação, os documentos do tópico 7;
 
 f) a apreciação expressa de cada precedente evocado, nos termos do art. 489, § 1º, VI, do CPC;
 
 g) a procedência dos pedidos, confirmada a tutela ou concedida em sentença, para que:
 
-1. seja declarada a nulidade do refinanciamento de 11/2025 sobre o cartão nº 90000001 (saldo registrado de R$ 1.800,00, com IOF de R$ 4,50), por fraude à lei imperativa (art. 166, VI, do CC, c/c o art. 28, § 1º, da Lei 14.690/2023), com desconstituição de seus efeitos desde a data da prática;
+1. seja declarada a nulidade do refinanciamento de 11/2025 sobre o cartão nº 90000001 (saldo registrado de R$ 1.800,00, com IOF de R$ 4,50), por fraude à lei imperativa (art. 166, VI, do CC, c/c o art. 28, § 1º, da Lei 14.690/2023) e, de modo autônomo, por ausência de manifestação de vontade da parte autora (art. 104 do CC; art. 39, III, do CDC), com desconstituição de seus efeitos desde a data da prática;
 2. seja declarada a quitação do contrato do cartão nº 90000001 em 08/2025, quando os pagamentos somavam R$ 2.000,00, 200,0% do capital adotado, e atingiram o teto do art. 28, § 1º, da Lei 14.690/2023;
 3. o réu seja condenado à obrigação de fazer de, em 5 (cinco) dias úteis do trânsito em julgado, baixar o bloqueio da margem consignável junto ao INSS/DATAPREV e cessar os descontos, sob pena de multa diária de R$ 500,00, nos termos dos arts. 497 e 537 do CPC;
-4. o réu seja condenado a restituir em dobro os valores descontados desde 11/2025, no total atual de R$ 1.210,00 (um mil, duzentos e dez reais). Correção monetária desde cada desconto (Súmula 43 do STJ) e juros de mora desde a citação, ressalvada a constituição anterior em mora (Súmula 33 da Turma de Uniformização do TJBA; art. 397, parágrafo único, do CC). Requer-se que os descontos posteriores a esta petição, até o trânsito em julgado, sejam apurados na liquidação;
-5. o réu seja condenado ao pagamento de indenização por danos extrapatrimoniais de **R$ 20.000,00 (vinte mil reais)**, com correção monetária desde o arbitramento (Súmula 362 do STJ) e juros de mora desde a citação, ressalvada a constituição anterior em mora (Súmula 33 da Turma de Uniformização do TJBA; art. 397, parágrafo único, do CC);
+4. o réu seja condenado a restituir em dobro os valores descontados desde 11/2025, no total atual de R$ 1.210,00 (um mil, duzentos e dez reais). Correção monetária desde cada desconto (Súmula 43 do STJ) e juros de mora desde a citação, ressalvada a constituição anterior em mora (Súmula 33 da Turma de Uniformização do TJBA; art. 397, parágrafo único, do CC), observada a Lei 14.905/2024 a partir de 30/08/2024. Requer-se que os descontos posteriores a esta petição, até o trânsito em julgado, sejam apurados na liquidação;
+5. o réu seja condenado ao pagamento de indenização por danos extrapatrimoniais de **R$ 20.000,00 (vinte mil reais)**, com correção monetária desde o arbitramento (Súmula 362 do STJ) e juros de mora desde a citação, ressalvada a constituição anterior em mora (Súmula 33 da Turma de Uniformização do TJBA; art. 397, parágrafo único, do CC), observada a Lei 14.905/2024 a partir de 30/08/2024;
 
-h) **subsidiariamente** ao pedido g.1: **[DECISÃO DO ADVOGADO: manter ou retirar os dois pedidos subsidiários abaixo, que vêm do modelo AMN e não têm fonte no acervo sobre lesão]**
+h) **subsidiariamente** ao pedido g.1:
    1. a anulação do refinanciamento por lesão (art. 157 do CC), com recálculo do saldo devedor deduzidos os valores pagos e aplicado o teto da Lei 14.690/2023;
-   2. a revisão judicial do contrato, com abatimento dos valores pagos e vedação de novo refinanciamento sem anuência expressa e escrita da parte autora (art. 6º, V, do CDC);
+   2. a revisão judicial do contrato, com abatimento dos valores pagos e vedação de novo refinanciamento sem anuência expressa e escrita da parte autora (art. 6º, V, do CDC).
 
-(Sem pedido de custas e honorários: a sentença de primeiro grau não condena o vencido, salvo litigância de má-fé — art. 55 da Lei 9.099/95.)
-
-Requer, ainda, que todas as intimações e publicações sejam feitas exclusivamente em nome de **[PREENCHER: advogado subscritor e OAB]**.
+Requer, ainda, que todas as intimações e publicações sejam feitas exclusivamente em nome de Diego Ramos Arléo Barbosa, OAB/BA nº 38.179, e Michael Santos Neves, OAB/BA nº 50.954.
 
 # Do valor da causa
 
-Dá-se à causa o valor de R$ 23.010,00 (vinte e três mil e dez reais), correspondente ao saldo do refinanciamento declarado nulo (R$ 1.800,00; art. 292, II, do CPC), à restituição em dobro (R$ 1.210,00; art. 292, VI, do CPC) e ao dano extrapatrimonial (R$ 20.000,00) (art. 292, V, do CPC). **[CÁLCULO A CONFERIR]**
+Dá-se à causa o valor de R$ 23.010,00 (vinte e três mil e dez reais), correspondente ao saldo do refinanciamento declarado nulo (R$ 1.800,00; art. 292, II, do CPC), à restituição em dobro (R$ 1.210,00; art. 292, VI, do CPC) e ao dano extrapatrimonial (R$ 20.000,00) (art. 292, V, do CPC). [CÁLCULO A CONFERIR]
 
 Termos em que, pede deferimento.
 
 Ilhéus - BA, 28 de outubro de 2026.
 
 
-**[NOME DO ADVOGADO]**
-OAB/BA nº **[00.000]**
+DIEGO RAMOS ARLÉO BARBOSA
+OAB/BA nº 38.179
+
+MICHAEL SANTOS NEVES
+OAB/BA nº 50.954

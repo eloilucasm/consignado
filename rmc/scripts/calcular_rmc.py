@@ -3,7 +3,7 @@
 
 Lê o cartão e o histórico mensal do extrato do INSS (cartao.py), detecta o refinanciamento, monta a planilha acumulada,
 acha o marco de 200% do capital e calcula o dobro do que foi descontado desde o refinanciamento e o valor da causa.
-Todo número sai como CÁLCULO A CONFERIR.
+Todo número sai como [CÁLCULO A CONFERIR].
 
 Trava (para sem gravar): nenhum refinanciamento detectado; histórico incompleto sem --historico-extra; 200% não atingido
 antes do refinanciamento; mais de um cartão no processo.
@@ -249,7 +249,7 @@ def main():
         "planilha": [{"competencia": p["competencia"], "desconto": p["desconto"] or 0, "acumulado": p["acumulado"],
                       "pct": round(p["pct"], 1) if p["pct"] is not None else None} for p in calc["planilha"]],
         "bloqueios_juridicos": bloqueios, "pode_gerar": not bloqueios,
-        "alertas": alertas, "conferir": conferir, "checagem_fsc": res_esc["fsc"], "checagem_vf": res_esc["vf"], "marca": "CÁLCULO A CONFERIR",
+        "alertas": alertas, "conferir": conferir, "checagem_fsc": res_esc["fsc"], "checagem_vf": res_esc["vf"], "marca": "[CÁLCULO A CONFERIR]",
     }
     saida = Path(a.saida)
     saida.mkdir(parents=True, exist_ok=True)
@@ -266,7 +266,7 @@ def main():
             linhas.append(f"| {c}{marca} | {num(p['desconto'] or 0)} | {num(p['acumulado'])} | {pct(p['pct'])} |")
         else:
             linhas.append(f"| {c} (ausente no extrato) | — | — | — |")
-    md = [f"# Cálculo do processo {a.processo} (NB {proc.get('nb')}) — **CÁLCULO A CONFERIR**", "",
+    md = [f"# Cálculo do processo {a.processo} (NB {proc.get('nb')}) — **[CÁLCULO A CONFERIR]**", "",
           f"Data da peça: {hoje.strftime('%d/%m/%Y')} · cartão {out['cartao']['tipo']} nº {numero} · "
           f"situação {cart['situacao']} · capital adotado (limite) {brl(capital)}", ""]
     if bloqueios:

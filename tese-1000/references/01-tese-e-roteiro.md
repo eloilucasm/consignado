@@ -19,7 +19,7 @@ O modelo anterior do escritório (Maria x BNP) aplicava a **IN 138/2022** a uma 
 | até 12/12/2022 | IN 28/2008 | art. 30, IV (número "único e específico para cada contratação ou refinanciamento") e § 2º ("o contrato celebrado não poderá ser alterado, podendo somente ocorrer a sua exclusão do sistema e averbação de um novo"); art. 5º (assinatura antes do envio do arquivo); art. 6º (responsabilidade) |
 | a partir de 13/12/2022 | IN 138/2022 | art. 4º, XIV (exclusão), XV (portabilidade), XVII (repactuação/refinanciamento), XXVII (consignações eletivas); art. 5º, II, III e § 9º; art. 14, parágrafo único |
 
-A redação desses artigos mudou ao longo do tempo (o arquivo consolidado traz redações sucessivas): `[CONFERIR]` na peça.
+A redação desses artigos mudou ao longo do tempo (o arquivo consolidado traz redações sucessivas). Decisão do escritório de 10/11/2026: a peça cita a redação do acervo sem marca `[CONFERIR]` sobre isso.
 
 ## O que a peça NÃO pode afirmar
 
