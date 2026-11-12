@@ -91,7 +91,7 @@ def main():
     confere(erros, "C (7001003)", c, {"qtde": 20, "total": 1556.00, "dobro": 3112.00, "migrado": True, "regime_norma": "IN138", "status": "ATIVO",
                                       "troca_de_titularidade": True, "primeira_averbacao": "10/01/2024", "vincendas_qtde": 64,
                                       "vincendas_valor": 4979.20, "outros_bancos_somados": False})
-    confere(erros, "p1", c1, {"total_descontado": 5826.62, "total_dobro": 11653.24, "valor_causa": 36632.44, "proveito_declaratorio": 4979.20,
+    confere(erros, "p1", c1, {"total_descontado": 5826.62, "total_dobro": 11653.24, "valor_causa": 31653.24, "proveito_declaratorio": 4979.20,
                               "tutela": True, "prescricao_5_anos": True, "todos_migrados": True,
                               "troca_de_titularidade": True})
     if len(c["outras_ocorrencias"]) != 1 or c["outras_ocorrencias"][0]["qtde"] != 11 or abs(c["outras_ocorrencias"][0]["total"] - 855.80) > 0.005:
@@ -100,7 +100,7 @@ def main():
         erros.append("o alerta de troca de titularidade deve aparecer sem a flag e sumir com ela")
     cx = c1x["contratos"][2]
     confere(erros, "C com flag", cx, {"qtde": 31, "total": 2411.80, "dobro": 4823.60, "outros_bancos_somados": True})
-    confere(erros, "p1 com flag", c1x, {"total_descontado": 6682.42, "total_dobro": 13364.84, "valor_causa": 38344.04})
+    confere(erros, "p1 com flag", c1x, {"total_descontado": 6682.42, "total_dobro": 13364.84, "valor_causa": 33364.84})
     if "20.000,00 (vinte mil reais)" not in c1["dano_moral_extenso"]:
         erros.append("dano moral por extenso incorreto")
 
@@ -118,7 +118,7 @@ def main():
     erros += CRONO_ERROS
     if erros:
         sys.exit("TESTE FALHOU:\n- " + "\n- ".join(erros))
-    print("TESTE OK: 3 contratos migrados (IN 28 e IN 138), troca de titularidade com e sem a flag, proveito declaratório R$ 4.979,20 somado ao valor da causa e "
+    print("TESTE OK: 3 contratos migrados (IN 28 e IN 138), troca de titularidade com e sem a flag, proveito declaratório R$ 4.979,20 fora do valor da causa e "
           "contrato sem origem de migração com alerta.")
 
 

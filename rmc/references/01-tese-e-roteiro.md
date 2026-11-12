@@ -20,6 +20,8 @@ O argumento da queda de taxa de juros só entra quando a taxa do mês do refinan
 
 A tese do AMN cita o art. 28, § 1º, da Lei 14.690/2023 e o art. 2º-C da Res. CMN 4.549 (incluído pela Res. 5.112). A leitura dos textos do acervo mostra quatro pontos que o banco levantará. Nenhum bloqueia a minuta: o escritório decidiu e a peça responde a todos.
 
+> **12/11/2026:** a inicial não tem mais o subtópico "O teto de juros e encargos do art. 28, § 1º, da Lei 14.690/2023 alcança o cartão consignado" (pedido do escritório). O art. 28, caput e § 1º, é transcrito no subtópico da nulidade por fraude à lei. B1 e B2 ficam como apoio para a réplica, quando o banco invocar o art. 4º ou o art. 2º-D da Res. CMN 4.549.
+
 ### B1. O art. 4º da Res. CMN 4.549 e o cartão consignado (D1, decidida)
 
 > Art. 4º O disposto nesta Resolução não se aplica aos cartões de crédito e aos demais instrumentos de pagamento pós-pagos cujos contratos prevejam pagamento das faturas mediante consignação em folha de pagamento.

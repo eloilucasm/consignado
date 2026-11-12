@@ -137,7 +137,7 @@ Em qualquer ambiente:
 - Quantidade de descontos = meses de "Início" a "Fim" do contrato, **inclusive**; 0 se o contrato foi excluído antes do primeiro desconto. Contrato **ativo** conta até a competência do mês anterior à data da peça.
 - Restituição = **dobro** do total descontado.
 - Dano moral = **R$ 20.000,00**, sempre.
-- Valor da causa = restituição em dobro + dano moral + proveito econômico declaratório (parcelas vincendas dos contratos ativos; no RMC, o saldo refinanciado), sempre, em qualquer rito (art. 292, II e VI, do CPC; decisão do escritório de 03/11/2026). No JEC, o script alerta se passar de 40 salários mínimos. Em Vara Federal, valor real, sem renúncia a teto.
+- Valor da causa = restituição em dobro + dano moral + proveito econômico declaratório (parcelas vincendas dos contratos ativos; no RMC, o saldo refinanciado), sempre, em qualquer rito (art. 292, II e VI, do CPC; decisão do escritório de 03/11/2026). **Exceção, migrado:** só restituição em dobro + dano moral; o proveito vai à liquidação (decisão de 12/11/2026). No JEC, o script alerta se passar de 40 salários mínimos. Em Vara Federal, valor real, sem renúncia a teto.
 - RMC: marco de 200% do capital, calculado do histórico do cartão. Sem histórico completo, a skill não redige; pede HISCRE ou faturas e transcreve exatamente o que o documento traz, sem estimar competência.
 - Datas: conte dia a dia nos marcos legais, sem arredondar. Prazos: informe a data nominal e a regra de contagem; ela não é termo final certificado.
 

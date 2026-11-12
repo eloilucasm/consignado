@@ -54,7 +54,7 @@ A migração, portanto, é **permitida**, desde que atenda às normas do BCB e d
 | Tramitação prioritária | autor com 60 anos ou mais | qualificação (nascimento) |
 | Exibição (perícia: só na réplica) | rito = Justiça Comum | pergunta ao advogado |
 | Honorários sobre condenação mais proveito | rito = Justiça Comum | 20%, sem perguntar (05/11/2026); base com proveito só com contrato ativo |
-| Proveito econômico declaratório no valor da causa | contrato ativo, em qualquer rito | `calculo.json`, `proveito_declaratorio`; sempre somado (03/11/2026) |
+| Proveito econômico declaratório no valor da causa | nunca, no migrado | fica fora do valor da causa e vai à liquidação (12/11/2026); `proveito_declaratorio` do `calculo.json` serve só ao pedido de honorários |
 | LGPD | sempre (padrão do escritório, 05/11/2026) | não se pergunta |
 | Interesse na conciliação | resposta do advogado (Justiça Comum) | pergunta ao advogado |
 | Endereçamento federal | réu = Caixa (código 104) | `reus.json` |

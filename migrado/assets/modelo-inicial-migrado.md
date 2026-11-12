@@ -368,7 +368,7 @@ Requer, ainda, que todas as intimações e publicações sejam feitas exclusivam
 
 # Do valor da causa
 
-Dá-se à causa o valor de [VALOR DA CAUSA POR EXTENSO], correspondente à soma da restituição em dobro ([TOTAL DO DOBRO]) [[SE HÁ ATIVO]], do dano extrapatrimonial (R$ 20.000,00) e do proveito econômico declaratório, equivalente às parcelas vincendas dos contratos ativos ([VINCENDAS]) [[SE SÓ EXCLUÍDO]] e do dano extrapatrimonial (R$ 20.000,00) [[FIM]] (art. 292, II e VI, do CPC). [CÁLCULO A CONFERIR] [[SE CAIXA]] Valor real, sem renúncia a teto. [[FIM]]
+Dá-se à causa o valor de [VALOR DA CAUSA POR EXTENSO], correspondente à soma da restituição em dobro ([TOTAL DO DOBRO]) e do dano extrapatrimonial (R$ 20.000,00) (art. 292, VI, do CPC). [CÁLCULO A CONFERIR] [[SE CAIXA]] Valor real, sem renúncia a teto. [[FIM]]
 
 Termos em que, pede deferimento.
 

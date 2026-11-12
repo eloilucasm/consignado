@@ -41,7 +41,7 @@ Fontes comparadas: a inicial "Francisco_Agibank_2021-2025" (docx do escritório,
 - Contrato e banco de origem extraídos do campo de origem; divergência de número alertada.
 - Norma pela data da primeira averbação, em qualquer banco.
 - Segunda via do total de descontos.
-- Proveito econômico dos contratos ativos (parcelas vincendas), somado ao valor da causa.
+- Proveito econômico dos contratos ativos (parcelas vincendas): fora do valor da causa desde 12/11/2026; usado só no pedido de honorários.
 - Teste de regressão com extrato fictício (`testes/caso-ficticio/teste.py`) e verificador do pacote.
 
 ## Resolvido depois da montagem
@@ -65,3 +65,4 @@ Fontes comparadas: a inicial "Francisco_Agibank_2021-2025" (docx do escritório,
 - Jurisprudência sobre migração de consignado sem contratação de origem: **nenhuma no acervo**.
 - Se há desconto duplo no benefício (Pan e Bradesco na mesma competência): só o extrato de pagamento do benefício mostra; o HISCON não basta.
 - D18: o leitor do extrato foi testado só com PDF fictício; conferir a primeira leitura real do campo "Origem da Averbação" e do código do banco de origem.
+- **Valor da causa sem o proveito declaratório (decisão do escritório de 12/11/2026):** no migrado, valor da causa = restituição em dobro + R$ 20.000,00 (art. 292, VI, do CPC). As parcelas vincendas dos contratos ativos dependem de fatos posteriores à inicial e ficam para a liquidação. Substitui a linha 16 (decisão de 03/11/2026) só no migrado; o pedido de honorários continua com a base condenação + proveito. Script, modelo, teste e peça de exemplo ajustados.

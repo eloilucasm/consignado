@@ -179,26 +179,6 @@ O refinanciamento foi ato do próprio banco, e não de terceiro. Se até a fraud
 
 A Súmula 41 da Turma de Uniformização das Turmas Recursais do TJBA reconhece como lícita a contratação de cartão de crédito consignável, desde que observado o direito à informação do consumidor e afastado qualquer vício de consentimento. Esta ação não pede a invalidade do cartão contratado em 05/03/2022. Pede a nulidade do refinanciamento de 11/2025, ato posterior e distinto, que o banco registrou sem proposta, sem nova assinatura e sem repasse de numerário. A própria súmula condiciona a licitude ao direito à informação (art. 6º, III, do CDC): cabe ao banco demonstrar que informou a parte autora do refinanciamento e de seus custos, o que se requer no tópico da inversão do ônus da prova.
 
-## O teto de juros e encargos do art. 28, § 1º, da Lei 14.690/2023 alcança o cartão consignado
-
-[VERIFICAR ANTES DE PROTOCOLAR: tese do escritório, sem precedente no acervo sobre o teto em cartão consignado.]
-
-O art. 28 da Lei 14.690/2023 dispõe, em seu caput, sobre limites de juros e encargos no crédito rotativo e no parcelamento do saldo devedor das faturas de cartões de crédito e de outros instrumentos de pagamento pós-pagos, e prevê, em seus §§ 1º e 2º:
-
-> § 1º Se os limites referidos no caput deste artigo não forem aprovados no prazo máximo de 90 (noventa) dias, contado da data da publicação desta Lei, o total cobrado em cada caso a título de juros e encargos financeiros não poderá exceder o valor original da dívida.
->
-> § 2º O limite previsto no § 1º deste artigo também será aplicável aos emissores de cartão de crédito e de outros instrumentos de pagamento pós-pagos que deixarem de aderir à autorregulação de que trata o caput deste artigo.
-
-O banco poderá invocar o art. 4º da Resolução CMN 4.549/2017, segundo o qual "o disposto nesta Resolução não se aplica aos cartões de crédito e aos demais instrumentos de pagamento pós-pagos cujos contratos prevejam pagamento das faturas mediante consignação em folha de pagamento". O dispositivo não alcança o contrato da parte autora:
-
-1. **No cartão com reserva de margem consignável, a fatura não é paga por consignação.** Apenas o valor mínimo da fatura é descontado do benefício; o restante deve ser pago pelo consumidor, por boleto [CONFERIR: faturas]. O art. 4º afasta a resolução dos contratos que preveem o pagamento **das faturas** por consignação, e não daqueles em que só o mínimo é consignado. A Resolução CMN 4.549, com os arts. 2º-A a 2º-D, aplica-se, portanto, ao cartão desta ação.
-2. **A lei não excepciona o cartão com desconto do mínimo em folha.** O art. 28, § 1º, é norma legal e não depende da regulamentação do CMN. Ato infralegal não pode afastar de um grupo de consumidores a proteção que a lei concede a todos [VERIFICAR ANTES DE PROTOCOLAR: precedentes sobre a hierarquia entre o art. 28 da Lei 14.690 e o art. 4º da Res. CMN 4.549; não há julgado no acervo].
-3. **O teto é o mesmo nas duas leituras.** Se os limites foram aprovados pelo CMN (art. 2º-C da Res. CMN 4.549, incluído pela Res. CMN 5.112/2023), vale esse limite, que é o do valor original da dívida. Se não foram aprovados para o cartão consignado, incide o § 1º, de igual conteúdo.
-
-O refinanciamento ocorreu em 11/2025, depois de decorrido o prazo de 90 dias contado da publicação da lei (DOU de 03/10/2023, edição extra): contados 90 dias de 03/10/2023, o prazo terminou em 01/01/2024, e o art. 2º-D da Res. CMN 4.549 limita os arts. 2º-A a 2º-C às operações posteriores a esse prazo.
-
-Para a apuração, o art. 2º-A da Res. CMN 4.549 (incluído pela Res. CMN 5.112/2023) define "valor original da dívida" como o saldo das operações de crédito rotativo ou de parcelamento de fatura concedidas para o financiamento do saldo devedor, apurado toda vez que for concedida nova operação. Como o extrato do INSS não traz essa operação, a parte autora adota o limite do cartão como capital (tópico dos fatos) e pede ao banco as faturas.
-
 ## O refinanciamento é nulo por fraude à lei imperativa
 
 O art. 166, VI, do Código Civil dispõe:
@@ -207,9 +187,15 @@ O art. 166, VI, do Código Civil dispõe:
 
 A nulidade é declarável de ofício (art. 168, parágrafo único, do CC) e não se convalida (art. 169 do CC). Duas normas foram contornadas:
 
-a) o art. 28, § 1º, da Lei 14.690/2023, acima transcrito. O refinanciamento levou o custo total do cartão a 440,5% do capital adotado;
+a) o art. 28, caput e § 1º, da Lei 14.690/2023:
 
-b) o art. 2º-C da Res. CMN 4.549, incluído pela Res. CMN 5.112/2023, aplicável ao cartão desta ação, pelo que se disse sobre o art. 4º:
+> Art. 28. Os emissores de cartão de crédito e de outros instrumentos de pagamento pós-pagos utilizados em arranjos abertos ou fechados, como medida de autorregulação, devem submeter à aprovação do Conselho Monetário Nacional, por intermédio do Banco Central do Brasil, de forma fundamentada e com periodicidade anual, limites para as taxas de juros e encargos financeiros cobrados no crédito rotativo e no parcelamento de saldo devedor das faturas de cartões de crédito e de outros instrumentos de pagamento pós-pagos.
+>
+> § 1º Se os limites referidos no caput deste artigo não forem aprovados no prazo máximo de 90 (noventa) dias, contado da data da publicação desta Lei, o total cobrado em cada caso a título de juros e encargos financeiros não poderá exceder o valor original da dívida.
+
+O refinanciamento levou o custo total do cartão a 440,5% do capital adotado;
+
+b) o art. 2º-C da Res. CMN 4.549, incluído pela Res. CMN 5.112/2023, aplicável ao cartão desta ação:
 
 > Art. 2º-C É assegurada, a qualquer momento, a renegociação das operações de crédito de que trata o art. 2º-A, desde que o valor total cobrado a título de juros e encargos financeiros aplicáveis a cada renegociação não exceda o valor original da dívida da operação inicial que foi renegociada, descontando-se os juros e encargos que já foram pagos.
 

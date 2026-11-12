@@ -22,7 +22,7 @@ Conforme documento pessoal anexo, a parte autora é pessoa idosa e faz jus à pr
 
 # Da competência do Juizado Especial
 
-A causa é de competência do Juizado Especial Cível (art. 3º, I, da Lei 9.099/95): o valor da causa, R$ 36.632,44, é inferior a 40 (quarenta) salários mínimos, que, à razão de R$ 1.621,00 (Decreto 12.797/2025), correspondem a R$ 64.840,00. A prova é documental (o extrato oficial do INSS).
+A causa é de competência do Juizado Especial Cível (art. 3º, I, da Lei 9.099/95): o valor da causa, R$ 31.653,24, é inferior a 40 (quarenta) salários mínimos, que, à razão de R$ 1.621,00 (Decreto 12.797/2025), correspondem a R$ 64.840,00. A prova é documental (o extrato oficial do INSS).
 
 # Dos fatos
 
@@ -292,7 +292,7 @@ Requer, ainda, que todas as intimações e publicações sejam feitas exclusivam
 
 # Do valor da causa
 
-Dá-se à causa o valor de R$ 36.632,44 (trinta e seis mil, seiscentos e trinta e dois reais e quarenta e quatro centavos), correspondente à soma da restituição em dobro (R$ 11.653,24), do dano extrapatrimonial (R$ 20.000,00) e do proveito econômico declaratório, equivalente às parcelas vincendas do contrato ativo (R$ 4.979,20) (art. 292, II e VI, do CPC). **[CÁLCULO A CONFERIR]**
+Dá-se à causa o valor de R$ 31.653,24 (trinta e um mil, seiscentos e cinquenta e três reais e vinte e quatro centavos), correspondente à soma da restituição em dobro (R$ 11.653,24) e do dano extrapatrimonial (R$ 20.000,00) (art. 292, VI, do CPC). **[CÁLCULO A CONFERIR]**
 
 Termos em que, pede deferimento.
 

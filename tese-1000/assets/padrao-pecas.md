@@ -68,7 +68,7 @@ Incluir sempre que cabíveis:
 
 ## 5. Valor da causa
 
-Restituição em dobro de todos os descontos, mais R$ 20.000,00 de dano moral, mais o proveito econômico declaratório: as parcelas vincendas dos contratos ativos (no RMC, o saldo refinanciado). A soma vale sempre, em qualquer rito (CPC, art. 292, II e VI; decisão do escritório de 03/11/2026); sem contrato ativo, o proveito é zero. No JEC, se a soma passar de 40 salários mínimos, o script alerta: rever o rito. Em Vara Federal, valor real, sem renúncia a teto. Mostre a memória do cálculo por contrato (premissas, quantidade de descontos, parcela, total, dobro) e marque `[CÁLCULO A CONFERIR]`.
+Restituição em dobro de todos os descontos, mais R$ 20.000,00 de dano moral, mais o proveito econômico declaratório: as parcelas vincendas dos contratos ativos (no RMC, o saldo refinanciado). A soma vale sempre, em qualquer rito (CPC, art. 292, II e VI; decisão do escritório de 03/11/2026); sem contrato ativo, o proveito é zero. **Exceção, migrado:** valor da causa = restituição em dobro + dano moral, sem o proveito, que depende de fatos posteriores à inicial e vai à liquidação (decisão de 12/11/2026). No JEC, se a soma passar de 40 salários mínimos, o script alerta: rever o rito. Em Vara Federal, valor real, sem renúncia a teto. Mostre a memória do cálculo por contrato (premissas, quantidade de descontos, parcela, total, dobro) e marque `[CÁLCULO A CONFERIR]`.
 
 ## 6. Documentos
 

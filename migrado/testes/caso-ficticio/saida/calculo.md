@@ -12,7 +12,7 @@ Data da peça: 28/10/2026 · última competência de contrato ativo: 09/2026
 - Restituição em dobro: **R$ 11.653,24 (onze mil, seiscentos e cinquenta e três reais e vinte e quatro centavos)**
 - Dano extrapatrimonial (fixo): **R$ 20.000,00**
 - Proveito econômico declaratório (parcelas vincendas dos ativos): **R$ 4.979,20**
-- Valor da causa (dobro + dano extrapatrimonial + proveito declaratório): **R$ 36.632,44 (trinta e seis mil, seiscentos e trinta e dois reais e quarenta e quatro centavos)**
+- Valor da causa (dobro + dano extrapatrimonial; proveito declaratório fora): **R$ 31.653,24 (trinta e um mil, seiscentos e cinquenta e três reais e vinte e quatro centavos)**
 - Tutela de urgência: SIM, só sobre 7001003
 - Tópico de prescrição (algum desconto com mais de 5 anos): SIM
 - Troca de titularidade (mesmo número em outro banco): SIM; descontos do banco anterior NÃO somados

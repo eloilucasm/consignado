@@ -9,8 +9,9 @@ Todo número sai como [CÁLCULO A CONFERIR].
 Troca de titularidade: se o mesmo número aparece em outro banco, o script NÃO soma os descontos registrados lá, a menos que o advogado
 decida e passe --incluir-outros-bancos. Sem a flag, o total é só o do registro do réu e sai um alerta com o que ficou de fora.
 
-Valor da causa: o campo valor_causa é sempre dobro + R$ 20.000,00 + parcelas vincendas dos contratos ativos (proveito econômico
-declaratório; art. 292, II e VI, do CPC; decisão do escritório de 03/11/2026).
+Valor da causa: o campo valor_causa é dobro + R$ 20.000,00 (art. 292, VI, do CPC). O proveito econômico declaratório (parcelas
+vincendas dos ativos) NÃO entra no migrado: depende de fatos posteriores à inicial e se apura na liquidação (decisão do escritório
+de 12/11/2026). O campo proveito_declaratorio segue no calculo.json para o pedido de honorários.
 
 Alerta: contrato sem origem de migração; contrato não localizado; mesmo número em outro banco; descontos com mais de 5 e 10 anos.
 
@@ -240,7 +241,7 @@ def main():
     tot_desc = round(sum(l["total"] for l in linhas), 2)
     tot_dobro = round(sum(l["dobro"] for l in linhas), 2)
     proveito = round(sum(l["vincendas_valor"] for l in linhas), 2)
-    valor_causa = round(tot_dobro + DANO_MORAL + proveito, 2)
+    valor_causa = round(tot_dobro + DANO_MORAL, 2)  # sem proveito declaratório (12/11/2026)
     if a.rito == "jec" and valor_causa > TETO_JEC:
         alertas.append(f"Valor da causa ({brl(valor_causa)}) acima de 40 salários mínimos ({brl(TETO_JEC)}): incompatível com o JEC; rever o rito.")
     com_desc = [l for l in linhas if l["qtde"]]
@@ -287,7 +288,7 @@ def main():
     md += ["", f"- Total descontado: **{brl(tot_desc)}**", f"- Restituição em dobro: **{brl_ext(tot_dobro)}**",
            f"- Dano extrapatrimonial (fixo): **{brl(DANO_MORAL)}**",
            f"- Proveito econômico declaratório (parcelas vincendas dos ativos): **{brl(proveito)}**",
-           f"- Valor da causa (dobro + dano extrapatrimonial + proveito declaratório): **{brl_ext(valor_causa)}**" + (" (Vara Federal: valor real, sem renúncia a teto)" if cod == "104" else ""),
+           f"- Valor da causa (dobro + dano extrapatrimonial; proveito declaratório fora): **{brl_ext(valor_causa)}**" + (" (Vara Federal: valor real, sem renúncia a teto)" if cod == "104" else ""),
            f"- Tutela de urgência: {'SIM, só sobre ' + ', '.join(ativos) if ativos else 'não (sem contrato ativo)'}",
            f"- Tópico de prescrição (algum desconto com mais de 5 anos): {'SIM' if prescricao else 'não'}",
            f"- Troca de titularidade (mesmo número em outro banco): {'SIM; descontos do banco anterior ' + ('SOMADOS' if a.incluir_outros_bancos else 'NÃO somados') if out['troca_de_titularidade'] else 'não'}", ""]
