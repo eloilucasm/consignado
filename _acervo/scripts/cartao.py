@@ -151,13 +151,15 @@ def calcular(hist, capital, refin_comp, comp_ref):
     r = comp_n(refin_comp) if refin_comp else None
     ate_refin = round(sum(p["desconto"] or 0 for p in plan if r is not None and comp_n(p["competencia"]) < r), 2)
     pos_refin = round(sum(p["desconto"] or 0 for p in plan if r is not None and comp_n(p["competencia"]) >= r), 2)
+    # restituição em dobro: descontos a partir do mês seguinte ao marco de 200% (decisão do escritório, 12/11/2026)
+    pos_marco = round(sum(p["desconto"] or 0 for p in plan if marco and comp_n(p["competencia"]) > comp_n(marco)), 2)
     total = plan[-1]["acumulado"] if plan else 0.0
     ausentes = []
     if plan:
         presentes = {comp_n(p["competencia"]) for p in plan}
         ausentes = [comp_s(n) for n in range(comp_n(plan[0]["competencia"]), comp_n(plan[-1]["competencia"]) + 1)
                     if n not in presentes]
-    return {"planilha": plan, "marco_200": marco, "total_ate_refin": ate_refin, "total_pos_refin": pos_refin,
+    return {"planilha": plan, "marco_200": marco, "total_ate_refin": ate_refin, "total_pos_refin": pos_refin, "total_pos_marco": pos_marco,
             "total_pago": total, "ausentes": ausentes,
             "primeira": plan[0]["competencia"] if plan else None, "ultima": plan[-1]["competencia"] if plan else None}
 

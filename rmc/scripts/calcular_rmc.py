@@ -2,7 +2,7 @@
 """calcular_rmc.py - cálculo da inicial de refinanciamento de cartão consignado (RMC/RCC).
 
 Lê o cartão e o histórico mensal do extrato do INSS (cartao.py), detecta o refinanciamento, monta a planilha acumulada,
-acha o marco de 200% do capital e calcula o dobro do que foi descontado desde o refinanciamento e o valor da causa.
+acha o marco de 200% do capital e calcula o dobro do que foi descontado a partir do mês seguinte ao marco e o valor da causa.
 Todo número sai como [CÁLCULO A CONFERIR].
 
 Trava (para sem gravar): nenhum refinanciamento detectado; histórico incompleto sem --historico-extra; 200% não atingido
@@ -150,11 +150,23 @@ def main():
                  "advogado responsável.")
     marco_linha = next(p for p in calc["planilha"] if p["competencia"] == marco)
     meses_teto = rn - CT.comp_n(marco)
-    pos = calc["total_pos_refin"]
+    # restituição em dobro a partir do mês seguinte ao marco de 200% (decisão do escritório, 12/11/2026)
+    inicio_rest = CT.comp_s(CT.comp_n(marco) + 1)
+    pos = calc["total_pos_marco"]
     dobro = round(2 * pos, 2)
-    pos2 = round(sum(p["desconto"] or 0 for p in calc["planilha"] if CT.comp_n(p["competencia"]) >= rn), 2)  # 2ª via
+    pos2 = round(sum(p["desconto"] or 0 for p in calc["planilha"]
+                     if CT.comp_n(p["competencia"]) >= CT.comp_n(inicio_rest)), 2)  # 2ª via
     if abs(pos - pos2) > 0.005:
-        alertas.append(f"As duas vias do total descontado desde o refinanciamento divergem ({pos} x {pos2}).")
+        alertas.append(f"As duas vias do total descontado desde {inicio_rest} (mês seguinte ao marco) divergem ({pos} x {pos2}).")
+    idade_rest = (hoje.year * 12 + hoje.month - 1) - CT.comp_n(inicio_rest)
+    if idade_rest > 120:
+        corte = CT.comp_s(hoje.year * 12 + hoje.month - 1 - 120)
+        alertas.append(f"PRESCRIÇÃO: a restituição começa em {inicio_rest}, há mais de 10 anos da data da peça. Os descontos anteriores "
+                       f"a {corte} estariam prescritos mesmo pelo prazo decenal: o advogado decide se limita a restituição e ajusta "
+                       "a frase 'dentro dos dez anos' do bloco [[SE PRESCRIÇÃO]].")
+    elif idade_rest > 60:
+        alertas.append(f"PRESCRIÇÃO: a restituição começa em {inicio_rest}, há mais de 5 anos da data da peça: inclua o bloco "
+                       "[[SE PRESCRIÇÃO]] do modelo (prazo decenal do art. 205 do CC).")
     saldo_atual = next((h["saldo"] for h in reversed(calc["planilha"]) if h.get("saldo")), None) or 0.0
     total_pago = calc["total_pago"]
     custo = round(total_pago + saldo_atual, 2)
@@ -236,8 +248,9 @@ def main():
         "marco": {"competencia": marco, "acumulado": marco_linha["acumulado"], "pct": round(marco_linha["pct"], 1)},
         "meses_teto": meses_teto,
         "total_ate_refin": calc["total_ate_refin"], "pct_ate_refin": round(calc["total_ate_refin"] / capital * 100, 1),
-        "total_pos_refin": pos, "dobro": dobro, "dobro_extenso": brl_ext(dobro),
-        # nomes que o verificador do pacote exige em todo calculo.json: aqui, o descontado desde o refinanciamento
+        "total_pos_refin": calc["total_pos_refin"], "inicio_restituicao": inicio_rest, "total_pos_marco": pos,
+        "dobro": dobro, "dobro_extenso": brl_ext(dobro),
+        # nomes que o verificador do pacote exige em todo calculo.json: aqui, o descontado desde o mês seguinte ao marco
         "total_descontado": pos, "total_dobro": dobro,
         "total_pago": total_pago, "pct_pago": round(total_pago / capital * 100, 1), "saldo_atual": saldo_atual,
         "custo_total": custo, "onerosidade_pct": round(oneros, 1),
@@ -276,7 +289,8 @@ def main():
            f"- Refinanciamento: {R['competencia']} · utilizado {brl(saldo_ref)} · saldo {brl(R['saldo'])} · IOF {brl(R['iof'])}",
            f"- Marco de 200%: {marco} ({brl(marco_linha['acumulado'])}, {pct(marco_linha['pct'])}) · {meses_teto} meses antes do refinanciamento",
            f"- Pago até o refinanciamento: {brl(calc['total_ate_refin'])} ({pct(calc['total_ate_refin'] / capital * 100)})",
-           f"- Descontado desde o refinanciamento: {brl(pos)} · em dobro **{brl_ext(dobro)}**",
+           f"- Descontado desde o refinanciamento: {brl(calc['total_pos_refin'])}",
+           f"- Descontado desde {inicio_rest} (mês seguinte ao marco; base da restituição): {brl(pos)} · em dobro **{brl_ext(dobro)}**",
            f"- Total pago: {brl(total_pago)} ({pct(total_pago / capital * 100)}) · saldo atual {brl(saldo_atual)} · custo total {brl(custo)} · onerosidade {pct(oneros)}",
            f"- Dano extrapatrimonial (fixo): {brl(DANO_MORAL)}",
            f"- **Valor da causa: {brl_ext(valor_causa)}** (saldo refinanciado + dobro + dano extrapatrimonial)",
@@ -294,8 +308,9 @@ def main():
            esc.evento(calc["primeira"], "Primeira competência do histórico do cartão", fonte, "início da planilha do marco de 200%"),
            esc.evento(PRIMEIRA_COMPETENCIA_COM_TETO, "Fim do prazo de 90 dias da Lei 14.690/2023 (publicada em 03/10/2023)",
                       "lei-14690.md", "a partir daqui vale o teto de 200% do art. 28, § 1º"),
-           esc.evento(marco, "Marco de 200% do capital atingido", "planilha do cálculo", "pagamentos já somam o dobro do capital"),
-           esc.evento(R["competencia"], "Refinanciamento do saldo do cartão", fonte, "início da repetição em dobro (descontos desde aqui)"),
+           esc.evento(marco, "Marco de 200% do capital atingido", "planilha do cálculo", "pagamentos já somam o dobro do capital; quitação"),
+           esc.evento(inicio_rest, "Mês seguinte ao marco de 200%", "planilha do cálculo", "início da repetição em dobro (descontos desde aqui)"),
+           esc.evento(R["competencia"], "Refinanciamento do saldo do cartão", fonte, "ato declarado nulo (pedido de nulidade)"),
            esc.evento(calc["ultima"], "Última competência do histórico do cartão", fonte, "fim da contagem do cálculo")]
     crono = esc.cronologia(ev)
     esc.gravar(saida, res_esc, "rmc", a.processo, hoje, out, a.extrato_bancario, a.dossie_pre_acao, crono)

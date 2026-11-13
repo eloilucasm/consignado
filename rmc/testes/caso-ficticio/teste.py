@@ -90,10 +90,11 @@ def main():
         c = calcula(tmp, "atual")
         antigo = calcula(tmp, "antigo")
         erros += figuras(tmp)
-    esperado = {  # conta feita à mão: 42 descontos de R$ 50,00 até 10/2025 (falta 06/2024) e 11 de R$ 55,00 desde 11/2025
+    esperado = {  # conta feita à mão: 42 descontos de R$ 50,00 até 10/2025 (falta 06/2024) e 11 de R$ 55,00 desde 11/2025;
+        # restituição desde 09/2025, mês seguinte ao marco (12/11/2026): 2 x R$ 50,00 + 11 x R$ 55,00 = R$ 705,00
         "capital": 1000.00, "dobro_capital": 2000.00, "total_ate_refin": 2100.00, "total_pos_refin": 605.00,
-        "dobro": 1210.00, "total_pago": 2705.00, "saldo_atual": 1700.00, "custo_total": 4405.00,
-        "valor_causa": 23010.00, "onerosidade_pct": 440.5, "pct_ate_refin": 210.0, "meses_teto": 3,
+        "total_pos_marco": 705.00, "dobro": 1410.00, "total_pago": 2705.00, "saldo_atual": 1700.00, "custo_total": 4405.00,
+        "valor_causa": 23210.00, "onerosidade_pct": 440.5, "pct_ate_refin": 210.0, "meses_teto": 3,
     }
     for campo, esp in esperado.items():
         if abs(c[campo] - esp) > 0.005:
@@ -110,7 +111,9 @@ def main():
         erros.append("a taxa de juros não cai no caso fictício; o argumento (c) não pode entrar")
     if c["bloqueios_juridicos"] or not c["pode_gerar"]:
         erros.append(f"refinanciamento de 11/2025 não deveria ter bloqueio: {c['bloqueios_juridicos']}")
-    if "dez reais" not in c["dobro_extenso"] or "um mil, duzentos" not in c["dobro_extenso"]:
+    if c.get("inicio_restituicao") != "09/2025":
+        erros.append(f"início da restituição: obtido {c.get('inicio_restituicao')}, esperado 09/2025 (mês seguinte ao marco)")
+    if "dez reais" not in c["dobro_extenso"] or "um mil, quatrocentos" not in c["dobro_extenso"]:
         erros.append(f"dobro por extenso incorreto: {c['dobro_extenso']}")
     if "20.000,00 (vinte mil reais)" not in c["dano_moral_extenso"]:
         erros.append("dano moral por extenso incorreto")
@@ -133,8 +136,8 @@ def main():
         erros.append("linha do tempo fora de ordem")
     if erros:
         sys.exit("TESTE FALHOU:\n- " + "\n- ".join(erros))
-    print("TESTE OK: marco de 200% em 08/2025; refinanciamento em 11/2025; dobro R$ 1.210,00; valor da causa "
-          "R$ 23.010,00; competência ausente sinalizada; alerta B2 na variante antiga (sem bloqueio); 4 figuras com 17 cm a 300 dpi.")
+    print("TESTE OK: marco de 200% em 08/2025; refinanciamento em 11/2025; restituição desde 09/2025; dobro R$ 1.410,00; valor da causa "
+          "R$ 23.210,00; competência ausente sinalizada; alerta B2 na variante antiga (sem bloqueio); 4 figuras com 17 cm a 300 dpi.")
 
 
 if __name__ == "__main__":

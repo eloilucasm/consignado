@@ -2,6 +2,15 @@
 
 Todos os comandos a partir de `consignado-pacote/`. Node 18+ e Python 3 (com `pypdf` só para ler extrato).
 
+## Gerar os zips para o Claude (carimbo de versão)
+
+Sempre a partir desta cópia do repositório, com `powershell -ExecutionPolicy Bypass -File _manutencao\gerar-zips.ps1 -Saida _entrega`.
+
+- **Trava:** antes de gerar, o script consulta o GitHub. Se esta cópia estiver atrás do que foi publicado, ele para sem gerar nada ("esta cópia está desatualizada"); atualize com `git pull`. Sem internet, avisa e segue. `-SemConferirGitHub` pula a consulta.
+- **Carimbo:** no zip, o fim da `description` de cada skill recebe ` Pacote consignado DD/MM/AAAA (abc1234).`, com a data da geração e o commit atual. Se a pasta da skill tiver mudança não commitada, sai `(abc1234 + alterações não commitadas)`. O carimbo vai só na cópia do zip; o repositório não muda.
+- **Conferir no Claude:** a descrição da skill instalada mostra a data e o commit. Commit diferente do último do GitHub, ou "alterações não commitadas", indica versão que não corresponde a nenhuma guardada.
+- Não gere zip à mão (por exemplo, com o `zip` do macOS): sai sem carimbo e sem a trava.
+
 ## Alterar um arquivo que se repete entre skills (norma, jurisprudência, protocolo, padrão de peças, dados, `extrato.py`)
 
 1. Edite **no acervo** (`_acervo/...`), nunca na cópia da skill.

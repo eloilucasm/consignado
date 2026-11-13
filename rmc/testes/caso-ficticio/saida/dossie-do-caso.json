@@ -60,10 +60,12 @@
     "total_ate_refin": 2100.0,
     "pct_ate_refin": 210.0,
     "total_pos_refin": 605.0,
-    "dobro": 1210.0,
-    "dobro_extenso": "R$ 1.210,00 (um mil, duzentos e dez reais)",
-    "total_descontado": 605.0,
-    "total_dobro": 1210.0,
+    "inicio_restituicao": "09/2025",
+    "total_pos_marco": 705.0,
+    "dobro": 1410.0,
+    "dobro_extenso": "R$ 1.410,00 (um mil, quatrocentos e dez reais)",
+    "total_descontado": 705.0,
+    "total_dobro": 1410.0,
     "total_pago": 2705.0,
     "pct_pago": 270.5,
     "saldo_atual": 1700.0,
@@ -71,8 +73,8 @@
     "onerosidade_pct": 440.5,
     "dano_moral": 20000.0,
     "dano_moral_extenso": "R$ 20.000,00 (vinte mil reais)",
-    "valor_causa": 23010.0,
-    "valor_causa_extenso": "R$ 23.010,00 (vinte e três mil e dez reais)",
+    "valor_causa": 23210.0,
+    "valor_causa_extenso": "R$ 23.210,00 (vinte e três mil, duzentos e dez reais)",
     "primeira": "04/2022",
     "ultima": "09/2026",
     "competencias_ausentes": [
@@ -530,7 +532,7 @@
         "achado": "registrar o comprovante de residência (e coordenada, se houver) para a geolocalização da réplica"
       }
     ],
-    "marca": "CÁLCULO A CONFERIR"
+    "marca": "[CÁLCULO A CONFERIR]"
   },
   "cronologia": [
     {
@@ -559,14 +561,21 @@
       "competencia": true,
       "evento": "Marco de 200% do capital atingido",
       "fonte": "planilha do cálculo",
-      "efeito": "pagamentos já somam o dobro do capital"
+      "efeito": "pagamentos já somam o dobro do capital; quitação"
+    },
+    {
+      "data": "2025-09-01",
+      "competencia": true,
+      "evento": "Mês seguinte ao marco de 200%",
+      "fonte": "planilha do cálculo",
+      "efeito": "início da repetição em dobro (descontos desde aqui)"
     },
     {
       "data": "2025-11-01",
       "competencia": true,
       "evento": "Refinanciamento do saldo do cartão",
       "fonte": "extrato do INSS, cartão 90000001",
-      "efeito": "início da repetição em dobro (descontos desde aqui)"
+      "efeito": "ato declarado nulo (pedido de nulidade)"
     },
     {
       "data": "2026-09-01",

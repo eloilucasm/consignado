@@ -5,6 +5,7 @@ Como usar (instruções para quem redige; apague este comentário na peça):
 - Preencha os campos [PREENCHER: ...] com o quadro de fatos e o calculo.json (scripts/calcular_rmc.py). Campo sem fonte vira [CONFERIR: ...].
 - Blocos entre [[SE ...]] e [[FIM]] entram só quando a condição vale. Apague os marcadores.
 - Números, datas de competência e valores vêm de calculo.json. Nunca refaça a conta de cabeça. A planilha mensal vem pronta em calculo.md.
+- Restituição em dobro a partir do mês seguinte ao marco de 200% (decisão do escritório, 12/11/2026): [INÍCIO DA RESTITUIÇÃO] = inicio_restituicao; [TOTAL APÓS O MARCO] = total_pos_marco; [DOBRO] = dobro. A quitação (pedido 2) é declarada no marco. Se o calculo.json trouxer alerta PRESCRIÇÃO, inclua o bloco [[SE PRESCRIÇÃO]].
 - Figuras 1 a 4: geradas por scripts/diagramas_rmc.py (recortes do extrato, acumulado pago e linha do tempo); a legenda de cada uma vem do figuras.json. Padrão em assets/padrao-figuras.md. Entregue os PNG junto com a minuta.
 - Se calculo.json trouxer alerta B2 (refinanciamento anterior a 01/2024), leve-o ao advogado. A minuta **não** é bloqueada: o escritório decidiu em 29/10/2026 manter a tese do teto (references/01-tese-e-roteiro.md, B1 a B4). Desde 12/11/2026 a peça não discute o prazo de 90 dias nem o art. 4º da Res. CMN 4.549 (subtópico do teto retirado); B1 e B2 servem de apoio para a réplica.
 - Não digite número de tópico: a tipografia-azul numera. Remissão interna: "tópico ..." calculado depois de fechada a estrutura.
@@ -147,6 +148,7 @@ Em [COMPETÊNCIA DO MARCO DE 200%], o acumulado pago, [ACUMULADO NO MARCO], cheg
 | Valor registrado como "utilizado no mês" no refinanciamento ([COMPETÊNCIA]), com IOF | [UTILIZADO NO MÊS] |
 | Total pago até [ÚLTIMA COMPETÊNCIA] | [TOTAL PAGO] ([PERCENTUAL]) |
 | Descontado desde o refinanciamento | [TOTAL APÓS O REFINANCIAMENTO] |
+| Descontado desde [INÍCIO DA RESTITUIÇÃO] (mês seguinte ao marco de 200%) | [TOTAL APÓS O MARCO] |
 | Saldo devedor no INSS em [ÚLTIMA COMPETÊNCIA] | [SALDO ATUAL] |
 | Custo total mínimo (pago + saldo devedor) | [CUSTO TOTAL] |
 | Onerosidade sobre o capital adotado | [ONEROSIDADE] |
@@ -210,7 +212,7 @@ b) o art. 2º-C da Res. CMN 4.549, incluído pela Res. CMN 5.112/2023, aplicáve
 
 > Art. 2º-C É assegurada, a qualquer momento, a renegociação das operações de crédito de que trata o art. 2º-A, desde que o valor total cobrado a título de juros e encargos financeiros aplicáveis a cada renegociação não exceda o valor original da dívida da operação inicial que foi renegociada, descontando-se os juros e encargos que já foram pagos.
 
-O banco registrou o novo saldo de [UTILIZADO NO MÊS] sem deduzir o que a parte autora já havia pago ([TOTAL ATÉ O REFINANCIAMENTO]), conforme o extrato (tópico dos fatos). Declarada a nulidade, as partes voltam ao estado anterior (art. 182 do CC): desconstituição do refinanciamento, liberação da margem e devolução do que foi descontado desde [COMPETÊNCIA DO REFINANCIAMENTO].
+O banco registrou o novo saldo de [UTILIZADO NO MÊS] sem deduzir o que a parte autora já havia pago ([TOTAL ATÉ O REFINANCIAMENTO]), conforme o extrato (tópico dos fatos). Declarada a nulidade, as partes voltam ao estado anterior (art. 182 do CC): desconstituição do refinanciamento e liberação da margem. A devolução alcança tudo o que foi descontado depois de atingido o teto, em [COMPETÊNCIA DO MARCO DE 200%] (tópico da repetição do indébito).
 
 ## Quando o total pago supera 200% do capital, o teto estava esgotado antes do refinanciamento
 
@@ -224,7 +226,7 @@ O raciocínio é encadeado, com a premissa de capital já explicitada nos fatos:
 
 O banco detém o desdobramento de cada parcela entre capital e juros e deve demonstrar que o teto não havia sido atingido (art. 6º, VIII, do CDC). Na dúvida, interpreta-se a favor do consumidor (art. 47 do CDC).
 
-Atingido o teto em [COMPETÊNCIA DO MARCO DE 200%], a obrigação do cartão estava quitada naquela competência, e a parte autora pede que o juízo assim a declare. A repetição em dobro, nesta ação, limita-se aos descontos posteriores ao refinanciamento, que é o pedido certo e demonstrado pelo extrato; a delimitação não afeta a quitação. Em caso análogo, a sentença da 12ª Vara do Sistema dos Juizados Especiais do Consumidor de Salvador declarou a quitação na competência do marco de 200% e deu o dobro dos descontos desde o refinanciamento (TJBA, Processo 0209760-63.2026.8.05.0001, sentença de 2026, de primeiro grau, citada como exemplo).
+Atingido o teto em [COMPETÊNCIA DO MARCO DE 200%], a obrigação do cartão estava quitada naquela competência, e a parte autora pede que o juízo assim a declare. Daí em diante, todo desconto é cobrança indevida, e a repetição em dobro alcança os descontos a partir de [INÍCIO DA RESTITUIÇÃO], mês seguinte ao marco (tópico da repetição do indébito). Em caso análogo, a sentença da 12ª Vara do Sistema dos Juizados Especiais do Consumidor de Salvador declarou a quitação na competência do marco de 200% (TJBA, Processo 0209760-63.2026.8.05.0001, sentença de 2026, de primeiro grau, citada como exemplo).
 
 ## O refinanciamento do cartão consignado deve respeitar as normas do CMN e do INSS
 
@@ -244,7 +246,7 @@ Ainda que se desprezasse o teto de juros, o refinanciamento não se sustentaria 
 
 O art. 422 do Código Civil impõe aos contratantes a probidade e a boa-fé. O banco recebeu anos de pagamentos como amortização e, num dado mês, renovou o saldo como se nada tivesse sido pago, sem aviso à parte autora. É o comportamento contraditório que o direito não tolera (venire contra factum proprium). O art. 39, V, do CDC veda exigir do consumidor vantagem manifestamente excessiva.
 
-## Os valores descontados desde o refinanciamento devem ser restituídos em dobro
+## Os valores descontados depois de atingido o teto devem ser restituídos em dobro
 
 O art. 42, parágrafo único, do Código de Defesa do Consumidor dispõe:
 
@@ -254,7 +256,15 @@ O dispositivo ressalva apenas o engano justificável, e cobrança sobre saldo se
 
 A restituição em dobro não depende de prova de má-fé. A Corte Especial do Superior Tribunal de Justiça fixou que ela "independe da natureza do elemento volitivo do fornecedor que realizou a cobrança indevida, revelando-se cabível quando a referida cobrança consubstanciar conduta contrária à boa-fé objetiva" (EAREsp 676.608/RS, Corte Especial, Rel. Min. Og Fernandes, j. 21/10/2020, DJe 30/03/2021). Promover descontos em benefício previdenciário sem autorização do titular é conduta contrária à boa-fé objetiva.[[SE TODOS OS DESCONTOS DEPOIS DE 30/03/2021]] A tese foi modulada para as cobranças posteriores a 30/03/2021, e todos os descontos aqui discutidos são posteriores a essa data: a modulação alcança toda a repetição.[[FIM]][[SE HÁ DESCONTO ANTES DE 30/03/2021]] Quanto aos descontos anteriores a 30/03/2021, a dobra decorre do próprio art. 42, parágrafo único, do CDC, que só a afasta no engano justificável, não demonstrado pelo réu.[[FIM]]
 
-Todos os descontos a partir de [COMPETÊNCIA DO REFINANCIAMENTO] incidem sobre saldo sem lastro, e a cobrança é unilateral e sem aviso. Somam [TOTAL APÓS O REFINANCIAMENTO] em valor simples e **[DOBRO POR EXTENSO]** em dobro. [CÁLCULO A CONFERIR]
+Em [COMPETÊNCIA DO MARCO DE 200%], os pagamentos atingiram 200% do capital adotado, e a dívida estava quitada pelo teto do art. 28, § 1º, da Lei 14.690/2023. Todos os descontos a partir de [INÍCIO DA RESTITUIÇÃO] são cobrança indevida: os anteriores ao refinanciamento excederam o teto legal, e os posteriores incidem sobre saldo sem lastro, cobrado de forma unilateral e sem aviso. Somam [TOTAL APÓS O MARCO] em valor simples e **[DOBRO POR EXTENSO]** em dobro. [CÁLCULO A CONFERIR]
+
+[[SE PRESCRIÇÃO]]
+## A pretensão não está prescrita
+
+Por cautela, afasta-se desde logo a alegação de prescrição. A pretensão não decorre de defeito do serviço (art. 27 do CDC), mas da restituição de valores cobrados depois de atingido o teto legal de juros e encargos, dentro de relação contratual. A Corte Especial do STJ decidiu, em caso de cobrança indevida de serviços de telefonia fixa, que a repetição de indébito prescreve em dez anos, pelo art. 205 do Código Civil, e não em três (EAREsp 738.991/RS, Rel. Min. Og Fernandes, j. 20/02/2019, DJe 11/06/2019; julgado de telefonia fixa, aplicado ao cartão consignado por analogia) [VERIFICAR ANTES DE PROTOCOLAR]. A restituição pedida alcança os descontos a partir de [INÍCIO DA RESTITUIÇÃO], dentro dos dez anos anteriores ao ajuizamento. Além disso, a nulidade do refinanciamento não está sujeita a prazo prescricional: o negócio nulo não convalesce pelo decurso do tempo (art. 169 do CC).
+
+Subsidiariamente, ainda que se aplicasse o prazo quinquenal do art. 27 do CDC, ele só começa a correr do conhecimento do dano e de sua autoria. [[SE CIÊNCIA INFORMADA]] A parte autora só soube do refinanciamento e do total já pago em [DATA DA CIÊNCIA], pelo Histórico de Empréstimo Consignado emitido em [DATA DE EMISSÃO]. [[FIM]] O prazo e o termo inicial aplicáveis são decisão do advogado responsável [DECISÃO DO ADVOGADO: art. 205 do CC (prazo decenal, decisão D28 do escritório) ou art. 27 do CDC; termo inicial].
+[[FIM]]
 
 ## O dano extrapatrimonial é devido e decorre da natureza alimentar da verba
 
@@ -299,7 +309,7 @@ Esta ação não discute a validade do contrato do cartão contratado em [DATA D
 
 # Dos precedentes judiciais evocados ao caso concreto
 
-Precedentes evocados nesta peça: [LISTA COM O TÓPICO DE CADA UM: Súmula 297/STJ; Súmula 479/STJ; Súmula 326/STJ (sucumbência recíproca no dano moral); Súmula 41 e Súmula 33 da Turma de Uniformização do TJBA (cartão consignável; juros); Tema 1414/STJ (suspensão e distinção); Súmula 40 da Turma de Uniformização do TJBA; EAREsp 676.608/RS (repetição em dobro)].
+Precedentes evocados nesta peça: [LISTA COM O TÓPICO DE CADA UM: Súmula 297/STJ; Súmula 479/STJ; Súmula 326/STJ (sucumbência recíproca no dano moral); Súmula 41 e Súmula 33 da Turma de Uniformização do TJBA (cartão consignável; juros); Tema 1414/STJ (suspensão e distinção); Súmula 40 da Turma de Uniformização do TJBA; EAREsp 676.608/RS (repetição em dobro); EAREsp 738.991/RS, se houver prescrição].
 
 O Código de Processo Civil estabelece sistema de precedentes destinado a assegurar coerência e integridade aos julgamentos, de modo que decisões sobre o mesmo tema e as mesmas circunstâncias não destoem entre si.
 
@@ -390,7 +400,7 @@ g) a procedência dos pedidos[[SE TUTELA]], confirmada a tutela ou concedida em 
 2. seja declarada a quitação do contrato do cartão nº [NÚMERO DO CARTÃO] em [COMPETÊNCIA DO MARCO DE 200%], quando os pagamentos somavam [ACUMULADO NO MARCO], [PERCENTUAL NO MARCO] do capital adotado, e atingiram o teto do art. 28, § 1º, da Lei 14.690/2023;
 3. o réu seja condenado à obrigação de fazer de, em 5 (cinco) dias úteis do trânsito em julgado, baixar o bloqueio da margem consignável junto ao INSS/DATAPREV e cessar os descontos, sob pena de multa diária de R$ 500,00, nos termos dos arts. 497 e 537 do CPC;
 [[SE MOTIVO]] 4. o réu seja condenado à obrigação de fazer de preencher, no sistema eConsignado/DATAPREV, o campo "Motivo da Exclusão", hoje em branco, com a expressão "Por força de decisão judicial", mantido inalterado o campo "Origem da Exclusão", em 10 (dez) dias úteis, sob pena de multa diária de R$ 500,00, nos termos dos arts. 497 e 537 do CPC [[SE HÁ ATIVO]], providência que, quanto a cartão ativo, será cumprida no momento da baixa [[FIM]]; [[FIM DE SE MOTIVO]]
-5. o réu seja condenado a restituir em dobro os valores descontados desde [COMPETÊNCIA DO REFINANCIAMENTO], no total atual de [DOBRO POR EXTENSO]. Correção monetária desde cada desconto (Súmula 43 do STJ) e juros de mora desde a citação, ressalvada a constituição anterior em mora (Súmula 33 da Turma de Uniformização do TJBA; art. 397, parágrafo único, do CC), observada a Lei 14.905/2024 a partir de 30/08/2024. Requer-se que os descontos posteriores a esta petição, até o trânsito em julgado, sejam apurados na liquidação;
+5. o réu seja condenado a restituir em dobro os valores descontados desde [INÍCIO DA RESTITUIÇÃO], mês seguinte ao marco de 200% do capital, no total atual de [DOBRO POR EXTENSO]. Correção monetária desde cada desconto (Súmula 43 do STJ) e juros de mora desde a citação, ressalvada a constituição anterior em mora (Súmula 33 da Turma de Uniformização do TJBA; art. 397, parágrafo único, do CC), observada a Lei 14.905/2024 a partir de 30/08/2024. Requer-se que os descontos posteriores a esta petição, até o trânsito em julgado, sejam apurados na liquidação;
 6. o réu seja condenado ao pagamento de indenização por danos extrapatrimoniais de **R$ 20.000,00 (vinte mil reais)**, com correção monetária desde o arbitramento (Súmula 362 do STJ) e juros de mora desde a citação, ressalvada a constituição anterior em mora (Súmula 33 da Turma de Uniformização do TJBA; art. 397, parágrafo único, do CC), observada a Lei 14.905/2024 a partir de 30/08/2024;
 
 h) **subsidiariamente** ao pedido g.1:

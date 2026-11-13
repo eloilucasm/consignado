@@ -40,8 +40,9 @@ Registro de trabalho: não entra na peça. Formato e regras em `assets/escrutini
 | 05/03/2022 | Averbação do cartão 90000001 | extrato do INSS, cartão 90000001 | capital adotado: limite de R$ 1.000,00 |
 | 04/2022 | Primeira competência do histórico do cartão | extrato do INSS, cartão 90000001 | início da planilha do marco de 200% |
 | 01/2024 | Fim do prazo de 90 dias da Lei 14.690/2023 (publicada em 03/10/2023) | lei-14690.md | a partir daqui vale o teto de 200% do art. 28, § 1º |
-| 08/2025 | Marco de 200% do capital atingido | planilha do cálculo | pagamentos já somam o dobro do capital |
-| 11/2025 | Refinanciamento do saldo do cartão | extrato do INSS, cartão 90000001 | início da repetição em dobro (descontos desde aqui) |
+| 08/2025 | Marco de 200% do capital atingido | planilha do cálculo | pagamentos já somam o dobro do capital; quitação |
+| 09/2025 | Mês seguinte ao marco de 200% | planilha do cálculo | início da repetição em dobro (descontos desde aqui) |
+| 11/2025 | Refinanciamento do saldo do cartão | extrato do INSS, cartão 90000001 | ato declarado nulo (pedido de nulidade) |
 | 09/2026 | Última competência do histórico do cartão | extrato do INSS, cartão 90000001 | fim da contagem do cálculo |
 | 28/10/2026 | Data da peça | argumento --data do cálculo | contrato ativo conta até a competência anterior |
 | 28/10/2026 | Emissão do extrato do INSS | extrato do INSS, primeira página | ciência dos descontos (padrão do escritório); FSC6 |

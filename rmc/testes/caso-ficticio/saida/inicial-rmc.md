@@ -22,7 +22,7 @@ Conforme documento pessoal anexo, a parte autora é pessoa idosa e faz jus à pr
 
 # Da competência do Juizado Especial
 
-A causa é de competência do Juizado Especial Cível (art. 3º, I, da Lei 9.099/95): o valor da causa, R$ 23.010,00, é inferior a 40 (quarenta) salários mínimos, que, à razão de R$ 1.621,00 (Decreto 12.797/2025), correspondem a R$ 64.840,00. A prova é documental (o extrato oficial do INSS) e a tese se apura pela soma dos descontos mensais ali registrados.
+A causa é de competência do Juizado Especial Cível (art. 3º, I, da Lei 9.099/95): o valor da causa, R$ 23.210,00, é inferior a 40 (quarenta) salários mínimos, que, à razão de R$ 1.621,00 (Decreto 12.797/2025), correspondem a R$ 64.840,00. A prova é documental (o extrato oficial do INSS) e a tese se apura pela soma dos descontos mensais ali registrados.
 
 # Dos fatos
 
@@ -137,6 +137,7 @@ Em 08/2025, o acumulado pago, R$ 2.000,00, chegou a 200,0% do capital adotado, 3
 | Valor registrado como "utilizado no mês" no refinanciamento (11/2025), com IOF | R$ 1.800,00 |
 | Total pago até 09/2026 | R$ 2.705,00 (270,5%) |
 | Descontado desde o refinanciamento | R$ 605,00 |
+| Descontado desde 09/2025 (mês seguinte ao marco de 200%) | R$ 705,00 |
 | Saldo devedor no INSS em 09/2026 | R$ 1.700,00 |
 | Custo total mínimo (pago + saldo devedor) | R$ 4.405,00 |
 | Onerosidade sobre o capital adotado | 440,5% |
@@ -199,7 +200,7 @@ b) o art. 2º-C da Res. CMN 4.549, incluído pela Res. CMN 5.112/2023, aplicáve
 
 > Art. 2º-C É assegurada, a qualquer momento, a renegociação das operações de crédito de que trata o art. 2º-A, desde que o valor total cobrado a título de juros e encargos financeiros aplicáveis a cada renegociação não exceda o valor original da dívida da operação inicial que foi renegociada, descontando-se os juros e encargos que já foram pagos.
 
-O banco registrou o novo saldo de R$ 1.800,00 sem deduzir o que a parte autora já havia pago (R$ 2.100,00), conforme o extrato (tópico dos fatos). Declarada a nulidade, as partes voltam ao estado anterior (art. 182 do CC): desconstituição do refinanciamento, liberação da margem e devolução do que foi descontado desde 11/2025.
+O banco registrou o novo saldo de R$ 1.800,00 sem deduzir o que a parte autora já havia pago (R$ 2.100,00), conforme o extrato (tópico dos fatos). Declarada a nulidade, as partes voltam ao estado anterior (art. 182 do CC): desconstituição do refinanciamento e liberação da margem. A devolução alcança tudo o que foi descontado depois de atingido o teto, em 08/2025 (tópico da repetição do indébito).
 
 ## Quando o total pago atinge 200% do capital, o teto estava esgotado antes do refinanciamento
 
@@ -213,7 +214,7 @@ O raciocínio é encadeado, com a premissa de capital já explicitada nos fatos:
 
 O banco detém o desdobramento de cada parcela entre capital e juros e deve demonstrar que o teto não havia sido atingido (art. 6º, VIII, do CDC). Na dúvida, interpreta-se a favor do consumidor (art. 47 do CDC).
 
-Atingido o teto em 08/2025, a obrigação do cartão estava quitada naquela competência, e a parte autora pede que o juízo assim a declare. A repetição em dobro, nesta ação, limita-se aos descontos posteriores ao refinanciamento, que é o pedido certo e demonstrado pelo extrato; a delimitação não afeta a quitação. Em caso análogo, a sentença da 12ª Vara do Sistema dos Juizados Especiais do Consumidor de Salvador declarou a quitação na competência do marco de 200% e deu o dobro dos descontos desde o refinanciamento (TJBA, Processo 0209760-63.2026.8.05.0001, sentença de 2026, de primeiro grau, citada como exemplo).
+Atingido o teto em 08/2025, a obrigação do cartão estava quitada naquela competência, e a parte autora pede que o juízo assim a declare. Daí em diante, todo desconto é cobrança indevida, e a repetição em dobro alcança os descontos a partir de 09/2025, mês seguinte ao marco (tópico da repetição do indébito). Em caso análogo, a sentença da 12ª Vara do Sistema dos Juizados Especiais do Consumidor de Salvador declarou a quitação na competência do marco de 200% (TJBA, Processo 0209760-63.2026.8.05.0001, sentença de 2026, de primeiro grau, citada como exemplo).
 
 ## O refinanciamento do cartão consignado deve respeitar as normas do CMN e do INSS
 
@@ -233,7 +234,7 @@ A IN PRES/INSS 138/2022 trata o refinanciamento como ato "entre o beneficiário 
 
 O art. 422 do Código Civil impõe aos contratantes a probidade e a boa-fé. O banco recebeu anos de pagamentos como amortização e, num dado mês, renovou o saldo como se nada tivesse sido pago, sem aviso à parte autora. É o comportamento contraditório que o direito não tolera (venire contra factum proprium). O art. 39, V, do CDC veda exigir do consumidor vantagem manifestamente excessiva.
 
-## Os valores descontados desde o refinanciamento devem ser restituídos em dobro
+## Os valores descontados depois de atingido o teto devem ser restituídos em dobro
 
 O art. 42, parágrafo único, do Código de Defesa do Consumidor dispõe:
 
@@ -243,7 +244,7 @@ O dispositivo ressalva apenas o engano justificável, e cobrança sobre saldo se
 
 A restituição em dobro não depende de prova de má-fé. A Corte Especial do Superior Tribunal de Justiça fixou que ela "independe da natureza do elemento volitivo do fornecedor que realizou a cobrança indevida, revelando-se cabível quando a referida cobrança consubstanciar conduta contrária à boa-fé objetiva" (EAREsp 676.608/RS, Corte Especial, Rel. Min. Og Fernandes, j. 21/10/2020, DJe 30/03/2021). Promover descontos em benefício previdenciário sem autorização do titular é conduta contrária à boa-fé objetiva. A tese foi modulada para as cobranças posteriores a 30/03/2021, e todos os descontos aqui discutidos são posteriores a essa data: a modulação alcança toda a repetição.
 
-Todos os descontos a partir de 11/2025 incidem sobre saldo sem lastro, e a cobrança é unilateral e sem aviso. Somam R$ 605,00 em valor simples e **R$ 1.210,00 (um mil, duzentos e dez reais)** em dobro. [CÁLCULO A CONFERIR]
+Em 08/2025, os pagamentos atingiram 200% do capital adotado, e a dívida estava quitada pelo teto do art. 28, § 1º, da Lei 14.690/2023. Todos os descontos a partir de 09/2025 são cobrança indevida: os anteriores ao refinanciamento excederam o teto legal, e os posteriores incidem sobre saldo sem lastro, cobrado de forma unilateral e sem aviso. Somam R$ 705,00 em valor simples e **R$ 1.410,00 (um mil, quatrocentos e dez reais)** em dobro. [CÁLCULO A CONFERIR]
 
 ## O dano extrapatrimonial é devido e decorre da natureza alimentar da verba
 
@@ -340,7 +341,7 @@ g) a procedência dos pedidos, confirmada a tutela ou concedida em sentença, pa
 1. seja declarada a nulidade do refinanciamento de 11/2025 sobre o cartão nº 90000001 (saldo registrado de R$ 1.800,00, com IOF de R$ 4,50), por fraude à lei imperativa (art. 166, VI, do CC, c/c o art. 28, § 1º, da Lei 14.690/2023) e, de modo autônomo, por ausência de manifestação de vontade da parte autora (art. 104 do CC; art. 39, III, do CDC), com desconstituição de seus efeitos desde a data da prática;
 2. seja declarada a quitação do contrato do cartão nº 90000001 em 08/2025, quando os pagamentos somavam R$ 2.000,00, 200,0% do capital adotado, e atingiram o teto do art. 28, § 1º, da Lei 14.690/2023;
 3. o réu seja condenado à obrigação de fazer de, em 5 (cinco) dias úteis do trânsito em julgado, baixar o bloqueio da margem consignável junto ao INSS/DATAPREV e cessar os descontos, sob pena de multa diária de R$ 500,00, nos termos dos arts. 497 e 537 do CPC;
-4. o réu seja condenado a restituir em dobro os valores descontados desde 11/2025, no total atual de R$ 1.210,00 (um mil, duzentos e dez reais). Correção monetária desde cada desconto (Súmula 43 do STJ) e juros de mora desde a citação, ressalvada a constituição anterior em mora (Súmula 33 da Turma de Uniformização do TJBA; art. 397, parágrafo único, do CC), observada a Lei 14.905/2024 a partir de 30/08/2024. Requer-se que os descontos posteriores a esta petição, até o trânsito em julgado, sejam apurados na liquidação;
+4. o réu seja condenado a restituir em dobro os valores descontados desde 09/2025, mês seguinte ao marco de 200% do capital, no total atual de R$ 1.410,00 (um mil, quatrocentos e dez reais). Correção monetária desde cada desconto (Súmula 43 do STJ) e juros de mora desde a citação, ressalvada a constituição anterior em mora (Súmula 33 da Turma de Uniformização do TJBA; art. 397, parágrafo único, do CC), observada a Lei 14.905/2024 a partir de 30/08/2024. Requer-se que os descontos posteriores a esta petição, até o trânsito em julgado, sejam apurados na liquidação;
 5. o réu seja condenado ao pagamento de indenização por danos extrapatrimoniais de **R$ 20.000,00 (vinte mil reais)**, com correção monetária desde o arbitramento (Súmula 362 do STJ) e juros de mora desde a citação, ressalvada a constituição anterior em mora (Súmula 33 da Turma de Uniformização do TJBA; art. 397, parágrafo único, do CC), observada a Lei 14.905/2024 a partir de 30/08/2024;
 
 h) **subsidiariamente** ao pedido g.1:
@@ -351,7 +352,7 @@ Requer, ainda, que todas as intimações e publicações sejam feitas exclusivam
 
 # Do valor da causa
 
-Dá-se à causa o valor de R$ 23.010,00 (vinte e três mil e dez reais), correspondente ao saldo do refinanciamento declarado nulo (R$ 1.800,00; art. 292, II, do CPC), à restituição em dobro (R$ 1.210,00; art. 292, VI, do CPC) e ao dano extrapatrimonial (R$ 20.000,00) (art. 292, V, do CPC). [CÁLCULO A CONFERIR]
+Dá-se à causa o valor de R$ 23.210,00 (vinte e três mil, duzentos e dez reais), correspondente ao saldo do refinanciamento declarado nulo (R$ 1.800,00; art. 292, II, do CPC), à restituição em dobro (R$ 1.410,00; art. 292, VI, do CPC) e ao dano extrapatrimonial (R$ 20.000,00) (art. 292, V, do CPC). [CÁLCULO A CONFERIR]
 
 Termos em que, pede deferimento.
 

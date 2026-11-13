@@ -1,4 +1,4 @@
-# Cálculo do processo 1 (NB 999.999.999-9) — **CÁLCULO A CONFERIR**
+# Cálculo do processo 1 (NB 999.999.999-9) — **[CÁLCULO A CONFERIR]**
 
 Data da peça: 28/10/2026 · cartão RMC nº 90000001 · situação Ativo · capital adotado (limite) R$ 1.000,00
 
@@ -66,10 +66,11 @@ Data da peça: 28/10/2026 · cartão RMC nº 90000001 · situação Ativo · cap
 - Refinanciamento: 11/2025 · utilizado R$ 1.800,00 · saldo R$ 1.800,00 · IOF R$ 4,50
 - Marco de 200%: 08/2025 (R$ 2.000,00, 200,0%) · 3 meses antes do refinanciamento
 - Pago até o refinanciamento: R$ 2.100,00 (210,0%)
-- Descontado desde o refinanciamento: R$ 605,00 · em dobro **R$ 1.210,00 (um mil, duzentos e dez reais)**
+- Descontado desde o refinanciamento: R$ 605,00
+- Descontado desde 09/2025 (mês seguinte ao marco; base da restituição): R$ 705,00 · em dobro **R$ 1.410,00 (um mil, quatrocentos e dez reais)**
 - Total pago: R$ 2.705,00 (270,5%) · saldo atual R$ 1.700,00 · custo total R$ 4.405,00 · onerosidade 440,5%
 - Dano extrapatrimonial (fixo): R$ 20.000,00
-- **Valor da causa: R$ 23.010,00 (vinte e três mil e dez reais)** (saldo refinanciado + dobro + dano extrapatrimonial)
+- **Valor da causa: R$ 23.210,00 (vinte e três mil, duzentos e dez reais)** (saldo refinanciado + dobro + dano extrapatrimonial)
 - Tutela de urgência: SIM (cartão ativo)
 
 ## Alertas

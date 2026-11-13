@@ -2,7 +2,7 @@
 
 ## Quando esta skill se aplica
 
-Cartão de crédito consignado (RMC: reserva de margem consignável; RCC: cartão consignado de benefício) averbado no benefício do INSS, cujo **saldo foi refinanciado pelo banco** depois de o beneficiário já ter pago, em descontos mensais, **mais de 200% do capital**. A tese é de **nulidade do refinanciamento**, com declaração de quitação **na competência do marco de 200%** (não na do refinanciamento; correção do escritório, 06/11/2026; assim decidiu a sentença do Processo 0209760-63.2026.8.05.0001, 12ª VSJE do Consumidor de Salvador, ficha em `references/jurisprudencia/sentenca-0209760-2026-tjba-rmc.md`), repetição em dobro do que foi descontado desde o refinanciamento, obrigação de liberar a margem e dano extrapatrimonial.
+Cartão de crédito consignado (RMC: reserva de margem consignável; RCC: cartão consignado de benefício) averbado no benefício do INSS, cujo **saldo foi refinanciado pelo banco** depois de o beneficiário já ter pago, em descontos mensais, **mais de 200% do capital**. A tese é de **nulidade do refinanciamento**, com declaração de quitação **na competência do marco de 200%** (não na do refinanciamento; correção do escritório, 06/11/2026; assim decidiu a sentença do Processo 0209760-63.2026.8.05.0001, 12ª VSJE do Consumidor de Salvador, ficha em `references/jurisprudencia/sentenca-0209760-2026-tjba-rmc.md`), repetição em dobro do que foi descontado a partir do mês seguinte ao marco (decisão do escritório, 12/11/2026), obrigação de liberar a margem e dano extrapatrimonial.
 
 Não é desta skill: empréstimo consignado não contratado, contrato migrado, Tese 1000 (cada um tem a sua) e recurso.
 
@@ -11,8 +11,8 @@ Não é desta skill: empréstimo consignado não contratado, contrato migrado, T
 1. **Capital** = limite do cartão registrado no INSS. É uma **premissa**, não um fato: o limite não é o valor efetivamente sacado. A peça diz isso e pede as faturas.
 2. **Refinanciamento** = competência em que o campo "utilizado no mês" salta para quase todo o saldo devedor (pelo menos 90% do saldo e 5 vezes o desconto mensal), com IOF lançado.
 3. **Planilha** = descontos mensais acumulados e percentual do capital. Competência ausente no extrato fica ausente, **nunca é interpolada**; o total é piso.
-4. **Marco de 200%** = primeira competência em que o acumulado chega a 200% do capital.
-5. **Valor da causa** = saldo refinanciado (CPC, art. 292, II) + dobro do que foi descontado desde o refinanciamento + R$ 20.000,00.
+4. **Marco de 200%** = primeira competência em que o acumulado chega a 200% do capital. A **quitação** é declarada no marco, e a **restituição em dobro** alcança os descontos a partir do **mês seguinte ao marco** (`inicio_restituicao`, `total_pos_marco`), inclusive os anteriores ao refinanciamento (decisão do escritório, 12/11/2026). Vale também quando o marco é anterior a 01/2024.
+5. **Valor da causa** = saldo refinanciado (CPC, art. 292, II) + dobro do que foi descontado a partir do mês seguinte ao marco + R$ 20.000,00.
 
 O argumento da queda de taxa de juros só entra quando a taxa do mês do refinanciamento é menor que a de **todos** os meses vizinhos.
 
@@ -56,8 +56,9 @@ O STJ afetou, em 06/03/2026, o Tema Repetitivo 1414 (Segunda Seção, relator Mi
 | Endereçamento federal | réu = Caixa (código 104) | `reus.json` |
 | Queda da taxa de juros | taxa do mês do refinanciamento menor que a de todos os vizinhos | `calculo.json`, campo `juros_cai` |
 | Histórico complementado | `--historico-extra` usado | `calculo.json`, campo `fontes_extra` |
+| Prescrição (`[[SE PRESCRIÇÃO]]`) | início da restituição há mais de 5 anos da data da peça | `calculo.json`, alerta PRESCRIÇÃO |
 
-Não há tópico de prescrição: a repetição pedida é só a posterior ao refinanciamento. Se o advogado pedir o dobro de descontos mais antigos, traga o tópico do modelo `nao-contratado`.
+**Prescrição:** a repetição começa no mês seguinte ao marco de 200% e pode alcançar descontos antigos. Se esse mês for anterior a 5 anos da data da peça, o script alerta e entra o bloco `[[SE PRESCRIÇÃO]]` do modelo: prazo decenal do art. 205 do CC (decisão D28 do escritório; EAREsp 738.991/RS por analogia, com `[VERIFICAR]`), nulidade sem prazo (art. 169 do CC) e, subsidiariamente, o art. 27 do CDC contado da ciência. Acima de 10 anos, o script avisa que parte dos descontos estaria prescrita mesmo pelo prazo decenal; o advogado decide se limita a restituição.
 
 ## Travas do script (ele não calcula além delas)
 

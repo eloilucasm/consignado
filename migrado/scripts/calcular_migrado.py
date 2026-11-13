@@ -214,12 +214,16 @@ def main():
 
         incl = [data(x["inclusao"]) for x in [r] + outros if x.get("inclusao")]
         d_incl = min(incl) if incl else None  # primeira averbação, em qualquer banco
+        # norma pela data da MIGRAÇÃO (o modelo diz "vigente na data da migração"): a troca de titularidade, se houver
+        # sobreposição; senão, a inclusão do registro do réu (13/11/2026; antes usava a primeira averbação em qualquer banco)
+        d_migr = data(data_troca) if (desde_troca and data_troca) else (data(r["inclusao"]) if r.get("inclusao") else d_incl)
         status = "ATIVO" if ativo else ("ENCERRADO" if (r["situacao"] or "").startswith("Encerr") else "EXCLUÍDO")
         vinc_valor = round(vinc * r["parcela"], 2)
         linhas.append({
             "contrato": r["contrato"], "origem_averbacao": r["origem_averbacao"], "migrado": migrado, "contrato_origem": contrato_origem,
             "banco_origem_cbc": banco_origem, "status": status, "ativo": ativo, "inclusao": data4(r["inclusao"]),
-            "primeira_averbacao": d_incl.strftime("%d/%m/%Y") if d_incl else None, "regime_norma": regime_da_data(d_incl),
+            "primeira_averbacao": d_incl.strftime("%d/%m/%Y") if d_incl else None,
+            "data_migracao": d_migr.strftime("%d/%m/%Y") if d_migr else None, "regime_norma": regime_da_data(d_migr),
             "inicio": comp_str(ini) if desde_troca else r["inicio"], "inicio_registro_do_reu": r["inicio"], "corte_da_troca": comp_str(desde_troca) if desde_troca else None,
             "fim": r["fim"], "ate_comp": comp_str(ate) if qtde_reu else None, "parcela": r["parcela"], "prazo": r["qtde_contratada"],
             "liberado": r["liberado"], "qtde": qtde, "total": total, "dobro": round(2 * total, 2), "qtde_registro_do_reu": qtde_reu,

@@ -53,6 +53,11 @@ Fontes comparadas: a skill de RMC do pacote AMN v1.4 (`SKILL.md` e `scripts/gera
 - **Subtópico do teto retirado:** saiu inteiro o subtópico "O teto de juros e encargos do art. 28, § 1º, da Lei 14.690/2023 alcança o cartão consignado" (art. 28, §§ 1º e 2º, resposta ao art. 4º da Res. CMN 4.549, prazo de 90 dias, art. 2º-A e as marcas `[VERIFICAR ANTES DE PROTOCOLAR]` e `[CONFERIR: faturas]` que ele trazia). As linhas 2 e 4 da tabela acima ficam superadas na inicial.
 - **Art. 28 no subtópico da nulidade:** o item a) do subtópico "O refinanciamento é nulo por fraude à lei imperativa" transcreve o caput e o § 1º do art. 28 (texto do acervo), no lugar de "acima transcrito"; o item b) deixou de remeter ao art. 4º.
 
+## Revisão de 13/11/2026 (restituição a partir do marco)
+
+- **Restituição em dobro desde o mês seguinte ao marco de 200%** (decisão do escritório, mesma da sessão de 12/11/2026 em outro computador): o pedido de restituição, o tópico da dobra ("Os valores descontados depois de atingido o teto devem ser restituídos em dobro"), o efeito da nulidade e o subtópico do marco deixaram de contar "desde o refinanciamento". `cartao.py` calcula `total_pos_marco`; `calcular_rmc.py` grava `inicio_restituicao` e `total_pos_marco` e usa esse total no dobro e no valor da causa. O resumo financeiro ganhou a linha "Descontado desde [INÍCIO DA RESTITUIÇÃO]". Caso fictício: restituição desde 09/2025, dobro R$ 1.410,00, valor da causa R$ 23.210,00.
+- **Bloco `[[SE PRESCRIÇÃO]]`**: prazo decenal do art. 205 do CC com o EAREsp 738.991/RS (incluído no acervo do rmc), art. 169 do CC e, subsidiariamente, art. 27 do CDC com `[DECISÃO DO ADVOGADO]`, copiado da sessão de 12/11/2026 a pedido do escritório. O script alerta acima de 5 anos (inclui o bloco) e acima de 10 anos (prescrição parcial mesmo pelo prazo decenal). **Diverge do protocolo** (prescrição sempre decenal, sem pedido subsidiário pelo art. 27): ver PAINEL.
+
 ## O que continua em aberto
 
 - Premissa de fato da D1: conferir nas faturas que só o mínimo é consignado.

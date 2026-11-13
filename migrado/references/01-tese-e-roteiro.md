@@ -34,20 +34,20 @@ A migração, portanto, é **permitida**, desde que atenda às normas do BCB e d
 ## O que a peça NÃO pode afirmar
 
 1. **"Nenhuma norma autoriza a migração sem novo consentimento"**: ver acima.
-2. **Contexto de "ilícito de massa" com a Operação Sem Desconto**: a operação (CGU e PF, 23/04/2025) apurou descontos de mensalidades de entidades associativas nos benefícios do INSS, e não empréstimos consignados. Usá-la como "fato notório" do esquema de consignados é impreciso, e o número de R$ 6,3 bilhões e os "97%" não dizem respeito a consignado. A afirmação de que a DATAPREV suspendeu a averbação de novos consignados em 2025 e o Acórdão TCU 1.094/2026 também não foram confirmados em fonte.
+2. **Contexto de "ilícito de massa" com a Operação Sem Desconto**: a operação (CGU e PF, 23/04/2025) apurou descontos de mensalidades de entidades associativas nos benefícios do INSS, e não empréstimos consignados. Usá-la como "fato notório" do esquema de consignados é impreciso, e o número de R$ 6,3 bilhões e os "97%" não dizem respeito a consignado. A afirmação de que a DATAPREV suspendeu a averbação de novos consignados em 2025 também não foi confirmada em fonte. O Acórdão TCU 1.094/2026 está no acervo desde 03/11/2026 (`references/jurisprudencia/acordao-1094-2026-tcu.md`), e a peça o usa só pelo item 9.3.2, na tabela do campo "Motivo da Exclusão".
 3. **Res. CMN 4.753/2019** como base da "fidedignidade dos registros": a norma trata de conta de depósitos (D2).
 4. **Doutrina sem fonte** (nomes de autores de teoria do negócio jurídico, da carga dinâmica da prova e do desestímulo): não está no acervo. Os conceitos podem ser usados sem a atribuição.
 5. **Dano *in re ipsa***: questão em aberto no Tema 1414/STJ; a peça usa a Súmula 40/TJBA.
 6. **R$ 40.000,00 de dano moral e multa diária de R$ 1.621,00**: o escritório adota R$ 20.000,00 e R$ 500,00.
 7. **EAREsp 676.608/RS**: citado para a dobra dos descontos posteriores a 30/03/2021 (decisão R7, 01/11/2026); os anteriores, pelo art. 42, parágrafo único, do CDC. O Tema 929/STJ não é usado.
-8. **Tutela da evidência pelo art. 311, II, com o Tema 1061**: o Tema 1061 trata do ônus da autenticidade da assinatura de contrato juntado pelo banco, e aqui não há contrato juntado. A skill usa só o art. 311, IV.
+8. **Tutela da evidência pelo art. 311, II, com o Tema 1061**: o Tema 1061 trata do ônus da autenticidade da assinatura de contrato juntado pelo banco, e aqui não há contrato juntado. A skill pede só a tutela de urgência (arts. 294 e 300 do CPC); a da evidência não entra na inicial do migrado.
 
 ## Gatilhos dos tópicos condicionais
 
 | Tópico | Gatilho | Fonte do dado |
 |---|---|---|
 | Tutela de urgência | algum contrato **ativo** (só sobre os ativos) | `calculo.json`, campo `ativos` |
-| Bloco da IN 28 ou da IN 138 | data da averbação | `calculo.json`, `regime_norma` |
+| Bloco da IN 28 ou da IN 138 | data da migração (troca de titularidade; sem sobreposição, inclusão no réu) | `calculo.json`, `regime_norma` e `data_migracao` |
 | Troca de titularidade (mesmo número em outro banco) | `troca_de_titularidade` | `calculo.json` |
 | Prescrição | algum desconto com mais de 5 anos | `calculo.json`, `prescricao_5_anos` |
 | Litispendência | `litispendencia` preenchido na ficha | ficha |
@@ -56,14 +56,14 @@ A migração, portanto, é **permitida**, desde que atenda às normas do BCB e d
 | Honorários sobre condenação mais proveito | rito = Justiça Comum | 20%, sem perguntar (05/11/2026); base com proveito só com contrato ativo |
 | Proveito econômico declaratório no valor da causa | nunca, no migrado | fica fora do valor da causa e vai à liquidação (12/11/2026); `proveito_declaratorio` do `calculo.json` serve só ao pedido de honorários |
 | LGPD | sempre (padrão do escritório, 05/11/2026) | não se pergunta |
-| Interesse na conciliação | resposta do advogado (Justiça Comum) | pergunta ao advogado |
+| Audiência de conciliação | Justiça Comum: tópico de desinteresse e composição extrajudicial; JEC: a peça não trata do assunto | não se pergunta (decisão de 08/11/2026) |
 | Endereçamento federal | réu = Caixa (código 104) | `reus.json` |
 
 ## Anomalias que exigem pausa
 
 - Contrato **sem origem de migração** no extrato: o script alerta; pode ser não contratado comum (`nao-contratado`).
 - O número da origem difere do número do contrato: descreva os dois.
-- **Mesmo número em outro banco**: o script não soma os descontos do banco anterior e alerta; o advogado decide a legitimidade do réu e a soma (`--incluir-outros-bancos`). A primeira averbação, em qualquer banco, define a norma aplicável.
+- **Mesmo número em outro banco**: o script não soma os descontos do banco anterior e alerta; o advogado decide a legitimidade do réu e a soma (`--incluir-outros-bancos`). A norma aplicável é a da data da migração (`data_migracao`: a troca de titularidade, se houver sobreposição; senão, a inclusão do registro do réu), desde 13/11/2026.
 - Contratos de regimes diferentes (IN 28 e IN 138) no mesmo processo: o modelo traz os dois blocos; revise.
 - Descontos anteriores a 30/03/2021: pedir o dobro de todos, com o bloco `[[SE HÁ DESCONTO ANTES DE 30/03/2021]]` (dobra pelo art. 42). Sem Tema 929.
 - Valor liberado ausente ou R$ 0,00: examinar FSC4; não afirme que não houve crédito sem prova.
@@ -71,13 +71,13 @@ A migração, portanto, é **permitida**, desde que atenda às normas do BCB e d
 
 ## Campos do quadro de fatos específicos desta tese
 
-Além dos campos comuns (`protocolo/quadro-de-fatos.md`), registre, para cada contrato e com a página do extrato: número do contrato; **origem da averbação** (texto literal do campo) e o **código do banco de origem**; data da averbação; parcela, prazo, início e fim dos descontos; valor liberado; exclusão e motivo, se houver; o mesmo número no banco anterior, com datas, situação e motivo da baixa; data e meio da ciência; reclamação prévia; e se o cliente alguma vez teve relação com o banco de origem. Estado de cada campo: confirmado (extrato), relatado (cliente), inferido ou desconhecido.
+Além dos campos comuns (`protocolo/quadro-de-fatos.md`), registre, para cada contrato e com a página do extrato: número do contrato; **origem da averbação** (texto literal do campo) e o **código do banco de origem**; data da averbação; parcela, prazo, início e fim dos descontos; valor liberado; exclusão e motivo, se houver; o mesmo número no banco anterior, com datas, situação e motivo da baixa; data e meio da ciência; reclamação prévia, só se os autos trouxerem uma (o escritório não faz tentativa administrativa prévia); e se o cliente alguma vez teve relação com o banco de origem. Estado de cada campo: confirmado (extrato), relatado (cliente), inferido ou desconhecido.
 
 ## Perguntas típicas (máximo três por rodada)
 
 1. Rito: JEC ou Justiça Comum? (sempre)
 2. (não se pergunta) Juízo e cidade do fecho: vêm do `foro` do calculo.json, pelo endereço do autor.
-3. Interesse ou desinteresse na audiência de conciliação? (Justiça Comum)
+3. (não se pergunta) Audiência de conciliação: na Justiça Comum entra o tópico de desinteresse com convite à composição extrajudicial; no JEC a peça não trata do assunto (08/11/2026).
 4. O cliente já teve algum contrato com o banco de origem? (muda a tese: se teve, a inexistência pode não valer)
 5. Algum documento já nos autos mostra crédito em conta nas datas dos contratos? (O extrato bancário não é pedido nem perguntado.)
 
@@ -87,7 +87,7 @@ Além dos campos comuns (`protocolo/quadro-de-fatos.md`), registre, para cada co
 |---|---|
 | FSC3, ônus da prova | tópico da inversão do ônus e a tabela de documentos |
 | FSC5, FSC11, cessão e mesma data | tópico "A norma do INSS admite a migração de carteira, mas a cessão não vale contra o devedor que não foi notificado" (arts. 286 e 290 do CC) |
-| FSC7, FSC1, FSC2, autoria | subtópico "nega a contratação de origem e a migração" |
+| FSC7, FSC1, FSC2, autoria | subtópico "A parte autora nega a migração" (a contratação de origem não é contestada) |
 | FSC4, proveito econômico | mesmo subtópico (valor liberado do extrato) e tabela de documentos |
 | FSC6, impugnação tardia | fatos (data da ciência) e tópico de prescrição |
 | FSC8, mero dissabor | subtópico do dano extrapatrimonial (Súmula 40 do TJBA) |
