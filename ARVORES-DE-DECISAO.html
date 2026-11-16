@@ -423,7 +423,7 @@ h1{font-family:var(--serif);font-size:24px;margin:0;letter-spacing:-.01em}
     [FAZ] Portão 3: objeção mais forte do banco e do juiz, resposta e prova que falta; checagem pré-recurso e verificações pré-ajuizamento (protocolo.md:152)
       [FAZ] Ônus: abre pelo art. 14, § 3º, do CDC, art. 429, II, do CPC e Tema 1061/STJ, não só pelo art. 6º, VIII (protocolo.md:153)
       [FAZ] Autoria negada contrato a contrato; controverte assinatura ou trilha sem afirmar o que só o contrato do banco mostra (protocolo.md:154)
-      [FAZ] Valor liberado tratado; portabilidade pura e contratos do mesmo dia identificados; cadeia de cessão questionada (arts. 286 a 290 do CC) (protocolo.md:155)
+      [FAZ] Valor liberado tratado; portabilidade pura e contratos do mesmo dia identificados; na inicial, cadeia de portabilidade ou refinanciamento não se narra nem se pergunta (decisão de 16/11/2026); no migrado, a cessão é a tese (art. 290 do CC) (protocolo.md:155)
       [CONFERE] Documento dos autos mostra crédito ao cliente? (protocolo.md:156)
         → Não:
           [FAZ] Afirma que o banco não comprovou o crédito, sem negar o recebimento em nome do cliente (protocolo.md:156)
@@ -998,8 +998,10 @@ h1{font-family:var(--serif);font-size:24px;margin:0;letter-spacing:-.01em}
     [CONFERE] FSC5: a origem é migração, portabilidade, refinanciamento ou compra de dívida? (escrutinio.py:209; escrutinio-fsc-vf.md:27)
       → Sim, no migrado:
         [FAZ] OK: é a própria tese, cessão não notificada (art. 290, CC) (escrutinio.py:211)
-      → Sim, no não contratado:
-        [ALERTA] Ativada: questionar a cadeia (arts. 286 a 290, CC) ou rotear para a skill certa (escrutinio.py:214)
+      → Sim, nas outras iniciais (portabilidade, refinanciamento ou compra de dívida):
+        [FAZ] OK: descreve cada contrato pelo extrato, sem narrar a cadeia e sem perguntar ao advogado; a cadeia fica para a réplica (decisão de 16/11/2026) (escrutinio.py:214)
+      → Origem "Migrado" fora do migrado:
+        [ALERTA] Ativada: rotear para a skill do migrado (escrutinio.py:220)
       → Não:
         [FAZ] Não se aplica (escrutinio.py:218)
     [CONFERE] FSC6: há desconto com mais de 5 anos? (escrutinio.py:221)
@@ -1017,10 +1019,8 @@ h1{font-family:var(--serif);font-size:24px;margin:0;letter-spacing:-.01em}
         [ADV] Pendente do advogado (escrutinio.py:240)
     [ALERTA] FSC10 sempre pendente: pedir identificação do correspondente e trilha completa; registrar a residência para a réplica (escrutinio.py:241; escrutinio-fsc-vf.md:32)
     [CONFERE] FSC11: há inclusão no mesmo dia ou em até 7 dias, em qualquer banco? (escrutinio.py:245; escrutinio-fsc-vf.md:33)
-      → Mesmo dia:
-        [ALERTA] Ativada como alerta; descrever só pelo extrato (escrutinio.py:252)
-      → Até 7 dias:
-        [ALERTA] Ativada como reforço; descrever só pelo extrato (escrutinio.py:252)
+      → Mesmo dia ou até 7 dias, numa inicial:
+        [FAZ] OK: descreve cada contrato pelo extrato, sem narrar cadeia nem perguntar (decisão de 16/11/2026) (escrutinio.py:256)
       → Nenhuma:
         [FAZ] Não se aplica (escrutinio.py:257)
     [ALERTA] FSC12 sempre pendente: identidade e residência atuais e legíveis, procuração atualizada, um processo por benefício + banco + tese (escrutinio.py:259; escrutinio-fsc-vf.md:34)
@@ -1142,15 +1142,8 @@ h1{font-family:var(--serif);font-size:24px;margin:0;letter-spacing:-.01em}
           [BLOQ] Nunca escreve que o valor zero é "compatível com portabilidade ou refinanciamento" (nao-contratado/modelo-inicial-nao-contratado.md:23; nao-contratado/02-mudancas-no-modelo.md:44)
       [ADV] O parágrafo das plataformas digitais é presunção para idosos; retirar se o cliente for jovem ou usar banco digital (nao-contratado/02-mudancas-no-modelo.md:20)
     [FAZ] Tópico narrativo "Dos descontos sem contratação": PRIMEIRO a QUINTO, só com dados do extrato e do calculo.json (nao-contratado/modelo-inicial-nao-contratado.md:91; nao-contratado/modelo-inicial-nao-contratado.md:95; nao-contratado/02-mudancas-no-modelo.md:32)
-      [CONFERE] O extrato mostra cadeia de refinanciamentos (pares no mesmo dia, parcelas repetidas, liberado zero)? (nao-contratado/modelo-inicial-nao-contratado.md:23)
-        → Sim:
-          [FAZ] Bloco [[SE HÁ CADEIA]]: descreve a cadeia pelo extrato; quem não firmou o primeiro elo não firmou os derivados (nao-contratado/modelo-inicial-nao-contratado.md:99; nao-contratado/02-mudancas-no-modelo.md:46)
-          [CONFERE] O termo do cliente nega os contratos? (nao-contratado/modelo-inicial-nao-contratado.md:23)
-            → Sim:
-              [FAZ] Narrativa "nunca contratados", sem parar (nao-contratado/02-mudancas-no-modelo.md:46)
-            → Não:
-              [ADV] Parar e perguntar ao advogado (nao-contratado/modelo-inicial-nao-contratado.md:23; nao-contratado/02-mudancas-no-modelo.md:46)
-          [ALERTA] Contratos com muitas parcelas pagas sem reclamação permitem ao banco alegar ratificação (nao-contratado/02-mudancas-no-modelo.md:46)
+      [BLOQ] Cadeia de portabilidade ou refinanciamento: não narra e não pergunta ao advogado; cada contrato descrito pelo extrato; a cadeia fica para a réplica (decisão de 16/11/2026) (nao-contratado/modelo-inicial-nao-contratado.md:23)
+      [ALERTA] Contratos com muitas parcelas pagas sem reclamação permitem ao banco alegar ratificação (nao-contratado/02-mudancas-no-modelo.md:46)
       [BLOQ] Não afirma prática "sistêmica" ou "reiterada" nem operação de fiscalização de descontos associativos como contexto (nao-contratado/modelo-inicial-nao-contratado.md:90)
     [FAZ] Tópico "a regularidade da contratação era exigência da norma do INSS" (nao-contratado/modelo-inicial-nao-contratado.md:131)
       [CONFERE] Qual a data do contrato? (nao-contratado/modelo-inicial-nao-contratado.md:133; nao-contratado/modelo-inicial-nao-contratado.md:135)
@@ -1241,7 +1234,7 @@ h1{font-family:var(--serif);font-size:24px;margin:0;letter-spacing:-.01em}
     [ADV] Algum documento dos autos mostra crédito em conta nas datas dos contratos? (migrado/01-tese-e-roteiro.md:82)
       → Sim, por exceção:
         [FAZ] Usa --extrato-bancario sim e o bloco [[SE CRÉDITO EM CONTA]]; a destinação do valor é decisão do advogado (migrado/SKILL.md:16; migrado/modelo-inicial-migrado.md:93; migrado/modelo-inicial-migrado.md:100)
-  [FAZ] Não pergunta: audiência de conciliação, juízo e fecho, extrato bancário, LGPD (entra sempre) e honorários de 20% na Justiça Comum (migrado/SKILL.md:16; migrado/01-tese-e-roteiro.md:56; migrado/01-tese-e-roteiro.md:58; migrado/02-mudancas-no-modelo.md:24; migrado/02-mudancas-no-modelo.md:30)
+  [FAZ] Só o rito se pergunta antes de gerar; não pergunta audiência de conciliação, juízo e fecho, extrato bancário, contrato ou trilha do banco antes da ação, LGPD (entra sempre) nem honorários (20% na Justiça Comum) (migrado/SKILL.md:16)
   [FAZ] Quadro de fatos: origem literal, código do banco de origem, mesmo número no banco anterior e relação prévia com ele, com página do extrato (migrado/01-tese-e-roteiro.md:74)
   [FAZ] Bloqueios específicos (migrado/SKILL.md:33)
     [BLOQ] Contrato fora do termo (migrado/SKILL.md:33)
@@ -1288,7 +1281,6 @@ h1{font-family:var(--serif);font-size:24px;margin:0;letter-spacing:-.01em}
     [FAZ] Passo 2: se o banco alegar nova contratação, ela exigiria instrumento e autorização assinados (migrado/01-tese-e-roteiro.md:20)
     [FAZ] Passo 3: inexistência por falta de consentimento (art. 104, CC), com o ônus no banco (migrado/01-tese-e-roteiro.md:21)
     [BLOQ] Não sustenta a inexistência do crédito cedido (decisão de 29/10/2026: argumento perigoso) (migrado/01-tese-e-roteiro.md:17; migrado/modelo-inicial-migrado.md:8)
-    [ALERTA] Divergência: a matriz FSC5, o cálculo e a revisão mandam questionar a "existência" do crédito cedido; o roteiro proíbe sustentá-la (escrutinio-fsc-vf.md:27; escrutinio.py:215; padrao-pecas.md:178; migrado/01-tese-e-roteiro.md:17)
     [ALERTA] Pendente: há petição de migrado mais robusta, ainda não incorporada (migrado/01-tese-e-roteiro.md:23)
     [ALERTA] Não há jurisprudência sobre migração de consignado no acervo (migrado/02-mudancas-no-modelo.md:65; migrado/fontes-e-limites.md:42)
     [ALERTA] Decidido manter a dobra de todas as parcelas contadas, embora o comparativo veja a repetição como incompatível com a origem admitida (migrado/02-mudancas-no-modelo.md:56)
@@ -1504,8 +1496,10 @@ h1{font-family:var(--serif);font-size:24px;margin:0;letter-spacing:-.01em}
       → Sim:
         [ADV] Parágrafo factual só com o que o extrato mostra; avisar que o parágrafo é do advogado (SKILL.md:17; 01-tese-e-roteiro.md:57)
     [CONFERE] A origem da averbação indica migração, portabilidade ou refinanciamento? (escrutinio.py:209-216)
-      → Sim:
-        [ALERTA] Risco de cessão ativado: questionar a cadeia (arts. 286 a 290 do CC) ou rotear para a skill certa (escrutinio.py:213-216)
+      → Portabilidade, refinanciamento ou compra de dívida:
+        [FAZ] OK: descreve pelo extrato, sem narrar a cadeia nem perguntar ao advogado (decisão de 16/11/2026) (escrutinio.py:214)
+      → Migração:
+        [ALERTA] Rotear para a skill do migrado (escrutinio.py:220)
     [CONFERE] Qual o valor liberado registrado no extrato? (SKILL.md:17; 01-tese-e-roteiro.md:59)
       → Ausente ou R$ 0,00:
         [ALERTA] Examinar FSC4; não afirmar sem prova que não houve crédito (01-tese-e-roteiro.md:59; escrutinio.py:202-204)
@@ -3362,8 +3356,10 @@ h1{font-family:var(--serif);font-size:24px;margin:0;letter-spacing:-.01em}
       [CONFERE] Checagem antes de ajuizar: origem da averbação é migração, portabilidade, refinanciamento ou compra de dívida? (escrutinio.py:209)
         → Sim, na skill do migrado:
           [FAZ] OK: é a própria tese, cessão não notificada ao devedor (art. 290, CC) (escrutinio.py:211)
-        → Sim, em outra skill:
-          [ALERTA] ATIVADO: questionar a cadeia (arts. 286 a 290, CC) ou mudar de skill (escrutinio.py:214)
+        → Sim, em outra inicial (portabilidade, refinanciamento ou compra de dívida):
+          [FAZ] OK: cada contrato descrito pelo extrato; não narra a cadeia nem pergunta ao advogado; a cadeia fica para a réplica (decisão de 16/11/2026) (escrutinio.py:214)
+        → Origem "Migrado" fora do migrado, ou na réplica:
+          [ALERTA] ATIVADO: questionar a cadeia (arts. 286 a 290, CC) ou mudar de skill (escrutinio.py:220)
         → Não:
           [FAZ] NÃO SE APLICA (escrutinio.py:218)
       [CONFERE] Roteamento pelo extrato (escrutinio.py:133)
@@ -3573,12 +3569,10 @@ h1{font-family:var(--serif);font-size:24px;margin:0;letter-spacing:-.01em}
   [GRUPO] FSC11 — Contratos na mesma data
     [FAZ] O que a sentença diz: nada; não examina inclusões no mesmo dia ou em cadeia de portabilidade e refinanciamento (catalogo_fundamentos_sentenca.md:404)
     [GRUPO] Na inicial
-      [FAZ] Descrever, só pelo extrato do INSS, contratos incluídos no mesmo dia ou em poucos dias, em qualquer banco (escrutinio-fsc-vf.md:33)
+      [FAZ] Na inicial: cada contrato descrito pelo extrato, sem narrar cadeia nem perguntar ao advogado (decisão de 16/11/2026) (escrutinio.py:256)
       [CONFERE] Checagem antes de ajuizar: há inclusão até 7 dias de outro contrato do extrato? (escrutinio.py:245)
-        → Mesmo dia:
-          [ALERTA] ATIVADO: alerta, descrever só pelo extrato (escrutinio.py:252)
-        → Até 7 dias:
-          [FAZ] ATIVADO como reforço, descrito só pelo extrato (escrutinio.py:252)
+        → Mesmo dia ou até 7 dias, numa inicial:
+          [FAZ] OK, sem pendência (decisão de 16/11/2026) (escrutinio.py:256)
         → Nenhuma:
           [FAZ] NÃO SE APLICA (escrutinio.py:257)
         → Tese 1000:
@@ -4564,6 +4558,7 @@ h1{font-family:var(--serif);font-size:24px;margin:0;letter-spacing:-.01em}
 - Não há tentativa administrativa prévia: não se pergunta nem se cita, salvo se os documentos a trouxerem (protocolo.md:61)
 - A presunção cede ao documento; única marca que permanece: restante da fatura do RMC pago por boleto, [CONFERIR: faturas] (protocolo.md:65)
 - Lista de pendências enxuta: só o que depende de documento ou de decisão do advogado; sem pendência real, a lista não aparece (protocolo.md:60)
+- Cadeia de portabilidade ou refinanciamento: na inicial não se narra nem se pergunta ao advogado; cada contrato é descrito pelo extrato e a cadeia fica para a réplica (decisão de 16/11/2026) (protocolo.md:155)
 - Dano moral sempre R$ 20.000,00; não citar a Súmula 326/STJ para isso (protocolo.md:73; protocolo.md:139)
 - Desvio produtivo: não citar a Súmula 30 da Turma de Uniformização do TJBA; vale a Súmula 40 (protocolo.md:74)
 - Repetição em dobro (art. 42, parágrafo único, do CDC) sobre todos os descontos, com a primeira tese do EAREsp 676.608/RS; o Tema 929/STJ não é fundamento (protocolo.md:75; fontes-e-limites.md:34)
@@ -4601,7 +4596,6 @@ h1{font-family:var(--serif);font-size:24px;margin:0;letter-spacing:-.01em}
     [ALERTA] "Réu sem cadastro" é bloqueio nas skills; o protocolo manda resolver por consulta pública sem devolver ao advogado (nao-contratado/SKILL.md:33; protocolo.md:91)
     [ALERTA] Ordem dos tópicos: o padrão põe prescrição e litispendência depois da tutela; os modelos põem antes da inversão do ônus (padrao-pecas.md:44; modelo-inicial-nao-contratado.md:169)
     [ALERTA] EAREsp 738.991: os índices de jurisprudência ainda dizem "fonte secundária, com [VERIFICAR]"; as tabelas de mudanças e os modelos citam sem marca (nao-contratado/jurisprudencia/INDEX.md:72; nao-contratado/02-mudancas-no-modelo.md:17; modelo-inicial-nao-contratado.md:176)
-    [ALERTA] FSC5, a checagem e a revisão mandam questionar a "existência" do crédito cedido; o roteiro do migrado proíbe esse argumento (escrutinio-fsc-vf.md:27; migrado/01-tese-e-roteiro.md:17)
     [ALERTA] Os modelos não pedem identificação do correspondente (e o migrado nem a trilha de auditoria), que a FSC10 exige (escrutinio-fsc-vf.md:32)
   [GRUPO] Não contratado
     [ALERTA] Honorários na Justiça Comum com contrato ativo: o padrão diz condenação mais proveito; o modelo pede 20% só sobre a condenação (padrao-pecas.md:63; modelo-inicial-nao-contratado.md:317)
