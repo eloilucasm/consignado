@@ -23,6 +23,7 @@ import sys
 from pathlib import Path
 
 STATUS_FSC = ("ATIVADO", "OK", "NAO_SE_APLICA", "PENDENTE_ADVOGADO")
+INICIAIS = ("nao-contratado", "tese-1000", "rmc", "migrado")  # skills de petição inicial
 STATUS_VF = ("EXECUTADA", "NAO_SE_APLICA", "PENDENTE_ADVOGADO")
 INTERVALO_CURTO_DIAS = 7  # decisão do escritório de 29/10/2026 (VF8): mesmo dia = alerta; até 7 dias = reforço
 RE_DERIVADO = re.compile(r"^(.+?)(_\d{1,4})$")
@@ -210,6 +211,11 @@ def checagem(do_processo, todos, skill, hoje=None, rito=None, extrato_bancario=N
     if cess and skill == "migrado":
         fsc.append(_fsc(5, "OK", "; ".join(f"{c}: {t}" for c, o, t in cess) + ". Tese da skill: cessão não notificada ao devedor (CC, art. 290)",
                         "tópico da migração e da cessão"))
+    elif cess and skill in INICIAIS and not any(o == "MIGRADO" for c, o, t in cess):
+        # inicial: cadeia de portabilidade ou refinanciamento não se narra nem se pergunta (decisão do escritório, 16/11/2026)
+        fsc.append(_fsc(5, "OK", "; ".join(f"{c}: origem {o.lower()} ('{t}')" for c, o, t in cess) +
+                        ". Na inicial, cada contrato é descrito pelo extrato, sem narrar a cadeia e sem perguntar ao advogado; "
+                        "a cadeia fica para a réplica (decisão de 16/11/2026)", "fatos, contrato a contrato"))
     elif cess:
         fsc.append(_fsc(5, "ATIVADO", "; ".join(f"{c}: origem {o.lower()} ('{t}')" for c, o, t in cess) +
                         ". Questionar a cadeia (existência e eficácia, CC, arts. 286 a 290) ou rotear para a skill certa",
@@ -247,8 +253,11 @@ def checagem(do_processo, todos, skill, hoje=None, rito=None, extrato_bancario=N
         tx = "; ".join(f"{p['tipo'].lower().replace('_', ' ')} ({p['dias']} d): " +
                        " e ".join(f"{c} [{b}] em {i}" for c, b, i in p["contratos"]) for p in md[:6])
         tese_mesma_data = skill == "tese-1000"
-        fsc.append(_fsc(11, "OK" if tese_mesma_data else "ATIVADO",
+        inicial = skill in INICIAIS
+        fsc.append(_fsc(11, "OK" if (tese_mesma_data or inicial) else "ATIVADO",
                         tx + (". Na Tese 1000 o intervalo é a própria tese" if tese_mesma_data else
+                              ". Na inicial, descrever cada contrato pelo extrato, sem narrar cadeia e sem perguntar ao advogado; "
+                              "a cadeia fica para a réplica (decisão de 16/11/2026)" if inicial else
                               (". Mesmo dia: alerta; até 7 dias: reforço. Descrever só pelo extrato" if forte else ". Reforço: descrever só pelo extrato")),
                         "fatos"))
     elif skill == "tese-1000":
@@ -508,7 +517,7 @@ def _teste():
     assert s[4] == "OK" and "art. 373, II" in res["fsc"][3]["achado"] and "R$ 2.000,00" in res["fsc"][3]["achado"]  # sem extrato bancário (padrão)
     r_eb = checagem([a, b], todos, "nao-contratado", hoje=hoje, rito="jec", extrato_bancario="sim")
     assert r_eb["fsc"][3]["status"] == "ATIVADO" and "Súmula 42" in r_eb["fsc"][3]["achado"]  # extrato nos autos
-    assert s[9] == "OK" and s[11] == "ATIVADO" and s[1] == "OK" and s[8] == "OK"  # FSC8: sem tentativa administrativa (padrão do escritório)
+    assert s[9] == "OK" and s[11] == "OK" and s[1] == "OK" and s[8] == "OK"  # FSC11 na inicial: sem cadeia (16/11/2026)  # FSC8: sem tentativa administrativa (padrão do escritório)
     assert checagem([a], todos, "nao-contratado", hoje=hoje, rito=None)["fsc"][8]["status"] == "PENDENTE_ADVOGADO"
     assert checagem([a], todos, "nao-contratado", hoje=hoje, rito="comum")["fsc"][8]["status"] == "OK"
 
@@ -529,7 +538,7 @@ def _teste():
 
     vazio = checagem([], [], "rmc", hoje=hoje, rito="jec")                     # RMC: sem contratos do extrato
     assert len(vazio["fsc"]) == 12 and {f["fsc"]: f["status"] for f in vazio["fsc"]}[4] == "PENDENTE_ADVOGADO"
-    assert "FSC4" in para_markdown(res) and len(pendencias(res)) >= 3
+    assert "FSC4" in para_markdown(res) and len(pendencias(res)) >= 2  # FSC11 da inicial deixou de ser pendência (16/11/2026)
     import tempfile
     from pathlib import Path
     linhas = [{"contrato": "111", "inclusao": "10/01/2024", "inicio": "02/2024", "ate_comp": "12/2024",

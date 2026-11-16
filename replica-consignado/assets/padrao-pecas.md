@@ -175,7 +175,7 @@ Toda peça passa por esta revisão antes de ser entregue ou formatada. Marque ca
 - [ ] A peça não nega, em nome do cliente, o recebimento do valor: afirma que o banco não comprovou o crédito (art. 373, II, do CPC; Súmula 42/TJBA) (FSC4, FSC12)
 - [ ] Ônus: art. 14, § 3º, CDC + art. 429, II, CPC + Tema 1061 antes do art. 6º, VIII (FSC3)
 - [ ] Autoria negada de forma específica por contrato, sem fato novo que só o banco prova (FSC7, FSC1, FSC2)
-- [ ] Valor liberado do extrato tratado; portabilidade pura e mesmo dia identificados (FSC4, FSC11); cadeia de cessão questionada nos eixos existência e eficácia, quando migrado (FSC5)
+- [ ] Valor liberado do extrato tratado; portabilidade pura e mesmo dia identificados (FSC4, FSC11); no migrado, cessão tratada pela eficácia perante o devedor (art. 290 do CC; FSC5); nas demais iniciais, cadeia de portabilidade ou refinanciamento não narrada nem perguntada (16/11/2026)
 - [ ] Data de ciência no quadro; declaração de inexistência separada de repetição e dano (FSC6)
 - [ ] Dano moral com natureza alimentar e particularidades do caso (FSC8)
 - [ ] Rito e prova: JEC sem exibição, perícia ou ofício; Justiça Comum com exibição, sem perícia nem quesitos na inicial (perícia: decisão da réplica) (FSC9, FSC10)

@@ -20,7 +20,7 @@ Como usar (instruções para quem redige; apague este comentário na peça):
   - [[SE MOTIVO]] = algum contrato com situação Ativa, ou Excluída com o campo "Motivo da Exclusão" em branco. Contrato só "Encerrado" não tem o campo a preencher: o tópico e o pedido saem.
   - Contratos de datas diferentes: a norma (IN 28 até 12/12/2022; IN 138 desde 13/12/2022) vale por contrato. Nas linhas de tabela e nos parágrafos de norma, cite só a(s) norma(s) que algum contrato exige.
   - A frase sobre biometria ("não forneceu, para os contratos impugnados…") se limita aos contratos impugnados.
-  - CADEIA DE REFINANCIAMENTOS (decisão de 08/11/2026): a narrativa é "nunca contratados", apoiada no termo do cliente que não reconhece os contratos. Se o extrato mostrar parcelas repetidas entre contratos, valor liberado zero ou averbações em pares no mesmo dia, use o bloco [[SE HÁ CADEIA]] do tópico narrativo: ele descreve a cadeia só pelo extrato e diz que cada elo deriva do anterior. Nunca escreva que o valor zero é "compatível com portabilidade ou refinanciamento". Só pare e pergunte ao advogado se o termo do cliente NÃO negar os contratos (por exemplo, se ele reconhecer o contrato de origem da cadeia). Com muitos contratos, agrupe a narrativa por bloco de datas; não repita PRIMEIRO a QUINTO por contrato.
+  - CADEIA DE PORTABILIDADE OU REFINANCIAMENTO (decisão do escritório de 16/11/2026, que substitui a de 08/11/2026): **nunca pare para perguntar ao advogado e nunca narre a cadeia** na inicial, nem mesmo em formulário de opções. Descreva cada contrato pelo extrato (origem, data, valor liberado, parcelas, motivo da exclusão), na narrativa "nunca contratados", apoiada no termo do cliente. Não diga que um contrato deriva de outro nem que formam cadeia; a cadeia fica para a réplica, se o banco a alegar. Nunca escreva que o valor zero é "compatível com portabilidade ou refinanciamento". Com muitos contratos, agrupe a narrativa por bloco de datas; não repita PRIMEIRO a QUINTO por contrato.
 -->
 
 
@@ -87,7 +87,7 @@ O extrato bancário da parte autora, anexo, registra, em [DATA DO CRÉDITO], cr�
 [DECISÃO DO ADVOGADO: devolução, depósito em juízo ou compensação] A parte autora põe o valor recebido à disposição do juízo, para [devolução ao réu depois de declarada a inexistência | depósito em juízo, à disposição do réu | compensação com a restituição material]. Em nenhuma hipótese o valor se compensa com a indenização extrapatrimonial, que tem causa e função distintas.
 [[FIM]]
 
-<!-- Narrativa dos fatos (estilo da Peça A do comparativo de 08/11/2026, como na tese-1000): só dados do extrato e do calculo.json. Não afirme prática "sistêmica", "reiterada" ou de outros clientes, nem operação de fiscalização de descontos associativos como contexto de consignado; não diga "sem liberação de valor" se o extrato registra valor liberado. Havendo cadeia de refinanciamentos, use o bloco [[SE HÁ CADEIA]] (regra no comentário do topo). Com muitos contratos, agrupe por bloco de datas. -->
+<!-- Narrativa dos fatos (estilo da Peça A do comparativo de 08/11/2026, como na tese-1000): só dados do extrato e do calculo.json. Não afirme prática "sistêmica", "reiterada" ou de outros clientes, nem operação de fiscalização de descontos associativos como contexto de consignado; não diga "sem liberação de valor" se o extrato registra valor liberado. Cadeia de portabilidade ou refinanciamento não se narra nem se pergunta (regra no comentário do topo). Com muitos contratos, agrupe por bloco de datas. -->
 # Dos descontos sem contratação: o que o extrato registra, contrato a contrato
 
 O extrato do INSS conta a história sozinho. Não é preciso supor nada: basta lê-la em ordem, passo a passo.
@@ -96,7 +96,6 @@ PRIMEIRO. Há contratos que a parte autora não reconhece. O extrato relaciona, 
 
 SEGUNDO. A origem não está na parte autora. Em nenhum ponto o extrato registra proposta, instrumento ou ato dela, que não foi procurada, notificada nem consultada. A averbação de cada contrato partiu do banco.
 
-[[SE HÁ CADEIA]] Os contratos, além disso, formam cadeia. O extrato registra averbações em pares no mesmo dia ([DATAS DAS AVERBAÇÕES EM PAR]), as mesmas parcelas ([PARCELAS REPETIDAS]) a cada nova averbação e valor liberado zero ou ausente: não registra dinheiro novo, e o que ele indica é que cada contrato ocupa o lugar do anterior. A parte autora nega ter firmado o primeiro elo da cadeia, averbado em [PRIMEIRA AVERBAÇÃO DA CADEIA]; quem não firmou o primeiro não firmou os que dele derivam. [[FIM]]
 
 TERCEIRO. Averbados os contratos, os descontos começaram. De [PRIMEIRO DESCONTO] a [ÚLTIMO DESCONTO USADO], foram descontadas [QTDE TOTAL DE PARCELAS] parcelas, que somam [TOTAL DESCONTADO], sobre verba de natureza alimentar.
 

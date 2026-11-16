@@ -49,3 +49,7 @@ O modelo anterior vivia em `modelo_formatado_amn.docx` (que é, no fundo, o text
 ## Limites
 
 O texto antigo foi lido por inteiro, mas a comparação com o novo é manual. O verificador (fase 5) fará a checagem automática de citações e de remissões.
+
+## Revisão de 16/11/2026
+
+- **Cadeia de portabilidade ou refinanciamento:** a skill não pergunta mais ao advogado (havia formulário "Redigir e descrever a cadeia / Redigir sem narrar / Pausar") e a inicial não narra a cadeia: cada contrato é descrito pelo extrato, e a cadeia fica para a réplica. Saiu o bloco `[[SE HÁ CADEIA]]` e a regra de parar quando o termo não nega os contratos. No `escrutinio.py`, FSC5 (origem de portabilidade ou refinanciamento) e FSC11 (datas próximas) deixaram de ser ATIVADO nas iniciais. Substitui a decisão de 08/11/2026.
