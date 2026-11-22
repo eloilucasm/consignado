@@ -60,7 +60,7 @@ A tabela de roteamento do `protocolo/protocolo.md` é a fonte única; aplique-a 
 
 - Benefício e entregável são eixos diferentes: a tese decide a skill, a etapa decide a peça.
 - Mesmo banco e mesma tese no mesmo benefício juntam num processo; teses diferentes viram processos separados, com o tópico de ausência de litispendência.
-- Réu Caixa: Vara Federal da subseção do TRF1. Demais réus: comarca do TJBA. Sempre pela tabela, nunca de memória.
+- Réu Caixa: Vara Federal da subseção do TRF1. Demais réus: comarca do TJ do estado do autor (BA, MG, PR ou SC). Sempre pela tabela, nunca de memória.
 - Sentença parcial: o recurso é só do dano moral. Extinção sem mérito: anulação. A skill de recurso decide; você só encaminha.
 - Comando explícito do advogado para uma especialista altera o foco. Não devolva a `/consignado` em ciclo.
 - Conta fraudulenta e seguros não fazem parte do pacote: avise e não improvise.

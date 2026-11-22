@@ -1,0 +1,3047 @@
+{
+ "fonte": "TJPR: \"Fóruns e Juizados Especiais (endereços e telefones)\", arquivo fornecido pelo escritório (_manutencao/coleta/tjpr/fonte-tjpr-foruns-juizados.md); municípios conferidos com a lista do IBGE (API de localidades). Ver territorial-tjpr.md.",
+ "consulta": "2026-11-22",
+ "aprovado_pelo_escritorio": null,
+ "comarcas": {
+  "Almirante Tamandaré": {
+   "grafia_2026": "Almirante Tamandaré",
+   "uf": "PR",
+   "sede": "Almirante Tamandaré",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DO FORO REGIONAL DE ALMIRANTE TAMANDARÉ DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DO FORO REGIONAL DE ALMIRANTE TAMANDARÉ DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "foro regional: confira a denominação do foro na Comarca da Região Metropolitana de Curitiba; Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Altônia": {
+   "grafia_2026": "Altônia",
+   "uf": "PR",
+   "sede": "Altônia",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ALTÔNIA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE ALTÔNIA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Alto Paraná": {
+   "grafia_2026": "Alto Paraná",
+   "uf": "PR",
+   "sede": "Alto Paraná",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ALTO PARANÁ - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE ALTO PARANÁ - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Alto Piquiri": {
+   "grafia_2026": "Alto Piquiri",
+   "uf": "PR",
+   "sede": "Alto Piquiri",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ALTO PIQUIRI - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE ALTO PIQUIRI - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Ampére": {
+   "grafia_2026": "Ampére",
+   "uf": "PR",
+   "sede": "Ampére",
+   "entrancia": null,
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE AMPÉRE - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE AMPÉRE - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte não traz a unidade do Juizado desta comarca; Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Andirá": {
+   "grafia_2026": "Andirá",
+   "uf": "PR",
+   "sede": "Andirá",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ANDIRÁ - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE ANDIRÁ - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Antonina": {
+   "grafia_2026": "Antonina",
+   "uf": "PR",
+   "sede": "Antonina",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ANTONINA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE ANTONINA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Apucarana": {
+   "grafia_2026": "Apucarana",
+   "uf": "PR",
+   "sede": "Apucarana",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE APUCARANA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE APUCARANA - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Arapongas": {
+   "grafia_2026": "Arapongas",
+   "uf": "PR",
+   "sede": "Arapongas",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ARAPONGAS - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE ARAPONGAS - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Arapoti": {
+   "grafia_2026": "Arapoti",
+   "uf": "PR",
+   "sede": "Arapoti",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ARAPOTI - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE ARAPOTI - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Araucária": {
+   "grafia_2026": "Araucária",
+   "uf": "PR",
+   "sede": "Araucária",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DO FORO REGIONAL DE ARAUCÁRIA DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DO FORO REGIONAL DE ARAUCÁRIA DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "foro regional: confira a denominação do foro na Comarca da Região Metropolitana de Curitiba; Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Assaí": {
+   "grafia_2026": "Assaí",
+   "uf": "PR",
+   "sede": "Assaí",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ASSAÍ - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE ASSAÍ - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Assis Chateaubriand": {
+   "grafia_2026": "Assis Chateaubriand",
+   "uf": "PR",
+   "sede": "Assis Chateaubriand",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ASSIS CHATEAUBRIAND - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE ASSIS CHATEAUBRIAND - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Astorga": {
+   "grafia_2026": "Astorga",
+   "uf": "PR",
+   "sede": "Astorga",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ASTORGA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE ASTORGA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Bandeirantes": {
+   "grafia_2026": "Bandeirantes",
+   "uf": "PR",
+   "sede": "Bandeirantes",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE BANDEIRANTES - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE BANDEIRANTES - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Barbosa Ferraz": {
+   "grafia_2026": "Barbosa Ferraz",
+   "uf": "PR",
+   "sede": "Barbosa Ferraz",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE BARBOSA FERRAZ - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE BARBOSA FERRAZ - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Barracão": {
+   "grafia_2026": "Barracão",
+   "uf": "PR",
+   "sede": "Barracão",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE BARRACÃO - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE BARRACÃO - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Bela Vista do Paraíso": {
+   "grafia_2026": "Bela Vista do Paraíso",
+   "uf": "PR",
+   "sede": "Bela Vista do Paraíso",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE BELA VISTA DO PARAÍSO - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE BELA VISTA DO PARAÍSO - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Bocaiúva do Sul": {
+   "grafia_2026": "Bocaiúva do Sul",
+   "uf": "PR",
+   "sede": "Bocaiúva do Sul",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE BOCAIÚVA DO SUL - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE BOCAIÚVA DO SUL - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Cambará": {
+   "grafia_2026": "Cambará",
+   "uf": "PR",
+   "sede": "Cambará",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CAMBARÁ - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE CAMBARÁ - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Cambé": {
+   "grafia_2026": "Cambé",
+   "uf": "PR",
+   "sede": "Cambé",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CAMBÉ - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE CAMBÉ - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Campina da Lagoa": {
+   "grafia_2026": "Campina da Lagoa",
+   "uf": "PR",
+   "sede": "Campina da Lagoa",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CAMPINA DA LAGOA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE CAMPINA DA LAGOA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Campina Grande do Sul": {
+   "grafia_2026": "Campina Grande do Sul",
+   "uf": "PR",
+   "sede": "Campina Grande do Sul",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DO FORO REGIONAL DE CAMPINA GRANDE DO SUL DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DO FORO REGIONAL DE CAMPINA GRANDE DO SUL DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "foro regional: confira a denominação do foro na Comarca da Região Metropolitana de Curitiba; Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Campo Largo": {
+   "grafia_2026": "Campo Largo",
+   "uf": "PR",
+   "sede": "Campo Largo",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DO FORO REGIONAL DE CAMPO LARGO DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DO FORO REGIONAL DE CAMPO LARGO DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "foro regional: confira a denominação do foro na Comarca da Região Metropolitana de Curitiba; Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Campo Mourão": {
+   "grafia_2026": "Campo Mourão",
+   "uf": "PR",
+   "sede": "Campo Mourão",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CAMPO MOURÃO - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE CAMPO MOURÃO - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Cândido de Abreu": {
+   "grafia_2026": "Cândido de Abreu",
+   "uf": "PR",
+   "sede": "Cândido de Abreu",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CÂNDIDO DE ABREU - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE CÂNDIDO DE ABREU - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Cantagalo": {
+   "grafia_2026": "Cantagalo",
+   "uf": "PR",
+   "sede": "Cantagalo",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CANTAGALO - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE CANTAGALO - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Capanema": {
+   "grafia_2026": "Capanema",
+   "uf": "PR",
+   "sede": "Capanema",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CAPANEMA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE CAPANEMA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Capitão Leônidas Marques": {
+   "grafia_2026": "Capitão Leônidas Marques",
+   "uf": "PR",
+   "sede": "Capitão Leônidas Marques",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CAPITÃO LEÔNIDAS MARQUES - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE CAPITÃO LEÔNIDAS MARQUES - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Carlópolis": {
+   "grafia_2026": "Carlópolis",
+   "uf": "PR",
+   "sede": "Carlópolis",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CARLÓPOLIS - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE CARLÓPOLIS - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Cascavel": {
+   "grafia_2026": "Cascavel",
+   "uf": "PR",
+   "sede": "Cascavel",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "1º Juizado Especial Cível, Criminal e Fazenda Pública",
+     "2º Juizado Especial Cível, Criminal e Fazenda Pública",
+     "3º Juizado Especial Cível, Criminal e Fazenda Pública (antigo JECRIM)"
+    ],
+    "enderecamento": "AO JUÍZO DO [N]º JUIZADO ESPECIAL CÍVEL DA COMARCA DE CASCAVEL - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE CASCAVEL - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Castro": {
+   "grafia_2026": "Castro",
+   "uf": "PR",
+   "sede": "Castro",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CASTRO - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE CASTRO - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Catanduvas": {
+   "grafia_2026": "Catanduvas",
+   "uf": "PR",
+   "sede": "Catanduvas",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CATANDUVAS - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE CATANDUVAS - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Centenário do Sul": {
+   "grafia_2026": "Centenário do Sul",
+   "uf": "PR",
+   "sede": "Centenário do Sul",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CENTENÁRIO DO SUL - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE CENTENÁRIO DO SUL - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Cerro Azul": {
+   "grafia_2026": "Cerro Azul",
+   "uf": "PR",
+   "sede": "Cerro Azul",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CERRO AZUL - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE CERRO AZUL - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Chopinzinho": {
+   "grafia_2026": "Chopinzinho",
+   "uf": "PR",
+   "sede": "Chopinzinho",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CHOPINZINHO - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE CHOPINZINHO - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Cianorte": {
+   "grafia_2026": "Cianorte",
+   "uf": "PR",
+   "sede": "Cianorte",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CIANORTE - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE CIANORTE - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Cidade Gaúcha": {
+   "grafia_2026": "Cidade Gaúcha",
+   "uf": "PR",
+   "sede": "Cidade Gaúcha",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CIDADE GAÚCHA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE CIDADE GAÚCHA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Clevelândia": {
+   "grafia_2026": "Clevelândia",
+   "uf": "PR",
+   "sede": "Clevelândia",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CLEVELÂNDIA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE CLEVELÂNDIA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Colombo": {
+   "grafia_2026": "Colombo",
+   "uf": "PR",
+   "sede": "Colombo",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DO FORO REGIONAL DE COLOMBO DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DO FORO REGIONAL DE COLOMBO DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "foro regional: confira a denominação do foro na Comarca da Região Metropolitana de Curitiba; Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Colorado": {
+   "grafia_2026": "Colorado",
+   "uf": "PR",
+   "sede": "Colorado",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE COLORADO - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE COLORADO - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Congonhinhas": {
+   "grafia_2026": "Congonhinhas",
+   "uf": "PR",
+   "sede": "Congonhinhas",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CONGONHINHAS - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE CONGONHINHAS - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Corbélia": {
+   "grafia_2026": "Corbélia",
+   "uf": "PR",
+   "sede": "Corbélia",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CORBÉLIA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE CORBÉLIA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Cornélio Procópio": {
+   "grafia_2026": "Cornélio Procópio",
+   "uf": "PR",
+   "sede": "Cornélio Procópio",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa sem Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CORNÉLIO PROCÓPIO - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE CORNÉLIO PROCÓPIO - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Coronel Vivida": {
+   "grafia_2026": "Coronel Vivida",
+   "uf": "PR",
+   "sede": "Coronel Vivida",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CORONEL VIVIDA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE CORONEL VIVIDA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Cruzeiro do Oeste": {
+   "grafia_2026": "Cruzeiro do Oeste",
+   "uf": "PR",
+   "sede": "Cruzeiro do Oeste",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CRUZEIRO DO OESTE - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE CRUZEIRO DO OESTE - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Curitiba": {
+   "grafia_2026": "Curitiba",
+   "uf": "PR",
+   "sede": "Curitiba",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "1º Juizado Especial Cível (Matéria Bancária)",
+     "2º Juizado Especial Cível, Criminal e Fazenda Pública",
+     "3º Juizado Especial Cível (Telecomunicações)",
+     "4º Juizado Especial Cível, Criminal e Fazenda Pública",
+     "5º Juizado Especial Cível, Criminal e Fazenda Pública",
+     "6º Juizado Especial Cível, Criminal e Fazenda Pública",
+     "7º Juizado Especial Cível (Acidentes de Trânsito)",
+     "8º Juizado Especial Cível, Criminal e Fazenda Pública",
+     "11º Juizado Especial Cível, Criminal e Fazenda Pública (antigo 1º JECRIM)",
+     "12º Juizado Especial Cível, Criminal e Fazenda Pública (antigo 2º JECRIM)",
+     "13º Juizado Especial Cível, Criminal e Fazenda Pública (antigo 3º JECRIM)",
+     "14º Juizado Especial Cível, Criminal e Fazenda Pública (antigo 4º JECRIM)",
+     "15º Juizado Especial Cível, Criminal e Fazenda Pública (antigo Juizado Especial Fazenda Pública)",
+     "9º Juizado Especial Cível, Criminal e Fazenda Pública - Sítio Cercado",
+     "10º Juizado Especial Cível, Criminal e da Fazenda Pública - Sítio Cercado Competência: Ganchinho, Sítio Cercado, Umbará e Xaxim"
+    ],
+    "enderecamento": "AO JUÍZO DO [N]º JUIZADO ESPECIAL CÍVEL DO FORO CENTRAL DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DO FORO CENTRAL DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Curitiba: a fonte lista o 1º Juizado Especial Cível (Matéria Bancária) e Juizados regionais por bairro (Sítio Cercado, Santa Felicidade, CIC, Pinheirinho); confira a unidade pela matéria e pelo bairro do autor; Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Curiúva": {
+   "grafia_2026": "Curiúva",
+   "uf": "PR",
+   "sede": "Curiúva",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CURIÚVA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE CURIÚVA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Dois Vizinhos": {
+   "grafia_2026": "Dois Vizinhos",
+   "uf": "PR",
+   "sede": "Dois Vizinhos",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE DOIS VIZINHOS - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE DOIS VIZINHOS - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Engenheiro Beltrão": {
+   "grafia_2026": "Engenheiro Beltrão",
+   "uf": "PR",
+   "sede": "Engenheiro Beltrão",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ENGENHEIRO BELTRÃO - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE ENGENHEIRO BELTRÃO - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Faxinal": {
+   "grafia_2026": "Faxinal",
+   "uf": "PR",
+   "sede": "Faxinal",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE FAXINAL - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE FAXINAL - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Fazenda Rio Grande": {
+   "grafia_2026": "Fazenda Rio Grande",
+   "uf": "PR",
+   "sede": "Fazenda Rio Grande",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz",
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DO FORO REGIONAL DE FAZENDA RIO GRANDE DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DO FORO REGIONAL DE FAZENDA RIO GRANDE DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "foro regional: confira a denominação do foro na Comarca da Região Metropolitana de Curitiba; Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Formosa do Oeste": {
+   "grafia_2026": "Formosa do Oeste",
+   "uf": "PR",
+   "sede": "Formosa do Oeste",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE FORMOSA DO OESTE - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE FORMOSA DO OESTE - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Foz do Iguaçu": {
+   "grafia_2026": "Foz do Iguaçu",
+   "uf": "PR",
+   "sede": "Foz do Iguaçu",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "1º Juizado Especial Cível, Criminal e Fazenda Pública",
+     "2º Juizado Especial Cível, Criminal e Fazenda Pública",
+     "3º Juizado Especial Cível, Criminal e Fazenda Pública (antigo JECRIM)"
+    ],
+    "enderecamento": "AO JUÍZO DO [N]º JUIZADO ESPECIAL CÍVEL DA COMARCA DE FOZ DO IGUAÇU - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE FOZ DO IGUAÇU - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Francisco Beltrão": {
+   "grafia_2026": "Francisco Beltrão",
+   "uf": "PR",
+   "sede": "Francisco Beltrão",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE FRANCISCO BELTRÃO - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE FRANCISCO BELTRÃO - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Goioerê": {
+   "grafia_2026": "Goioerê",
+   "uf": "PR",
+   "sede": "Goioerê",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE GOIOERÊ - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE GOIOERÊ - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte não traz a unidade do Juizado desta comarca; Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Grandes Rios": {
+   "grafia_2026": "Grandes Rios",
+   "uf": "PR",
+   "sede": "Grandes Rios",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE GRANDES RIOS - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE GRANDES RIOS - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Guaíra": {
+   "grafia_2026": "Guaíra",
+   "uf": "PR",
+   "sede": "Guaíra",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa sem Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE GUAÍRA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE GUAÍRA - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Guaraniaçu": {
+   "grafia_2026": "Guaraniaçu",
+   "uf": "PR",
+   "sede": "Guaraniaçu",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE GUARANIAÇU - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE GUARANIAÇU - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Guarapuava": {
+   "grafia_2026": "Guarapuava",
+   "uf": "PR",
+   "sede": "Guarapuava",
+   "entrancia": null,
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+     "1.º Juizado Especial Cível/Criminal e Fazenda Pública",
+     "2.º Juizado Especial Cível/Criminal e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DO [N]º JUIZADO ESPECIAL CÍVEL DA COMARCA DE GUARAPUAVA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE GUARAPUAVA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Guaratuba": {
+   "grafia_2026": "Guaratuba",
+   "uf": "PR",
+   "sede": "Guaratuba",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE GUARATUBA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE GUARATUBA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Ibaiti": {
+   "grafia_2026": "Ibaiti",
+   "uf": "PR",
+   "sede": "Ibaiti",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE IBAITI - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE IBAITI - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Ibiporã": {
+   "grafia_2026": "Ibiporã",
+   "uf": "PR",
+   "sede": "Ibiporã",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE IBIPORÃ - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE IBIPORÃ - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Icaraíma": {
+   "grafia_2026": "Icaraíma",
+   "uf": "PR",
+   "sede": "Icaraíma",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ICARAÍMA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE ICARAÍMA - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte não traz a unidade do Juizado desta comarca; Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Imbituva": {
+   "grafia_2026": "Imbituva",
+   "uf": "PR",
+   "sede": "Imbituva",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE IMBITUVA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE IMBITUVA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Ipiranga": {
+   "grafia_2026": "Ipiranga",
+   "uf": "PR",
+   "sede": "Ipiranga",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE IPIRANGA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE IPIRANGA - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte não traz a unidade do Juizado desta comarca; Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Iporã": {
+   "grafia_2026": "Iporã",
+   "uf": "PR",
+   "sede": "Iporã",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa sem Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE IPORÃ - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE IPORÃ - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Irati": {
+   "grafia_2026": "Irati",
+   "uf": "PR",
+   "sede": "Irati",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE IRATI - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE IRATI - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Iretama": {
+   "grafia_2026": "Iretama",
+   "uf": "PR",
+   "sede": "Iretama",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE IRETAMA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE IRETAMA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Ivaiporã": {
+   "grafia_2026": "Ivaiporã",
+   "uf": "PR",
+   "sede": "Ivaiporã",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa sem Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE IVAIPORÃ - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE IVAIPORÃ - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Jacarezinho": {
+   "grafia_2026": "Jacarezinho",
+   "uf": "PR",
+   "sede": "Jacarezinho",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa sem Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE JACAREZINHO - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE JACAREZINHO - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Jaguapitã": {
+   "grafia_2026": "Jaguapitã",
+   "uf": "PR",
+   "sede": "Jaguapitã",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE JAGUAPITÃ - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE JAGUAPITÃ - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Jaguariaíva": {
+   "grafia_2026": "Jaguariaíva",
+   "uf": "PR",
+   "sede": "Jaguariaíva",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE JAGUARIAÍVA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE JAGUARIAÍVA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Jandaia do Sul": {
+   "grafia_2026": "Jandaia do Sul",
+   "uf": "PR",
+   "sede": "Jandaia do Sul",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE JANDAIA DO SUL - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE JANDAIA DO SUL - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Joaquim Távora": {
+   "grafia_2026": "Joaquim Távora",
+   "uf": "PR",
+   "sede": "Joaquim Távora",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE JOAQUIM TÁVORA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE JOAQUIM TÁVORA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Lapa": {
+   "grafia_2026": "Lapa",
+   "uf": "PR",
+   "sede": "Lapa",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DO FORO REGIONAL DE LAPA DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DO FORO REGIONAL DE LAPA DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "foro regional: confira a denominação do foro na Comarca da Região Metropolitana de Curitiba; Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Laranjeiras do Sul": {
+   "grafia_2026": "Laranjeiras do Sul",
+   "uf": "PR",
+   "sede": "Laranjeiras do Sul",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE LARANJEIRAS DO SUL - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE LARANJEIRAS DO SUL - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Loanda": {
+   "grafia_2026": "Loanda",
+   "uf": "PR",
+   "sede": "Loanda",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE LOANDA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE LOANDA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Londrina": {
+   "grafia_2026": "Londrina",
+   "uf": "PR",
+   "sede": "Londrina",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "1º Juizado Especial Cível, Criminal e Fazenda Pública",
+     "2º Juizado Especial Cível, Criminal e Fazenda Pública",
+     "3º Juizado Especial Cível, Criminal e Fazenda Pública",
+     "4º Juizado Especial Cível, Criminal e Fazenda Pública",
+     "5.º Juizado Especial Cível, Criminal e Fazenda Pública",
+     "6.º Juizado Especial Cível, Criminal e Fazenda Pública"
+    ],
+    "enderecamento": "AO JUÍZO DO [N]º JUIZADO ESPECIAL CÍVEL DA COMARCA DE LONDRINA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE LONDRINA - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Mallet": {
+   "grafia_2026": "Mallet",
+   "uf": "PR",
+   "sede": "Mallet",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE MALLET - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE MALLET - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Mamborê": {
+   "grafia_2026": "Mamborê",
+   "uf": "PR",
+   "sede": "Mamborê",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE MAMBORÊ - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE MAMBORÊ - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Mandaguaçu": {
+   "grafia_2026": "Mandaguaçu",
+   "uf": "PR",
+   "sede": "Mandaguaçu",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE MANDAGUAÇU - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE MANDAGUAÇU - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Mandaguari": {
+   "grafia_2026": "Mandaguari",
+   "uf": "PR",
+   "sede": "Mandaguari",
+   "entrancia": null,
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE MANDAGUARI - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE MANDAGUARI - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Mangueirinha": {
+   "grafia_2026": "Mangueirinha",
+   "uf": "PR",
+   "sede": "Mangueirinha",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE MANGUEIRINHA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE MANGUEIRINHA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Manoel Ribas": {
+   "grafia_2026": "Manoel Ribas",
+   "uf": "PR",
+   "sede": "Manoel Ribas",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE MANOEL RIBAS - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE MANOEL RIBAS - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Marechal Cândido Rondon": {
+   "grafia_2026": "Marechal Cândido Rondon",
+   "uf": "PR",
+   "sede": "Marechal Cândido Rondon",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa sem Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE MARECHAL CÂNDIDO RONDON - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE MARECHAL CÂNDIDO RONDON - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Marialva": {
+   "grafia_2026": "Marialva",
+   "uf": "PR",
+   "sede": "Marialva",
+   "entrancia": null,
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE MARIALVA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE MARIALVA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Marilândia do Sul": {
+   "grafia_2026": "Marilândia do Sul",
+   "uf": "PR",
+   "sede": "Marilândia do Sul",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE MARILÂNDIA DO SUL - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE MARILÂNDIA DO SUL - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Maringá": {
+   "grafia_2026": "Maringá",
+   "uf": "PR",
+   "sede": "Maringá",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "1º Juizado Especial Cível, Criminal e Fazenda Pública",
+     "2º Juizado Especial Cível, Criminal e Fazenda Pública",
+     "3º Juizado Especial Cível, Criminal e Fazenda Pública",
+     "4º Juizado Especial Cível, Criminal e Fazenda Pública (antigo JECRIM)"
+    ],
+    "enderecamento": "AO JUÍZO DO [N]º JUIZADO ESPECIAL CÍVEL DA COMARCA DE MARINGÁ - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE MARINGÁ - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Marmeleiro": {
+   "grafia_2026": "Marmeleiro",
+   "uf": "PR",
+   "sede": "Marmeleiro",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE MARMELEIRO - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE MARMELEIRO - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Matelândia": {
+   "grafia_2026": "Matelândia",
+   "uf": "PR",
+   "sede": "Matelândia",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE MATELÂNDIA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE MATELÂNDIA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Matinhos": {
+   "grafia_2026": "Matinhos",
+   "uf": "PR",
+   "sede": "Matinhos",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE MATINHOS - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE MATINHOS - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Medianeira": {
+   "grafia_2026": "Medianeira",
+   "uf": "PR",
+   "sede": "Medianeira",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE MEDIANEIRA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE MEDIANEIRA - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte não traz a unidade do Juizado desta comarca; Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Morretes": {
+   "grafia_2026": "Morretes",
+   "uf": "PR",
+   "sede": "Morretes",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE MORRETES - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE MORRETES - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Nova Esperança": {
+   "grafia_2026": "Nova Esperança",
+   "uf": "PR",
+   "sede": "Nova Esperança",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE NOVA ESPERANÇA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE NOVA ESPERANÇA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Nova Fátima": {
+   "grafia_2026": "Nova Fátima",
+   "uf": "PR",
+   "sede": "Nova Fátima",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE NOVA FÁTIMA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE NOVA FÁTIMA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Nova Londrina": {
+   "grafia_2026": "Nova Londrina",
+   "uf": "PR",
+   "sede": "Nova Londrina",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE NOVA LONDRINA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE NOVA LONDRINA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Ortigueira": {
+   "grafia_2026": "Ortigueira",
+   "uf": "PR",
+   "sede": "Ortigueira",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ORTIGUEIRA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE ORTIGUEIRA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Palmas": {
+   "grafia_2026": "Palmas",
+   "uf": "PR",
+   "sede": "Palmas",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PALMAS - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE PALMAS - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Palmeira": {
+   "grafia_2026": "Palmeira",
+   "uf": "PR",
+   "sede": "Palmeira",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PALMEIRA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE PALMEIRA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Palmital": {
+   "grafia_2026": "Palmital",
+   "uf": "PR",
+   "sede": "Palmital",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PALMITAL - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE PALMITAL - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Palotina": {
+   "grafia_2026": "Palotina",
+   "uf": "PR",
+   "sede": "Palotina",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PALOTINA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE PALOTINA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Paraíso do Norte": {
+   "grafia_2026": "Paraíso do Norte",
+   "uf": "PR",
+   "sede": "Paraíso do Norte",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PARAÍSO DO NORTE - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE PARAÍSO DO NORTE - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Paranacity": {
+   "grafia_2026": "Paranacity",
+   "uf": "PR",
+   "sede": "Paranacity",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PARANACITY - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE PARANACITY - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Paranaguá": {
+   "grafia_2026": "Paranaguá",
+   "uf": "PR",
+   "sede": "Paranaguá",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PARANAGUÁ - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE PARANAGUÁ - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Paranavaí": {
+   "grafia_2026": "Paranavaí",
+   "uf": "PR",
+   "sede": "Paranavaí",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PARANAVAÍ - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE PARANAVAÍ - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Pato Branco": {
+   "grafia_2026": "Pato Branco",
+   "uf": "PR",
+   "sede": "Pato Branco",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PATO BRANCO - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE PATO BRANCO - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Peabiru": {
+   "grafia_2026": "Peabiru",
+   "uf": "PR",
+   "sede": "Peabiru",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PEABIRU - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE PEABIRU - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Pérola": {
+   "grafia_2026": "Pérola",
+   "uf": "PR",
+   "sede": "Pérola",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PÉROLA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE PÉROLA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Pinhais": {
+   "grafia_2026": "Pinhais",
+   "uf": "PR",
+   "sede": "Pinhais",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DO FORO REGIONAL DE PINHAIS DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DO FORO REGIONAL DE PINHAIS DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "foro regional: confira a denominação do foro na Comarca da Região Metropolitana de Curitiba; Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Pinhão": {
+   "grafia_2026": "Pinhão",
+   "uf": "PR",
+   "sede": "Pinhão",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PINHÃO - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE PINHÃO - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Piraí do Sul": {
+   "grafia_2026": "Piraí do Sul",
+   "uf": "PR",
+   "sede": "Piraí do Sul",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PIRAÍ DO SUL - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE PIRAÍ DO SUL - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Piraquara": {
+   "grafia_2026": "Piraquara",
+   "uf": "PR",
+   "sede": "Piraquara",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DO FORO REGIONAL DE PIRAQUARA DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DO FORO REGIONAL DE PIRAQUARA DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "foro regional: confira a denominação do foro na Comarca da Região Metropolitana de Curitiba; Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Pitanga": {
+   "grafia_2026": "Pitanga",
+   "uf": "PR",
+   "sede": "Pitanga",
+   "entrancia": null,
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PITANGA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE PITANGA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Ponta Grossa": {
+   "grafia_2026": "Ponta Grossa",
+   "uf": "PR",
+   "sede": "Ponta Grossa",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "1º Juizado Especial Cível, Criminal e Fazenda Pública",
+     "2º Juizado Especial Cível, Criminal e Fazenda Pública",
+     "3º Juizado Especial Cível, Criminal e Fazenda Pública (antigo JECRIM)"
+    ],
+    "enderecamento": "AO JUÍZO DO [N]º JUIZADO ESPECIAL CÍVEL DA COMARCA DE PONTA GROSSA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE PONTA GROSSA - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Porecatu": {
+   "grafia_2026": "Porecatu",
+   "uf": "PR",
+   "sede": "Porecatu",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PORECATU - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE PORECATU - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Primeiro de Maio": {
+   "grafia_2026": "Primeiro de Maio",
+   "uf": "PR",
+   "sede": "Primeiro de Maio",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PRIMEIRO DE MAIO - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE PRIMEIRO DE MAIO - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Prudentópolis": {
+   "grafia_2026": "Prudentópolis",
+   "uf": "PR",
+   "sede": "Prudentópolis",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PRUDENTÓPOLIS - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE PRUDENTÓPOLIS - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Quedas do Iguaçu": {
+   "grafia_2026": "Quedas do Iguaçu",
+   "uf": "PR",
+   "sede": "Quedas do Iguaçu",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE QUEDAS DO IGUAÇU - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE QUEDAS DO IGUAÇU - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Realeza": {
+   "grafia_2026": "Realeza",
+   "uf": "PR",
+   "sede": "Realeza",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE REALEZA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE REALEZA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Rebouças": {
+   "grafia_2026": "Rebouças",
+   "uf": "PR",
+   "sede": "Rebouças",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE REBOUÇAS - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE REBOUÇAS - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Reserva": {
+   "grafia_2026": "Reserva",
+   "uf": "PR",
+   "sede": "Reserva",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE RESERVA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE RESERVA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Ribeirão Claro": {
+   "grafia_2026": "Ribeirão Claro",
+   "uf": "PR",
+   "sede": "Ribeirão Claro",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE RIBEIRÃO CLARO - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE RIBEIRÃO CLARO - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Ribeirão do Pinhal": {
+   "grafia_2026": "Ribeirão do Pinhal",
+   "uf": "PR",
+   "sede": "Ribeirão do Pinhal",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE RIBEIRÃO DO PINHAL - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE RIBEIRÃO DO PINHAL - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Rio Branco do Sul": {
+   "grafia_2026": "Rio Branco do Sul",
+   "uf": "PR",
+   "sede": "Rio Branco do Sul",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE RIO BRANCO DO SUL - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE RIO BRANCO DO SUL - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Rio Negro": {
+   "grafia_2026": "Rio Negro",
+   "uf": "PR",
+   "sede": "Rio Negro",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE RIO NEGRO - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE RIO NEGRO - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Rolândia": {
+   "grafia_2026": "Rolândia",
+   "uf": "PR",
+   "sede": "Rolândia",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa sem Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ROLÂNDIA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE ROLÂNDIA - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Salto do Lontra": {
+   "grafia_2026": "Salto do Lontra",
+   "uf": "PR",
+   "sede": "Salto do Lontra",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SALTO DO LONTRA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE SALTO DO LONTRA - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte não traz a unidade do Juizado desta comarca; Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Santa Fé": {
+   "grafia_2026": "Santa Fé",
+   "uf": "PR",
+   "sede": "Santa Fé",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SANTA FÉ - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE SANTA FÉ - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte não traz a unidade do Juizado desta comarca; Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Santa Helena": {
+   "grafia_2026": "Santa Helena",
+   "uf": "PR",
+   "sede": "Santa Helena",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SANTA HELENA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE SANTA HELENA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Santa Isabel do Ivaí": {
+   "grafia_2026": "Santa Isabel do Ivaí",
+   "uf": "PR",
+   "sede": "Santa Isabel do Ivaí",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SANTA ISABEL DO IVAÍ - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE SANTA ISABEL DO IVAÍ - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Santa Mariana": {
+   "grafia_2026": "Santa Mariana",
+   "uf": "PR",
+   "sede": "Santa Mariana",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SANTA MARIANA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE SANTA MARIANA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Santo Antônio da Platina": {
+   "grafia_2026": "Santo Antônio da Platina",
+   "uf": "PR",
+   "sede": "Santo Antônio da Platina",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SANTO ANTÔNIO DA PLATINA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE SANTO ANTÔNIO DA PLATINA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Santo Antônio do Sudoeste": {
+   "grafia_2026": "Santo Antônio do Sudoeste",
+   "uf": "PR",
+   "sede": "Santo Antônio do Sudoeste",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SANTO ANTÔNIO DO SUDOESTE - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE SANTO ANTÔNIO DO SUDOESTE - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "São Jerônimo da Serra": {
+   "grafia_2026": "São Jerônimo da Serra",
+   "uf": "PR",
+   "sede": "São Jerônimo da Serra",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SÃO JERÔNIMO DA SERRA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE SÃO JERÔNIMO DA SERRA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "São João": {
+   "grafia_2026": "São João",
+   "uf": "PR",
+   "sede": "São João",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SÃO JOÃO - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE SÃO JOÃO - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte não traz a unidade do Juizado desta comarca; Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "São João do Ivaí": {
+   "grafia_2026": "São João do Ivaí",
+   "uf": "PR",
+   "sede": "São João do Ivaí",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SÃO JOÃO DO IVAÍ - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE SÃO JOÃO DO IVAÍ - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "São João do Triunfo": {
+   "grafia_2026": "São João do Triunfo",
+   "uf": "PR",
+   "sede": "São João do Triunfo",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SÃO JOÃO DO TRIUNFO - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE SÃO JOÃO DO TRIUNFO - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "São José dos Pinhais": {
+   "grafia_2026": "São José dos Pinhais",
+   "uf": "PR",
+   "sede": "São José dos Pinhais",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "1º Juizado Especial Cível, Criminal e Fazenda Pública",
+     "2º Juizado Especial Cível, Criminal e Fazenda Pública",
+     "3º Juizado Especial Cível, Criminal e Fazenda Pública (antigo JECRIM)"
+    ],
+    "enderecamento": "AO JUÍZO DO [N]º JUIZADO ESPECIAL CÍVEL DO FORO REGIONAL DE SÃO JOSÉ DOS PINHAIS DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DO FORO REGIONAL DE SÃO JOSÉ DOS PINHAIS DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "foro regional: confira a denominação do foro na Comarca da Região Metropolitana de Curitiba; Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "São Mateus do Sul": {
+   "grafia_2026": "São Mateus do Sul",
+   "uf": "PR",
+   "sede": "São Mateus do Sul",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SÃO MATEUS DO SUL - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE SÃO MATEUS DO SUL - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "São Miguel do Iguaçu": {
+   "grafia_2026": "São Miguel do Iguaçu",
+   "uf": "PR",
+   "sede": "São Miguel do Iguaçu",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SÃO MIGUEL DO IGUAÇU - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE SÃO MIGUEL DO IGUAÇU - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Sarandi": {
+   "grafia_2026": "Sarandi",
+   "uf": "PR",
+   "sede": "Sarandi",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SARANDI - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE SARANDI - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte não traz a unidade do Juizado desta comarca; Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Sengés": {
+   "grafia_2026": "Sengés",
+   "uf": "PR",
+   "sede": "Sengés",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SENGÉS - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE SENGÉS - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Sertanópolis": {
+   "grafia_2026": "Sertanópolis",
+   "uf": "PR",
+   "sede": "Sertanópolis",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SERTANÓPOLIS - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE SERTANÓPOLIS - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Siqueira Campos": {
+   "grafia_2026": "Siqueira Campos",
+   "uf": "PR",
+   "sede": "Siqueira Campos",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SIQUEIRA CAMPOS - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE SIQUEIRA CAMPOS - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Teixeira Soares": {
+   "grafia_2026": "Teixeira Soares",
+   "uf": "PR",
+   "sede": "Teixeira Soares",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE TEIXEIRA SOARES - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE TEIXEIRA SOARES - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Telêmaco Borba": {
+   "grafia_2026": "Telêmaco Borba",
+   "uf": "PR",
+   "sede": "Telêmaco Borba",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE TELÊMACO BORBA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE TELÊMACO BORBA - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Terra Boa": {
+   "grafia_2026": "Terra Boa",
+   "uf": "PR",
+   "sede": "Terra Boa",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE TERRA BOA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE TERRA BOA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Terra Rica": {
+   "grafia_2026": "Terra Rica",
+   "uf": "PR",
+   "sede": "Terra Rica",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE TERRA RICA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE TERRA RICA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Terra Roxa": {
+   "grafia_2026": "Terra Roxa",
+   "uf": "PR",
+   "sede": "Terra Roxa",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE TERRA ROXA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE TERRA ROXA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Tibagi": {
+   "grafia_2026": "Tibagi",
+   "uf": "PR",
+   "sede": "Tibagi",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE TIBAGI - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE TIBAGI - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Toledo": {
+   "grafia_2026": "Toledo",
+   "uf": "PR",
+   "sede": "Toledo",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE TOLEDO - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE TOLEDO - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Tomazina": {
+   "grafia_2026": "Tomazina",
+   "uf": "PR",
+   "sede": "Tomazina",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE TOMAZINA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE TOMAZINA - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Ubiratã": {
+   "grafia_2026": "Ubiratã",
+   "uf": "PR",
+   "sede": "Ubiratã",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE UBIRATÃ - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE UBIRATÃ - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Umuarama": {
+   "grafia_2026": "Umuarama",
+   "uf": "PR",
+   "sede": "Umuarama",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE UMUARAMA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE UMUARAMA - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "União da Vitória": {
+   "grafia_2026": "União da Vitória",
+   "uf": "PR",
+   "sede": "União da Vitória",
+   "entrancia": "Final",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Unidade Administrativa com Juiz"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE UNIÃO DA VITÓRIA - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE UNIÃO DA VITÓRIA - PR"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Uraí": {
+   "grafia_2026": "Uraí",
+   "uf": "PR",
+   "sede": "Uraí",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE URAÍ - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE URAÍ - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Wenceslau Braz": {
+   "grafia_2026": "Wenceslau Braz",
+   "uf": "PR",
+   "sede": "Wenceslau Braz",
+   "entrancia": "Intermediária",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE WENCESLAU BRAZ - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE WENCESLAU BRAZ - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  },
+  "Xambrê": {
+   "grafia_2026": "Xambrê",
+   "uf": "PR",
+   "sede": "Xambrê",
+   "entrancia": "Inicial",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [
+     "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto"
+    ],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE XAMBRÊ - PR"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA CÍVEL DA COMARCA DE XAMBRÊ - PR"
+   },
+   "juizado_adjunto": "Juizado Especial Cível, Criminal e da Fazenda Pública Juizado Adjunto",
+   "conferir": "Justiça Comum: a fonte do TJPR só traz os Juizados; confira o nome e o número da vara cível"
+  }
+ }
+}

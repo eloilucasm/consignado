@@ -77,6 +77,15 @@ A curadoria está em `_manutencao/gerar-indice-jurisprudencia.py` (lista `DADOS`
 
 Quando o TJBA publicar nova Relação Municípios x Comarca, atualize antes o `tjba_comarcas.json`. Salvador (Juizados do Consumidor e Varas de Relações de Consumo) está fixo no `gerar_doc.py`: confira no Portal dos Juizados e na relação da entrância final da capital.
 
+## Tabelas de comarcas de MG, PR e SC (endereçamento)
+
+`_acervo/dados/tj{mg,pr,sc}_comarcas.json`, `tj{mg,pr,sc}_unidades.json` e `territorial-tj{mg,pr,sc}.md` saem de `_manutencao/coleta/territorial_ufs.py` (versão de 22/11/2026), que lê as fontes do escritório em `_manutencao/coleta/tjmg/`, `tjpr/` e `tjsc/` e confere a cobertura contra a lista de municípios do IBGE. Para refazer:
+1. Baixe a lista do IBGE numa pasta de preparo: `https://servicodados.ibge.gov.br/api/v1/localidades/estados/{MG,PR,SC}/municipios` gravados como `MG.json`, `PR.json`, `SC.json`.
+2. `python -I _manutencao/coleta/territorial_ufs.py <pasta> .` (sem o `.`, só mostra a cobertura). Município novo sem comarca ou em duas jurisdições aparece no relatório e na chave `conferir`; grafia diferente da do IBGE vai para `PR_APELIDOS`/`MG_APELIDOS`.
+3. `sincronizar-acervo.js --aplicar` e o verificador.
+
+A forma do endereçamento dos três estados foi aprovada pelo escritório em 22/11/2026 (`aprovado_pelo_escritorio` gravado pelo script).
+
 ## Transcrição literal
 
 O verificador confere todo trecho entre aspas ou em bloco `> ` atribuído a norma ou precedente nos `assets/modelo-*.md` e nas peças de `testes/**/saida/` (`inicial*`, `replica*`, `recurso*`): cada pedaço (separado por `(...)`) tem de existir, só com as letras, no arquivo do acervo da skill (`extras.transcricoes` em `verificador.config.js`; normalização em `_manutencao/normalizar.js`). Ementa de precedente sem arquivo no acervo reprova. Norma nova citada nos modelos: acrescente a regex do nome e o arquivo em `transcricoes.normas`.

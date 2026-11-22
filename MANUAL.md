@@ -68,7 +68,7 @@ Documento ilegível vira `[CONFERIR]`. Documento que falta e muda o próximo pas
 
 ## 5. As perguntas que você vai responder (e por quê)
 
-A skill pergunta **uma vez**, no máximo três coisas por rodada, e não escolhe por você. O **juízo e a cidade do fecho não são perguntados**: saem do endereço do cliente (a comarca do TJBA ou a subseção da Justiça Federal), e a cidade do fecho é a sede desse juízo.
+A skill pergunta **uma vez**, no máximo três coisas por rodada, e não escolhe por você. O **juízo e a cidade do fecho não são perguntados**: saem do endereço do cliente (a comarca do TJ do estado, hoje BA, MG, PR e SC, ou a subseção da Justiça Federal), e a cidade do fecho é a sede desse juízo.
 
 | Pergunta | Por quê |
 |---|---|

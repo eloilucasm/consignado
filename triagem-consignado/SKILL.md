@@ -78,7 +78,8 @@ Divergências de qualificação ou de digitação no termo (RG em branco, contra
 - Réu **Caixa Econômica Federal**: **Vara Federal** da (Sub)Seção Judiciária do TRF1 que abrange o município do autor. Tabela: `references/dados/trf1_jurisdicao.json` (original em `references/jurisdicao_trf1.md`).
 - Demais réus: **comarca do TJBA** à qual o município do autor pertence (nem sempre é o próprio município: ex. Palmeiras → comarca de Iraquara). Tabela: `references/dados/tjba_comarcas.json` (original em `references/tjba_relacao_municipios_comarca.pdf`). A unidade vem de `references/dados/tjba_unidades.json`: só 40 comarcas têm Vara do Sistema dos Juizados Especiais; nas demais, o JEC corre na unidade cível da comarca, pelo procedimento da Lei 9.099/95 (`references/dados/territorial-tjba.md`).
 - O script grava em `processos[].competencia` a comarca e em `processos[].enderecamento_jec` e `enderecamento_comum` o endereçamento pronto de cada rito; o rito continua sendo pergunta ao advogado. A cidade vem do endereço do termo. Grafias diferentes (Camacã/Camacan etc.) são casadas por equivalência; se não achar ou só achar parecido, gera alerta "CONFERIR". Nunca escreva subseção ou comarca de memória.
-- Autor fora da BA: não há tabela de comarcas; alerta para conferir.
+- Autor em MG, PR ou SC: mesma lógica, com `references/dados/tj{mg,pr,sc}_comarcas.json` (município → comarca; a chave `conferir` lista município em duas jurisdições ou fora da fonte) e `tj{mg,pr,sc}_unidades.json` (explicação em `territorial-tj{mg,pr,sc}.md`). Forma aprovada pelo escritório em 22/11/2026; o `conferir` da comarca (o que a fonte não traz) sai como alerta. Caixa nesses estados: não há tabela do TRF4/TRF6; alerta para conferir.
+- Autor em outra UF: não há tabela de comarcas; alerta para conferir.
 - Réu fora de `references/dados/reus.json` sai como `[CONFERIR]` nas skills de inicial.
 
 ## Regras que não mudam

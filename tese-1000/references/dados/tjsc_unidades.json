@@ -1,0 +1,2041 @@
+{
+ "fonte": "TJSC: \"Composição das Comarcas\" (circunscrição, entrância, comarca, municípios), arquivo fornecido pelo escritório (_manutencao/coleta/tjsc/fonte-tjsc-composicao-comarcas.md); municípios conferidos com a lista do IBGE (API de localidades). Ver territorial-tjsc.md.",
+ "consulta": "2026-11-22",
+ "aprovado_pelo_escritorio": "2026-11-22",
+ "comarcas": {
+  "Abelardo Luz": {
+   "grafia_2026": "Abelardo Luz",
+   "uf": "SC",
+   "sede": "Abelardo Luz",
+   "entrancia": "Inicial",
+   "circunscricao": "33a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ABELARDO LUZ - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE ABELARDO LUZ - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Anchieta": {
+   "grafia_2026": "Anchieta",
+   "uf": "SC",
+   "sede": "Anchieta",
+   "entrancia": "Inicial",
+   "circunscricao": "37a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ANCHIETA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE ANCHIETA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Anita Garibaldi": {
+   "grafia_2026": "Anita Garibaldi",
+   "uf": "SC",
+   "sede": "Anita Garibaldi",
+   "entrancia": "Inicial",
+   "circunscricao": "12a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ANITA GARIBALDI - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE ANITA GARIBALDI - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Araquari": {
+   "grafia_2026": "Araquari",
+   "uf": "SC",
+   "sede": "Araquari",
+   "entrancia": "Final",
+   "circunscricao": "17a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ARAQUARI - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE ARAQUARI - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Araranguá": {
+   "grafia_2026": "Araranguá",
+   "uf": "SC",
+   "sede": "Araranguá",
+   "entrancia": "Especial",
+   "circunscricao": "7a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ARARANGUÁ - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE ARARANGUÁ - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Armazém": {
+   "grafia_2026": "Armazém",
+   "uf": "SC",
+   "sede": "Armazém",
+   "entrancia": "Inicial",
+   "circunscricao": "6a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ARMAZÉM - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE ARMAZÉM - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Ascurra": {
+   "grafia_2026": "Ascurra",
+   "uf": "SC",
+   "sede": "Ascurra",
+   "entrancia": "Inicial",
+   "circunscricao": "20a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ASCURRA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE ASCURRA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Balneário Camboriú": {
+   "grafia_2026": "Balneário Camboriú",
+   "uf": "SC",
+   "sede": "Balneário Camboriú",
+   "entrancia": "Especial",
+   "circunscricao": "24a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE BALNEÁRIO CAMBORIÚ - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE BALNEÁRIO CAMBORIÚ - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Balneário Piçarras": {
+   "grafia_2026": "Balneário Piçarras",
+   "uf": "SC",
+   "sede": "Balneário Piçarras",
+   "entrancia": "Final",
+   "circunscricao": "23a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE BALNEÁRIO PIÇARRAS - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE BALNEÁRIO PIÇARRAS - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Barra Velha": {
+   "grafia_2026": "Barra Velha",
+   "uf": "SC",
+   "sede": "Barra Velha",
+   "entrancia": "Final",
+   "circunscricao": "17a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE BARRA VELHA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE BARRA VELHA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Biguaçu": {
+   "grafia_2026": "Biguaçu",
+   "uf": "SC",
+   "sede": "Biguaçu",
+   "entrancia": "Final",
+   "circunscricao": "4a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE BIGUAÇU - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE BIGUAÇU - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Blumenau": {
+   "grafia_2026": "Blumenau",
+   "uf": "SC",
+   "sede": "Blumenau",
+   "entrancia": "Especial",
+   "circunscricao": "18a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE BLUMENAU - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE BLUMENAU - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a comarca tem também Foro Universitario; a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Bom Retiro": {
+   "grafia_2026": "Bom Retiro",
+   "uf": "SC",
+   "sede": "Bom Retiro",
+   "entrancia": "Inicial",
+   "circunscricao": "14a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE BOM RETIRO - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE BOM RETIRO - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Braço do Norte": {
+   "grafia_2026": "Braço do Norte",
+   "uf": "SC",
+   "sede": "Braço do Norte",
+   "entrancia": "Final",
+   "circunscricao": "9a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE BRAÇO DO NORTE - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE BRAÇO DO NORTE - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Brusque": {
+   "grafia_2026": "Brusque",
+   "uf": "SC",
+   "sede": "Brusque",
+   "entrancia": "Especial",
+   "circunscricao": "25a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE BRUSQUE - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE BRUSQUE - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Caçador": {
+   "grafia_2026": "Caçador",
+   "uf": "SC",
+   "sede": "Caçador",
+   "entrancia": "Final",
+   "circunscricao": "40a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CAÇADOR - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE CAÇADOR - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Camboriú": {
+   "grafia_2026": "Camboriú",
+   "uf": "SC",
+   "sede": "Camboriú",
+   "entrancia": "Final",
+   "circunscricao": "24a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CAMBORIÚ - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE CAMBORIÚ - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Campo Belo do Sul": {
+   "grafia_2026": "Campo Belo do Sul",
+   "uf": "SC",
+   "sede": "Campo Belo do Sul",
+   "entrancia": "Inicial",
+   "circunscricao": "12a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CAMPO BELO DO SUL - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE CAMPO BELO DO SUL - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Campo Erê": {
+   "grafia_2026": "Campo Erê",
+   "uf": "SC",
+   "sede": "Campo Erê",
+   "entrancia": "Inicial",
+   "circunscricao": "35a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CAMPO ERÊ - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE CAMPO ERÊ - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Campos Novos": {
+   "grafia_2026": "Campos Novos",
+   "uf": "SC",
+   "sede": "Campos Novos",
+   "entrancia": "Final",
+   "circunscricao": "38a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CAMPOS NOVOS - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE CAMPOS NOVOS - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Canoinhas": {
+   "grafia_2026": "Canoinhas",
+   "uf": "SC",
+   "sede": "Canoinhas",
+   "entrancia": "Final",
+   "circunscricao": "27a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CANOINHAS - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE CANOINHAS - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Capinzal": {
+   "grafia_2026": "Capinzal",
+   "uf": "SC",
+   "sede": "Capinzal",
+   "entrancia": "Final",
+   "circunscricao": "38a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CAPINZAL - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE CAPINZAL - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Capivari de Baixo": {
+   "grafia_2026": "Capivari de Baixo",
+   "uf": "SC",
+   "sede": "Capivari de Baixo",
+   "entrancia": "Inicial",
+   "circunscricao": "6a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CAPIVARI DE BAIXO - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE CAPIVARI DE BAIXO - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Catanduvas": {
+   "grafia_2026": "Catanduvas",
+   "uf": "SC",
+   "sede": "Catanduvas",
+   "entrancia": "Inicial",
+   "circunscricao": "38a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CATANDUVAS - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE CATANDUVAS - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Chapecó": {
+   "grafia_2026": "Chapecó",
+   "uf": "SC",
+   "sede": "Chapecó",
+   "entrancia": "Especial",
+   "circunscricao": "30a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CHAPECÓ - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE CHAPECÓ - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Concórdia": {
+   "grafia_2026": "Concórdia",
+   "uf": "SC",
+   "sede": "Concórdia",
+   "entrancia": "Especial",
+   "circunscricao": "31a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CONCÓRDIA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE CONCÓRDIA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Coronel Freitas": {
+   "grafia_2026": "Coronel Freitas",
+   "uf": "SC",
+   "sede": "Coronel Freitas",
+   "entrancia": "Inicial",
+   "circunscricao": "30a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CORONEL FREITAS - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE CORONEL FREITAS - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Correia Pinto": {
+   "grafia_2026": "Correia Pinto",
+   "uf": "SC",
+   "sede": "Correia Pinto",
+   "entrancia": "Inicial",
+   "circunscricao": "12a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CORREIA PINTO - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE CORREIA PINTO - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Criciúma": {
+   "grafia_2026": "Criciúma",
+   "uf": "SC",
+   "sede": "Criciúma",
+   "entrancia": "Especial",
+   "circunscricao": "5a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CRICIÚMA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE CRICIÚMA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Cunha Porã": {
+   "grafia_2026": "Cunha Porã",
+   "uf": "SC",
+   "sede": "Cunha Porã",
+   "entrancia": "Inicial",
+   "circunscricao": "36a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CUNHA PORÃ - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE CUNHA PORÃ - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Curitibanos": {
+   "grafia_2026": "Curitibanos",
+   "uf": "SC",
+   "sede": "Curitibanos",
+   "entrancia": "Especial",
+   "circunscricao": "13a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CURITIBANOS - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE CURITIBANOS - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Descanso": {
+   "grafia_2026": "Descanso",
+   "uf": "SC",
+   "sede": "Descanso",
+   "entrancia": "Inicial",
+   "circunscricao": "32a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE DESCANSO - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE DESCANSO - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Dionísio Cerqueira": {
+   "grafia_2026": "Dionísio Cerqueira",
+   "uf": "SC",
+   "sede": "Dionísio Cerqueira",
+   "entrancia": "Inicial",
+   "circunscricao": "37a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE DIONÍSIO CERQUEIRA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE DIONÍSIO CERQUEIRA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Florianópolis": {
+   "grafia_2026": "Capital",
+   "uf": "SC",
+   "sede": "Florianópolis",
+   "entrancia": "Especial",
+   "circunscricao": "1a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DA CAPITAL - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DA CAPITAL - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "Capital: foros Foro Central, Foro Des. Eduardo Luz, Foro Distrital Do Continente, Foro Do Norte Da Ilha, Foro Est.Bancario, Das Turmas E Da Veefm, Turmas Recursais; confira o foro pelo bairro do autor; a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Forquilhinha": {
+   "grafia_2026": "Forquilhinha",
+   "uf": "SC",
+   "sede": "Forquilhinha",
+   "entrancia": "Inicial",
+   "circunscricao": "5a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE FORQUILHINHA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE FORQUILHINHA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Fraiburgo": {
+   "grafia_2026": "Fraiburgo",
+   "uf": "SC",
+   "sede": "Fraiburgo",
+   "entrancia": "Final",
+   "circunscricao": "39a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE FRAIBURGO - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE FRAIBURGO - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Garopaba": {
+   "grafia_2026": "Garopaba",
+   "uf": "SC",
+   "sede": "Garopaba",
+   "entrancia": "Inicial",
+   "circunscricao": "10a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE GAROPABA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE GAROPABA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Garuva": {
+   "grafia_2026": "Garuva",
+   "uf": "SC",
+   "sede": "Garuva",
+   "entrancia": "Inicial",
+   "circunscricao": "15a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE GARUVA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE GARUVA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Gaspar": {
+   "grafia_2026": "Gaspar",
+   "uf": "SC",
+   "sede": "Gaspar",
+   "entrancia": "Final",
+   "circunscricao": "18a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE GASPAR - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE GASPAR - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Guabiruba": {
+   "grafia_2026": "Guabiruba",
+   "uf": "SC",
+   "sede": "Guabiruba",
+   "entrancia": "Inicial",
+   "circunscricao": "25a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE GUABIRUBA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE GUABIRUBA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Guaramirim": {
+   "grafia_2026": "Guaramirim",
+   "uf": "SC",
+   "sede": "Guaramirim",
+   "entrancia": "Final",
+   "circunscricao": "16a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE GUARAMIRIM - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE GUARAMIRIM - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Herval d'Oeste": {
+   "grafia_2026": "Herval d'Oeste",
+   "uf": "SC",
+   "sede": "Herval d'Oeste",
+   "entrancia": "Inicial",
+   "circunscricao": "38a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE HERVAL D'OESTE - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE HERVAL D'OESTE - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Ibirama": {
+   "grafia_2026": "Ibirama",
+   "uf": "SC",
+   "sede": "Ibirama",
+   "entrancia": "Final",
+   "circunscricao": "20a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE IBIRAMA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE IBIRAMA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Içara": {
+   "grafia_2026": "Içara",
+   "uf": "SC",
+   "sede": "Içara",
+   "entrancia": "Final",
+   "circunscricao": "5a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE IÇARA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE IÇARA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Imaruí": {
+   "grafia_2026": "Imaruí",
+   "uf": "SC",
+   "sede": "Imaruí",
+   "entrancia": "Inicial",
+   "circunscricao": "10a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE IMARUÍ - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE IMARUÍ - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Imbituba": {
+   "grafia_2026": "Imbituba",
+   "uf": "SC",
+   "sede": "Imbituba",
+   "entrancia": "Final",
+   "circunscricao": "10a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE IMBITUBA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE IMBITUBA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Indaial": {
+   "grafia_2026": "Indaial",
+   "uf": "SC",
+   "sede": "Indaial",
+   "entrancia": "Final",
+   "circunscricao": "20a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE INDAIAL - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE INDAIAL - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Ipumirim": {
+   "grafia_2026": "Ipumirim",
+   "uf": "SC",
+   "sede": "Ipumirim",
+   "entrancia": "Inicial",
+   "circunscricao": "31a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE IPUMIRIM - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE IPUMIRIM - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Itá": {
+   "grafia_2026": "Itá",
+   "uf": "SC",
+   "sede": "Itá",
+   "entrancia": "Inicial",
+   "circunscricao": "31a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ITÁ - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE ITÁ - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Itaiópolis": {
+   "grafia_2026": "Itaiópolis",
+   "uf": "SC",
+   "sede": "Itaiópolis",
+   "entrancia": "Inicial",
+   "circunscricao": "28a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ITAIÓPOLIS - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE ITAIÓPOLIS - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Itajaí": {
+   "grafia_2026": "Itajaí",
+   "uf": "SC",
+   "sede": "Itajaí",
+   "entrancia": "Especial",
+   "circunscricao": "23a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ITAJAÍ - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE ITAJAÍ - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Itapema": {
+   "grafia_2026": "Itapema",
+   "uf": "SC",
+   "sede": "Itapema",
+   "entrancia": "Final",
+   "circunscricao": "26a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ITAPEMA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE ITAPEMA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Itapiranga": {
+   "grafia_2026": "Itapiranga",
+   "uf": "SC",
+   "sede": "Itapiranga",
+   "entrancia": "Inicial",
+   "circunscricao": "32a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ITAPIRANGA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE ITAPIRANGA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Itapoá": {
+   "grafia_2026": "Itapoá",
+   "uf": "SC",
+   "sede": "Itapoá",
+   "entrancia": "Final",
+   "circunscricao": "15a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ITAPOÁ - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE ITAPOÁ - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Ituporanga": {
+   "grafia_2026": "Ituporanga",
+   "uf": "SC",
+   "sede": "Ituporanga",
+   "entrancia": "Final",
+   "circunscricao": "19a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ITUPORANGA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE ITUPORANGA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Jaguaruna": {
+   "grafia_2026": "Jaguaruna",
+   "uf": "SC",
+   "sede": "Jaguaruna",
+   "entrancia": "Final",
+   "circunscricao": "6a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE JAGUARUNA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE JAGUARUNA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Jaraguá do Sul": {
+   "grafia_2026": "Jaraguá do Sul",
+   "uf": "SC",
+   "sede": "Jaraguá do Sul",
+   "entrancia": "Especial",
+   "circunscricao": "16a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE JARAGUÁ DO SUL - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE JARAGUÁ DO SUL - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Joaçaba": {
+   "grafia_2026": "Joaçaba",
+   "uf": "SC",
+   "sede": "Joaçaba",
+   "entrancia": "Final",
+   "circunscricao": "38a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE JOAÇABA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE JOAÇABA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Joinville": {
+   "grafia_2026": "Joinville",
+   "uf": "SC",
+   "sede": "Joinville",
+   "entrancia": "Especial",
+   "circunscricao": "15a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE JOINVILLE - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE JOINVILLE - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a comarca tem também Foro Fazendario; a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Lages": {
+   "grafia_2026": "Lages",
+   "uf": "SC",
+   "sede": "Lages",
+   "entrancia": "Especial",
+   "circunscricao": "12a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE LAGES - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE LAGES - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Laguna": {
+   "grafia_2026": "Laguna",
+   "uf": "SC",
+   "sede": "Laguna",
+   "entrancia": "Final",
+   "circunscricao": "8a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE LAGUNA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE LAGUNA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Lauro Müller": {
+   "grafia_2026": "Lauro Müller",
+   "uf": "SC",
+   "sede": "Lauro Müller",
+   "entrancia": "Inicial",
+   "circunscricao": "9a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE LAURO MÜLLER - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE LAURO MÜLLER - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Lebon Régis": {
+   "grafia_2026": "Lebon Régis",
+   "uf": "SC",
+   "sede": "Lebon Régis",
+   "entrancia": "Inicial",
+   "circunscricao": "40a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE LEBON RÉGIS - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE LEBON RÉGIS - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Mafra": {
+   "grafia_2026": "Mafra",
+   "uf": "SC",
+   "sede": "Mafra",
+   "entrancia": "Final",
+   "circunscricao": "28a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE MAFRA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE MAFRA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Maravilha": {
+   "grafia_2026": "Maravilha",
+   "uf": "SC",
+   "sede": "Maravilha",
+   "entrancia": "Final",
+   "circunscricao": "36a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE MARAVILHA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE MARAVILHA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Meleiro": {
+   "grafia_2026": "Meleiro",
+   "uf": "SC",
+   "sede": "Meleiro",
+   "entrancia": "Inicial",
+   "circunscricao": "11a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE MELEIRO - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE MELEIRO - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Modelo": {
+   "grafia_2026": "Modelo",
+   "uf": "SC",
+   "sede": "Modelo",
+   "entrancia": "Inicial",
+   "circunscricao": "36a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE MODELO - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE MODELO - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Mondaí": {
+   "grafia_2026": "Mondaí",
+   "uf": "SC",
+   "sede": "Mondaí",
+   "entrancia": "Inicial",
+   "circunscricao": "34a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE MONDAÍ - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE MONDAÍ - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Navegantes": {
+   "grafia_2026": "Navegantes",
+   "uf": "SC",
+   "sede": "Navegantes",
+   "entrancia": "Final",
+   "circunscricao": "23a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE NAVEGANTES - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE NAVEGANTES - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Orleans": {
+   "grafia_2026": "Orleans",
+   "uf": "SC",
+   "sede": "Orleans",
+   "entrancia": "Final",
+   "circunscricao": "9a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE ORLEANS - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE ORLEANS - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Otacílio Costa": {
+   "grafia_2026": "Otacílio Costa",
+   "uf": "SC",
+   "sede": "Otacílio Costa",
+   "entrancia": "Inicial",
+   "circunscricao": "12a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE OTACÍLIO COSTA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE OTACÍLIO COSTA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Palhoça": {
+   "grafia_2026": "Palhoça",
+   "uf": "SC",
+   "sede": "Palhoça",
+   "entrancia": "Especial",
+   "circunscricao": "3a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PALHOÇA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE PALHOÇA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Palmitos": {
+   "grafia_2026": "Palmitos",
+   "uf": "SC",
+   "sede": "Palmitos",
+   "entrancia": "Inicial",
+   "circunscricao": "34a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PALMITOS - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE PALMITOS - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Papanduva": {
+   "grafia_2026": "Papanduva",
+   "uf": "SC",
+   "sede": "Papanduva",
+   "entrancia": "Inicial",
+   "circunscricao": "28a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PAPANDUVA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE PAPANDUVA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Penha": {
+   "grafia_2026": "Penha",
+   "uf": "SC",
+   "sede": "Penha",
+   "entrancia": "Final",
+   "circunscricao": "23a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PENHA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE PENHA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Pinhalzinho": {
+   "grafia_2026": "Pinhalzinho",
+   "uf": "SC",
+   "sede": "Pinhalzinho",
+   "entrancia": "Final",
+   "circunscricao": "36a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PINHALZINHO - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE PINHALZINHO - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Pomerode": {
+   "grafia_2026": "Pomerode",
+   "uf": "SC",
+   "sede": "Pomerode",
+   "entrancia": "Final",
+   "circunscricao": "21a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE POMERODE - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE POMERODE - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Ponte Serrada": {
+   "grafia_2026": "Ponte Serrada",
+   "uf": "SC",
+   "sede": "Ponte Serrada",
+   "entrancia": "Inicial",
+   "circunscricao": "33a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PONTE SERRADA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE PONTE SERRADA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Porto Belo": {
+   "grafia_2026": "Porto Belo",
+   "uf": "SC",
+   "sede": "Porto Belo",
+   "entrancia": "Final",
+   "circunscricao": "26a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PORTO BELO - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE PORTO BELO - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Porto União": {
+   "grafia_2026": "Porto União",
+   "uf": "SC",
+   "sede": "Porto União",
+   "entrancia": "Final",
+   "circunscricao": "27a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PORTO UNIÃO - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE PORTO UNIÃO - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Presidente Getúlio": {
+   "grafia_2026": "Presidente Getúlio",
+   "uf": "SC",
+   "sede": "Presidente Getúlio",
+   "entrancia": "Inicial",
+   "circunscricao": "20a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE PRESIDENTE GETÚLIO - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE PRESIDENTE GETÚLIO - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Quilombo": {
+   "grafia_2026": "Quilombo",
+   "uf": "SC",
+   "sede": "Quilombo",
+   "entrancia": "Inicial",
+   "circunscricao": "35a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE QUILOMBO - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE QUILOMBO - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Rio do Campo": {
+   "grafia_2026": "Rio do Campo",
+   "uf": "SC",
+   "sede": "Rio do Campo",
+   "entrancia": "Inicial",
+   "circunscricao": "22a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE RIO DO CAMPO - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE RIO DO CAMPO - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Rio do Oeste": {
+   "grafia_2026": "Rio do Oeste",
+   "uf": "SC",
+   "sede": "Rio do Oeste",
+   "entrancia": "Inicial",
+   "circunscricao": "19a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE RIO DO OESTE - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE RIO DO OESTE - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Rio do Sul": {
+   "grafia_2026": "Rio do Sul",
+   "uf": "SC",
+   "sede": "Rio do Sul",
+   "entrancia": "Especial",
+   "circunscricao": "19a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE RIO DO SUL - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE RIO DO SUL - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Rio Negrinho": {
+   "grafia_2026": "Rio Negrinho",
+   "uf": "SC",
+   "sede": "Rio Negrinho",
+   "entrancia": "Final",
+   "circunscricao": "29a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE RIO NEGRINHO - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE RIO NEGRINHO - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Santa Cecília": {
+   "grafia_2026": "Santa Cecília",
+   "uf": "SC",
+   "sede": "Santa Cecília",
+   "entrancia": "Inicial",
+   "circunscricao": "13a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SANTA CECÍLIA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE SANTA CECÍLIA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Santa Rosa do Sul": {
+   "grafia_2026": "Santa Rosa do Sul",
+   "uf": "SC",
+   "sede": "Santa Rosa do Sul",
+   "entrancia": "Inicial",
+   "circunscricao": "11a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SANTA ROSA DO SUL - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE SANTA ROSA DO SUL - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Santo Amaro da Imperatriz": {
+   "grafia_2026": "Santo Amaro da Imperatriz",
+   "uf": "SC",
+   "sede": "Santo Amaro da Imperatriz",
+   "entrancia": "Final",
+   "circunscricao": "3a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SANTO AMARO DA IMPERATRIZ - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE SANTO AMARO DA IMPERATRIZ - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "São Bento do Sul": {
+   "grafia_2026": "São Bento do Sul",
+   "uf": "SC",
+   "sede": "São Bento do Sul",
+   "entrancia": "Final",
+   "circunscricao": "29a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SÃO BENTO DO SUL - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE SÃO BENTO DO SUL - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "São Carlos": {
+   "grafia_2026": "São Carlos",
+   "uf": "SC",
+   "sede": "São Carlos",
+   "entrancia": "Inicial",
+   "circunscricao": "34a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SÃO CARLOS - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE SÃO CARLOS - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "São Domingos": {
+   "grafia_2026": "São Domingos",
+   "uf": "SC",
+   "sede": "São Domingos",
+   "entrancia": "Inicial",
+   "circunscricao": "33a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SÃO DOMINGOS - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE SÃO DOMINGOS - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "São Francisco do Sul": {
+   "grafia_2026": "São Francisco do Sul",
+   "uf": "SC",
+   "sede": "São Francisco do Sul",
+   "entrancia": "Final",
+   "circunscricao": "17a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SÃO FRANCISCO DO SUL - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE SÃO FRANCISCO DO SUL - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "São João Batista": {
+   "grafia_2026": "São João Batista",
+   "uf": "SC",
+   "sede": "São João Batista",
+   "entrancia": "Final",
+   "circunscricao": "25a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SÃO JOÃO BATISTA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE SÃO JOÃO BATISTA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "São Joaquim": {
+   "grafia_2026": "São Joaquim",
+   "uf": "SC",
+   "sede": "São Joaquim",
+   "entrancia": "Final",
+   "circunscricao": "14a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SÃO JOAQUIM - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE SÃO JOAQUIM - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "São José": {
+   "grafia_2026": "São José",
+   "uf": "SC",
+   "sede": "São José",
+   "entrancia": "Especial",
+   "circunscricao": "2a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SÃO JOSÉ - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE SÃO JOSÉ - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "São José do Cedro": {
+   "grafia_2026": "São José do Cedro",
+   "uf": "SC",
+   "sede": "São José do Cedro",
+   "entrancia": "Inicial",
+   "circunscricao": "37a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SÃO JOSÉ DO CEDRO - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE SÃO JOSÉ DO CEDRO - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "São Lourenço do Oeste": {
+   "grafia_2026": "São Lourenço do Oeste",
+   "uf": "SC",
+   "sede": "São Lourenço do Oeste",
+   "entrancia": "Inicial",
+   "circunscricao": "35a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SÃO LOURENÇO DO OESTE - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE SÃO LOURENÇO DO OESTE - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "São Miguel do Oeste": {
+   "grafia_2026": "São Miguel do Oeste",
+   "uf": "SC",
+   "sede": "São Miguel do Oeste",
+   "entrancia": "Final",
+   "circunscricao": "32a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SÃO MIGUEL DO OESTE - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE SÃO MIGUEL DO OESTE - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Seara": {
+   "grafia_2026": "Seara",
+   "uf": "SC",
+   "sede": "Seara",
+   "entrancia": "Inicial",
+   "circunscricao": "31a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SEARA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE SEARA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Sombrio": {
+   "grafia_2026": "Sombrio",
+   "uf": "SC",
+   "sede": "Sombrio",
+   "entrancia": "Final",
+   "circunscricao": "11a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE SOMBRIO - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE SOMBRIO - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Taió": {
+   "grafia_2026": "Taió",
+   "uf": "SC",
+   "sede": "Taió",
+   "entrancia": "Inicial",
+   "circunscricao": "22a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE TAIÓ - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE TAIÓ - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Tangará": {
+   "grafia_2026": "Tangará",
+   "uf": "SC",
+   "sede": "Tangará",
+   "entrancia": "Inicial",
+   "circunscricao": "39a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE TANGARÁ - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE TANGARÁ - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Tijucas": {
+   "grafia_2026": "Tijucas",
+   "uf": "SC",
+   "sede": "Tijucas",
+   "entrancia": "Final",
+   "circunscricao": "26a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE TIJUCAS - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE TIJUCAS - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Timbó": {
+   "grafia_2026": "Timbó",
+   "uf": "SC",
+   "sede": "Timbó",
+   "entrancia": "Final",
+   "circunscricao": "21a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE TIMBÓ - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE TIMBÓ - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Trombudo Central": {
+   "grafia_2026": "Trombudo Central",
+   "uf": "SC",
+   "sede": "Trombudo Central",
+   "entrancia": "Final",
+   "circunscricao": "22a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE TROMBUDO CENTRAL - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE TROMBUDO CENTRAL - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Tubarão": {
+   "grafia_2026": "Tubarão",
+   "uf": "SC",
+   "sede": "Tubarão",
+   "entrancia": "Especial",
+   "circunscricao": "6a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE TUBARÃO - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE TUBARÃO - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Turvo": {
+   "grafia_2026": "Turvo",
+   "uf": "SC",
+   "sede": "Turvo",
+   "entrancia": "Inicial",
+   "circunscricao": "11a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE TURVO - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE TURVO - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Urubici": {
+   "grafia_2026": "Urubici",
+   "uf": "SC",
+   "sede": "Urubici",
+   "entrancia": "Inicial",
+   "circunscricao": "14a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE URUBICI - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA VARA ÚNICA DA COMARCA DE URUBICI - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Urussanga": {
+   "grafia_2026": "Urussanga",
+   "uf": "SC",
+   "sede": "Urussanga",
+   "entrancia": "Final",
+   "circunscricao": "5a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE URUSSANGA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE URUSSANGA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Videira": {
+   "grafia_2026": "Videira",
+   "uf": "SC",
+   "sede": "Videira",
+   "entrancia": "Final",
+   "circunscricao": "39a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE VIDEIRA - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE VIDEIRA - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Xanxerê": {
+   "grafia_2026": "Xanxerê",
+   "uf": "SC",
+   "sede": "Xanxerê",
+   "entrancia": "Final",
+   "circunscricao": "33a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE XANXERÊ - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE XANXERÊ - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  },
+  "Xaxim": {
+   "grafia_2026": "Xaxim",
+   "uf": "SC",
+   "sede": "Xaxim",
+   "entrancia": "Final",
+   "circunscricao": "30a.",
+   "jec": {
+    "tipo": "juizado_especial",
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE XAXIM - SC"
+   },
+   "comum": {
+    "unidades": [],
+    "enderecamento": "AO JUÍZO DA [N]ª VARA CÍVEL DA COMARCA DE XAXIM - SC"
+   },
+   "juizado_adjunto": null,
+   "conferir": "a fonte do TJSC só traz a composição das comarcas: confira a unidade do Juizado (Juizado próprio ou adjunto à vara) e o nome e o número da vara cível"
+  }
+ }
+}

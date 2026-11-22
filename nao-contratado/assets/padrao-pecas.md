@@ -9,7 +9,8 @@ O rito vem da triagem e do quadro de fatos: **Juizado Especial Cível (JEC)** ou
 Juízo, sempre pelas tabelas oficiais da triagem, nunca de memória:
 - réu **Caixa Econômica Federal**: Vara Federal da (sub)seção judiciária do TRF1 que abrange o município do autor;
 - demais réus: unidade da **comarca do TJBA** a que o município do autor pertence, que nem sempre é o próprio município. A comarca vem de `references/dados/tjba_comarcas.json`; a unidade e o endereçamento prontos, para o JEC e para a Justiça Comum, vêm de `references/dados/tjba_unidades.json` (explicação e fontes em `references/dados/territorial-tjba.md`). Só 40 comarcas têm Vara do Sistema dos Juizados Especiais. Nas demais, a causa do Juizado vai à unidade cível da comarca (Vara de Jurisdição Plena ou Vara dos Feitos Relativos às Relações de Consumo, Cíveis e Comerciais), pelo procedimento da Lei 9.099/95 (Lei 10.845/2007, arts. 107 e 156), e a petição diz isso no corpo (decisão do escritório de 03/11/2026);
-- autor fora da Bahia: não há tabela no pacote; `[CONFERIR]`.
+- autor em **Minas Gerais, Paraná ou Santa Catarina**: comarca em `references/dados/tj{mg,pr,sc}_comarcas.json` e unidade e endereçamento prontos em `tj{mg,pr,sc}_unidades.json` (fontes, limites e índice em `territorial-tj{mg,pr,sc}.md`). Forma aprovada pelo escritório em 22/11/2026; o `conferir` da unidade (o que a fonte não traz) vira pendência. No PR e em SC a fonte não traz a vara cível; em SC também não traz a unidade do Juizado. Réu Caixa nesses estados (TRF6 em MG, TRF4 no PR e em SC): não há tabela; `[CONFERIR]`;
+- autor em outra UF: não há tabela no pacote; `[CONFERIR]`.
 
 ## 1. Endereçamento e tratamento
 
@@ -20,6 +21,7 @@ Fórmula impessoal dirigida ao órgão (CPC, art. 319, I). **Na inicial, o núme
 | Justiça Comum (TJBA) | o `comum.enderecamento` da comarca em `tjba_unidades.json`; por exemplo, AO JUÍZO DA __ª VARA DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS E COMERCIAIS DA COMARCA DE [CIDADE] - BA; em Salvador, AO JUÍZO DA __ª VARA DE RELAÇÕES DE CONSUMO DA COMARCA DE SALVADOR - BA | "este Juízo" |
 | Juizado Especial Cível, comarca com Vara do Sistema (40) | o `jec.enderecamento`; por exemplo, AO JUÍZO DA __ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DA COMARCA DE [CIDADE] - BA; em Salvador, AO JUÍZO DA __ª VARA DO SISTEMA DOS JUIZADOS ESPECIAIS DO CONSUMIDOR DA COMARCA DE SALVADOR - BA | "este Juízo" |
 | Juizado Especial Cível, comarca sem Vara do Sistema | o `jec.enderecamento`; por exemplo, AO JUÍZO DA VARA DE JURISDIÇÃO PLENA DA COMARCA DE [CIDADE] - BA. No preâmbulo, depois do nome da ação: "pelo procedimento da Lei nº 9.099/95" | "este Juízo" |
+| JEC ou Justiça Comum em MG, PR ou SC | o `jec.enderecamento` ou `comum.enderecamento` da comarca em `tj{mg,pr,sc}_unidades.json`; por exemplo, AO JUÍZO DA __ª UNIDADE JURISDICIONAL CÍVEL DO JUIZADO ESPECIAL DA COMARCA DE JUIZ DE FORA - MG; AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE CASCAVEL - PR; AO JUÍZO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DA CAPITAL - SC | "este Juízo" |
 | Vara Federal (Caixa) | AO JUÍZO DA __ª VARA FEDERAL DA SUBSEÇÃO JUDICIÁRIA DE [CIDADE] - [UF] | "este Juízo" |
 | Recurso (inominado ou apelação) | petição de interposição ao juízo de origem e razões à Turma Recursal ou ao Tribunal | vocativo "Colenda Turma," / "Egrégio Tribunal," |
 

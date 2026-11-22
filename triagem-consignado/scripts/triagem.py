@@ -423,7 +423,8 @@ def _busca(cidade, tabela):
 
 def juizo(cidade_uf, eh_caixa):
     """Endereçamento conforme as tabelas oficiais (dados/*.json).
-    Caixa → Vara Federal da (Sub)Seção do TRF1; demais → comarca do TJBA (a unidade sai de enderecamentos())."""
+    Caixa → Vara Federal da (Sub)Seção do TRF1; demais → comarca do TJ da UF (BA, MG, PR, SC; a unidade sai de
+    enderecamentos()). Outra UF: alerta para conferir."""
     if not cidade_uf or "/" not in cidade_uf:
         return "NÃO DEFINIDO — cidade do autor não identificada", "cidade do autor não identificada no termo"
     cidade, uf = cidade_uf.rsplit("/", 1)
@@ -437,33 +438,37 @@ def juizo(cidade_uf, eh_caixa):
         if not sub:
             return "Vara Federal — subseção NÃO LOCALIZADA", obs
         return (f"Vara Federal da {sub}/{uf}" if sub.startswith("Subseção") else f"Vara Federal da {sub}"), obs
-    if uf != "BA":
+    arq = DADOS / f"tj{uf.lower()}_comarcas.json"  # tjba, tjmg, tjpr, tjsc
+    if not arq.exists():
         return f"Vara Cível da Comarca de {cidade}/{uf}", f"UF {uf}: sem tabela de comarcas — CONFERIR"
-    dados = json.loads((DADOS / "tjba_comarcas.json").read_text(encoding="utf-8"))["municipio_comarca"]
-    tab = {chave_cidade(k): v for k, v in dados.items()}
+    base = json.loads(arq.read_text(encoding="utf-8"))
+    tab = {chave_cidade(k): v for k, v in base["municipio_comarca"].items()}
     com, obs = _busca(cidade, tab)
     if not com:
         return "Vara Cível — comarca NÃO LOCALIZADA", obs
     if chave_cidade(com) != chave_cidade(cidade):
         obs = ((obs + "; ") if obs else "") + f"o município {cidade} pertence à comarca de {com}"
-    return f"Comarca de {com}/BA", obs
+    nota = {chave_cidade(k): v for k, v in (base.get("conferir") or {}).items()}.get(chave_cidade(cidade))
+    if nota:
+        obs = ((obs + "; ") if obs else "") + f"{nota} — CONFERIR"
+    return f"Comarca de {com}/{uf}", obs
 
 
 def enderecamentos(competencia):
-    """Endereçamento pronto do JEC e da Justiça Comum para a comarca (dados/tjba_unidades.json, decisão de 03/11/2026).
-    Só para réu do TJBA; para a Caixa e fora da Bahia devolve (None, None, None)."""
-    m = re.match(r"^Comarca de (.+)/BA$", competencia or "")
+    """Endereçamento pronto do JEC e da Justiça Comum para a comarca (dados/tj{uf}_unidades.json; TJBA aprovado
+    em 03/11/2026; MG, PR e SC aprovados em 22/11/2026). Para a Caixa devolve (None, None, None)."""
+    m = re.match(r"^Comarca de (.+)/([A-Z]{2})$", competencia or "")
     if not m:
         return None, None, None
-    arq = DADOS / "tjba_unidades.json"
+    arq = DADOS / f"tj{m.group(2).lower()}_unidades.json"
     if not arq.exists():
-        return None, None, "tjba_unidades.json ausente — CONFERIR o endereçamento"
+        return None, None, f"{arq.name} ausente — CONFERIR o endereçamento"
     tab = json.loads(arq.read_text(encoding="utf-8"))["comarcas"]
     u = tab.get(m.group(1))
     if not u:
-        return None, None, f"comarca {m.group(1)} fora de tjba_unidades.json — CONFERIR"
+        return None, None, f"comarca {m.group(1)} fora de {arq.name} — CONFERIR"
     obs = u.get("conferir")
-    if u["jec"]["tipo"] != "vara_do_sistema":
+    if u["jec"]["tipo"] == "vara_civel_com_procedimento_da_lei_9099":
         nota = "comarca sem Vara do Sistema dos Juizados: no JEC, dizer no preâmbulo 'pelo procedimento da Lei nº 9.099/95'"
         obs = f"{obs}; {nota}" if obs else nota
     return u["jec"]["enderecamento"], u["comum"]["enderecamento"], obs

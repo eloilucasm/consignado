@@ -422,6 +422,87 @@
   ],
   "jurisprudencia/sentenca-0209760-2026-tjba-rmc.md": [
    "rmc"
+  ],
+  "dados/tjmg_comarcas.json": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000",
+   "triagem-consignado"
+  ],
+  "dados/tjmg_unidades.json": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000",
+   "triagem-consignado"
+  ],
+  "dados/territorial-tjmg.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000",
+   "triagem-consignado"
+  ],
+  "dados/tjpr_comarcas.json": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000",
+   "triagem-consignado"
+  ],
+  "dados/tjpr_unidades.json": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000",
+   "triagem-consignado"
+  ],
+  "dados/territorial-tjpr.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000",
+   "triagem-consignado"
+  ],
+  "dados/tjsc_comarcas.json": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000",
+   "triagem-consignado"
+  ],
+  "dados/tjsc_unidades.json": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000",
+   "triagem-consignado"
+  ],
+  "dados/territorial-tjsc.md": [
+   "migrado",
+   "nao-contratado",
+   "recurso-inominado-consignado-geolocalizacao",
+   "replica-consignado",
+   "rmc",
+   "tese-1000",
+   "triagem-consignado"
   ]
  }
 }

@@ -323,8 +323,9 @@ def _dados_dir():
 def foro(proc, rito=None):
     """Endereçamento e cidade do fecho a partir da competência da ficha (que vem do endereço do autor, na triagem).
 
-    Regra do escritório (03/11/2026): o fecho é a cidade-sede do juízo competente, UF BA; não se pergunta ao advogado.
-    TJBA: a unidade sai de references/dados/tjba_unidades.json (JEC ou Justiça Comum, conforme o rito).
+    Regra do escritório (03/11/2026): o fecho é a cidade-sede do juízo competente, com a UF; não se pergunta ao advogado.
+    TJ estadual: a unidade sai de references/dados/tj{uf}_unidades.json (BA; MG, PR e SC desde 22/11/2026, com a
+    forma aprovada pelo escritório em 22/11/2026), JEC ou Justiça Comum conforme o rito.
     Caixa: Vara Federal da (sub)seção do TRF1 da ficha. Devolve dict com fecho, enderecamento(s) e o que conferir.
     Na inicial o número da vara fica em branco ("__ª"): quem o define é o distribuidor (decisão do escritório, 05/11/2026).
     """
@@ -339,23 +340,29 @@ def foro(proc, rito=None):
              else "AO JUÍZO DA __ª VARA FEDERAL DA SEÇÃO JUDICIÁRIA DA BAHIA - BA")
         out.update(fecho=f"{cidade} - BA", enderecamento=e, enderecamento_jec=e, enderecamento_comum=e)
         return out
-    m = re.search(r"Comarca de (.+?)/BA", comp)
+    m = re.search(r"Comarca de (.+?)/([A-Z]{2})\b", comp)
     d = _dados_dir()
     if not m or not d:
-        out["conferir"] = "competência da ficha sem comarca do TJBA nem subseção do TRF1: rode a triagem ou confira o endereço do autor"
+        out["conferir"] = "competência da ficha sem comarca do TJ nem subseção do TRF1: rode a triagem ou confira o endereço do autor"
         return out
-    tab = json.loads((d / "tjba_unidades.json").read_text(encoding="utf-8"))["comarcas"]
+    uf = m.group(2)
+    arq = d / f"tj{uf.lower()}_unidades.json"  # tjba (aprovada em 03/11/2026), tjmg, tjpr, tjsc (aprovadas em 22/11/2026)
+    if not arq.exists():
+        out["conferir"] = f"UF {uf} sem tabela de unidades ({arq.name}): confira o juízo"
+        return out
+    tab = json.loads(arq.read_text(encoding="utf-8"))["comarcas"]
     chave = next((k for k in tab if m.group(1) in (k, k.split("/")[0].strip(), tab[k]["grafia_2026"])), None)
     if not chave:
-        out["conferir"] = f"comarca {m.group(1)} fora de tjba_unidades.json"
+        out["conferir"] = f"comarca {m.group(1)} fora de {arq.name}"
         return out
     u = tab[chave]
-    vara = lambda e: e.replace("[N]ª", "__ª")  # noqa: E731  (número da vara: o distribuidor define)
-    out.update(fecho=f"{u['grafia_2026']} - BA", enderecamento_jec=vara(u["jec"]["enderecamento"]),
-               enderecamento_comum=vara(u["comum"]["enderecamento"]), conferir=u.get("conferir"))
+    vara = lambda e: e.replace("[N]ª", "__ª").replace("[N]º", "__º")  # noqa: E731  (número: o distribuidor define)
+    conferir = u.get("conferir")
+    out.update(fecho=f"{u.get('sede', u['grafia_2026'])} - {uf}", enderecamento_jec=vara(u["jec"]["enderecamento"]),
+               enderecamento_comum=vara(u["comum"]["enderecamento"]), conferir=conferir)
     if rito in ("jec", "comum"):
         out["enderecamento"] = out["enderecamento_jec"] if rito == "jec" else out["enderecamento_comum"]
-    out["jec_sem_vara_do_sistema"] = u["jec"]["tipo"] != "vara_do_sistema"
+    out["jec_sem_vara_do_sistema"] = u["jec"]["tipo"] == "vara_civel_com_procedimento_da_lei_9099"
     return out
 
 
@@ -563,6 +570,14 @@ def _teste():
         f = foro({"competencia": "Vara Federal da Subseção Judiciária de Ilhéus/BA"})
         assert f["fecho"] == "Ilhéus - BA" and "VARA FEDERAL" in f["enderecamento"]
         assert foro({"competencia": "Vara Cível da Comarca de Recife/PE"})["conferir"]
+        if (_dados_dir() / "tjmg_unidades.json").exists():  # MG, PR e SC (aprovadas em 22/11/2026)
+            f = foro({"competencia": "Comarca de Juiz de Fora/MG"}, "jec")
+            assert f["fecho"] == "Juiz de Fora - MG" and "UNIDADE JURISDICIONAL" in f["enderecamento"] and "__ª" in f["enderecamento"]
+            assert not f["jec_sem_vara_do_sistema"] and "não aprovado" not in (f["conferir"] or "")
+            f = foro({"competencia": "Comarca de Londrina/PR"}, "jec")
+            assert f["fecho"] == "Londrina - PR" and f["enderecamento"].startswith("AO JUÍZO DO __º JUIZADO ESPECIAL CÍVEL")
+            f = foro({"competencia": "Comarca de Florianópolis/SC"}, "comum")
+            assert f["fecho"] == "Florianópolis - SC" and "COMARCA DA CAPITAL - SC" in f["enderecamento"]
     with tempfile.TemporaryDirectory() as tmp:
         gravar(tmp, res, "nao-contratado", 1, hoje, {"x": 1}, cronologia=crono)
         md = (Path(tmp) / "checagem-fsc-vf.md").read_text(encoding="utf-8")
