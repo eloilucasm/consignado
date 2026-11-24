@@ -1,0 +1,550 @@
+{
+  "fonte": "Qualificação dos réus extraída de iniciais protocoladas pelo escritório (acervo-iniciais/). Chave = código do banco no extrato do INSS. Acrescente novos réus aqui — nunca preencher CNPJ/endereço de memória. Conferência dos 18 cadastros contra a Receita (BrasilAPI) em 2026-10-30: CNPJs válidos e ativos; ver buscar_reu.py --verificar. Em 2026-11-03: acrescentados os réus da lista do escritório \"LISTA DE ENDEREÇOS (PARTE PASSIVA).docx\" (recebida em 2026-11-03), cada um qualificado pela sede na Receita (BrasilAPI); quando a lista traz outro endereço, ele fica em `endereco_alternativo`. Seguradoras têm chave `seg-<raiz do CNPJ>` e `tipo: seguradora` (não têm código de banco no extrato).",
+  "reus": {
+    "707": {
+      "nome": "BANCO DAYCOVAL S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 62.232.889/0001-90, com endereço na Avenida Paulista, nº 1.793, Bela Vista, São Paulo/SP, CEP 01311-200",
+      "fonte": "inicial protocolada pelo escritório (acervo)",
+      "apelidos": [
+        "DAYCOVAL"
+      ]
+    },
+    "012": {
+      "nome": "BANCO INBURSA S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 04.866.275/0001-63, com endereço na Rua Henri Dunant, 780, Santo Amaro, São Paulo/SP, CEP 04709-110",
+      "fonte": "inicial protocolada pelo escritório (acervo)",
+      "apelidos": [
+        "INBURSA"
+      ],
+      "endereco_alternativo": {
+        "texto": "Avenida Presidente Juscelino Kubitschek, 1327, 18 andar CJ 181 E CJ182 parte, Vila Nova Conceição, São Paulo - SP - Brasil, CEP 04543011",
+        "fonte": "lista do escritório \"LISTA DE ENDEREÇOS (PARTE PASSIVA).docx\" (recebida em 2026-11-03)",
+        "uso": "não é a sede da Receita; só para citação em agência ou filial, por decisão do advogado"
+      }
+    },
+    "104": {
+      "nome": "CAIXA ECONÔMICA FEDERAL",
+      "artigo": "da",
+      "descricao": "empresa pública federal, pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 00.360.305/0001-04, com endereço na Setor Bancário Sul, Quadra 4, Lotes 3/4, Asa Sul, Brasília/DF, CEP 70092-900",
+      "fonte": "inicial protocolada pelo escritório (acervo)"
+    },
+    "752": {
+      "nome": "BANCO BNP PARIBAS BRASIL S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 01.522.368/0001-82, com endereço na Avenida Presidente Juscelino Kubitschek, nº 1909, conjuntos 91, 101 e 111, São Paulo/SP, CEP 04543-011",
+      "fonte": "inicial protocolada pelo escritório (acervo) — no extrato aparece como 752 - CETELEM-BNP",
+      "apelidos": [
+        "CETELEM/BNP"
+      ]
+    },
+    "318": {
+      "nome": "BANCO BMG S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 61.186.680/0001-74, com sede na Avenida Presidente Juscelino Kubitschek, nº 1.830, Andares 10, 11, 13 e 14, Blocos 01 e 02, Salas 101, 102, 112, 131 e 141, Vila Nova Conceição, São Paulo/SP, CEP 04543-000",
+      "fonte": "inicial protocolada pelo escritório (acervo)"
+    },
+    "237": {
+      "nome": "BANCO BRADESCO S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 60.746.948/0001-12, com sede no Núcleo Cidade de Deus, s/n, bairro Vila Yara, Osasco/SP, CEP 06029-900",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026).",
+      "apelidos": [
+        "BRADESCO S A"
+      ]
+    },
+    "121": {
+      "nome": "BANCO AGIBANK S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 10.664.513/0001-50, com sede na Rua Sergio Fernandes Borges Soares, nº 1000, Prédio 12 E-1, Distrito Industrial, Campinas/SP, CEP 13.054-709",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026).",
+      "apelidos": [
+        "AGIBANK"
+      ],
+      "endereco_alternativo": {
+        "texto": "Rua mariante, 25, 9 ANDAR, Rio Branco, PORTO ALEGRE - RS - BRASIL, CEP 90420181",
+        "fonte": "lista do escritório \"LISTA DE ENDEREÇOS (PARTE PASSIVA).docx\" (recebida em 2026-11-03)",
+        "uso": "não é a sede da Receita; só para citação em agência ou filial, por decisão do advogado"
+      }
+    },
+    "341": {
+      "nome": "ITAÚ UNIBANCO S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 60.701.190/0001-04, com sede na Praça Alfredo Egydio de Souza Aranha, nº 100, Torre Olavo Setúbal, Parque Jabaquara, São Paulo/SP, CEP 04.344-902",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026). Itaucard: a petição usa Itaú Unibanco S.A.; se o extrato trouxer outra instituição, não usar este cadastro.",
+      "apelidos": [
+        "ITAU CONSIGNADO",
+        "ITAU S A"
+      ],
+      "endereco_alternativo": {
+        "texto": "Praça Augusto de Carvalho , S N , centro, Itapetinga - BA - Brasil , CEP 45700000",
+        "fonte": "lista do escritório \"LISTA DE ENDEREÇOS (PARTE PASSIVA).docx\" (recebida em 2026-11-03)",
+        "uso": "não é a sede da Receita; só para citação em agência ou filial, por decisão do advogado"
+      }
+    },
+    "626": {
+      "nome": "BANCO C6 CONSIGNADO S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 61.348.538/0001-86, com sede na Avenida Nove de Julho, nº 3148, Jardim Paulista, São Paulo/SP, CEP 01406-000",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026).",
+      "apelidos": [
+        "C6 CONSIGNADO"
+      ],
+      "endereco_alternativo": {
+        "texto": "Rua Libero Badaró, 377, centro, São Paulo - SP - Brasil, CEP 01009000",
+        "fonte": "lista do escritório \"LISTA DE ENDEREÇOS (PARTE PASSIVA).docx\" (recebida em 2026-11-03)",
+        "uso": "não é a sede da Receita; só para citação em agência ou filial, por decisão do advogado"
+      }
+    },
+    "623": {
+      "nome": "BANCO PAN S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 59.285.411/0001-13, com sede na Av. Paulista, 1374, 7º, 8º, 15º, 16º, 17º e 18º andares, Bela Vista, São Paulo/SP, CEP 01310-916",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026).",
+      "apelidos": [
+        "BANCO PAN"
+      ],
+      "endereco_alternativo": {
+        "texto": "Avenida Paulista, nº 1.374 - 12º andar, São Paulo – SP, CEP: 01310-946",
+        "fonte": "lista do escritório \"LISTA DE ENDEREÇOS (PARTE PASSIVA).docx\" (recebida em 2026-11-03)",
+        "uso": "não é a sede da Receita; só para citação em agência ou filial, por decisão do advogado"
+      }
+    },
+    "081": {
+      "nome": "BANCOSEGURO S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 10.264.663/0001-77, com sede na Avenida Brigadeiro Faria Lima, nº 1384, 4º andar, parte D, bairro Jardim Paulistano, São Paulo/SP, CEP 01451-001",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026)."
+    },
+    "149": {
+      "nome": "FACTA FINANCEIRA S.A. CRÉDITO, FINANCIAMENTO E INVESTIMENTO",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 15.581.638/0001-30, com sede na Rua dos Andradas, nº 1409, Centro Histórico, Porto Alegre/RS, CEP 90020- 011",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026).",
+      "apelidos": [
+        "BANCO FACTA"
+      ]
+    },
+    "254": {
+      "nome": "PARANÁ BANCO S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 14.388.334/0001-99, com sede na Rua Comendador Araújo, nº 614, bairro Batel, Curitiba/PR, CEP 80420-063",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026).",
+      "apelidos": [
+        "PARANA BANCO"
+      ],
+      "endereco_alternativo": {
+        "texto": "Avenida Visconde Nagar, 1441, Centro, Curitiba - PR - Brasil, CEP 80410201",
+        "fonte": "lista do escritório \"LISTA DE ENDEREÇOS (PARTE PASSIVA).docx\" (recebida em 2026-11-03)",
+        "uso": "não é a sede da Receita; só para citação em agência ou filial, por decisão do advogado"
+      }
+    },
+    "041": {
+      "nome": "BANCO DO ESTADO DO RIO GRANDE DO SUL S.A. (BANRISUL)",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 92.702.067/0001-96, com sede na Rua Capitão Montanha, nº 177, Centro Histórico, Porto Alegre/RS, CEP 90010-040",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026).",
+      "apelidos": [
+        "BANCO DO RIO GRANDE DO SUL"
+      ],
+      "endereco_alternativo": {
+        "texto": "Rua Everton Visco, 324, ED. Holding Empresarial, S/304 - térreo, Caminho das Arvores, Salvador - BA – Brasil",
+        "fonte": "lista do escritório \"LISTA DE ENDEREÇOS (PARTE PASSIVA).docx\" (recebida em 2026-11-03)",
+        "uso": "não é a sede da Receita; só para citação em agência ou filial, por decisão do advogado"
+      }
+    },
+    "389": {
+      "nome": "BANCO MERCANTIL DO BRASIL S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 17.184.037/0001-10, com sede na Avenida do Contorno, nº 5800, bairro Savassi, Belo Horizonte/MG, CEP 30110-042",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026).",
+      "apelidos": [
+        "MERCANTIL"
+      ],
+      "endereco_alternativo": {
+        "texto": "Avenida 7 de setembro, 329, Centro, Salvador - BA - Brasil, CEP 40000000",
+        "fonte": "lista do escritório \"LISTA DE ENDEREÇOS (PARTE PASSIVA).docx\" (recebida em 2026-11-03)",
+        "uso": "não é a sede da Receita; só para citação em agência ou filial, por decisão do advogado"
+      }
+    },
+    "643": {
+      "nome": "BANCO PINE S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 62.144.175/0001-20, com sede na Avenida Presidente Juscelino Kubitschek, nº 1830, Torre 4, 5º e 6º andares, bairro Vila Nova Conceição, São Paulo/SP, CEP 04543-900",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026).",
+      "apelidos": [
+        "PINE"
+      ],
+      "endereco_alternativo": {
+        "texto": "Avenida Nações Unidas, 8501, 29 andar Eldorado Business Tower, Pinheiro, São Paulo - SP - Brasil, CEP 05425070",
+        "fonte": "lista do escritório \"LISTA DE ENDEREÇOS (PARTE PASSIVA).docx\" (recebida em 2026-11-03)",
+        "uso": "não é a sede da Receita; só para citação em agência ou filial, por decisão do advogado"
+      }
+    },
+    "422": {
+      "nome": "BANCO SAFRA S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 58.160.789/0001-28, com sede na Avenida Paulista, nº 2100, bairro Bela Vista, São Paulo/SP, CEP 01310-930",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026)."
+    },
+    "326": {
+      "nome": "MEUTUDO S.A. - SOCIEDADE DE CREDITO, FINANCIAMENTO E INVESTIMENTO",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 03.311.443/0001-91, com endereço na Avenida Chedid Jafet, nº 222, Bloco B Pavmto1 Conj 12b Sala 3, Vila Olímpia, São Paulo/SP, CEP 04551-065",
+      "fonte": "Receita Federal (CNPJ 03.311.443/0001-91, ATIVA) via BrasilAPI em 2026-10-30; antiga denominação PARATI - CRÉDITO, FINANCIAMENTO E INVESTIMENTO S.A. (nome que o extrato do INSS ainda traz sob o código 326); CNPJ e endereço da petição do AMN",
+      "apelidos": [
+        "PARATI"
+      ],
+      "endereco_alternativo": {
+        "texto": "Avenida nossa senhora da penha, 699, torre A, salas 404 a 407, Praia do canto, 699 , torre A, salas 404 a 407 , Praia do canto, Vitoria - ES - Brasil , CEP 29055131",
+        "fonte": "lista do escritório \"LISTA DE ENDEREÇOS (PARTE PASSIVA).docx\" (recebida em 2026-11-03)",
+        "uso": "não é a sede da Receita; só para citação em agência ou filial, por decisão do advogado"
+      }
+    },
+    "seg-03546261": {
+      "nome": "CARDIF DO BRASIL VIDA E PREVIDENCIA S/A",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 03.546.261/0001-08, com endereço na Avenida Presidente Juscelino Kubitschek 1909, nº 1909, Torre Sul Andar 7 e 8 Conj 71b e 81 Parte, Vila Nova Conceição, São Paulo/SP, CEP 04543-907",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "CARDIF"
+      ]
+    },
+    "seg-33245762": {
+      "nome": "TOO SEGUROS S.A.",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 33.245.762/0001-07, com endereço na Avenida Paulista, nº 1374, Andar 13, Bela Vista, São Paulo/SP, CEP 01310-916",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "TOO SEGUROS"
+      ]
+    },
+    "seg-87376109": {
+      "nome": "ZURICH SANTANDER BRASIL SEGUROS E PREVIDENCIA S.A.",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 87.376.109/0001-06, com endereço na Avenida Jorn Roberto Marinho, nº 85, Andar 20, Cidade Moncoes, São Paulo/SP, CEP 04576-010",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "ZURICH SANTANDER"
+      ]
+    },
+    "seg-17197385": {
+      "nome": "ZURICH MINAS BRASIL SEGUROS S.A.",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 17.197.385/0001-21, com endereço na Avenida Getulio Vargas, nº 1420, Andar 5 e 6 Sala 501 A 505, 507 A 516sala 521, 601 A 621, Funcionarios, Belo Horizonte/MG, CEP 30112-021",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "ZURICH MINAS BRASIL SEGUROS"
+      ]
+    },
+    "seg-61074175": {
+      "nome": "MAPFRE SEGUROS GERAIS S.A.",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 61.074.175/0001-38, com endereço na Avenida das Nações Unidas, nº 14261, Andar 17 Ao 21 Ala A, Vila Gertrudes, São Paulo/SP, CEP 04794-000",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "MAPFE SEGUROS"
+      ]
+    },
+    "seg-03730204": {
+      "nome": "CAIXA VIDA E PREVIDENCIA S/A",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 03.730.204/0001-76, com endereço na Avenida Dr Chucri Zaidan, nº 246, Andar 12 e 13 Andar, Vila Cordeiro, São Paulo/SP, CEP 04583-916",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "X2S PARTICIPAÇÕES"
+      ],
+      "endereco_alternativo": {
+        "texto": "Avenida Presidente Juscelino Kubitschek, nº 1830, 10ª andar, Conj. 02, Sala 06, Bairro Vila Nova Conceição, em São Paulo/SP, CEP: 04.543-900",
+        "fonte": "lista do escritório \"LISTA DE ENDEREÇOS (PARTE PASSIVA).docx\" (recebida em 2026-11-03)",
+        "uso": "não é a sede da Receita; só para citação em agência ou filial, por decisão do advogado"
+      },
+      "sucessao": "XS2 Vida e Previdência S.A. (CNPJ 38.122.278/0001-04) foi incorporada pela Caixa Vida e Previdência S.A.; baixa na Receita em 30/08/2024 por incorporação; relatório de desempenho da Caixa Seguridade (efeito em 30/08/2024)"
+    },
+    "seg-26136748": {
+      "nome": "BMG SEGURADORA S.A",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 26.136.748/0001-00, com endereço na Avenida Presidente Juscelino Kubitschek, nº 1830, Andar 10 Conj 02 Sala 06, Vila Nova Conceição, São Paulo/SP, CEP 04543-900",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "BMG SEGURADORA"
+      ]
+    },
+    "seg-03823704": {
+      "nome": "ASSURANT SEGURADORA S.A.",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 03.823.704/0001-52, com endereço na Alameda Rio Negro, nº 585, Bloco C Edificio Demini Andar 5 Conj 52 Parte, Alphaville Centro Industrial e Empresarial/alphav, Barueri/SP, CEP 06454-000",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "ASSURANT SEGURADORA"
+      ]
+    },
+    "seg-42366302": {
+      "nome": "KEV SEGUROS S.A.",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 42.366.302/0001-28, com endereço na Avenida Brig Faria Lima, nº 3477, Andar 2 - Torre B - Parte, Itaim Bibi, São Paulo/SP, CEP 04538-133",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "KORV SEGURADORA"
+      ]
+    },
+    "seg-09180505": {
+      "nome": "USEBENS SEGUROS S/A",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 09.180.505/0001-50, com endereço na Avenida Anisio Haddad, nº 8001, Sala 213 Escritorio Bloco B Torre Milan Norte, Georgina Business Park (jardim Aclimacao), São José do Rio Preto/SP, CEP 15091-751",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "USEBENS SEGUROS"
+      ],
+      "endereco_alternativo": {
+        "texto": "Avenida Dr Cardoso de Melo, nº 1308, Edif Cardoso de Melo, Bairro Vila Olimpia, em São Paulo/SP, CEP: 04.548-004",
+        "fonte": "lista do escritório \"LISTA DE ENDEREÇOS (PARTE PASSIVA).docx\" (recebida em 2026-11-03)",
+        "uso": "não é a sede da Receita; só para citação em agência ou filial, por decisão do advogado"
+      }
+    },
+    "seg-33493756": {
+      "nome": "FACTA SEGURADORA S/A",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 33.493.756/0001-79, com endereço na Avenida Borges de Medeiros, nº 410, Andar 9 Sala 907, Centro Historic, Porto Alegre/RS, CEP 90020-022",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "FACTA SEGURADORA"
+      ]
+    },
+    "seg-14143271": {
+      "nome": "PAN CORRETORA DE SEGUROS LTDA",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 14.143.271/0001-00, com endereço na Avenida Paulista, nº 1374, Andar 13, Bela Vista, São Paulo/SP, CEP 01310-916",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "BANCO PAN SEGURADORA"
+      ]
+    },
+    "seg-07746953": {
+      "nome": "LUIZASEG SEGUROS S.A.",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 07.746.953/0001-42, com endereço na Avenida Presidente Juscelino Kubitschek 1909, nº 1909, Torre Sul Andar 7 e 8 Conj 71b 81 Parte, Vila Nova Conceição, São Paulo/SP, CEP 04543-907",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "LUIZASEG SEGUROS"
+      ]
+    },
+    "seg-61557039": {
+      "nome": "ITAU SEGUROS S/A",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 61.557.039/0001-07, com endereço na Praça Alfredo Egydio de Souza Aranha, nº 100, Torre Alfredo Egydio 12 Andar, Parque Jabaquara, São Paulo/SP, CEP 04344-902",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "ITAÚ SEGUROS"
+      ]
+    },
+    "seg-46759101": {
+      "nome": "DASSEG SEGUROS S.A.",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 46.759.101/0001-41, com endereço na Rua Henrique Januario de Aguiar, nº 288, Canario, Pinheiros/ES, CEP 29980-000",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "DASSEG SEGUROS"
+      ]
+    },
+    "seg-14868712": {
+      "nome": "AKAD SEGUROS S.A.",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 14.868.712/0001-31, com endereço na Avenida das Nações Unidas, nº 12995, Andar 24 Edif Plaza Centenario, Brooklin Paulista, São Paulo/SP, CEP 04578-911",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "ARGO SEGUROS"
+      ]
+    },
+    "seg-42283770": {
+      "nome": "ICATU SEGUROS S/A",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 42.283.770/0001-39, com endereço na Avenida Oscar Niemeyer, nº 02000, Blc 1 Sal 1701 Blc 1 Sal 1801 Blc 1 Sal 1901 Blc 1 Sal 2001 Blc 1 Sal 2101, Santo Cristo, Rio de Janeiro/RJ, CEP 20220-297",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "ICATU SEGUROS"
+      ]
+    },
+    "seg-51990695": {
+      "nome": "BRADESCO VIDA E PREVIDENCIA S.A.",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 51.990.695/0001-37, com endereço na Avenida Paulista, nº 1450, Andar 8 Torre Paulista Anexo Sl. Executivo Parte, Bela Vista, São Paulo/SP, CEP 01310-917",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "BRADESCO VIDA E PREVIDENCIA"
+      ]
+    },
+    "seg-92682038": {
+      "nome": "BRADESCO AUTO/RE COMPANHIA DE SEGUROS",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 92.682.038/0001-00, com endereço na Avenida Rio de Janeiro, nº 00555, Sal 501 Sal 601 Sal 701 Sal 1701, Caju, Rio de Janeiro/RJ, CEP 20931-675",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "BRADESCO AUTO/RE COMPANHIA DE SEGUROS"
+      ]
+    },
+    "seg-41182665": {
+      "nome": "AVLA SEGUROS BRASIL S.A.",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 41.182.665/0001-40, com endereço na Avenida Dr Cardoso de Melo, nº 1855, Conj 141 e 142 Andar 14, Vila Olimpia, São Paulo/SP, CEP 04548-903",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "AVLA SEGUROS"
+      ]
+    },
+    "seg-08602745": {
+      "nome": "CAPEMISA SEGURADORA DE VIDA E PREVIDENCIA S/A",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 08.602.745/0001-32, com endereço na Rua São Clemente, nº 38, Andar 7, Botafogo, Rio de Janeiro/RJ, CEP 22260-900",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "CAPEMISA SEGURADORA"
+      ]
+    },
+    "seg-02102498": {
+      "nome": "METROPOLITAN LIFE SEGUROS E PREVIDENCIA PRIVADA SA",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 02.102.498/0001-29, com endereço na Rua Florida, nº 1595, Andar 1 4 7 8 13 14 15 Conj 11 41 71 81 131 141, Cidade Moncoes, São Paulo/SP, CEP 04565-001",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "METROPOLITAN"
+      ]
+    },
+    "seg-26314512": {
+      "nome": "SICOOB SEGURADORA DE VIDA E PREVIDENCIA SA",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 26.314.512/0001-16, com endereço na Quadra Sig Quadra 6, nº 2080, Sala 104, Zona Industrial, Brasília/DF, CEP 70610-460",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "SICOOB"
+      ]
+    },
+    "seg-28196889": {
+      "nome": "BRASILSEG COMPANHIA DE SEGUROS",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 28.196.889/0001-43, com endereço na Avenida das Nações Unidas, nº 14261, Andar 29 Ala A, Vila Gertrudes, São Paulo/SP, CEP 04794-000",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "tipo": "seguradora",
+      "apelidos": [
+        "ALIANÇA"
+      ]
+    },
+    "070": {
+      "nome": "BRB BANCO DE BRASILIA SA",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 00.000.208/0001-00, com endereço na Quadra Saun Quadra 5 Bloco B Torre Ii Bloco C Torre Iii, s/nº, Bloco B-salas 101-201-401 Bloco B-salas 501-601-701 Bloco B-salas 801-901 Bloco B-salas 1001-1101, Asa Norte, Brasília/DF, CEP 70040-250",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "apelidos": [
+        "BRB"
+      ],
+      "endereco_alternativo": {
+        "texto": "Setor SBS quadra 1 bloco E, S/N, Agencia Central - 027.2, Brasília (guara e n bandeirante - DF - BRASIL, CEP 70072900",
+        "fonte": "lista do escritório \"LISTA DE ENDEREÇOS (PARTE PASSIVA).docx\" (recebida em 2026-11-03)",
+        "uso": "não é a sede da Receita; só para citação em agência ou filial, por decisão do advogado"
+      }
+    },
+    "335": {
+      "nome": "BANCO DIGIO S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 27.098.060/0001-45, com endereço na Avenida Alphaville, nº 779, Andar 11 e 12 Lado A e B Sala 1101 -1102 e 1202, Sítio Tambore Alphaville, Barueri/SP, CEP 06472-020",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "apelidos": [
+        "DIGIO"
+      ],
+      "endereco_alternativo": {
+        "texto": "Alameda rio negro, 585, 15 and parte BL D ED Jauaperi, Alphaville Industrial, Barueri - SP - Brasil, CEP 06454000",
+        "fonte": "lista do escritório \"LISTA DE ENDEREÇOS (PARTE PASSIVA).docx\" (recebida em 2026-11-03)",
+        "uso": "não é a sede da Receita; só para citação em agência ou filial, por decisão do advogado"
+      }
+    },
+    "033": {
+      "nome": "BANCO SANTANDER (BRASIL) S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 90.400.888/0001-42, com endereço na Avenida Presidente Juscelino Kubitschek, nº 2041, Conj 281 Bloco A Condomínio Wtorre Jk, Vila Nova Conceição, São Paulo/SP, CEP 04543-011",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "apelidos": [
+        "SANTANDER"
+      ]
+    },
+    "029": {
+      "nome": "ITAÚ UNIBANCO S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o nº 60.701.190/0001-04, com sede na Praça Alfredo Egydio de Souza Aranha, nº 100, Torre Olavo Setúbal, Parque Jabaquara, São Paulo/SP, CEP 04.344-902",
+      "fonte": "CNPJ e endereço: petição gerada pelo AMN em 28/10/2026 (conferir no cartão CNPJ da Receita antes de protocolar). Código: os 8 primeiros dígitos do CNPJ batem com o ISPB da lista de participantes do STR do Banco Central (consulta de 28/10/2026). Itaucard: a petição usa Itaú Unibanco S.A.; se o extrato trouxer outra instituição, não usar este cadastro.",
+      "sucessao": "Banco Itaú Consignado S.A. (CNPJ 33.885.724/0001-19) foi incorporado pelo Itaú Unibanco S.A.; baixa na Receita em 29/05/2026 por incorporação; BCB, Quadro 4 de maio/2026 (processos publicados no DOU)",
+      "apelidos": [
+        "ITAU CONSIGNADO"
+      ]
+    },
+    "611": {
+      "nome": "BANCO PAULISTA S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 61.820.817/0001-09, com endereço na Avenida Brigadeiro Faria Lima 1355, nº 1355, Andar 2, Jardim Paulistano, São Paulo/SP, CEP 01452-919",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "apelidos": [
+        "BANCO PAULISTA"
+      ],
+      "endereco_alternativo": {
+        "texto": "Avenida Brigadeiro Faria Lima, 1355, Jardim Paulistano, São Paulo - SP - BRASIL, CEP 01452002",
+        "fonte": "lista do escritório \"LISTA DE ENDEREÇOS (PARTE PASSIVA).docx\" (recebida em 2026-11-03)",
+        "uso": "não é a sede da Receita; só para citação em agência ou filial, por decisão do advogado"
+      }
+    },
+    "753": {
+      "nome": "NOVO BANCO CONTINENTAL S.A.BANCO MULTIPLO",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 74.828.799/0001-45, com endereço na Rua Uruguai, nº 155, Conj 1308, Centro, Porto Alegre/RS, CEP 90010-140",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "apelidos": [
+        "BANCO CONTINENTAL"
+      ]
+    },
+    "079": {
+      "nome": "PICPAY BANK - BANCO MULTIPLO S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 09.516.419/0001-75, com endereço na Avenida Manuel Bandeira, nº 291, Condomínio Atlas Office Park Bloco B Andar 3, Vila Leopoldina, São Paulo/SP, CEP 05317-020",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "apelidos": [
+        "PICPAY BANCK- PICPAY BANK BANCO MULTIPLO S A pessoa jurídica de direito privado, inscrita no CNPJ sob o nº 09.516.419/0001-75 com endereço atual Na AV Manuel Bandeira, 291, COND Atlas Office Park BLOCO B, ANDAR 3, Vila Leopoldina, São Paulo - SP - Brasil, CEP 05317020"
+      ]
+    },
+    "329": {
+      "nome": "QI SOCIEDADE DE CREDITO DIRETO S.A.",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrita no CNPJ sob o n° 32.402.502/0001-35, com endereço na Avenida Reboucas, nº 2.942, Andar 7 Ao 12 Parte e, Pinheiros, São Paulo/SP, CEP 05402-500",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-03",
+      "apelidos": [
+        "QI SOCIEDADE"
+      ],
+      "endereco_alternativo": {
+        "texto": "Rua Gilberto Sabino, 215, 14 ANDAR, Pinheiros, São Paulo - SP - BRASIL, CEP 05425020",
+        "fonte": "lista do escritório \"LISTA DE ENDEREÇOS (PARTE PASSIVA).docx\" (recebida em 2026-11-03)",
+        "uso": "não é a sede da Receita; só para citação em agência ou filial, por decisão do advogado"
+      }
+    }
+  }
+}

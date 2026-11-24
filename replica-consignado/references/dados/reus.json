@@ -39,6 +39,17 @@
         "CETELEM/BNP"
       ]
     },
+    "739": {
+      "nome": "BANCO BNP PARIBAS BRASIL S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 01.522.368/0001-82, com endereço na Avenida Presidente Juscelino Kubitschek, nº 1909, conjuntos 91, 101 e 111, São Paulo/SP, CEP 04543-011",
+      "fonte": "decisão do escritório de 24/11/2026: casos em face do Banco Cetelem S.A. (no extrato, 739 - BANCO CETELEM S A) usam o mesmo cadastro do 752 - CETELEM-BNP, a matriz do BNP. Receita (BrasilAPI, consulta de 24/11/2026): 01.522.368/0001-82 ATIVA, matriz. INSS: a lista de ACTs de consignado vigentes de 30/09/2022 (gov.br/inss, ACORDOSVIGENTES_CONSIGNADO.pdf) traz 739 - BANCO CETELEM S.A. e não traz o 752; a lista de convênios ativos de 29/05/2026 (gov.br/inss, PLANILHAGERALDOCONSIGNADO.xlsx) traz o 752 - BANCO BNP PARIBAS BRASIL S.A., CNPJ 01.522.368/0001-82, ACT nº 172/2023 (DOU nº 125 de 04/07/2023, Seção 3, fls. 129), e não traz mais o 739. Não usar a filial 01.522.368/0006-97 (Barueri/SP, voltada aos produtos Cetelem) nem o CNPJ 00.558.456/0001-71.",
+      "sucessao": "Banco Cetelem S.A. (CNPJ 00.558.456/0001-71) foi incorporado pelo Banco BNP Paribas Brasil S.A.; baixa na Receita em 01/08/2023 por incorporação (BrasilAPI, consulta de 24/11/2026)",
+      "apelidos": [
+        "BANCO CETELEM S A",
+        "CETELEM"
+      ]
+    },
     "318": {
       "nome": "BANCO BMG S.A.",
       "artigo": "do",
@@ -545,6 +556,185 @@
         "fonte": "lista do escritório \"LISTA DE ENDEREÇOS (PARTE PASSIVA).docx\" (recebida em 2026-11-03)",
         "uso": "não é a sede da Receita; só para citação em agência ou filial, por decisão do advogado"
       }
+    },
+    "274": {
+      "nome": "BMP SOCIEDADE DE CREDITO DIRETO S.A",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 34.337.707/0001-00, com endereço na Avenida Paulista, nº 1294, Andar 6 Conj 6a, Bela Vista, São Paulo/SP, CEP 01310-915",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código e CNPJ: lista de convênios ativos do INSS de 29/05/2026 (PLANILHAGERALDOCONSIGNADO.xlsx), ACT nº 313/2022. ATENÇÃO: no BCB o código 274 é de outra empresa (BMP Sociedade de Crédito ao Microempreendedor, ISPB 11581339); não resolver pelo BCB. Nome no INSS: BMP MONEY PLUS SCD S.A.; razão social atual na Receita: BMP SOCIEDADE DE CRÉDITO DIRETO S.A."
+    },
+    "018": {
+      "nome": "COOPERATIVA DE CREDITO DE LIVRE ADMISSAO DO CENTRO NORDESTE MINEIRO LTDA.",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 02.173.447/0001-98, com endereço na Praça JK, nº 333, Centro, Guanhães/MG, CEP 39740-000",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código: lista de ACTs do INSS de 30/09/2022 (ACORDOSVIGENTES_CONSIGNADO.pdf); CNPJ: despacho do INSS à CPMI, SEI 35014.451553/2025-19 (legis.senado.leg.br/sdleg-getter/documento/download/dfd8b700-7291-4d09-941d-591efee63d5f). ATENÇÃO: no BCB o código 018 é do Banco Tricury S.A.; não resolver pelo BCB",
+      "apelidos": [
+        "SICOOB CREDICENM",
+        "CREDICENM"
+      ]
+    },
+    "908": {
+      "nome": "MEUTUDO S.A. - SOCIEDADE DE CREDITO, FINANCIAMENTO E INVESTIMENTO",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 03.311.443/0001-91, com endereço na Avenida Chedid Jafet, nº 222, Bloco B Pavmto1 Conj 12b Sala 3, Vila Olímpia, São Paulo/SP, CEP 04551-065",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código e CNPJ: lista de convênios ativos do INSS de 29/05/2026 (PLANILHAGERALDOCONSIGNADO.xlsx), ACT nº 159/2025, como PARATI – CFI S.A.; mesma empresa do código 326 (Parati renomeada Meutudo). Razão social atual na Receita: MEUTUDO S.A. (antiga Parati), a mesma do código 326",
+      "apelidos": [
+        "PARATI"
+      ]
+    },
+    "903": {
+      "nome": "BANCO INTER S.A",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 00.416.968/0001-01, com endereço na Avenida Barbacena, nº 1219, Santo Agostinho, Belo Horizonte/MG, CEP 30190-131",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código: lista de ACTs do INSS de 30/09/2022 (ACORDOSVIGENTES_CONSIGNADO.pdf), 903 - BANCO INTER S.A. (077); CNPJ: lista de convênios ativos do INSS de 29/05/2026, código 077 (ACT nº 163/2025)"
+    },
+    "954": {
+      "nome": "BANCO DIGIO S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 27.098.060/0001-45, com endereço na Avenida Alphaville, nº 779, Andar 11 e 12 Lado A e B Sala 1101 -1102 e 1202, Sítio Tamboré Alphaville, Barueri/SP, CEP 06472-020",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código: lista de ACTs do INSS de 30/09/2022, 954 - BANCO DIGIO S.A. (335); CNPJ: relação de ACTs vigentes do INSS (gov.br/inss, ACTS_VIGENTES.pdf), sob o código 335; ISPB 27098060 do BCB"
+    },
+    "932": {
+      "nome": "GAZINCRED S.A. SOCIEDADE DE CREDITO, FINANCIAMENTO E INVESTIMENTO",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 11.760.553/0001-69, com endereço na Rodovia PR-82, Km 01, s/nº, Rural, Douradina/PR, CEP 87485-000",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código e CNPJ: lista de convênios ativos do INSS de 29/05/2026 (PLANILHAGERALDOCONSIGNADO.xlsx), ACT nº 83/2021"
+    },
+    "914": {
+      "nome": "BANCO BARI DE INVESTIMENTOS E FINANCIAMENTOS S.A.",
+      "artigo": "do",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 00.556.603/0001-74, com endereço na Avenida Sete de Setembro, nº 4781, Conj 02 Andar Sb Condomínio João Todeschini Ed Bloco João Todeschini Bl S, Água Verde, Curitiba/PR, CEP 80250-205",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código e CNPJ: lista de convênios ativos do INSS de 29/05/2026 (PLANILHAGERALDOCONSIGNADO.xlsx), ACT nº 113/2021. Nome no INSS: BARI S.A. - CFI; razão social atual na Receita: BANCO BARI DE INVESTIMENTOS E FINANCIAMENTOS S.A."
+    },
+    "925": {
+      "nome": "BRB CREDITO FINANCIAMENTO E INVESTIMENTO S A",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 33.136.888/0001-43, com endereço na SAUN, Quadra 5 Bloco C Torre III, s/nº, Sala 301, Asa Norte, Brasília/DF, CEP 70040-250",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código e CNPJ: lista de convênios ativos do INSS de 29/05/2026 (PLANILHAGERALDOCONSIGNADO.xlsx), ACT nº 141/2021"
+    },
+    "971": {
+      "nome": "PINTOS S.A. CREDITO, FINANCIAMENTO E INVESTIMENTO",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 35.274.306/0001-10, com endereço na Rua Treze de Maio, nº 154, Centro, Teresina/PI, CEP 64000-150",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código e CNPJ: lista de convênios ativos do INSS de 29/05/2026 (PLANILHAGERALDOCONSIGNADO.xlsx), ACT nº 158/2021"
+    },
+    "922": {
+      "nome": "LECCA CREDITO, FINANCIAMENTO E INVESTIMENTO S.A.",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 07.652.226/0001-16, com endereço na Rua Visconde de Pirajá, nº 433, Salas 802 e 803, Ipanema, Rio de Janeiro/RJ, CEP 22410-003",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código e CNPJ: lista de convênios ativos do INSS de 29/05/2026 (PLANILHAGERALDOCONSIGNADO.xlsx), ACT nº 305/2022"
+    },
+    "973": {
+      "nome": "COMPREV CREDITO FINANCIAMENTO E INVESTIMENTO S.A.",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 46.241.852/0001-71, com endereço na Avenida Presidente Vargas, nº 534, Andar 13 Parte, Centro, Rio de Janeiro/RJ, CEP 20071-000",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código e CNPJ: lista de convênios ativos do INSS de 29/05/2026 (PLANILHAGERALDOCONSIGNADO.xlsx), ACT nº 133/2024. Nome no INSS: COMPREV SOCIEDADE DE CRÉDITO DIRETO S.A.; na Receita o CNPJ informado pelo INSS é da COMPREV CRÉDITO, FINANCIAMENTO E INVESTIMENTO S.A. (razão social atual)"
+    },
+    "964": {
+      "nome": "BECKER FINANCEIRA S.A CREDITO, FINANCIAMENTO E INVESTIMENTO",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 20.443.996/0001-17, com endereço na Rua Doutor João Sebastiany, nº 170, Centro, Cerro Largo/RS, CEP 97900-000",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código e CNPJ: lista de convênios ativos do INSS de 29/05/2026 (PLANILHAGERALDOCONSIGNADO.xlsx), ACT nº 161/2025"
+    },
+    "189": {
+      "nome": "HS FINANCEIRA S/A - CREDITO, FINANCIAMENTO E INVESTIMENTOS",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 07.512.441/0001-11, com endereço na Rodovia BR-116, nº 7.070, 1 Andar, Sala 14, Portal da Serra, Dois Irmãos/RS, CEP 93950-000",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código e CNPJ: lista de convênios ativos do INSS de 29/05/2026 (PLANILHAGERALDOCONSIGNADO.xlsx), ACT nº 165/2025"
+    },
+    "934": {
+      "nome": "AGI FINANCEIRA S.A - SOCIEDADE DE CREDITO, FINANCIAMENTO E INVESTIMENTO",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 13.660.104/0001-74, com endereço na Rua Sergio Fernandes Borges Soares, nº 1000, Edif Prédio 12 E-1, Distrito Industrial, Campinas/SP, CEP 13054-709",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código e CNPJ: lista de convênios ativos do INSS de 29/05/2026 (PLANILHAGERALDOCONSIGNADO.xlsx), ACT nº 221/2025. Nome no INSS: AGIBANK FINANCEIRA S.A.; razão social atual na Receita: AGI FINANCEIRA S.A."
+    },
+    "926": {
+      "nome": "MERCANTIL FINANCEIRA S.A. - SOCIEDADE DE CREDITO, FINANCIAMENTO E INVESTIMENTO",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 33.040.601/0001-87, com endereço na Avenida do Contorno, nº 5800, Andar 14, Savassi, Belo Horizonte/MG, CEP 30110-042",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código e CNPJ: lista de convênios ativos do INSS de 29/05/2026 (PLANILHAGERALDOCONSIGNADO.xlsx), ACT nº 24/2026"
+    },
+    "936": {
+      "nome": "COOPERATIVA DE ECONOMIA E CREDITO MUTUO DOS APOSENTADOS, PENSIONISTAS E IDOSOS - SICOOB COOPERNAPI",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 16.564.240/0001-59, com endereço na Rua do Carmo, nº 171, Sé, São Paulo/SP, CEP 01019-020",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código e CNPJ: lista de convênios ativos do INSS de 29/05/2026 (PLANILHAGERALDOCONSIGNADO.xlsx), ACT nº 31/2026"
+    },
+    "910": {
+      "nome": "SANTINVEST S/A CREDITO FINANCIAMENTO E INVESTIMENTOS",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 00.122.327/0001-36, com endereço na Rua Cristóvão Nunes Pires, nº 86, Andar 9 Centro Empresarial Carl Hoepcke, Centro, Florianópolis/SC, CEP 88010-120",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código: lista de ACTs do INSS de 30/09/2022; CNPJ e CBC 910: processo do ACT, SEI 35000.000821/2018-68 (legis.senado.leg.br/sdleg-getter/documento/download/48900b59-05cb-4fd6-a3e1-da360a64fa04)"
+    },
+    "905": {
+      "nome": "FINANCEIRA ALFA S.A. SOCIEDADE DE CREDITO, FINANCIAMENTO E INVESTIMENTO",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 17.167.412/0001-13, com endereço na Avenida Paulista, nº 2150, Andar 17, Bela Vista, São Paulo/SP, CEP 01310-300",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código: lista de ACTs do INSS de 30/09/2022; CNPJ: relação de ACTs vigentes do INSS (gov.br/inss, ACTS_VIGENTES.pdf)"
+    },
+    "921": {
+      "nome": "CREDIARE S/A - CREDITO, FINANCIAMENTO E INVESTIMENTO",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 05.676.026/0001-78, com endereço na Avenida Veneza, nº 1033, São Roque, Farroupilha/RS, CEP 95176-053",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código: lista de ACTs do INSS de 30/09/2022; CNPJ: despacho do INSS à CPMI, SEI 35014.451553/2025-19 (legis.senado.leg.br/sdleg-getter/documento/download/dfd8b700-7291-4d09-941d-591efee63d5f)"
+    },
+    "901": {
+      "nome": "BOC BRASIL S A CREDITO FINANCIAMENTOS E INVESTIMENTOS",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 92.764.489/0001-96, com endereço na Alameda Santos, nº 960, Andar 15 Sala 1 Anexo Entrada Avenida Paulista, 901, Cerqueira César, São Paulo/SP, CEP 01418-002",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código: lista de ACTs do INSS de 30/09/2022, como CCB BRASIL S.A. - CFI (hoje BOC Brasil); CNPJ: relação de ACTs vigentes do INSS (gov.br/inss, ACTS_VIGENTES.pdf). Razão social atual na Receita: BOC BRASIL S.A. (antiga CCB Brasil)",
+      "apelidos": [
+        "CCB BRASIL"
+      ]
+    },
+    "957": {
+      "nome": "VIA CERTA FINANCIADORA S/A - CREDITO, FINANCIAMENTO E INVESTIMENTO",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 05.192.316/0001-46, com endereço na Rua Tenente Jung, nº 366, Andar 1, Sala 4, Centro, Santo Cristo/RS, CEP 98960-000",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código: lista de ACTs do INSS de 30/09/2022 (ACT nº 95/2020, DOU nº 191 de 05/10/2020, Seção 3, fl. 40); raiz do CNPJ: ISPB 05192316 do BCB (código COMPE 411, Via Certa Financiadora S.A. - CFI), matriz /0001 conferida na Receita"
+    },
+    "965": {
+      "nome": "COOPERATIVA DE ECONOMIA E CREDITO MUTUO E BENEFICIOS SOCIAIS BECOOPER",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 45.691.128/0001-87, com endereço na Rua Emílio Marelo, nº 54, Jardim das Indústrias, São José dos Campos/SP, CEP 12241-200",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código: lista de ACTs do INSS de 30/09/2022, como cooperativa dos empregados da Johnson & Johnson (hoje BECOOPER); CNPJ: relação de ACTs vigentes do INSS (gov.br/inss, ACTS_VIGENTES.pdf) e termo do ACT, SEI 35000.001070/2019-88. Razão social atual na Receita: BECOOPER (antiga cooperativa dos empregados da Johnson & Johnson)",
+      "apelidos": [
+        "JOHNSON & JOHNSON",
+        "BECOOPER"
+      ]
+    },
+    "966": {
+      "nome": "SABEMI SEGURADORA SA",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 87.163.234/0001-38, com endereço na Rua Sete de Setembro, nº 515, Prédio 513 Térreo Andar 5 e 9, Centro Histórico, Porto Alegre/RS, CEP 90010-190",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código: lista de ACTs do INSS de 30/09/2022; CNPJ: relação de ACTs vigentes do INSS (gov.br/inss, ACTS_VIGENTES.pdf)"
+    },
+    "967": {
+      "nome": "COOPERATIVA DE ECONOMIA E CREDITO MUTUO DOS SERVIDORES DA EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS LTDA",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 42.100.982/0001-33, com endereço na Avenida Presidente Vargas, nº 583, Sala 1205, Centro, Rio de Janeiro/RJ, CEP 20071-003",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código: lista de ACTs do INSS de 30/09/2022; raiz do CNPJ: lista de cooperativas do BCB (CECM dos Serv. da ECT - COOPCORREIOS, raiz 42100982), matriz /0001 conferida na Receita. Não confundir com a Sicoob Coopercorreios (03.862.898/0001-03)",
+      "apelidos": [
+        "COOPCORREIOS"
+      ]
+    },
+    "968": {
+      "nome": "UNIAO SEGURADORA S.A. - VIDA E PREVIDENCIA",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 95.611.141/0001-57, com endereço na Praça Otávio Rocha, nº 65, Andar 2, Centro, Porto Alegre/RS, CEP 90020-140",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código: lista de ACTs do INSS de 30/09/2022; CNPJ: relação de ACTs vigentes do INSS (gov.br/inss, ACTS_VIGENTES.pdf)"
+    },
+    "969": {
+      "nome": "COMPREV VIDA E PREVIDENCIA S.A.",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 33.634.999/0001-80, com endereço na Avenida Presidente Vargas, nº 534, Andar 12, Centro, Rio de Janeiro/RJ, CEP 20071-000",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código: lista de ACTs do INSS de 30/09/2022; CNPJ: relação de ACTs vigentes do INSS (gov.br/inss, ACTS_VIGENTES.pdf)"
+    },
+    "972": {
+      "nome": "CAPITAL CONSIG SOCIEDADE DE CREDITO DIRETO S.A",
+      "artigo": "da",
+      "descricao": "pessoa jurídica de direito privado, inscrito no CNPJ sob o n° 40.083.667/0001-10, com endereço na Rua Nova Jerusalém, nº 1069, Chacara Santo Antônio (zona Leste), São Paulo/SP, CEP 03410-000",
+      "fonte": "Receita Federal (CNPJ, situação ATIVA), via BrasilAPI, consulta de 2026-11-24; código: lista de ACTs do INSS de 30/09/2022; CNPJ: relação de ACTs vigentes do INSS (gov.br/inss, ACTS_VIGENTES.pdf)"
     }
   }
 }
